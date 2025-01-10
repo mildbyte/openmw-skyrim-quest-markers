@@ -1,0 +1,8 @@
+{
+    "Lua.runtime.version": "Lua 5.3",
+    "Lua.runtime.path": [
+        "?.lua",
+        "?/init.lua",
+        "include/teal_declarations"
+    ]
+}
