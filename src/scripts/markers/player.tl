@@ -4,6 +4,11 @@ local util = require('openmw.util')
 local camera = require('openmw.camera')
 local self = require('openmw.self')
 
+local CellCoords = require('scripts.markers.types').CellCoords
+local RoutingGraph = require('scripts.markers.types').RoutingGraph
+
+local GRAPH = require('scripts.markers.graph').graph
+
 global BLIP_ELEMENTS: {ui.Element} = {}
 
 local function setObjectiveBlips(positions: {util.Vector2})
@@ -48,14 +53,6 @@ local record ObjectiveBlips
     globalBlips: {util.Vector3}
 end
 
-local record CellCoords
-    cellId: string
-    coords: util.Vector2
-end
-
-local record RoutingGraph
-end
-
 local function computeBlips(objectives: {CellCoords}, player: CellCoords, graph: RoutingGraph): ObjectiveBlips
     return {
         localBlips = {util.vector3(0, 0, 0), util.vector3(100, 0, 100)},
@@ -70,37 +67,34 @@ local function updateViewportObjectives(objectiveBlips: ObjectiveBlips)
     for _, blip in ipairs(objectiveBlips.localBlips) do
         local viewport = camera.worldToViewportVector(blip)
         -- Clamp and convert the viewport to 0..1
-        local viewport2d = util.vector2(
-            util.clamp(viewport.x / ui.screenSize().x, 0, 1),
-            util.clamp(viewport.y / ui.screenSize().y, 0, 1)
-        )
+        local viewportX = util.clamp(viewport.x / ui.screenSize().x, 0, 1)
+        local viewportY = util.clamp(viewport.y / ui.screenSize().y, 0, 1)
 
         local cameraDir = camera.viewportToWorldVector(util.vector2(0.5, 0.5))
         local blipDir = blip - camera.getPosition()
         local dot = cameraDir:dot(blipDir)
-        ui.showMessage(tostring(dot), {})
 
         if dot < 0 then
             -- If the objective is behind us, stick the blip to the edge of the screen
-            local x_dist = math.abs(viewport2d.x - 0.5)
-            local y_dist = math.abs(viewport2d.y - 0.5)
+            local x_dist = math.abs(viewportX - 0.5)
+            local y_dist = math.abs(viewportY - 0.5)
 
             if x_dist > y_dist then
-                if viewport2d.x < 0.5 then
-                    viewport2d.x = 0
+                if viewportX < 0.5 then
+                    viewportX = 0
                 else
-                    viewport2d.x = 1
+                    viewportX = 1
                 end
             else
-                if viewport2d.y < 0.5 then
-                    viewport2d.y = 0
+                if viewportY < 0.5 then
+                    viewportY = 0
                 else
-                    viewport2d.y = 1
+                    viewportY = 1
                 end
             end
         end
 
-        table.insert(screenSpace, viewport2d)
+        table.insert(screenSpace, util.vector2(viewportX, viewportY))
     end
 
     setObjectiveBlips(screenSpace)
@@ -118,4 +112,4 @@ return {
             updateViewportObjectives(OBJECTIVE_BLIPS)
         end,
     }
- }
+}

@@ -3,6 +3,8 @@
     "Lua.runtime.path": [
         "?.lua",
         "?/init.lua",
-        "include/teal_declarations"
+        "include/teal_declarations",
+        "src/?.lua",
+        "src/scripts/markers/?.lua",
     ]
 }
