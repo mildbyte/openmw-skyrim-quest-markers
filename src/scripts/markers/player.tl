@@ -6,8 +6,11 @@ local self = require('openmw.self')
 
 local CellCoords = require('scripts.markers.types').CellCoords
 local RoutingGraph = require('scripts.markers.types').RoutingGraph
-
+local coordsToString = require("scripts.markers.types").coordsToString
 local GRAPH = require('scripts.markers.graph').graph
+local listContains = require("scripts.markers.utils").listContains
+local listReverse = require("scripts.markers.utils").listReverse
+local getRoute = require("scripts.markers.routing").getRoute
 
 global BLIP_ELEMENTS: {ui.Element} = {}
 
@@ -54,9 +57,45 @@ local record ObjectiveBlips
 end
 
 local function computeBlips(objectives: {CellCoords}, player: CellCoords, graph: RoutingGraph): ObjectiveBlips
+    local localBlips: {util.Vector3} = {}
+    local globalBlips: {util.Vector3} = {}
+
+    for _, objective in ipairs(objectives) do
+        ui.printToConsole("Getting route for " .. coordsToString(player) .. ".." .. coordsToString(objective), ui.CONSOLE_COLOR.Default)
+        local route = getRoute(graph, player, objective)
+        if route == nil then
+            ui.printToConsole("Could not find a route from " .. tostring(player) .. " to " .. tostring(objective), ui.CONSOLE_COLOR.Error)
+        else
+            -- global blip: closest from end to a cell that is global
+            -- local blip: next blip in the player's cell
+            ui.printToConsole("route: " .. tostring(route), ui.CONSOLE_COLOR.Info)
+
+            for _, v in ipairs(route) do
+                if v ~= player then
+                    assert(v.cellId == player.cellId)
+                    if not listContains(localBlips, v.coords) then
+                        table.insert(localBlips, v.coords)
+                    end
+                    break
+                end
+            end
+
+            -- The closest global cell to our destination is where we put the global blip
+            listReverse(route)
+            for _, v in ipairs(route) do
+                if v.cellId == nil then
+                    if not listContains(localBlips, v.coords) then
+                        table.insert(globalBlips, v.coords)
+                    end
+                    break
+                end
+            end
+        end
+    end
+
     return {
-        localBlips = {util.vector3(0, 0, 0), util.vector3(100, 0, 100)},
-        globalBlips = {}
+        localBlips = localBlips,
+        globalBlips = globalBlips,
     }
 end
 
@@ -104,8 +143,12 @@ return {
     engineHandlers = {
         onKeyPress = function(key: input.KeyboardEvent)
             if key.symbol == 'x' then
-                local playerPos = { cell = self.object.cell, position = self.object.position }
-                OBJECTIVE_BLIPS = computeBlips({}, playerPos, {})
+                local playerPos: CellCoords = { cellId = self.object.cell.name, coords = self.object.position }
+                local objective: CellCoords = {
+                    coords = util.vector3(1175.262, -610.6491, 272.00006),
+                    cellId = "Seyda Neen, Census and Excise Office",
+                }
+                OBJECTIVE_BLIPS = computeBlips({objective}, playerPos, GRAPH)
             end
         end,
         onUpdate = function(dt: number)

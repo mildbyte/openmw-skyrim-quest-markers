@@ -14,7 +14,11 @@ def build_graph(
             if "destination" in ref:
                 source_location = (
                     tuple(ref["translation"]),
-                    cell["name"] if cell["name"] else None,
+                    (
+                        cell["name"]
+                        if cell["name"] and "IS_INTERIOR" in cell["data"]["flags"]
+                        else None
+                    ),
                 )
                 target_location = (
                     tuple(ref["destination"]["translation"]),
@@ -27,7 +31,7 @@ def build_graph(
 
 
 def emit_cell(cell: str | None) -> str:
-    return f"\"{cell}\"" if cell else "nil"
+    return f'"{cell}"' if cell else "nil"
 
 
 with open("./Morrowind.esm.json") as f:
@@ -45,14 +49,18 @@ with open("./src/scripts/markers/graph.tl", "w") as f:
 
     f.write("global VERTICES: {CellCoords} = {")
     for v_pos, v_cell in vertices:
-        f.write(f"\n    {{coords=util.vector3({v_pos[0]},{v_pos[1]},{v_pos[2]}),cellId={emit_cell(v_cell)}}},")
+        f.write(
+            f"\n    {{coords=util.vector3({v_pos[0]},{v_pos[1]},{v_pos[2]}),cellId={emit_cell(v_cell)}}},"
+        )
     f.write("\n};\n\n")
-    
+
     f.write("global EDGES: {{CellCoords, CellCoords}:number} = {}\n")
-    for ((src, dest), cost) in edges.items():
+    for (src, dest), cost in edges.items():
         ix_src = vertices.index(src)
         ix_dest = vertices.index(dest)
-        f.write(f"EDGES[{{ VERTICES[{ix_src + 1}], VERTICES[{ix_dest + 1}] }}] = {cost}\n")
+        f.write(
+            f"EDGES[{{ VERTICES[{ix_src + 1}], VERTICES[{ix_dest + 1}] }}] = {cost}\n"
+        )
 
     f.write("\nglobal GRAPH: RoutingGraph = {vertices = VERTICES, edges = EDGES}\n")
     f.write("return {graph = GRAPH}\n")

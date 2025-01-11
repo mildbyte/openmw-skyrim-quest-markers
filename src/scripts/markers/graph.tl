@@ -7,7 +7,6 @@ local RoutingGraph = require('scripts.markers.types').RoutingGraph
 global VERTICES: {CellCoords} = {
     {coords=util.vector3(-64.0,-256.0,0.0),cellId="Ald-ruhn, Bivale Teneran: Clothier"},
     {coords=util.vector3(4287.9995,5504.0,13440.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
-    {coords=util.vector3(-39777.305,150050.7,698.088),cellId="Ashurnabitashpi"},
     {coords=util.vector3(112.0,0.0,-32.0),cellId="Ald-ruhn, Practice Room"},
     {coords=util.vector3(0.0,0.0,-32.0),cellId="Vivec, Aurane Frernis: Apothecary"},
     {coords=util.vector3(1552.0,2784.0,352.0),cellId="Ebonheart, Hawkmoth Legion Garrison"},
@@ -19,13 +18,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-1.234,-456.764,490.293),cellId="Sadrith Mora, Tel Naga Great Hall"},
     {coords=util.vector3(-3.717,381.885,-40.014),cellId="Vos, Vos Chapel"},
     {coords=util.vector3(42336.36,-63775.395,1029.7927),cellId=nil},
-    {coords=util.vector3(-10659.152,-71944.76,272.577),cellId="Seyda Neen"},
     {coords=util.vector3(-128.0,0.0,128.0),cellId="Balmora, South Wall Cornerclub"},
+    {coords=util.vector3(127407.76,-101678.57,1340.946),cellId=nil},
     {coords=util.vector3(1964.1263,80697.51,4612.313),cellId=nil},
     {coords=util.vector3(5248.0,4416.0,14624.0),cellId="Arkngthand, Weepingbell Hall"},
-    {coords=util.vector3(13043.356,-100871.73,1761.791),cellId="Ebonheart"},
     {coords=util.vector3(5623.9497,3456.5454,12882.4),cellId="Vivec, St. Delyn Canalworks"},
     {coords=util.vector3(-60631.27,26113.229,482.72522),cellId=nil},
+    {coords=util.vector3(-22398.475,104076.56,2250.332),cellId=nil},
     {coords=util.vector3(-40467.016,-55045.723,326.816),cellId=nil},
     {coords=util.vector3(-77.7744,-2187.5176,-356.0),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(-1865.513,-7.9844265,138.27386),cellId="Dagon Fel, Andre Maul's Tower"},
@@ -37,10 +36,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(94195.5,118043.43,1794.5975),cellId=nil},
     {coords=util.vector3(1744.0,7280.0,288.0),cellId="Vivec, Hall Underworks"},
     {coords=util.vector3(-3848.0776,-605.2315,153.841),cellId="Ministry of Truth, Holding Cells"},
-    {coords=util.vector3(148556.2,39971.215,1411.667),cellId="Sadrith Mora"},
-    {coords=util.vector3(-15115.3,-13185.602,569.628),cellId="Balmora"},
     {coords=util.vector3(195.53308,115.073654,-158.79576),cellId="Vivec, Hlaren Residence"},
     {coords=util.vector3(7909.947,186497.44,674.497),cellId=nil},
+    {coords=util.vector3(-13248.114,20743.543,1650.782),cellId=nil},
     {coords=util.vector3(5216.0,3808.0,12384.0),cellId="Vivec, St. Delyn Canalworks"},
     {coords=util.vector3(-78221.336,76487.125,2351.02),cellId=nil},
     {coords=util.vector3(-64.0,1536.0,-960.0),cellId="Molag Mar, Waistworks"},
@@ -49,10 +47,11 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(55076.98,158929.62,978.858),cellId=nil},
     {coords=util.vector3(54455.355,-51501.305,322.56693),cellId=nil},
     {coords=util.vector3(9491.277,4559.712,1728.819),cellId=nil},
+    {coords=util.vector3(-16534.586,-14145.305,315.043),cellId=nil},
     {coords=util.vector3(31749.584,-92523.984,1880.329),cellId=nil},
     {coords=util.vector3(128.0,960.0,-128.0),cellId="Vivec, Ordinator Barracks"},
-    {coords=util.vector3(15620.386,-102275.93,1498.87),cellId="Ebonheart"},
     {coords=util.vector3(40126.68,-95298.31,-252.20923),cellId=nil},
+    {coords=util.vector3(76566.39,83458.49,880.942),cellId=nil},
     {coords=util.vector3(609.323,-10.968,483.219),cellId="Hinnabi"},
     {coords=util.vector3(1408.0,64.0,-1216.0),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(-624.0,1024.0,-288.0),cellId="Ald-ruhn, Redoran Council Hall"},
@@ -60,32 +59,31 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(560.0,-80.0,368.0),cellId="Sadrith Mora, Gateway Inn: North Wing"},
     {coords=util.vector3(11.791873,1284.7804,216.68631),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(16.0,2260.0,-1156.0),cellId="Bal Ur, Shrine"},
+    {coords=util.vector3(-20769.46,102488.71,2078.926),cellId=nil},
     {coords=util.vector3(1040.0,-1232.0,1680.0),cellId="Arkngthand, Land's Blood Gallery"},
     {coords=util.vector3(2240.0,3744.0,32.0),cellId="Nchardahrk"},
-    {coords=util.vector3(13568.809,-102287.13,1457.126),cellId="Ebonheart"},
     {coords=util.vector3(5118.72,3993.3975,13.546972),cellId="Vivec, Puzzle Canal, Level 3"},
     {coords=util.vector3(-2.693,-68.378,-1440.174),cellId="Pelagiad, South Wall"},
     {coords=util.vector3(0.0,-976.0,-272.0),cellId="Gnisis, Madach Tradehouse"},
     {coords=util.vector3(6400.0,960.0,304.0),cellId="Vivec, Arena Underworks"},
+    {coords=util.vector3(20688.0,-53056.0,744.0),cellId=nil},
     {coords=util.vector3(-1605.5698,128.0,414.0311),cellId="Vivec, Foreign Quarter Plaza"},
     {coords=util.vector3(2686.6226,-902.89246,-307.50873),cellId="Dubdilla, Uncharted Caverns, Lower"},
     {coords=util.vector3(682.90234,-1025.3594,-928.8911),cellId="Vivec, Telvanni Plaza"},
     {coords=util.vector3(-15.034593,397.41684,-168.956),cellId="Zainab Camp, Minassour's Yurt"},
-    {coords=util.vector3(53056.12,153410.19,1843.4382),cellId="Rotheran"},
     {coords=util.vector3(13017.879,-100730.016,1744.0),cellId=nil},
     {coords=util.vector3(224.0,32.0,-618.6557),cellId="Indarys Manor, Raram's House"},
     {coords=util.vector3(1978.58,3361.368,-734.529),cellId="Desolate Shipwreck, Lower Level"},
     {coords=util.vector3(0.138,-6.613,-37.343),cellId="Vivec, Canon Offices"},
     {coords=util.vector3(-993.24384,-164.84503,316.13193),cellId="Vivec, Foreign Quarter Plaza"},
     {coords=util.vector3(-391.912,342.193,98.851),cellId="Pelagiad, Murberius Harmevus' House"},
-    {coords=util.vector3(76370.48,83972.24,881.754),cellId="Zainab Camp"},
     {coords=util.vector3(244.23091,-2265.3618,155.82956),cellId="Clutter Warehouse - Everything Must Go!"},
     {coords=util.vector3(-119535.945,120563.65,-1455.1232),cellId=nil},
     {coords=util.vector3(522.11005,-304.4776,-282.3963),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(-698.0,-1950.0,-416.0),cellId="Ministry of Truth, Hall of Processing"},
     {coords=util.vector3(4132.0,1545.9998,438.0),cellId="Urshilaku, Karma Burial"},
-    {coords=util.vector3(-20297.51,102663.055,2082.786),cellId="Maar Gan"},
     {coords=util.vector3(3.0661328,-673.90875,-258.1017),cellId="Gnisis, Madach Tradehouse"},
+    {coords=util.vector3(55652.293,-54975.723,1604.7),cellId=nil},
     {coords=util.vector3(4392.482,4046.4395,-127.45779),cellId="Shunned Shipwreck, Upper Level"},
     {coords=util.vector3(-161.0,959.0,96.0),cellId="Kogoruhn, Hall of Phisto"},
     {coords=util.vector3(-128.0,1088.0,-128.0),cellId="Vivec, Ordinator Barracks"},
@@ -95,52 +93,51 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(5687.471,6206.3843,8916.858),cellId="Mat"},
     {coords=util.vector3(-580.89056,1413.5112,111.071846),cellId="Vivec, Hlaalu Plaza"},
     {coords=util.vector3(20291.684,-54111.973,728.044),cellId=nil},
-    {coords=util.vector3(-74266.02,91489.87,-306.6382),cellId="Gnisis"},
     {coords=util.vector3(3856.0,3920.0,14896.0),cellId="Maar Gan, Guard Tower 2"},
     {coords=util.vector3(1024.0,1024.0,-1024.0013),cellId="Pelagiad, North Wall"},
     {coords=util.vector3(2555.6738,3656.924,13537.132),cellId="Yakin, Shrine"},
     {coords=util.vector3(2464.0,832.0,-64.0),cellId="Rotheran, Arena"},
+    {coords=util.vector3(-10807.743,17137.932,1364.681),cellId=nil},
     {coords=util.vector3(1216.0,7104.0,-320.0),cellId="Hlormaren, Keep, Bottom Level"},
     {coords=util.vector3(35893.598,-21909.28,2128.275),cellId=nil},
-    {coords=util.vector3(29114.969,-88290.09,1886.8861),cellId="Vivec, Redoran"},
     {coords=util.vector3(-3847.99,-82729.07,-266.535),cellId=nil},
     {coords=util.vector3(5222.0,5274.0,574.0),cellId="Mamaea, Sanctum of Awakening"},
     {coords=util.vector3(10290.499,-100626.234,1472.0),cellId=nil},
     {coords=util.vector3(2184.859,386.606,212.359),cellId="Pelagiad, Fort Pelagiad"},
-    {coords=util.vector3(32542.973,-91769.84,-279.16394),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(6008.0,4352.0,12416.0),cellId="Bal Fell, Outer Shrine"},
     {coords=util.vector3(4992.0,2720.0,14432.0),cellId="Arkngthand, Weepingbell Hall"},
     {coords=util.vector3(209.3133,-806.1451,-353.34283),cellId="Remote Shipwreck, Lower Level"},
     {coords=util.vector3(-4613.186,152396.25,2402.311),cellId=nil},
+    {coords=util.vector3(-21445.559,104512.086,2264.274),cellId=nil},
+    {coords=util.vector3(94908.16,135553.2,1052.818),cellId=nil},
     {coords=util.vector3(-100042.375,124744.34,-1478.2645),cellId=nil},
+    {coords=util.vector3(-80768.0,93358.0,2329.0),cellId=nil},
     {coords=util.vector3(1344.787,-5334.295,477.682),cellId="Gnisis, Lower Eggmine"},
     {coords=util.vector3(220.33951,-107.7816,-75.07999),cellId="Balur's Farmhouse"},
     {coords=util.vector3(-1084.5417,4033.5566,1503.5215),cellId="Eluba-Addon Egg Mine"},
     {coords=util.vector3(188.442,-62.65,97.129),cellId="Dagon Fel, Anja Swift-Sailer's House"},
     {coords=util.vector3(-1.0,-216.0,-166.0),cellId="Drulene Falen's Hut"},
     {coords=util.vector3(32227.637,-106564.33,1737.8508),cellId=nil},
-    {coords=util.vector3(-28764.203,149577.02,807.69696),cellId="Urshilaku Camp"},
     {coords=util.vector3(31738.336,-87525.86,1886.6277),cellId=nil},
     {coords=util.vector3(151.894,-11.921,232.613),cellId="Sadrith Mora, Pierlette Rostorard: Apothecary"},
-    {coords=util.vector3(62275.98,183378.06,306.621),cellId="Dagon Fel"},
     {coords=util.vector3(-1536.0,5184.0,-32.0),cellId="Madas Grotto"},
     {coords=util.vector3(-2787.0269,152680.11,2403.0762),cellId=nil},
     {coords=util.vector3(4108.86,4213.358,-250.38512),cellId="Lost Shipwreck, Cabin"},
     {coords=util.vector3(2656.0,-496.0,-160.0),cellId="Vivec, St. Olms Canalworks"},
-    {coords=util.vector3(-8802.594,52735.39,2441.4893),cellId="Ald-ruhn"},
     {coords=util.vector3(-448.0,128.0,128.0),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(3982.582,3682.347,14831.107),cellId="Dren Plantation, Tower Shack"},
+    {coords=util.vector3(-69592.086,141244.97,302.987),cellId=nil},
     {coords=util.vector3(-20437.475,-13668.966,303.097),cellId=nil},
-    {coords=util.vector3(43456.0,-82569.44,2235.6296),cellId="Vivec, Telvanni"},
     {coords=util.vector3(40.960007,-168.10374,-28.333202),cellId="Alof's Farmhouse"},
+    {coords=util.vector3(60514.54,180597.73,683.787),cellId=nil},
     {coords=util.vector3(108039.695,-61183.156,1880.0845),cellId=nil},
     {coords=util.vector3(512.0,64.0,-512.0),cellId="Ghostgate, Temple"},
+    {coords=util.vector3(-5568.0,-17312.0,2064.0),cellId=nil},
     {coords=util.vector3(4353.0034,7623.3047,11233.07),cellId="Assemanu, Shrine"},
     {coords=util.vector3(-22037.111,-14007.134,888.868),cellId=nil},
     {coords=util.vector3(-506.38712,-239.08829,-128.0),cellId="Balmora, Guild of Mages"},
     {coords=util.vector3(1152.0,128.0,480.0),cellId="Ebonheart, Grand Council Chambers"},
     {coords=util.vector3(149125.58,36067.977,3468.1667),cellId=nil},
-    {coords=util.vector3(148992.0,27624.0,704.0),cellId="Wolverine Hall"},
     {coords=util.vector3(-127.99906,4608.0,-96.00006),cellId="Nchardumz"},
     {coords=util.vector3(1866.008,5242.653,12257.083),cellId="Hassour, Shrine"},
     {coords=util.vector3(4160.0,3584.0,12672.0),cellId="Vivec, Hall of Wisdom"},
@@ -148,49 +145,43 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(249.457,4157.349,-827.226),cellId="Ashalmimilkala, Shrine"},
     {coords=util.vector3(4817.206,3376.974,13506.036),cellId="Tel Vos, Northeastern Tower"},
     {coords=util.vector3(1984.0,384.0,-128.0),cellId="Vivec, Hlaalu Waistworks"},
-    {coords=util.vector3(-12366.264,57825.0,2749.879),cellId="Ald-ruhn"},
-    {coords=util.vector3(142624.0,-45440.0,2656.0),cellId="Nchurdamz"},
     {coords=util.vector3(2688.0,80.0,-160.0),cellId="Vivec, Redoran Canalworks"},
     {coords=util.vector3(-1856.0,960.0,-384.0),cellId="Balmora, Dura gra-Bol's House"},
     {coords=util.vector3(87035.42,101582.98,649.48413),cellId=nil},
-    {coords=util.vector3(111131.12,-4453.518,649.53516),cellId="Erabenimsun Camp"},
     {coords=util.vector3(1064.02,-322.474,-51.406),cellId="Tel Branora, Sethan's Tradehouse"},
     {coords=util.vector3(256.0,24.0,88.0),cellId="Ebonheart, Six Fishes"},
     {coords=util.vector3(-64.0,-256.0,0.0),cellId="Ald-ruhn, Practice Room"},
-    {coords=util.vector3(-16534.586,-14145.305,315.043),cellId="Balmora"},
     {coords=util.vector3(3136.0,4224.0,13440.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(668.761,1000.733,-35.954),cellId="Ebonheart, Grand Council Chambers"},
+    {coords=util.vector3(-39777.305,150050.7,698.088),cellId=nil},
     {coords=util.vector3(85472.39,117459.68,3529.5159),cellId=nil},
     {coords=util.vector3(26313.547,60728.1,11270.484),cellId=nil},
     {coords=util.vector3(1058.1896,-945.33496,-31.143845),cellId="Vivec, Arena Storage"},
-    {coords=util.vector3(39031.074,-92505.945,1887.3419),cellId="Vivec, St. Olms"},
     {coords=util.vector3(-3642.2273,37437.176,993.54144),cellId=nil},
     {coords=util.vector3(4096.0,3312.0,14240.0),cellId="Sadrith Mora, Wolverine Hall"},
-    {coords=util.vector3(108536.56,116171.734,732.369),cellId="Tel Mora"},
     {coords=util.vector3(-544.38043,-1840.1754,608.0),cellId="Ashirbadon"},
     {coords=util.vector3(113528.83,-59881.46,656.0),cellId=nil},
     {coords=util.vector3(29.449,514.132,-140.946),cellId="Zainab Camp, Kuda's Yurt"},
     {coords=util.vector3(119555.05,-102575.9,369.232),cellId=nil},
     {coords=util.vector3(-35894.094,78465.914,2850.433),cellId=nil},
-    {coords=util.vector3(18308.736,-102992.625,993.613),cellId="Ebonheart"},
     {coords=util.vector3(4948.968,4347.641,14800.0),cellId="Assurdirapal, Inner Shrine"},
     {coords=util.vector3(-10579.063,17992.145,1368.122),cellId=nil},
     {coords=util.vector3(160.0,-192.0,64.0),cellId="Rethan Manor, Drelas' House"},
     {coords=util.vector3(3572.2583,-56044.688,1721.3262),cellId=nil},
     {coords=util.vector3(9.690855,218.4164,115.037186),cellId="Balmora, Council Club"},
     {coords=util.vector3(0.0,1648.0,96.0),cellId="Ald-ruhn, Redoran Council Hall"},
-    {coords=util.vector3(140951.19,39906.816,263.293),cellId="Sadrith Mora"},
     {coords=util.vector3(257.1355,-64.0,0.0),cellId="Ald-ruhn, Sarethi Guard Quarters"},
     {coords=util.vector3(-328.71033,81.778145,1019.2214),cellId="Rethan Manor"},
     {coords=util.vector3(3329.487,1113.396,-969.7292),cellId="Forgotten Vaults of Anudnabia, Forge of Hilbongard"},
     {coords=util.vector3(1025.2542,766.465,-791.62415),cellId="Buckmoth Legion Fort, Towers"},
     {coords=util.vector3(784.546,-12.669,484.749),cellId="Hinnabi"},
+    {coords=util.vector3(28416.0,-79744.0,3451.5251),cellId=nil},
     {coords=util.vector3(160.26256,6.920405,233.57005),cellId="Sadrith Mora, Llaalam Madalas: Mage"},
     {coords=util.vector3(-614.4707,-735.03546,-428.86502),cellId="Vivec, Redoran Treasury"},
     {coords=util.vector3(111712.0,47296.0,249.15),cellId=nil},
     {coords=util.vector3(874.189,-163.195,756.293),cellId="Pelagiad, Mebestien Ence: Trader"},
     {coords=util.vector3(-40421.14,67833.336,1963.855),cellId=nil},
-    {coords=util.vector3(-26833.633,149641.84,795.4346),cellId="Urshilaku Camp"},
+    {coords=util.vector3(14217.879,-100394.016,1280.0),cellId=nil},
     {coords=util.vector3(2678.0,3009.0,222.0),cellId="Vivec, St. Olms Underworks"},
     {coords=util.vector3(1112.9702,2302.995,16979.81),cellId="Tel Vos, Central Tower"},
     {coords=util.vector3(-2571.171,3641.27,1367.67),cellId="Zaintirari"},
@@ -199,15 +190,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(86186.734,117437.62,5203.31),cellId=nil},
     {coords=util.vector3(163.721,126.741,106.211),cellId="Dagon Fel, Onmi Hard-mouth's House"},
     {coords=util.vector3(2624.0,4480.0,18048.0),cellId="Vivec, Arena Waistworks"},
-    {coords=util.vector3(15796.595,-101176.375,1067.454),cellId="Ebonheart"},
-    {coords=util.vector3(149536.0,30080.0,1216.0),cellId="Wolverine Hall"},
+    {coords=util.vector3(21818.084,-41532.45,1250.032),cellId=nil},
     {coords=util.vector3(1825.6119,-518.1945,-30.446857),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(2044.085,4336.616,11926.39),cellId="Galom Daeus, Entry"},
     {coords=util.vector3(0.0,96.0,96.0),cellId="Dagoth Ur, Outer Facility"},
     {coords=util.vector3(128.0,320.0,-256.0),cellId="Vivec, St. Olms Haunted Manor"},
-    {coords=util.vector3(98982.03,114036.04,909.586),cellId="Vos"},
     {coords=util.vector3(704.0,3708.674,896.0),cellId="Vas, Entry Level"},
-    {coords=util.vector3(148880.0,28360.0,1464.0),cellId="Wolverine Hall"},
     {coords=util.vector3(4257.21,3544.317,13870.554),cellId="Strange Shipwreck, Lower Level"},
     {coords=util.vector3(-26396.078,150412.23,779.159),cellId=nil},
     {coords=util.vector3(1728.0,7168.0,80.0),cellId="Vivec, St. Delyn Underworks"},
@@ -217,6 +205,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1153.188,-3091.25,351.363),cellId="Maba-Ilu"},
     {coords=util.vector3(85440.0,117504.0,4257.5166),cellId=nil},
     {coords=util.vector3(-192.0,-128.0,-128.0),cellId="Vivec, St. Olms Farmers and Laborers Hall"},
+    {coords=util.vector3(-16501.469,-12304.141,570.075),cellId=nil},
     {coords=util.vector3(-625.0,-375.0,-646.0),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(-99203.1,110604.62,1203.785),cellId=nil},
     {coords=util.vector3(116689.03,-52244.246,1122.5575),cellId=nil},
@@ -234,20 +223,20 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-2236.542,4161.558,-800.479),cellId="Maelu Egg Mine"},
     {coords=util.vector3(-3436.458,5509.827,-1552.346),cellId="Hassour"},
     {coords=util.vector3(-124.663475,-320.0,-128.0),cellId="Vivec, Arena Fighters Quarters"},
-    {coords=util.vector3(5154.0,120680.0,1472.0),cellId="Kogoruhn"},
     {coords=util.vector3(-2272.0,896.0,-1568.0),cellId="Matus-Akin Egg Mine"},
     {coords=util.vector3(192.0,128.0,128.0),cellId="Sadrith Mora, Tel Naga Upper Tower"},
     {coords=util.vector3(4019.382,4091.318,15430.9),cellId="Khuul, Miron Garer's Shack"},
+    {coords=util.vector3(36544.848,-91926.1,1887.3419),cellId=nil},
     {coords=util.vector3(923.5973,785.0801,240.0),cellId="Caldera, Guild of Mages"},
-    {coords=util.vector3(-11284.885,56972.57,2670.721),cellId="Ald-ruhn"},
+    {coords=util.vector3(-46627.754,-37020.6,336.33),cellId=nil},
     {coords=util.vector3(32.0,-256.0,-160.0),cellId="Vos, Ulvil Llothas's Farmhouse"},
     {coords=util.vector3(21394.86,-45273.543,810.9454),cellId=nil},
+    {coords=util.vector3(26634.1,-87557.28,1887.3419),cellId=nil},
     {coords=util.vector3(73166.85,-59533.484,949.8552),cellId=nil},
     {coords=util.vector3(704.0,-512.0,128.0),cellId="Arvel Manor"},
     {coords=util.vector3(-883.461,3376.081,-802.768),cellId="Assemanu"},
     {coords=util.vector3(50.646564,46.573322,209.87947),cellId="Odrosal, Tower"},
     {coords=util.vector3(1920.0,-576.0,-128.0),cellId="Vivec, St. Delyn Waistworks"},
-    {coords=util.vector3(76623.76,85664.52,920.89),cellId="Zainab Camp"},
     {coords=util.vector3(116726.836,-52066.812,1016.8464),cellId=nil},
     {coords=util.vector3(85040.22,-3510.4075,715.4368),cellId=nil},
     {coords=util.vector3(-1026.2666,-257.22968,338.82773),cellId="Vivec, Hlaalu Canalworks"},
@@ -274,14 +263,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(318.068,-257.792,128.0),cellId="Arano Plantation"},
     {coords=util.vector3(0.052,6910.968,-800.082),cellId="Yanemus Mine"},
     {coords=util.vector3(5696.0,2112.0,12928.0),cellId="Vivec, Hall of Wisdom"},
-    {coords=util.vector3(22207.85,-82556.8,2233.9004),cellId="Vivec, Hlaalu"},
     {coords=util.vector3(-176.0,-120.0,240.0),cellId="Caldera, North Guard Towers"},
+    {coords=util.vector3(-85953.3,96998.93,1693.9685),cellId=nil},
     {coords=util.vector3(-320.0,-1152.0,-384.0),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(2177.999,6675.0,-291.0),cellId="Hlormaren, Keep, Bottom Level"},
-    {coords=util.vector3(87398.27,119976.27,5291.3745),cellId="Tel Vos"},
     {coords=util.vector3(-62.0,-3232.0,608.0),cellId="Ministry of Truth, Hall of Processing"},
     {coords=util.vector3(0.0,-112.0,-48.0),cellId="Ald-ruhn, Morvayn Quarters"},
-    {coords=util.vector3(62589.816,182536.86,253.764),cellId="Dagon Fel"},
     {coords=util.vector3(978.46,-876.555,80.0),cellId="Orethi Ancestral Tomb"},
     {coords=util.vector3(-804.9131,3663.5073,1616.0),cellId="Arkngthand, Hall of Centrifuge"},
     {coords=util.vector3(1063.8688,-149.9934,308.34952),cellId="Vivec, Foreign Quarter Plaza"},
@@ -290,6 +277,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-5.329,-255.638,-44.72),cellId="Maar Gan, Garry's Hut"},
     {coords=util.vector3(-22174.182,-16896.691,610.528),cellId=nil},
     {coords=util.vector3(-75421.016,14451.866,68.66),cellId=nil},
+    {coords=util.vector3(-10203.989,-71509.52,328.18402),cellId=nil},
     {coords=util.vector3(2560.0,4224.0,14272.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(4163.0835,4248.145,-495.1243),cellId="Lonesome Shipwreck, Cabin"},
     {coords=util.vector3(4312.868,4056.5967,13837.342),cellId="Uncharted Shipwreck, Lower Level"},
@@ -297,6 +285,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(85117.75,120441.37,4405.7544),cellId=nil},
     {coords=util.vector3(-1531.362,56.004,-1311.948),cellId="Yakin"},
     {coords=util.vector3(-128.0,256.0,384.0),cellId="Balmora, Karlirah's House"},
+    {coords=util.vector3(95609.77,134931.22,1055.14),cellId=nil},
     {coords=util.vector3(127039.195,-38101.594,1350.5228),cellId=nil},
     {coords=util.vector3(60.642998,256.352,1247.959),cellId="Dagon Fel, Vacant Tower"},
     {coords=util.vector3(80024.17,58826.586,1226.473),cellId=nil},
@@ -304,7 +293,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-489.76193,-668.41754,-256.64822),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(185.162,-50.223,122.916),cellId="Big Head's Shack"},
     {coords=util.vector3(9231.334,187927.44,291.92926),cellId=nil},
-    {coords=util.vector3(32058.305,-79116.38,3101.271),cellId="Vivec, Foreign Quarter"},
+    {coords=util.vector3(149536.0,30080.0,1216.0),cellId=nil},
     {coords=util.vector3(566.97,624.4081,721.8),cellId="Tel Mora, Lower Tower"},
     {coords=util.vector3(-555.844,-126.467,-16.436),cellId="Pelagiad, Murberius Harmevus' House"},
     {coords=util.vector3(108.0,102.0,54.0),cellId="Tower of Tel Fyr, Onyx Hall"},
@@ -322,12 +311,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1216.234,340.664,-20.571),cellId="Tel Uvirith, Tower Lower"},
     {coords=util.vector3(7028.3745,4415.6587,15001.793),cellId="Sarys Ancestral Tomb"},
     {coords=util.vector3(4681.128,5446.997,1114.112),cellId=nil},
-    {coords=util.vector3(-34152.47,78545.83,2200.533),cellId="Bal Isra"},
+    {coords=util.vector3(77067.01,53389.992,1662.0),cellId=nil},
     {coords=util.vector3(-77564.55,111226.04,1112.506),cellId=nil},
     {coords=util.vector3(2047.842,8021.468,-111.92),cellId="Vivec, St. Delyn Underworks"},
-    {coords=util.vector3(-16501.469,-12304.141,570.075),cellId="Balmora"},
     {coords=util.vector3(1194.982,-4.498,349.218),cellId="Adanumuran"},
-    {coords=util.vector3(55770.883,-37756.895,716.523),cellId="Bal Ur"},
+    {coords=util.vector3(-12536.054,44254.402,3571.6816),cellId=nil},
+    {coords=util.vector3(20968.0,-56262.0,816.0),cellId=nil},
     {coords=util.vector3(66.988,-393.173,111.275),cellId="Chun-Ook, Upper Level"},
     {coords=util.vector3(-576.0,768.0,-512.0),cellId="Vivec, The Abbey of St. Delyn the Wise"},
     {coords=util.vector3(924.0,2242.0,-702.0),cellId="Arano Ancestral Tomb"},
@@ -335,17 +324,14 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(42129.754,-47017.977,858.118),cellId=nil},
     {coords=util.vector3(352.0,0.0,128.0),cellId="Sadrith Mora, Anis Seloth: Alchemist"},
     {coords=util.vector3(-2102.4192,274.94342,1232.0),cellId="Dagon Fel, Vacant Tower"},
-    {coords=util.vector3(55685.79,-54516.316,1641.438),cellId="Suran"},
     {coords=util.vector3(2688.0,80.0,-160.0),cellId="Vivec, Hlaalu Canalworks"},
     {coords=util.vector3(302.0547,-760.1406,-1793.2761),cellId="Vivec, St. Olms Plaza"},
-    {coords=util.vector3(17939.457,-56631.727,1136.4921),cellId="Dren Plantation"},
     {coords=util.vector3(1494.637,-86636.66,183.592),cellId=nil},
     {coords=util.vector3(-27540.8,149584.33,788.0676),cellId=nil},
-    {coords=util.vector3(85592.0,117312.0,4303.227),cellId="Tel Vos"},
+    {coords=util.vector3(-76278.78,124863.45,1504.2411),cellId=nil},
     {coords=util.vector3(-256.0,0.0,140.538),cellId="Maar Gan, Outpost"},
-    {coords=util.vector3(34647.86,-97032.65,-211.8),cellId="Vivec, St. Olms"},
     {coords=util.vector3(-12904.959,126525.484,1455.416),cellId=nil},
-    {coords=util.vector3(78400.01,52905.0,2060.0),cellId="Falensarano"},
+    {coords=util.vector3(33119.242,-84726.305,-247.16382),cellId=nil},
     {coords=util.vector3(1664.0,-320.0,-128.0),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(-25793.49,-11676.645,1138.385),cellId=nil},
     {coords=util.vector3(64.0,256.0,-256.0),cellId="Vivec, Hlaalu General Goods"},
@@ -355,31 +341,32 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(0.0,128.0,96.0),cellId="Odrosal, Dwemer Training Academy"},
     {coords=util.vector3(12065.654,-44922.633,-897.71106),cellId=nil},
     {coords=util.vector3(127174.07,46598.363,1551.128),cellId=nil},
+    {coords=util.vector3(4932.542,-55316.21,1782.449),cellId=nil},
     {coords=util.vector3(4107.4155,3454.617,13496.85),cellId="Tel Aruhn, Tower Entry"},
     {coords=util.vector3(203.244,-230.203,-17.472992),cellId="Balmora, Astius Hanotepelus' House"},
     {coords=util.vector3(-256.0,512.0,256.0),cellId="Gnisis, Fort Darius"},
     {coords=util.vector3(-3206.687,60.176,-3103.439),cellId="Tel Vos, Dungeon"},
+    {coords=util.vector3(14332.917,-100952.54,1558.473),cellId=nil},
     {coords=util.vector3(-1920.0,320.0,128.0),cellId="Vivec, St. Delyn Waistworks"},
     {coords=util.vector3(6512.0,1152.0,288.0),cellId="Vivec, Redoran Underworks"},
     {coords=util.vector3(-54661.133,-44904.535,167.441),cellId=nil},
     {coords=util.vector3(3112.0,3520.0,-32.0),cellId="Ald Daedroth, Inner Shrine"},
-    {coords=util.vector3(148860.47,28491.994,1499.688),cellId="Wolverine Hall"},
     {coords=util.vector3(-61880.234,25981.516,320.64975),cellId=nil},
     {coords=util.vector3(-35904.0,-37056.0,2016.0),cellId=nil},
     {coords=util.vector3(-22496.465,-13326.179,658.78754),cellId=nil},
     {coords=util.vector3(-1856.0,-39.587173,-769.7102),cellId="Molag Mar, Canalworks"},
     {coords=util.vector3(12.305116,-1.5573701,-33.13295),cellId="Vivec, Hlaalu Vaults"},
-    {coords=util.vector3(35773.977,-20853.12,1438.0),cellId="Marandus"},
     {coords=util.vector3(6.1035156e-05,5792.0,-264.0),cellId="Zergonipal, Shrine"},
     {coords=util.vector3(-11868.37,-67878.69,436.05386),cellId=nil},
     {coords=util.vector3(3317.115,4874.87,14504.613),cellId="Vivec, Foreign Quarter Upper Waistworks"},
-    {coords=util.vector3(-36099.957,-37051.69,2030.994),cellId="Odai Plateau"},
+    {coords=util.vector3(-60569.133,25961.91,428.58),cellId=nil},
     {coords=util.vector3(2048.0,3577.8982,-32.0),cellId="Vivec, Puzzle Canal, Level 5"},
     {coords=util.vector3(-64.0,4736.0,-128.0),cellId="Vivec, Hall of Justice"},
-    {coords=util.vector3(55642.902,-54968.637,1345.05),cellId="Suran"},
+    {coords=util.vector3(144205.36,35905.082,899.099),cellId=nil},
     {coords=util.vector3(144858.9,42228.223,943.605),cellId=nil},
     {coords=util.vector3(3568.4907,-55674.516,2279.51),cellId=nil},
     {coords=util.vector3(-6096.0,1921.738,-288.0),cellId="Akimaes Grotto"},
+    {coords=util.vector3(-18898.33,102550.12,2393.115),cellId=nil},
     {coords=util.vector3(107341.74,62831.977,482.01764),cellId=nil},
     {coords=util.vector3(62290.902,183244.77,289.7115),cellId=nil},
     {coords=util.vector3(36502.305,-95727.56,673.5091),cellId=nil},
@@ -387,21 +374,23 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(149552.0,29920.0,1200.0),cellId=nil},
     {coords=util.vector3(-1164.0,-1184.0,192.0),cellId="Salothran Ancestral Tomb"},
     {coords=util.vector3(67943.87,157690.42,103.136),cellId=nil},
-    {coords=util.vector3(29119.47,-85535.53,1887.2496),cellId="Vivec, Redoran"},
     {coords=util.vector3(-1676.204,1927.151,-1196.863),cellId="Hawia Egg Mine"},
     {coords=util.vector3(-726.7714,135.59085,113.15029),cellId="Vivec, Hlaalu Plaza"},
     {coords=util.vector3(4409.128,3771.625,15424.16),cellId="Caldera, Valvius Mevureius' House"},
     {coords=util.vector3(1468.9,-125.965,732.398),cellId="Sinsibadon"},
     {coords=util.vector3(26.991,684.842,-25.696),cellId="Elf-Skerring, Lower Level"},
     {coords=util.vector3(54208.0,175968.0,1344.0),cellId=nil},
+    {coords=util.vector3(-69646.46,139800.05,173.006),cellId=nil},
     {coords=util.vector3(3838.082,4160.781,15706.417),cellId="Vivec, St. Olms Waist South-Two"},
     {coords=util.vector3(2648.404,-4225.623,-161.33),cellId="Dubdilla, Uncharted Caverns"},
     {coords=util.vector3(288.0,-480.0,480.0),cellId="Kogoruhn, Nabith Waterway"},
+    {coords=util.vector3(31608.65,-94095.64,1885.9888),cellId=nil},
+    {coords=util.vector3(-82449.016,91806.71,1087.7914),cellId=nil},
     {coords=util.vector3(3950.593,3900.5679,1201.5396),cellId="Sadrith Mora, Telvanni Council House, Entry"},
     {coords=util.vector3(1327.707,-3090.703,351.535),cellId="Maba-Ilu"},
-    {coords=util.vector3(-22211.586,-15206.171,656.877),cellId="Balmora"},
     {coords=util.vector3(1744.0,7296.0,96.0),cellId="Vivec, Telvanni Underworks"},
     {coords=util.vector3(62722.074,182062.33,322.07776),cellId=nil},
+    {coords=util.vector3(32862.605,-107009.16,2051.632),cellId=nil},
     {coords=util.vector3(1056.0,816.0,256.0),cellId="Caldera, Guild of Mages"},
     {coords=util.vector3(3983.424,2560.121,14580.811),cellId="Maelkashishi, Shrine"},
     {coords=util.vector3(0.0,-4704.0,-480.0),cellId="Vemynal, Outer Fortress"},
@@ -418,11 +407,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-51627.61,41214.71,1468.403),cellId=nil},
     {coords=util.vector3(61324.01,193013.53,926.712),cellId=nil},
     {coords=util.vector3(-8.0,1333.0,-31.0),cellId="Ald-ruhn, Ramoran Manor"},
+    {coords=util.vector3(5848.6436,-56063.1,1790.72),cellId=nil},
     {coords=util.vector3(1280.0,512.0,768.0),cellId="Pelagiad, Fort Pelagiad"},
     {coords=util.vector3(-256.0,0.0,96.0),cellId="Kogoruhn, Hall of Maki"},
     {coords=util.vector3(2495.726,3294.8,12064.0),cellId="Arkngthand, Heaven's Gallery"},
     {coords=util.vector3(1216.0,2684.674,384.0),cellId="Vas, Entry Level"},
     {coords=util.vector3(4088.0,3016.0,14456.0),cellId="Bal Fell, Inner Shrine"},
+    {coords=util.vector3(148973.39,36089.582,3452.3108),cellId=nil},
     {coords=util.vector3(-1312.0033,540.7848,1824.0),cellId="Saren Ancestral Tomb"},
     {coords=util.vector3(0.0,640.0,256.0),cellId="Ebonheart, Imperial Commission"},
     {coords=util.vector3(32.196,284.818,128.0),cellId="Buckmoth Legion Fort, Prison"},
@@ -432,17 +423,18 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(19282.352,127203.945,954.048),cellId=nil},
     {coords=util.vector3(159520.06,-54136.207,1574.8876),cellId=nil},
     {coords=util.vector3(39172.453,-92509.586,1889.2556),cellId=nil},
-    {coords=util.vector3(-14650.644,51751.273,2155.136),cellId="Ald-ruhn"},
     {coords=util.vector3(28.608,-1375.967,-101.955),cellId="Cavern of the Incarnate"},
     {coords=util.vector3(27560.56,-19632.162,1057.478),cellId=nil},
     {coords=util.vector3(3427.998,5664.001,11424.0),cellId="Aralen Ancestral Tomb"},
-    {coords=util.vector3(77106.24,83367.87,880.942),cellId="Zainab Camp"},
+    {coords=util.vector3(110655.09,-63212.85,1892.991),cellId=nil},
     {coords=util.vector3(37544.594,135243.47,754.581),cellId=nil},
     {coords=util.vector3(-3461.6914,5756.0195,-1197.5095),cellId="Zalkin-Sul Egg Mine"},
+    {coords=util.vector3(56233.05,-51544.188,662.36304),cellId=nil},
     {coords=util.vector3(6576.0,7216.0,288.0),cellId="Vivec, Hlaalu Underworks"},
-    {coords=util.vector3(86624.0,119200.0,4999.227),cellId="Tel Vos"},
     {coords=util.vector3(1848.0,964.0,1184.0),cellId="Senim Ancestral Tomb"},
     {coords=util.vector3(113283.3,-61193.11,1881.2749),cellId=nil},
+    {coords=util.vector3(87292.21,119874.37,4997.7754),cellId=nil},
+    {coords=util.vector3(-9821.382,-71476.945,268.844),cellId=nil},
     {coords=util.vector3(3984.2283,4126.3896,-943.676),cellId="Unmarked Shipwreck, Upper Level"},
     {coords=util.vector3(-24813.428,-10272.697,1077.4138),cellId=nil},
     {coords=util.vector3(1732.3037,1424.063,-1419.4814),cellId="Ald Sotha, Upper Level"},
@@ -453,8 +445,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(5200.0,3088.0,14480.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(768.0,2496.0,336.0),cellId="Ebonheart, Hawkmoth Legion Garrison"},
     {coords=util.vector3(3.3960183,3.962628,-32.04756),cellId="Vivec, Arena Holding Cells"},
+    {coords=util.vector3(-80115.51,90616.89,1126.04),cellId=nil},
     {coords=util.vector3(4160.999,2352.344,12496.0),cellId="Bal Fell, Outer Shrine"},
-    {coords=util.vector3(57000.055,-54124.86,1351.714),cellId="Suran"},
     {coords=util.vector3(1030.027,-4389.852,-542.271),cellId="Yakin"},
     {coords=util.vector3(-1467.563,-178.643,319.175),cellId="Shal"},
     {coords=util.vector3(127312.0,-101512.0,1304.0),cellId=nil},
@@ -462,58 +454,56 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4288.0,1984.0,13696.0),cellId="Tel Vos, Barracks and Armory"},
     {coords=util.vector3(4368.0,3920.0,14880.0),cellId="Maar Gan, Guard Tower 2"},
     {coords=util.vector3(28252.88,-95425.17,1876.3365),cellId=nil},
+    {coords=util.vector3(-14452.047,56031.777,2403.4888),cellId=nil},
     {coords=util.vector3(20961.752,-102871.086,170.74857),cellId=nil},
     {coords=util.vector3(1339.402,-1145.503,-0.448),cellId="Pelagiad, Uulernil : Armorer"},
-    {coords=util.vector3(94336.0,133344.0,896.0),cellId="Ahemmusa Camp"},
-    {coords=util.vector3(-5062.0435,-18124.459,1096.8354),cellId="Moonmoth Legion Fort"},
+    {coords=util.vector3(-19265.26,102170.4,3367.92),cellId=nil},
+    {coords=util.vector3(-89380.55,128131.58,157.649),cellId=nil},
     {coords=util.vector3(15.490962,383.68317,-176.931),cellId="Zainab Camp, Kummu's Yurt"},
-    {coords=util.vector3(-85744.055,95337.2,1111.607),cellId="Gnisis"},
     {coords=util.vector3(-2566.0,16.0,150.0),cellId="Ministry of Truth, Holding Cells"},
+    {coords=util.vector3(148860.47,28491.994,1499.688),cellId=nil},
     {coords=util.vector3(-1227.9908,-517.35876,244.90083),cellId="Vivec, St. Delyn Waistworks"},
     {coords=util.vector3(-6.544157,3.4912078,-27.794586),cellId="Vivec, Arena Fighters Training"},
     {coords=util.vector3(-59788.387,26309.969,308.636),cellId=nil},
     {coords=util.vector3(3217.4243,6224.3857,12695.086),cellId="Urshilaku, Astral Burial"},
+    {coords=util.vector3(-16225.291,-11598.641,559.668),cellId=nil},
     {coords=util.vector3(0.0,0.0,-32.0),cellId="Vivec, St. Olms Yngling Manor Basement"},
     {coords=util.vector3(270.145,5317.682,-670.678),cellId="Yansirramus, Shrine"},
     {coords=util.vector3(188.788,-640.669,125.892),cellId="Caldera, Elmussa Damori's House"},
     {coords=util.vector3(4108.101,3963.1436,14755.774),cellId="Mila-Nipal, Manat's Yurt"},
-    {coords=util.vector3(33314.457,-81627.63,-250.88168),cellId="Vivec, Foreign Quarter"},
     {coords=util.vector3(-13092.74,56807.41,2676.0),cellId=nil},
     {coords=util.vector3(1260.49,275.823,236.397),cellId="Balmora, Clagius Clanler: Outfitter"},
     {coords=util.vector3(-1994.367,3841.899,480.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(-3362.126,4614.927,214.583),cellId="Zenarbael"},
     {coords=util.vector3(-4.529,-9.951,-36.829),cellId="Vivec, St. Olms Waist North-Two"},
     {coords=util.vector3(-624.0,1788.0,-268.574),cellId="Bal Ur, Underground"},
-    {coords=util.vector3(53473.004,-51821.01,314.75943),cellId="Suran"},
     {coords=util.vector3(-21160.896,-16810.266,617.18933),cellId=nil},
     {coords=util.vector3(124.293945,7.0657587,-944.0),cellId="Indarys Manor"},
     {coords=util.vector3(2813.5593,159.76212,-256.64822),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(-703.1803,-767.49164,-26.143005),cellId="Punsabanit"},
     {coords=util.vector3(-128.0,0.0,128.0),cellId="Suran, Ibarnadad Assirnarari: Apothecary"},
-    {coords=util.vector3(32541.45,-85291.35,-247.16382),cellId="Vivec, Redoran"},
     {coords=util.vector3(-128.0,-192.0,256.0),cellId="Balmora, Dorisa Darvel: Bookseller"},
-    {coords=util.vector3(-59762.92,26140.928,303.457),cellId="Gnaar Mok"},
     {coords=util.vector3(-146.09814,-256.55173,-105.68821),cellId="Grytewake, Cabin"},
     {coords=util.vector3(768.0,-672.0,32.0),cellId="Ald Velothi, Outpost"},
-    {coords=util.vector3(146381.14,36489.164,943.507),cellId="Sadrith Mora"},
+    {coords=util.vector3(29087.967,-95573.96,671.088),cellId=nil},
     {coords=util.vector3(78628.27,135205.53,508.4187),cellId=nil},
     {coords=util.vector3(3946.0,572.0,316.0),cellId="Ilunibi, Marowak's Spine"},
+    {coords=util.vector3(-13440.0,43072.0,2624.0),cellId=nil},
+    {coords=util.vector3(-26992.39,151767.92,834.35724),cellId=nil},
     {coords=util.vector3(3626.672,-274.31494,28.395374),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(96742.52,-59223.055,818.214),cellId=nil},
-    {coords=util.vector3(113141.64,-61193.848,1885.728),cellId="Molag Mar"},
     {coords=util.vector3(265.50452,176.14691,1249.0801),cellId="Subdun"},
     {coords=util.vector3(25.792,470.745,-142.578),cellId="Erabenimsun Camp, Han-Ammu's Yurt"},
     {coords=util.vector3(1648.0,7296.0,288.0),cellId="Vivec, Telvanni Underworks"},
+    {coords=util.vector3(148454.53,32672.883,772.67957),cellId=nil},
     {coords=util.vector3(124034.32,-27227.125,4400.8066),cellId=nil},
     {coords=util.vector3(-240.53716,974.0873,-2188.4434),cellId="Tukushapal"},
     {coords=util.vector3(256.0,-128.0,-257.123),cellId="Vivec, Hlaalu General Goods"},
     {coords=util.vector3(-64.0,320.0,-256.0),cellId="Vivec, Curio Manor"},
     {coords=util.vector3(1695.9465,5184.69,12256.0),cellId="Hassour, Shrine"},
     {coords=util.vector3(-128.0,0.0,384.0),cellId="Suran, Ibarnadad Assirnarari: Apothecary"},
-    {coords=util.vector3(-4584.7026,152215.64,2385.348),cellId="Valenvaryon"},
-    {coords=util.vector3(18578.2,-103006.984,562.934),cellId="Ebonheart"},
-    {coords=util.vector3(4008.0,4360.0,13832.0),cellId="Dagoth Ur, Inner Tower"},
     {coords=util.vector3(4635.312,4582.96,-108.55),cellId="Neglected Shipwreck, Upper Level"},
+    {coords=util.vector3(4008.0,4360.0,13832.0),cellId="Dagoth Ur, Inner Tower"},
     {coords=util.vector3(4736.0,3328.0,16000.0),cellId="Omani Manor"},
     {coords=util.vector3(-10739.62,-72034.89,232.00002),cellId=nil},
     {coords=util.vector3(3360.0,640.0,-32.0),cellId="Nchuleftingth, Lower Levels"},
@@ -521,9 +511,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-160.3132,-186.87483,-59.903),cellId="Kaushtababi Camp, Adibael's Yurt"},
     {coords=util.vector3(-80357.164,99163.836,1394.403),cellId=nil},
     {coords=util.vector3(3584.0,4416.0,15552.0),cellId="Molag Mar, St. Veloth's Hostel"},
-    {coords=util.vector3(-22459.264,105505.836,2263.746),cellId="Maar Gan"},
     {coords=util.vector3(-448.0,-128.0,-128.0),cellId="Vivec, Ordinator Barracks"},
-    {coords=util.vector3(126374.04,-102973.9,1253.749),cellId="Tel Branora"},
     {coords=util.vector3(27996.543,-95708.76,676.0527),cellId=nil},
     {coords=util.vector3(-137.43802,-206.72282,-115.37875),cellId="Elf-Skerring, Cabin"},
     {coords=util.vector3(508.665,516.523,340.92),cellId="Suran, Verara Rendo: Clothier"},
@@ -531,12 +519,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3872.0,3888.0,14592.0),cellId="Suran, Guard Tower"},
     {coords=util.vector3(3992.304,4242.695,-799.874),cellId="Forgotten Shipwreck"},
     {coords=util.vector3(12.850904,-0.26468056,-22.248104),cellId="Vivec, Hlaalu Records"},
+    {coords=util.vector3(152351.36,38789.523,1407.242),cellId=nil},
     {coords=util.vector3(2048.0,-1080.0,-32.0),cellId="Ald Daedroth, Left Wing"},
     {coords=util.vector3(5991.1836,-47165.16,327.074),cellId=nil},
     {coords=util.vector3(1011.0,126.0,-357.0),cellId="Berandas, Keep, Top Level"},
     {coords=util.vector3(913.33984,-375.77344,-1729.853),cellId="Vivec, St. Delyn Plaza"},
     {coords=util.vector3(-16.032967,7553.2705,-1069.6287),cellId="Akimaes-Ilanipu Egg Mine"},
-    {coords=util.vector3(8705.879,-100814.016,1404.0),cellId="Ebonheart"},
+    {coords=util.vector3(-22920.596,-13115.864,931.628),cellId=nil},
     {coords=util.vector3(-1825.857,-3.1279984,54.225),cellId="Dagon Fel, Andre Maul's Tower"},
     {coords=util.vector3(-256.0,752.0,-544.0),cellId="Ebonheart, Grand Council Chambers Tower"},
     {coords=util.vector3(2217.193,2101.384,320.052),cellId="Ilunibi, Marowak's Spine"},
@@ -549,14 +538,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-70949.805,67868.32,1439.914),cellId=nil},
     {coords=util.vector3(-896.0,-192.0,256.0),cellId="Vivec, Arena Canalworks"},
     {coords=util.vector3(8068.0,-716.0,826.0),cellId="Ilunibi, Carcass of the Saint"},
+    {coords=util.vector3(51972.16,-37118.92,708.523),cellId=nil},
     {coords=util.vector3(-10961.403,126760.73,1447.322),cellId=nil},
     {coords=util.vector3(144.59561,-221.79036,-45.782043),cellId="Caldera, Bashuk gra-Bat's House"},
     {coords=util.vector3(-465.592,2943.169,-1066.147),cellId="Maesa-Shammus Egg Mine"},
-    {coords=util.vector3(21111.873,-102877.74,156.354),cellId="Ebonheart"},
     {coords=util.vector3(-42774.973,148450.86,372.259),cellId=nil},
     {coords=util.vector3(-64.0,-128.0,-128.0),cellId="Vivec, Andilu Drothan: Alchemist"},
     {coords=util.vector3(-480.0,512.0,-32.0),cellId="Vivec, Hlaalu Waistworks"},
-    {coords=util.vector3(86592.0,117728.0,5117.068),cellId="Tel Vos"},
     {coords=util.vector3(20.925,-223.616,97.617),cellId="Balmora, Morag Tong Guild"},
     {coords=util.vector3(-1.0315086,374.1058,-180.818),cellId="Erabenimsun Camp, Ashkhan's Yurt"},
     {coords=util.vector3(1486.38,-376.2131,288.0),cellId="Ebonheart, Hawkmoth Towers"},
@@ -566,6 +554,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1920.0,1088.0,-128.0),cellId="Vivec, Foreign Quarter Tomb"},
     {coords=util.vector3(0.0,0.0,0.0),cellId="Ald Velothi, Ganus Lloryn's Shack"},
     {coords=util.vector3(-64.0,128.0,-128.0),cellId="Vivec, St. Delyn Canal South-One"},
+    {coords=util.vector3(147533.17,39900.098,1057.28),cellId=nil},
     {coords=util.vector3(-960.0,7232.0,-1856.0),cellId="Marandus, Lower Level"},
     {coords=util.vector3(109386.7,-2780.8186,630.8516),cellId=nil},
     {coords=util.vector3(518.0,-69.0,-25.0),cellId="Ald-ruhn, Redoran Council Entrance"},
@@ -575,29 +564,28 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3930.296,3956.4468,89.628654),cellId="Ancient Shipwreck, Upper Level"},
     {coords=util.vector3(1472.001,2047.999,-2240.0),cellId="Andasreth, Lower Level"},
     {coords=util.vector3(294.07,-755.965,342.457),cellId="Ashanammu"},
-    {coords=util.vector3(96222.37,115163.9,1571.5817),cellId="Vos"},
-    {coords=util.vector3(34008.6,-105763.125,947.21564),cellId="Vivec, Temple"},
     {coords=util.vector3(275.583,167.251,-1163.199),cellId="Dubdilla, Uncharted Caverns"},
     {coords=util.vector3(-50137.914,-46406.875,315.041),cellId=nil},
-    {coords=util.vector3(21236.531,-45228.72,815.86786),cellId="Arvel Plantation"},
     {coords=util.vector3(1944.4961,-57109.008,1577.1134),cellId=nil},
     {coords=util.vector3(-70.738,-2389.084,-259.138),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(-1888.0,-1216.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(337.447,4.868,126.069),cellId="Tel Mora, Liette's House"},
+    {coords=util.vector3(-16157.532,-12597.003,675.914),cellId=nil},
     {coords=util.vector3(832.0,1441.6003,-96.0),cellId="Nchuleftingth, Upper Levels"},
     {coords=util.vector3(-118219.52,115894.336,444.801),cellId=nil},
     {coords=util.vector3(4229.9717,4206.392,14713.571),cellId="Gnaar Mok, Nadene Rotheran's Shack"},
     {coords=util.vector3(35422.883,161008.77,251.77054),cellId=nil},
     {coords=util.vector3(-40446.707,34877.293,1303.552),cellId=nil},
-    {coords=util.vector3(77533.37,85867.125,938.565),cellId="Zainab Camp"},
-    {coords=util.vector3(-3908.0,-13023.0,-305.0),cellId="Hlormaren, Sewers"},
+    {coords=util.vector3(-16376.031,-14447.433,325.714),cellId=nil},
     {coords=util.vector3(-192.0,-256.0,128.0),cellId="Balmora, Itan's House"},
+    {coords=util.vector3(-3908.0,-13023.0,-305.0),cellId="Hlormaren, Sewers"},
     {coords=util.vector3(-128.0,64.0,-128.0),cellId="Vivec, Hlaalu Vaults"},
+    {coords=util.vector3(-11605.211,19121.326,1440.6064),cellId=nil},
     {coords=util.vector3(2180.8699,1484.8887,-64.0),cellId="Ebonheart, East Empire South Warehouse"},
     {coords=util.vector3(18271.127,-70403.58,99.05864),cellId=nil},
+    {coords=util.vector3(43456.0,-86132.695,2235.2876),cellId=nil},
     {coords=util.vector3(-1569.029,2635.472,-1698.482),cellId="Assurdirapal, Shrine"},
     {coords=util.vector3(-2946.54,3117.909,-1065.809),cellId="Sennananit"},
-    {coords=util.vector3(-16225.291,-11598.641,559.668),cellId="Balmora"},
     {coords=util.vector3(516.1072,1773.2803,-40.486313),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(6512.0,928.0,208.0),cellId="Vivec, St. Olms Underworks"},
     {coords=util.vector3(4356.869,2823.896,13525.169),cellId="Vivec, Foreign Quarter Lower Waistworks"},
@@ -607,37 +595,43 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(113792.03,58747.152,870.428),cellId=nil},
     {coords=util.vector3(-67203.68,58326.652,1781.4023),cellId=nil},
     {coords=util.vector3(-5274.1,3577.503,-1570.918),cellId="Hassour"},
+    {coords=util.vector3(-86346.06,93709.48,1109.8374),cellId=nil},
     {coords=util.vector3(3904.0,4416.0,16191.994),cellId="Molag Mar, Vasesius Viciulus: Trader"},
+    {coords=util.vector3(32543.223,-95007.98,-247.16382),cellId=nil},
     {coords=util.vector3(-224.0,1099.49,128.0),cellId="Kogoruhn, Hall of Phisto"},
     {coords=util.vector3(1712.0,-3008.0,272.0),cellId="Molag Mar, Underworks"},
     {coords=util.vector3(-4093.23,3426.762,537.845),cellId="Molag Mar, Underworks"},
+    {coords=util.vector3(110240.43,-5025.456,653.59515),cellId=nil},
     {coords=util.vector3(100.094,32.06,105.903),cellId="Tel Branora, Ervyna Hlervu's Shack"},
     {coords=util.vector3(256.0,128.0,0.0),cellId="Balmora, Clagius Clanler: Outfitter"},
     {coords=util.vector3(320.0,-256.0,402.0),cellId="Hlormaren, Dome"},
     {coords=util.vector3(4217.973,4051.888,15304.981),cellId="Tel Uvirith, Arelas' House"},
     {coords=util.vector3(704.003,2751.9968,-160.84702),cellId="Ashimanu Egg Mine"},
     {coords=util.vector3(95564.84,11451.501,1778.3845),cellId=nil},
+    {coords=util.vector3(-79861.36,90983.9,1835.367),cellId=nil},
     {coords=util.vector3(256.00024,5664.0,-776.0),cellId="Yansirramus, Shrine"},
-    {coords=util.vector3(119.63,2951.138,-944.0),cellId="Sanni"},
     {coords=util.vector3(13125.809,-103214.98,900.107),cellId=nil},
+    {coords=util.vector3(119.63,2951.138,-944.0),cellId="Sanni"},
     {coords=util.vector3(-1474.0,3054.0,636.0),cellId="Corprusarium"},
     {coords=util.vector3(2623.5017,4243.613,-67.12973),cellId="Ancient Shipwreck, Lower Level"},
     {coords=util.vector3(3808.0,2656.0,150.029),cellId="Pudai Egg Mine, Queen's Lair"},
     {coords=util.vector3(-486.06,-96.965,2565.255),cellId="Indalen Ancestral Tomb"},
     {coords=util.vector3(36.88827,-240.38843,345.66318),cellId="Buckmoth Legion Fort, Prison"},
     {coords=util.vector3(148798.02,36125.066,1079.429),cellId=nil},
+    {coords=util.vector3(13113.879,-103346.016,872.0),cellId=nil},
     {coords=util.vector3(4800.0,3712.0,18048.0),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(1811.0303,-512.4415,-302.2887),cellId="Vivec, St. Olms Waistworks"},
-    {coords=util.vector3(41360.1,-87772.02,-247.164),cellId="Vivec, Telvanni"},
     {coords=util.vector3(3342.679,3595.447,-420.592),cellId="Hanud"},
     {coords=util.vector3(2096.285,7924.537,15.338867),cellId="Vivec, St. Olms Underworks"},
     {coords=util.vector3(-448.0,256.0,608.0),cellId="Abernanit"},
+    {coords=util.vector3(54271.133,-56132.92,1326.611),cellId=nil},
     {coords=util.vector3(6608.0,7072.0,400.0),cellId="Vivec, St. Olms Underworks"},
     {coords=util.vector3(-128.0,320.0,-256.0),cellId="Vivec, Elven Nations Cornerclub"},
     {coords=util.vector3(-101.726,377.544,-177.6),cellId="Ahemmusa Camp, Addammus's Yurt"},
+    {coords=util.vector3(-5069.2383,-18467.53,1065.3094),cellId=nil},
     {coords=util.vector3(1312.0,-256.0,288.0),cellId="Tureynulal, Bladder of Clovis"},
+    {coords=util.vector3(-22752.146,-12099.918,640.409),cellId=nil},
     {coords=util.vector3(1.899,504.722,-143.8),cellId="Ahemmusa Camp, Assamma-Idan's Yurt"},
-    {coords=util.vector3(27717.492,-80326.1,3101.869),cellId="Vivec, Foreign Quarter"},
     {coords=util.vector3(-1552.0,1360.0,-1056.0),cellId="Buckmoth Legion Fort, Towers"},
     {coords=util.vector3(4084.254,4347.096,16261.525),cellId="Balmora, Western Guard Tower South"},
     {coords=util.vector3(192.0,0.0,-96.0),cellId="Nchuleftingth, Test of Pattern"},
@@ -645,7 +639,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4086.5447,4143.163,870.78156),cellId="Desolate Shipwreck, Cabin"},
     {coords=util.vector3(-193.03009,-150.74083,-97.43734),cellId="Rethan Manor, Berendas' House"},
     {coords=util.vector3(-496.0,80.0,-160.0),cellId="Vivec, Foreign Quarter Canalworks"},
-    {coords=util.vector3(31610.586,-87521.016,1887.3419),cellId="Vivec, Redoran"},
     {coords=util.vector3(6432.0,7280.0,96.0),cellId="Vivec, Redoran Underworks"},
     {coords=util.vector3(1104.0,512.0,-528.0),cellId="Buckmoth Legion Fort, Towers"},
     {coords=util.vector3(5212.544,5805.992,13155.26),cellId="Subdun, Shrine"},
@@ -653,9 +646,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-55571.945,-24205.781,124.688),cellId=nil},
     {coords=util.vector3(78462.41,52746.234,2080.271),cellId=nil},
     {coords=util.vector3(0.0,-384.0,-128.0),cellId="Gnisis, Abelmawia Hut"},
-    {coords=util.vector3(-22920.596,-13115.864,931.628),cellId="Balmora"},
     {coords=util.vector3(-76876.81,97131.12,1080.815),cellId=nil},
     {coords=util.vector3(768.0,-64.0,0.0),cellId="Ald-ruhn, Tuveso Beleth: Smith"},
+    {coords=util.vector3(-9246.183,19988.422,1235.171),cellId=nil},
     {coords=util.vector3(64.0,128.0,-64.0),cellId="Hlormaren, Underground"},
     {coords=util.vector3(-27096.371,151332.86,794.0764),cellId=nil},
     {coords=util.vector3(-256.0,576.0,128.0),cellId="Ald-ruhn, Venim Manor Right Wing"},
@@ -665,16 +658,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(83551.13,-77816.82,-213.93793),cellId=nil},
     {coords=util.vector3(127242.01,94538.64,31.012789),cellId=nil},
     {coords=util.vector3(-8115.9175,-84528.93,-33.595314),cellId=nil},
-    {coords=util.vector3(95264.13,135972.56,1052.818),cellId="Ahemmusa Camp"},
     {coords=util.vector3(-0.023039134,-355.066,-32.0),cellId="Vos, Trilam Drolnor's Farmhouse"},
     {coords=util.vector3(-17702.652,-16274.009,613.697),cellId=nil},
-    {coords=util.vector3(36543.816,-94693.36,1887.3419),cellId="Vivec, St. Olms"},
     {coords=util.vector3(35968.0,129104.0,1008.0),cellId=nil},
-    {coords=util.vector3(84896.07,120238.47,3607.2322),cellId="Tel Vos"},
     {coords=util.vector3(576.0,128.0,128.0),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(262.77722,-2.392958,84.92001),cellId="Suran, Suran Tradehouse"},
     {coords=util.vector3(-11056.069,-72286.27,239.658),cellId=nil},
-    {coords=util.vector3(-46627.754,-37020.6,336.33),cellId="Hla Oad"},
+    {coords=util.vector3(-8564.561,58585.168,2700.212),cellId=nil},
     {coords=util.vector3(437.216,14.675,-32.0),cellId="Ald-ruhn, Sarethi Guard Quarters"},
     {coords=util.vector3(-10.982603,1924.2838,222.99991),cellId="Dreloth Ancestral Tomb"},
     {coords=util.vector3(4299.5303,3459.8254,120.15756),cellId="Abandoned Shipwreck, Upper Level"},
@@ -682,17 +672,18 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-5505.778,4126.052,-173.993),cellId="Mudan Grotto"},
     {coords=util.vector3(0.0,-3356.0,598.0),cellId="Ministry of Truth, Hall of Processing"},
     {coords=util.vector3(4493.4854,3968.0115,14384.0),cellId="Tel Aruhn, Tower Entry"},
+    {coords=util.vector3(38330.05,-86911.08,2234.5715),cellId=nil},
     {coords=util.vector3(3583.9294,-2854.062,222.80672),cellId="Gnisis, Lower Eggmine"},
-    {coords=util.vector3(141951.2,39512.773,258.991),cellId="Sadrith Mora"},
     {coords=util.vector3(-1784.173,1274.8395,-31.920494),cellId="Vivec, Hlaalu Waistworks"},
-    {coords=util.vector3(-16157.532,-12597.003,675.914),cellId="Balmora"},
     {coords=util.vector3(4096.477,2581.854,15706.049),cellId="Omani Manor"},
+    {coords=util.vector3(19410.023,-54345.996,744.0),cellId=nil},
     {coords=util.vector3(576.0,-128.0,-384.0),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(-26639.646,-11314.235,1110.44),cellId=nil},
     {coords=util.vector3(3.149,916.356,-424.798),cellId="Rotheran, Communal Hut"},
     {coords=util.vector3(-15.203449,-4814.7524,-990.56793),cellId="Palansour"},
     {coords=util.vector3(132789.78,-28792.016,1464.7836),cellId=nil},
     {coords=util.vector3(-256.0,448.0,-256.0),cellId="Vivec, St. Olms Yngling Manor"},
+    {coords=util.vector3(55341.137,-54001.758,1330.776),cellId=nil},
     {coords=util.vector3(4041.2737,4021.1616,14547.653),cellId="Strange Shipwreck, Upper Level"},
     {coords=util.vector3(2489.7673,3496.474,13537.766),cellId="Yakin, Shrine"},
     {coords=util.vector3(5312.0,2624.0,12928.0),cellId="Vivec, Hall of Wisdom"},
@@ -705,39 +696,35 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-13153.365,19950.012,1616.0),cellId=nil},
     {coords=util.vector3(4182.4385,4060.8477,-1035.858),cellId="Obscure Shipwreck, Lower Level"},
     {coords=util.vector3(1952.0,3120.0,12384.0),cellId="Vivec, St. Delyn Canalworks"},
-    {coords=util.vector3(22912.0,-54582.0,1044.0),cellId="Dren Plantation"},
-    {coords=util.vector3(29918.984,-80817.03,3103.3428),cellId="Vivec, Foreign Quarter"},
     {coords=util.vector3(2998.637,5120.137,80.0),cellId="Shrine of Azura"},
     {coords=util.vector3(4096.0,4640.0,14264.0),cellId="Tel Branora, Upper Tower"},
     {coords=util.vector3(63029.637,184723.45,259.109),cellId=nil},
     {coords=util.vector3(-2752.0,2496.0,-416.0),cellId="Bensamsi"},
     {coords=util.vector3(1280.939,3776.711,483.291),cellId="Odirnamat"},
-    {coords=util.vector3(35580.332,-95288.96,1887.3419),cellId="Vivec, St. Olms"},
     {coords=util.vector3(1920.0,-576.0,128.0),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(-59.955902,-678.687,-385.309),cellId="Vivec, Palace of Vivec"},
     {coords=util.vector3(20.75113,-605.18274,-423.0496),cellId="Holamayan Monastery"},
-    {coords=util.vector3(-11007.254,-67859.51,426.60397),cellId="Seyda Neen"},
-    {coords=util.vector3(1.4855739,4602.5483,-32.140797),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(-19339.254,-38140.613,410.36206),cellId=nil},
+    {coords=util.vector3(1.4855739,4602.5483,-32.140797),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(118120.25,93912.42,1883.913),cellId=nil},
     {coords=util.vector3(607.959,192.812,382.968),cellId="Vos, Varo Tradehouse"},
     {coords=util.vector3(513.1347,-1028.3109,-159.15999),cellId="Vivec, St. Olms Canalworks"},
     {coords=util.vector3(-101.45953,-30.380484,-29.298422),cellId="Seyda Neen, Draren Thiralas' House"},
     {coords=util.vector3(54744.496,-51717.13,572.7827),cellId=nil},
-    {coords=util.vector3(19792.0,-53056.0,760.0),cellId="Dren Plantation"},
+    {coords=util.vector3(88280.24,8549.255,1854.6698),cellId=nil},
     {coords=util.vector3(0.0,256.0,352.0),cellId="Suran, Ralds Oril: Trader"},
     {coords=util.vector3(-4956.103,153262.42,2408.267),cellId=nil},
-    {coords=util.vector3(76566.39,83458.49,880.942),cellId="Zainab Camp"},
     {coords=util.vector3(1014.2815,1119.3011,-1071.9999),cellId="Pelagiad, North Wall"},
-    {coords=util.vector3(-22752.146,-12099.918,640.409),cellId="Balmora"},
     {coords=util.vector3(1937.453,3650.716,15324.959),cellId="Heleran Ancestral Tomb"},
     {coords=util.vector3(-44131.07,-13943.971,109.134),cellId=nil},
     {coords=util.vector3(1125.542,2239.312,16751.488),cellId="Tel Vos, Central Tower"},
     {coords=util.vector3(987.9977,-960.00073,256.0),cellId="Andalen Ancestral Tomb"},
+    {coords=util.vector3(35414.7,-91060.8,670.7501),cellId=nil},
     {coords=util.vector3(4415.094,3900.289,14233.037),cellId="Dagoth Ur, Facility Cavern"},
     {coords=util.vector3(34559.582,62169.758,9317.395),cellId=nil},
     {coords=util.vector3(-640.0,704.0,128.0),cellId="Sadrith Mora, Tel Naga General Quarters"},
     {coords=util.vector3(-50502.445,36143.312,1101.786),cellId=nil},
+    {coords=util.vector3(-35528.246,78465.0,1804.263),cellId=nil},
     {coords=util.vector3(72480.234,117491.836,884.42535),cellId=nil},
     {coords=util.vector3(1583.7727,-433.65286,1587.7852),cellId="Vivec, Redoran Plaza"},
     {coords=util.vector3(-1149.5116,-234.16585,-552.7523),cellId="Vivec, High Fane"},
@@ -757,11 +744,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4175.454,4002.684,15248.716),cellId="Khuul, Svadstar's Shack"},
     {coords=util.vector3(32695.143,-91790.86,-283.49744),cellId=nil},
     {coords=util.vector3(-68.0,-842.0,828.0),cellId="Ilunibi, Carcass of the Saint"},
+    {coords=util.vector3(-87550.43,126042.016,396.205),cellId=nil},
     {coords=util.vector3(491.731,24.524,601.808),cellId="Balmora, Hlaalo Manor"},
     {coords=util.vector3(29869.787,-78190.84,1876.6538),cellId=nil},
     {coords=util.vector3(126160.0,-102200.0,1696.0),cellId=nil},
-    {coords=util.vector3(11684.875,173517.9,2019.5083),cellId="Sanctus Shrine"},
     {coords=util.vector3(4160.0,4096.0,15808.0),cellId="Massahanud Camp, Sargon's Yurt"},
+    {coords=util.vector3(-35877.84,-38059.594,2039.536),cellId=nil},
     {coords=util.vector3(-422.0,-3050.0,188.0),cellId="Urshilaku, Karma Burial"},
     {coords=util.vector3(0.0,-384.0,0.0),cellId="Maar Gan, Assirari Zama-Rasour's Hut"},
     {coords=util.vector3(-464.0,-12.0,224.0),cellId="Caldera, Ghorak Manor"},
@@ -769,7 +757,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-29.021727,-1534.7389,113.73785),cellId="Vivec, Hlaalu Plaza"},
     {coords=util.vector3(2944.0,-320.0,-128.0),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(54269.344,153974.17,1860.403),cellId=nil},
-    {coords=util.vector3(25698.297,-95239.49,-247.164),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(-381.95,-448.06,-384.0),cellId="Vivec, Hlaalu Records"},
     {coords=util.vector3(256.0,1952.0,376.0),cellId="Ularradallaku, Shrine"},
     {coords=util.vector3(1957.1093,-576.0,-384.0),cellId="Vivec, St. Olms Waistworks"},
@@ -781,18 +768,16 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(126912.0,-38080.0,1344.0),cellId=nil},
     {coords=util.vector3(3904.397,3134.9275,223.918),cellId="Vassir-Didanat Cave"},
     {coords=util.vector3(131.88417,-633.0737,427.98297),cellId="Tel Mora, Nona's House"},
-    {coords=util.vector3(34639.598,-20243.893,2142.0),cellId="Marandus"},
-    {coords=util.vector3(30904.967,-93312.0,2235.6597),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(43.435,-128.406,-41.466),cellId="Seyda Neen, Vodunius Nuccius' House"},
     {coords=util.vector3(29868.832,-78507.12,3104.9993),cellId=nil},
     {coords=util.vector3(0.0,160.0,128.0),cellId="Suran, Suran Slave Market"},
+    {coords=util.vector3(54737.863,-54154.758,1027.792),cellId=nil},
     {coords=util.vector3(68.230156,65.22634,-169.64014),cellId="Vivec, Saren Manor"},
     {coords=util.vector3(38614.23,189548.44,716.8685),cellId=nil},
     {coords=util.vector3(0.0,1892.0,250.0),cellId="Corprusarium"},
     {coords=util.vector3(-13191.901,19662.219,1657.213),cellId=nil},
     {coords=util.vector3(20690.623,-84353.24,1880.3279),cellId=nil},
     {coords=util.vector3(149.70607,-13.084384,236.59114),cellId="Sadrith Mora, Urtiso Faryon: Sorcerer"},
-    {coords=util.vector3(-22460.117,104908.99,2257.378),cellId="Maar Gan"},
     {coords=util.vector3(-616.2227,265.6207,-256.9976),cellId="Vivec, St. Olms Canalworks"},
     {coords=util.vector3(149768.45,40166.44,1072.0),cellId=nil},
     {coords=util.vector3(15608.048,-5210.6323,1195.479),cellId=nil},
@@ -808,12 +793,10 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1130.7632,-141.98207,-289.70627),cellId="Gnisis, Barracks"},
     {coords=util.vector3(-1536.0,1152.0,-1008.0),cellId="Buckmoth Legion Fort, Towers"},
     {coords=util.vector3(-9.748527,-18.91238,80.983696),cellId="Pelagiad, Madres Navur's House"},
-    {coords=util.vector3(112149.59,-62510.26,2142.971),cellId="Molag Mar"},
     {coords=util.vector3(6724.9043,2605.1887,-399.67224),cellId="Ashinabi, Smuggler Den"},
     {coords=util.vector3(4315.52,3936.4575,13818.692),cellId="Khuul, Thongar's Tradehouse"},
     {coords=util.vector3(3424.0,-389.2678,-448.0),cellId="Verelnim Ancestral Tomb"},
     {coords=util.vector3(57.63828,-3042.4614,155.86243),cellId="Clutter Warehouse - Everything Must Go!"},
-    {coords=util.vector3(94908.16,135553.2,1052.818),cellId="Ahemmusa Camp"},
     {coords=util.vector3(2240.0,-768.0,-736.0),cellId="Druscashti, Upper Level"},
     {coords=util.vector3(3927.482,6547.334,11748.236),cellId="Maelkashishi, Shrine, Forgotten Galleries"},
     {coords=util.vector3(-66.381,-52.595,-38.317),cellId="Vivec, St. Delyn Canal North-Two"},
@@ -835,7 +818,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(256.0,320.0,-256.0),cellId="Vivec, Hlaalu Weaponsmith"},
     {coords=util.vector3(1056.0,-4588.1494,2016.0),cellId="Veloth Ancestral Tomb"},
     {coords=util.vector3(256.0,128.0,384.0),cellId="Balmora, Vorar Helas' House"},
-    {coords=util.vector3(30900.578,-86912.0,2234.3809),cellId="Vivec, Redoran"},
     {coords=util.vector3(-119654.39,120392.88,-1428.948),cellId=nil},
     {coords=util.vector3(-28195.902,19490.031,1674.877),cellId=nil},
     {coords=util.vector3(511.3393,87.94018,-45.15173),cellId="Dagon Fel, End of the World Renter Rooms"},
@@ -860,36 +842,34 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(144.0,-8.0,232.0),cellId="Tel Aruhn, Bildren Areleth: Apothecary"},
     {coords=util.vector3(0.0,0.0,-32.0),cellId="Vivec, The Lizard's Head"},
     {coords=util.vector3(18105.879,-103018.016,1408.0),cellId=nil},
-    {coords=util.vector3(-17723.537,-15112.84,581.438),cellId="Balmora"},
     {coords=util.vector3(1415.4004,-1002.6526,104.938126),cellId="Pelagiad, Uulernil : Armorer"},
     {coords=util.vector3(1260.0,-260.0,133.0),cellId="Tureynulal, Bladder of Clovis"},
-    {coords=util.vector3(33119.242,-95373.97,-247.16382),cellId="Vivec, St. Olms"},
     {coords=util.vector3(261.74866,-668.7687,-1450.2206),cellId="Pelagiad, South Wall"},
     {coords=util.vector3(5642.0,4286.0,13594.0),cellId="Urshilaku, Kakuna Burial"},
-    {coords=util.vector3(27435.383,-79343.65,1886.474),cellId="Vivec, Foreign Quarter"},
-    {coords=util.vector3(152398.75,29790.646,665.5167),cellId="Wolverine Hall"},
-    {coords=util.vector3(-13780.574,42599.426,3064.52),cellId="Buckmoth Legion Fort"},
     {coords=util.vector3(31029.162,-93308.93,2129.7456),cellId=nil},
-    {coords=util.vector3(-67993.39,141319.28,389.747),cellId="Khuul"},
     {coords=util.vector3(3321.552,4298.267,13264.0),cellId="Bal Fell, East Wing"},
+    {coords=util.vector3(56336.73,-53244.16,1336.414),cellId=nil},
     {coords=util.vector3(-8695.768,58477.617,2677.996),cellId=nil},
+    {coords=util.vector3(-8584.352,-73710.805,233.497),cellId=nil},
     {coords=util.vector3(64.0,128.0,192.0),cellId="Balmora, Drarayne Thelas' Storage"},
     {coords=util.vector3(1.584,-382.595,0.0),cellId="Maar Gan, Ulisamsi Shaddarnuran's Hut"},
-    {coords=util.vector3(27717.492,-79159.84,3101.869),cellId="Vivec, Foreign Quarter"},
+    {coords=util.vector3(3448.0,120000.0,1472.0),cellId=nil},
     {coords=util.vector3(-14257.004,174980.58,161.878),cellId=nil},
     {coords=util.vector3(2506.593,-56048.395,1569.628),cellId=nil},
-    {coords=util.vector3(-35229.6,79771.03,1838.592),cellId="Bal Isra"},
     {coords=util.vector3(4421.642,7427.772,11234.44),cellId="Assemanu, Shrine"},
     {coords=util.vector3(1215.7328,3777.1187,-1312.0),cellId="Piran"},
     {coords=util.vector3(67674.44,-20579.842,1131.872),cellId=nil},
     {coords=util.vector3(-21477.361,-33792.465,837.129),cellId=nil},
     {coords=util.vector3(4052.89,3998.216,-539.071),cellId="Neglected Shipwreck, Upper Level"},
+    {coords=util.vector3(-59113.062,26114.977,303.457),cellId=nil},
     {coords=util.vector3(-1532.0,3176.0,634.0),cellId="Corprusarium"},
     {coords=util.vector3(204.0,204.0,144.0),cellId="Tureynulal, Eye of Thom Wye"},
     {coords=util.vector3(480.0,-1920.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
+    {coords=util.vector3(-13239.811,21234.115,1661.778),cellId=nil},
     {coords=util.vector3(-11.43708,123.94769,-171.6751),cellId="Vivec, Hlaalu General Goods"},
     {coords=util.vector3(-42.381,429.009,-168.576),cellId="Erabenimsun Camp, Salattanat's Yurt"},
     {coords=util.vector3(-4391.033,3708.4048,-668.0),cellId="Dun-Ahhe"},
+    {coords=util.vector3(108291.74,119462.24,740.052),cellId=nil},
     {coords=util.vector3(-128.0,624.0,-32.0),cellId="Ebonheart, Grand Council Chambers Tower"},
     {coords=util.vector3(-1088.0,768.0,-384.0),cellId="Ald-ruhn, Venim Manor Private Quarters"},
     {coords=util.vector3(4348.722,3601.198,461.352),cellId="Derelict Shipwreck, Upper Level"},
@@ -898,8 +878,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4040.939,3342.458,-423.585),cellId="Desolate Shipwreck, Upper Level"},
     {coords=util.vector3(0.0,0.0,0.0),cellId="Urshilaku Camp, Shimsun's Yurt"},
     {coords=util.vector3(-864.2076,1609.3945,-268.3699),cellId="Sadrith Mora, Gateway Inn: West Wing"},
+    {coords=util.vector3(-24340.48,-11413.808,1128.974),cellId=nil},
     {coords=util.vector3(1806.098,80759.914,4616.0),cellId=nil},
-    {coords=util.vector3(128343.164,-103464.92,797.652),cellId="Tel Branora"},
     {coords=util.vector3(20.356329,250.91995,90.64578),cellId="Balmora, Nalcarya of White Haven: Fine Alchemist"},
     {coords=util.vector3(-400.26163,763.25024,979.7328),cellId="Ebonheart, Grand Council Chambers"},
     {coords=util.vector3(-1192.379,7707.743,-2136.206),cellId="Falasmaryon, Lower Level"},
@@ -922,10 +902,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(5244.0,2420.0,12184.0),cellId="Corprusarium Bowels"},
     {coords=util.vector3(150.45699,205.83974,-12.559762),cellId="Vivec, Tervur Braven: Trader"},
     {coords=util.vector3(9.270031,14.894579,-37.861008),cellId="Gnisis, Fort Darius"},
-    {coords=util.vector3(53767.28,-49888.793,315.915),cellId="Suran"},
+    {coords=util.vector3(45033.555,127073.69,736.0458),cellId=nil},
     {coords=util.vector3(21919.637,-42340.44,932.5485),cellId=nil},
-    {coords=util.vector3(32344.5,-79385.07,1887.084),cellId="Vivec, Foreign Quarter"},
-    {coords=util.vector3(86584.0,118784.0,5127.227),cellId="Tel Vos"},
     {coords=util.vector3(64.43,-18.053,-3.732),cellId="Elanius Camp, Yapal's Yurt"},
     {coords=util.vector3(3955.438,3104.259,-435.939),cellId="Desolate Shipwreck, Upper Level"},
     {coords=util.vector3(26497.143,-93975.45,1883.865),cellId=nil},
@@ -942,6 +920,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(320.0,-384.0,-512.0),cellId="Vivec, St. Olms Yngling Manor"},
     {coords=util.vector3(3584.0,120064.0,1504.0),cellId=nil},
     {coords=util.vector3(3134.27,-237.727,-27.259),cellId="Mzahnch"},
+    {coords=util.vector3(35773.977,-20853.12,1438.0),cellId=nil},
     {coords=util.vector3(991.51904,2300.3398,16735.39),cellId="Tel Vos, Central Tower"},
     {coords=util.vector3(-190.99059,180.81537,-167.75552),cellId="Vivec, Elven Nations Cornerclub"},
     {coords=util.vector3(2077.756,-749.603,-752.0),cellId="Druscashti, Upper Level"},
@@ -952,13 +931,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-88101.07,118886.695,1695.0151),cellId=nil},
     {coords=util.vector3(350.5,66.672,-529.98),cellId="Tel Uvirith, Tower Dungeon"},
     {coords=util.vector3(4415.094,3868.289,14233.037),cellId="Dagoth Ur, Facility Cavern"},
-    {coords=util.vector3(60254.992,182066.92,560.659),cellId="Dagon Fel"},
+    {coords=util.vector3(53768.0,-49888.0,582.52704),cellId=nil},
     {coords=util.vector3(-448.00006,1152.0,224.0),cellId="Mzahnch Lower Level"},
     {coords=util.vector3(49.215,-107.09,94.128),cellId="Seyda Neen, Erene Llenim's Shack"},
     {coords=util.vector3(-48.0,32.0,256.0),cellId="Caldera, South Guard Towers"},
     {coords=util.vector3(-25588.635,-12830.934,1122.359),cellId=nil},
     {coords=util.vector3(-826.79285,357.83356,309.69543),cellId="Vivec, Foreign Quarter Plaza"},
-    {coords=util.vector3(-3712.0,-18496.0,2103.584),cellId="Moonmoth Legion Fort"},
     {coords=util.vector3(186.482,-50.244,119.405),cellId="Rayna Drolan's Shack"},
     {coords=util.vector3(-1220.824,-637.40497,-928.0),cellId="Pelagiad, South Wall"},
     {coords=util.vector3(3607.274,-74964.6,335.458),cellId=nil},
@@ -966,15 +944,18 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(6576.0,1088.0,288.0),cellId="Vivec, Hlaalu Underworks"},
     {coords=util.vector3(4071.0134,2868.5286,14764.096),cellId="Hla Oad, Relien Rirne's House"},
     {coords=util.vector3(-352.0,384.0,224.0),cellId="Suran, Ranosa Gilvayn: Outfitter"},
+    {coords=util.vector3(18169.879,-103034.016,1301.268),cellId=nil},
     {coords=util.vector3(-1376.0,412.0,1728.0),cellId="Saren Ancestral Tomb"},
+    {coords=util.vector3(152398.75,29790.646,665.5167),cellId=nil},
     {coords=util.vector3(2146.0,2235.0,320.0),cellId="Ilunibi, Marowak's Spine"},
     {coords=util.vector3(4286.531,3605.06,-43.20508),cellId="Unexplored Shipwreck, Upper Level"},
     {coords=util.vector3(3744.0,3824.0,15408.0),cellId="Balmora, Eastern Guard Tower"},
+    {coords=util.vector3(-21884.814,-13718.51,659.995),cellId=nil},
     {coords=util.vector3(-53125.9,-2082.425,-20.27824),cellId=nil},
     {coords=util.vector3(-43498.47,87476.805,1440.866),cellId=nil},
+    {coords=util.vector3(-26089.826,150316.42,800.8568),cellId=nil},
     {coords=util.vector3(-721.0075,7170.377,-546.3589),cellId="Ahanibi-Malmus Egg Mine"},
     {coords=util.vector3(-19771.824,-50240.418,401.508),cellId=nil},
-    {coords=util.vector3(13211.967,-101236.45,1019.615),cellId="Ebonheart"},
     {coords=util.vector3(39176.004,-87580.25,1878.5448),cellId=nil},
     {coords=util.vector3(0.0,0.0,64.0),cellId="Odrosal, Dwemer Training Academy"},
     {coords=util.vector3(-3113.1555,2057.5906,739.189),cellId="Zainsipilu"},
@@ -982,17 +963,16 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-298.42996,-96.19117,209.169),cellId="Tel Mora, Lower Tower"},
     {coords=util.vector3(2684.681,1985.365,12672.0),cellId="Bal Fell, East Wing"},
     {coords=util.vector3(-42.824,-14.804,-15.64),cellId="Vivec, St. Delyn Canal North-Three"},
-    {coords=util.vector3(126257.16,46799.492,904.07),cellId="Tel Aruhn"},
     {coords=util.vector3(-188.0,1354.0,384.0),cellId="Hlaalu Ancestral Tomb"},
     {coords=util.vector3(6542.391,51.935062,-160.0),cellId="Vivec, Simine Fralinie: Bookseller"},
     {coords=util.vector3(4.881,-193.521,101.787),cellId="Shushan"},
     {coords=util.vector3(5376.0,4416.0,14624.0),cellId="Arkngthand, Weepingbell Hall"},
     {coords=util.vector3(3505.272,1641.2911,15362.98),cellId="Dagon Fel, Sorkvild's Tower"},
     {coords=util.vector3(-2368.0,5760.0,-288.0),cellId="Mul Grotto"},
-    {coords=util.vector3(19019.559,70381.94,11877.928),cellId="Dagoth Ur"},
     {coords=util.vector3(15801.879,-101050.016,1056.0),cellId=nil},
     {coords=util.vector3(-1216.003,-448.001,350.13),cellId="Yassu Mine"},
     {coords=util.vector3(5120.0,3585.6587,0.0),cellId="Vivec, Puzzle Canal, Level 3"},
+    {coords=util.vector3(29011.412,-69611.234,764.7358),cellId=nil},
     {coords=util.vector3(-604.81586,4852.8154,-942.64996),cellId="Marvani Ancestral Tomb"},
     {coords=util.vector3(960.0,-834.0,-1568.0),cellId="Matus-Akin Egg Mine"},
     {coords=util.vector3(125831.84,-104371.125,760.201),cellId=nil},
@@ -1003,30 +983,27 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3820.6367,4785.2363,14679.604),cellId="Strange Shipwreck, Upper Level"},
     {coords=util.vector3(-37659.395,-69956.555,322.489),cellId=nil},
     {coords=util.vector3(1216.0,-160.0,-512.0),cellId="Kogoruhn, Hall of Phisto"},
+    {coords=util.vector3(30098.633,-91064.36,670.75006),cellId=nil},
     {coords=util.vector3(-26259.129,6842.185,969.13),cellId=nil},
-    {coords=util.vector3(20688.0,-53056.0,744.0),cellId="Dren Plantation"},
     {coords=util.vector3(1472.0,912.0,304.0),cellId="Vivec, Arena Underworks"},
     {coords=util.vector3(63.998,-1472.0,-2081.87),cellId="Abaesen-Pulu Egg Mine"},
-    {coords=util.vector3(-24340.48,-11413.808,1128.974),cellId="Balmora"},
     {coords=util.vector3(1578.679,2566.5,600.062),cellId="Punabi"},
+    {coords=util.vector3(23244.0,-54396.0,1302.0),cellId=nil},
     {coords=util.vector3(1776.0,7072.0,208.0),cellId="Vivec, St. Olms Underworks"},
     {coords=util.vector3(-45631.312,140746.97,1498.063),cellId=nil},
-    {coords=util.vector3(54590.523,-51499.53,335.786),cellId="Suran"},
     {coords=util.vector3(408.371,767.139,-484.567),cellId="Telasero, Propylon Chamber"},
+    {coords=util.vector3(-4330.638,-17424.0,1871.148),cellId=nil},
     {coords=util.vector3(-1.904,-852.325,-113.977),cellId="Ald-ruhn, The Rat In The Pot"},
     {coords=util.vector3(4500.1978,4447.4443,-142.266),cellId="Neglected Shipwreck, Upper Level"},
     {coords=util.vector3(-5504.0,4288.0,-160.0),cellId="Mudan Grotto"},
     {coords=util.vector3(752.0,-1712.0,1280.0),cellId="Moonmoth Legion Fort, Prison Towers"},
-    {coords=util.vector3(-21536.31,102676.3,2080.851),cellId="Maar Gan"},
     {coords=util.vector3(9545.879,-100682.016,2656.0),cellId=nil},
     {coords=util.vector3(151.95737,1.0436995,235.61363),cellId="Sadrith Mora, Balen Vendu: Monk"},
-    {coords=util.vector3(-60569.133,25961.91,428.58),cellId="Gnaar Mok"},
+    {coords=util.vector3(-16534.422,-12304.993,311.667),cellId=nil},
     {coords=util.vector3(4096.0,2432.0,15744.0),cellId="Omani Manor"},
     {coords=util.vector3(-452.0,388.0,-1568.0),cellId="Pelagiad, North Wall"},
     {coords=util.vector3(-128.0,64.0,-128.0),cellId="Vivec, St. Olms Yngling Manor Basement"},
-    {coords=util.vector3(-88584.516,97028.93,1996.817),cellId="Gnisis"},
     {coords=util.vector3(5690.064,-182.24,-287.9446),cellId="Vivec, Telvanni Mage"},
-    {coords=util.vector3(109606.53,116993.19,495.084),cellId="Tel Mora"},
     {coords=util.vector3(-746.0,-1275.0,11.0),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(2065.5796,4868.074,13521.433),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(717.3876,-2226.5693,155.70227),cellId="Clutter Warehouse - Everything Must Go!"},
@@ -1034,11 +1011,10 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-356.3,-128.69,13.362),cellId="Gnisis, Barracks"},
     {coords=util.vector3(54183.457,-106773.78,630.60785),cellId=nil},
     {coords=util.vector3(2048.0,-64.0,-256.0),cellId="Ald-ruhn, Llethri Manor Bedrooms"},
-    {coords=util.vector3(-68416.0,46644.434,1792.0),cellId="Andasreth"},
     {coords=util.vector3(9668.223,4624.027,1826.485),cellId=nil},
     {coords=util.vector3(-1236.3164,822.2656,-1793.104),cellId="Vivec, St. Olms Plaza"},
-    {coords=util.vector3(-67555.46,45834.527,2464.0),cellId="Andasreth"},
     {coords=util.vector3(-177.89986,1854.8961,-1136.0),cellId="Tel Branora, Upper Tower: Therana's Chamber"},
+    {coords=util.vector3(13043.356,-100871.73,1761.791),cellId=nil},
     {coords=util.vector3(125.288,-239.207,-41.447),cellId="Seyda Neen, Eldafire's House"},
     {coords=util.vector3(-896.0,-64.0,-128.0),cellId="Vivec, Hlaalu Treasury"},
     {coords=util.vector3(-47958.58,3874.781,125.992),cellId=nil},
@@ -1048,33 +1024,38 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(86480.84,119011.805,5668.22),cellId=nil},
     {coords=util.vector3(14581.23,-17301.87,1011.252),cellId=nil},
     {coords=util.vector3(68405.47,6207.896,1356.587),cellId=nil},
-    {coords=util.vector3(-27201.566,149236.53,795.4346),cellId="Urshilaku Camp"},
     {coords=util.vector3(6633.398,4859.742,13534.85),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(5312.0,6464.0,12672.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(20450.357,92972.79,9266.56),cellId=nil},
+    {coords=util.vector3(-86460.11,97143.484,1672.232),cellId=nil},
+    {coords=util.vector3(18882.006,-101348.36,425.462),cellId=nil},
     {coords=util.vector3(-112.0,-112.0,0.0),cellId="Moonmoth Legion Fort, Interior"},
-    {coords=util.vector3(4697.148,-57241.85,2299.421),cellId="Pelagiad"},
+    {coords=util.vector3(-3801.603,-18675.725,1229.318),cellId=nil},
+    {coords=util.vector3(77117.336,-54004.043,1417.639),cellId=nil},
+    {coords=util.vector3(93581.59,-39427.64,6443.8613),cellId=nil},
+    {coords=util.vector3(86624.0,119200.0,4999.227),cellId=nil},
     {coords=util.vector3(336.0,768.0,-432.0),cellId="Assernerairan, Shrine"},
     {coords=util.vector3(9770.682,-65312.94,575.99),cellId=nil},
-    {coords=util.vector3(36549.43,-91053.664,670.7501),cellId="Vivec, St. Olms"},
     {coords=util.vector3(-639.9314,157.7119,-257.02597),cellId="Vivec, Telvanni Canalworks"},
     {coords=util.vector3(-47549.605,67974.73,2314.1135),cellId=nil},
     {coords=util.vector3(109.479385,590.4406,63.079),cellId="Grytewake, Upper Level"},
+    {coords=util.vector3(-62635.082,28071.387,951.559),cellId=nil},
     {coords=util.vector3(-66897.08,139876.3,149.82771),cellId=nil},
+    {coords=util.vector3(149527.31,32305.79,889.325),cellId=nil},
     {coords=util.vector3(-66967.26,140768.58,330.18314),cellId=nil},
     {coords=util.vector3(2160.0,2048.0,-32.0),cellId="Ald-ruhn, Redoran Council Entrance"},
     {coords=util.vector3(-1160.0,8.0,-80.0),cellId="Caldera, Mining Company Office"},
     {coords=util.vector3(832.0,-133.25175,-128.0),cellId="Vivec, Telvanni Vault"},
     {coords=util.vector3(127812.63,-81139.23,128.92058),cellId=nil},
+    {coords=util.vector3(13568.809,-102287.13,1457.126),cellId=nil},
+    {coords=util.vector3(95799.76,135859.61,1052.818),cellId=nil},
     {coords=util.vector3(960.0,1792.0,-288.0),cellId="Nimawia Grotto"},
     {coords=util.vector3(-685.7708,-500.5514,237.26077),cellId="Vivec, St. Delyn Waistworks"},
     {coords=util.vector3(4562.649,3827.289,14439.877),cellId="Tel Aruhn, Tower Entry"},
-    {coords=util.vector3(-21884.814,-13718.51,659.995),cellId="Balmora"},
     {coords=util.vector3(0.0,384.0,128.0),cellId="Balmora, Nalcarya of White Haven: Fine Alchemist"},
     {coords=util.vector3(512.0,-112.0,-32.0),cellId="Ald-ruhn, Tuveso Beleth: Smith"},
+    {coords=util.vector3(-12295.522,-70033.055,444.112),cellId=nil},
     {coords=util.vector3(95240.0,115648.0,1779.7047),cellId=nil},
-    {coords=util.vector3(-20066.996,103785.2,2094.569),cellId="Maar Gan"},
-    {coords=util.vector3(1153.856,-52873.184,614.432),cellId="Pelagiad"},
     {coords=util.vector3(127840.09,94267.62,-313.37518),cellId=nil},
     {coords=util.vector3(-87698.86,126071.32,391.2822),cellId=nil},
     {coords=util.vector3(101303.53,115269.3,209.673),cellId=nil},
@@ -1089,10 +1070,11 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(302.738,504.307,-368.0),cellId="Falasmaryon, Propylon Chamber"},
     {coords=util.vector3(17.336,10.329,0.0),cellId="Mamshar-Disamus Camp, Maesat's Yurt"},
     {coords=util.vector3(512.0,-2144.0,96.0),cellId="Ald-ruhn, Venim Manor Private Quarters"},
-    {coords=util.vector3(96803.95,115478.95,1538.4615),cellId="Vos"},
+    {coords=util.vector3(150723.83,40176.613,1158.49),cellId=nil},
     {coords=util.vector3(352.0,0.0,128.0),cellId="Tel Aruhn, Aryne Telnim: Smith"},
     {coords=util.vector3(4832.0,8672.0,160.0),cellId="Urshilaku, Laterus Burial"},
     {coords=util.vector3(1408.0,384.0,-256.0),cellId="Vivec, Saren Manor"},
+    {coords=util.vector3(-22162.791,-16683.48,646.02),cellId=nil},
     {coords=util.vector3(0.0,384.0,384.0),cellId="Balmora, Nalcarya of White Haven: Fine Alchemist"},
     {coords=util.vector3(1214.0,-1208.0,304.0),cellId="Hlormaren, Keep, Top Level"},
     {coords=util.vector3(-3936.0,-18688.0,1221.2034),cellId=nil},
@@ -1103,12 +1085,11 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(167.631,-466.192,199.842),cellId="Grytewake, Upper Level"},
     {coords=util.vector3(96.0,256.0,-144.0),cellId="Sterdecan's Farmhouse"},
     {coords=util.vector3(3642.0,-3002.0,224.0),cellId="Gnisis, Lower Eggmine"},
-    {coords=util.vector3(6567.42,-54631.047,2300.314),cellId="Pelagiad"},
     {coords=util.vector3(-74100.83,91543.08,-303.3673),cellId=nil},
     {coords=util.vector3(144257.64,-33799.027,811.84576),cellId=nil},
-    {coords=util.vector3(-10807.743,17137.932,1364.681),cellId="Caldera"},
     {coords=util.vector3(63394.504,-45814.4,1181.7422),cellId=nil},
     {coords=util.vector3(3717.8477,4311.1924,14529.491),cellId="Dren Plantation, Doves' Shack"},
+    {coords=util.vector3(-22161.74,-16683.672,912.632),cellId=nil},
     {coords=util.vector3(3968.0,6048.0,1600.0),cellId="Ilunibi, Carcass of the Saint"},
     {coords=util.vector3(-1794.4341,-2715.8506,-158.12965),cellId="Ald Daedroth, Outer Shrine"},
     {coords=util.vector3(-896.0,-192.0,256.0),cellId="Vivec, Telvanni Canalworks"},
@@ -1118,11 +1099,11 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(6755.69,-64165.688,265.884),cellId=nil},
     {coords=util.vector3(3839.232,4873.243,18388.6),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(3843.246,3666.336,14839.558),cellId="Dren Plantation, Tower Shack"},
-    {coords=util.vector3(32216.79,-106784.48,1714.3561),cellId="Vivec, Temple"},
     {coords=util.vector3(3642.9412,-530.5545,288.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(-168.07442,-831.7961,128.0),cellId="Caldera, Mining Bunkhouse"},
     {coords=util.vector3(717.3979,1.7658728,720.0),cellId="Moonmoth Legion Fort, Prison Towers"},
     {coords=util.vector3(1774.0,7166.0,440.0),cellId="Ilunibi, Marowak's Spine"},
+    {coords=util.vector3(17759.176,-102440.734,436.0),cellId=nil},
     {coords=util.vector3(-211.48344,-2564.354,-581.8906),cellId="Indoranyon"},
     {coords=util.vector3(1390.3799,-392.2131,32.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(148337.55,32709.172,849.19684),cellId=nil},
@@ -1131,8 +1112,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-4.6721044,-110.8206,106.22572),cellId="Ashinabi"},
     {coords=util.vector3(76953.05,94998.35,1305.152),cellId=nil},
     {coords=util.vector3(0.0,-384.0,-64.0),cellId="Maar Gan, Kind Erushara's Hut"},
-    {coords=util.vector3(-16534.422,-12304.993,311.667),cellId="Balmora"},
     {coords=util.vector3(3631.586,-5163.52,229.514),cellId="Gnisis, Lower Eggmine"},
+    {coords=util.vector3(108299.9,118318.88,1587.65),cellId=nil},
     {coords=util.vector3(2196.87,1340.8887,224.0),cellId="Ebonheart, East Empire South Warehouse"},
     {coords=util.vector3(1537.18,2623.739,96.354),cellId="Yakanalit"},
     {coords=util.vector3(1258.9133,545.3293,-1804.7626),cellId="Vivec, St. Olms Plaza"},
@@ -1141,44 +1122,44 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1792.0,64.0,128.0),cellId="Ald-ruhn, Redoran Council Hall"},
     {coords=util.vector3(-32.719,358.233,-94.389),cellId="Urshilaku Camp, Maeli's Yurt"},
     {coords=util.vector3(-624.0,-480.0,-160.0),cellId="Vivec, St. Olms Canalworks"},
+    {coords=util.vector3(-22676.36,102663.7,2064.338),cellId=nil},
     {coords=util.vector3(-400.0,0.0,128.0),cellId="Balmora, Hlaalu Council Manor"},
-    {coords=util.vector3(12560.169,-102884.11,864.0),cellId="Ebonheart"},
-    {coords=util.vector3(9533.879,-100822.016,2652.0),cellId="Ebonheart"},
+    {coords=util.vector3(126306.74,-102201.69,1724.691),cellId=nil},
+    {coords=util.vector3(23234.0,-53556.0,1132.0),cellId=nil},
     {coords=util.vector3(0.0,-384.0,-128.0),cellId="Ald-ruhn, Drinar Varyon's House"},
     {coords=util.vector3(-2547.1414,1686.7339,224.0),cellId="Ebonheart, East Empire South Warehouse"},
     {coords=util.vector3(-512.0,-384.0,128.0),cellId="Balmora, Guild of Mages"},
     {coords=util.vector3(260.0,-32.0,112.0),cellId="Seyda Neen, Indrele Rathryon's Shack"},
-    {coords=util.vector3(3472.004,-57655.39,1657.251),cellId="Pelagiad"},
     {coords=util.vector3(2112.0,2432.0,-288.0),cellId="Arkngthand, Hall of Centrifuge"},
     {coords=util.vector3(-27304.633,149539.6,791.23267),cellId=nil},
     {coords=util.vector3(-191.99927,6208.0,-1856.0),cellId="Falasmaryon, Lower Level"},
     {coords=util.vector3(6256.0,288.0,-96.0),cellId="Vivec, Hall Underworks"},
+    {coords=util.vector3(36500.664,-95573.96,671.08813),cellId=nil},
     {coords=util.vector3(-64.4006,-78.596054,0.0),cellId="Sobitbael Camp, Mal's Yurt"},
     {coords=util.vector3(1887.966,109.534,-80.695),cellId="Vivec, Arena Underworks"},
     {coords=util.vector3(-1920.0,-1216.0,128.0),cellId="Vivec, St. Delyn Waistworks"},
-    {coords=util.vector3(95246.12,115494.96,1795.4476),cellId="Vos"},
+    {coords=util.vector3(-46578.203,-39240.49,296.742),cellId=nil},
     {coords=util.vector3(68.0,4.0,96.0),cellId="Kudanat"},
     {coords=util.vector3(88368.56,59570.234,1148.9574),cellId=nil},
     {coords=util.vector3(-1931.2078,256.649,1167.7622),cellId="Dagon Fel, Vacant Tower"},
     {coords=util.vector3(31756.045,-103145.62,669.1405),cellId=nil},
-    {coords=util.vector3(-84409.81,93293.56,1119.2765),cellId="Gnisis"},
     {coords=util.vector3(0.0,-384.0,0.0),cellId="Ald-ruhn, Gindrala Hleran's House"},
     {coords=util.vector3(672.0,-416.0,128.0),cellId="Sadrith Mora, Wolverine Hall: Fighter's Guild"},
     {coords=util.vector3(-481.93015,-429.7581,209.98071),cellId="Buckmoth Legion Fort, Interior"},
     {coords=util.vector3(35833.527,-20689.791,1454.0),cellId=nil},
+    {coords=util.vector3(-13465.633,-70987.65,190.05785),cellId=nil},
     {coords=util.vector3(1786.698,830.678,1264.0),cellId="Senim Ancestral Tomb"},
     {coords=util.vector3(3360.0,-512.0,-352.0),cellId="Verelnim Ancestral Tomb"},
-    {coords=util.vector3(10007.841,-100896.11,2113.872),cellId="Ebonheart"},
+    {coords=util.vector3(-9795.633,20214.775,1377.863),cellId=nil},
     {coords=util.vector3(-42.60473,426.05426,110.49509),cellId="Vivec, Hlaalu Plaza"},
     {coords=util.vector3(2793.5125,-265.89795,-31.503561),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(9.0,-258.0,113.0),cellId="Tureynulal, Bladder of Clovis"},
+    {coords=util.vector3(-14474.569,55244.05,2455.0996),cellId=nil},
     {coords=util.vector3(1696.0,1120.0,96.0),cellId="Vivec, Redoran Underworks"},
     {coords=util.vector3(18372.336,13790.797,1662.2782),cellId=nil},
-    {coords=util.vector3(17782.156,-101039.875,568.154),cellId="Ebonheart"},
+    {coords=util.vector3(18308.736,-102992.625,993.613),cellId=nil},
     {coords=util.vector3(-416.0,36.0,2464.0),cellId="Indalen Ancestral Tomb"},
-    {coords=util.vector3(118543.38,-102708.125,372.458),cellId="Tel Branora"},
     {coords=util.vector3(-15077.446,55837.92,2451.067),cellId=nil},
-    {coords=util.vector3(54621.336,152996.19,1846.4042),cellId="Rotheran"},
     {coords=util.vector3(252.251,3008.118,-1024.0),cellId="Sanni"},
     {coords=util.vector3(4018.5203,4186.739,132.3003),cellId="Neglected Shipwreck, Cabin"},
     {coords=util.vector3(19714.713,38795.26,1369.477),cellId=nil},
@@ -1187,22 +1168,20 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(224.0,200.0,32.0),cellId="Sarano Ancestral Tomb"},
     {coords=util.vector3(150408.97,6829.86,530.283),cellId=nil},
     {coords=util.vector3(-964.882,1535.605,231.375),cellId="Ansi"},
-    {coords=util.vector3(37551.254,-91338.87,1887.3419),cellId="Vivec, St. Olms"},
     {coords=util.vector3(2179.461,9022.917,-411.20245),cellId="Madas-Zebba Egg Mine"},
-    {coords=util.vector3(-22162.791,-16683.48,646.02),cellId="Balmora"},
     {coords=util.vector3(159.807,127.166,0.0),cellId="Pelagiad, Adanja's House"},
     {coords=util.vector3(-64.0,0.0,32.0),cellId="Vivec, Black Shalk Cornerclub"},
     {coords=util.vector3(2560.0,3968.0,14784.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(4278.171,4252.523,-742.813),cellId="Obscure Shipwreck, Cabin"},
     {coords=util.vector3(-40275.336,34884.87,1309.4453),cellId=nil},
     {coords=util.vector3(102740.88,11913.022,769.82),cellId=nil},
-    {coords=util.vector3(-12182.086,-74450.46,369.255),cellId="Seyda Neen"},
+    {coords=util.vector3(15796.595,-101176.375,1067.454),cellId=nil},
     {coords=util.vector3(3747.2197,2863.404,1968.5687),cellId="Sadrith Mora, Telvanni Council House, Hermitage"},
     {coords=util.vector3(602.52435,-55.561546,-36.72237),cellId="Nilera's Farmhouse"},
+    {coords=util.vector3(-10704.979,18841.436,1458.33),cellId=nil},
     {coords=util.vector3(3457.0,3393.0,13824.0),cellId="Sanit, Shrine"},
     {coords=util.vector3(2.0076687,-243.26517,-38.524937),cellId="Ald-ruhn, Hanarai Assutlanipal's House"},
     {coords=util.vector3(73117.16,-47135.527,2160.331),cellId=nil},
-    {coords=util.vector3(-22161.74,-16683.672,912.632),cellId="Balmora"},
     {coords=util.vector3(-13134.51,20763.818,1616.0),cellId=nil},
     {coords=util.vector3(448.0,-1920.0,-128.0),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(5216.0,3120.0,12384.0),cellId="Vivec, St. Delyn Canalworks"},
@@ -1213,22 +1192,20 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-3.2245786,2982.233,12504.0),cellId="Ilunibi, Soul's Rattle"},
     {coords=util.vector3(4512.0,4128.0,14944.0),cellId="Maar Gan, Guard Tower 3"},
     {coords=util.vector3(-509.1767,-646.7324,-876.5394),cellId="Molag Mar, Waistworks"},
-    {coords=util.vector3(20675.223,-54730.637,728.549),cellId="Dren Plantation"},
     {coords=util.vector3(4416.0,4960.0,13056.0),cellId="Vivec, Mevel Fererus: Trader"},
     {coords=util.vector3(-524.1196,767.8924,725.6151),cellId="Sadrith Mora, Tel Naga Great Hall"},
     {coords=util.vector3(29846.166,196905.58,358.823),cellId=nil},
-    {coords=util.vector3(-12270.454,125271.19,2103.322),cellId="Falasmaryon"},
+    {coords=util.vector3(78400.01,52905.0,2060.0),cellId=nil},
     {coords=util.vector3(4060.294,4055.406,15209.785),cellId="Gnaar Mok, Caryarel's Shack"},
     {coords=util.vector3(-1912.0,3824.0,-44.431),cellId="Vassamsi Grotto"},
     {coords=util.vector3(2494.916,2493.437,-288.082),cellId="Sudanit Mine"},
     {coords=util.vector3(-1811.1495,2119.4172,-365.352),cellId="Ashinabi"},
+    {coords=util.vector3(94432.89,117875.38,1806.5991),cellId=nil},
     {coords=util.vector3(-55972.062,13431.054,92.64616),cellId=nil},
     {coords=util.vector3(596.8228,173763.72,396.4011),cellId=nil},
     {coords=util.vector3(60335.047,64280.973,1354.5609),cellId=nil},
-    {coords=util.vector3(38321.48,-93312.0,2236.1033),cellId="Vivec, St. Olms"},
     {coords=util.vector3(1806.7642,2814.7827,530.38806),cellId="Ahallaraddon Egg Mine"},
     {coords=util.vector3(5120.0,3200.0,14272.0),cellId="Sadrith Mora, Wolverine Hall"},
-    {coords=util.vector3(126303.61,46040.266,3788.799),cellId="Tel Aruhn"},
     {coords=util.vector3(-5.1107903,-2.7446163,-39.220276),cellId="Vivec, Telvanni Mage"},
     {coords=util.vector3(2295.6545,-638.8312,-874.2822),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(-768.0,-192.0,256.0),cellId="Vivec, Foreign Quarter Canalworks"},
@@ -1247,9 +1224,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(16.0,448.0,-160.0),cellId="Erabenimsun Camp, Wise Woman's Yurt"},
     {coords=util.vector3(480.0,896.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(108910.445,-25143.793,755.95197),cellId=nil},
-    {coords=util.vector3(29879.412,-78657.23,3103.829),cellId="Vivec, Foreign Quarter"},
     {coords=util.vector3(-1266.5011,-865.5366,-687.9998),cellId="Pelagiad, South Wall"},
-    {coords=util.vector3(-69982.32,140873.61,302.987),cellId="Khuul"},
     {coords=util.vector3(77786.97,86056.32,921.37),cellId=nil},
     {coords=util.vector3(3872.0,-2620.0,576.0),cellId="Drethan Ancestral Tomb"},
     {coords=util.vector3(-192.0,-256.0,128.0),cellId="Balmora, Dralosa Athren's House"},
@@ -1257,9 +1232,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2738.256,886.712,294.042),cellId="Koal Cave"},
     {coords=util.vector3(4928.001,6976.001,-543.1012),cellId="Band Egg Mine"},
     {coords=util.vector3(3715.706,3999.499,249.809),cellId="Ancient Shipwreck, Upper Level"},
+    {coords=util.vector3(84896.07,120238.47,3607.2322),cellId=nil},
+    {coords=util.vector3(56232.0,-51544.0,928.0),cellId=nil},
     {coords=util.vector3(123915.45,-27225.521,4378.675),cellId=nil},
     {coords=util.vector3(118705.98,77365.41,1404.9661),cellId=nil},
     {coords=util.vector3(704.0,703.0,-384.0),cellId="Andasreth, Propylon Chamber"},
+    {coords=util.vector3(94390.984,116849.29,1813.7968),cellId=nil},
     {coords=util.vector3(-1392.0,-2304.0,96.0),cellId="Ald-ruhn, Llethri Manor Entrance"},
     {coords=util.vector3(54.877,-32.562,78.782),cellId="Pelagiad, Dralas Gilu's House"},
     {coords=util.vector3(1280.0,-1088.0,-128.0),cellId="Dagoth Ur, Inner Facility"},
@@ -1280,11 +1258,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(512.0,2592.0,640.0),cellId="Ashunartes, Shrine"},
     {coords=util.vector3(11626.799,68846.12,13015.989),cellId=nil},
     {coords=util.vector3(60997.992,183277.9,255.545),cellId=nil},
+    {coords=util.vector3(31703.922,-105757.15,947.59454),cellId=nil},
     {coords=util.vector3(36.636,404.109,-175.535),cellId="Erabenimsun Camp, Massarapal's Yurt"},
     {coords=util.vector3(152284.06,29872.47,654.7098),cellId=nil},
     {coords=util.vector3(640.0,64.0,-256.0),cellId="Ald-ruhn, Guard Tower 2"},
     {coords=util.vector3(-1472.0,2752.0,224.0),cellId="Ainab"},
     {coords=util.vector3(288.0,2816.0,-48.0),cellId="Gnisis, Temple"},
+    {coords=util.vector3(-8802.594,52735.39,2441.4893),cellId=nil},
     {coords=util.vector3(-10.298,805.415,-113.479),cellId="Elf-Skerring, Upper Level"},
     {coords=util.vector3(101060.47,-93448.305,214.70451),cellId=nil},
     {coords=util.vector3(3.501,-158.196,3.251),cellId="Ald Velothi, Vireveri Darethran's Shack"},
@@ -1292,18 +1272,21 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-1714.9862,-179.25063,324.74646),cellId="Shal"},
     {coords=util.vector3(4175.9873,3799.6843,14383.6045),cellId="Strange Shipwreck, Upper Level"},
     {coords=util.vector3(2686.5586,157.7119,-257.02597),cellId="Vivec, Telvanni Canalworks"},
-    {coords=util.vector3(109728.914,118206.63,652.768),cellId="Tel Mora"},
+    {coords=util.vector3(113440.82,-59860.11,581.602),cellId=nil},
     {coords=util.vector3(-64.0,-96.0,0.0),cellId="Sadrith Mora, Wolverine Hall: Imperial Shrine"},
     {coords=util.vector3(200.64648,-739.0078,1599.366),cellId="Vivec, Redoran Plaza"},
-    {coords=util.vector3(65972.8,104211.27,1953.3523),cellId="Nchuleft Ruin"},
     {coords=util.vector3(1792.0,-512.0,-32.0),cellId="Vivec, Telvanni Waistworks"},
+    {coords=util.vector3(-13779.451,43540.195,3064.02),cellId=nil},
     {coords=util.vector3(2944.0,-320.0,256.0),cellId="Vivec, Arena Canalworks"},
     {coords=util.vector3(-69823.05,140879.28,315.2798),cellId=nil},
     {coords=util.vector3(3885.982,4665.911,1127.133),cellId="Sadrith Mora, Telvanni Council House, Entry"},
+    {coords=util.vector3(-36121.48,79935.11,1835.75),cellId=nil},
     {coords=util.vector3(-388.0,1084.0,-1312.0),cellId="Pelagiad, North Wall"},
     {coords=util.vector3(61279.344,119159.42,837.066),cellId=nil},
+    {coords=util.vector3(-77059.44,97150.08,1103.516),cellId=nil},
     {coords=util.vector3(259.69336,281.81555,-37.3332),cellId="Balmora, Clagius Clanler: Outfitter"},
     {coords=util.vector3(-2706.997,3078.648,1119.613),cellId="Minabi"},
+    {coords=util.vector3(-12366.264,57825.0,2749.879),cellId=nil},
     {coords=util.vector3(128.0,2464.0,-392.0),cellId="Shashpilamat, Shrine"},
     {coords=util.vector3(19785.732,-53202.64,756.72815),cellId=nil},
     {coords=util.vector3(1024.0,2672.0,-288.0),cellId="Ebonheart, Hawkmoth Legion Garrison"},
@@ -1311,6 +1294,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-1748.0295,252.9598,-27.30531),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(-12461.642,20565.625,1616.0),cellId=nil},
     {coords=util.vector3(-856.6488,4412.0386,13021.449),cellId="Vivec, Mevel Fererus: Trader"},
+    {coords=util.vector3(-9776.959,17879.889,1348.573),cellId=nil},
     {coords=util.vector3(180.213,-162.9,104.293),cellId="Dagon Fel, Mette's House"},
     {coords=util.vector3(-71170.2,95452.555,180.0164),cellId=nil},
     {coords=util.vector3(-1716.241,-264.463,225.513),cellId="Vivec, Redoran Waistworks"},
@@ -1321,11 +1305,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-544.0,-696.0,-40.0),cellId="Caldera, Governor's Hall"},
     {coords=util.vector3(-12688.0,19696.0,1648.0),cellId=nil},
     {coords=util.vector3(29159.545,-69525.9,755.6379),cellId=nil},
+    {coords=util.vector3(152969.22,37226.035,1295.028),cellId=nil},
     {coords=util.vector3(-10824.442,17252.047,1365.625),cellId=nil},
+    {coords=util.vector3(9337.879,-100618.016,1416.0),cellId=nil},
+    {coords=util.vector3(62720.555,181931.98,349.704),cellId=nil},
     {coords=util.vector3(29.455,446.85,-166.321),cellId="Zainab Camp, Kuda's Yurt"},
-    {coords=util.vector3(93792.77,117427.13,1728.7406),cellId="Vos"},
     {coords=util.vector3(-85.32694,-133.60541,92.578),cellId="Balmora, Itan's House"},
-    {coords=util.vector3(27997.762,-95570.3,671.088),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(128.0,-384.0,-128.0),cellId="Gnisis, Dinadad Hut"},
     {coords=util.vector3(2048.451,1266.697,15.584587),cellId="Vivec, Puzzle Canal, Level 2"},
     {coords=util.vector3(3966.559,4276.5986,62.011864),cellId="Shunned Shipwreck, Cabin"},
@@ -1340,11 +1325,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-64.0,-64.0,-16.0),cellId="Vivec, Miun-Gei: Enchanter"},
     {coords=util.vector3(3326.403,3051.875,356.426),cellId="Gnisis, Underground Stream"},
     {coords=util.vector3(1992.8651,7746.7046,-118.49809),cellId="Vivec, Redoran Underworks"},
+    {coords=util.vector3(39031.074,-92505.945,1887.3419),cellId=nil},
     {coords=util.vector3(-1186.032,2939.991,91.35),cellId="Sha-Adnius"},
     {coords=util.vector3(9529.879,-100634.016,2112.0),cellId=nil},
     {coords=util.vector3(-68233.195,34894.438,317.953),cellId=nil},
     {coords=util.vector3(-9870.349,17933.96,1317.804),cellId=nil},
     {coords=util.vector3(143.07768,-540.571,-271.25092),cellId="Remote Shipwreck, Upper Level"},
+    {coords=util.vector3(34639.598,-20243.893,2142.0),cellId=nil},
     {coords=util.vector3(3840.0,3968.0,15360.0),cellId="Balmora, Western Guard Tower North"},
     {coords=util.vector3(30241.477,-95713.06,672.14905),cellId=nil},
     {coords=util.vector3(36394.69,184751.73,1006.417),cellId=nil},
@@ -1356,12 +1343,14 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(0.0,-128.0,128.0),cellId="Balmora, Vorar Helas' House"},
     {coords=util.vector3(92.89054,653.33484,1586.4724),cellId="Vivec, Redoran Plaza"},
     {coords=util.vector3(-582.00995,-1328.2677,112.57979),cellId="Vivec, Hlaalu Plaza"},
+    {coords=util.vector3(-12894.996,126347.86,1431.322),cellId=nil},
+    {coords=util.vector3(27437.518,-80190.62,1886.474),cellId=nil},
     {coords=util.vector3(2972.143,-896.339,-1070.529),cellId="Shulk Egg Mine"},
     {coords=util.vector3(-667.2041,-5.9282227,740.3584),cellId="Tel Branora, Lower Tower"},
+    {coords=util.vector3(-84235.98,93928.82,1108.698),cellId=nil},
     {coords=util.vector3(1248.0,880.0,0.0),cellId="Ebonheart, Grand Council Chambers"},
-    {coords=util.vector3(25696.893,-88849.81,-251.04164),cellId="Vivec, Redoran"},
-    {coords=util.vector3(2.534,-259.366,-48.0),cellId="Maar Gan, Tashpi Ashibael's Hut"},
     {coords=util.vector3(35332.67,-37033.305,795.188),cellId=nil},
+    {coords=util.vector3(2.534,-259.366,-48.0),cellId="Maar Gan, Tashpi Ashibael's Hut"},
     {coords=util.vector3(371.532,-0.046,1374.791),cellId="Tel Uvirith, Tower Upper"},
     {coords=util.vector3(160256.0,-64800.0,256.859),cellId=nil},
     {coords=util.vector3(2566.171,-1057.234,-261.39),cellId="Dubdilla, Uncharted Caverns"},
@@ -1372,9 +1361,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-1632.0,2448.0,704.0),cellId="Arkngthand, Hall of Centrifuge"},
     {coords=util.vector3(1216.0,384.0,-7.69),cellId="Tel Uvirith, Tower Upper"},
     {coords=util.vector3(3648.0,5632.0,12320.0),cellId="Galom Daeus, Observatory"},
-    {coords=util.vector3(6324.375,-55670.65,2776.993),cellId="Pelagiad"},
     {coords=util.vector3(161469.92,-61713.41,1507.041),cellId=nil},
-    {coords=util.vector3(52379.586,-48943.812,922.109),cellId="Suran"},
     {coords=util.vector3(0.0,-64.0,64.0),cellId="Salit Camp, Zalit's Yurt"},
     {coords=util.vector3(-13052.963,56964.89,2682.4832),cellId=nil},
     {coords=util.vector3(183.18881,-19.068329,94.55866),cellId="Balmora, Dralasa Nithryon: Pawnbroker"},
@@ -1385,14 +1372,17 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-1824.0,-1152.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(795.95386,3208.768,84.75004),cellId="Kumarahaz"},
     {coords=util.vector3(-1291.302,2817.5872,224.93884),cellId="Ainab"},
+    {coords=util.vector3(-67972.75,139669.19,203.993),cellId=nil},
     {coords=util.vector3(64428.33,186910.75,156.458),cellId=nil},
     {coords=util.vector3(83126.44,158063.1,329.925),cellId=nil},
+    {coords=util.vector3(-56083.34,-29913.102,147.17575),cellId=nil},
     {coords=util.vector3(-118402.875,116191.68,360.6463),cellId=nil},
     {coords=util.vector3(3751.0,3251.0,12592.0),cellId="Hairat-Vassamsi Egg Mine, Queen's Lair"},
     {coords=util.vector3(1796.1663,-3008.2712,80.0),cellId="Molag Mar, Underworks"},
     {coords=util.vector3(4956.7227,182.65869,128.0),cellId="Vivec, Tervur Braven: Trader"},
     {coords=util.vector3(1648.0,0.0,112.0),cellId="Ald-ruhn, Redoran Council Hall"},
-    {coords=util.vector3(2228.482,-58559.496,1343.116),cellId="Pelagiad"},
+    {coords=util.vector3(152724.28,38313.28,990.573),cellId=nil},
+    {coords=util.vector3(21545.29,-81860.41,1886.0779),cellId=nil},
     {coords=util.vector3(-3873.166,4100.057,-682.082),cellId="Eretammus-Sennammu Egg Mine"},
     {coords=util.vector3(-117.623,1810.76,-1188.69),cellId="Odirniran"},
     {coords=util.vector3(6311.2773,964.3063,115.51558),cellId="Vivec, Arena Underworks"},
@@ -1409,23 +1399,21 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(256.0,-672.0,864.0),cellId="Sadrith Mora, Tel Naga Upper Hall"},
     {coords=util.vector3(1472.0,7088.0,304.0),cellId="Vivec, Arena Underworks"},
     {coords=util.vector3(-139.639,-348.465,-105.887),cellId="Falvillo's Endeavor, Cabin"},
-    {coords=util.vector3(149392.0,29184.0,1216.0),cellId="Wolverine Hall"},
     {coords=util.vector3(-36133.582,134018.94,1581.9198),cellId=nil},
     {coords=util.vector3(-58094.69,80000.16,1813.97),cellId=nil},
-    {coords=util.vector3(35425.926,-95570.3,671.08813),cellId="Vivec, St. Olms"},
-    {coords=util.vector3(-11173.354,17663.037,1355.547),cellId="Caldera"},
+    {coords=util.vector3(99226.2,113195.984,1031.215),cellId=nil},
     {coords=util.vector3(3520.0,3392.0,736.0),cellId="Mzahnch"},
     {coords=util.vector3(58689.3,-92574.8,742.123),cellId=nil},
     {coords=util.vector3(101335.36,114282.125,282.20096),cellId=nil},
+    {coords=util.vector3(-11284.885,56972.57,2670.721),cellId=nil},
     {coords=util.vector3(119978.414,76753.2,1402.003),cellId=nil},
-    {coords=util.vector3(62991.074,183381.55,297.832),cellId="Dagon Fel"},
     {coords=util.vector3(22210.99,-86265.08,2135.1785),cellId=nil},
     {coords=util.vector3(15753.879,-101882.016,1296.0),cellId=nil},
     {coords=util.vector3(-560.0,-144.0,16.0),cellId="Sadrith Mora, Gateway Inn: South Wing"},
     {coords=util.vector3(-162.85,-32.838,-42.66),cellId="Seyda Neen, Terurise Girvayne's House"},
     {coords=util.vector3(1120.0,684.0,-224.0),cellId="Kogoruhn, Hall of Phisto"},
     {coords=util.vector3(5634.5947,1265.7152,15.592747),cellId="Vivec, Puzzle Canal, Level 4"},
-    {coords=util.vector3(-10693.456,17990.041,1394.768),cellId="Caldera"},
+    {coords=util.vector3(148992.0,28096.0,2352.0),cellId=nil},
     {coords=util.vector3(6073.904,-56065.01,1843.7814),cellId=nil},
     {coords=util.vector3(-384.0,2880.0,-432.0),cellId="Falensarano, Lower Level"},
     {coords=util.vector3(266.76718,138.30473,495.46597),cellId="Sadrith Mora, Fara's Hole in the Wall"},
@@ -1437,10 +1425,11 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(5312.003,2112.001,96.48052),cellId="Setus Egg Mine"},
     {coords=util.vector3(4033.3496,4393.367,14616.965),cellId="Tel Branora, Upper Tower"},
     {coords=util.vector3(4738.532,3568.0518,170.5139),cellId="Salmantu, Shrine"},
+    {coords=util.vector3(-23544.424,-14406.012,923.121),cellId=nil},
     {coords=util.vector3(-512.0,-592.0,912.0),cellId="Nchuleft"},
     {coords=util.vector3(748.7959,402.07178,493.87207),cellId="Tel Branora, Lower Tower"},
     {coords=util.vector3(1.0682479,-273.08527,-367.1587),cellId="Ald-ruhn, Arobar Manor Entrance"},
-    {coords=util.vector3(123157.45,45382.66,944.533),cellId="Tel Aruhn"},
+    {coords=util.vector3(-14987.847,-14255.839,806.98303),cellId=nil},
     {coords=util.vector3(-59829.31,72738.2,1703.1907),cellId=nil},
     {coords=util.vector3(514.6274,383.97302,83.87022),cellId="Ebonheart, Skyrim Mission"},
     {coords=util.vector3(-319.9026,-1467.572,1904.0),cellId="Sandus Ancestral Tomb"},
@@ -1450,7 +1439,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-128.0,64.0,-128.0),cellId="Vivec, Arena Storage"},
     {coords=util.vector3(-14728.054,42894.402,3618.8428),cellId=nil},
     {coords=util.vector3(4288.0,5888.0,12448.0),cellId="Arkngthand, Heaven's Gallery"},
-    {coords=util.vector3(18190.357,-101360.16,429.601),cellId="Ebonheart"},
+    {coords=util.vector3(-17569.486,-16747.436,848.151),cellId=nil},
     {coords=util.vector3(11594.14,5478.821,14339.4),cellId="Hla Oad, Fatleg's Drop Off"},
     {coords=util.vector3(-6.602557,1284.0696,212.79303),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(0.0,0.0,480.0),cellId="Ebonheart, Grand Council Chambers"},
@@ -1458,15 +1447,15 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1280.0,384.0,384.0),cellId="Arvel Manor"},
     {coords=util.vector3(7.648583,391.71503,-192.85852),cellId="Urshilaku Camp, Ahasour's Yurt"},
     {coords=util.vector3(-190.11813,121.78105,756.9998),cellId="Rethan Manor, Gols' House"},
+    {coords=util.vector3(11684.875,173517.9,2019.5083),cellId=nil},
     {coords=util.vector3(-2724.0,1696.0,-288.0),cellId="Vandus Ancestral Tomb"},
     {coords=util.vector3(-23031.959,10162.19,1080.053),cellId=nil},
     {coords=util.vector3(-2287.4856,904.75415,-866.8193),cellId="Molag Mar, Waistworks"},
-    {coords=util.vector3(-12536.054,44254.402,3571.6816),cellId="Buckmoth Legion Fort"},
+    {coords=util.vector3(14085.438,-100785.92,838.72),cellId=nil},
     {coords=util.vector3(21438.305,-46096.9,850.45636),cellId=nil},
     {coords=util.vector3(255.081,-4.919,91.135),cellId="Vos, Maela Kaushad's Farmhouse"},
     {coords=util.vector3(-27.72207,14.189651,128.0),cellId="Pelagiad, Adanja's House"},
     {coords=util.vector3(-16741.385,-12319.23,258.85),cellId=nil},
-    {coords=util.vector3(18644.021,-103000.85,998.845),cellId="Ebonheart"},
     {coords=util.vector3(-51568.574,151530.2,550.225),cellId=nil},
     {coords=util.vector3(-2944.0,2880.0,-1792.0),cellId="Tukushapal"},
     {coords=util.vector3(-288.0,0.0,139.316),cellId="Ald-ruhn, Council Club"},
@@ -1478,25 +1467,21 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-64.0,128.0,-128.0),cellId="Vivec, St. Olms Canal South-Three"},
     {coords=util.vector3(843.0,1480.0,320.0),cellId="Berandas, Keep, Top Level"},
     {coords=util.vector3(4440.0,2512.0,48.0),cellId="Ald Daedroth, Inner Shrine"},
-    {coords=util.vector3(-18488.307,102849.41,2433.871),cellId="Maar Gan"},
-    {coords=util.vector3(-56083.34,-29913.102,147.17575),cellId="Ashurnibibi"},
     {coords=util.vector3(37173.977,-49989.652,1072.5784),cellId=nil},
     {coords=util.vector3(2298.1006,895.3962,-873.3944),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(1.0,-246.0,-173.0),cellId="Ald-ruhn, Codus Callonus: Bookseller"},
     {coords=util.vector3(-35108.156,149917.7,796.7682),cellId=nil},
     {coords=util.vector3(144.34045,-353.3994,2.1530535),cellId="Caldera, Nedhelas' House"},
+    {coords=util.vector3(1572.3522,914.7981,112.2666),cellId="Vivec, Arena Underworks"},
     {coords=util.vector3(-114.49,-141.14,100.643),cellId="Balmora, Vori's House"},
     {coords=util.vector3(3942.166,3864.087,14698.831),cellId="Gnaar Mok, Nadene Rotheran's Shack"},
-    {coords=util.vector3(1572.3522,914.7981,112.2666),cellId="Vivec, Arena Underworks"},
     {coords=util.vector3(3200.92,6272.665,5000.102),cellId="Dubdilla"},
     {coords=util.vector3(-444.393,-265.67,-554.621),cellId="Ald-ruhn, Manor District"},
+    {coords=util.vector3(18578.2,-103006.984,562.934),cellId=nil},
     {coords=util.vector3(-768.0,-960.0,128.0),cellId="Ald-ruhn, Redoran Council Hall"},
-    {coords=util.vector3(149616.0,30192.0,1472.0),cellId="Wolverine Hall"},
     {coords=util.vector3(-64.0,-128.0,-128.0),cellId="Vivec, Library of Vivec"},
     {coords=util.vector3(2464.0,896.0,-133.174),cellId="Zaintiraris, Shrine"},
     {coords=util.vector3(5251.418,2461.95,12416.0),cellId="Bal Fell, West Wing"},
-    {coords=util.vector3(-17236.957,102243.6,2453.604),cellId="Maar Gan"},
-    {coords=util.vector3(-78397.0,76484.0,2320.0),cellId="Berandas"},
     {coords=util.vector3(52060.402,109546.164,6262.693),cellId=nil},
     {coords=util.vector3(16.0,-144.0,0.0),cellId="Seyda Neen, Fargoth's House"},
     {coords=util.vector3(110040.26,119756.14,494.0656),cellId=nil},
@@ -1504,81 +1489,72 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(51.257,-30.943,103.813),cellId="Caldera, Slave Shack Two"},
     {coords=util.vector3(-84645.81,124681.99,1396.7572),cellId=nil},
     {coords=util.vector3(-36010.35,79832.0,1834.0499),cellId=nil},
-    {coords=util.vector3(150723.83,40176.613,1158.49),cellId="Sadrith Mora"},
     {coords=util.vector3(-2587.325,4479.52,733.672),cellId="Dunirai Caverns"},
     {coords=util.vector3(149536.0,29712.0,1200.0),cellId=nil},
     {coords=util.vector3(416.0,0.0,128.0),cellId="Sadrith Mora, Trendrus Dral's House"},
     {coords=util.vector3(-8.023,-208.548,-43.089),cellId="Ald-ruhn, Tauryon's House"},
     {coords=util.vector3(2776.911,4245.853,-207.813),cellId="Indoranyon"},
     {coords=util.vector3(104.0,-2416.0,-374.0),cellId="Ministry of Truth, Prison Keep"},
-    {coords=util.vector3(34056.258,-93989.88,1887.3419),cellId="Vivec, St. Olms"},
-    {coords=util.vector3(127407.76,-101678.57,1340.946),cellId="Tel Branora"},
+    {coords=util.vector3(56896.0,-53504.0,1609.541),cellId=nil},
     {coords=util.vector3(58782.85,-93454.19,1039.9102),cellId=nil},
     {coords=util.vector3(656.0,512.0,128.0),cellId="Balmora, Tyravel Manor"},
-    {coords=util.vector3(6200.568,-56062.996,1858.7721),cellId="Pelagiad"},
     {coords=util.vector3(-1020.1404,-1274.8232,208.0),cellId="Alas Ancestral Tomb"},
     {coords=util.vector3(-1422.718,1392.762,-430.898),cellId="Pudai Egg Mine"},
-    {coords=util.vector3(-59113.062,26114.977,303.457),cellId="Gnaar Mok"},
-    {coords=util.vector3(-44448.0,-3765.0,2368.0),cellId="Hlormaren"},
     {coords=util.vector3(4424.0,7662.0,12181.0),cellId="Kogoruhn, Charma's Breath"},
     {coords=util.vector3(5472.0,3903.0,14209.0),cellId="Kogoruhn, Hall of the Watchful Touch"},
     {coords=util.vector3(-2554.2737,3920.084,-549.37305),cellId="Beran Ancestral Tomb"},
+    {coords=util.vector3(37708.633,-95569.62,671.08813),cellId=nil},
     {coords=util.vector3(1632.0,1024.0,272.0),cellId="Vivec, St. Delyn Underworks"},
     {coords=util.vector3(18505.879,-103002.016,992.0),cellId=nil},
     {coords=util.vector3(108466.72,25856.018,336.2983),cellId=nil},
     {coords=util.vector3(0.47303456,110.707,225.735),cellId="Dagon Fel, Watch Tower"},
     {coords=util.vector3(-242.27403,-11.766836,217.91566),cellId="Seyda Neen, Arrille's Tradehouse"},
+    {coords=util.vector3(-61891.465,26135.428,335.63284),cellId=nil},
     {coords=util.vector3(98.3,736.671,-19.867),cellId="Grytewake, Upper Level"},
+    {coords=util.vector3(101459.99,114208.81,204.321),cellId=nil},
     {coords=util.vector3(4047.856,4640.63,14230.859),cellId="Tel Aruhn, Tower Entry"},
     {coords=util.vector3(53474.906,-51689.035,553.9461),cellId=nil},
     {coords=util.vector3(48.0,-240.0,-16.0),cellId="Seyda Neen, Vodunius Nuccius' House"},
     {coords=util.vector3(3851.8542,5378.9097,18388.19),cellId="Vivec, Arena Waistworks"},
-    {coords=util.vector3(-11654.363,-70978.73,345.122),cellId="Seyda Neen"},
+    {coords=util.vector3(-11578.568,54894.04,2427.355),cellId=nil},
     {coords=util.vector3(60149.926,181031.03,649.2776),cellId=nil},
     {coords=util.vector3(3776.0,4288.0,15616.0),cellId="Vivec, St. Olms Waist South-Two"},
     {coords=util.vector3(69.262726,181.90202,230.82593),cellId="Mudan, Right Tower"},
-    {coords=util.vector3(85360.0,117552.0,4295.227),cellId="Tel Vos"},
     {coords=util.vector3(128.0,-256.0,-128.0),cellId="Gnisis, Shishara Hut"},
+    {coords=util.vector3(86584.0,118784.0,5127.227),cellId=nil},
+    {coords=util.vector3(-61120.59,27932.248,439.239),cellId=nil},
     {coords=util.vector3(4367.714,3837.271,8926.589),cellId="Gnaar Mok, Arenim Manor"},
-    {coords=util.vector3(-23544.424,-14406.012,923.121),cellId="Balmora"},
+    {coords=util.vector3(-84509.695,124747.18,1398.9756),cellId=nil},
     {coords=util.vector3(257.943,4035.482,-171.204),cellId="Ashalmawia, Shrine"},
-    {coords=util.vector3(33751.914,-106273.805,1332.2826),cellId="Vivec, Temple"},
     {coords=util.vector3(111250.58,128260.36,-663.86584),cellId=nil},
     {coords=util.vector3(272.0,1280.0,-544.0),cellId="Moonmoth Legion Fort, Interior"},
-    {coords=util.vector3(-14987.847,-14255.839,806.98303),cellId="Balmora"},
     {coords=util.vector3(152.0,-8.0,240.0),cellId="Tel Aruhn, Maren Uvaren: Enchanter"},
     {coords=util.vector3(27202.814,-86910.81,2136.2634),cellId=nil},
     {coords=util.vector3(4152.029,4293.1313,134.29286),cellId="Prelude Shipwreck, Cabin"},
     {coords=util.vector3(20509.572,93298.695,9352.211),cellId=nil},
     {coords=util.vector3(2064.0,320.0,-96.0),cellId="Vivec, Telvanni Underworks"},
-    {coords=util.vector3(21819.75,-42180.06,993.069),cellId="Arvel Plantation"},
     {coords=util.vector3(1543.088,500.894,-158.158),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(33518.54,-81654.47,-265.71176),cellId=nil},
     {coords=util.vector3(18.787,-241.267,-48.0),cellId="Maar Gan, Shilipuran Zama-Rasour's Hut"},
     {coords=util.vector3(-640.0,-592.0,-160.0),cellId="Vivec, Hlaalu Canalworks"},
     {coords=util.vector3(4023.5994,4781.951,14912.0),cellId="Vivec, Telvanni Prison Cells"},
-    {coords=util.vector3(-46578.203,-39240.49,296.742),cellId="Hla Oad"},
     {coords=util.vector3(4870.963,4859.791,14510.771),cellId="Vivec, Foreign Quarter Upper Waistworks"},
     {coords=util.vector3(1056.0,-3776.0,-864.0),cellId="Dagoth Ur, Inner Facility"},
     {coords=util.vector3(4991.9995,4544.0,13440.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(-52984.98,104109.39,1288.005),cellId=nil},
-    {coords=util.vector3(15509.879,-102460.445,772.0),cellId="Ebonheart"},
     {coords=util.vector3(-3.508,374.608,-184.272),cellId="Ahemmusa Camp, Ashkhan's Yurt"},
-    {coords=util.vector3(54878.875,-51721.016,590.281),cellId="Suran"},
     {coords=util.vector3(6.13,-522.579,465.811),cellId="Caldera, Mining Bunkhouse"},
     {coords=util.vector3(-243.714,154.446,-428.835),cellId="Dagon Fel, Heifnir: Trader"},
-    {coords=util.vector3(-17569.486,-16747.436,848.151),cellId="Balmora"},
     {coords=util.vector3(2672.0,192.0,-160.0),cellId="Vivec, St. Olms Canalworks"},
     {coords=util.vector3(-35.20831,-195.09534,-64.70914),cellId="Urshilaku Camp, Wise Woman's Yurt"},
+    {coords=util.vector3(148772.0,27732.0,1468.0),cellId=nil},
     {coords=util.vector3(-4.3609595,-91.030685,0.0),cellId="Salit Camp, Zelay's Yurt"},
-    {coords=util.vector3(-11605.211,19121.326,1440.6064),cellId="Caldera"},
     {coords=util.vector3(-512.0,-624.0,96.0),cellId="Ald-ruhn, Venim Manor Bedrooms"},
     {coords=util.vector3(-320.0,384.0,-128.0),cellId="Vivec, Redoran Smith"},
     {coords=util.vector3(-68850.93,140157.73,164.441),cellId=nil},
     {coords=util.vector3(155563.2,-7419.848,-426.065),cellId=nil},
-    {coords=util.vector3(-10608.033,125110.734,1430.359),cellId="Falasmaryon"},
+    {coords=util.vector3(125409.586,47663.668,1512.286),cellId=nil},
     {coords=util.vector3(4013.609,3915.983,263.57394),cellId="Urshilaku, Fragile Burial"},
-    {coords=util.vector3(-20708.86,103436.164,2074.128),cellId="Maar Gan"},
     {coords=util.vector3(134.99,4516.038,-560.0),cellId="Assarnatamat, Shrine"},
     {coords=util.vector3(3958.132,3861.887,14563.439),cellId="Gnaar Mok, Druegh-jigger's Rest"},
     {coords=util.vector3(320.0,0.0,128.0),cellId="Balmora, Dralasa Nithryon: Pawnbroker"},
@@ -1586,24 +1562,28 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3967.197,4098.461,15704.369),cellId="Vivec, Alusaron: Smith"},
     {coords=util.vector3(4465.461,3956.838,-550.174),cellId="Lost Shipwreck, Lower Level"},
     {coords=util.vector3(3997.148,4037.798,15515.601),cellId="Khuul, Helga's Shack"},
-    {coords=util.vector3(54365.344,154166.17,1844.4042),cellId="Rotheran"},
     {coords=util.vector3(16.460257,5.3257623,208.0),cellId="Dagon Fel, End of the World Renter Rooms"},
+    {coords=util.vector3(-85662.64,128100.58,258.779),cellId=nil},
     {coords=util.vector3(148992.0,28128.0,2464.0),cellId=nil},
+    {coords=util.vector3(26300.133,60943.17,11267.7),cellId=nil},
     {coords=util.vector3(5120.0,3056.0,14224.0),cellId="Sadrith Mora, Wolverine Hall"},
+    {coords=util.vector3(-9902.499,22116.457,2162.969),cellId=nil},
     {coords=util.vector3(-348.0,8782.0,312.0),cellId="Ilunibi, Marowak's Spine"},
     {coords=util.vector3(1146.0,-1347.0,332.0),cellId="Hlormaren, Keep, Top Level"},
     {coords=util.vector3(-32.0,192.0,-128.0),cellId="Kogoruhn, Temple of Fey"},
+    {coords=util.vector3(-14650.644,51751.273,2155.136),cellId=nil},
     {coords=util.vector3(-1028.8573,780.699,-84.20367),cellId="Ebonheart, Imperial Commission"},
     {coords=util.vector3(-192.0,-192.0,128.0),cellId="Balmora, Balyn Omarel's House"},
     {coords=util.vector3(-0.5791427,2051.0928,235.39093),cellId="Raviro Ancestral Tomb"},
     {coords=util.vector3(-704.0,-384.0,128.0),cellId="Vivec, St. Delyn Waistworks"},
-    {coords=util.vector3(-12194.208,-74208.766,911.057),cellId="Seyda Neen"},
     {coords=util.vector3(1711.536,2560.233,616.892),cellId="Punabi"},
     {coords=util.vector3(3919.1943,4262.587,-817.5179),cellId="Forgotten Shipwreck"},
     {coords=util.vector3(-65.21,41.122,209.807),cellId="Vos, Varo Tradehouse"},
     {coords=util.vector3(109079.81,-3001.1301,632.31775),cellId=nil},
     {coords=util.vector3(63583.96,-45892.74,1121.2366),cellId=nil},
+    {coords=util.vector3(34054.426,-86290.87,1887.3419),cellId=nil},
     {coords=util.vector3(2880.0,2947.326,12928.0),cellId="Vas, Tower"},
+    {coords=util.vector3(110652.75,-61514.676,2142.663),cellId=nil},
     {coords=util.vector3(-15120.04,-14262.061,790.35504),cellId=nil},
     {coords=util.vector3(-6162.151,192420.6,-979.891),cellId=nil},
     {coords=util.vector3(6159.883,234.568,-96.0),cellId="Vivec, Hlaalu Underworks"},
@@ -1611,7 +1591,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(42602.293,93773.5,10197.521),cellId=nil},
     {coords=util.vector3(3600.2483,2904.421,-1137.4814),cellId="Unmarked Shipwreck, Lower Level"},
     {coords=util.vector3(126336.0,48000.0,1064.0),cellId=nil},
-    {coords=util.vector3(108756.05,-3058.2625,636.4296),cellId="Erabenimsun Camp"},
     {coords=util.vector3(1024.0,1728.0,-128.0),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(4023.389,4878.13,255.75),cellId="Sadrith Mora, Telvanni Council House, Chambers"},
     {coords=util.vector3(4452.006,3941.9443,-593.56995),cellId="Lost Shipwreck, Upper Level"},
@@ -1625,53 +1604,54 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(64423.14,-72614.54,99.96725),cellId=nil},
     {coords=util.vector3(0.0,-272.0,16.0),cellId="Ald-ruhn, Venim Manor Entrance"},
     {coords=util.vector3(86280.75,-87252.44,672.798),cellId=nil},
-    {coords=util.vector3(60782.83,183796.31,308.044),cellId="Dagon Fel"},
     {coords=util.vector3(-133.89201,67.12022,127.663),cellId="Dagon Fel, End of the World Renter Rooms"},
     {coords=util.vector3(4287.9995,2688.0002,13440.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(5002.0,-1252.0,15322.0),cellId="Ilunibi, Blackened Heart"},
+    {coords=util.vector3(-25792.467,-11503.358,1121.331),cellId=nil},
+    {coords=util.vector3(113141.64,-61193.848,1885.728),cellId=nil},
     {coords=util.vector3(1340.0203,2811.3384,-11.189),cellId="Seran Ancestral Tomb"},
     {coords=util.vector3(-624.0,0.0,-32.0),cellId="Ald-ruhn, Arobar Manor Bedrooms"},
     {coords=util.vector3(253.83763,-2.1635168,89.5941),cellId="Vos, Mandyn Ralas's Farmhouse"},
     {coords=util.vector3(-69191.52,107598.12,774.0022),cellId=nil},
+    {coords=util.vector3(-26530.848,151102.67,803.2373),cellId=nil},
     {coords=util.vector3(899.874,1517.595,-1648.0),cellId="Andasreth, Upper Level"},
     {coords=util.vector3(-192.0,-288.0,-64.0),cellId="Rethan Manor, Berendas' House"},
-    {coords=util.vector3(-9246.183,19988.422,1235.171),cellId="Caldera"},
     {coords=util.vector3(3632.0,4672.0,864.0),cellId="Sadrith Mora, Gateway Inn"},
-    {coords=util.vector3(-5664.1113,152263.0,2385.3455),cellId="Valenvaryon"},
     {coords=util.vector3(-87.572,-144.0,-16.0),cellId="Seyda Neen, Draren Thiralas' House"},
-    {coords=util.vector3(53671.316,-56190.55,1584.052),cellId="Suran"},
     {coords=util.vector3(1825.5021,-520.4754,-30.968496),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(-85936.55,128732.16,215.78775),cellId=nil},
+    {coords=util.vector3(88443.664,9576.947,4202.067),cellId=nil},
     {coords=util.vector3(-17086.092,53302.9,2947.4924),cellId=nil},
     {coords=util.vector3(6016.0,-2304.0,-1072.0),cellId="Kogoruhn, Hall of Maki"},
     {coords=util.vector3(-7.3579426,-256.501,-47.999985),cellId="Maar Gan, Mabrelle Geles's Hut"},
     {coords=util.vector3(170.31824,-4.3543735,202.92758),cellId="Tel Branora, Galen Berer: Armorer"},
+    {coords=util.vector3(26630.016,-92671.12,1887.342),cellId=nil},
     {coords=util.vector3(-87.288,264.731,1232.0),cellId="Dagon Fel, Vacant Tower"},
     {coords=util.vector3(1376.0,7552.0,14624.0),cellId="Andrano Ancestral Tomb"},
     {coords=util.vector3(-640.0,160.0,-257.3757),cellId="Vivec, Hlaalu Canalworks"},
     {coords=util.vector3(4272.302,4199.8267,14696.603),cellId="Khuul, Brurid's Shack"},
+    {coords=util.vector3(109501.89,-2466.4055,637.24164),cellId=nil},
+    {coords=util.vector3(55710.12,-53393.793,1029.773),cellId=nil},
     {coords=util.vector3(-48.239094,-134.78906,270.06064),cellId="Seyda Neen, Census and Excise Office"},
     {coords=util.vector3(-12096.0,88176.0,3664.0),cellId=nil},
-    {coords=util.vector3(22958.014,-55734.285,1097.232),cellId="Dren Plantation"},
+    {coords=util.vector3(43456.0,-82569.44,2235.6296),cellId=nil},
     {coords=util.vector3(-64.0,-128.0,-128.0),cellId="Vivec, Telvanni Monster Lab"},
     {coords=util.vector3(320.0,0.0,96.0),cellId="Dagon Fel, Andre Maul's Tower"},
-    {coords=util.vector3(78605.336,84838.24,916.606),cellId="Zainab Camp"},
-    {coords=util.vector3(149832.61,40339.84,1046.738),cellId="Sadrith Mora"},
     {coords=util.vector3(-2170.8096,998.1039,377.37006),cellId="Helas Ancestral Tomb"},
     {coords=util.vector3(-2576.6943,5218.818,-808.2859),cellId="Sargon"},
-    {coords=util.vector3(125943.22,-102181.93,1706.871),cellId="Tel Branora"},
-    {coords=util.vector3(5920.0,1792.0,256.0),cellId="Ashunartes, Shrine"},
     {coords=util.vector3(4991.956,1693.9458,-662.8137),cellId="Dubdilla, Uncharted Caverns, Lower"},
+    {coords=util.vector3(5920.0,1792.0,256.0),cellId="Ashunartes, Shrine"},
     {coords=util.vector3(85730.766,117960.31,5081.2837),cellId=nil},
     {coords=util.vector3(767.571,1332.173,-1122.748),cellId="Telasero, Upper Level"},
+    {coords=util.vector3(96596.92,115866.36,1598.4806),cellId=nil},
+    {coords=util.vector3(-34910.965,-36959.86,2035.544),cellId=nil},
+    {coords=util.vector3(126374.04,-102973.9,1253.749),cellId=nil},
     {coords=util.vector3(90980.77,-92949.16,164.87984),cellId=nil},
     {coords=util.vector3(3905.035,3835.559,15904.0),cellId="Tel Vos, Services Tower"},
-    {coords=util.vector3(31608.65,-94095.64,1885.9888),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(5248.0,4288.0,18048.0),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(-36.6469,-1012.72876,158.517),cellId="Gnisis, Mantiti Cave Dwelling"},
-    {coords=util.vector3(-11958.173,-67956.75,452.5),cellId="Seyda Neen"},
     {coords=util.vector3(53278.438,201260.83,-181.77478),cellId=nil},
-    {coords=util.vector3(6078.0,121048.0,1472.0),cellId="Kogoruhn"},
+    {coords=util.vector3(39031.074,-94149.68,1887.3419),cellId=nil},
     {coords=util.vector3(-16357.738,-12591.324,803.0311),cellId=nil},
     {coords=util.vector3(66.0,-3488.0,288.0),cellId="Dagoth Ur, Lower Facility"},
     {coords=util.vector3(4225.1616,3924.7588,15136.0),cellId="Dren Plantation, Guardhouse"},
@@ -1680,9 +1660,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-1856.0,-384.0,128.0),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(-25792.266,-60792.355,310.982),cellId=nil},
     {coords=util.vector3(3082.341,4094.987,13267.284),cellId="Vivec, Foreign Quarter Lower Waistworks"},
-    {coords=util.vector3(34264.086,-105244.54,561.90967),cellId="Vivec, Temple"},
     {coords=util.vector3(2176.0,3648.0,0.0),cellId="ToddTest"},
     {coords=util.vector3(2335.687,2439.073,-290.053),cellId="Sudanit Mine"},
+    {coords=util.vector3(21263.338,-46169.152,850.4676),cellId=nil},
     {coords=util.vector3(1405.069,-453.192,-32.472),cellId="Pelagiad, Fort Pelagiad"},
     {coords=util.vector3(256.0,256.0,0.0),cellId="Manat's Farmhouse"},
     {coords=util.vector3(-1897.3331,179.17747,896.0),cellId="Dagon Fel, Vacant Tower"},
@@ -1692,20 +1672,24 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-2.6021156,449.76587,-48.0),cellId="Moonmoth Legion Fort, Prison Towers"},
     {coords=util.vector3(-10.767396,369.97284,80.000015),cellId="Molag Mar, Temple"},
     {coords=util.vector3(-306.98166,-528.2744,-256.0),cellId="Vivec, No Name Club"},
-    {coords=util.vector3(3672.117,-55666.523,2185.984),cellId="Pelagiad"},
+    {coords=util.vector3(18328.0,-54320.0,760.0),cellId=nil},
     {coords=util.vector3(4688.1025,4134.9336,-1247.7585),cellId="Unchartered Shipwreck, Upper Level"},
     {coords=util.vector3(128.946,360.539,-69.253),cellId="Ald-ruhn, Guild of Fighters"},
     {coords=util.vector3(21.132,470.022,-142.886),cellId="Zainab Camp, Ababael Timsar-Dadisun's Yurt"},
+    {coords=util.vector3(95740.91,-36027.605,6677.2705),cellId=nil},
     {coords=util.vector3(15161.879,-100906.016,1312.0),cellId=nil},
     {coords=util.vector3(31708.393,-105543.57,957.5823),cellId=nil},
+    {coords=util.vector3(30241.36,-95569.62,671.088),cellId=nil},
     {coords=util.vector3(-75547.945,14464.571,-37.832733),cellId=nil},
     {coords=util.vector3(5764.009,5925.366,-1452.679),cellId="Ashalmawia, Shrine, Sunken Vaults"},
     {coords=util.vector3(9025.0,4801.0,-672.0),cellId="Sanit"},
     {coords=util.vector3(76945.03,-53837.12,1443.992),cellId=nil},
     {coords=util.vector3(-52455.344,22839.5,108.217),cellId=nil},
     {coords=util.vector3(14158.346,61235.676,12858.4),cellId=nil},
+    {coords=util.vector3(36544.07,-88322.86,1887.342),cellId=nil},
     {coords=util.vector3(10814.969,-97801.52,-196.42177),cellId=nil},
-    {coords=util.vector3(-62635.082,28071.387,951.559),cellId="Gnaar Mok"},
+    {coords=util.vector3(14361.879,-101082.016,1280.0),cellId=nil},
+    {coords=util.vector3(4697.148,-57241.85,2299.421),cellId=nil},
     {coords=util.vector3(233.19084,4.5984793,-37.463875),cellId="Balmora, Tsiya's House"},
     {coords=util.vector3(-16576.0,53312.0,1920.0),cellId=nil},
     {coords=util.vector3(15673.879,-101418.016,1616.0),cellId=nil},
@@ -1714,34 +1698,35 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(123.764,-1604.754,1238.389),cellId="Assurnabitashpi"},
     {coords=util.vector3(-2112.0,3924.0,908.0),cellId="Yesamsi"},
     {coords=util.vector3(-224.618,503.205,-150.542),cellId="Balmora, Lucky Lockup"},
+    {coords=util.vector3(-22632.246,-13337.344,677.133),cellId=nil},
     {coords=util.vector3(153.152,-4.06,237.788),cellId="Assarnud"},
     {coords=util.vector3(-64.0,256.0,0.0),cellId="Ald-ruhn, Malpenix Blonia: Trader"},
     {coords=util.vector3(5115.6816,2816.0,12928.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(6651.21,7904.055,-808.396),cellId="Telasero, Lower Level"},
+    {coords=util.vector3(148951.1,40770.117,1380.158),cellId=nil},
     {coords=util.vector3(-23106.871,17312.865,2568.579),cellId=nil},
     {coords=util.vector3(4608.2803,4361.605,14416.546),cellId="Tel Aruhn, Tower Living Quarters"},
     {coords=util.vector3(-96.0,160.0,64.0),cellId="Mzanchend"},
     {coords=util.vector3(-257.9826,-240.49736,464.00006),cellId="Dagon Fel, The End of the World"},
     {coords=util.vector3(-64.0,384.0,-128.0),cellId="Vivec, St. Olms Farmers and Laborers Hall"},
     {coords=util.vector3(-32.242992,1896.0616,123.8978),cellId="Vivec, Hlaalu Plaza"},
-    {coords=util.vector3(27333.3,-86912.0,2234.282),cellId="Vivec, Redoran"},
-    {coords=util.vector3(161550.67,61735.336,541.88306),cellId=nil},
     {coords=util.vector3(-1077.0245,347.79886,193.22359),cellId="Ienith Ancestral Tomb"},
+    {coords=util.vector3(161550.67,61735.336,541.88306),cellId=nil},
     {coords=util.vector3(-25882.361,-71780.9,192.0),cellId=nil},
     {coords=util.vector3(1082.7,388.0,-1568.0),cellId="Pelagiad, North Wall"},
     {coords=util.vector3(243.82968,-2419.8928,157.89616),cellId="Clutter Warehouse - Everything Must Go!"},
     {coords=util.vector3(127440.0,47016.0,1000.0),cellId=nil},
+    {coords=util.vector3(60151.11,181159.22,651.003),cellId=nil},
     {coords=util.vector3(2828.188,3203.235,-558.0542),cellId="Panud Egg Mine"},
-    {coords=util.vector3(-87490.63,127342.04,519.58),cellId="Ald Velothi"},
-    {coords=util.vector3(740.7533,-95.64818,841.97565),cellId="Pelagiad, Mebestien Ence: Trader"},
     {coords=util.vector3(-1473.151,2880.983,-416.082),cellId="Abaelun Mine"},
+    {coords=util.vector3(740.7533,-95.64818,841.97565),cellId="Pelagiad, Mebestien Ence: Trader"},
     {coords=util.vector3(1118.1425,-1272.4531,-208.0),cellId="Thalas Ancestral Tomb"},
-    {coords=util.vector3(-25792.467,-11503.358,1121.331),cellId="Balmora"},
     {coords=util.vector3(1145.737,6965.115,-297.665),cellId="Hlormaren, Keep, Bottom Level"},
     {coords=util.vector3(79175.19,-71760.266,249.725),cellId=nil},
     {coords=util.vector3(19405.287,-54208.02,731.017),cellId=nil},
-    {coords=util.vector3(109917.914,119772.49,601.549),cellId="Tel Mora"},
+    {coords=util.vector3(53581.3,-56771.51,1582.299),cellId=nil},
     {coords=util.vector3(2540.9143,506.68448,230.35388),cellId="Vivec, Redoran Waistworks"},
+    {coords=util.vector3(1153.856,-52873.184,614.432),cellId=nil},
     {coords=util.vector3(1024.0,-624.0,-288.0),cellId="Ald-ruhn, Redoran Council Hall"},
     {coords=util.vector3(41.018,-4.829,128.0),cellId="Seyda Neen, Fine-Mouth's Shack"},
     {coords=util.vector3(49.62337,52.53568,-6.533),cellId="Vivec, St. Delyn Canal South-Two"},
@@ -1758,9 +1743,10 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(64.0,-3583.999,-512.0),cellId="Ald-ruhn, Ramoran Manor"},
     {coords=util.vector3(702.4388,-314.39557,-424.2185),cellId="Vivec, St. Olms Haunted Manor"},
     {coords=util.vector3(-32.65,483.335,-146.497),cellId="Ahemmusa Camp, Mamaea's Yurt"},
+    {coords=util.vector3(73327.73,-96523.9,687.796),cellId=nil},
     {coords=util.vector3(1669.761,1799.801,-675.746),cellId="Masseranit"},
     {coords=util.vector3(4282.4854,3669.2136,34.523357),cellId="Prelude Shipwreck, Upper Level"},
-    {coords=util.vector3(-10738.784,56459.88,2670.721),cellId="Ald-ruhn"},
+    {coords=util.vector3(6567.42,-54631.047,2300.314),cellId=nil},
     {coords=util.vector3(51634.387,-37160.94,788.523),cellId=nil},
     {coords=util.vector3(3.339,3009.927,-432.0),cellId="Kaushtarari, Shrine"},
     {coords=util.vector3(-28.987,477.06,-145.957),cellId="Ahemmusa Camp, Addammus's Yurt"},
@@ -1769,23 +1755,22 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-2181.6868,2456.9482,1008.0),cellId="Telvayn Ancestral Tomb"},
     {coords=util.vector3(576.0,1920.0,-128.0),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(56185.027,-56245.152,1432.0),cellId=nil},
-    {coords=util.vector3(95799.76,135859.61,1052.818),cellId="Ahemmusa Camp"},
     {coords=util.vector3(768.0,-960.0,-256.0),cellId="Ald-ruhn, Redoran Council Hall"},
     {coords=util.vector3(55730.676,-55053.816,1272.0),cellId=nil},
     {coords=util.vector3(-2.1854491,-3.96398,-38.81029),cellId="Vivec, Telvanni Apothecary"},
     {coords=util.vector3(-1728.0,260.0,256.0),cellId="Helan Ancestral Tomb"},
     {coords=util.vector3(4149.94,4211.546,14739.75),cellId="Morvayn Manor"},
     {coords=util.vector3(105.6525,71.238106,128.0),cellId="Pelagiad, Adanja's House"},
-    {coords=util.vector3(-27739.723,149349.27,796.24756),cellId="Urshilaku Camp"},
+    {coords=util.vector3(-3684.1736,152056.47,2385.348),cellId=nil},
+    {coords=util.vector3(86247.84,118807.91,4638.271),cellId=nil},
+    {coords=util.vector3(103954.66,38081.156,515.417),cellId=nil},
     {coords=util.vector3(36407.43,184595.12,1006.4172),cellId=nil},
     {coords=util.vector3(44091.58,-87008.4,1871.9995),cellId=nil},
-    {coords=util.vector3(125409.586,47663.668,1512.286),cellId="Tel Aruhn"},
-    {coords=util.vector3(31608.65,-92515.48,1885.9888),cellId="Vivec, St. Delyn"},
+    {coords=util.vector3(54635.926,-50157.32,575.49),cellId=nil},
     {coords=util.vector3(166683.45,38020.734,291.608),cellId=nil},
     {coords=util.vector3(-12009.4795,88253.04,3671.3137),cellId=nil},
     {coords=util.vector3(1981.118,2878.625,545.826),cellId="Ahallaraddon Egg Mine"},
     {coords=util.vector3(15039.036,-57778.508,300.72424),cellId=nil},
-    {coords=util.vector3(12773.886,-102277.19,1393.126),cellId="Ebonheart"},
     {coords=util.vector3(60232.18,52525.57,1520.773),cellId=nil},
     {coords=util.vector3(-84137.875,124104.88,1465.757),cellId=nil},
     {coords=util.vector3(251.56845,-1158.1189,-294.95435),cellId="Ald-ruhn, Llethri Manor Entrance"},
@@ -1793,8 +1778,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4096.427,3343.654,14948.803),cellId="Vivec, Foreign Quarter Upper Waistworks"},
     {coords=util.vector3(110520.41,119655.14,645.089),cellId=nil},
     {coords=util.vector3(-18.208248,112.10381,240.33028),cellId="Caldera, Mining Guard Tower"},
-    {coords=util.vector3(149664.0,29312.0,1712.0),cellId="Wolverine Hall"},
-    {coords=util.vector3(-9895.516,-72398.01,726.929),cellId="Seyda Neen"},
     {coords=util.vector3(37254.766,-60505.71,893.56555),cellId=nil},
     {coords=util.vector3(-128.00015,831.99994,-1088.0),cellId="Falensarano, Lower Level"},
     {coords=util.vector3(4135.27,4404.77,152.57253),cellId="Prelude Shipwreck, Cabin"},
@@ -1802,6 +1785,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(32966.633,-84716.2,-258.62744),cellId=nil},
     {coords=util.vector3(64.0,384.0,-128.0),cellId="Vivec, Arena Fighters Quarters"},
     {coords=util.vector3(-1526.2637,589.5,-1730.3469),cellId="Vivec, St. Delyn Plaza"},
+    {coords=util.vector3(22207.85,-82556.8,2233.9004),cellId=nil},
     {coords=util.vector3(70.797165,-2910.75,153.13474),cellId="Clutter Warehouse - Everything Must Go!"},
     {coords=util.vector3(15769.879,-102026.016,1296.0),cellId=nil},
     {coords=util.vector3(-28573.242,149831.08,792.62494),cellId=nil},
@@ -1811,6 +1795,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(147096.16,34671.242,846.0479),cellId=nil},
     {coords=util.vector3(18639.309,-53193.797,728.287),cellId=nil},
     {coords=util.vector3(-2030.9874,-1025.3857,223.8268),cellId="Vivec, Redoran Waistworks"},
+    {coords=util.vector3(3472.004,-57655.39,1657.251),cellId=nil},
     {coords=util.vector3(-77.477,-16.745,-26.765),cellId="Caldera, Keel-Raniur's House"},
     {coords=util.vector3(2048.0,3968.0,14272.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(77314.83,-20105.594,742.6002),cellId=nil},
@@ -1825,13 +1810,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-1798.3167,3152.0,80.0),cellId="Molag Mar, Underworks"},
     {coords=util.vector3(-2039.0216,-147.84216,1024.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(13577.879,-102250.016,1568.0),cellId=nil},
-    {coords=util.vector3(-22632.246,-13337.344,677.133),cellId="Balmora"},
     {coords=util.vector3(624.0,4096.0,-288.0),cellId="Ald-ruhn, Sarethi Manor"},
     {coords=util.vector3(58893.04,182296.86,393.13184),cellId=nil},
     {coords=util.vector3(-16.0,0.0,-152.0),cellId="Tel Uvirith, Tower Lower"},
     {coords=util.vector3(58258.117,84702.13,1044.095),cellId=nil},
+    {coords=util.vector3(-11775.806,19238.307,1455.442),cellId=nil},
     {coords=util.vector3(144071.3,35904.098,876.39984),cellId=nil},
-    {coords=util.vector3(109108.8,-3480.3088,636.4296),cellId="Erabenimsun Camp"},
     {coords=util.vector3(-100230.375,124807.62,-1438.026),cellId=nil},
     {coords=util.vector3(42617.773,93933.51,10113.556),cellId=nil},
     {coords=util.vector3(1635.9346,2231.8457,16208.0),cellId="Tel Vos, Central Tower"},
@@ -1842,9 +1826,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2496.0,3136.0,12064.0),cellId="Arkngthand, Heaven's Gallery"},
     {coords=util.vector3(219.395,-178.414,480.268),cellId="Ules Manor, Slave Shack"},
     {coords=util.vector3(-264.0,-872.0,312.0),cellId="Tower of Tel Fyr, Onyx Hall"},
-    {coords=util.vector3(34700.457,-103683.58,-262.683),cellId="Vivec, Temple"},
-    {coords=util.vector3(6655.024,4312.135,220.045),cellId="Ainab, Shrine"},
     {coords=util.vector3(152832.1,37299.734,1294.2959),cellId=nil},
+    {coords=util.vector3(6655.024,4312.135,220.045),cellId="Ainab, Shrine"},
     {coords=util.vector3(22890.254,-86962.66,1884.2732),cellId=nil},
     {coords=util.vector3(6144.0,3599.0364,0.0),cellId="Vivec, Puzzle Canal, Level 5"},
     {coords=util.vector3(3200.0,4032.0,14720.0),cellId="Ald-ruhn, Temple"},
@@ -1854,6 +1837,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-23417.637,10516.991,1348.4287),cellId=nil},
     {coords=util.vector3(4238.6553,3760.829,13790.745),cellId="Strange Shipwreck, Lower Level"},
     {coords=util.vector3(371.595,4.642,133.571),cellId="Tel Branora, Manos Vavyn's House"},
+    {coords=util.vector3(-60666.582,27532.824,439.279),cellId=nil},
     {coords=util.vector3(267.84982,-315.8626,-164.51863),cellId="Vivec, Saren Manor"},
     {coords=util.vector3(-1608.668,5377.231,-805.518),cellId="Yasamsi"},
     {coords=util.vector3(259.57367,504.70932,0.0),cellId="Vivec, Library of Vivec"},
@@ -1864,24 +1848,21 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-21681.613,-13123.929,913.89),cellId=nil},
     {coords=util.vector3(35112.15,-119703.93,386.29),cellId=nil},
     {coords=util.vector3(39.082,-1503.323,12.663),cellId="Cavern of the Incarnate"},
+    {coords=util.vector3(-44448.0,-3765.0,2368.0),cellId=nil},
     {coords=util.vector3(-64.0,-256.0,0.0),cellId="Ald-ruhn, Morvayn Quarters"},
     {coords=util.vector3(95140.9,116387.266,1904.2067),cellId=nil},
-    {coords=util.vector3(-14776.054,42958.402,3531.747),cellId="Buckmoth Legion Fort"},
     {coords=util.vector3(-62.0,64.0,96.0),cellId="Ministry of Truth, Prison Keep"},
-    {coords=util.vector3(-80768.0,93358.0,2329.0),cellId="Gnisis"},
     {coords=util.vector3(38.896244,-91.06949,92.27495),cellId="Seyda Neen, Foryn Gilnith's Shack"},
-    {coords=util.vector3(14217.879,-100394.016,1280.0),cellId="Ebonheart"},
     {coords=util.vector3(-176.0,1160.0,240.0),cellId="Caldera, North Guard Towers"},
-    {coords=util.vector3(-10329.949,19960.645,1465.251),cellId="Caldera"},
     {coords=util.vector3(-3.006,-381.036,0.0),cellId="Maar Gan, Assi Serimilk's Hut"},
     {coords=util.vector3(-2057.001,871.124,-300.0),cellId="Kogoruhn, Bleeding Heart"},
     {coords=util.vector3(185.154,-4096.303,1121.847),cellId="Zebabi"},
     {coords=util.vector3(1788.5925,-509.50354,224.606),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(448.00003,831.0,-512.0),cellId="Valenvaryon, Propylon Chamber"},
     {coords=util.vector3(-648.571,-63.443,822.848),cellId="Sadrith Mora, Telvanni Council House"},
-    {coords=util.vector3(29118.96,-91064.36,670.7505),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(9828.702,-65512.76,492.3755),cellId=nil},
     {coords=util.vector3(-12.0,-104.0,-40.0),cellId="Ald-ruhn, Bivale Teneran: Clothier"},
+    {coords=util.vector3(19716.748,38948.05,1339.276),cellId=nil},
     {coords=util.vector3(5771.361,45.72869,-128.0),cellId="Vivec, Office of the Watch"},
     {coords=util.vector3(-93.807,-547.684,158.246),cellId="Indarys Manor, Berendas' House"},
     {coords=util.vector3(0.9896425,-4.3880744,-29.727613),cellId="Vivec, St. Delyn Waist South-Two"},
@@ -1893,12 +1874,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-64.0,192.0,-128.0),cellId="Vivec, St. Delyn Canal South-Two"},
     {coords=util.vector3(0.4003074,-93.14888,0.0),cellId="Shashurari Camp, Zennammu's Yurt"},
     {coords=util.vector3(4289.034,5439.738,14176.0),cellId="Maran-Adon"},
+    {coords=util.vector3(93508.42,134425.19,883.64),cellId=nil},
     {coords=util.vector3(3634.35,4113.246,-1050.4678),cellId="Unchartered Shipwreck, Upper Level"},
     {coords=util.vector3(500.68436,-241.0819,-35.355743),cellId="Vivec, Canon Offices"},
-    {coords=util.vector3(-16680.38,53313.113,1895.764),cellId="Ald-ruhn"},
     {coords=util.vector3(-2547.1414,1686.7339,-32.0),cellId="Ebonheart, East Empire South Warehouse"},
+    {coords=util.vector3(-88361.414,91578.125,1117.8862),cellId=nil},
     {coords=util.vector3(-1744.5596,258.27347,-44.690838),cellId="Vivec, Telvanni Waistworks"},
-    {coords=util.vector3(10150.84,-100633.85,1477.502),cellId="Ebonheart"},
+    {coords=util.vector3(31353.102,-79744.0,3449.1304),cellId=nil},
     {coords=util.vector3(-512.0,-384.0,-128.0),cellId="Balmora, Guild of Mages"},
     {coords=util.vector3(640.0,0.0,-288.0),cellId="Maar Gan, Guard Tower 1"},
     {coords=util.vector3(-128.0,128.0,-128.0),cellId="Vivec, St. Delyn Canal South-Three"},
@@ -1909,35 +1891,35 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(79107.6,-71886.91,254.658),cellId=nil},
     {coords=util.vector3(-1696.0,2176.0,-256.0),cellId="Onnissiralis, Shrine"},
     {coords=util.vector3(2944.0,-320.0,256.0),cellId="Vivec, Telvanni Canalworks"},
+    {coords=util.vector3(35580.332,-95288.96,1887.3419),cellId=nil},
     {coords=util.vector3(125.33962,-0.9005821,-160.51486),cellId="Vivec, Arena Canalworks"},
+    {coords=util.vector3(149664.0,29312.0,1712.0),cellId=nil},
     {coords=util.vector3(3.8753293,-50.34407,-27.27096),cellId="Ghostgate, Tower of Dawn Lower Level"},
     {coords=util.vector3(-1.2888875,143.24146,-1805.7229),cellId="Vivec, St. Olms Plaza"},
     {coords=util.vector3(-3862.275,37507.57,1097.206),cellId=nil},
+    {coords=util.vector3(-87801.24,92927.53,1087.4274),cellId=nil},
     {coords=util.vector3(6560.0,1024.0,272.0),cellId="Vivec, St. Delyn Underworks"},
     {coords=util.vector3(72963.01,170572.14,676.79),cellId=nil},
-    {coords=util.vector3(-15285.494,55836.812,2435.887),cellId="Ald-ruhn"},
-    {coords=util.vector3(31479.123,-104414.57,-262.2934),cellId="Vivec, Temple"},
     {coords=util.vector3(4159.86,4457.07,14843.513),cellId="Morvayn Manor"},
     {coords=util.vector3(48638.86,-59452.484,1224.746),cellId=nil},
     {coords=util.vector3(126851.664,-101680.22,2366.4578),cellId=nil},
     {coords=util.vector3(4160.2686,4016.8582,15790.27),cellId="Massahanud Camp, Sargon's Yurt"},
-    {coords=util.vector3(-12680.136,19568.873,1631.0596),cellId="Caldera"},
+    {coords=util.vector3(98982.03,114036.04,909.586),cellId=nil},
     {coords=util.vector3(1475.2386,163.75961,-769.7102),cellId="Molag Mar, Canalworks"},
     {coords=util.vector3(1840.0,1136.0,96.0),cellId="Vivec, Hall Underworks"},
     {coords=util.vector3(-531.443,-68.568,917.678),cellId="Sadrith Mora, Telvanni Council House"},
     {coords=util.vector3(-68.39007,-1091.1492,458.07388),cellId="An Abandoned Shack"},
     {coords=util.vector3(-446.27106,1293.727,228.741),cellId="Mzahnch Lower Level"},
-    {coords=util.vector3(-18815.363,104691.46,3135.695),cellId="Maar Gan"},
     {coords=util.vector3(3136.0,-96.0,-32.0),cellId="Mzahnch"},
     {coords=util.vector3(768.0,-576.0,-256.0),cellId="Ald-ruhn, Arobar Private Quarters"},
-    {coords=util.vector3(-21151.0,-15732.862,634.618),cellId="Balmora"},
+    {coords=util.vector3(95550.33,134019.56,945.345),cellId=nil},
     {coords=util.vector3(160.0,320.0,352.0),cellId="Pulk"},
     {coords=util.vector3(68647.76,6204.29,1362.52),cellId=nil},
     {coords=util.vector3(370.079,11.648,130.904),cellId="Tel Branora, Fedar Davus's House"},
-    {coords=util.vector3(-10275.138,-71635.64,260.52),cellId="Seyda Neen"},
     {coords=util.vector3(130.315,1276.038,-431.165),cellId="Moonmoth Legion Fort, Interior"},
     {coords=util.vector3(4064.0,2880.0,13760.0),cellId="Shulk Egg Mine, Queen's Lair"},
     {coords=util.vector3(2.6445587,16.025269,92.87028),cellId="Balmora, Rithleen's House"},
+    {coords=util.vector3(-17871.473,-13244.286,322.631),cellId=nil},
     {coords=util.vector3(-64.0,0.0,128.0),cellId="Ald-ruhn, Guard Tower 1"},
     {coords=util.vector3(-52160.0,64176.0,1424.0),cellId=nil},
     {coords=util.vector3(40292.973,45859.11,2163.475),cellId=nil},
@@ -1951,12 +1933,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3812.0,8526.0,858.0),cellId="Ilunibi, Tainted Marrow"},
     {coords=util.vector3(338.654,3.173,133.53),cellId="Tel Branora, Galen Berer: Armorer"},
     {coords=util.vector3(4302.042,3290.97,336.791),cellId="Abandoned Shipwreck, Upper Level"},
-    {coords=util.vector3(148376.0,29192.0,1280.0),cellId="Wolverine Hall"},
-    {coords=util.vector3(22866.959,-81860.41,1886.4177),cellId="Vivec"},
     {coords=util.vector3(-22377.678,-15203.207,641.38824),cellId=nil},
     {coords=util.vector3(-768.0,-64.0,0.0),cellId="Ald-ruhn, Council Hostel"},
     {coords=util.vector3(-765.04755,-513.1649,-36.520664),cellId="Vivec, St. Delyn Waistworks"},
-    {coords=util.vector3(31610.586,-86290.305,1887.3419),cellId="Vivec, Redoran"},
     {coords=util.vector3(832.0,1600.0,-96.0),cellId="Nchuleftingth, Upper Levels"},
     {coords=util.vector3(-2880.0,516.0,928.0),cellId="Sarethi Ancestral Tomb"},
     {coords=util.vector3(3072.0,4096.0,13536.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
@@ -1965,15 +1944,14 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-7474.259,171118.12,397.258),cellId=nil},
     {coords=util.vector3(-2.734,452.461,-155.393),cellId="Zainab Camp, Ashkhan's Yurt"},
     {coords=util.vector3(152090.19,38270.95,1138.1732),cellId=nil},
-    {coords=util.vector3(110655.09,-63212.85,1892.991),cellId="Molag Mar"},
     {coords=util.vector3(108546.05,25469.346,343.049),cellId=nil},
     {coords=util.vector3(-25.765999,-3.207178,88.11907),cellId="Ald-ruhn, Council Club"},
     {coords=util.vector3(-68.989,-167.554,-207.871),cellId="Valenvaryon, Durz's Hut"},
     {coords=util.vector3(4640.0,3605.827,0.0),cellId="Vivec, Puzzle Canal, Level 2"},
     {coords=util.vector3(128.0,1216.0,128.0),cellId="Vivec, Hall of Justice"},
-    {coords=util.vector3(30510.613,-99577.82,3632.9),cellId="Vivec, Temple"},
     {coords=util.vector3(32199.27,-79118.81,3094.9365),cellId=nil},
-    {coords=util.vector3(-66728.13,139817.97,119.892),cellId="Khuul"},
+    {coords=util.vector3(-26284.72,-13149.228,1379.745),cellId=nil},
+    {coords=util.vector3(-11007.254,-67859.51,426.60397),cellId=nil},
     {coords=util.vector3(1744.0,1136.0,288.0),cellId="Vivec, Hall Underworks"},
     {coords=util.vector3(3.682039,-43.407124,84.0881),cellId="Vemynal, Outer Fortress"},
     {coords=util.vector3(-25327.387,-11000.132,1367.6328),cellId=nil},
@@ -1989,13 +1967,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-12.430133,-7.0,-41.0),cellId="Berandas, Underground"},
     {coords=util.vector3(5210.0,2875.9998,710.0),cellId="Mamaea, Sanctum of Awakening"},
     {coords=util.vector3(-67.056,-1230.665,453.866),cellId="An Abandoned Shack"},
-    {coords=util.vector3(-10289.647,22497.963,2160.026),cellId="Caldera"},
-    {coords=util.vector3(4585.492,-57128.066,2301.018),cellId="Pelagiad"},
     {coords=util.vector3(2566.171,-1057.233,-261.39),cellId="Dubdilla, Uncharted Caverns, Lower"},
     {coords=util.vector3(2943.006,-211.98,256.0),cellId="Vivec, St. Olms Canalworks"},
     {coords=util.vector3(5760.0005,3073.799,80.0),cellId="Vivec, St. Delyn Underworks"},
     {coords=util.vector3(3963.1514,3921.7432,13588.666),cellId="Vivec, Lucretinaus Olcinius: Trader"},
     {coords=util.vector3(127036.75,-4564.619,906.5455),cellId=nil},
+    {coords=util.vector3(60390.652,184257.12,312.481),cellId=nil},
     {coords=util.vector3(13049.879,-100522.016,1744.0),cellId=nil},
     {coords=util.vector3(-81351.18,114071.195,4.107197),cellId=nil},
     {coords=util.vector3(448.0,-384.0,-128.0),cellId="Vivec, Canon Offices"},
@@ -2005,11 +1982,11 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(161353.05,61640.91,448.0),cellId=nil},
     {coords=util.vector3(802.405,-889.791,-1583.628),cellId="Matus-Akin Egg Mine"},
     {coords=util.vector3(-2095.361,3210.625,-551.906),cellId="Nammu"},
-    {coords=util.vector3(-28663.54,150762.72,798.4475),cellId="Urshilaku Camp"},
     {coords=util.vector3(-121.588,1.599,-159.548),cellId="Vivec, Jeanne: Trader"},
     {coords=util.vector3(320.0,-128.0,-128.0),cellId="Vivec, Redoran Trader"},
     {coords=util.vector3(384.0,-256.0,-96.0),cellId="Vivec, Hlaalu Temple"},
     {coords=util.vector3(36548.13,-90895.55,663.78625),cellId=nil},
+    {coords=util.vector3(-21163.062,-16672.64,638.648),cellId=nil},
     {coords=util.vector3(22.0,-1352.0,202.0),cellId="Corprusarium"},
     {coords=util.vector3(384.0,96.0,-576.0),cellId="Indarys Manor, Raram's House"},
     {coords=util.vector3(-28622.568,-51326.918,1180.5994),cellId=nil},
@@ -2019,25 +1996,23 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(45.679314,-355.88907,-76.8849),cellId="Gnisis, Lasamsi Cave Dwelling"},
     {coords=util.vector3(-128.0,-256.0,128.0),cellId="Ebonheart, East Empire North Warehouse"},
     {coords=util.vector3(35409.574,-90906.29,669.14026),cellId=nil},
+    {coords=util.vector3(31225.879,-100186.016,2592.0),cellId=nil},
     {coords=util.vector3(1786.2518,515.71027,-297.4083),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(-88221.46,92364.195,1096.7758),cellId=nil},
     {coords=util.vector3(-763.73206,-510.00137,-293.0558),cellId="Vivec, Telvanni Waistworks"},
-    {coords=util.vector3(-20396.959,-12085.556,307.596),cellId="Balmora"},
     {coords=util.vector3(3963.67,3991.0103,14677.922),cellId="Khuul, Brurid's Shack"},
-    {coords=util.vector3(32301.275,-99789.445,1149.218),cellId="Vivec, Temple"},
     {coords=util.vector3(-2142.335,1533.8347,-291.275),cellId="Shallit"},
+    {coords=util.vector3(-14985.187,-14254.765,547.314),cellId=nil},
+    {coords=util.vector3(-16944.076,100097.914,1764.128),cellId=nil},
     {coords=util.vector3(344.0,0.0,128.0),cellId="Tel Aruhn, Bildren Areleth: Apothecary"},
     {coords=util.vector3(-251.4115,4.799515,84.8002),cellId="Tureynulal, Kagrenac's Library"},
     {coords=util.vector3(3963.756,3849.826,14672.571),cellId="Khuul, Brurid's Shack"},
     {coords=util.vector3(29.87,349.93915,-169.77896),cellId="Urshilaku Camp, Sakiran's Yurt"},
     {coords=util.vector3(3925.1682,3916.0522,15498.151),cellId="Khuul, Helga's Shack"},
     {coords=util.vector3(42302.89,-47053.402,869.13153),cellId=nil},
-    {coords=util.vector3(93958.64,135268.97,997.121),cellId="Ahemmusa Camp"},
     {coords=util.vector3(1.7354805,142.9582,314.76636),cellId="Tel Aruhn, Underground"},
     {coords=util.vector3(-2579.1414,1830.7341,208.0),cellId="Ebonheart, East Empire South Warehouse"},
     {coords=util.vector3(4638.858,3994.4666,16.786232),cellId="Vivec, Puzzle Canal, Level 2"},
-    {coords=util.vector3(-17871.473,-13244.286,322.631),cellId="Balmora"},
-    {coords=util.vector3(20292.518,-54263.348,722.114),cellId="Dren Plantation"},
     {coords=util.vector3(80416.195,70370.82,1318.9231),cellId=nil},
     {coords=util.vector3(192.0,-640.0,-128.0),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(4266.2876,3846.2825,15509.953),cellId="Caldera, Valvius Mevureius' House"},
@@ -2046,59 +2021,60 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(46945.293,103401.47,3189.8694),cellId=nil},
     {coords=util.vector3(7.873,-255.446,-27.855),cellId="Vivec, Hall of Justice Secret Library"},
     {coords=util.vector3(-64.118,-132.898,384.0),cellId="Ginith Ancestral Tomb"},
-    {coords=util.vector3(-85953.3,96998.93,1693.9685),cellId="Gnisis"},
     {coords=util.vector3(1.266,-971.917,-100.084),cellId="Maar Gan, Andus Tradehouse"},
     {coords=util.vector3(-1278.6833,1020.09503,221.61691),cellId="Ghostgate, Tower of Dawn"},
     {coords=util.vector3(29119.676,-88454.63,1885.8848),cellId=nil},
     {coords=util.vector3(-13488.265,-72070.914,164.6741),cellId=nil},
-    {coords=util.vector3(61392.445,183057.36,229.833),cellId="Dagon Fel"},
     {coords=util.vector3(576.0,160.0,96.0),cellId="Aleft"},
     {coords=util.vector3(-154.74416,-603.4297,549.05493),cellId="Caldera, Mining Bunkhouse"},
     {coords=util.vector3(-138.0,2918.0,12506.0),cellId="Ilunibi, Soul's Rattle"},
     {coords=util.vector3(4523.756,3840.4197,-751.1544),cellId="Lonely Shipwreck, Upper Level"},
     {coords=util.vector3(-9585.119,18637.54,1904.0),cellId=nil},
-    {coords=util.vector3(923.489,-57557.508,1492.258),cellId="Pelagiad"},
     {coords=util.vector3(-64.0,-1280.0,-960.0),cellId="Molag Mar, Waistworks"},
-    {coords=util.vector3(-67441.805,141076.14,388.903),cellId="Khuul"},
+    {coords=util.vector3(-20982.695,-14493.162,628.98),cellId=nil},
     {coords=util.vector3(-125.70863,-132.49956,-41.207333),cellId="Gnisis, Barracks"},
     {coords=util.vector3(4280.187,4680.812,13074.276),cellId="Maelkashishi, Shrine, Forgotten Galleries"},
     {coords=util.vector3(55754.133,-55048.613,1569.9418),cellId=nil},
     {coords=util.vector3(2752.0,1930.0,-32.0),cellId="Ald Daedroth, Right Wing"},
+    {coords=util.vector3(6324.375,-55670.65,2776.993),cellId=nil},
     {coords=util.vector3(-64.0,384.0,-128.0),cellId="Vivec, St. Olms Tailors and Dyers Hall"},
-    {coords=util.vector3(56233.05,-51544.188,662.36304),cellId="Suran"},
     {coords=util.vector3(-1344.0,-640.0,128.0),cellId="Vivec, St. Delyn Waistworks"},
-    {coords=util.vector3(56192.195,-56388.973,1428.6862),cellId="Suran"},
+    {coords=util.vector3(108958.4,-2549.6345,636.4296),cellId=nil},
+    {coords=util.vector3(-74266.02,91489.87,-306.6382),cellId=nil},
+    {coords=util.vector3(29114.969,-88290.09,1886.8861),cellId=nil},
     {coords=util.vector3(-496.0,-592.0,-160.0),cellId="Vivec, Foreign Quarter Canalworks"},
-    {coords=util.vector3(86433.49,118886.1,5571.3745),cellId="Tel Vos"},
-    {coords=util.vector3(148640.0,29088.0,1584.0),cellId="Wolverine Hall"},
     {coords=util.vector3(28294.008,-79745.06,3357.6116),cellId=nil},
-    {coords=util.vector3(-26284.72,-13149.228,1379.745),cellId="Balmora"},
     {coords=util.vector3(4030.332,4053.4512,15212.801),cellId="Gnaar Mok, Mush-Mere's Shack"},
+    {coords=util.vector3(33751.914,-106273.805,1332.2826),cellId=nil},
     {coords=util.vector3(0.0,-3440.0,-544.0),cellId="Ald-ruhn, Ramoran Manor"},
     {coords=util.vector3(3931.71,3809.4631,15549.563),cellId="Vivec, Telvanni Alchemist"},
     {coords=util.vector3(-2624.0,3744.0,-640.0),cellId="Beran Ancestral Tomb"},
     {coords=util.vector3(358.11008,-238.9794,-192.22876),cellId="Vivec, Redoran Treasury"},
     {coords=util.vector3(31743.834,-94103.04,1885.4465),cellId=nil},
     {coords=util.vector3(-2671.748,4130.7915,-277.85266),cellId="Ebonheart, Underground Caves"},
+    {coords=util.vector3(153457.42,38075.09,1596.1),cellId=nil},
     {coords=util.vector3(3271.7502,-2001.0758,-105.51837),cellId="Vivec, Justice Offices"},
     {coords=util.vector3(-13071.304,51975.152,2181.854),cellId=nil},
     {coords=util.vector3(521.877,13.873,93.313),cellId="Balmora, Karlirah's House"},
+    {coords=util.vector3(2228.482,-58559.496,1343.116),cellId=nil},
     {coords=util.vector3(-1920.0,3328.0,-896.0),cellId="Bal Ur, Shrine"},
     {coords=util.vector3(958.724,1342.049,610.151),cellId="Minabi"},
     {coords=util.vector3(-2563.1414,1846.7341,448.0),cellId="Ebonheart, East Empire South Warehouse"},
+    {coords=util.vector3(17939.457,-56631.727,1136.4921),cellId=nil},
     {coords=util.vector3(1863.5612,0.0,-1699.9863),cellId="Vivec, St. Olms Plaza"},
     {coords=util.vector3(-21942.52,104965.84,2242.319),cellId=nil},
     {coords=util.vector3(-13338.406,-70938.97,207.25041),cellId=nil},
     {coords=util.vector3(1406.858,4036.716,-417.754),cellId="Tin-Ahhe"},
     {coords=util.vector3(-139.66867,-213.03247,-141.68277),cellId="Falvillo's Endeavor, Cabin"},
+    {coords=util.vector3(109074.09,118650.51,597.5678),cellId=nil},
     {coords=util.vector3(23704.03,-55771.984,1339.7493),cellId=nil},
     {coords=util.vector3(4094.484,4543.438,14520.0),cellId="Tel Branora, Upper Tower"},
     {coords=util.vector3(-384.0,-672.0,0.0),cellId="Caldera, Governor's Hall"},
     {coords=util.vector3(56385.36,-53113.008,1304.9232),cellId=nil},
     {coords=util.vector3(-68475.234,46813.227,1861.8408),cellId=nil},
+    {coords=util.vector3(-61421.008,26514.795,333.31592),cellId=nil},
     {coords=util.vector3(3935.8542,-3547.8262,448.0),cellId="Mamaea, Sanctum of Black Hope"},
     {coords=util.vector3(-1473.7142,-221.94827,1589.1862),cellId="Vivec, Redoran Plaza"},
-    {coords=util.vector3(144736.45,42370.863,946.906),cellId="Sadrith Mora"},
     {coords=util.vector3(-128.0,1860.0,128.0),cellId="Dreloth Ancestral Tomb"},
     {coords=util.vector3(-112.0,0.0,225.735),cellId="Caldera, Shenk's Shovel"},
     {coords=util.vector3(4417.125,4246.148,14549.954),cellId="Gnaar Mok, Druegh-jigger's Rest"},
@@ -2111,35 +2087,30 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-58312.855,87550.26,1146.29),cellId=nil},
     {coords=util.vector3(4118.6416,4090.617,15358.193),cellId="Khuul, Endris Dilmyn's Shack"},
     {coords=util.vector3(-2878.712,4128.286,-277.20078),cellId="Ebonheart, Underground Caves"},
+    {coords=util.vector3(-9113.873,19139.59,1272.168),cellId=nil},
     {coords=util.vector3(4097.0,3898.0,12758.0),cellId="Hlormaren, Propylon Chamber"},
     {coords=util.vector3(1.884,-134.93,115.44),cellId="Pelagiad, Madres Navur's House"},
+    {coords=util.vector3(-5062.0435,-18124.459,1096.8354),cellId=nil},
     {coords=util.vector3(4372.936,5517.302,1203.194),cellId=nil},
-    {coords=util.vector3(62283.926,185403.27,184.021),cellId="Dagon Fel"},
-    {coords=util.vector3(-66782.17,140806.81,280.663),cellId="Khuul"},
     {coords=util.vector3(-9.903349,-248.2384,-40.45775),cellId="Ald-ruhn, Bevene Releth: Clothier"},
-    {coords=util.vector3(77067.01,53389.992,1662.0),cellId="Falensarano"},
     {coords=util.vector3(115278.7,-75021.695,403.322),cellId=nil},
     {coords=util.vector3(448.0,1056.0,-1504.0),cellId="Druscashti, Upper Level"},
     {coords=util.vector3(154895.06,-7126.8,57.239),cellId=nil},
     {coords=util.vector3(4257.481,5038.18,12959.819),cellId="Maelkashishi, Shrine, Forgotten Galleries"},
-    {coords=util.vector3(-21163.062,-16672.64,638.648),cellId="Balmora"},
     {coords=util.vector3(67946.086,132853.73,886.03864),cellId=nil},
     {coords=util.vector3(105280.74,-75132.41,1149.4517),cellId=nil},
     {coords=util.vector3(3768.0,-2916.0,1600.0),cellId="Dareleth Ancestral Tomb"},
     {coords=util.vector3(320.0,2432.0,-288.0),cellId="Arkngthand, Hall of Centrifuge"},
     {coords=util.vector3(1304.046,487.066,-401.914),cellId="Balmora, Guild of Fighters"},
-    {coords=util.vector3(31864.791,-101082.88,3423.334),cellId="Vivec, Temple"},
     {coords=util.vector3(-288.0,-256.0,288.0),cellId="Rethan Manor, Gols' House"},
     {coords=util.vector3(-69179.23,19039.97,168.42528),cellId=nil},
     {coords=util.vector3(86610.414,118651.56,5106.23),cellId=nil},
     {coords=util.vector3(-35.70588,244.29166,-123.3309),cellId="Urshilaku Camp, Maeli's Yurt"},
     {coords=util.vector3(1062.5977,-286.46878,322.9264),cellId="Vivec, Foreign Quarter Plaza"},
-    {coords=util.vector3(23582.064,-55880.26,1352.757),cellId="Dren Plantation"},
     {coords=util.vector3(900.0,-608.0,-704.0),cellId="Andas Ancestral Tomb"},
     {coords=util.vector3(52891.062,101788.21,2562.0684),cellId=nil},
     {coords=util.vector3(-11614.99,-70114.55,316.34674),cellId=nil},
     {coords=util.vector3(7.5052285,196.60704,-171.18597),cellId="Vivec, Curio Manor"},
-    {coords=util.vector3(-14985.187,-14254.765,547.314),cellId="Balmora"},
     {coords=util.vector3(-2248.341,1509.066,-2096.0),cellId="Falensarano, Upper Level"},
     {coords=util.vector3(163.09091,-228.06987,192.0),cellId="Balmora, Caius Cosades' House"},
     {coords=util.vector3(5.539236,241.7713,-129.15282),cellId="Vivec, Telvanni Sorcerer"},
@@ -2150,16 +2121,17 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3.3873866,621.98804,-36.918545),cellId="Ebonheart, Grand Council Chambers Tower"},
     {coords=util.vector3(66504.664,-83689.42,622.437),cellId=nil},
     {coords=util.vector3(125544.0,47808.0,1480.0),cellId=nil},
-    {coords=util.vector3(127566.16,-103427.91,818.438),cellId="Tel Branora"},
     {coords=util.vector3(1417.4534,6775.9224,12169.584),cellId="Urshilaku, Kefka Burial"},
     {coords=util.vector3(41.688072,-506.84268,-43.552),cellId="Gnisis, Lasamsi Cave Dwelling"},
     {coords=util.vector3(967.368,3199.917,101.019),cellId="Kumarahaz"},
     {coords=util.vector3(4118.0,-1084.0,346.0),cellId="Ilunibi, Tainted Marrow"},
     {coords=util.vector3(-30448.0,179344.0,2406.263),cellId=nil},
-    {coords=util.vector3(-12493.858,44616.48,3189.669),cellId="Buckmoth Legion Fort"},
+    {coords=util.vector3(-23807.06,-11983.674,1363.531),cellId=nil},
+    {coords=util.vector3(41360.1,-87772.02,-247.164),cellId=nil},
     {coords=util.vector3(128.0,-32.0,-288.0),cellId="Maar Gan, Guard Tower 1"},
     {coords=util.vector3(320.0,-2240.0,-131.43558),cellId="Ald-ruhn, Ilmiril's House"},
     {coords=util.vector3(480.0,0.0,-32.0),cellId="Vivec, Ordinator Barracks"},
+    {coords=util.vector3(31185.855,-97020.01,-262.683),cellId=nil},
     {coords=util.vector3(5184.0,1600.0,12672.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(-7173.957,2808.0,-681.079),cellId="Ilanipu Grotto"},
     {coords=util.vector3(3685.246,4250.687,14476.453),cellId="Hla Oad, Fatleg's Drop Off"},
@@ -2167,16 +2139,17 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-172.268,378.99,368.935),cellId="Ald Daedroth, Outer Shrine"},
     {coords=util.vector3(0.0,-112.0,-32.0),cellId="Ald-ruhn, Practice Room"},
     {coords=util.vector3(749.3979,-1758.2341,464.0),cellId="Moonmoth Legion Fort, Prison Towers"},
-    {coords=util.vector3(-11748.717,-70101.55,333.711),cellId="Seyda Neen"},
     {coords=util.vector3(-1792.0,1376.0,-1568.0),cellId="Matus-Akin Egg Mine"},
     {coords=util.vector3(102922.52,11973.291,744.26434),cellId=nil},
     {coords=util.vector3(-12573.684,21754.63,1682.3558),cellId=nil},
+    {coords=util.vector3(55770.883,-37756.895,716.523),cellId=nil},
+    {coords=util.vector3(9533.879,-100822.016,2652.0),cellId=nil},
     {coords=util.vector3(79.30179,-250.3497,333.03943),cellId="Indarys Manor, Manor Services"},
     {coords=util.vector3(448.0,896.0,128.0),cellId="Vivec, St. Delyn Waistworks"},
     {coords=util.vector3(67322.914,128491.56,1376.924),cellId=nil},
     {coords=util.vector3(255.17474,-5.991537,-22.671898),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(448.0,192.0,160.0),cellId="Sadrith Mora, Wolverine Hall: Mage's Guild"},
-    {coords=util.vector3(-20982.695,-14493.162,628.98),cellId="Balmora"},
+    {coords=util.vector3(110622.516,119758.945,660.497),cellId=nil},
     {coords=util.vector3(-256.0,128.0,128.0),cellId="Suran, Desele's House of Earthly Delights"},
     {coords=util.vector3(-14371.965,55861.41,2445.8733),cellId=nil},
     {coords=util.vector3(2579.1677,4091.7222,18152.693),cellId="Vivec, Arena Waistworks"},
@@ -2187,67 +2160,66 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-61276.49,26514.87,326.557),cellId=nil},
     {coords=util.vector3(-2300.0,5252.0,-192.0),cellId="Aran Ancestral Tomb"},
     {coords=util.vector3(4004.0,542.0,830.0),cellId="Mamaea, Sanctum of Black Hope"},
+    {coords=util.vector3(148640.0,29088.0,1584.0),cellId=nil},
     {coords=util.vector3(43362.61,-95467.55,692.96326),cellId=nil},
     {coords=util.vector3(3845.3652,5497.6753,11926.5625),cellId="Vivec, Telvanni Tower"},
     {coords=util.vector3(-47875.207,-38710.547,310.2943),cellId=nil},
     {coords=util.vector3(192.0,128.0,-384.0),cellId="Sadrith Mora, Tel Naga Upper Tower"},
+    {coords=util.vector3(95974.12,135338.17,1053.631),cellId=nil},
     {coords=util.vector3(31982.39,-101138.375,3415.5645),cellId=nil},
     {coords=util.vector3(132574.88,-12112.218,1184.0),cellId=nil},
     {coords=util.vector3(640.0,-576.0,128.0),cellId="Vivec, Hlaalu Prison Cells"},
     {coords=util.vector3(4066.167,1690.1477,449.469),cellId="Urshilaku, Karma Burial"},
     {coords=util.vector3(-2532.069,248.229,1532.271),cellId="Baram Ancestral Tomb"},
     {coords=util.vector3(9056.815,-100084.87,2215.289),cellId=nil},
+    {coords=util.vector3(85360.0,117552.0,4295.227),cellId=nil},
     {coords=util.vector3(5035.8,3195.918,13791.999),cellId="Yakin, Shrine"},
     {coords=util.vector3(-2226.989,183521.42,111.019),cellId=nil},
     {coords=util.vector3(4224.0,4112.0,15168.0),cellId="Dren Plantation, Guardhouse"},
     {coords=util.vector3(144382.39,52112.625,267.988),cellId=nil},
     {coords=util.vector3(-41279.496,108708.82,3510.535),cellId=nil},
-    {coords=util.vector3(-9795.633,20214.775,1377.863),cellId="Caldera"},
     {coords=util.vector3(108930.195,-24949.885,870.8973),cellId=nil},
     {coords=util.vector3(-5524.263,249.121,212.307),cellId="Assemanu"},
+    {coords=util.vector3(17782.156,-101039.875,568.154),cellId=nil},
     {coords=util.vector3(103483.98,92676.09,785.055),cellId=nil},
-    {coords=util.vector3(-9977.932,-72344.32,247.993),cellId="Seyda Neen"},
     {coords=util.vector3(34016.0,-105576.0,960.38965),cellId=nil},
     {coords=util.vector3(-257.87448,-524.80426,-29.303843),cellId="Vivec, Justice Offices"},
     {coords=util.vector3(34272.0,-105128.0,576.38965),cellId=nil},
     {coords=util.vector3(3847.0916,4282.6143,16273.006),cellId="Molag Mar, Vasesius Viciulus: Trader"},
     {coords=util.vector3(83309.52,-77787.34,-221.938),cellId=nil},
     {coords=util.vector3(-2.298,813.415,-105.479),cellId="Chun-Ook, Upper Level"},
-    {coords=util.vector3(-9530.411,53736.74,2441.9675),cellId="Ald-ruhn"},
     {coords=util.vector3(256.0,-256.0,0.0),cellId="Balmora, Nine Toes' House"},
     {coords=util.vector3(269.3979,-254.23413,464.0),cellId="Moonmoth Legion Fort, Prison Towers"},
-    {coords=util.vector3(-61891.465,26135.428,335.63284),cellId="Gnaar Mok"},
+    {coords=util.vector3(-11853.481,53648.227,2453.611),cellId=nil},
+    {coords=util.vector3(34264.086,-105244.54,561.90967),cellId=nil},
+    {coords=util.vector3(6200.568,-56062.996,1858.7721),cellId=nil},
     {coords=util.vector3(-68149.71,141245.08,367.65182),cellId=nil},
     {coords=util.vector3(-2664.45,-1241.092,813.575),cellId="Indaren Ancestral Tomb"},
-    {coords=util.vector3(-80115.51,90616.89,1126.04),cellId="Gnisis"},
     {coords=util.vector3(85514.836,117401.22,4257.5166),cellId=nil},
     {coords=util.vector3(432.896,189.74,124.621),cellId="Arvel Manor, Storage Shack"},
     {coords=util.vector3(-1920.0,320.0,-128.0),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(-66.67293,340.6574,192.0),cellId="Seyda Neen, Census and Excise Office"},
     {coords=util.vector3(4273.8726,4216.1074,14577.952),cellId="Gnaar Mok, Druegh-jigger's Rest"},
+    {coords=util.vector3(31756.188,-102992.414,671.429),cellId=nil},
+    {coords=util.vector3(44106.918,-81869.76,1887.342),cellId=nil},
     {coords=util.vector3(-504.373,-64.135,-512.0),cellId="Ghostgate, Temple"},
     {coords=util.vector3(-1568.0,3456.0,320.0),cellId="Arkngthand, Hall of Centrifuge"},
     {coords=util.vector3(-1531.7754,-539.5547,-1729.6499),cellId="Vivec, St. Delyn Plaza"},
     {coords=util.vector3(39537.336,-3759.927,1344.991),cellId=nil},
-    {coords=util.vector3(-61120.59,27932.248,439.239),cellId="Gnaar Mok"},
-    {coords=util.vector3(29088.023,-91919.58,1887.342),cellId="Vivec, St. Delyn"},
-    {coords=util.vector3(94525.11,115399.805,1761.8446),cellId="Vos"},
     {coords=util.vector3(2059.0464,7640.6353,-158.04881),cellId="Vivec, St. Delyn Underworks"},
     {coords=util.vector3(883.07495,1783.231,-30.143631),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(3932.104,3928.675,15072.971),cellId="Gnaar Mok, Jerian Dolbanitte's Shack"},
     {coords=util.vector3(118111.83,-89071.28,718.99304),cellId=nil},
     {coords=util.vector3(2012.3308,515.1375,0.0),cellId="Vivec, Hlaalu Waistworks"},
-    {coords=util.vector3(-67571.08,47485.457,1791.036),cellId="Andasreth"},
     {coords=util.vector3(-64.234,-772.739,-512.0),cellId="Holamayan Monastery"},
     {coords=util.vector3(-221.02368,-1033.1969,218.10349),cellId="Vivec, Redoran Waistworks"},
-    {coords=util.vector3(85240.0,120264.0,3771.1562),cellId="Tel Vos"},
     {coords=util.vector3(717.085,-2377.1157,166.92773),cellId="Clutter Warehouse - Everything Must Go!"},
     {coords=util.vector3(2686.986,160.0,-257.3757),cellId="Vivec, Hlaalu Canalworks"},
     {coords=util.vector3(1648.0,7232.0,288.0),cellId="Vivec, Hlaalu Underworks"},
-    {coords=util.vector3(-10704.979,18841.436,1458.33),cellId="Caldera"},
     {coords=util.vector3(-16851.371,102090.89,3498.9648),cellId=nil},
     {coords=util.vector3(-640.0,3264.0,144.0),cellId="Velas Ancestral Tomb"},
     {coords=util.vector3(74499.14,-86132.375,-78.40891),cellId=nil},
+    {coords=util.vector3(61004.15,183133.73,316.477),cellId=nil},
     {coords=util.vector3(-4240.0,-17424.0,1968.0),cellId=nil},
     {coords=util.vector3(4827.7,-57246.69,2272.333),cellId=nil},
     {coords=util.vector3(448.0,-128.0,-192.0),cellId="Vivec, Hlaalu Temple"},
@@ -2259,10 +2231,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-32.619,136.842,108.459),cellId="Seyda Neen, Census and Excise Warehouse"},
     {coords=util.vector3(0.0,0.0,90.93014),cellId="Balmora, Fast Eddie's House"},
     {coords=util.vector3(31447.95,-105077.234,576.38965),cellId=nil},
+    {coords=util.vector3(19019.559,70381.94,11877.928),cellId=nil},
     {coords=util.vector3(0.0,1648.0,-416.0),cellId="Ald-ruhn, Arobar Manor Entrance"},
-    {coords=util.vector3(-23807.06,-11983.674,1363.531),cellId="Balmora"},
     {coords=util.vector3(0.0,-384.0,0.0),cellId="Ald-ruhn, Hanarai Assutlanipal's House"},
-    {coords=util.vector3(-13284.491,19945.357,1642.428),cellId="Caldera"},
     {coords=util.vector3(35427.652,-95745.13,669.6201),cellId=nil},
     {coords=util.vector3(2176.001,2366.9976,30.13),cellId="Elith-Pal Mine"},
     {coords=util.vector3(-43392.0,126912.0,1060.0),cellId=nil},
@@ -2271,29 +2242,27 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2760.0,4352.0,14464.0),cellId="Bal Fell, Inner Shrine"},
     {coords=util.vector3(701.8281,320.28088,-64.0),cellId="Berandas, Keep, Bottom Level"},
     {coords=util.vector3(4080.938,3250.562,-1150.223),cellId="Obscure Shipwreck, Upper Level"},
+    {coords=util.vector3(96222.37,115163.9,1571.5817),cellId=nil},
+    {coords=util.vector3(36549.43,-91053.664,670.7501),cellId=nil},
     {coords=util.vector3(13.549882,669.06445,-124.58971),cellId="Falvilo's Endeavor, Upper Level"},
     {coords=util.vector3(17270.236,-34294.984,565.2947),cellId=nil},
     {coords=util.vector3(-911.261,507.278,-670.929),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(-64.0,1792.0,128.0),cellId="Ald-ruhn, Redoran Council Hall"},
+    {coords=util.vector3(33308.938,-77937.58,-247.164),cellId=nil},
     {coords=util.vector3(1408.0,448.0,-256.0),cellId="Vivec, Foreign Quarter Canalworks"},
-    {coords=util.vector3(88443.664,9576.947,4202.067),cellId="Uvirith's Grave"},
-    {coords=util.vector3(13577.252,-102070.305,842.79),cellId="Ebonheart"},
     {coords=util.vector3(96.0,-24.0,-336.0),cellId="Tower of Tel Fyr, Onyx Hall"},
     {coords=util.vector3(-12.808976,-30.428015,6.18684),cellId="Caldera, Dro'Shavir's House"},
     {coords=util.vector3(3906.0,6202.0,1600.0),cellId="Ilunibi, Carcass of the Saint"},
     {coords=util.vector3(-928.0,2656.0,64.0),cellId="Alen Ancestral Tomb"},
-    {coords=util.vector3(13113.879,-103346.016,872.0),cellId="Ebonheart"},
     {coords=util.vector3(59476.484,182845.6,392.87012),cellId=nil},
     {coords=util.vector3(-580.0,-1882.0,-424.0),cellId="Ministry of Truth, Hall of Processing"},
     {coords=util.vector3(-400.0,0.0,128.0),cellId="Balmora, Hlaalo Manor"},
-    {coords=util.vector3(94279.15,115721.41,1777.3837),cellId="Vos"},
     {coords=util.vector3(-1024.0,-624.0,96.0),cellId="Ald-ruhn, Redoran Council Hall"},
     {coords=util.vector3(-528.12,-241.45,109.448),cellId="Balmora, Guild of Mages"},
     {coords=util.vector3(-10196.0,22384.0,2144.0),cellId=nil},
     {coords=util.vector3(-640.0,80.0,-160.0),cellId="Vivec, Telvanni Canalworks"},
     {coords=util.vector3(-880.0,-2304.0,-288.0),cellId="Ald-ruhn, Llethri Manor Entrance"},
     {coords=util.vector3(21771.594,38791.453,1321.8127),cellId=nil},
-    {coords=util.vector3(147199.77,34789.305,889.488),cellId="Sadrith Mora"},
     {coords=util.vector3(-1956.0,3932.0,908.0),cellId="Yesamsi"},
     {coords=util.vector3(4089.7183,4110.071,14934.146),cellId="Tel Aruhn, Tower Living Quarters"},
     {coords=util.vector3(365.3345,-263.50095,-20.770987),cellId="Shashmanu Camp, Anit's Yurt"},
@@ -2301,6 +2270,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(86596.22,70642.734,845.15),cellId=nil},
     {coords=util.vector3(256.0,4384.0,-776.0),cellId="Tusenend, Shrine"},
     {coords=util.vector3(-116.14,18.225,-46.862),cellId="Moonmoth Legion Fort, Interior"},
+    {coords=util.vector3(-35901.883,-35873.11,2284.505),cellId=nil},
     {coords=util.vector3(113.796326,-599.8857,111.99987),cellId="Caldera, Mining Bunkhouse"},
     {coords=util.vector3(-2.0640454,-247.04694,-176.18047),cellId="Gnisis, Abelmawia Hut"},
     {coords=util.vector3(1280.0,2684.0,-96.0),cellId="Seran Ancestral Tomb"},
@@ -2309,29 +2279,27 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(128199.266,-103405.234,699.997),cellId=nil},
     {coords=util.vector3(-89422.19,129043.41,184.63602),cellId=nil},
     {coords=util.vector3(-76944.0,76080.0,2352.0),cellId=nil},
-    {coords=util.vector3(85353.22,117920.15,4643.565),cellId="Tel Vos"},
     {coords=util.vector3(-20018.56,11828.802,1270.594),cellId=nil},
     {coords=util.vector3(-3.638,-136.073,0.0),cellId="Ald Velothi, Llerar Vinden's Shack"},
-    {coords=util.vector3(-8584.352,-73710.805,233.497),cellId="Seyda Neen"},
+    {coords=util.vector3(-35666.91,-35851.938,2856.205),cellId=nil},
     {coords=util.vector3(-2420.0,928.0,256.0),cellId="Samarys Ancestral Tomb"},
     {coords=util.vector3(-28684.139,-51472.438,1174.8324),cellId=nil},
+    {coords=util.vector3(61240.62,181156.53,743.98),cellId=nil},
     {coords=util.vector3(266.7347,-38.744263,481.89166),cellId="Ules Manor, Slave Shack"},
     {coords=util.vector3(37372.867,135128.12,850.363),cellId=nil},
     {coords=util.vector3(27960.45,-64921.83,1003.0297),cellId=nil},
     {coords=util.vector3(-28406.656,123926.13,920.6395),cellId=nil},
     {coords=util.vector3(-13722.8955,42617.1,3157.5237),cellId=nil},
     {coords=util.vector3(2180.753,2034.594,-157.15704),cellId="Abinabi"},
-    {coords=util.vector3(30098.633,-91064.36,670.75006),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(-92.0,288.0,140.0),cellId="Tel Aruhn, Underground"},
     {coords=util.vector3(-1088.0,-768.0,-256.0),cellId="Ald-ruhn, Redoran Council Hall"},
-    {coords=util.vector3(93581.59,-39427.64,6443.8613),cellId="Mount Kand"},
+    {coords=util.vector3(-12472.0,20680.0,1652.0),cellId=nil},
     {coords=util.vector3(992.0,-4460.0,1920.0),cellId="Veloth Ancestral Tomb"},
     {coords=util.vector3(4243.382,4221.565,14338.585),cellId="Dren Plantation, Storage Shack"},
     {coords=util.vector3(-1852.542,1857.557,-1184.479),cellId="Hawia Egg Mine"},
     {coords=util.vector3(-383.99915,-62.962337,64.0),cellId="Kogoruhn, Hall of Maki"},
     {coords=util.vector3(-40118.69,-55872.617,83.693),cellId=nil},
     {coords=util.vector3(126224.62,45887.29,3714.583),cellId=nil},
-    {coords=util.vector3(108958.4,-2549.6345,636.4296),cellId="Erabenimsun Camp"},
     {coords=util.vector3(-4.0,-234.0,-164.0),cellId="Ald-ruhn, Aryni Orethi's House"},
     {coords=util.vector3(3.0879762,465.09344,-184.15253),cellId="Elf-Skerring, Lower Level"},
     {coords=util.vector3(-2752.2175,1982.9962,-1055.8243),cellId="Shurdan-Raplay Egg Mine"},
@@ -2339,6 +2307,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-384.0,128.0,256.0),cellId="Balmora, Nine Toes' House"},
     {coords=util.vector3(-64.0,512.0,-256.0),cellId="Vivec, The Abbey of St. Delyn the Wise"},
     {coords=util.vector3(-16.718124,249.53104,-119.04858),cellId="Urshilaku Camp, Ashkhan's Yurt"},
+    {coords=util.vector3(30061.977,-95288.96,1887.342),cellId=nil},
     {coords=util.vector3(6144.644,1267.4535,16.728924),cellId="Vivec, Puzzle Canal, Level 5"},
     {coords=util.vector3(4223.916,4141.501,15252.783),cellId="Khuul, Svadstar's Shack"},
     {coords=util.vector3(-1191.344,2827.52,838.761),cellId="Aharnabi"},
@@ -2373,10 +2342,10 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-224.0,-544.0,128.0),cellId="Sadrith Mora, Wolverine Hall: Fighter's Guild"},
     {coords=util.vector3(-67769.53,47414.438,1808.0),cellId=nil},
     {coords=util.vector3(4079.7407,3881.8313,15647.87),cellId="Derelict Shipwreck, Cabin"},
-    {coords=util.vector3(-9776.959,17879.889,1348.573),cellId="Caldera"},
-    {coords=util.vector3(-69592.086,141244.97,302.987),cellId="Khuul"},
+    {coords=util.vector3(29119.47,-85535.53,1887.2496),cellId=nil},
     {coords=util.vector3(-192.0,-1152.0,128.0),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(4281.6597,4077.4248,13082.066),cellId="Hla Oad, Shurkul gro-Sharga's House"},
+    {coords=util.vector3(21551.139,-86838.88,1881.8394),cellId=nil},
     {coords=util.vector3(96578.61,-59229.13,812.434),cellId=nil},
     {coords=util.vector3(192.0,-384.0,-128.0),cellId="Vivec, St. Olms Tanners and Miners Hall"},
     {coords=util.vector3(320.0,0.0,-416.0),cellId="Tel Uvirith, Tower Lower"},
@@ -2395,29 +2364,32 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-58189.15,79904.55,1831.12),cellId=nil},
     {coords=util.vector3(1408.0,3392.0,18304.0),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(4008.553,4367.011,-188.817),cellId="Abandoned Shipwreck, Upper Level"},
+    {coords=util.vector3(110540.06,-3142.426,644.06464),cellId=nil},
     {coords=util.vector3(-51488.215,151400.72,449.372),cellId=nil},
     {coords=util.vector3(1840.0,7280.0,96.0),cellId="Vivec, Hall Underworks"},
     {coords=util.vector3(640.0,2848.0,-520.0),cellId="Shashpilamat"},
+    {coords=util.vector3(118543.38,-102708.125,372.458),cellId=nil},
     {coords=util.vector3(-6734.641,-67063.37,376.698),cellId=nil},
     {coords=util.vector3(-43428.492,108679.836,1174.189),cellId=nil},
-    {coords=util.vector3(2904.3828,5107.657,1696.0),cellId="Sadrith Mora, Telvanni Council House, Entry"},
+    {coords=util.vector3(3672.117,-55666.523,2185.984),cellId=nil},
     {coords=util.vector3(-576.0,768.0,-384.0),cellId="Ald-ruhn, Venim Manor Private Quarters"},
-    {coords=util.vector3(149347.88,36076.562,3503.2559),cellId="Sadrith Mora"},
+    {coords=util.vector3(2904.3828,5107.657,1696.0),cellId="Sadrith Mora, Telvanni Council House, Entry"},
     {coords=util.vector3(4099.5073,4105.6187,15671.914),cellId="Dren Plantation, Shipping House"},
     {coords=util.vector3(3360.0,-15807.0,3746.0),cellId=nil},
     {coords=util.vector3(26.702,504.809,-141.126),cellId="Ahemmusa Camp, Lanabi's Yurt"},
-    {coords=util.vector3(35622.523,-91338.87,1887.342),cellId="Vivec, St. Olms"},
     {coords=util.vector3(6.1,-9.526,474.128),cellId="Ginith Ancestral Tomb"},
+    {coords=util.vector3(-13780.574,42599.426,3064.52),cellId=nil},
     {coords=util.vector3(159372.16,-54190.547,1582.2062),cellId=nil},
     {coords=util.vector3(4453.162,4101.523,14576.193),cellId="Ald Redaynia, Tower"},
     {coords=util.vector3(-2112.0,-256.0,-256.0),cellId="Ald-ruhn, Arobar Guard Quarters"},
+    {coords=util.vector3(9808.219,-101787.6,1410.25),cellId=nil},
     {coords=util.vector3(37555.074,-91194.32,1891.3685),cellId=nil},
     {coords=util.vector3(-242.285,22960.754,657.371),cellId=nil},
     {coords=util.vector3(-2752.0,-576.0,734.13),cellId="Inanius Egg Mine"},
     {coords=util.vector3(0.0,-384.0,0.199),cellId="Maar Gan, Garry's Hut"},
+    {coords=util.vector3(33874.2,-102991.16,669.235),cellId=nil},
     {coords=util.vector3(5546.0005,3071.798,94.76246),cellId="Vivec, St. Delyn Underworks"},
     {coords=util.vector3(92.175,-15.623,223.604),cellId="Tel Aruhn, Ferele Athram: Trader"},
-    {coords=util.vector3(86112.0,119392.0,3781.2258),cellId="Tel Vos"},
     {coords=util.vector3(-64.001,104.001,-384.0),cellId="Valenvaryon, Umug's Hut"},
     {coords=util.vector3(-9877.732,-72420.78,205.7422),cellId=nil},
     {coords=util.vector3(92.04492,779.53906,1598.876),cellId="Vivec, Redoran Plaza"},
@@ -2433,10 +2405,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(512.0,-640.0,384.0),cellId="Suran, Oran Manor"},
     {coords=util.vector3(115.67687,93.5319,88.640625),cellId="Balmora, Balyn Omarel's House"},
     {coords=util.vector3(-47572.7,-39512.0,185.28014),cellId=nil},
-    {coords=util.vector3(78627.52,83807.23,1014.629),cellId="Zainab Camp"},
     {coords=util.vector3(58.988,-401.173,103.274),cellId="Elf-Skerring, Upper Level"},
     {coords=util.vector3(524.0,-680.0,-36.0),cellId="Caldera, Governor's Hall"},
-    {coords=util.vector3(85386.59,117539.12,3555.5608),cellId="Tel Vos"},
+    {coords=util.vector3(31479.123,-104414.57,-262.2934),cellId=nil},
     {coords=util.vector3(-20044.33,103648.766,2101.2295),cellId=nil},
     {coords=util.vector3(-26.069054,195.58661,-159.80466),cellId="Remote Shipwreck, Upper Level"},
     {coords=util.vector3(4.474,-3479.953,89.028),cellId="Ministry of Truth, Hall of Processing"},
@@ -2446,7 +2417,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3971.779,4565.611,48.774273),cellId="Derelict Shipwreck, Upper Level"},
     {coords=util.vector3(-11687.924,54798.89,2446.542),cellId=nil},
     {coords=util.vector3(1177.9902,3383.5203,640.0),cellId="Ebonheart, Hawkmoth Towers"},
+    {coords=util.vector3(2304.0,119756.0,2146.0),cellId=nil},
     {coords=util.vector3(-384.0,-1184.0,-1312.0),cellId="Shulk Egg Mine"},
+    {coords=util.vector3(15770.003,-101714.15,1309.821),cellId=nil},
     {coords=util.vector3(55615.816,-53298.41,1013.21564),cellId=nil},
     {coords=util.vector3(0.5988004,-31.549503,-14.020524),cellId="Ald Velothi, Outpost"},
     {coords=util.vector3(1792.0,-64.0,-256.0),cellId="Ald-ruhn, Llethri Guard Quarters"},
@@ -2457,40 +2430,49 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-22.807,385.309,-261.284),cellId="Zainab Camp, Wise Woman's Yurt"},
     {coords=util.vector3(-112.0,0.0,-32.0),cellId="Ald-ruhn, Guls Llervu's House"},
     {coords=util.vector3(-31584.646,-27707.115,791.817),cellId=nil},
-    {coords=util.vector3(44098.21,-86840.9,1887.342),cellId="Vivec, Telvanni"},
     {coords=util.vector3(-21541.234,102817.92,2051.9102),cellId=nil},
     {coords=util.vector3(-3267.595,2045.188,729.7),cellId="Zainsipilu"},
     {coords=util.vector3(33527.402,74814.16,14975.295),cellId=nil},
     {coords=util.vector3(5487.552,4206.939,13588.308),cellId="Urshilaku, Kakuna Burial"},
-    {coords=util.vector3(33855.27,-97710.59,670.355),cellId="Vivec, St. Olms"},
+    {coords=util.vector3(-10934.614,-70251.81,393.879),cellId=nil},
     {coords=util.vector3(4608.101,4066.645,-199.048),cellId="Shunned Shipwreck, Upper Level"},
+    {coords=util.vector3(22912.0,-54582.0,1044.0),cellId=nil},
     {coords=util.vector3(-112.83272,-4687.9478,-999.38776),cellId="Palansour"},
     {coords=util.vector3(64.833,9.749,-167.178),cellId="Vivec, Agrippina Herennia: Clothier"},
     {coords=util.vector3(63593.83,-7898.1714,1013.3274),cellId=nil},
+    {coords=util.vector3(127148.82,46752.145,1574.798),cellId=nil},
     {coords=util.vector3(79.444,-28.473,336.809),cellId="Imperial Prison Ship"},
     {coords=util.vector3(-640.0,-592.0,-160.0),cellId="Vivec, Telvanni Canalworks"},
+    {coords=util.vector3(32541.45,-85291.35,-247.16382),cellId=nil},
     {coords=util.vector3(-896.0,-448.0,-128.0),cellId="Vivec, St. Delyn Waistworks"},
     {coords=util.vector3(1362.7764,2942.232,-1152.8901),cellId="Shishi"},
+    {coords=util.vector3(-43200.0,-3448.0,3072.0),cellId=nil},
     {coords=util.vector3(-65761.26,21963.104,132.861),cellId=nil},
     {coords=util.vector3(6507.383,-117760.08,-136.723),cellId=nil},
     {coords=util.vector3(963.5151,2017.9888,426.28415),cellId="Ashinabi, Smuggler Den"},
     {coords=util.vector3(35574.543,-8519.143,1324.381),cellId=nil},
+    {coords=util.vector3(31448.922,-105247.35,559.30365),cellId=nil},
+    {coords=util.vector3(19792.0,-53056.0,760.0),cellId=nil},
     {coords=util.vector3(704.0,1632.0,-128.0),cellId="Bthanchend"},
     {coords=util.vector3(17111.016,-34245.89,573.69635),cellId=nil},
     {coords=util.vector3(-4925.5703,2561.0315,738.3556),cellId="Mannammu"},
     {coords=util.vector3(25491.213,128546.945,974.6751),cellId=nil},
     {coords=util.vector3(1014.03815,1019.198,-1327.2828),cellId="Pelagiad, North Wall"},
     {coords=util.vector3(64.0,-64.0,128.0),cellId="Balmora, Hecerinde's House"},
+    {coords=util.vector3(-12182.086,-74450.46,369.255),cellId=nil},
     {coords=util.vector3(-64.0,-384.0,-128.0),cellId="Vivec, Hall of Justice Secret Library"},
+    {coords=util.vector3(55642.902,-54968.637,1345.05),cellId=nil},
     {coords=util.vector3(136924.55,21313.305,228.317),cellId=nil},
     {coords=util.vector3(-64.0,128.0,-128.0),cellId="Vivec, St. Olms Canal South-One"},
     {coords=util.vector3(1150.8965,-2485.819,-103.762405),cellId="Mudan, Lost Dwemer Checkpoint"},
     {coords=util.vector3(159099.5,-30521.111,2073.076),cellId=nil},
-    {coords=util.vector3(-30635.064,179348.53,2414.432),cellId="Ald Redaynia"},
     {coords=util.vector3(640.0,64.0,-256.0),cellId="Ald-ruhn, Guard Tower 1"},
     {coords=util.vector3(-25516.857,-10150.058,1122.2406),cellId=nil},
+    {coords=util.vector3(76717.6,84393.99,883.264),cellId=nil},
     {coords=util.vector3(86800.51,133941.53,887.83624),cellId=nil},
+    {coords=util.vector3(18190.357,-101360.16,429.601),cellId=nil},
     {coords=util.vector3(-128.0,0.0,384.0),cellId="Balmora, Milie Hastien: Fine Clothier"},
+    {coords=util.vector3(-84501.72,91262.55,1067.784),cellId=nil},
     {coords=util.vector3(-804.9089,-252.76869,223.63228),cellId="Vivec, Redoran Prison Cells"},
     {coords=util.vector3(-22854.965,-14102.636,640.039),cellId=nil},
     {coords=util.vector3(67866.1,154357.81,157.275),cellId=nil},
@@ -2505,11 +2487,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(45362.906,192654.95,294.2603),cellId=nil},
     {coords=util.vector3(-512.0,-352.0,256.895),cellId="Buckmoth Legion Fort, Interior"},
     {coords=util.vector3(-128.0,-192.0,-256.0),cellId="Vos, Ulvil Llothas's Farmhouse"},
+    {coords=util.vector3(18644.021,-103000.85,998.845),cellId=nil},
     {coords=util.vector3(-48.0,1024.0,-168.0),cellId="Ald-ruhn, Llether Vari: Enchanter"},
-    {coords=util.vector3(-21873.893,105078.26,2266.846),cellId="Maar Gan"},
-    {coords=util.vector3(56336.73,-53244.16,1336.414),cellId="Suran"},
     {coords=util.vector3(-1215.999,3656.001,-208.0),cellId="Telasero, Upper Level"},
-    {coords=util.vector3(-60666.582,27532.824,439.279),cellId="Gnaar Mok"},
     {coords=util.vector3(49947.184,-21519.158,643.69055),cellId=nil},
     {coords=util.vector3(3070.8276,-249.40358,338.87997),cellId="Vivec, Hlaalu Canalworks"},
     {coords=util.vector3(36533.168,-94832.164,1878.6058),cellId=nil},
@@ -2529,22 +2509,21 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4288.0,5888.0,12832.0),cellId="Arkngthand, Heaven's Gallery"},
     {coords=util.vector3(4068.613,2723.252,14753.518),cellId="Hla Oad, Relien Rirne's House"},
     {coords=util.vector3(149797.06,33503.11,1247.3232),cellId=nil},
-    {coords=util.vector3(149536.0,29584.0,1216.0),cellId="Wolverine Hall"},
     {coords=util.vector3(34533.91,62323.633,9319.509),cellId=nil},
     {coords=util.vector3(-13915.732,202171.17,1782.524),cellId=nil},
+    {coords=util.vector3(32542.973,-91769.84,-279.16394),cellId=nil},
     {coords=util.vector3(0.0,112.0,-32.0),cellId="Ald-ruhn, Malpenix Blonia: Trader"},
     {coords=util.vector3(14961.879,-101614.016,756.0),cellId=nil},
     {coords=util.vector3(3968.0,3072.0,14272.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(-32.65,483.335,-146.497),cellId="Erabenimsun Camp, Massarapal's Yurt"},
+    {coords=util.vector3(57000.055,-54124.86,1351.714),cellId=nil},
     {coords=util.vector3(305.386,-250.276,-152.599),cellId="Aharunartus"},
-    {coords=util.vector3(37610.945,-91053.664,670.75),cellId="Vivec, St. Olms"},
     {coords=util.vector3(2031.012,145.572,-95.696),cellId="Vivec, Foreign Quarter Underworks"},
     {coords=util.vector3(-59743.37,72859.38,1675.0521),cellId=nil},
     {coords=util.vector3(-320.0,2944.0,128.0),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(-219.02661,14.949923,106.72834),cellId="Balmora, Hlaalo Manor"},
     {coords=util.vector3(1277.9066,131.87645,-1129.9663),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(-50363.95,36265.766,1097.2544),cellId=nil},
-    {coords=util.vector3(32343.95,-80134.375,1887.084),cellId="Vivec, Foreign Quarter"},
     {coords=util.vector3(6016.0,5056.0,14848.0),cellId="Vivec, Foreign Quarter Upper Waistworks"},
     {coords=util.vector3(-45600.0,140960.0,1504.0),cellId=nil},
     {coords=util.vector3(-2032.0,-2712.0,-256.0),cellId="Ald Daedroth, Outer Shrine"},
@@ -2564,10 +2543,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(994.029,-903.218,192.917),cellId="Lleran Ancestral Tomb"},
     {coords=util.vector3(95.88177,33.242035,-170.93344),cellId="Pelagiad, Madres Navur's House"},
     {coords=util.vector3(56125.4,-37765.746,800.0),cellId=nil},
+    {coords=util.vector3(53473.004,-51821.01,314.75943),cellId=nil},
     {coords=util.vector3(-248.0,400.0,208.0),cellId="Caldera, Verick Gemain: Trader"},
     {coords=util.vector3(-768.0,1088.0,128.0),cellId="Ald-ruhn, Redoran Council Hall"},
     {coords=util.vector3(511.77072,744.4276,232.80672),cellId="Vivec, St. Delyn Waistworks"},
     {coords=util.vector3(36543.188,-91790.45,1879.2863),cellId=nil},
+    {coords=util.vector3(15509.879,-102460.445,772.0),cellId=nil},
     {coords=util.vector3(4174.731,3991.217,8230.275),cellId="Hla Oad, Fadila Balvel's House"},
     {coords=util.vector3(3939.315,4307.173,15835.979),cellId="Balmora, Western Guard Tower North"},
     {coords=util.vector3(-37061.7,-68946.43,249.77649),cellId=nil},
@@ -2579,29 +2560,28 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-53482.094,125740.484,1898.52),cellId=nil},
     {coords=util.vector3(-64.0,-128.0,-128.0),cellId="Vivec, Redoran Ancestral Vaults"},
     {coords=util.vector3(0.0,96.0,96.0),cellId="Dagoth Ur, Inner Facility"},
-    {coords=util.vector3(-13465.633,-70987.65,190.05785),cellId="Seyda Neen"},
     {coords=util.vector3(-31747.04,-27753.957,857.055),cellId=nil},
     {coords=util.vector3(192.0,640.0,-128.0),cellId="Vivec, Library of Vivec"},
     {coords=util.vector3(11.0257015,505.95383,225.59282),cellId="Ebonheart, Imperial Commission"},
-    {coords=util.vector3(148740.38,36092.41,1565.031),cellId="Sadrith Mora"},
     {coords=util.vector3(4991.9995,3520.0002,13440.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
+    {coords=util.vector3(31610.586,-87521.016,1887.3419),cellId=nil},
     {coords=util.vector3(-23691.871,9289.567,1174.216),cellId=nil},
     {coords=util.vector3(-36067.13,-35872.703,2257.0918),cellId=nil},
     {coords=util.vector3(548.2768,-1030.0156,-942.1237),cellId="Vivec, Telvanni Plaza"},
     {coords=util.vector3(1448.05,3579.158,-556.82),cellId="Assurdirapal, Shrine"},
     {coords=util.vector3(5619.2095,3552.0,13146.537),cellId="Shulk Egg Mine, Mining Camp"},
     {coords=util.vector3(128.0,128.0,-132.656),cellId="Pelagiad, Madres Navur's House"},
+    {coords=util.vector3(-22850.326,-13941.175,654.715),cellId=nil},
     {coords=util.vector3(-27.635029,-28.337046,0.0),cellId="Kaushtababi Camp, Adibael's Yurt"},
     {coords=util.vector3(83399.586,6398.661,880.763),cellId=nil},
+    {coords=util.vector3(-3712.0,-18496.0,2103.584),cellId=nil},
     {coords=util.vector3(768.0,1520.0,336.0),cellId="Ebonheart, Hawkmoth Legion Garrison"},
-    {coords=util.vector3(-69646.46,139800.05,173.006),cellId="Khuul"},
     {coords=util.vector3(832.0,-1536.0,-32.0),cellId="Punammu"},
     {coords=util.vector3(6482.732,-6509.682,937.1978),cellId=nil},
     {coords=util.vector3(-1473.5594,242.09602,-1312.082),cellId="Yakin"},
     {coords=util.vector3(-768.0,64.0,0.0),cellId="Ald-ruhn, Arobar Manor Bedrooms"},
     {coords=util.vector3(-1155.355,-708.35,-928.0),cellId="Pelagiad, South Wall"},
     {coords=util.vector3(-41.222656,303.04688,120.30591),cellId="Vivec, Hlaalu Plaza"},
-    {coords=util.vector3(-9902.499,22116.457,2162.969),cellId="Caldera"},
     {coords=util.vector3(47162.46,161244.5,482.67),cellId=nil},
     {coords=util.vector3(23232.0,-53432.0,1104.0),cellId=nil},
     {coords=util.vector3(-1842.6022,1.7658728,513.185),cellId="Moonmoth Legion Fort, Prison Towers"},
@@ -2612,16 +2592,15 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-25970.12,-71915.58,120.04201),cellId=nil},
     {coords=util.vector3(58475.1,84697.85,1008.096),cellId=nil},
     {coords=util.vector3(-10823.566,54296.242,2454.2517),cellId=nil},
-    {coords=util.vector3(21815.754,-46922.5,851.9566),cellId="Arvel Plantation"},
     {coords=util.vector3(18185.879,-101498.016,432.0),cellId=nil},
-    {coords=util.vector3(-84059.734,124228.79,1463.724),cellId="Ald Velothi"},
+    {coords=util.vector3(126881.55,-101840.46,2402.828),cellId=nil},
     {coords=util.vector3(0.0,192.0,-256.0),cellId="Vivec, Saren Manor"},
     {coords=util.vector3(-21310.627,-33874.67,851.41034),cellId=nil},
     {coords=util.vector3(5896.396,-46980.887,332.508),cellId=nil},
     {coords=util.vector3(95574.945,135600.48,1037.144),cellId=nil},
     {coords=util.vector3(12864.0,-4224.0,-704.0),cellId="Arys Ancestral Tomb"},
     {coords=util.vector3(27828.41,176942.02,1302.842),cellId=nil},
-    {coords=util.vector3(18169.879,-103034.016,1301.268),cellId="Ebonheart"},
+    {coords=util.vector3(94552.516,167771.11,1163.7671),cellId=nil},
     {coords=util.vector3(109624.26,118278.91,598.434),cellId=nil},
     {coords=util.vector3(67456.02,-20549.521,1157.9639),cellId=nil},
     {coords=util.vector3(0.0,32.0,340.939),cellId="Suran, Suran Slave Market"},
@@ -2630,21 +2609,22 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(147.56987,-64.0,-64.0),cellId="Berandas, Underground"},
     {coords=util.vector3(-3842.0,-12888.0,-277.0),cellId="Hlormaren, Sewers"},
     {coords=util.vector3(127137.23,94662.03,-37.646),cellId=nil},
-    {coords=util.vector3(18328.0,-54320.0,760.0),cellId="Dren Plantation"},
     {coords=util.vector3(256.0,3104.0,-136.0),cellId="Ramimilk, Shrine"},
     {coords=util.vector3(-76824.555,85263.23,160.50746),cellId=nil},
+    {coords=util.vector3(7873.997,186717.97,668.6154),cellId=nil},
     {coords=util.vector3(-1856.0,240.0,-688.0),cellId="Molag Mar, Canalworks"},
     {coords=util.vector3(-1542.4023,-454.6953,-1793.5183),cellId="Vivec, St. Olms Plaza"},
     {coords=util.vector3(-764.0,3232.0,64.0),cellId="Velas Ancestral Tomb"},
     {coords=util.vector3(58886.52,162587.81,298.157),cellId=nil},
     {coords=util.vector3(67361.92,128306.35,1334.098),cellId=nil},
     {coords=util.vector3(34945.633,-37798.168,757.45825),cellId=nil},
-    {coords=util.vector3(108291.74,119462.24,740.052),cellId="Tel Mora"},
     {coords=util.vector3(-2432.0,-576.0,-960.0),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(128.0,128.0,0.0),cellId="Pelagiad, Madres Navur's House"},
     {coords=util.vector3(240.912,-97.007,96.649),cellId="Pelagiad, Junal-lei's House"},
     {coords=util.vector3(0.0,-384.0,-128.0),cellId="Ald-ruhn, Braynas Hlervu's House"},
+    {coords=util.vector3(4585.492,-57128.066,2301.018),cellId=nil},
     {coords=util.vector3(-2840.584,-3487.1753,1296.0),cellId="Dralas Ancestral Tomb"},
+    {coords=util.vector3(-21620.943,-12081.279,900.1708),cellId=nil},
     {coords=util.vector3(2940.682,4289.364,13176.0),cellId="Bal Fell, East Wing"},
     {coords=util.vector3(132290.23,61059.97,408.882),cellId=nil},
     {coords=util.vector3(3553.0,-15807.0,3746.0),cellId=nil},
@@ -2653,6 +2633,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-16710.492,-14147.11,318.44952),cellId=nil},
     {coords=util.vector3(-1479.142,1339.873,-2207.439),cellId="Tel Vos, Dungeon"},
     {coords=util.vector3(128.0,224.0,96.0),cellId="Mudan, Lost Dwemer Checkpoint"},
+    {coords=util.vector3(-68878.195,141252.92,302.987),cellId=nil},
     {coords=util.vector3(1600.0,1120.0,288.0),cellId="Vivec, Redoran Underworks"},
     {coords=util.vector3(-28123.186,19297.678,1678.635),cellId=nil},
     {coords=util.vector3(-120.442,3.207,-140.655),cellId="Vivec, J'Rasha: Healer"},
@@ -2662,13 +2643,14 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(0.0,0.0,-30.471),cellId="Vivec, Canon Quarters"},
     {coords=util.vector3(-694.121,3075.389,-935.462),cellId="Ald Sotha, Upper Level"},
     {coords=util.vector3(3824.046,4123.257,15360.0),cellId="Balmora, Western Guard Tower North"},
-    {coords=util.vector3(-16611.91,52099.41,1891.47),cellId="Ald-ruhn"},
     {coords=util.vector3(703.97363,1088.2687,-641.26324),cellId="Berandas, Propylon Chamber"},
     {coords=util.vector3(1855.7781,6813.8706,12512.551),cellId="Hassour, Shrine"},
     {coords=util.vector3(99134.25,114145.41,871.04),cellId=nil},
+    {coords=util.vector3(33496.492,-106781.43,1717.4307),cellId=nil},
     {coords=util.vector3(110395.375,-72924.695,1079.31),cellId=nil},
     {coords=util.vector3(760.2082,-257.25742,-33.217625),cellId="Vivec, St. Olms Brewers and Fishmongers Hall"},
     {coords=util.vector3(-1347.8422,1342.273,-160.11154),cellId="Balmora, Dura gra-Bol's House"},
+    {coords=util.vector3(-15259.075,-12649.136,564.63),cellId=nil},
     {coords=util.vector3(1373.604,3846.307,-1310.064),cellId="Piran"},
     {coords=util.vector3(-26282.068,-13289.279,1362.15),cellId=nil},
     {coords=util.vector3(77728.0,20096.0,1984.0),cellId=nil},
@@ -2680,20 +2662,17 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(6912.141,52300.785,9024.195),cellId=nil},
     {coords=util.vector3(112589.07,78566.6,793.957),cellId=nil},
     {coords=util.vector3(319.31863,-2085.4324,-159.05867),cellId="Ald-ruhn, Ilmiril's House"},
-    {coords=util.vector3(146467.98,36969.184,781.946),cellId="Sadrith Mora"},
     {coords=util.vector3(64.0,128.0,-128.0),cellId="Vivec, Hlaalu Ancestral Vaults"},
-    {coords=util.vector3(27437.518,-80190.62,1886.474),cellId="Vivec, Foreign Quarter"},
     {coords=util.vector3(5344.0,3840.0,11488.0),cellId="Matus-Akin Egg Mine, Queen's Lair"},
     {coords=util.vector3(4696.782,4062.7097,13520.0),cellId="Tel Vos, Jail"},
     {coords=util.vector3(352.0,0.0,128.0),cellId="Sadrith Mora, Madran Ulvel's House"},
-    {coords=util.vector3(34175.613,-104451.266,-278.683),cellId="Vivec, Temple"},
     {coords=util.vector3(123564.65,-114633.8,320.855),cellId=nil},
     {coords=util.vector3(-10743.064,125219.37,1447.322),cellId=nil},
     {coords=util.vector3(-770.4418,-518.87897,-36.448124),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(-15104.74,-14256.358,527.13983),cellId=nil},
-    {coords=util.vector3(19716.748,38948.05,1339.276),cellId="Ghostgate"},
     {coords=util.vector3(3404.239,3956.394,16.149),cellId="Shunned Shipwreck, Upper Level"},
     {coords=util.vector3(2976.0,192.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
+    {coords=util.vector3(86433.49,118886.1,5571.3745),cellId=nil},
     {coords=util.vector3(3994.2961,4630.5977,14488.344),cellId="Hla Oad, Fatleg's Drop Off"},
     {coords=util.vector3(85803.875,-94978.76,335.21008),cellId=nil},
     {coords=util.vector3(6788.4224,3264.0002,13440.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
@@ -2702,12 +2681,11 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(501.98,488.897,-156.884),cellId="Vivec, Telvanni Temple"},
     {coords=util.vector3(6608.0,928.0,400.0),cellId="Vivec, St. Olms Underworks"},
     {coords=util.vector3(108224.69,118139.05,1572.2877),cellId=nil},
-    {coords=util.vector3(21545.29,-81860.41,1886.0779),cellId="Vivec"},
-    {coords=util.vector3(144936.39,36062.53,397.503),cellId="Sadrith Mora"},
+    {coords=util.vector3(21815.754,-46922.5,851.9566),cellId=nil},
     {coords=util.vector3(3521.4285,3774.4668,154.53108),cellId="Salmantu"},
     {coords=util.vector3(896.266,1513.247,-1513.691),cellId="Falasmaryon, Upper Level"},
     {coords=util.vector3(0.0,-392.0,-8.0),cellId="Maar Gan, Yeherradad's Hut"},
-    {coords=util.vector3(-22850.326,-13941.175,654.715),cellId="Balmora"},
+    {coords=util.vector3(-25753.8,-12567.543,1124.526),cellId=nil},
     {coords=util.vector3(12.113573,-205.38867,-32.0),cellId="Vivec, Arena Fighters Quarters"},
     {coords=util.vector3(22682.252,-55810.074,1068.1038),cellId=nil},
     {coords=util.vector3(4160.0,3968.0,14848.0),cellId="Tel Aruhn, Tower Living Quarters"},
@@ -2715,19 +2693,24 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-1152.0,-448.0,64.0),cellId="Odrosal, Dwemer Training Academy"},
     {coords=util.vector3(-2354.736,5113.247,-106.918),cellId="Aran Ancestral Tomb"},
     {coords=util.vector3(192.0,0.0,-448.0),cellId="Tel Uvirith, Tower Dungeon"},
+    {coords=util.vector3(14793.879,-101610.55,760.0),cellId=nil},
     {coords=util.vector3(-15262.94,-12789.999,540.7222),cellId=nil},
     {coords=util.vector3(-1152.0,-256.0,480.0),cellId="Moonmoth Legion Fort, Prison Towers"},
+    {coords=util.vector3(923.489,-57557.508,1492.258),cellId=nil},
     {coords=util.vector3(64.0,-128.0,-256.0),cellId="Vivec, Agrippina Herennia: Clothier"},
-    {coords=util.vector3(18882.006,-101348.36,425.462),cellId="Ebonheart"},
     {coords=util.vector3(2234.542,-507.614,224.02),cellId="Pelagiad, Fort Pelagiad"},
     {coords=util.vector3(3.6033888,533.9552,-182.71085),cellId="Falvillo's Endeavor, Lower Level"},
+    {coords=util.vector3(126156.8,45843.42,3298.75),cellId=nil},
     {coords=util.vector3(-12520.054,44270.402,3663.1917),cellId=nil},
+    {coords=util.vector3(34056.258,-93989.88,1887.3419),cellId=nil},
     {coords=util.vector3(-2.088,-252.665,-86.008),cellId="Maar Gan, Kind Erushara's Hut"},
     {coords=util.vector3(-102.0,-868.0,296.0),cellId="Tower of Tel Fyr, Onyx Hall"},
     {coords=util.vector3(0.0,-384.0,0.0),cellId="Ald-ruhn, Dravasa Andrethi's House"},
     {coords=util.vector3(-128.0,64.0,-64.0),cellId="Vivec, St. Olms Waist South-One"},
     {coords=util.vector3(-1608.4271,1278.5017,-2219.4563),cellId="Tel Vos, Dungeon"},
     {coords=util.vector3(35463.8,27964.967,867.75),cellId=nil},
+    {coords=util.vector3(32058.305,-79116.38,3101.271),cellId=nil},
+    {coords=util.vector3(-14956.748,-14954.959,879.011),cellId=nil},
     {coords=util.vector3(1021.914,3516.689,1378.464),cellId="Zanabi"},
     {coords=util.vector3(7049.886,52293.562,9032.054),cellId=nil},
     {coords=util.vector3(-20682.41,-15184.506,320.99985),cellId=nil},
@@ -2739,7 +2722,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1915.6913,4928.0,13440.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(-391.12512,511.60132,535.95544),cellId="Fadathram Ancestral Tomb"},
     {coords=util.vector3(-416.0,416.0,-288.0),cellId="Vivec, Redoran Treasury"},
-    {coords=util.vector3(-61421.008,26514.795,333.31592),cellId="Gnaar Mok"},
     {coords=util.vector3(27786.8,-65030.57,930.9844),cellId=nil},
     {coords=util.vector3(88599.74,59417.62,1105.269),cellId=nil},
     {coords=util.vector3(3900.1877,6640.6885,-385.37265),cellId="Sadrith Mora, Telvanni Council House, Chambers"},
@@ -2747,6 +2729,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3399.14,3632.055,15568.0),cellId="Dagon Fel, Sorkvild's Tower"},
     {coords=util.vector3(256.0,-3600.0,144.0),cellId="Ald-ruhn, Llethri Manor Entrance"},
     {coords=util.vector3(32.0,-256.0,-32.0),cellId="Vivec, Redoran Scout & Drillmaster"},
+    {coords=util.vector3(148720.0,28192.0,1792.46),cellId=nil},
     {coords=util.vector3(5632.002,3557.4182,0.0),cellId="Vivec, Puzzle Canal, Level 4"},
     {coords=util.vector3(0.0,3552.0,-750.74),cellId="Buckmoth Legion Fort, Towers"},
     {coords=util.vector3(612.977,174038.84,514.457),cellId=nil},
@@ -2754,13 +2737,11 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(301.081,186.623,-1168.326),cellId="Dubdilla, Uncharted Caverns, Lower"},
     {coords=util.vector3(1.1664975,72.14429,-171.8563),cellId="Vivec, Telvanni Upper Storage"},
     {coords=util.vector3(30293.92,-21918.254,1441.511),cellId=nil},
-    {coords=util.vector3(1445.1534,-56119.266,1499.608),cellId="Pelagiad"},
     {coords=util.vector3(22760.0,-54584.0,1016.0),cellId=nil},
     {coords=util.vector3(-43036.953,108705.69,1068.4688),cellId=nil},
     {coords=util.vector3(4011.71,3947.0908,14620.268),cellId="Tel Branora, Upper Tower"},
     {coords=util.vector3(-576.0,29024.0,1472.0),cellId=nil},
-    {coords=util.vector3(-21620.943,-12081.279,900.1708),cellId="Balmora"},
-    {coords=util.vector3(-13688.054,43070.402,2693.103),cellId="Buckmoth Legion Fort"},
+    {coords=util.vector3(26634.1,-86259.805,1887.3419),cellId=nil},
     {coords=util.vector3(3871.7224,4213.692,13914.64),cellId="Dagoth Ur, Inner Tower"},
     {coords=util.vector3(78527.41,134995.92,588.505),cellId=nil},
     {coords=util.vector3(-481.453,-1.361,86.38),cellId="Vos, Ienasa Radas's Farmhouse"},
@@ -2769,43 +2750,44 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3397.6816,3880.4517,-1362.3296),cellId="Unmarked Shipwreck, Upper Level"},
     {coords=util.vector3(33923.902,-92663.31,1882.8597),cellId=nil},
     {coords=util.vector3(4223.4062,2997.5278,13272.969),cellId="Vivec, Hall of Wisdom"},
-    {coords=util.vector3(36544.848,-91926.1,1887.3419),cellId="Vivec, St. Olms"},
     {coords=util.vector3(-5567.262,152433.2,2402.309),cellId=nil},
     {coords=util.vector3(64.45128,-186.45381,-494.8933),cellId="Vivec, Dralor Manor"},
+    {coords=util.vector3(-36099.957,-37051.69,2030.994),cellId=nil},
+    {coords=util.vector3(75264.0,52736.0,1664.0),cellId=nil},
     {coords=util.vector3(4160.0,1992.0,12416.0),cellId="Bal Fell, Outer Shrine"},
+    {coords=util.vector3(96803.95,115478.95,1538.4615),cellId=nil},
     {coords=util.vector3(-3160.0,-100.0,1516.0),cellId="Rethandus Ancestral Tomb"},
     {coords=util.vector3(-992.0,-1024.0,-32.0),cellId="Vivec, St. Olms Waistworks"},
+    {coords=util.vector3(77444.45,83801.68,880.942),cellId=nil},
     {coords=util.vector3(-704.0,1056.0,-704.0),cellId="Mzuleft"},
     {coords=util.vector3(142608.0,-45280.0,2672.0),cellId=nil},
     {coords=util.vector3(5589.325,200516.8,176.842),cellId=nil},
     {coords=util.vector3(-2696.265,2346.727,-393.271),cellId="Bensamsi"},
     {coords=util.vector3(703.2154,-638.1632,112.0),cellId="Sadryon Ancestral Tomb"},
-    {coords=util.vector3(17759.176,-102440.734,436.0),cellId="Ebonheart"},
     {coords=util.vector3(60.0,1768.0,246.0),cellId="Corprusarium"},
     {coords=util.vector3(-3683.294,2489.384,130.53683),cellId="Assarnud"},
+    {coords=util.vector3(58890.344,182440.22,429.558),cellId=nil},
     {coords=util.vector3(6576.0,7280.0,96.0),cellId="Vivec, Hall Underworks"},
+    {coords=util.vector3(12773.886,-102277.19,1393.126),cellId=nil},
     {coords=util.vector3(1850.644,3584.479,-536.1677),cellId="Habinbaes"},
     {coords=util.vector3(18953.879,-100442.016,1312.0),cellId=nil},
+    {coords=util.vector3(30900.578,-86912.0,2234.3809),cellId=nil},
     {coords=util.vector3(2190.907,6006.795,-684.8856),cellId="Sarimisun-Assa Egg Mine"},
-    {coords=util.vector3(42833.902,-86840.9,1887.342),cellId="Vivec, Telvanni"},
     {coords=util.vector3(-11304.0,17656.0,1330.0),cellId=nil},
     {coords=util.vector3(26.125965,470.69928,-142.293),cellId="Urshilaku Camp, Sakiran's Yurt"},
+    {coords=util.vector3(-11654.363,-70978.73,345.122),cellId=nil},
     {coords=util.vector3(0.0,576.0,32.0),cellId="Sadrith Mora, Wolverine Hall: Fighter's Guild"},
     {coords=util.vector3(150640.39,40050.395,1128.6871),cellId=nil},
-    {coords=util.vector3(28026.072,-91060.8,670.75),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(78092.984,116087.24,883.48114),cellId=nil},
     {coords=util.vector3(-22783.586,-13127.807,916.5331),cellId=nil},
-    {coords=util.vector3(126222.79,47857.184,1042.362),cellId="Tel Aruhn"},
     {coords=util.vector3(32.0,4656.0,-512.0),cellId="Esutanamus, Shrine"},
     {coords=util.vector3(1728.0,0.0,-256.0),cellId="Molag Mar, Canalworks"},
     {coords=util.vector3(3760.0,3920.0,15312.0),cellId="Maar Gan, Guard Tower 2"},
     {coords=util.vector3(-113.86807,-269.77155,-146.1279),cellId="Chun-Ook, Cabin"},
     {coords=util.vector3(-140.086,-65.777,-45.782),cellId="Dagon Fel, Heifnir: Trader"},
     {coords=util.vector3(12569.879,-101242.016,1072.0),cellId=nil},
-    {coords=util.vector3(-13707.501,55363.535,2444.193),cellId="Ald-ruhn"},
-    {coords=util.vector3(-25753.8,-12567.543,1124.526),cellId="Balmora"},
-    {coords=util.vector3(5045.345,3068.312,15041.744),cellId="Tel Vos, Northeastern Tower"},
     {coords=util.vector3(127542.94,-81155.984,125.289),cellId=nil},
+    {coords=util.vector3(5045.345,3068.312,15041.744),cellId="Tel Vos, Northeastern Tower"},
     {coords=util.vector3(1482.1484,4136.368,12379.978),cellId="Tel Vos, Jail"},
     {coords=util.vector3(-154.963,4358.59,-1185.96),cellId="Odirniran, Tower"},
     {coords=util.vector3(-2604.0,-3168.0,832.0),cellId="Drath Ancestral Tomb"},
@@ -2815,32 +2797,33 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4199.55,3722.795,-6.3749866),cellId="Unknown Shipwreck, Lower Level"},
     {coords=util.vector3(352.0,0.0,128.0),cellId="Sadrith Mora, Milara Vedran's House"},
     {coords=util.vector3(704.0,-416.0,-48.0),cellId="Sadrith Mora, Gateway Inn: North Wing"},
+    {coords=util.vector3(113141.64,-62456.39,1885.728),cellId=nil},
     {coords=util.vector3(61.652267,-33.31369,-299.16473),cellId="Ald-ruhn, Guard Tower 1"},
     {coords=util.vector3(5248.0,3648.0,14624.0),cellId="Arkngthand, Weepingbell Hall"},
     {coords=util.vector3(-6091.176,191618.53,-1174.215),cellId=nil},
+    {coords=util.vector3(62275.98,183378.06,306.621),cellId=nil},
     {coords=util.vector3(352.0,0.0,128.0),cellId="Sadrith Mora, Nirasa Aren's House"},
     {coords=util.vector3(4782.36,6340.7246,1615.2261),cellId="Urshilaku, Laterus Burial"},
     {coords=util.vector3(7.947,-36.251,80.168),cellId="Vemynal, Hall of Torque"},
+    {coords=util.vector3(54630.086,-50158.86,316.487),cellId=nil},
     {coords=util.vector3(175.773,-61.193,96.0),cellId="Dren Plantation, Hlevala's Shack"},
     {coords=util.vector3(4005.9092,4156.7046,14859.588),cellId="Hla Oad, Okur's House"},
-    {coords=util.vector3(-14956.748,-14954.959,879.011),cellId="Balmora"},
     {coords=util.vector3(150097.14,-38610.965,1288.383),cellId=nil},
     {coords=util.vector3(42096.73,-47819.77,881.087),cellId=nil},
-    {coords=util.vector3(-11775.806,19238.307,1455.442),cellId="Caldera"},
-    {coords=util.vector3(113440.82,-59860.11,581.602),cellId="Molag Mar"},
+    {coords=util.vector3(85240.0,120264.0,3771.1562),cellId=nil},
     {coords=util.vector3(95.0,82.0,-34.0),cellId="Ald-ruhn, Redoran Council Entrance"},
-    {coords=util.vector3(22786.47,-55916.016,1099.173),cellId="Dren Plantation"},
     {coords=util.vector3(128.1543,384.3229,-175.49635),cellId="Vivec, St. Olms Temple"},
     {coords=util.vector3(1987.192,-115.13471,-195.214),cellId="Arenim Ancestral Tomb"},
     {coords=util.vector3(1032.789,6011.066,1629.614),cellId="Shara"},
-    {coords=util.vector3(-12833.807,54430.574,2454.552),cellId="Ald-ruhn"},
+    {coords=util.vector3(95246.12,115494.96,1795.4476),cellId=nil},
     {coords=util.vector3(-255.54462,-290.37836,-33.066036),cellId="Vivec, Telvanni Vault"},
     {coords=util.vector3(3547.998,5728.001,11520.0),cellId="Aralen Ancestral Tomb"},
+    {coords=util.vector3(-12194.208,-74208.766,911.057),cellId=nil},
     {coords=util.vector3(3274.338,4082.971,11751.523),cellId="Assemanu, Shrine"},
     {coords=util.vector3(1409.043,-966.954,606.324),cellId="Kunirai"},
+    {coords=util.vector3(125943.22,-102181.93,1706.871),cellId=nil},
     {coords=util.vector3(0.0,0.0,0.0),cellId="Aidanat Camp, Abassel's Yurt"},
     {coords=util.vector3(3883.631,4286.01,-249.322),cellId="Lost Shipwreck, Upper Level"},
-    {coords=util.vector3(-14734.957,53214.95,2291.4011),cellId="Ald-ruhn"},
     {coords=util.vector3(527.577,259.347,599.757),cellId="Balmora, Hlaalu Council Manor"},
     {coords=util.vector3(655.209,542.1719,126.48804),cellId="Vivec, Hlaalu Plaza"},
     {coords=util.vector3(384.0,784.0,128.0),cellId="Ebonheart, East Empire Company Hall"},
@@ -2855,20 +2838,17 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4065.3506,3572.3362,201.41216),cellId="Unknown Shipwreck, Upper Level"},
     {coords=util.vector3(2048.0,3568.5513,-32.0),cellId="Vivec, Puzzle Canal, Level 4"},
     {coords=util.vector3(4405.3,3432.88,34.858322),cellId="Neglected Shipwreck, Lower Level"},
-    {coords=util.vector3(-11227.161,53698.062,2452.573),cellId="Ald-ruhn"},
     {coords=util.vector3(94329.04,167851.83,1277.218),cellId=nil},
     {coords=util.vector3(2944.0,-1342.745,-128.0),cellId="Vivec, Telvanni Waistworks"},
-    {coords=util.vector3(-12635.799,21860.812,1676.185),cellId="Caldera"},
     {coords=util.vector3(31178.982,-96879.73,-276.91647),cellId=nil},
     {coords=util.vector3(-9.6832695,473.2319,-176.17636),cellId="Chun-Ook, Lower Level"},
     {coords=util.vector3(-237.262,20.443,3.653),cellId="Caldera, Odairan Ashummi-Ammus' House"},
     {coords=util.vector3(3650.8503,4296.2656,15632.0),cellId="Molag Mar, St. Veloth's Hostel"},
-    {coords=util.vector3(108299.9,118318.88,1587.65),cellId="Tel Mora"},
     {coords=util.vector3(2535.949,3582.335,-304.0),cellId="Assurdirapal, Shrine"},
     {coords=util.vector3(-377.856,784.672,364.777),cellId="Seyda Neen, Census and Excise Warehouse"},
-    {coords=util.vector3(149663.27,33579.12,1243.824),cellId="Sadrith Mora"},
     {coords=util.vector3(2367.587,591.498,12194.222),cellId="Kogoruhn, Charma's Breath"},
     {coords=util.vector3(4098.706,-3296.149,537.911),cellId="Molag Mar, Underworks"},
+    {coords=util.vector3(151984.16,38158.555,1144.3301),cellId=nil},
     {coords=util.vector3(0.0,32.0,-64.0),cellId="Vivec, Jobasha's Rare Books"},
     {coords=util.vector3(21.868,-31.132,65.558),cellId="Urshilaku Camp, Shara's Yurt"},
     {coords=util.vector3(-20229.066,-12089.234,303.407),cellId=nil},
@@ -2880,6 +2860,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-134.867,-1387.574,475.58),cellId="Ald-ruhn, Pellecia Aurrus's House"},
     {coords=util.vector3(-13144.048,21153.195,1659.803),cellId=nil},
     {coords=util.vector3(155.29558,-64.61885,28.01192),cellId="Rethan Manor, Drelas' House"},
+    {coords=util.vector3(10150.84,-100633.85,1477.502),cellId=nil},
     {coords=util.vector3(171.89972,52.975098,-1308.1569),cellId="Shishi"},
     {coords=util.vector3(12777.879,-101930.016,832.0),cellId=nil},
     {coords=util.vector3(31735.955,-86294.086,1890.1586),cellId=nil},
@@ -2887,11 +2868,11 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2944.0,-1344.0,128.0),cellId="Vivec, St. Delyn Waistworks"},
     {coords=util.vector3(4497.043,2429.7185,621.4052),cellId="Ald Daedroth, Right Wing"},
     {coords=util.vector3(-40164.363,150085.58,818.675),cellId=nil},
+    {coords=util.vector3(85353.22,117920.15,4643.565),cellId=nil},
     {coords=util.vector3(-913.8962,24.032042,103.897),cellId="Tel Branora, Tower Dungeon"},
     {coords=util.vector3(5143.843,3079.128,14992.0),cellId="Tel Vos, Northeastern Tower"},
     {coords=util.vector3(148571.84,36091.703,1526.0233),cellId=nil},
     {coords=util.vector3(1680.0,7280.0,96.0),cellId="Vivec, Redoran Underworks"},
-    {coords=util.vector3(56232.0,-51544.0,928.0),cellId="Suran"},
     {coords=util.vector3(-721.27,28947.844,1471.7676),cellId=nil},
     {coords=util.vector3(-896.0,-192.0,256.0),cellId="Vivec, Hlaalu Canalworks"},
     {coords=util.vector3(4092.0837,3780.5574,16218.488),cellId="Molag Mar, Armigers Stronghold"},
@@ -2899,9 +2880,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4077.9233,4173.2563,15423.949),cellId="Unchartered Shipwreck, Cabin"},
     {coords=util.vector3(-20.081,581.655,-189.405),cellId="Zainab Camp, Wise Woman's Yurt"},
     {coords=util.vector3(4651.971,4204.631,13008.0),cellId="Bal Fell, West Wing"},
+    {coords=util.vector3(33264.07,74804.664,14975.878),cellId=nil},
     {coords=util.vector3(2.716835,223.33798,-120.65395),cellId="Valenvaryon, Lambug's Hut"},
     {coords=util.vector3(7405.35,45297.766,6327.547),cellId=nil},
-    {coords=util.vector3(126156.8,45843.42,3298.75),cellId="Tel Aruhn"},
     {coords=util.vector3(0.0,384.0,384.0),cellId="Suran, Ralds Oril: Trader"},
     {coords=util.vector3(-1084.0,5344.0,576.0),cellId="Llando Ancestral Tomb"},
     {coords=util.vector3(-512.0,4640.0,-1312.0),cellId="Ainab"},
@@ -2910,29 +2891,33 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-676.0,-640.0,32.0),cellId="Hleran Ancestral Tomb"},
     {coords=util.vector3(-384.0,512.0,512.0),cellId="Suran, Ranosa Gilvayn: Outfitter"},
     {coords=util.vector3(-3.7314787,-1127.5701,-854.0476),cellId="Molag Mar, Waistworks"},
+    {coords=util.vector3(129214.44,-100998.56,350.036),cellId=nil},
     {coords=util.vector3(6256.0,8112.0,-96.0),cellId="Vivec, Hall Underworks"},
+    {coords=util.vector3(-11958.173,-67956.75,452.5),cellId=nil},
     {coords=util.vector3(-1.6,215.996,128.0),cellId="Ebonheart, Imperial Guard Garrison"},
     {coords=util.vector3(448.0,896.0,-128.0),cellId="Vivec, Telvanni Waistworks"},
-    {coords=util.vector3(352.0,0.0,128.0),cellId="Sadrith Mora, Vaden Belas' House"},
+    {coords=util.vector3(20094.807,-103213.26,153.301),cellId=nil},
     {coords=util.vector3(1544.7439,3325.2034,18406.613),cellId="Vivec, Arena Waistworks"},
+    {coords=util.vector3(352.0,0.0,128.0),cellId="Sadrith Mora, Vaden Belas' House"},
     {coords=util.vector3(4104.183,142871.23,796.932),cellId=nil},
     {coords=util.vector3(48540.934,-59628.098,1168.7716),cellId=nil},
     {coords=util.vector3(7163.781,4480.0,14912.0),cellId="Sarys Ancestral Tomb"},
     {coords=util.vector3(338.516,40.515,228.212),cellId="Small Farmhouse"},
+    {coords=util.vector3(-10738.784,56459.88,2670.721),cellId=nil},
     {coords=util.vector3(36541.844,-88450.21,1882.47),cellId=nil},
     {coords=util.vector3(60.68536,-127.30092,224.0),cellId="Shushishi"},
     {coords=util.vector3(-384.0,768.0,736.0),cellId="Ebonheart, Grand Council Chambers"},
     {coords=util.vector3(-11608.225,19249.451,1409.736),cellId=nil},
+    {coords=util.vector3(110654.95,-60440.883,1887.042),cellId=nil},
     {coords=util.vector3(-356.33676,-5662.289,-319.10727),cellId="Seyda Neen, Arrille's Tradehouse"},
     {coords=util.vector3(-964.5365,5416.2197,681.2025),cellId="Llando Ancestral Tomb"},
-    {coords=util.vector3(6662.359,-54648.47,2841.487),cellId="Pelagiad"},
     {coords=util.vector3(256.0,3648.0,-256.0),cellId="Ald-ruhn, Venim Manor Right Wing"},
     {coords=util.vector3(2321.635,762.632,-41.767),cellId="Rotheran, Arena"},
-    {coords=util.vector3(95740.91,-36027.605,6677.2705),cellId="Mount Kand"},
     {coords=util.vector3(4224.0,3328.0,14272.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(201.32703,-358.74405,-37.145195),cellId="Vivec, Redoran Vaults"},
     {coords=util.vector3(-252.76271,1240.5002,0.0),cellId="Vivec, Telvanni Vault"},
     {coords=util.vector3(-510.298,636.3191,-421.97827),cellId="Vivec, The Abbey of St. Delyn the Wise"},
+    {coords=util.vector3(20675.223,-54730.637,728.549),cellId=nil},
     {coords=util.vector3(-60.0,-292.0,-32.0),cellId="Caldera, Governor's Hall"},
     {coords=util.vector3(1248.9374,-1081.2645,-301.48547),cellId="Dagoth Ur, Inner Facility"},
     {coords=util.vector3(3431.819,2775.695,-1145.83),cellId="Unmarked Shipwreck, Lower Level"},
@@ -2944,6 +2929,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(5728.0,3200.0,13792.0),cellId="Sarimisun-Assa Egg Mine, Queen's Lair"},
     {coords=util.vector3(1.9361076,-258.64435,-47.87555),cellId="Maar Gan, Assirari Zama-Rasour's Hut"},
     {coords=util.vector3(-20961.053,-14630.084,609.224),cellId=nil},
+    {coords=util.vector3(148933.19,36120.203,1117.029),cellId=nil},
     {coords=util.vector3(4100.9214,4214.478,-530.2237),cellId="Lonely Shipwreck, Cabin"},
     {coords=util.vector3(2691.03,-6364.32,433.182),cellId="Kora-Dur"},
     {coords=util.vector3(6464.0,7168.0,80.0),cellId="Vivec, St. Delyn Underworks"},
@@ -2957,15 +2943,18 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1168.0,-48.0,464.0),cellId="Ebonheart, Grand Council Chambers"},
     {coords=util.vector3(3966.9607,4000.2725,14563.185),cellId="Gnaar Mok, Druegh-jigger's Rest"},
     {coords=util.vector3(896.0,-320.0,-128.0),cellId="Vivec, St. Olms Brewers and Fishmongers Hall"},
-    {coords=util.vector3(18749.086,-100434.37,1064.413),cellId="Ebonheart"},
     {coords=util.vector3(-83537.836,93987.016,1152.9115),cellId=nil},
     {coords=util.vector3(480.0,1887.998,-2688.0),cellId="Falensarano, Upper Level"},
     {coords=util.vector3(257.0,58.0,88.0),cellId="Vos, Menus Felas's Farmhouse"},
+    {coords=util.vector3(37517.32,-95288.96,1887.3419),cellId=nil},
     {coords=util.vector3(0.0,-128.0,128.0),cellId="Balmora, Fast Eddie's House"},
     {coords=util.vector3(1151.4413,-260.26938,302.7736),cellId="Seyda Neen, Census and Excise Office"},
     {coords=util.vector3(-608.0,192.0,-160.0),cellId="Vivec, St. Olms Canalworks"},
+    {coords=util.vector3(-20402.797,-12087.091,566.599),cellId=nil},
     {coords=util.vector3(1700.0,-3778.9365,1056.0),cellId="Randas Ancestral Tomb"},
     {coords=util.vector3(60785.395,183636.83,318.665),cellId=nil},
+    {coords=util.vector3(-88584.516,97028.93,1996.817),cellId=nil},
+    {coords=util.vector3(62589.816,182536.86,253.764),cellId=nil},
     {coords=util.vector3(3.7006102,-28.56058,89.49885),cellId="Ministry of Truth, Hall of Processing"},
     {coords=util.vector3(-10574.921,18837.412,1440.0),cellId=nil},
     {coords=util.vector3(-2374.511,259.238,-292.011),cellId="Assemanu"},
@@ -2974,24 +2963,24 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(39161.707,-94149.164,1888.9943),cellId=nil},
     {coords=util.vector3(4131.334,1023.673,-134.424),cellId="Almurbalarammi, Shrine"},
     {coords=util.vector3(1116.0,-3360.0,140.0),cellId="Tel Aruhn, Underground"},
-    {coords=util.vector3(9337.879,-100618.016,1416.0),cellId="Ebonheart"},
     {coords=util.vector3(-1088.0,-768.0,128.0),cellId="Ald-ruhn, Venim Manor Bedrooms"},
     {coords=util.vector3(134.57407,22.635853,96.0),cellId="Falas Ancestral Tomb"},
     {coords=util.vector3(86793.92,101368.71,698.89825),cellId=nil},
+    {coords=util.vector3(86112.0,119392.0,3781.2258),cellId=nil},
     {coords=util.vector3(224.0,-384.0,368.0),cellId="Sadrith Mora, Gateway Inn: North Wing"},
     {coords=util.vector3(1358.3799,-312.2132,576.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(0.0,0.0,-32.0),cellId="Vivec, Telvanni Monster Lab"},
     {coords=util.vector3(2003.2921,533.68695,-132.21495),cellId="Vivec, Foreign Quarter Underworks"},
     {coords=util.vector3(4035.3354,3038.2344,15767.055),cellId="Dren Plantation, Dren's Villa"},
     {coords=util.vector3(2666.0159,-669.3809,-256.64032),cellId="Vivec, Arena Canalworks"},
-    {coords=util.vector3(-12894.996,126347.86,1431.322),cellId="Falasmaryon"},
     {coords=util.vector3(77091.62,83850.73,858.042),cellId=nil},
     {coords=util.vector3(3734.344,3061.9106,224.663),cellId="Vassir-Didanat Cave"},
     {coords=util.vector3(-10111.868,1441.8533,256.0),cellId="Kogoruhn, Nabith Waterway"},
+    {coords=util.vector3(53767.28,-49888.793,315.915),cellId=nil},
     {coords=util.vector3(-226.88588,55.08427,-35.51774),cellId="Dagon Fel, Heifnir: Trader"},
+    {coords=util.vector3(146202.86,36557.36,917.40985),cellId=nil},
     {coords=util.vector3(2560.0,3903.9043,15040.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(2062.5654,3329.6472,13541.692),cellId="Vivec, Foreign Quarter Lower Waistworks"},
-    {coords=util.vector3(146202.86,36557.36,917.40985),cellId=nil},
     {coords=util.vector3(37222.438,-60303.625,947.708),cellId=nil},
     {coords=util.vector3(136486.83,3601.987,352.555),cellId=nil},
     {coords=util.vector3(103712.47,92392.82,786.30615),cellId=nil},
@@ -2999,37 +2988,34 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-640.0,66.0,128.0),cellId="Caldera, Ghorak Manor"},
     {coords=util.vector3(-768.0,-32.0,195.95195),cellId="Tel Branora, Tower Dungeon"},
     {coords=util.vector3(-1728.0,3456.0,320.0),cellId="Arkngthand, Hall of Centrifuge"},
-    {coords=util.vector3(33462.14,-99823.72,1149.408),cellId="Vivec, Temple"},
     {coords=util.vector3(1340.2214,127.25985,317.9469),cellId="Vivec, Foreign Quarter Plaza"},
     {coords=util.vector3(27701.658,177042.16,1305.2031),cellId=nil},
-    {coords=util.vector3(159105.84,-30298.326,2077.239),cellId="Holamayan"},
-    {coords=util.vector3(3889.5996,4265.814,-824.9088),cellId="Deserted Shipwreck, Lower Level"},
     {coords=util.vector3(54.344,-84.405,93.104),cellId="Dagon Fel, Mette's House"},
+    {coords=util.vector3(3889.5996,4265.814,-824.9088),cellId="Deserted Shipwreck, Lower Level"},
     {coords=util.vector3(-15.754,481.815,-142.666),cellId="Ahemmusa Camp, Kausi's Yurt"},
     {coords=util.vector3(-22066.807,-14040.234,621.3642),cellId=nil},
     {coords=util.vector3(154785.5,-6970.413,-24.197),cellId=nil},
     {coords=util.vector3(5376.0,2944.0,12928.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(-87658.56,92783.65,1102.099),cellId=nil},
+    {coords=util.vector3(93792.77,117427.13,1728.7406),cellId=nil},
     {coords=util.vector3(-1790.8948,381.1338,342.533),cellId="Helan Ancestral Tomb"},
     {coords=util.vector3(-128.0,-718.0,822.0),cellId="Ilunibi, Carcass of the Saint"},
     {coords=util.vector3(-752.0,1024.0,-32.0),cellId="Moonmoth Legion Fort, Interior"},
     {coords=util.vector3(4456.0,5880.0,-32.0),cellId="Ald Daedroth, Inner Shrine"},
     {coords=util.vector3(3331.9116,3518.7888,15767.298),cellId="Dren Plantation, Dren's Villa"},
     {coords=util.vector3(4923.667,3996.904,6.962),cellId="Ancient Shipwreck, Upper Level"},
-    {coords=util.vector3(29120.79,-94720.89,1887.342),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(5000.0,3072.0,14272.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(1152.0,-208.0,1296.0),cellId="Arkngthand, Land's Blood Gallery"},
     {coords=util.vector3(24.0,1312.0,16.0),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(9.133,543.322,8.0),cellId="Chun-Ook, Upper Level"},
     {coords=util.vector3(0.0,-384.0,0.0),cellId="Maar Gan, Mabrelle Geles's Hut"},
-    {coords=util.vector3(-13189.909,57047.523,2660.047),cellId="Ald-ruhn"},
-    {coords=util.vector3(-11578.568,54894.04,2427.355),cellId="Ald-ruhn"},
     {coords=util.vector3(118793.375,77210.234,1418.966),cellId=nil},
     {coords=util.vector3(-112.0,1712.0,-1232.0),cellId="Tel Branora, Upper Tower: Therana's Chamber"},
     {coords=util.vector3(4224.0,3840.0,8960.0),cellId="Gnaar Mok, Arenim Manor"},
     {coords=util.vector3(259.87158,-255.4278,340.9198),cellId="Suran, Goldyn Belaram: Pawnbroker"},
     {coords=util.vector3(1280.0,128.0,256.0),cellId="Balmora, Clagius Clanler: Outfitter"},
     {coords=util.vector3(-832.0,-128.0,-128.0),cellId="Vivec, The Lizard's Head"},
+    {coords=util.vector3(-9895.516,-72398.01,726.929),cellId=nil},
     {coords=util.vector3(3840.0,4480.0,8704.0),cellId="Gnaar Mok, Arenim Manor"},
     {coords=util.vector3(-1408.0,192.0,-1216.0),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(65153.727,165823.11,1543.5718),cellId=nil},
@@ -3037,30 +3023,37 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-1040.0,416.0,-736.0),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(95482.125,135259.73,1037.536),cellId=nil},
     {coords=util.vector3(-11446.499,56934.742,2685.1694),cellId=nil},
-    {coords=util.vector3(3448.0,120000.0,1472.0),cellId="Kogoruhn"},
     {coords=util.vector3(66176.0,104224.0,1952.0),cellId=nil},
     {coords=util.vector3(5520.0,5824.0,12671.122),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(64.0,-128.0,-128.0),cellId="Vivec, Tervur Braven: Trader"},
     {coords=util.vector3(415.2303,3588.5295,-285.71143),cellId="Ald-ruhn, Venim Manor Right Wing"},
     {coords=util.vector3(3951.259,3949.695,15416.665),cellId="Khuul, Miron Garer's Shack"},
-    {coords=util.vector3(148454.53,32672.883,772.67957),cellId="Wolverine Hall"},
     {coords=util.vector3(3840.0,3344.0,13552.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
+    {coords=util.vector3(-87845.44,95615.54,1412.4161),cellId=nil},
     {coords=util.vector3(2240.0,1856.0,-160.0),cellId="Abinabi"},
     {coords=util.vector3(2560.0,-512.0,-32.0),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(-976.3028,-247.2474,231.20482),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(-2.734,452.461,-155.393),cellId="Erabenimsun Camp, Ashkhan's Yurt"},
+    {coords=util.vector3(-16680.38,53313.113,1895.764),cellId=nil},
+    {coords=util.vector3(-2590.542,152599.69,2385.348),cellId=nil},
     {coords=util.vector3(2795.71,4264.756,102.057),cellId="Ancient Shipwreck, Lower Level"},
     {coords=util.vector3(4315.0,4095.175,15173.796),cellId="Khuul, Aldi's Shack"},
     {coords=util.vector3(1026.5386,3364.066,1371.4688),cellId="Zanabi"},
     {coords=util.vector3(147589.83,39747.93,1037.0817),cellId=nil},
     {coords=util.vector3(1152.0,768.0,-752.0),cellId="Buckmoth Legion Fort, Towers"},
     {coords=util.vector3(2331.508,9089.583,-416.37683),cellId="Madas-Zebba Egg Mine"},
-    {coords=util.vector3(-77059.44,97150.08,1103.516),cellId="Gnisis"},
+    {coords=util.vector3(9954.267,-100362.375,2114.359),cellId=nil},
     {coords=util.vector3(4467.81,4044.571,14738.313),cellId="Tel Branora, Tower Guardpost"},
+    {coords=util.vector3(-15285.494,55836.812,2435.887),cellId=nil},
     {coords=util.vector3(-1416.663,5374.381,-783.081),cellId="Yasamsi"},
+    {coords=util.vector3(87765.664,10858.964,2355.256),cellId=nil},
+    {coords=util.vector3(29879.412,-78335.04,1887.342),cellId=nil},
+    {coords=util.vector3(-69749.38,132612.28,824.36884),cellId=nil},
     {coords=util.vector3(-49.525024,8.196959,128.0),cellId="Balmora, The Razor Hole"},
-    {coords=util.vector3(4035.099,3906.89,15203.271),cellId="Gnaar Mok, Anglalos's Shack"},
+    {coords=util.vector3(31960.13,-106271.49,1332.5896),cellId=nil},
     {coords=util.vector3(-60.0,525.0,-28.0),cellId="Ald-ruhn, Redoran Council Entrance"},
+    {coords=util.vector3(4035.099,3906.89,15203.271),cellId="Gnaar Mok, Anglalos's Shack"},
+    {coords=util.vector3(-11173.354,17663.037,1355.547),cellId=nil},
     {coords=util.vector3(-1149.067,3595.83,341.991),cellId="Panat"},
     {coords=util.vector3(-2876.0,2112.0,1312.0),cellId="Nelas Ancestral Tomb"},
     {coords=util.vector3(-1853.7676,1113.8248,-417.3843),cellId="Balmora, Dura gra-Bol's House"},
@@ -3068,22 +3061,22 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-36668.84,152301.75,784.0),cellId=nil},
     {coords=util.vector3(1.7667426,473.54025,-144.89743),cellId="Grytewake, Lower Level"},
     {coords=util.vector3(1760.0,1344.0,15840.0),cellId="Tel Vos, Central Tower"},
-    {coords=util.vector3(4004.6987,3974.31,15127.967),cellId="Khuul, Nelmyne Andules's Shack"},
+    {coords=util.vector3(-21870.348,-13717.901,919.974),cellId=nil},
     {coords=util.vector3(-64.0,-128.0,-128.0),cellId="Ghostgate, Tower of Dusk"},
+    {coords=util.vector3(4004.6987,3974.31,15127.967),cellId="Khuul, Nelmyne Andules's Shack"},
     {coords=util.vector3(864.03955,2112.6587,-624.34644),cellId="Arano Ancestral Tomb"},
     {coords=util.vector3(529.156,-1292.587,27.87),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(258.25342,4201.6157,-1196.2506),cellId="Shishi"},
+    {coords=util.vector3(-10693.456,17990.041,1394.768),cellId=nil},
     {coords=util.vector3(-28553.432,134949.95,1012.71985),cellId=nil},
     {coords=util.vector3(-3106.257,1013.923,738.152),cellId="Saturan"},
-    {coords=util.vector3(-20402.797,-12087.091,566.599),cellId="Balmora"},
+    {coords=util.vector3(54590.523,-51499.53,335.786),cellId=nil},
     {coords=util.vector3(-5440.427,3521.523,-1568.1205),cellId="Hassour"},
     {coords=util.vector3(4037.212,3907.515,15202.161),cellId="Gnaar Mok, Caryarel's Shack"},
     {coords=util.vector3(32957.875,-95380.33,-251.26099),cellId=nil},
     {coords=util.vector3(1152.0,-2592.0,64.0),cellId="Mudan, Lost Dwemer Checkpoint"},
     {coords=util.vector3(162.915,127.044,-128.0),cellId="Pelagiad, Adanja's House"},
-    {coords=util.vector3(-35877.84,-38059.594,2287.558),cellId="Odai Plateau"},
     {coords=util.vector3(-22756.043,12782.983,1747.595),cellId=nil},
-    {coords=util.vector3(-9113.873,19139.59,1272.168),cellId="Caldera"},
     {coords=util.vector3(0.0,-384.0,-128.0),cellId="Drulene Falen's Hut"},
     {coords=util.vector3(3039.0,5179.752,1590.634),cellId="Sadrith Mora, Telvanni Council House, Entry"},
     {coords=util.vector3(21549.764,-86968.96,1881.8103),cellId=nil},
@@ -3093,7 +3086,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3824.0,-2480.0,672.0),cellId="Drethan Ancestral Tomb"},
     {coords=util.vector3(352.0,0.0,128.0),cellId="Sadrith Mora, Volmyni Dral's House"},
     {coords=util.vector3(94682.125,-95973.93,317.1167),cellId=nil},
-    {coords=util.vector3(146497.44,35442.46,875.695),cellId="Sadrith Mora"},
+    {coords=util.vector3(-9558.401,18638.283,1882.274),cellId=nil},
     {coords=util.vector3(27581.795,11897.246,773.524),cellId=nil},
     {coords=util.vector3(166797.03,37942.305,281.553),cellId=nil},
     {coords=util.vector3(-736.0,288.0,32.0),cellId="Nchardumz Lower Level"},
@@ -3104,17 +3097,16 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(511.83878,33.99656,-34.260906),cellId="Vivec, Library of Vivec"},
     {coords=util.vector3(66.128,-401.326,107.676),cellId="Fair Helas, Upper Level"},
     {coords=util.vector3(4992.0,5760.0,14592.0),cellId="Tel Vos, Southern Tower"},
-    {coords=util.vector3(-89396.89,129201.57,156.603),cellId="Ald Velothi"},
     {coords=util.vector3(-11917.13,53863.2,2468.35),cellId=nil},
     {coords=util.vector3(66308.42,181544.72,952.669),cellId=nil},
+    {coords=util.vector3(-84409.81,93293.56,1119.2765),cellId=nil},
     {coords=util.vector3(-384.0,576.0,-384.0),cellId="Balmora, Lucky Lockup"},
     {coords=util.vector3(-1009.643,232.318,96.357),cellId="Ienith Ancestral Tomb"},
     {coords=util.vector3(4041.0,5482.0,14336.0),cellId="Dagoth Ur, Facility Cavern"},
     {coords=util.vector3(18457.879,-102986.016,992.0),cellId=nil},
-    {coords=util.vector3(39031.27,-87580.25,1887.3419),cellId="Vivec, Arena"},
+    {coords=util.vector3(-83782.95,124663.17,2439.686),cellId=nil},
     {coords=util.vector3(76.352,255.493,-122.424),cellId="Erabenimsun Camp, Addut-Lamanu's Yurt"},
     {coords=util.vector3(-9887.794,18521.254,1500.0),cellId=nil},
-    {coords=util.vector3(110652.75,-61514.676,2142.663),cellId="Molag Mar"},
     {coords=util.vector3(4164.674,4337.296,-480.984),cellId="Lonesome Shipwreck, Cabin"},
     {coords=util.vector3(-64.0,-128.0,-128.0),cellId="Vivec, Arena Fighters Training"},
     {coords=util.vector3(61.415016,-191.65077,-70.10273),cellId="Fair Helas, Upper Level"},
@@ -3127,18 +3119,16 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(432.0,184.0,384.857),cellId="Tel Aruhn, Plot and Plaster"},
     {coords=util.vector3(5632.0,4096.0,13536.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(4465.147,4226.574,-1297.381),cellId="Sanit"},
+    {coords=util.vector3(-28764.203,149577.02,807.69696),cellId=nil},
     {coords=util.vector3(-384.0,576.0,-128.0),cellId="Balmora, Lucky Lockup"},
     {coords=util.vector3(-62144.0,27840.0,672.0),cellId=nil},
-    {coords=util.vector3(14085.438,-100785.92,838.72),cellId="Ebonheart"},
     {coords=util.vector3(-641.777,-497.466,929.096),cellId="Tel Mora, Upper Tower"},
     {coords=util.vector3(-1777.808,-2125.53,-375.285),cellId="Ashinabi"},
     {coords=util.vector3(9198.929,-100616.58,1415.166),cellId=nil},
     {coords=util.vector3(40.267,-45.161,208.0),cellId="Caldera, Mining Guard Tower"},
     {coords=util.vector3(1539.568,963.801,867.4605),cellId="Odaishah"},
-    {coords=util.vector3(56896.0,-53504.0,1609.541),cellId="Suran"},
-    {coords=util.vector3(28253.959,-95288.96,1887.342),cellId="Vivec, St. Delyn"},
-    {coords=util.vector3(-86694.734,128903.43,162.652),cellId=nil},
     {coords=util.vector3(-1024.0,640.0,96.0),cellId="Ald-ruhn, Redoran Council Hall"},
+    {coords=util.vector3(-86694.734,128903.43,162.652),cellId=nil},
     {coords=util.vector3(-35987.63,101979.3,2301.576),cellId=nil},
     {coords=util.vector3(-264.545,179.229,217.312),cellId="Balmora, Tsiya's House"},
     {coords=util.vector3(4096.0,3920.0,15712.0),cellId="Dren Plantation, Shipping House"},
@@ -3149,8 +3139,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(192.0,128.0,0.0),cellId="Vos, Mandyn Ralas's Farmhouse"},
     {coords=util.vector3(1559.6786,7086.101,113.342545),cellId="Vivec, Arena Underworks"},
     {coords=util.vector3(-704.0,-80.0,-96.0),cellId="Sadrith Mora, Gateway Inn: South Wing"},
-    {coords=util.vector3(-10956.729,-72364.18,282.37),cellId="Seyda Neen"},
     {coords=util.vector3(93713.46,-39312.61,6423.5156),cellId=nil},
+    {coords=util.vector3(-10275.138,-71635.64,260.52),cellId=nil},
     {coords=util.vector3(-256.0,64.0,-256.0),cellId="Vivec, Jeanne: Trader"},
     {coords=util.vector3(1900.0,-932.0,-1504.0),cellId="Druscashti, Lower Level"},
     {coords=util.vector3(-20536.178,-13959.923,313.89),cellId=nil},
@@ -3162,6 +3152,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(73583.56,170609.81,585.6729),cellId=nil},
     {coords=util.vector3(-1216.0,-384.0,-128.0),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(-67322.67,128589.96,1708.5045),cellId=nil},
+    {coords=util.vector3(109840.99,-2894.6414,638.7506),cellId=nil},
     {coords=util.vector3(6544.0,1008.0,288.0),cellId="Vivec, Foreign Quarter Underworks"},
     {coords=util.vector3(2944.0,-960.0,-256.0),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(4241.142,3415.7778,-168.13881),cellId="Neglected Shipwreck, Lower Level"},
@@ -3174,6 +3165,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-2112.0,256.0,-256.0),cellId="Ald-ruhn, Arobar Guard Quarters"},
     {coords=util.vector3(-3.8336544,418.54675,-173.03218),cellId="Arrow, Lower Level"},
     {coords=util.vector3(4863.018,3207.8152,13712.0),cellId="Tel Vos, Northeastern Tower"},
+    {coords=util.vector3(-20297.51,102663.055,2082.786),cellId=nil},
     {coords=util.vector3(-70985.53,67683.125,1434.137),cellId=nil},
     {coords=util.vector3(6498.76,-6280.1826,967.3918),cellId=nil},
     {coords=util.vector3(5505.413,5771.433,13840.0),cellId="Tel Vos, Southern Tower"},
@@ -3181,7 +3173,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3904.0,3456.0,18304.0),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(-1076.719,1194.929,-1307.122),cellId="Ashimanu Egg Mine"},
     {coords=util.vector3(6414.391,-12.064903,-256.0),cellId="Vivec, Simine Fralinie: Bookseller"},
-    {coords=util.vector3(14217.879,-100762.016,832.0),cellId="Ebonheart"},
     {coords=util.vector3(5.4512324,24.0234,-32.29592),cellId="Vivec, Library of Vivec"},
     {coords=util.vector3(33892.04,-87549.234,1891.73),cellId=nil},
     {coords=util.vector3(-16570.566,-16058.94,568.3029),cellId=nil},
@@ -3193,10 +3184,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2688.0,-1088.0,128.0),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(-930.188,4092.2627,1515.4854),cellId="Eluba-Addon Egg Mine"},
     {coords=util.vector3(4056.4197,3585.5244,15386.302),cellId="Vivec, St. Delyn Glassworker's Hall"},
-    {coords=util.vector3(-313.70483,310.22946,-164.55475),cellId="Vivec, St. Olms Yngling Manor"},
+    {coords=util.vector3(25698.297,-95239.49,-247.164),cellId=nil},
     {coords=util.vector3(647.80334,-1533.4424,-40.51272),cellId="Punammu"},
     {coords=util.vector3(1840.0,3324.0,-92.0),cellId="Bal Ur, Shrine"},
+    {coords=util.vector3(-313.70483,310.22946,-164.55475),cellId="Vivec, St. Olms Yngling Manor"},
     {coords=util.vector3(129343.05,-101074.65,360.431),cellId=nil},
+    {coords=util.vector3(-62297.84,28017.36,692.825),cellId=nil},
     {coords=util.vector3(-1990.6682,-2.3386078,207.99997),cellId="Dagon Fel, Andre Maul's Tower"},
     {coords=util.vector3(-772.0,-276.0,476.0),cellId="Caldera, Ghorak Manor"},
     {coords=util.vector3(-123.639,-356.467,-113.887),cellId="Arrow, Cabin"},
@@ -3205,21 +3198,22 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4008.0,2680.0,15136.0),cellId="Dren Plantation, Guardhouse"},
     {coords=util.vector3(5504.0,3392.0,12800.0),cellId="Vivec, St. Delyn Canalworks"},
     {coords=util.vector3(4887.2993,3263.6296,13791.917),cellId="Yakin, Shrine"},
+    {coords=util.vector3(30904.967,-93312.0,2235.6597),cellId=nil},
     {coords=util.vector3(3808.0,2464.0,160.0),cellId="Pudai Egg Mine, Queen's Lair"},
     {coords=util.vector3(186.04967,-47.50821,125.25881),cellId="Dagon Fel, Fanar Fork-Beard's House"},
     {coords=util.vector3(1544.304,4608.063,-1455.481),cellId="Ald Sotha, Upper Level"},
     {coords=util.vector3(3824.0,4352.0,14240.0),cellId="Sadrith Mora, Wolverine Hall"},
+    {coords=util.vector3(-48035.36,-38699.7,301.15738),cellId=nil},
     {coords=util.vector3(4039.6787,4293.0757,15380.174),cellId="Vivec, St. Delyn Potter's Hall"},
     {coords=util.vector3(2035.6375,1790.3276,-1196.791),cellId="Mawia"},
     {coords=util.vector3(0.0,-128.0,128.0),cellId="Balmora, Rithleen's House"},
-    {coords=util.vector3(123712.7,48033.51,962.079),cellId="Tel Aruhn"},
     {coords=util.vector3(4080.0,4464.0,14480.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(-59106.156,26269.227,304.40787),cellId=nil},
     {coords=util.vector3(285.65256,3.5414524,-8.168038),cellId="Arvel Manor, Slavemaster's Shack"},
     {coords=util.vector3(2783.659,252.18413,-15.137393),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(0.0,0.0,92.629),cellId="Balmora, Tyermaillin's House"},
+    {coords=util.vector3(-26833.633,149641.84,795.4346),cellId=nil},
     {coords=util.vector3(-14442.0,55387.0,2454.9065),cellId=nil},
-    {coords=util.vector3(-4688.0,-17408.0,2064.0),cellId="Moonmoth Legion Fort"},
     {coords=util.vector3(188.083,-57.969,89.59),cellId="Caldera, Slave Shack Two"},
     {coords=util.vector3(125.34846,-1128.0878,610.68884),cellId="Gnisis, Yahaz Hut"},
     {coords=util.vector3(33850.78,-97553.44,674.62665),cellId=nil},
@@ -3236,11 +3230,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(56984.0,-53416.83,1591.0043),cellId=nil},
     {coords=util.vector3(-187.32013,263.40656,-35.139145),cellId="Vivec, Office of the Watch"},
     {coords=util.vector3(77096.73,-20109.654,748.25824),cellId=nil},
-    {coords=util.vector3(30070.867,-91349.56,1887.3418),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(-4.681895,-234.35442,-33.80098),cellId="Ald-ruhn, Tiras Sadus: General Merchandise"},
     {coords=util.vector3(73137.29,-47347.47,2161.865),cellId=nil},
     {coords=util.vector3(3888.583,4124.05,77.444),cellId="Neglected Shipwreck, Cabin"},
-    {coords=util.vector3(3582.538,-55863.746,1750.673),cellId="Pelagiad"},
     {coords=util.vector3(-836.0,-140.0,384.0),cellId="Caldera, Ghorak Manor"},
     {coords=util.vector3(-8681.0,52845.0,2436.0),cellId=nil},
     {coords=util.vector3(1280.0,-64.0,128.0),cellId="Ald-ruhn, Llethri Guard Quarters"},
@@ -3249,6 +3241,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4288.0,4160.0,-1312.0),cellId="Sanit"},
     {coords=util.vector3(424.96817,32.208344,124.451614),cellId="Arvel Manor, Storage Shack"},
     {coords=util.vector3(123.128685,237.37083,-43.548508),cellId="Vivec, Ralen Tilvur: Smith"},
+    {coords=util.vector3(13577.252,-102070.305,842.79),cellId=nil},
     {coords=util.vector3(94019.16,-74566.48,412.76843),cellId=nil},
     {coords=util.vector3(-1848.4413,-0.101631165,89.63401),cellId="Vivec, Arena Pit"},
     {coords=util.vector3(-2080.0,1439.998,-2112.0),cellId="Falensarano, Upper Level"},
@@ -3261,10 +3254,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(192.0,-128.0,-128.0),cellId="Vivec, St. Delyn Waist North-One"},
     {coords=util.vector3(672.0,-256.0,-32.0),cellId="Ald-ruhn, Venim Manor Guard Quarters"},
     {coords=util.vector3(2048.0,3605.827,-32.0),cellId="Vivec, Puzzle Canal, Level 2"},
+    {coords=util.vector3(109225.83,116456.04,635.419),cellId=nil},
     {coords=util.vector3(-2437.398,2984.405,-671.515),cellId="Hairat-Vassamsi Egg Mine"},
     {coords=util.vector3(126096.0,-102208.0,1696.0),cellId=nil},
     {coords=util.vector3(36543.992,-85314.62,1895.3783),cellId=nil},
     {coords=util.vector3(-3.314,-118.653,-33.685),cellId="Buckmoth Legion Fort, Interior"},
+    {coords=util.vector3(27435.383,-79343.65,1886.474),cellId=nil},
     {coords=util.vector3(2810.0,-5282.0,479.91763),cellId="Gnisis, Lower Eggmine"},
     {coords=util.vector3(30.249182,-200.56902,209.84),cellId="Caldera, Hodlismod: Armorer"},
     {coords=util.vector3(42785.715,-81740.0,1881.0156),cellId=nil},
@@ -3284,11 +3279,10 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-3325.692,-5.428,-3120.0),cellId="Tel Vos, Dungeon"},
     {coords=util.vector3(5077.1875,-2239.9036,916.0),cellId="Drethan Ancestral Tomb"},
     {coords=util.vector3(3841.0127,-3036.5134,1680.0),cellId="Dareleth Ancestral Tomb"},
+    {coords=util.vector3(148912.0,29184.0,1216.0),cellId=nil},
     {coords=util.vector3(5248.0,4032.0,14624.0),cellId="Arkngthand, Weepingbell Hall"},
     {coords=util.vector3(132578.84,37549.383,403.35953),cellId=nil},
-    {coords=util.vector3(55710.12,-53393.793,1029.773),cellId="Suran"},
     {coords=util.vector3(10755.963,-4747.5366,-291.385),cellId="Omaren Ancestral Tomb"},
-    {coords=util.vector3(61240.62,181156.53,743.98),cellId="Dagon Fel"},
     {coords=util.vector3(88168.99,8440.792,1852.2877),cellId=nil},
     {coords=util.vector3(244.295,888.091,-368.0),cellId="Marandus, Propylon Chamber"},
     {coords=util.vector3(-17356.916,102298.61,2474.9487),cellId=nil},
@@ -3296,18 +3290,18 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-131.639,-348.465,-113.887),cellId="Elf-Skerring, Cabin"},
     {coords=util.vector3(110953.79,-85288.83,866.48236),cellId=nil},
     {coords=util.vector3(132851.44,-68566.266,1044.847),cellId=nil},
+    {coords=util.vector3(127566.16,-103427.91,818.438),cellId=nil},
     {coords=util.vector3(-2649.334,-1151.12,224.699),cellId="Dissapla Mine"},
-    {coords=util.vector3(26630.016,-93989.88,1887.342),cellId="Vivec, St. Delyn"},
+    {coords=util.vector3(21236.531,-45228.72,815.86786),cellId=nil},
     {coords=util.vector3(-128.0,-256.0,128.0),cellId="Suran, Oran Manor"},
     {coords=util.vector3(-2.109,-59.514,-36.939),cellId="Vivec, St. Delyn Waist South-One"},
     {coords=util.vector3(-1024.604,1757.905,-296.027),cellId="Ghostgate, Tower of Dusk"},
-    {coords=util.vector3(-12472.0,20680.0,1652.0),cellId="Caldera"},
-    {coords=util.vector3(-12591.056,44090.3,3018.4622),cellId="Buckmoth Legion Fort"},
-    {coords=util.vector3(151984.16,38158.555,1144.3301),cellId="Sadrith Mora"},
+    {coords=util.vector3(-22146.146,-8306.55,870.761),cellId=nil},
     {coords=util.vector3(-3.0946174,-3.5270684,-43.868946),cellId="Vivec, Tervur Braven: Trader"},
     {coords=util.vector3(1208.0,1480.0,416.0),cellId="Reloth Ancestral Tomb"},
     {coords=util.vector3(108043.97,-62524.066,1880.5957),cellId=nil},
     {coords=util.vector3(153326.66,37974.14,1586.078),cellId=nil},
+    {coords=util.vector3(22866.959,-81860.41,1886.4177),cellId=nil},
     {coords=util.vector3(4384.0,5120.0,13920.0),cellId="Ashimanu Egg Mine, Queen's Lair"},
     {coords=util.vector3(4096.0,3440.0,14272.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(-1087.64,-380.235,-640.0),cellId="Vivec, High Fane"},
@@ -3315,13 +3309,11 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(642.36896,-348.73398,85.07839),cellId="Arvel Manor"},
     {coords=util.vector3(-35872.0,-37824.0,1984.0),cellId=nil},
     {coords=util.vector3(3328.0,3680.0,15808.0),cellId="Dren Plantation, Dren's Villa"},
-    {coords=util.vector3(-22398.475,104076.56,2250.332),cellId="Maar Gan"},
+    {coords=util.vector3(-1374.894,2160.686,-126.622),cellId="Maren Ancestral Tomb"},
     {coords=util.vector3(35709.85,-8621.802,1339.9734),cellId=nil},
     {coords=util.vector3(970.0,1408.0,301.79834),cellId="Berandas, Keep, Top Level"},
-    {coords=util.vector3(-1374.894,2160.686,-126.622),cellId="Maren Ancestral Tomb"},
     {coords=util.vector3(0.039,373.168,-48.0),cellId="Suran, Suran Temple"},
     {coords=util.vector3(-64.0,-256.0,0.0),cellId="Ald-ruhn, Galsa Gindu's House"},
-    {coords=util.vector3(21761.754,38947.016,1315.204),cellId="Ghostgate"},
     {coords=util.vector3(0.0,128.0,-32.0),cellId="Ald-ruhn, Guls Llervu's House"},
     {coords=util.vector3(-128.0,0.0,128.0),cellId="Suran, Verara Rendo: Clothier"},
     {coords=util.vector3(117.221695,-511.3191,-148.57733),cellId="Vivec, Arena Canalworks"},
@@ -3330,28 +3322,29 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3711.3264,4979.5034,14894.65),cellId="Strange Shipwreck, Upper Level"},
     {coords=util.vector3(-22144.842,-8464.147,875.998),cellId=nil},
     {coords=util.vector3(1850.784,38406.074,2897.7837),cellId=nil},
+    {coords=util.vector3(148556.2,39971.215,1411.667),cellId=nil},
+    {coords=util.vector3(13049.6,-100383.13,1760.667),cellId=nil},
     {coords=util.vector3(-358.29526,-66.57581,125.813),cellId="Tel Mora, Berwen: Trader"},
+    {coords=util.vector3(148188.25,31820.496,737.922),cellId=nil},
     {coords=util.vector3(-1216.0,-2064.0,288.0),cellId="Nchuleftingth, Test of Pattern"},
-    {coords=util.vector3(-11532.91,56248.59,2684.665),cellId="Ald-ruhn"},
+    {coords=util.vector3(25696.893,-88849.81,-251.04164),cellId=nil},
     {coords=util.vector3(144.98372,3.8135428,236.61699),cellId="Sadrith Mora, Madran Ulvel's House"},
     {coords=util.vector3(2666.252,-609.7848,-171.12164),cellId="Vivec, Arena Canalworks"},
-    {coords=util.vector3(-16376.031,-14447.433,325.714),cellId="Balmora"},
+    {coords=util.vector3(32344.5,-79385.07,1887.084),cellId=nil},
     {coords=util.vector3(6137.938,550.8951,-114.31003),cellId="Vivec, Foreign Quarter Underworks"},
     {coords=util.vector3(6480.0,1088.0,96.0),cellId="Vivec, Hlaalu Underworks"},
-    {coords=util.vector3(64424.0,186752.0,168.0),cellId="Dagon Fel"},
     {coords=util.vector3(5312.0,4736.0,18048.0),cellId="Vivec, Arena Waistworks"},
-    {coords=util.vector3(-20769.46,102488.71,2078.926),cellId="Maar Gan"},
     {coords=util.vector3(-6851.53,26517.014,1591.089),cellId=nil},
-    {coords=util.vector3(39031.27,-86262.92,1887.3419),cellId="Vivec, Arena"},
     {coords=util.vector3(4864.0,-640.0,-256.0),cellId="Vivec, No Name Club"},
+    {coords=util.vector3(18640.0,-53056.0,744.0),cellId=nil},
     {coords=util.vector3(1920.0,-194.0,480.0),cellId="Massama Cave"},
     {coords=util.vector3(256.0,256.0,-130.05763),cellId="Vivec, Tervur Braven: Trader"},
     {coords=util.vector3(-65.640625,805.3823,-328.87555),cellId="Valenvaryon, Lurog's Hut"},
     {coords=util.vector3(1216.367,-380.142,-640.0),cellId="Vivec, High Fane"},
+    {coords=util.vector3(-26771.402,-11306.425,1123.426),cellId=nil},
     {coords=util.vector3(8.0,-32.0,88.0),cellId="Dagoth Ur, Inner Facility"},
     {coords=util.vector3(-18.211296,68.175156,84.91977),cellId="Suran, Garothmuk gro-Muzgub: Smith"},
     {coords=util.vector3(35.847,363.131,-154.122),cellId="Valenvaryon, Gashna's Hut"},
-    {coords=util.vector3(31738.707,-97714.695,670.388),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(5308.3735,5377.6523,14880.561),cellId="Tel Vos, Southern Tower"},
     {coords=util.vector3(1728.0,1024.0,80.0),cellId="Vivec, St. Delyn Underworks"},
     {coords=util.vector3(-29.565,-385.17,56.528423),cellId="Abandoned Shipwreck, Cabin"},
@@ -3359,14 +3352,16 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1754.929,-252.065,480.301),cellId="Massama Cave"},
     {coords=util.vector3(383.2303,3588.5295,-669.7114),cellId="Ald-ruhn, Venim Manor Right Wing"},
     {coords=util.vector3(4355.851,5503.2417,11926.036),cellId="Vivec, Telvanni Tower"},
+    {coords=util.vector3(-9530.411,53736.74,2441.9675),cellId=nil},
+    {coords=util.vector3(-14776.054,42958.402,3531.747),cellId=nil},
     {coords=util.vector3(813.3979,1.7658728,768.0),cellId="Moonmoth Legion Fort, Prison Towers"},
     {coords=util.vector3(-23876.717,-11809.345,1334.004),cellId=nil},
     {coords=util.vector3(-4026.092,-383.35,-226.967),cellId="Odibaal"},
     {coords=util.vector3(-280.0,512.0,16.0),cellId="Ald-ruhn, Redoran Council Entrance"},
+    {coords=util.vector3(27335.234,-93312.0,2234.0786),cellId=nil},
     {coords=util.vector3(-2.323,-11.847,89.543),cellId="Ebonheart, Imperial Chapels"},
     {coords=util.vector3(1611.8495,4072.9353,12365.355),cellId="Tel Vos, Jail"},
     {coords=util.vector3(2368.0,4224.0,13440.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
-    {coords=util.vector3(14361.879,-101082.016,1280.0),cellId="Ebonheart"},
     {coords=util.vector3(0.0,3200.0,-1040.0),cellId="Buckmoth Legion Fort, Towers"},
     {coords=util.vector3(-1338.859,2946.689,103.401),cellId="Sha-Adnius"},
     {coords=util.vector3(0.0,32.0,84.919785),cellId="Suran, Suran Slave Market"},
@@ -3374,8 +3369,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1443.258,-336.157,84.231),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(-16.0,6560.0,256.0),cellId="Kushtashpi, Shrine"},
     {coords=util.vector3(157339.89,51047.43,831.56683),cellId=nil},
-    {coords=util.vector3(-21445.559,104512.086,2264.274),cellId="Maar Gan"},
     {coords=util.vector3(233.95956,-438.3396,-32.0),cellId="Vivec, St. Olms Tailors and Dyers Hall"},
+    {coords=util.vector3(-11748.717,-70101.55,333.711),cellId=nil},
     {coords=util.vector3(26505.42,-87552.33,1890.0975),cellId=nil},
     {coords=util.vector3(3905.5469,4697.743,444.66095),cellId="Prelude Shipwreck, Upper Level"},
     {coords=util.vector3(3996.634,4315.617,601.784),cellId="Sadrith Mora, Gateway Inn"},
@@ -3383,19 +3378,20 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(64.0,320.0,-256.0),cellId="Vivec, Guild of Mages"},
     {coords=util.vector3(310.395,149.096,108.067),cellId="Dagon Fel, Greidil Half-Troll's House"},
     {coords=util.vector3(4095.465,2723.117,14569.936),cellId="Maelkashishi, Shrine"},
+    {coords=util.vector3(-21619.682,-12081.488,634.2378),cellId=nil},
     {coords=util.vector3(-86175.31,112676.31,2073.969),cellId=nil},
     {coords=util.vector3(507.925,4927.938,-1152.0),cellId="Odirniran"},
     {coords=util.vector3(-67257.47,58474.57,1792.7423),cellId=nil},
     {coords=util.vector3(448.0,-256.0,-256.0),cellId="Gro-Bagrat Plantation"},
+    {coords=util.vector3(22958.014,-55734.285,1097.232),cellId=nil},
     {coords=util.vector3(-2812.0,-1312.0,704.0),cellId="Indaren Ancestral Tomb"},
     {coords=util.vector3(-520.0,1596.0,-304.0),cellId="Bal Ur, Underground"},
+    {coords=util.vector3(1445.1534,-56119.266,1499.608),cellId=nil},
     {coords=util.vector3(95622.05,135394.97,1035.193),cellId=nil},
     {coords=util.vector3(-86311.43,112704.13,2074.376),cellId=nil},
+    {coords=util.vector3(-84914.11,126481.195,987.893),cellId=nil},
     {coords=util.vector3(-85721.65,95188.71,1088.0),cellId=nil},
-    {coords=util.vector3(54635.926,-50157.32,575.49),cellId="Suran"},
     {coords=util.vector3(3767.632,4505.052,-695.3215),cellId="Lonesome Shipwreck, Upper Level"},
-    {coords=util.vector3(-22146.146,-8306.55,870.761),cellId="Balmora"},
-    {coords=util.vector3(105586.586,-75371.96,1043.7963),cellId="Zaintiraris"},
     {coords=util.vector3(-320.0,768.0,-1072.0),cellId="Falensarano, Lower Level"},
     {coords=util.vector3(128.0,0.0,-256.0),cellId="Gnisis, Man-llu Hut"},
     {coords=util.vector3(67499.0,175256.0,832.0),cellId=nil},
@@ -3410,7 +3406,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(56224.0,-51392.0,641.01666),cellId=nil},
     {coords=util.vector3(4211.187,3742.923,-601.238),cellId="Lonesome Shipwreck, Lower Level"},
     {coords=util.vector3(-124.844,-53784.953,591.416),cellId=nil},
-    {coords=util.vector3(77117.336,-54004.043,1417.639),cellId="Telasero"},
+    {coords=util.vector3(-87490.63,127342.04,519.58),cellId=nil},
+    {coords=util.vector3(-9977.932,-72344.32,247.993),cellId=nil},
     {coords=util.vector3(46071.145,135956.88,236.5483),cellId=nil},
     {coords=util.vector3(1088.0,5696.0,-671.80023),cellId="Abebaal Egg Mine"},
     {coords=util.vector3(3838.634,173031.28,24.404476),cellId=nil},
@@ -3418,7 +3415,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4055.312,4258.329,14385.305),cellId="Hla Oad, Fatleg's Drop Off"},
     {coords=util.vector3(1656.0,316.0,1952.0),cellId="Dulo Ancestral Tomb"},
     {coords=util.vector3(-1153.406,3760.584,352.0),cellId="Panat"},
+    {coords=util.vector3(-5136.881,153280.05,2385.348),cellId=nil},
     {coords=util.vector3(-58375.227,87691.38,1162.48),cellId=nil},
+    {coords=util.vector3(126257.16,46799.492,904.07),cellId=nil},
     {coords=util.vector3(6625.3286,3331.4556,13539.2),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(-608.0,2048.0005,-160.0),cellId="Ald-ruhn, Venim Manor Entrance"},
     {coords=util.vector3(107833.805,11652.311,1053.5536),cellId=nil},
@@ -3428,35 +3427,34 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(146422.86,35310.098,880.0239),cellId=nil},
     {coords=util.vector3(4.001,-0.377,-1.439),cellId="Aharasaplit Camp, Zallay's Yurt"},
     {coords=util.vector3(-10.505005,6207.849,353.53796),cellId="Kushtashpi, Shrine"},
-    {coords=util.vector3(144205.36,35905.082,899.099),cellId="Sadrith Mora"},
     {coords=util.vector3(3456.0,4800.0,14336.0),cellId="Vivec, Foreign Quarter Upper Waistworks"},
+    {coords=util.vector3(39961.535,-95292.805,-247.16382),cellId=nil},
     {coords=util.vector3(128.0,-3232.0,832.0),cellId="Mudan, Lost Dwemer Checkpoint"},
+    {coords=util.vector3(94336.0,133344.0,896.0),cellId=nil},
+    {coords=util.vector3(129123.88,-102785.11,898.305),cellId=nil},
     {coords=util.vector3(0.0,256.0,-32.0),cellId="Vivec, St. Olms Tailors and Dyers Hall"},
     {coords=util.vector3(131.7829,-0.7276929,345.3405),cellId="Buckmoth Legion Fort, Prison"},
+    {coords=util.vector3(140951.19,39906.816,263.293),cellId=nil},
     {coords=util.vector3(-46768.887,-36959.11,374.6049),cellId=nil},
     {coords=util.vector3(40342.2,46051.957,2156.722),cellId=nil},
     {coords=util.vector3(4349.191,3436.353,-149.50262),cellId="Unexplored Shipwreck, Upper Level"},
     {coords=util.vector3(-7308.7915,52845.797,2450.0),cellId=nil},
     {coords=util.vector3(-24.533,418.871,-169.336),cellId="Zainab Camp, Patababi's Yurt"},
     {coords=util.vector3(152608.31,38222.695,1009.7123),cellId=nil},
+    {coords=util.vector3(52379.586,-48943.812,922.109),cellId=nil},
     {coords=util.vector3(112689.35,78721.92,797.871),cellId=nil},
     {coords=util.vector3(-352.0,-1344.0,-1312.0),cellId="Shulk Egg Mine"},
     {coords=util.vector3(512.97003,499.98163,340.9198),cellId="Suran, Suran Tradehouse"},
-    {coords=util.vector3(-35528.246,78465.0,1804.263),cellId="Bal Isra"},
     {coords=util.vector3(-1888.0,320.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(224.0,512.0,-256.0),cellId="Vivec, Arena Hidden Area"},
     {coords=util.vector3(1008.7399,506.1835,-797.17236),cellId="Buckmoth Legion Fort, Towers"},
-    {coords=util.vector3(21551.139,-86838.88,1881.8394),cellId="Vivec, Hlaalu"},
     {coords=util.vector3(11598.851,5355.6836,14305.778),cellId="Hla Oad, Fatleg's Drop Off"},
     {coords=util.vector3(928.0,-1068.0,96.0),cellId="Lleran Ancestral Tomb"},
     {coords=util.vector3(-608.0,-1024.0,-288.0),cellId="Ald-ruhn, Redoran Council Hall"},
-    {coords=util.vector3(-17148.396,52087.918,2862.096),cellId="Ald-ruhn"},
     {coords=util.vector3(4210.081,4341.026,-183.929),cellId="Deserted Shipwreck, Cabin"},
     {coords=util.vector3(-576.0,512.0,-128.0),cellId="Vivec, The Flowers of Gold"},
-    {coords=util.vector3(-36779.562,152006.3,714.20074),cellId="Ashurnabitashpi"},
     {coords=util.vector3(18.449,17.067,100.167),cellId="Balmora, Nerano Manor"},
     {coords=util.vector3(-88603.04,96815.586,2015.659),cellId=nil},
-    {coords=util.vector3(44106.918,-81869.76,1887.342),cellId="Vivec"},
     {coords=util.vector3(-2176.0,1792.0,992.0),cellId="Maar Gan, Shrine"},
     {coords=util.vector3(-5891.31,-17407.902,1701.4895),cellId=nil},
     {coords=util.vector3(126267.41,45966.15,3299.887),cellId=nil},
@@ -3467,11 +3465,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(133142.08,-68766.89,960.443),cellId=nil},
     {coords=util.vector3(54502.18,-50155.445,565.688),cellId=nil},
     {coords=util.vector3(4168.2944,4035.309,2386.2136),cellId="Hla Oad, Murudius Flaeus's House"},
-    {coords=util.vector3(110240.43,-5025.456,653.59515),cellId="Erabenimsun Camp"},
     {coords=util.vector3(-640.0,-667.3713,-256.74686),cellId="Vivec, Redoran Canalworks"},
     {coords=util.vector3(-0.31135213,-3.1004837,-29.611813),cellId="Vivec, Hlaalu Ancestral Vaults"},
     {coords=util.vector3(2944.0,-320.0,256.0),cellId="Vivec, Redoran Canalworks"},
-    {coords=util.vector3(148973.39,36089.582,3452.3108),cellId="Sadrith Mora"},
     {coords=util.vector3(-12353.0,57603.0,2680.0),cellId=nil},
     {coords=util.vector3(-2.926,5438.042,-166.442),cellId="Zergonipal, Shrine"},
     {coords=util.vector3(-2112.0,3840.0,-32.0),cellId="Vassamsi Grotto"},
@@ -3479,21 +3475,19 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(18473.879,-103002.016,560.0),cellId=nil},
     {coords=util.vector3(731.95935,613.28284,650.99286),cellId="Tel Mora, Lower Tower"},
     {coords=util.vector3(110187.555,91035.77,440.78),cellId=nil},
-    {coords=util.vector3(-21619.682,-12081.488,634.2378),cellId="Balmora"},
     {coords=util.vector3(0.0,-144.0,16.0),cellId="Ald-ruhn, Cienne Sintieve: Alchemist"},
     {coords=util.vector3(896.001,-448.0,-256.0),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(528.0,2544.0,352.0),cellId="Ebonheart, Hawkmoth Legion Garrison"},
     {coords=util.vector3(250.968,1584.735,468.605),cellId="Ularradallaku, Shrine"},
     {coords=util.vector3(64.0,128.0,-128.0),cellId="Vivec, Canon Offices"},
-    {coords=util.vector3(-76278.78,124863.45,1504.2411),cellId="Ashalmawia"},
+    {coords=util.vector3(107520.3,119064.0,1921.914),cellId=nil},
+    {coords=util.vector3(-10329.949,19960.645,1465.251),cellId=nil},
     {coords=util.vector3(-69203.305,125255.59,1377.507),cellId=nil},
-    {coords=util.vector3(87292.21,119874.37,4997.7754),cellId="Tel Vos"},
+    {coords=util.vector3(33462.14,-99823.72,1149.408),cellId=nil},
     {coords=util.vector3(-312.022,113.395,128.0),cellId="Sadrith Mora, Dirty Muriel's Cornerclub"},
     {coords=util.vector3(-576.0,7232.001,-543.9514),cellId="Ahanibi-Malmus Egg Mine"},
     {coords=util.vector3(538.0,-2110.0,-382.0),cellId="Ministry of Truth, Prison Keep"},
-    {coords=util.vector3(28159.8,-91338.87,1887.342),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(688.0,-1760.0,584.0),cellId="Assu"},
-    {coords=util.vector3(-12611.152,41635.707,3016.4175),cellId="Buckmoth Legion Fort"},
     {coords=util.vector3(61148.875,67769.63,1494.6096),cellId=nil},
     {coords=util.vector3(-1.4157133,-130.36021,64.0),cellId="Salit Camp, Zalit's Yurt"},
     {coords=util.vector3(-52920.086,104260.5,1277.636),cellId=nil},
@@ -3510,14 +3504,14 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3840.0,4096.0,13824.0),cellId="Ald-ruhn, Ienas Sarandas's House"},
     {coords=util.vector3(4240.0,-1018.0,342.0),cellId="Ilunibi, Tainted Marrow"},
     {coords=util.vector3(27237.213,-19547.307,1137.242),cellId=nil},
+    {coords=util.vector3(42049.11,-84348.33,1887.342),cellId=nil},
     {coords=util.vector3(4402.715,4243.755,14694.533),cellId="Gnaar Mok, Nadene Rotheran's Shack"},
     {coords=util.vector3(1156.6875,494.15625,322.9264),cellId="Vivec, Foreign Quarter Plaza"},
-    {coords=util.vector3(33308.938,-77937.58,-247.164),cellId="Vivec, Foreign Quarter"},
     {coords=util.vector3(2007.7921,8143.234,-95.161),cellId="Vivec, Redoran Underworks"},
     {coords=util.vector3(-573.872,-263.976,80.0),cellId="Tureynulal, Kagrenac's Library"},
     {coords=util.vector3(3200.29,-254.815,341.325),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(256.0,4512.0,-776.0),cellId="Assalkushalit, Shrine"},
-    {coords=util.vector3(-88391.99,92366.195,1115.7612),cellId="Gnisis"},
+    {coords=util.vector3(-12680.136,19568.873,1631.0596),cellId=nil},
     {coords=util.vector3(18327.004,-54171.664,734.5863),cellId=nil},
     {coords=util.vector3(56.665665,-220.69098,128.0),cellId="Balmora, Drarayne Thelas' House"},
     {coords=util.vector3(1529.1992,-695.41406,-1794.592),cellId="Vivec, St. Olms Plaza"},
@@ -3536,6 +3530,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4096.0,-3456.0,672.0),cellId="Molag Mar, Underworks"},
     {coords=util.vector3(4863.978,3063.013,14736.0),cellId="Tel Vos, Northeastern Tower"},
     {coords=util.vector3(17769.879,-101194.016,560.0),cellId=nil},
+    {coords=util.vector3(87398.27,119976.27,5291.3745),cellId=nil},
     {coords=util.vector3(3608.8027,2132.5662,178.55031),cellId="Vivec, Puzzle Canal, Level 3"},
     {coords=util.vector3(-351.48816,284.2935,-208.00627),cellId="Vivec, Redoran Treasury"},
     {coords=util.vector3(-109.738,-261.723,128.0),cellId="Balmora, Eight Plates"},
@@ -3548,47 +3543,49 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-47.62202,255.50752,93.14944),cellId="Pelagiad, Junal-lei's House"},
     {coords=util.vector3(77.167,-428.028,39.982),cellId="Falvilo's Endeavor, Upper Level"},
     {coords=util.vector3(93.55104,380.58948,-174.485),cellId="Erabenimsun Camp, Ashu-Ahhe's Yurt"},
-    {coords=util.vector3(71170.87,-74445.695,371.64578),cellId="Mzahnch Ruin"},
     {coords=util.vector3(-2048.0,-112.0,-288.0),cellId="Ald-ruhn, Arobar Guard Quarters"},
     {coords=util.vector3(3848.65,5832.829,13904.0),cellId="Maelkashishi, Shrine"},
     {coords=util.vector3(-1392.302,740.39,-538.272),cellId="Vivec, High Fane"},
+    {coords=util.vector3(54116.582,175796.1,1328.0038),cellId=nil},
     {coords=util.vector3(257.259,-11.22,-32.346),cellId="Vivec, Telvanni Sorcerer"},
     {coords=util.vector3(225.44548,108.37195,-1152.0),cellId="Shishi"},
-    {coords=util.vector3(-13538.228,-71932.914,161.339),cellId="Seyda Neen"},
+    {coords=util.vector3(-22459.264,105505.836,2263.746),cellId=nil},
+    {coords=util.vector3(-10582.168,-70725.47,356.903),cellId=nil},
     {coords=util.vector3(35967.992,128960.0,963.64453),cellId=nil},
     {coords=util.vector3(97574.375,-19166.139,1283.2592),cellId=nil},
-    {coords=util.vector3(152351.36,38789.523,1407.242),cellId="Sadrith Mora"},
-    {coords=util.vector3(32862.605,-107009.16,2051.632),cellId="Vivec, Temple"},
-    {coords=util.vector3(-67972.75,139669.19,203.993),cellId="Khuul"},
+    {coords=util.vector3(6662.359,-54648.47,2841.487),cellId=nil},
     {coords=util.vector3(-23866.38,-13153.119,2048.6838),cellId=nil},
     {coords=util.vector3(-2175.702,192.978,-288.0),cellId="Assemanu"},
     {coords=util.vector3(116.646,-2536.75,-365.762),cellId="Ministry of Truth, Prison Keep"},
     {coords=util.vector3(3040.0,3104.0,12128.0),cellId="Shulk Egg Mine, Mining Camp"},
     {coords=util.vector3(320.0,128.0,384.0),cellId="Balmora, South Wall Cornerclub"},
+    {coords=util.vector3(77533.37,85867.125,938.565),cellId=nil},
     {coords=util.vector3(4349.724,3727.9714,255.572),cellId="Derelict Shipwreck, Upper Level"},
-    {coords=util.vector3(3591.4185,-56790.58,1703.4539),cellId="Pelagiad"},
     {coords=util.vector3(-128.0,256.0,0.0),cellId="Pelagiad, Junal-lei's House"},
     {coords=util.vector3(-20132.162,11711.239,1258.768),cellId=nil},
     {coords=util.vector3(19432.0,70400.0,11880.0),cellId=nil},
     {coords=util.vector3(4096.0,4224.0,14272.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(-123.07575,-264.61307,-158.38258),cellId="Fair Helas, Cabin"},
     {coords=util.vector3(29083.139,-91798.055,1886.156),cellId=nil},
+    {coords=util.vector3(-36779.562,152006.3,714.20074),cellId=nil},
     {coords=util.vector3(147628.61,33924.598,841.108),cellId=nil},
     {coords=util.vector3(695.5236,133.0444,-936.0),cellId="Pinsun"},
-    {coords=util.vector3(149527.31,32305.79,889.325),cellId="Wolverine Hall"},
+    {coords=util.vector3(-18080.691,-14840.155,321.07),cellId=nil},
     {coords=util.vector3(640.0,832.0,-640.0),cellId="Ibishammus, Shrine"},
-    {coords=util.vector3(-48035.36,-38699.7,301.15738),cellId="Hla Oad"},
-    {coords=util.vector3(9533.879,-100762.016,2124.0),cellId="Ebonheart"},
+    {coords=util.vector3(85592.0,117312.0,4303.227),cellId=nil},
     {coords=util.vector3(8936.84,188669.33,156.5498),cellId=nil},
     {coords=util.vector3(33504.0,-106600.0,1728.39),cellId=nil},
     {coords=util.vector3(1173.0703,-391.40994,272.00006),cellId="Seyda Neen, Census and Excise Office"},
     {coords=util.vector3(4252.271,4112.695,-773.40186),cellId="Obscure Shipwreck, Cabin"},
+    {coords=util.vector3(-10289.647,22497.963,2160.026),cellId=nil},
+    {coords=util.vector3(-21718.23,-15501.866,913.987),cellId=nil},
     {coords=util.vector3(261.943,-373.277,-419.835),cellId="Pelagiad, Guard Tower"},
     {coords=util.vector3(384.0,0.0,-161.871),cellId="Asha-Ahhe Egg Mine"},
-    {coords=util.vector3(147533.17,39900.098,1057.28),cellId="Sadrith Mora"},
+    {coords=util.vector3(-12493.858,44616.48,3189.669),cellId=nil},
     {coords=util.vector3(-36144.0,134272.0,1552.0),cellId=nil},
     {coords=util.vector3(-2301.197,927.16,288.026),cellId="Helas Ancestral Tomb"},
     {coords=util.vector3(146310.5,37057.516,796.9441),cellId=nil},
+    {coords=util.vector3(108168.83,-62521.797,1885.849),cellId=nil},
     {coords=util.vector3(-263.4581,4347.5854,-1069.4586),cellId="Hanud, Tower"},
     {coords=util.vector3(389.2,3303.319,-1776.0),cellId="Marandus, Upper Level"},
     {coords=util.vector3(103754.13,21386.307,892.6993),cellId=nil},
@@ -3597,11 +3594,11 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(110720.875,-72580.08,1114.336),cellId=nil},
     {coords=util.vector3(5568.0,4928.0,12928.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(0.0,128.0,96.0),cellId="Ebonheart, Imperial Chapels"},
-    {coords=util.vector3(-87801.24,92927.53,1087.4274),cellId="Gnisis"},
     {coords=util.vector3(27592.05,-80326.75,3098.019),cellId=nil},
     {coords=util.vector3(1344.0,-224.0,96.0),cellId="Nchuleftingth, Upper Levels"},
     {coords=util.vector3(-20.288,582.607,-189.148),cellId="Ahemmusa Camp, Wise Woman's Yurt"},
     {coords=util.vector3(4701.3213,6176.3174,1626.2284),cellId="Urshilaku, Laterus Burial"},
+    {coords=util.vector3(60254.992,182066.92,560.659),cellId=nil},
     {coords=util.vector3(503.78802,473.00687,-13.377),cellId="Caldera, Irgola: Pawnbroker"},
     {coords=util.vector3(4024.54,173029.34,178.093),cellId=nil},
     {coords=util.vector3(1536.0,2928.0,352.0),cellId="Ebonheart, Hawkmoth Legion Garrison"},
@@ -3610,9 +3607,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3056.0,-2080.0,-544.0),cellId="Redas Ancestral Tomb"},
     {coords=util.vector3(-60.97385,763.99023,-31.998732),cellId="Buckmoth Legion Fort, Interior"},
     {coords=util.vector3(3976.3708,4172.9775,15425.029),cellId="Unchartered Shipwreck, Cabin"},
-    {coords=util.vector3(-13216.289,56720.344,2652.961),cellId="Ald-ruhn"},
-    {coords=util.vector3(-18898.33,102550.12,2393.115),cellId="Maar Gan"},
+    {coords=util.vector3(-86682.39,129029.65,179.038),cellId=nil},
     {coords=util.vector3(156936.11,-20370.176,480.16403),cellId=nil},
+    {coords=util.vector3(54878.875,-51721.016,590.281),cellId=nil},
     {coords=util.vector3(4864.945,1558.818,-646.334),cellId="Dubdilla, Uncharted Caverns, Lower"},
     {coords=util.vector3(-64.0,-384.0,-128.0),cellId="Vivec, St. Olms Brewers and Fishmongers Hall"},
     {coords=util.vector3(-176.0,4096.0,-32.0),cellId="Vivec, Hall of Justice"},
@@ -3623,25 +3620,22 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-384.0,512.0,256.0),cellId="Suran, Ranosa Gilvayn: Outfitter"},
     {coords=util.vector3(5056.0,4928.0,12928.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(384.0,-408.0,384.0),cellId="Hlormaren, Dome"},
-    {coords=util.vector3(103954.66,38081.156,515.417),cellId="Yansirramus"},
     {coords=util.vector3(-516.01697,523.27216,-1582.7827),cellId="Pelagiad, North Wall"},
-    {coords=util.vector3(95609.77,134931.22,1055.14),cellId="Ahemmusa Camp"},
     {coords=util.vector3(25097.879,169848.12,656.48),cellId=nil},
+    {coords=util.vector3(-2390.137,153627.58,2385.348),cellId=nil},
     {coords=util.vector3(445.74,-48.896,-3.379),cellId="Arvel Manor, Slavemaster's Shack"},
     {coords=util.vector3(384.0,-576.0,-128.0),cellId="Vivec, St. Olms Tailors and Dyers Hall"},
     {coords=util.vector3(-2814.785,-1215.757,222.942),cellId="Dissapla Mine"},
     {coords=util.vector3(1669.0,5610.0,-595.0),cellId="Hlormaren, Keep, Bottom Level"},
     {coords=util.vector3(3714.646,4156.748,13928.096),cellId="Mount Kand, Cavern"},
-    {coords=util.vector3(87765.664,10858.964,2355.256),cellId="Uvirith's Grave"},
     {coords=util.vector3(76899.83,53324.58,1678.0),cellId=nil},
-    {coords=util.vector3(36500.664,-95573.96,671.08813),cellId="Vivec, St. Olms"},
     {coords=util.vector3(-672.0,1444.0,-32.0),cellId="Arethan Ancestral Tomb"},
     {coords=util.vector3(-128.0,-448.0,-128.0),cellId="Vivec, Arena Storage"},
     {coords=util.vector3(-32.0,2045.9044,220.10548),cellId="Vivec, Hlaalu Plaza"},
-    {coords=util.vector3(-11853.481,53648.227,2453.611),cellId="Ald-ruhn"},
     {coords=util.vector3(1085.0967,10.895534,208.2675),cellId="Pelagiad, Fort Pelagiad"},
-    {coords=util.vector3(53472.42,-51823.773,572.0614),cellId="Suran"},
+    {coords=util.vector3(27333.3,-86912.0,2234.282),cellId=nil},
     {coords=util.vector3(12800.0,-4064.0,-592.69775),cellId="Arys Ancestral Tomb"},
+    {coords=util.vector3(-11917.43,20520.543,1565.6061),cellId=nil},
     {coords=util.vector3(384.0,0.0,96.0),cellId="Sadrith Mora, Rolis Garvon's House"},
     {coords=util.vector3(2944.0,-320.0,256.0),cellId="Vivec, Hlaalu Canalworks"},
     {coords=util.vector3(-1600.0,3072.0,320.0),cellId="Arkngthand, Hall of Centrifuge"},
@@ -3656,10 +3650,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-50029.133,-46231.348,219.81851),cellId=nil},
     {coords=util.vector3(-61244.152,27804.703,472.657),cellId=nil},
     {coords=util.vector3(5063.3916,4624.589,-797.633),cellId="Lonely Shipwreck, Lower Level"},
-    {coords=util.vector3(149536.0,29040.0,1216.0),cellId="Wolverine Hall"},
     {coords=util.vector3(135.94795,-248.46414,-162.1969),cellId="Gnisis, Dinadad Hut"},
-    {coords=util.vector3(20821.664,-84353.01,1881.5862),cellId="Vivec, Hlaalu"},
-    {coords=util.vector3(2829.198,-56959.97,1644.049),cellId="Pelagiad"},
     {coords=util.vector3(-449.67102,-791.0506,-29.764133),cellId="Vivec, Justice Offices"},
     {coords=util.vector3(168.0,8.0,240.0),cellId="Tel Aruhn, Aryne Telnim: Smith"},
     {coords=util.vector3(-2071.0217,-179.8422,480.0),cellId="Ebonheart, Hawkmoth Towers"},
@@ -3668,12 +3659,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-640.0,1344.0,-160.0),cellId="Zalkin Grotto"},
     {coords=util.vector3(0.0,3360.0,-520.0),cellId="Kaushtarari, Shrine"},
     {coords=util.vector3(-23298.809,10474.875,1356.873),cellId=nil},
+    {coords=util.vector3(126303.61,46040.266,3788.799),cellId=nil},
     {coords=util.vector3(496.0,0.0,80.0),cellId="Buckmoth Legion Fort, Prison"},
     {coords=util.vector3(-7.118,-240.603,-35.519),cellId="Ald-ruhn, Gildan's House"},
     {coords=util.vector3(3.982,1006.018,-30.187),cellId="Sadrith Mora, Tel Naga Great Hall"},
-    {coords=util.vector3(-12890.605,-70649.516,112.48),cellId="Seyda Neen"},
+    {coords=util.vector3(-17987.633,-16223.871,346.037),cellId=nil},
     {coords=util.vector3(-1568.0,2688.0,320.0),cellId="Arkngthand, Hall of Centrifuge"},
-    {coords=util.vector3(15010.02,-100910.266,1317.676),cellId="Ebonheart"},
     {coords=util.vector3(33760.0,-106120.0,1344.3895),cellId=nil},
     {coords=util.vector3(-103.434,-205.051,225.735),cellId="Caldera, Hodlismod: Armorer"},
     {coords=util.vector3(84834.33,-3821.1536,711.501),cellId=nil},
@@ -3685,6 +3676,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2400.0,3232.0,-801.871),cellId="Missir-Dadalit Egg Mine"},
     {coords=util.vector3(2109.973,-6194.722,2046.8884),cellId="Omaren Ancestral Tomb"},
     {coords=util.vector3(-6.97,-136.838,109.203),cellId="Pelagiad, Adanja's House"},
+    {coords=util.vector3(34008.6,-105763.125,947.21564),cellId=nil},
     {coords=util.vector3(-183.0,896.0,1827.0),cellId="Akulakhan's Chamber"},
     {coords=util.vector3(9169.706,188107.64,328.207),cellId=nil},
     {coords=util.vector3(3754.9414,-274.55444,32.0),cellId="Ebonheart, Hawkmoth Towers"},
@@ -3693,17 +3685,18 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(53183.797,140715.81,-72.63729),cellId=nil},
     {coords=util.vector3(66529.62,-83546.695,616.043),cellId=nil},
     {coords=util.vector3(2176.0,5184.0,14848.0),cellId="Vivec, Foreign Quarter Upper Waistworks"},
+    {coords=util.vector3(53671.316,-56190.55,1584.052),cellId=nil},
     {coords=util.vector3(-5.838,601.435,-52.024536),cellId="Elf-Skerring, Upper Level"},
+    {coords=util.vector3(-16613.508,-15756.802,323.483),cellId=nil},
     {coords=util.vector3(4037.8516,4000.44,8232.322),cellId="Hla Oad, Fadila Balvel's House"},
     {coords=util.vector3(-14951.956,-14824.306,865.558),cellId=nil},
     {coords=util.vector3(1184.5953,-732.53094,304.0019),cellId="Seyda Neen, Census and Excise Office"},
     {coords=util.vector3(3005.118,3262.625,-542.174),cellId="Panud Egg Mine"},
-    {coords=util.vector3(-21718.23,-15501.866,913.987),cellId="Balmora"},
-    {coords=util.vector3(-19265.26,102170.4,3367.92),cellId="Maar Gan"},
     {coords=util.vector3(-12308.017,135209.23,696.0385),cellId=nil},
     {coords=util.vector3(-2563.1414,1830.7341,-64.0),cellId="Ebonheart, East Empire South Warehouse"},
     {coords=util.vector3(4670.0825,-84.58816,-292.68408),cellId="Vivec, Telvanni Sorcerer"},
     {coords=util.vector3(4333.755,4113.264,14832.5),cellId="Tel Branora, Tower Guardpost"},
+    {coords=util.vector3(107850.734,-63767.625,581.602),cellId=nil},
     {coords=util.vector3(57.789932,-141.8496,-69.85161),cellId="Arrow, Upper Level"},
     {coords=util.vector3(-21641.436,136255.12,863.6806),cellId=nil},
     {coords=util.vector3(0.0,0.0,-32.0),cellId="Vivec, Hlaalu Treasury"},
@@ -3711,28 +3704,29 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-320.0,1152.0,384.0),cellId="Sadrith Mora, Tel Naga General Quarters"},
     {coords=util.vector3(-11344.816,53822.77,2480.5732),cellId=nil},
     {coords=util.vector3(5243.277,2771.335,13023.517),cellId="Vivec, Hall of Wisdom"},
-    {coords=util.vector3(-73636.055,39675.28,91.893),cellId="Khartag Point"},
     {coords=util.vector3(25.931,4282.229,-422.2),cellId="Esutanamus, Shrine"},
     {coords=util.vector3(959.26025,-279.7057,-47.061806),cellId="Tel Branora, Sethan's Tradehouse"},
     {coords=util.vector3(2031.9447,-6074.2583,2123.7212),cellId="Omaren Ancestral Tomb"},
     {coords=util.vector3(192.0,-112.0,0.0),cellId="Ebonheart, Six Fishes"},
+    {coords=util.vector3(20292.518,-54263.348,722.114),cellId=nil},
+    {coords=util.vector3(-25469.768,-10991.528,1378.772),cellId=nil},
     {coords=util.vector3(-1019.89044,-72.40984,-27.2568),cellId="Vivec, Hlaalu Treasury"},
     {coords=util.vector3(-639.9314,-662.7472,-257.02597),cellId="Vivec, Telvanni Canalworks"},
     {coords=util.vector3(-4.758,13.586,-47.329),cellId="Vivec, Andilu Drothan: Alchemist"},
     {coords=util.vector3(3040.0,3264.0,12128.0),cellId="Shulk Egg Mine, Mining Camp"},
     {coords=util.vector3(1059.6599,2111.519,16479.39),cellId="Tel Vos, Central Tower"},
-    {coords=util.vector3(-88280.33,127470.07,269.905),cellId="Ald Velothi"},
     {coords=util.vector3(-2060.9717,126.26415,-295.59277),cellId="Ald-ruhn, Arobar Guard Quarters"},
     {coords=util.vector3(6512.0,7072.0,208.0),cellId="Vivec, St. Olms Underworks"},
+    {coords=util.vector3(27997.762,-95570.3,671.088),cellId=nil},
     {coords=util.vector3(78268.62,80328.3,1078.081),cellId=nil},
     {coords=util.vector3(99951.945,139662.45,-116.42161),cellId=nil},
     {coords=util.vector3(896.0,960.0,-512.0),cellId="Ihinipalit, Shrine"},
     {coords=util.vector3(1206.575,-136.846,-379.162),cellId="Gnisis, Barracks"},
     {coords=util.vector3(-1284.253,2169.552,-172.56702),cellId="Onnissiralis, Shrine"},
+    {coords=util.vector3(146381.14,36489.164,943.507),cellId=nil},
     {coords=util.vector3(144.0,-352.0,0.0),cellId="Seyda Neen, Eldafire's House"},
     {coords=util.vector3(-514.14984,-175.42323,15.965),cellId="Ald-ruhn, Guild of Mages"},
     {coords=util.vector3(4543.462,3468.697,15937.81),cellId="Tel Vos, Services Tower"},
-    {coords=util.vector3(-83535.41,94139.414,1149.061),cellId="Gnisis"},
     {coords=util.vector3(2176.0,3904.0,13440.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(-128.0,4480.0,-64.0),cellId="Nchardumz"},
     {coords=util.vector3(64.0,-384.0,-128.0),cellId="Vivec, Redoran Scout & Drillmaster"},
@@ -3742,7 +3736,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(76499.46,85082.734,885.187),cellId=nil},
     {coords=util.vector3(-576.0,-768.0,128.0),cellId="Ald-ruhn, Venim Manor Bedrooms"},
     {coords=util.vector3(-15436.997,-15478.737,571.459),cellId=nil},
-    {coords=util.vector3(6323.825,-56462.266,2777.124),cellId="Pelagiad"},
     {coords=util.vector3(-30.975,3155.781,-152.763),cellId="Ald-ruhn, Venim Manor Entrance"},
     {coords=util.vector3(43932.97,44689.832,2406.4414),cellId=nil},
     {coords=util.vector3(256.0,-3456.0,128.0),cellId="Ald-ruhn, Llethri Manor Entrance"},
@@ -3755,7 +3748,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-60053.938,27022.174,300.78976),cellId=nil},
     {coords=util.vector3(-1920.0,64.0,-960.0),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(-64.0,128.0,-128.0),cellId="Vivec, Arena Holding Cells"},
-    {coords=util.vector3(58890.344,182440.22,429.558),cellId="Dagon Fel"},
+    {coords=util.vector3(149536.0,29040.0,1216.0),cellId=nil},
     {coords=util.vector3(-3259.472,1022.517,744.761),cellId="Saturan"},
     {coords=util.vector3(-32939.758,50308.902,1166.225),cellId=nil},
     {coords=util.vector3(2944.0,576.0,-256.0),cellId="Vivec, Foreign Quarter Canalworks"},
@@ -3766,14 +3759,14 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-2043.1138,1144.03,-683.5752),cellId="Sinarralit Egg Mine"},
     {coords=util.vector3(4096.0,3712.0,15552.0),cellId="Vivec, St. Delyn Glassworker's Hall"},
     {coords=util.vector3(181.87451,-104.8879,95.78867),cellId="Arano Plantation"},
-    {coords=util.vector3(60514.54,180597.73,683.787),cellId="Dagon Fel"},
     {coords=util.vector3(637.1637,2465.9614,-432.00006),cellId="Shashpilamat"},
     {coords=util.vector3(-458.96194,-862.3632,-1741.2046),cellId="Vivec, St. Delyn Plaza"},
     {coords=util.vector3(29616.377,-45406.914,883.276),cellId=nil},
+    {coords=util.vector3(107929.484,118783.57,2884.218),cellId=nil},
     {coords=util.vector3(48.0,-256.0,128.0),cellId="Ebonheart, East Empire North Warehouse"},
+    {coords=util.vector3(34056.258,-92671.12,1887.3419),cellId=nil},
     {coords=util.vector3(507.96,831.947,-512.0),cellId="Assernerairan, Shrine"},
-    {coords=util.vector3(109074.09,118650.51,597.5678),cellId="Tel Mora"},
-    {coords=util.vector3(-17987.633,-16223.871,346.037),cellId="Balmora"},
+    {coords=util.vector3(89102.2,9077.841,2071.862),cellId=nil},
     {coords=util.vector3(6016.0,3520.0,14848.0),cellId="Vivec, Foreign Quarter Upper Waistworks"},
     {coords=util.vector3(-159.99979,4992.0,1024.0),cellId="Arkngthand, Deep Ore Passage"},
     {coords=util.vector3(-833.583,3583.655,-800.0),cellId="Assemanu"},
@@ -3782,34 +3775,37 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4100.961,3943.492,15352.184),cellId="Khuul, Endris Dilmyn's Shack"},
     {coords=util.vector3(-123.639,-356.465,-113.887),cellId="Grytewake, Cabin"},
     {coords=util.vector3(828.0,-704.0,32.0),cellId="Sadryon Ancestral Tomb"},
+    {coords=util.vector3(22893.463,-86838.88,1882.1614),cellId=nil},
     {coords=util.vector3(-128.0,0.0,128.0),cellId="Balmora, Meldor: Armorer"},
     {coords=util.vector3(64.0,2624.0,-2240.0),cellId="Andasreth, Lower Level"},
+    {coords=util.vector3(86592.0,117728.0,5117.068),cellId=nil},
     {coords=util.vector3(155.84,-135.188,-45.209),cellId="Erabenimsun Camp, Ranabi's Yurt"},
+    {coords=util.vector3(-16611.91,52099.41,1891.47),cellId=nil},
     {coords=util.vector3(22.481,243.277,357.406),cellId="Balmora, Nalcarya of White Haven: Fine Alchemist"},
     {coords=util.vector3(1934.0004,-1558.922,1774.5549),cellId="Uveran Ancestral Tomb"},
     {coords=util.vector3(4145.134,4629.487,14472.265),cellId="Hla Oad, Fatleg's Drop Off"},
     {coords=util.vector3(-751.89844,-1019.08966,-39.707962),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(3933.032,3929.22,14817.176),cellId="Gnaar Mok, Rostlogi's Shack"},
     {coords=util.vector3(162.084,-343.631,3.566),cellId="Caldera, Bashuk gra-Bat's House"},
+    {coords=util.vector3(159105.84,-30298.326,2077.239),cellId=nil},
     {coords=util.vector3(4165.372,4102.091,15204.203),cellId="Khuul, Aldi's Shack"},
-    {coords=util.vector3(-16613.508,-15756.802,323.483),cellId="Balmora"},
     {coords=util.vector3(3746.0,8650.0,860.0),cellId="Ilunibi, Tainted Marrow"},
-    {coords=util.vector3(-26992.39,151767.92,834.35724),cellId="Urshilaku Camp"},
     {coords=util.vector3(109515.83,-2948.3674,632.57117),cellId=nil},
     {coords=util.vector3(142747.0,-30990.875,639.6663),cellId=nil},
     {coords=util.vector3(19979.95,-103259.945,243.484),cellId=nil},
+    {coords=util.vector3(5254.308,-54797.09,2577.201),cellId=nil},
     {coords=util.vector3(-106128.195,94336.305,-100.002),cellId=nil},
-    {coords=util.vector3(21818.084,-41532.45,1250.032),cellId="Arvel Plantation"},
+    {coords=util.vector3(-68839.82,139958.84,170.211),cellId=nil},
     {coords=util.vector3(-1308.0,-1857.0182,1664.0),cellId="Norvayn Ancestral Tomb"},
     {coords=util.vector3(126462.32,-102880.29,1217.143),cellId=nil},
     {coords=util.vector3(-640.0,-667.9969,-257.3757),cellId="Vivec, Hlaalu Canalworks"},
     {coords=util.vector3(-23458.768,-14495.945,901.471),cellId=nil},
+    {coords=util.vector3(6844.2515,-64291.652,324.9184),cellId=nil},
     {coords=util.vector3(1271.0,-287.0,18.0),cellId="Ald-ruhn, Manor District"},
-    {coords=util.vector3(-10934.614,-70251.81,393.879),cellId="Seyda Neen"},
+    {coords=util.vector3(23582.064,-55880.26,1352.757),cellId=nil},
     {coords=util.vector3(-2718.7544,5215.8853,-793.16315),cellId="Sargon"},
     {coords=util.vector3(3536.0,4088.0,14008.0),cellId="Tel Branora, Upper Tower"},
     {coords=util.vector3(45837.7,-49287.02,1040.9238),cellId=nil},
-    {coords=util.vector3(-62297.84,28017.36,692.825),cellId="Gnaar Mok"},
     {coords=util.vector3(-1677.2205,97.26545,1599.8706),cellId="Vivec, Redoran Plaza"},
     {coords=util.vector3(4089.565,3777.493,15665.946),cellId="Derelict Shipwreck, Cabin"},
     {coords=util.vector3(8145.343,-265.2065,-426.82446),cellId="Vivec, St. Olms Haunted Manor"},
@@ -3820,11 +3816,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-128.0,256.0,-134.866),cellId="Pelagiad, Junal-lei's House"},
     {coords=util.vector3(199.80162,-610.25653,1584.5327),cellId="Vivec, Redoran Plaza"},
     {coords=util.vector3(6398.0,1829.0,15584.0),cellId="Ilunibi, Blackened Heart"},
-    {coords=util.vector3(-25469.768,-10991.528,1378.772),cellId="Balmora"},
     {coords=util.vector3(3071.8284,4032.0125,11744.0),cellId="Assemanu, Shrine"},
     {coords=util.vector3(1918.531,2557.449,858.904),cellId="Mallapi"},
     {coords=util.vector3(-640.0,80.0,-160.0),cellId="Vivec, Redoran Canalworks"},
-    {coords=util.vector3(34760.727,-93312.0,2235.4766),cellId="Vivec, St. Olms"},
     {coords=util.vector3(6271.999,4800.0,18304.0),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(832.0,5952.0,-1311.0245),cellId="Sinamusa Egg Mine"},
     {coords=util.vector3(157.32983,-243.94173,43.583836),cellId="Grytewake, Upper Level"},
@@ -3840,19 +3834,23 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(6104.3145,290.58694,-98.914),cellId="Vivec, Redoran Underworks"},
     {coords=util.vector3(-16448.0,52096.0,1920.0),cellId=nil},
     {coords=util.vector3(576.0,-896.0,-128.0),cellId="Vivec, Arena Fighters Training"},
+    {coords=util.vector3(-22460.117,104908.99,2257.378),cellId=nil},
     {coords=util.vector3(615.677,291.727,-29.737),cellId="Ebonheart, Grand Council Chambers"},
     {coords=util.vector3(3979.7434,4066.272,15076.644),cellId="Gnaar Mok, Jerian Dolbanitte's Shack"},
     {coords=util.vector3(-29483.23,-40127.16,1063.045),cellId=nil},
     {coords=util.vector3(52026.477,109388.05,6145.733),cellId=nil},
     {coords=util.vector3(20687.203,-53195.992,731.2506),cellId=nil},
     {coords=util.vector3(281.53763,-771.25336,-335.05524),cellId="Remote Shipwreck, Upper Level"},
-    {coords=util.vector3(110622.516,119758.945,660.497),cellId="Tel Mora"},
+    {coords=util.vector3(94525.11,115399.805,1761.8446),cellId=nil},
     {coords=util.vector3(-1153.948,3518.271,-190.078),cellId="Telasero, Upper Level"},
+    {coords=util.vector3(-13284.491,19945.357,1642.428),cellId=nil},
     {coords=util.vector3(1268.879,2525.406,465.649),cellId="Vas, Entry Level"},
     {coords=util.vector3(-1911.0215,-211.8422,480.0),cellId="Ebonheart, Hawkmoth Towers"},
+    {coords=util.vector3(31610.586,-86290.305,1887.3419),cellId=nil},
     {coords=util.vector3(156.832,8.913,238.486),cellId="Sadrith Mora, Anis Seloth: Alchemist"},
     {coords=util.vector3(-18616.303,168981.42,598.466),cellId=nil},
     {coords=util.vector3(-96.0,-272.0,240.0),cellId="Caldera, Mining Company Office"},
+    {coords=util.vector3(3582.538,-55863.746,1750.673),cellId=nil},
     {coords=util.vector3(148.80042,-7.7824826,239.41241),cellId="Sadrith Mora, Nevrila Areloth's House"},
     {coords=util.vector3(192.0,-448.0,-416.0),cellId="Vivec, St. Olms Yngling Manor"},
     {coords=util.vector3(-47716.297,67967.125,2404.069),cellId=nil},
@@ -3860,12 +3858,14 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(113.672,209.389,254.691),cellId="Balmora, Balyn Omarel's House"},
     {coords=util.vector3(4803.8794,4371.2734,13146.692),cellId="Vivec, Mevel Fererus: Trader"},
     {coords=util.vector3(2048.0,4160.0,11936.0),cellId="Galom Daeus, Entry"},
+    {coords=util.vector3(-59224.348,27195.22,303.457),cellId=nil},
     {coords=util.vector3(-64.0,640.0,-128.0),cellId="Vivec, Hall of Justice Secret Library"},
     {coords=util.vector3(4288.0,3136.0,13184.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(3968.0,4416.0,15296.0),cellId="Vivec, St. Delyn Potter's Hall"},
     {coords=util.vector3(-79866.61,90810.15,1930.0374),cellId=nil},
     {coords=util.vector3(7.803,635.858,-48.920605),cellId="Fair Helas, Upper Level"},
     {coords=util.vector3(0.0,0.0,-32.0),cellId="Vivec, Redoran Ancestral Vaults"},
+    {coords=util.vector3(123157.45,45382.66,944.533),cellId=nil},
     {coords=util.vector3(-2.6808372,-1.8485265,-33.99297),cellId="Vivec, St. Olms Canal North-Two"},
     {coords=util.vector3(-2843.47,1151.643,416.8114),cellId="Abanabi"},
     {coords=util.vector3(-20267.592,-12087.327,563.7383),cellId=nil},
@@ -3875,16 +3875,17 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(29472.117,-45534.656,826.8709),cellId=nil},
     {coords=util.vector3(-1275.0858,-765.2427,-944.0101),cellId="Pelagiad, South Wall"},
     {coords=util.vector3(3008.0,3712.0,18048.0),cellId="Vivec, Arena Waistworks"},
-    {coords=util.vector3(33119.242,-84726.305,-247.16382),cellId="Vivec, Arena"},
     {coords=util.vector3(63615.746,-57264.35,1122.923),cellId=nil},
     {coords=util.vector3(-1472.441,889.89,-640.005),cellId="Vivec, High Fane"},
     {coords=util.vector3(4274.006,4399.142,-67.985),cellId="Unexplored Shipwreck, Lower Level"},
     {coords=util.vector3(-253.34758,4301.1914,-688.0),cellId="Ebernanit, Shrine"},
     {coords=util.vector3(70.687904,-25.576517,115.2044),cellId="Rayna Drolan's Shack"},
-    {coords=util.vector3(-41560.99,108665.695,3627.716),cellId=nil},
+    {coords=util.vector3(-68416.0,46644.434,1792.0),cellId=nil},
     {coords=util.vector3(-258.392,-1125.383,225.735),cellId="Caldera, Ghorak Manor"},
+    {coords=util.vector3(-41560.99,108665.695,3627.716),cellId=nil},
     {coords=util.vector3(-1850.367,3857.899,480.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(4175.183,4303.394,15494.257),cellId="Unknown Shipwreck, Cabin"},
+    {coords=util.vector3(-67555.46,45834.527,2464.0),cellId=nil},
     {coords=util.vector3(4855.071,4609.613,13530.8),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(-1836.65,4989.005,-35.899),cellId="Nissintu"},
     {coords=util.vector3(3562.9412,-530.5545,576.0),cellId="Ebonheart, Hawkmoth Towers"},
@@ -3893,27 +3894,33 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(37518.152,-95417.18,1873.3896),cellId=nil},
     {coords=util.vector3(-7147.112,52826.047,2416.905),cellId=nil},
     {coords=util.vector3(127.742,-87.151,-175.959),cellId="Gnisis, Shishara Hut"},
-    {coords=util.vector3(32058.305,-80358.79,3101.271),cellId="Vivec, Foreign Quarter"},
     {coords=util.vector3(4.0,-104.0,-68.0),cellId="Caldera, Governor's Hall"},
     {coords=util.vector3(1472.0,224.0,-688.0),cellId="Molag Mar, Canalworks"},
     {coords=util.vector3(157271.2,1289.045,150.777),cellId=nil},
     {coords=util.vector3(-12.598433,-0.2633897,-26.389002),cellId="Ghostgate, Tower of Dawn"},
     {coords=util.vector3(2640.601,-5351.372,485.323),cellId="Gnisis, Lower Eggmine"},
+    {coords=util.vector3(94279.15,115721.41,1777.3837),cellId=nil},
     {coords=util.vector3(-64.0,-128.0,-128.0),cellId="Ghostgate, Tower of Dawn"},
     {coords=util.vector3(-13710.539,43547.375,3161.6133),cellId=nil},
     {coords=util.vector3(1265.6062,-504.39456,-47.957973),cellId="Pelagiad, Fort Pelagiad"},
+    {coords=util.vector3(141951.2,39512.773,258.991),cellId=nil},
     {coords=util.vector3(4034.135,3908.624,15204.147),cellId="Gnaar Mok, Mush-Mere's Shack"},
     {coords=util.vector3(52501.992,-48986.1,899.3159),cellId=nil},
     {coords=util.vector3(5520.2847,-54639.473,2274.9626),cellId=nil},
-    {coords=util.vector3(15766.132,-102171.49,1310.311),cellId="Ebonheart"},
     {coords=util.vector3(513.87506,773.84784,-30.422155),cellId="Vivec, Telvanni Waistworks"},
+    {coords=util.vector3(148992.0,27624.0,704.0),cellId=nil},
+    {coords=util.vector3(119607.66,-102674.11,375.564),cellId=nil},
+    {coords=util.vector3(-14781.483,-13391.877,825.135),cellId=nil},
     {coords=util.vector3(107332.67,119095.24,1862.9429),cellId=nil},
     {coords=util.vector3(7.881,778.561,-176.771),cellId="Falvilo's Endeavor, Upper Level"},
     {coords=util.vector3(160.0,-64.0,-512.0),cellId="Tel Uvirith, Tower Lower"},
+    {coords=util.vector3(-34152.47,78545.83,2200.533),cellId=nil},
+    {coords=util.vector3(44098.21,-86840.9,1887.342),cellId=nil},
     {coords=util.vector3(-0.2253561,-305.05362,467.00937),cellId="Sadrith Mora, Telvanni Council House"},
     {coords=util.vector3(-384.0,-192.0,0.0),cellId="Vos, Dreynos Elvul's Farmhouse"},
     {coords=util.vector3(544.0,-416.0,96.0),cellId="Sadrith Mora, Wolverine Hall: Fighter's Guild"},
     {coords=util.vector3(-86006.78,96833.266,1674.228),cellId=nil},
+    {coords=util.vector3(128053.586,-103004.14,814.283),cellId=nil},
     {coords=util.vector3(-63.52525,-70.97312,32.184998),cellId="Vivec, St. Olms Waist South-One"},
     {coords=util.vector3(-8403.617,-83922.58,-116.988945),cellId=nil},
     {coords=util.vector3(-3712.0,-18560.0,2192.0),cellId=nil},
@@ -3925,9 +3932,10 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-16232.108,-13426.43,627.45776),cellId=nil},
     {coords=util.vector3(-9.841342,-34.966232,-14.484889),cellId="Elanius Camp, Yapal's Yurt"},
     {coords=util.vector3(544.0,1759.998,-2752.0),cellId="Falensarano, Upper Level"},
-    {coords=util.vector3(1960.884,-57272.06,1612.453),cellId="Pelagiad"},
     {coords=util.vector3(-961.63855,1085.9368,27.419916),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(320.0,4357.618,-1280.861),cellId="Shishi"},
+    {coords=util.vector3(-13707.501,55363.535,2444.193),cellId=nil},
+    {coords=util.vector3(18749.086,-100434.37,1064.413),cellId=nil},
     {coords=util.vector3(-704.297,1241.099,-715.413),cellId="Mzuleft"},
     {coords=util.vector3(1.3748574,162.80823,-35.64777),cellId="Vivec, Telvanni Sorcerer"},
     {coords=util.vector3(142546.92,-34577.16,939.7984),cellId=nil},
@@ -3942,12 +3950,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2686.6018,-667.3713,-256.74686),cellId="Vivec, Redoran Canalworks"},
     {coords=util.vector3(94345.81,117991.73,1797.9537),cellId=nil},
     {coords=util.vector3(770.838,-539.032,-10.109),cellId="Ald Velothi, Outpost"},
-    {coords=util.vector3(148992.0,28096.0,2352.0),cellId="Wolverine Hall"},
     {coords=util.vector3(173.948,-516.397,151.65405),cellId="Caldera, Mining Bunkhouse"},
     {coords=util.vector3(3649.678,6788.238,128.0),cellId="Gnisis, Arvs-Drelen"},
+    {coords=util.vector3(6672.0,1136.0,288.0),cellId="Vivec, Hall Underworks"},
     {coords=util.vector3(3815.1047,4042.174,14551.61),cellId="Suran, Guard Tower"},
     {coords=util.vector3(4288.0,5760.0,12448.0),cellId="Arkngthand, Heaven's Gallery"},
-    {coords=util.vector3(6672.0,1136.0,288.0),cellId="Vivec, Hall Underworks"},
+    {coords=util.vector3(-22211.586,-15206.171,656.877),cellId=nil},
     {coords=util.vector3(86163.016,118737.21,4609.516),cellId=nil},
     {coords=util.vector3(6271.999,3264.0,18304.0),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(6576.0,1168.0,288.0),cellId="Vivec, Telvanni Underworks"},
@@ -3955,6 +3963,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(255.019,-2.704,-166.429),cellId="Tel Uvirith, Tower Lower"},
     {coords=util.vector3(-14801.888,53102.43,2304.0),cellId=nil},
     {coords=util.vector3(-1024.0,-608.0,96.0),cellId="Ald-ruhn, Venim Manor Bedrooms"},
+    {coords=util.vector3(-27015.926,150160.83,795.4346),cellId=nil},
     {coords=util.vector3(-52715.0,50445.0,1559.253),cellId=nil},
     {coords=util.vector3(104372.99,38145.86,679.175),cellId=nil},
     {coords=util.vector3(3339.307,7693.472,-1314.617),cellId="Rissun"},
@@ -3964,26 +3973,29 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(148896.0,28512.0,1472.0),cellId=nil},
     {coords=util.vector3(-73766.98,39569.61,35.058334),cellId=nil},
     {coords=util.vector3(-42629.37,-47269.33,189.708),cellId=nil},
-    {coords=util.vector3(85640.52,118049.93,5127.514),cellId="Tel Vos"},
     {coords=util.vector3(537.5901,-1774.3585,-25.617046),cellId="Vivec, St. Olms Waistworks"},
+    {coords=util.vector3(-18104.008,-13559.192,321.675),cellId=nil},
     {coords=util.vector3(-18320.223,104232.7,2206.0166),cellId=nil},
     {coords=util.vector3(0.0,0.0,87.389275),cellId="Pelagiad, Erval's House"},
-    {coords=util.vector3(94268.375,118162.89,1808.6729),cellId="Vos"},
+    {coords=util.vector3(-12833.807,54430.574,2454.552),cellId=nil},
     {coords=util.vector3(-2603.649,2049.375,-1067.599),cellId="Shurdan-Raplay Egg Mine"},
     {coords=util.vector3(2745.823,-1919.056,355.65),cellId="Milk"},
     {coords=util.vector3(-1781.9543,-1288.1925,214.58998),cellId="Vivec, St. Delyn Waistworks"},
+    {coords=util.vector3(-14734.957,53214.95,2291.4011),cellId=nil},
     {coords=util.vector3(111098.414,-85193.38,916.9844),cellId=nil},
+    {coords=util.vector3(-14169.115,-71649.66,148.80879),cellId=nil},
     {coords=util.vector3(-36500.22,-11449.425,93.481),cellId=nil},
     {coords=util.vector3(5859.162,6202.361,444.05716),cellId="Urshilaku, Laterus Burial"},
     {coords=util.vector3(-6650.553,-66865.61,390.869),cellId=nil},
+    {coords=util.vector3(148880.0,28360.0,1464.0),cellId=nil},
     {coords=util.vector3(-7642.4834,52615.957,2433.0),cellId=nil},
     {coords=util.vector3(4878.0,-1320.0,15320.0),cellId="Ilunibi, Blackened Heart"},
     {coords=util.vector3(1408.0,256.0,640.0),cellId="Suran, Oran Manor"},
     {coords=util.vector3(1852.658,7667.191,414.295),cellId="Caldera Mine"},
-    {coords=util.vector3(9808.219,-101787.6,1410.25),cellId="Ebonheart"},
     {coords=util.vector3(-22582.314,9314.362,1057.349),cellId=nil},
     {coords=util.vector3(110081.41,90905.43,484.111),cellId=nil},
-    {coords=util.vector3(-5824.0,-17424.0,1616.0),cellId="Moonmoth Legion Fort"},
+    {coords=util.vector3(-11227.161,53698.062,2452.573),cellId=nil},
+    {coords=util.vector3(-21891.424,-14024.494,902.904),cellId=nil},
     {coords=util.vector3(125924.09,67096.94,-193.18353),cellId=nil},
     {coords=util.vector3(5253.6016,2752.7344,13034.1875),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(5770.4204,4025.5437,13031.393),cellId="Vivec, Hall of Wisdom"},
@@ -3991,6 +4003,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(43405.848,-95593.97,702.143),cellId=nil},
     {coords=util.vector3(-640.0,-592.0,-160.0),cellId="Vivec, Redoran Canalworks"},
     {coords=util.vector3(4736.0,4928.0,14336.0),cellId="Vivec, Foreign Quarter Upper Waistworks"},
+    {coords=util.vector3(87421.09,10071.126,2353.818),cellId=nil},
     {coords=util.vector3(-795.4516,-1423.6245,89.428474),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(108527.97,116036.76,698.633),cellId=nil},
     {coords=util.vector3(63636.637,-57083.76,1127.6022),cellId=nil},
@@ -4006,21 +4019,19 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-320.0,-96.0,0.0),cellId="Sadrith Mora, Wolverine Hall: Imperial Shrine"},
     {coords=util.vector3(4334.3784,4162.5205,-583.5367),cellId="Lost Shipwreck, Lower Level"},
     {coords=util.vector3(-15.754,481.815,-142.666),cellId="Zainab Camp, Minassour's Yurt"},
-    {coords=util.vector3(37708.633,-95569.62,671.08813),cellId="Vivec, St. Olms"},
-    {coords=util.vector3(-36121.48,79935.11,1835.75),cellId="Bal Isra"},
     {coords=util.vector3(1475.2386,-40.403606,-769.7102),cellId="Molag Mar, Canalworks"},
-    {coords=util.vector3(-14781.483,-13391.877,825.135),cellId="Balmora"},
     {coords=util.vector3(4530.9497,3566.1667,16144.0),cellId="Tel Vos, Services Tower"},
     {coords=util.vector3(88.604,-252.812,81.668),cellId="Tureynulal, Kagrenac's Library"},
     {coords=util.vector3(-13034.282,142730.58,404.206),cellId=nil},
     {coords=util.vector3(54866.6,159003.52,980.209),cellId=nil},
     {coords=util.vector3(74576.64,-86877.875,-92.841),cellId=nil},
     {coords=util.vector3(87587.04,10851.432,2348.141),cellId=nil},
+    {coords=util.vector3(-27201.566,149236.53,795.4346),cellId=nil},
     {coords=util.vector3(78134.25,80387.11,1085.5),cellId=nil},
     {coords=util.vector3(896.0,3144.0,996.0),cellId="Sud"},
     {coords=util.vector3(5484.3447,5784.672,-33.06819),cellId="Vivec, Puzzle Canal, Center"},
+    {coords=util.vector3(53056.12,153410.19,1843.4382),cellId=nil},
     {coords=util.vector3(77946.414,118666.695,864.9081),cellId=nil},
-    {coords=util.vector3(15770.003,-101714.15,1309.821),cellId="Ebonheart"},
     {coords=util.vector3(-787.161,-513.91,-288.001),cellId="Tureynulal, Kagrenac's Library"},
     {coords=util.vector3(3076.0,-3576.0,3372.0),cellId="Sethan Ancestral Tomb"},
     {coords=util.vector3(1007.306,1721.802,-287.481),cellId="Ghostgate, Tower of Dawn"},
@@ -4028,6 +4039,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(0.0,0.0,0.0),cellId="Shashurari Camp, Zennammu's Yurt"},
     {coords=util.vector3(69388.24,13348.889,1120.4905),cellId=nil},
     {coords=util.vector3(-14271.291,-71772.64,142.54182),cellId=nil},
+    {coords=util.vector3(89852.27,9196.533,1957.262),cellId=nil},
     {coords=util.vector3(-64.0,128.0,-128.0),cellId="Vivec, Telvanni Enchanter"},
     {coords=util.vector3(-1464.0,-96.0,16.0),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(2752.061,7163.925,4224.0),cellId="Ashmelech"},
@@ -4043,8 +4055,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3693.059,4155.296,14064.347),cellId="Dren Plantation, Helvi's Shack"},
     {coords=util.vector3(-64.0,512.0,0.0),cellId="Molag Mar, Temple"},
     {coords=util.vector3(2.442,-69.696,78.817),cellId="Gnisis, Bethamez"},
+    {coords=util.vector3(-16403.674,-16047.668,582.779),cellId=nil},
     {coords=util.vector3(-1803.5918,96.0,1692.7323),cellId="Vivec, Redoran Plaza"},
-    {coords=util.vector3(108166.28,-61185.61,1885.849),cellId="Molag Mar"},
     {coords=util.vector3(448.54803,576.5379,-383.99295),cellId="Falasmaryon, Propylon Chamber"},
     {coords=util.vector3(-76784.69,85095.08,178.51697),cellId=nil},
     {coords=util.vector3(1280.0,1612.0,320.0),cellId="Reloth Ancestral Tomb"},
@@ -4053,21 +4065,20 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(10791.257,-98013.82,-216.9639),cellId=nil},
     {coords=util.vector3(31.287926,-1533.3142,-937.6035),cellId="Vivec, Telvanni Plaza"},
     {coords=util.vector3(1321.9902,3399.5203,640.0),cellId="Ebonheart, Hawkmoth Towers"},
-    {coords=util.vector3(126881.55,-101840.46,2402.828),cellId="Tel Branora"},
     {coords=util.vector3(384.0,1024.0,-48.0),cellId="Moonmoth Legion Fort, Interior"},
     {coords=util.vector3(352.0,0.0,128.0),cellId="Sadrith Mora, Meluria Seleth's House"},
+    {coords=util.vector3(-21536.31,102676.3,2080.851),cellId=nil},
     {coords=util.vector3(-2687.8232,567.8157,-1184.082),cellId="Sharapli"},
     {coords=util.vector3(432.0,-320.0,-256.0),cellId="Vivec, Saren Manor"},
     {coords=util.vector3(1696.0,6754.0,12512.0),cellId="Hassour, Shrine"},
     {coords=util.vector3(-77765.94,111228.04,1131.445),cellId=nil},
     {coords=util.vector3(-256.0,160.0,96.0),cellId="Tureynulal, Kagrenac's Library"},
-    {coords=util.vector3(-9558.401,18638.283,1882.274),cellId="Caldera"},
     {coords=util.vector3(204.68474,183.6497,-172.55338),cellId="Vivec, Hlaalu Weaponsmith"},
     {coords=util.vector3(3556.0298,4190.197,14066.465),cellId="Dren Plantation, Helvi's Shack"},
+    {coords=util.vector3(-73636.055,39675.28,91.893),cellId=nil},
     {coords=util.vector3(-28350.805,150719.81,782.4474),cellId=nil},
     {coords=util.vector3(4836.233,7416.191,-299.612),cellId="Hanud"},
     {coords=util.vector3(-287.99982,4992.0,1024.0),cellId="Arkngthand, Deep Ore Passage"},
-    {coords=util.vector3(-18104.008,-13559.192,321.675),cellId="Balmora"},
     {coords=util.vector3(-3008.153,1153.6166,414.2553),cellId="Abanabi"},
     {coords=util.vector3(-53994.176,-45450.156,203.71902),cellId=nil},
     {coords=util.vector3(-1055.723,-391.519,360.374),cellId="Yassu Mine"},
@@ -4077,6 +4088,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(9.714,28.186,91.686),cellId="Ebonheart, East Empire Company Hall"},
     {coords=util.vector3(-58.471,-130.071,-31.867),cellId="Gnisis, Fort Darius"},
     {coords=util.vector3(5372.133,5819.442,13855.589),cellId="Tel Vos, Southern Tower"},
+    {coords=util.vector3(62991.074,183381.55,297.832),cellId=nil},
     {coords=util.vector3(1874.4053,-0.41631317,89.63401),cellId="Vivec, Arena Pit"},
     {coords=util.vector3(5248.0,4032.0,18048.0),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(192.0,384.0,-128.0),cellId="Vivec, Ralen Tilvur: Smith"},
@@ -4086,18 +4098,16 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-111226.88,107677.63,415.507),cellId=nil},
     {coords=util.vector3(649.986,-2173.593,-359.258),cellId="Ministry of Truth, Prison Keep"},
     {coords=util.vector3(-192.85,511.882,-539.452),cellId="Ahinipalit"},
-    {coords=util.vector3(148772.0,27732.0,1468.0),cellId="Wolverine Hall"},
     {coords=util.vector3(192.0,-1024.0,-256.0),cellId="Ald-ruhn, Llethri Manor Entrance"},
     {coords=util.vector3(33476.73,-77968.73,-248.14554),cellId=nil},
     {coords=util.vector3(273.06512,-559.9051,-358.24576),cellId="Remote Shipwreck, Lower Level"},
+    {coords=util.vector3(56192.195,-56388.973,1428.6862),cellId=nil},
     {coords=util.vector3(448.0,-1920.0,128.0),cellId="Vivec, St. Delyn Waistworks"},
     {coords=util.vector3(-64.0,128.0,-128.0),cellId="Vivec, Redoran Records"},
-    {coords=util.vector3(-21891.424,-14024.494,902.904),cellId="Balmora"},
     {coords=util.vector3(797.832,1277.953,610.397),cellId="Minabi"},
     {coords=util.vector3(891.08075,-2814.6038,157.63919),cellId="Clutter Warehouse - Everything Must Go!"},
     {coords=util.vector3(-480.0,-1376.0,2080.0),cellId="Serano Ancestral Tomb"},
     {coords=util.vector3(1776.0,928.0,208.0),cellId="Vivec, St. Olms Underworks"},
-    {coords=util.vector3(28416.0,-79744.0,3451.5251),cellId="Vivec, Foreign Quarter"},
     {coords=util.vector3(-128.0,320.0,-512.0),cellId="Vivec, Elven Nations Cornerclub"},
     {coords=util.vector3(4164.918,6433.495,12496.0),cellId="Bal Fell, Outer Shrine"},
     {coords=util.vector3(29919.473,-80957.26,3104.473),cellId=nil},
@@ -4106,20 +4116,23 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(448.0,-2304.0,128.0),cellId="Ald-ruhn, Venim Manor Private Quarters"},
     {coords=util.vector3(128.818,-2216.621,-423.473),cellId="Ashir-Dan"},
     {coords=util.vector3(-187.92717,-522.6323,-163.054),cellId="Vivec, No Name Club"},
-    {coords=util.vector3(-3684.1736,152056.47,2385.348),cellId="Valenvaryon"},
     {coords=util.vector3(1272.258,1019.75995,211.54903),cellId="Ghostgate, Tower of Dusk"},
     {coords=util.vector3(64.0,-256.0,-128.0),cellId="Vivec, St. Olms Upper North-One"},
     {coords=util.vector3(115428.234,-75072.07,401.284),cellId=nil},
     {coords=util.vector3(0.81717587,157.1126,-167.37204),cellId="Vivec, Guild of Mages"},
     {coords=util.vector3(4204.45,3556.968,179.768),cellId="Unknown Shipwreck, Lower Level"},
     {coords=util.vector3(4732.0,-1856.0,1184.0),cellId="Salvel Ancestral Tomb"},
+    {coords=util.vector3(-20066.996,103785.2,2094.569),cellId=nil},
     {coords=util.vector3(-320.0,-384.0,-128.0),cellId="Vivec, Justice Offices"},
     {coords=util.vector3(512.0,0.0,-288.0),cellId="Ald-ruhn, Guard Tower 1"},
     {coords=util.vector3(-2239.8398,61.406826,-167.27046),cellId="Molag Mar, Canalworks"},
     {coords=util.vector3(4864.945,1558.818,-646.334),cellId="Dubdilla, Uncharted Caverns"},
     {coords=util.vector3(-64.0,64.0,-128.0),cellId="Vivec, St. Delyn Canal North-Two"},
+    {coords=util.vector3(-24029.291,-12260.858,1934.506),cellId=nil},
+    {coords=util.vector3(29950.992,-81137.03,1887.342),cellId=nil},
     {coords=util.vector3(-10036.1,22355.814,2196.206),cellId=nil},
     {coords=util.vector3(777.5655,-541.87384,-622.70544),cellId="Andas Ancestral Tomb"},
+    {coords=util.vector3(14217.879,-100762.016,832.0),cellId=nil},
     {coords=util.vector3(1883.731,1344.0,15872.0),cellId="Tel Vos, Central Tower"},
     {coords=util.vector3(-22724.092,-66827.04,-276.283),cellId=nil},
     {coords=util.vector3(38444.316,-93305.18,2132.642),cellId=nil},
@@ -4127,6 +4140,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2.511676,67.87964,-31.20857),cellId="Vivec, St. Olms Canal South-Two"},
     {coords=util.vector3(6266.1333,7768.9214,-147.05093),cellId="Vivec, Hall Underworks"},
     {coords=util.vector3(-31.448,411.828,-170.486),cellId="Ahemmusa Camp, Lanabi's Yurt"},
+    {coords=util.vector3(34647.86,-97032.65,-211.8),cellId=nil},
     {coords=util.vector3(3904.0,4224.0,15616.0),cellId="Vivec, Alusaron: Smith"},
     {coords=util.vector3(-64.0,64.0,-128.0),cellId="Vivec, St. Delyn Canal North-One"},
     {coords=util.vector3(3264.0,4352.0,14496.0),cellId="Arkngthand, Cells of Hollow Hand"},
@@ -4141,23 +4155,20 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-64.0,-192.0,-128.0),cellId="Vivec, St. Olms Upper North-Two"},
     {coords=util.vector3(-303.551,262.751,208.0),cellId="Dagon Fel, The End of the World"},
     {coords=util.vector3(17.273,-75.395,-36.195),cellId="Vivec, St. Olms Canal North-Three"},
-    {coords=util.vector3(-16403.674,-16047.668,582.779),cellId="Balmora"},
-    {coords=util.vector3(39031.074,-94149.68,1887.3419),cellId="Vivec, St. Olms"},
     {coords=util.vector3(1680.0,928.0,400.0),cellId="Vivec, St. Olms Underworks"},
     {coords=util.vector3(3.6533709,-116.9731,-28.432226),cellId="Urshilaku Camp, Shimsun's Yurt"},
+    {coords=util.vector3(31608.65,-92515.48,1885.9888),cellId=nil},
     {coords=util.vector3(3656.0,5464.0,12312.0),cellId="Galom Daeus, Observatory"},
     {coords=util.vector3(-602.9044,90.72845,-171.02458),cellId="Vivec, Arena Canalworks"},
     {coords=util.vector3(-64.0,128.0,-128.0),cellId="Vivec, Telvanni Apothecary"},
     {coords=util.vector3(6576.0,1136.0,96.0),cellId="Vivec, Hall Underworks"},
     {coords=util.vector3(224.0,-288.0,-32.0),cellId="Balur's Farmhouse"},
+    {coords=util.vector3(-13189.909,57047.523,2660.047),cellId=nil},
     {coords=util.vector3(2416.0,3576.0,13683.427),cellId="Assurdirapal, Inner Shrine"},
-    {coords=util.vector3(35805.87,-22097.42,2110.0),cellId="Marandus"},
     {coords=util.vector3(410.596,898.82,-496.0),cellId="Falensarano, Propylon Chamber"},
-    {coords=util.vector3(-84501.72,91262.55,1067.784),cellId="Gnisis"},
     {coords=util.vector3(370.78897,-1.8546902,-417.64368),cellId="Ghostgate, Temple"},
     {coords=util.vector3(2.7244148,1397.1979,-865.26917),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(-128.0,0.0,128.0),cellId="Suran, Garothmuk gro-Muzgub: Smith"},
-    {coords=util.vector3(9191.176,-100084.42,2228.995),cellId="Ebonheart"},
     {coords=util.vector3(510.273,1981.336,361.1344),cellId="Sanabi"},
     {coords=util.vector3(-1024.0,-256.0,320.0),cellId="Vivec, Arena Canalworks"},
     {coords=util.vector3(2666.0159,155.59248,-256.64032),cellId="Vivec, Arena Canalworks"},
@@ -4175,12 +4186,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-3.647727,6.159606,-24.371212),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(4017.9153,4388.2544,128.21861),cellId="Unexplored Shipwreck, Upper Level"},
     {coords=util.vector3(2752.0,2224.0,48.0),cellId="Ald Daedroth, Right Wing"},
-    {coords=util.vector3(38330.05,-86911.08,2234.5715),cellId="Vivec, Arena"},
     {coords=util.vector3(-128.0,0.0,384.0),cellId="Suran, Garothmuk gro-Muzgub: Smith"},
     {coords=util.vector3(-18751.32,104616.03,3210.9648),cellId=nil},
     {coords=util.vector3(1344.6567,-86582.12,177.34993),cellId=nil},
     {coords=util.vector3(624.0,-1760.0,480.0),cellId="Moonmoth Legion Fort, Prison Towers"},
     {coords=util.vector3(6474.771,137236.47,799.06),cellId=nil},
+    {coords=util.vector3(95227.555,116475.56,1965.9448),cellId=nil},
     {coords=util.vector3(-35378.086,78451.89,1808.0),cellId=nil},
     {coords=util.vector3(6141.145,575.45245,-133.81673),cellId="Vivec, St. Delyn Underworks"},
     {coords=util.vector3(2218.95,-2178.629,-1199.2789),cellId="Panabanit-Nimawia Egg Mine"},
@@ -4193,19 +4204,21 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(298.21173,-625.43744,-1805.1698),cellId="Vivec, St. Olms Plaza"},
     {coords=util.vector3(74555.766,-87110.82,-207.314),cellId=nil},
     {coords=util.vector3(-27286.8,-19880.445,1118.825),cellId=nil},
+    {coords=util.vector3(-13688.054,43070.402,2693.103),cellId=nil},
     {coords=util.vector3(-454.0,900.0,-1312.0),cellId="Pelagiad, North Wall"},
     {coords=util.vector3(144554.6,-33996.02,896.7197),cellId=nil},
     {coords=util.vector3(1662.0,-1284.0,-355.0),cellId="Hlormaren, Keep, Top Level"},
     {coords=util.vector3(-17011.006,52088.016,2947.03),cellId=nil},
     {coords=util.vector3(-796.5049,1460.4312,-179.77058),cellId="Sadrith Mora, Gateway Inn: West Wing"},
     {coords=util.vector3(-4324.0,3736.0,-684.0),cellId="Dun-Ahhe"},
+    {coords=util.vector3(109116.484,-62276.75,2142.971),cellId=nil},
     {coords=util.vector3(4670.9243,-150.61151,-128.0),cellId="Vivec, Telvanni Sorcerer"},
     {coords=util.vector3(3654.8333,-3054.8962,15495.578),cellId="Dagon Fel, Sorkvild's Tower"},
     {coords=util.vector3(256.0,-512.0,870.811),cellId="Sadrith Mora, Tel Naga Upper Hall"},
     {coords=util.vector3(844.0,-511.0,-363.418),cellId="Berandas, Keep, Bottom Level"},
     {coords=util.vector3(-2432.0,-5184.0,-2336.0),cellId="Shulk Egg Mine"},
     {coords=util.vector3(4176.0,3072.0,14480.0),cellId="Sadrith Mora, Wolverine Hall"},
-    {coords=util.vector3(-35110.31,150263.25,698.26),cellId="Ashurnabitashpi"},
+    {coords=util.vector3(22208.0,-86137.08,2233.9004),cellId=nil},
     {coords=util.vector3(-509.185,-56.801,-128.0),cellId="Pelagiad, Murberius Harmevus' House"},
     {coords=util.vector3(87494.33,120084.5,5367.227),cellId=nil},
     {coords=util.vector3(-44065.746,134512.97,1405.25),cellId=nil},
@@ -4213,7 +4226,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3180.3362,3227.5208,12370.854),cellId="Vivec, St. Delyn Canalworks"},
     {coords=util.vector3(-5568.0,-17392.0,2144.0),cellId=nil},
     {coords=util.vector3(1632.0,7168.0,272.0),cellId="Vivec, St. Delyn Underworks"},
-    {coords=util.vector3(18640.0,-53056.0,744.0),cellId="Dren Plantation"},
+    {coords=util.vector3(3591.4185,-56790.58,1703.4539),cellId=nil},
+    {coords=util.vector3(32216.79,-106784.48,1714.3561),cellId=nil},
     {coords=util.vector3(-96.0,1280.0,1824.0),cellId="Akulakhan's Chamber"},
     {coords=util.vector3(2046.896,1266.5698,15.432329),cellId="Vivec, Puzzle Canal, Level 5"},
     {coords=util.vector3(-12612.357,41786.984,3007.8687),cellId=nil},
@@ -4224,10 +4238,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-2945.101,3288.276,-1067.854),cellId="Sennananit"},
     {coords=util.vector3(128.0,-1280.0,640.0),cellId="Gnisis, Yahaz Hut"},
     {coords=util.vector3(45998.062,136102.66,260.69095),cellId=nil},
-    {coords=util.vector3(-24029.291,-12260.858,1934.506),cellId="Balmora"},
     {coords=util.vector3(-502.69354,1025.1556,-1328.5134),cellId="Pelagiad, North Wall"},
-    {coords=util.vector3(-88502.13,126905.04,269.141),cellId="Ald Velothi"},
     {coords=util.vector3(3584.0,3968.0,150.438),cellId="Salmantu"},
+    {coords=util.vector3(29118.96,-91064.36,670.7505),cellId=nil},
     {coords=util.vector3(-960.0,-384.0,-128.0),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(-955.02673,-276.35858,-300.1202),cellId="Vivec, Hlaalu Treasury"},
     {coords=util.vector3(56227.586,-51413.81,915.0742),cellId=nil},
@@ -4238,11 +4251,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3958.666,4017.863,14849.046),cellId="Hla Oad, Okur's House"},
     {coords=util.vector3(4081.249,4219.594,14659.648),cellId="Dren Plantation, Verethi and Dralor"},
     {coords=util.vector3(-192.0,-256.0,128.0),cellId="Balmora, Vori's House"},
+    {coords=util.vector3(21819.75,-42180.06,993.069),cellId=nil},
     {coords=util.vector3(-64.0,-131.01384,-128.0),cellId="Vivec, Aurane Frernis: Apothecary"},
     {coords=util.vector3(93904.0,117336.0,1750.3387),cellId=nil},
     {coords=util.vector3(-260.751,1856.306,-1280.0),cellId="Odirniran"},
+    {coords=util.vector3(-84059.734,124228.79,1463.724),cellId=nil},
     {coords=util.vector3(25.210756,-131.42978,36.847443),cellId="Urshilaku Camp, Shara's Yurt"},
-    {coords=util.vector3(-26089.826,150316.42,800.8568),cellId="Urshilaku Camp"},
     {coords=util.vector3(320.0,384.0,256.0),cellId="Balmora, Guild of Fighters"},
     {coords=util.vector3(-3328.0,4384.0,-1023.99994),cellId="Assurdirapal, Shrine"},
     {coords=util.vector3(1497.529,-2417.9905,150.49745),cellId="Clutter Warehouse - Everything Must Go!"},
@@ -4256,8 +4270,10 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-52224.516,64338.27,1423.0197),cellId=nil},
     {coords=util.vector3(31974.875,-106088.484,1349.0381),cellId=nil},
     {coords=util.vector3(-1600.0,-640.0,-128.0),cellId="Vivec, Telvanni Waistworks"},
+    {coords=util.vector3(42833.902,-86840.9,1887.342),cellId=nil},
     {coords=util.vector3(773.498,3581.295,984.24),cellId="Vas, Entry Level"},
     {coords=util.vector3(-256.0,128.0,383.859),cellId="Suran, Desele's House of Earthly Delights"},
+    {coords=util.vector3(60782.83,183796.31,308.044),cellId=nil},
     {coords=util.vector3(104.586,314.505,127.67),cellId="Caldera, Falanaamo: Clothier"},
     {coords=util.vector3(-69639.805,139955.66,193.69223),cellId=nil},
     {coords=util.vector3(150792.42,-13329.309,338.667),cellId=nil},
@@ -4270,13 +4286,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(208.18555,-8.471294,209.04707),cellId="Tel Mora, Radras: Smith"},
     {coords=util.vector3(15.804055,758.4463,-374.35532),cellId="Vivec, Arena Pit"},
     {coords=util.vector3(28.103,-150.003,8.0),cellId="Chun-Ook, Upper Level"},
-    {coords=util.vector3(113141.64,-62456.39,1885.728),cellId="Molag Mar"},
     {coords=util.vector3(-60638.52,27391.043,452.033),cellId=nil},
     {coords=util.vector3(4987.824,7487.951,-384.0),cellId="Hanud"},
     {coords=util.vector3(-64776.207,6365.695,121.857),cellId=nil},
     {coords=util.vector3(2622.7852,1198.403,-809.616),cellId="Andrethi Ancestral Tomb"},
     {coords=util.vector3(-47803.844,4028.776,101.037),cellId=nil},
     {coords=util.vector3(-27144.836,149699.92,788.0676),cellId=nil},
+    {coords=util.vector3(126003.47,-104363.36,816.568),cellId=nil},
     {coords=util.vector3(21513.098,51506.023,6668.208),cellId=nil},
     {coords=util.vector3(865.3771,-25.214722,1123.2509),cellId="Tel Mora, Lower Tower"},
     {coords=util.vector3(86.683,9.035,218.219),cellId="Caldera, Surane Leoriane's House"},
@@ -4286,31 +4302,30 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-10.449574,-79.26866,0.0),cellId="Aidanat Camp, Abassel's Yurt"},
     {coords=util.vector3(-35171.32,142956.3,923.906),cellId=nil},
     {coords=util.vector3(1.6678368,-79.114944,-17.638823),cellId="Bensiberib Camp, Odaishah's Yurt"},
+    {coords=util.vector3(2829.198,-56959.97,1644.049),cellId=nil},
     {coords=util.vector3(-103111.375,93860.18,1464.093),cellId=nil},
     {coords=util.vector3(-11539.935,-70970.71,320.009),cellId=nil},
     {coords=util.vector3(-64.0,256.0,-256.0),cellId="Vivec, Temporary Telvanni Housing"},
     {coords=util.vector3(0.0,-384.0,0.0),cellId="Ald-ruhn, Gildan's House"},
     {coords=util.vector3(-536.349,-2139.903,-365.762),cellId="Ministry of Truth, Prison Keep"},
     {coords=util.vector3(827.3188,2311.9927,-3501.2427),cellId="Marvani Ancestral Tomb"},
-    {coords=util.vector3(14793.879,-101610.55,760.0),cellId="Ebonheart"},
     {coords=util.vector3(109111.93,-62142.24,2127.999),cellId=nil},
     {coords=util.vector3(-1405.177,3738.981,-847.734),cellId="Falasmaryon, Upper Level"},
     {coords=util.vector3(-11925.215,20398.746,1568.459),cellId=nil},
     {coords=util.vector3(4228.902,3393.222,16160.0),cellId="Tel Vos, Services Tower"},
-    {coords=util.vector3(-85823.13,128681.98,258.781),cellId="Ald Velothi"},
     {coords=util.vector3(0.0,-160.0,32.0),cellId="Ald Velothi, Outpost"},
     {coords=util.vector3(4064.0,2688.0,13760.0),cellId="Shulk Egg Mine, Queen's Lair"},
     {coords=util.vector3(-539.2002,-770.3186,-33.871002),cellId="Punsabanit"},
     {coords=util.vector3(4672.0,2112.0,12928.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(-67463.805,128511.64,1700.162),cellId=nil},
     {coords=util.vector3(0.0,-32.0,-32.0),cellId="Vivec, Arena Fighters Quarters"},
-    {coords=util.vector3(29879.412,-78335.04,1887.342),cellId="Vivec, Foreign Quarter"},
-    {coords=util.vector3(55652.293,-54975.723,1604.7),cellId="Suran"},
     {coords=util.vector3(-896.0,3424.0,-800.0),cellId="Pudai Egg Mine"},
     {coords=util.vector3(-540.0,447.6962,447.16318),cellId="Fadathram Ancestral Tomb"},
-    {coords=util.vector3(33872.9,-103138.47,672.4232),cellId=nil},
+    {coords=util.vector3(-25737.338,-9723.177,1389.965),cellId=nil},
     {coords=util.vector3(1082.7,902.0,-1312.0),cellId="Pelagiad, North Wall"},
+    {coords=util.vector3(33872.9,-103138.47,672.4232),cellId=nil},
     {coords=util.vector3(30056.111,-95416.67,1874.1378),cellId=nil},
+    {coords=util.vector3(-16225.789,-13585.804,620.295),cellId=nil},
     {coords=util.vector3(-61850.31,142790.1,764.029),cellId=nil},
     {coords=util.vector3(-1282.6022,-254.23413,464.0),cellId="Moonmoth Legion Fort, Prison Towers"},
     {coords=util.vector3(-72.0,-44.0,-692.0),cellId="Seyda Neen, Lighthouse"},
@@ -4337,8 +4352,11 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1280.0253,436.9735,-567.3792),cellId="Balmora, Guild of Fighters"},
     {coords=util.vector3(2303.774,4087.602,13545.338),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(2976.0,4224.0,-256.0),cellId="Assurnabitashpi, Shrine"},
+    {coords=util.vector3(63129.23,184751.38,177.059),cellId=nil},
     {coords=util.vector3(256.0,-128.0,0.0),cellId="Balmora, Tsiya's House"},
+    {coords=util.vector3(-35110.31,150263.25,698.26),cellId=nil},
     {coords=util.vector3(2816.0,-608.0,-160.0),cellId="Vivec, Foreign Quarter Canalworks"},
+    {coords=util.vector3(-10956.729,-72364.18,282.37),cellId=nil},
     {coords=util.vector3(9833.879,-100458.016,2096.0),cellId=nil},
     {coords=util.vector3(149029.55,40605.22,1370.6759),cellId=nil},
     {coords=util.vector3(-3232.0,5662.0,-1563.173),cellId="Hassour"},
@@ -4348,30 +4366,27 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-476.95792,54.795105,73.28813),cellId="Pelagiad, Murberius Harmevus' House"},
     {coords=util.vector3(-21774.053,-12077.995,619.6232),cellId=nil},
     {coords=util.vector3(-259.4845,628.2247,-555.23883),cellId="Ebonheart, Grand Council Chambers Tower"},
-    {coords=util.vector3(89102.2,9077.841,2071.862),cellId="Uvirith's Grave"},
     {coords=util.vector3(131.91899,66.276726,88.213776),cellId="Mudan, Lost Dwemer Checkpoint"},
     {coords=util.vector3(110650.06,-60319.85,1863.3956),cellId=nil},
     {coords=util.vector3(111388.766,47116.56,258.11682),cellId=nil},
     {coords=util.vector3(-768.0,32.0,-32.0),cellId="Vivec, The Lizard's Head"},
-    {coords=util.vector3(129214.44,-100998.56,350.036),cellId="Tel Branora"},
     {coords=util.vector3(-1778.3182,128.91937,-840.1467),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(-1129.6356,-503.64255,160.14252),cellId="Halit Mine"},
     {coords=util.vector3(3040.0,3104.0,14784.0),cellId="Arkngthand, Cells of Hollow Hand"},
-    {coords=util.vector3(-22676.36,102663.7,2064.338),cellId="Maar Gan"},
-    {coords=util.vector3(152969.22,37226.035,1295.028),cellId="Sadrith Mora"},
     {coords=util.vector3(2239.897,-58714.406,1300.786),cellId=nil},
     {coords=util.vector3(23248.0,-54528.0,1272.0),cellId=nil},
     {coords=util.vector3(-355.199,-64.566,125.814),cellId="Tel Branora, Fadase Selvayn: Trader"},
     {coords=util.vector3(1120.0,2208.0,17024.0),cellId="Tel Vos, Central Tower"},
     {coords=util.vector3(1409.8334,4203.6533,-423.12485),cellId="Tin-Ahhe"},
     {coords=util.vector3(-768.0,-736.0,-32.0),cellId="Vivec, St. Olms Waistworks"},
+    {coords=util.vector3(5154.0,120680.0,1472.0),cellId=nil},
     {coords=util.vector3(0.0,-256.0,0.0),cellId="Buckmoth Legion Fort, Interior"},
     {coords=util.vector3(-1865.7916,0.0,-1699.7645),cellId="Vivec, St. Olms Plaza"},
+    {coords=util.vector3(124387.836,15688.698,491.737),cellId=nil},
     {coords=util.vector3(35571.363,-95415.66,1883.8844),cellId=nil},
     {coords=util.vector3(111310.56,128126.28,-724.8092),cellId=nil},
     {coords=util.vector3(-227.7325,458.24,-39.782),cellId="Remote Shipwreck, Upper Level"},
     {coords=util.vector3(1727.0593,199.94385,2032.0),cellId="Dulo Ancestral Tomb"},
-    {coords=util.vector3(29087.967,-95573.96,671.088),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(103046.17,8306.046,1475.7031),cellId=nil},
     {coords=util.vector3(-2023.0216,-243.84213,992.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(320.0,-5080.0,-256.0),cellId="Ald Daedroth, Outer Shrine"},
@@ -4379,21 +4394,22 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(35629.79,27868.76,866.289),cellId=nil},
     {coords=util.vector3(1598.6748,-1150.3207,-385.7144),cellId="Hlormaren, Keep, Top Level"},
     {coords=util.vector3(-22276.768,104148.21,2258.586),cellId=nil},
+    {coords=util.vector3(6323.825,-56462.266,2777.124),cellId=nil},
     {coords=util.vector3(-65038.277,6597.866,208.543),cellId=nil},
     {coords=util.vector3(4097.549,5367.723,14952.29),cellId="Vivec, Foreign Quarter Upper Waistworks"},
     {coords=util.vector3(4748.819,6916.799,471.976),cellId="Falasmaryon, Sewers"},
-    {coords=util.vector3(-120.974,-14.934,-160.336),cellId="Vivec, Simine Fralinie: Bookseller"},
     {coords=util.vector3(-11671.759,56385.715,2699.9504),cellId=nil},
+    {coords=util.vector3(-120.974,-14.934,-160.336),cellId="Vivec, Simine Fralinie: Bookseller"},
     {coords=util.vector3(-1084.625,891.99365,-32.0),cellId="Ebonheart, Imperial Commission"},
     {coords=util.vector3(-636.0,4928.0,544.0),cellId="Venim Ancestral Tomb"},
     {coords=util.vector3(128.0,2752.0,-128.0),cellId="Gnisis, Temple"},
     {coords=util.vector3(77060.21,95237.63,1188.43),cellId=nil},
     {coords=util.vector3(-2.734,452.461,-155.393),cellId="Ahemmusa Camp, Ashkhan's Yurt"},
     {coords=util.vector3(256.0,-64.0,0.0),cellId="Ald-ruhn, Malpenix Blonia: Trader"},
-    {coords=util.vector3(54630.086,-50158.86,316.487),cellId="Suran"},
     {coords=util.vector3(6672.0,7280.0,288.0),cellId="Vivec, Hall Underworks"},
     {coords=util.vector3(-245.87733,1225.1677,467.8942),cellId="Hlaalu Ancestral Tomb"},
     {coords=util.vector3(-28.861397,-774.8048,106.24645),cellId="Gnisis, Mantiti Cave Dwelling"},
+    {coords=util.vector3(-17723.537,-15112.84,581.438),cellId=nil},
     {coords=util.vector3(764.668,1.158,-173.909),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(140.876,-12.944,235.554),cellId="Sadrith Mora, Meluria Seleth's House"},
     {coords=util.vector3(2105.7715,374.80228,-190.96625),cellId="Tharys Ancestral Tomb"},
@@ -4410,11 +4426,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3072.9692,1982.8274,12752.0),cellId="Bal Fell, East Wing"},
     {coords=util.vector3(519.84625,6824.414,-1840.0),cellId="Marandus, Lower Level"},
     {coords=util.vector3(1696.0,2176.0,96.0),cellId="Shishara"},
-    {coords=util.vector3(110654.95,-60440.883,1887.042),cellId="Molag Mar"},
-    {coords=util.vector3(149408.0,30272.0,1280.0),cellId="Wolverine Hall"},
     {coords=util.vector3(257.92636,1398.5209,24.0),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(4800.0,4160.0,12928.0),cellId="Vivec, Hall of Wisdom"},
-    {coords=util.vector3(6170.0,119806.0,1472.0),cellId="Kogoruhn"},
     {coords=util.vector3(-512.05566,-4.4388723,217.04459),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(-608.0,-204.0,960.0),cellId="Gimothran Ancestral Tomb"},
     {coords=util.vector3(4576.0,4672.0,864.0),cellId="Sadrith Mora, Gateway Inn"},
@@ -4423,36 +4436,35 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(0.0,0.0,0.0),cellId="Bensiberib Camp, Odaishah's Yurt"},
     {coords=util.vector3(1858.3063,68.56537,-171.77876),cellId="Molag Mar, Canalworks"},
     {coords=util.vector3(4080.0,3072.0,14528.0),cellId="Sadrith Mora, Wolverine Hall"},
-    {coords=util.vector3(-25737.338,-9723.177,1389.965),cellId="Balmora"},
+    {coords=util.vector3(-4584.7026,152215.64,2385.348),cellId=nil},
     {coords=util.vector3(-448.0,-768.0,-960.0),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(2944.0,192.0,128.0),cellId="Vivec, St. Delyn Waistworks"},
-    {coords=util.vector3(-16225.789,-13585.804,620.295),cellId="Balmora"},
     {coords=util.vector3(58912.9,-93351.38,1056.992),cellId=nil},
     {coords=util.vector3(12.565,-8.379,208.0),cellId="Dagon Fel, Watch Tower"},
     {coords=util.vector3(0.0,0.0,-32.0),cellId="Vivec, Foreign Quarter Tomb"},
     {coords=util.vector3(575.006,-1171.98,-256.0),cellId="Vivec, St. Olms Canalworks"},
     {coords=util.vector3(393.36316,8.699501,-1152.8715),cellId="Dubdilla, Uncharted Caverns"},
-    {coords=util.vector3(152724.28,38313.28,990.573),cellId="Sadrith Mora"},
     {coords=util.vector3(-1088.1456,7551.7324,-2176.182),cellId="Falasmaryon, Lower Level"},
     {coords=util.vector3(161.229,9.309,238.923),cellId="Sadrith Mora, Milara Vedran's House"},
     {coords=util.vector3(0.0,256.0,0.0),cellId="Ald-ruhn, Sarethi Manor"},
     {coords=util.vector3(20.519,691.827,-20.39),cellId="Falvillo's Endeavor, Lower Level"},
-    {coords=util.vector3(26634.1,-86259.805,1887.3419),cellId="Vivec, Redoran"},
     {coords=util.vector3(1538.058,2256.338,874.69),cellId="Nallit"},
     {coords=util.vector3(91.445,-1246.4,232.367),cellId="Caldera, South Guard Towers"},
+    {coords=util.vector3(36543.816,-94693.36,1887.3419),cellId=nil},
     {coords=util.vector3(3575.171,6643.234,223.887),cellId="Gnisis, Arvs-Drelen"},
     {coords=util.vector3(-124.0,2752.0,256.0),cellId="Heran Ancestral Tomb"},
     {coords=util.vector3(14073.879,-100746.016,832.0),cellId=nil},
     {coords=util.vector3(-1538.6022,-286.23413,1248.0),cellId="Moonmoth Legion Fort, Prison Towers"},
     {coords=util.vector3(608.0,-512.0,-288.0),cellId="Ald-ruhn, Arobar Private Quarters"},
+    {coords=util.vector3(-35229.6,79771.03,1838.592),cellId=nil},
     {coords=util.vector3(2593.761,-4356.801,-148.636),cellId="Dubdilla, Uncharted Caverns"},
-    {coords=util.vector3(31703.922,-105757.15,947.59454),cellId="Vivec, Temple"},
     {coords=util.vector3(-88512.836,126766.82,255.574),cellId=nil},
-    {coords=util.vector3(-9888.0,18736.0,1471.988),cellId="Caldera"},
-    {coords=util.vector3(-254.55408,202.37886,-413.78452),cellId="Vivec, Elven Nations Cornerclub"},
     {coords=util.vector3(419.22974,266.0699,95.94075),cellId="Surirulk"},
+    {coords=util.vector3(-254.55408,202.37886,-413.78452),cellId="Vivec, Elven Nations Cornerclub"},
+    {coords=util.vector3(110175.52,-3999.93,672.85657),cellId=nil},
     {coords=util.vector3(128.0,-384.0,192.0),cellId="Balmora, Caius Cosades' House"},
     {coords=util.vector3(-5696.0,192.0,224.0),cellId="Assemanu"},
+    {coords=util.vector3(-11532.91,56248.59,2684.665),cellId=nil},
     {coords=util.vector3(1888.0,-640.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(6400.0,7104.0,304.0),cellId="Vivec, Arena Underworks"},
     {coords=util.vector3(640.0,192.0,256.0),cellId="Balmora, Guild of Fighters"},
@@ -4461,22 +4473,20 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-0.0007839203,-4824.0,-1264.0),cellId="Dagoth Ur, Outer Facility"},
     {coords=util.vector3(-26134.88,6877.66,961.464),cellId=nil},
     {coords=util.vector3(2752.0,-6208.0,385.49982),cellId="Kora-Dur"},
+    {coords=util.vector3(-12635.799,21860.812,1676.185),cellId=nil},
     {coords=util.vector3(-1.7929993,-252.03699,85.66),cellId="Suran, Oran Manor"},
     {coords=util.vector3(-18040.855,-13255.999,299.5029),cellId=nil},
     {coords=util.vector3(-512.35754,1028.0212,-1329.309),cellId="Pelagiad, North Wall"},
-    {coords=util.vector3(9540.379,-100366.48,2661.276),cellId="Ebonheart"},
     {coords=util.vector3(132775.5,-12164.636,1299.575),cellId=nil},
     {coords=util.vector3(110831.484,-4311.0312,643.24524),cellId=nil},
     {coords=util.vector3(-1403.24,3666.996,-958.426),cellId="Andasreth, Upper Level"},
     {coords=util.vector3(149208.92,36075.83,3468.1667),cellId=nil},
     {coords=util.vector3(73352.375,-66714.87,383.69687),cellId=nil},
     {coords=util.vector3(96640.0,115744.0,1563.7047),cellId=nil},
-    {coords=util.vector3(18941.303,-100440.73,1188.218),cellId="Ebonheart"},
     {coords=util.vector3(150086.83,-38751.203,1303.939),cellId=nil},
     {coords=util.vector3(-131.427,-345.94,-114.109),cellId="Fair Helas, Cabin"},
     {coords=util.vector3(-158.59286,609.5634,-1741.0673),cellId="Vivec, St. Delyn Plaza"},
     {coords=util.vector3(521.805,1812.602,346.077),cellId="Sanabi"},
-    {coords=util.vector3(32543.223,-95007.98,-247.16382),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(304.0,-224.0,464.0),cellId="Sadrith Mora, Gateway Inn: North Wing"},
     {coords=util.vector3(-62.294,58.95,-30.659),cellId="Vivec, St. Olms Waist North-One"},
     {coords=util.vector3(-985.0538,-312.42972,322.9264),cellId="Vivec, Foreign Quarter Plaza"},
@@ -4484,13 +4494,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1156.2214,-201.10406,-534.02545),cellId="Vivec, High Fane"},
     {coords=util.vector3(480.0,-384.0,257.182),cellId="Buckmoth Legion Fort, Interior"},
     {coords=util.vector3(-64.0,256.0,0.0),cellId="Ald-ruhn, Boldrisa Andrano's House"},
+    {coords=util.vector3(110229.84,118860.05,638.455),cellId=nil},
     {coords=util.vector3(6144.148,159.4452,-112.310555),cellId="Vivec, St. Delyn Underworks"},
     {coords=util.vector3(-32.0,-256.0,288.0),cellId="Tureynulal, Bladder of Clovis"},
-    {coords=util.vector3(86296.0,117432.0,5223.227),cellId="Tel Vos"},
     {coords=util.vector3(-22619.482,-12104.363,892.3672),cellId=nil},
     {coords=util.vector3(5376.0,4864.0,18144.0),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(64.0,256.0,-256.0),cellId="Vivec, Hlaalu Alchemist"},
-    {coords=util.vector3(75264.0,52736.0,1664.0),cellId="Falensarano"},
     {coords=util.vector3(4224.0,2816.0,15424.0),cellId="Dren Plantation, Guardhouse"},
     {coords=util.vector3(-224.0,-416.0,96.0),cellId="Sadrith Mora, Wolverine Hall: Fighter's Guild"},
     {coords=util.vector3(-32.35524,239.97777,221.80882),cellId="Caldera, Falanaamo: Clothier"},
@@ -4498,14 +4507,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-18640.223,102793.14,2425.3286),cellId=nil},
     {coords=util.vector3(2432.0,832.0,-960.0),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(576.0,831.0,-512.0),cellId="Telasero, Propylon Chamber"},
-    {coords=util.vector3(-59224.348,27195.22,303.457),cellId="Gnaar Mok"},
     {coords=util.vector3(640.0,128.0,0.0),cellId="Nilera's Farmhouse"},
     {coords=util.vector3(2.790834,-46.874104,-14.806322),cellId="Sobitbael Camp, Mal's Yurt"},
     {coords=util.vector3(2352.171,773.121,12176.434),cellId="Kogoruhn, Charma's Breath"},
-    {coords=util.vector3(109501.89,-2466.4055,637.24164),cellId="Erabenimsun Camp"},
+    {coords=util.vector3(149408.0,30272.0,1280.0),cellId=nil},
+    {coords=util.vector3(22786.47,-55916.016,1099.173),cellId=nil},
     {coords=util.vector3(-108.61363,-130.4729,233.247),cellId="Shushishi"},
     {coords=util.vector3(-6.874895,-132.39838,-45.693085),cellId="Vivec, St. Olms Upper North-One"},
-    {coords=util.vector3(85155.64,120368.65,4291.375),cellId="Tel Vos"},
     {coords=util.vector3(448.0,-128.0,-128.0),cellId="Vivec, Library of Vivec"},
     {coords=util.vector3(-622.7503,1019.4105,-1071.9999),cellId="Pelagiad, North Wall"},
     {coords=util.vector3(-9097.746,19981.81,1232.806),cellId=nil},
@@ -4516,14 +4524,14 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2528.0,-1152.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(9024.923,4160.074,-672.0),cellId="Sanit"},
     {coords=util.vector3(-1760.0,2080.0,-1472.0),cellId="Falensarano, Upper Level"},
+    {coords=util.vector3(-60044.25,27201.445,296.137),cellId=nil},
     {coords=util.vector3(5045.8535,7871.49,1855.2747),cellId="Urshilaku, Laterus Burial"},
     {coords=util.vector3(-256.0,-256.0,-128.8021),cellId="Vivec, Telvanni Mage"},
     {coords=util.vector3(107517.76,62694.965,546.142),cellId=nil},
     {coords=util.vector3(-1976.887,4993.998,-29.776),cellId="Nissintu"},
+    {coords=util.vector3(-18488.307,102849.41,2433.871),cellId=nil},
     {coords=util.vector3(-2691.016,726.759,-1186.475),cellId="Sharapli"},
     {coords=util.vector3(-178.179,-122.151,128.0),cellId="Balmora, Dralosa Athren's House"},
-    {coords=util.vector3(2304.0,119756.0,2146.0),cellId="Kogoruhn"},
-    {coords=util.vector3(20094.807,-103213.26,153.301),cellId="Ebonheart"},
     {coords=util.vector3(36197.97,-64206.344,1100.609),cellId=nil},
     {coords=util.vector3(8.0,0.0,80.0),cellId="Vos, Fanisea Irano's Farmhouse"},
     {coords=util.vector3(122.453,-102.134,-174.717),cellId="Gnisis, Shand Hut"},
@@ -4537,13 +4545,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2234.251,513.649,224.274),cellId="Pelagiad, Fort Pelagiad"},
     {coords=util.vector3(67716.46,154422.64,71.47975),cellId=nil},
     {coords=util.vector3(5706.948,6250.764,436.10092),cellId="Urshilaku, Laterus Burial"},
+    {coords=util.vector3(-17236.957,102243.6,2453.604),cellId=nil},
     {coords=util.vector3(0.0,640.0,-48.0),cellId="Buckmoth Legion Fort, Interior"},
     {coords=util.vector3(-10313.273,19837.785,1421.498),cellId=nil},
     {coords=util.vector3(89192.0,9168.0,2080.0),cellId=nil},
     {coords=util.vector3(1728.0,-1536.0,-384.0),cellId="Ald-ruhn, Llethri Manor Entrance"},
     {coords=util.vector3(32704.938,-85287.57,-262.29883),cellId=nil},
     {coords=util.vector3(-67622.6,46039.848,2482.275),cellId=nil},
-    {coords=util.vector3(-9902.688,22495.4,2214.672),cellId="Caldera"},
     {coords=util.vector3(768.0,1392.0,352.0),cellId="Ebonheart, Hawkmoth Legion Garrison"},
     {coords=util.vector3(4742.876,6907.476,-556.794),cellId="Band Egg Mine"},
     {coords=util.vector3(256.0,-512.0,-384.0),cellId="Pelagiad, Guard Tower"},
@@ -4568,11 +4576,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4729.993,1962.076,13024.597),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(-103870.48,117114.17,2336.0),cellId=nil},
     {coords=util.vector3(1531.817,2241.3,-0.567),cellId="Shishara"},
-    {coords=util.vector3(5093.607,-54917.645,2297.743),cellId="Pelagiad"},
+    {coords=util.vector3(9533.879,-100762.016,2124.0),cellId=nil},
     {coords=util.vector3(2976.0,-1344.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(264.04404,-1519.4269,209.76483),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(256.0,256.0,-299.6798),cellId="Sadrith Mora, Tel Naga Upper Tower"},
     {coords=util.vector3(-37778.57,-70011.68,312.86093),cellId=nil},
+    {coords=util.vector3(29088.023,-91919.58,1887.342),cellId=nil},
     {coords=util.vector3(-216.663,-158.695,3.684),cellId="Dagon Fel, Heifnir: Trader"},
     {coords=util.vector3(3647.0,5408.0,13888.0),cellId="Kogoruhn, Hall of the Watchful Touch"},
     {coords=util.vector3(126844.875,-4538.75,895.40546),cellId=nil},
@@ -4581,17 +4590,17 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1632.0,3136.0,272.0),cellId="Molag Mar, Underworks"},
     {coords=util.vector3(34903.434,-37642.363,760.161),cellId=nil},
     {coords=util.vector3(-10690.568,-70791.96,338.716),cellId=nil},
+    {coords=util.vector3(85640.52,118049.93,5127.514),cellId=nil},
     {coords=util.vector3(-128.0,32.0,128.0),cellId="Ebonheart, East Empire Company Hall"},
     {coords=util.vector3(4032.0,3968.0,14784.0),cellId="Mila-Nipal, Manat's Yurt"},
+    {coords=util.vector3(1960.884,-57272.06,1612.453),cellId=nil},
     {coords=util.vector3(-151.289,-229.288,108.067),cellId="Dagon Fel, Greidil Half-Troll's House"},
     {coords=util.vector3(5456.0,2240.0,12768.0),cellId="Vivec, Hall of Wisdom"},
-    {coords=util.vector3(-87670.875,79495.72,110.348),cellId="Koal Cave Entrance"},
     {coords=util.vector3(76691.2,83935.555,859.45),cellId=nil},
-    {coords=util.vector3(87421.09,10071.126,2353.818),cellId="Uvirith's Grave"},
     {coords=util.vector3(5223.1167,3041.1592,12287.153),cellId="Vivec, St. Delyn Canalworks"},
     {coords=util.vector3(-228.05322,-3.7814298,218.94449),cellId="Tel Mora, Berwen: Trader"},
     {coords=util.vector3(1043.2219,1527.9553,-668.258),cellId="Mababi"},
-    {coords=util.vector3(-10790.73,126774.82,1431.322),cellId="Falasmaryon"},
+    {coords=util.vector3(12765.516,-102070.4,831.347),cellId=nil},
     {coords=util.vector3(27465.037,39299.902,2506.7869),cellId=nil},
     {coords=util.vector3(16.286,687.613,-28.391),cellId="Arrow, Lower Level"},
     {coords=util.vector3(16.0,204.0,360.0),cellId="Buckmoth Legion Fort, Prison"},
@@ -4602,15 +4611,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(144.0,-80.0,-208.0),cellId="Tel Uvirith, Seleth's House"},
     {coords=util.vector3(234.287,-261.311,85.553),cellId="Pelagiad, Halfway Tavern"},
     {coords=util.vector3(28152.818,-91186.44,1880.379),cellId=nil},
-    {coords=util.vector3(27335.234,-93312.0,2234.0786),cellId="Vivec, St. Delyn"},
+    {coords=util.vector3(-17148.396,52087.918,2862.096),cellId=nil},
     {coords=util.vector3(2332.8,896.0,-32.0),cellId="Nchurdamz, Interior"},
     {coords=util.vector3(152.5435,18.46064,240.43242),cellId="Sadrith Mora, Volmyni Dral's House"},
     {coords=util.vector3(-128.0,-64.0,-128.0),cellId="Vivec, Hlaalu Records"},
     {coords=util.vector3(-13563.711,43062.195,2674.2534),cellId=nil},
     {coords=util.vector3(-23.165209,373.42606,-179.29721),cellId="Urshilaku Camp, Kurapli's Yurt"},
     {coords=util.vector3(-64.0,-128.0,-128.0),cellId="Vivec, Hall of Justice"},
-    {coords=util.vector3(18830.275,-102991.97,1117.737),cellId="Ebonheart"},
-    {coords=util.vector3(26634.1,-87557.28,1887.3419),cellId="Vivec, Redoran"},
     {coords=util.vector3(-57.5382,171.93867,-23.942436),cellId="Yakaridan Camp, Kitbael's Yurt"},
     {coords=util.vector3(-335.491,-5771.6953,-295.66),cellId="Seyda Neen, Arrille's Tradehouse"},
     {coords=util.vector3(6525.275,8031.21,12192.0),cellId="Kogoruhn, Charma's Breath"},
@@ -4618,22 +4625,21 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2045.1261,3995.457,13.878783),cellId="Vivec, Puzzle Canal, Level 4"},
     {coords=util.vector3(-1545.1628,-312.8533,84.231),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(157299.44,51229.254,797.918),cellId=nil},
-    {coords=util.vector3(44866.496,-84349.33,1887.342),cellId="Vivec, Telvanni"},
+    {coords=util.vector3(-20708.86,103436.164,2074.128),cellId=nil},
     {coords=util.vector3(45732.36,-49486.21,1096.513),cellId=nil},
-    {coords=util.vector3(45033.555,127073.69,736.0458),cellId="Zergonipal"},
-    {coords=util.vector3(42049.11,-84348.33,1887.342),cellId="Vivec, Telvanni"},
     {coords=util.vector3(-96.0,2052.0,-1128.0),cellId="Bal Ur, Shrine"},
+    {coords=util.vector3(20242.79,-80930.234,-251.73059),cellId=nil},
     {coords=util.vector3(100062.33,139830.4,-120.73191),cellId=nil},
     {coords=util.vector3(55434.75,-53912.06,1312.9116),cellId=nil},
-    {coords=util.vector3(89852.27,9196.533,1957.262),cellId="Uvirith's Grave"},
-    {coords=util.vector3(-27015.926,150160.83,795.4346),cellId="Urshilaku Camp"},
+    {coords=util.vector3(-21590.252,-14373.016,939.642),cellId=nil},
+    {coords=util.vector3(36544.92,-85502.54,1887.3419),cellId=nil},
     {coords=util.vector3(4564.073,5118.959,13931.401),cellId="Ashimanu Egg Mine, Queen's Lair"},
-    {coords=util.vector3(-11917.43,20520.543,1565.6061),cellId="Caldera"},
-    {coords=util.vector3(-388.0,-1349.6025,1824.0),cellId="Sandus Ancestral Tomb"},
     {coords=util.vector3(245.58,3994.707,-678.973),cellId="Tusenend, Shrine"},
+    {coords=util.vector3(-388.0,-1349.6025,1824.0),cellId="Sandus Ancestral Tomb"},
     {coords=util.vector3(4362.4683,3523.9,-65.23338),cellId="Prelude Shipwreck, Upper Level"},
     {coords=util.vector3(833.734,1149.9989,-1152.0),cellId="Telasero, Upper Level"},
     {coords=util.vector3(1040.0,2544.0,-288.0),cellId="Ebonheart, Hawkmoth Legion Garrison"},
+    {coords=util.vector3(125008.26,46125.984,1723.14),cellId=nil},
     {coords=util.vector3(-16.0,-256.0,-48.0),cellId="Maar Gan, Yeherradad's Hut"},
     {coords=util.vector3(25130.527,170035.16,649.7377),cellId=nil},
     {coords=util.vector3(128.0,-256.0,256.0),cellId="Tureynulal, Kagrenac's Library"},
@@ -4643,21 +4649,24 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1744.0,1168.0,96.0),cellId="Vivec, Telvanni Underworks"},
     {coords=util.vector3(-6879.372,26684.418,1506.7661),cellId=nil},
     {coords=util.vector3(-1473.697,134.4209,324.4889),cellId="Vivec, Foreign Quarter Plaza"},
+    {coords=util.vector3(33119.242,-95373.97,-247.16382),cellId=nil},
     {coords=util.vector3(5632.0,-256.0,-128.0),cellId="Vivec, Telvanni Mage"},
     {coords=util.vector3(-2815.673,-415.449,721.2),cellId="Inanius Egg Mine"},
     {coords=util.vector3(-20370.283,102760.08,2056.0),cellId=nil},
     {coords=util.vector3(-35762.11,21201.86,1303.2905),cellId=nil},
     {coords=util.vector3(256.0,3648.0,-640.0),cellId="Ald-ruhn, Venim Manor Right Wing"},
     {coords=util.vector3(-256.0,-64.0,0.0),cellId="Ald-ruhn, Guls Llervu's House"},
+    {coords=util.vector3(15010.02,-100910.266,1317.676),cellId=nil},
     {coords=util.vector3(29088.467,-95764.58,676.4992),cellId=nil},
     {coords=util.vector3(760.0,1792.0,-297.847),cellId="Nimawia Grotto"},
+    {coords=util.vector3(78605.336,84838.24,916.606),cellId=nil},
     {coords=util.vector3(-28427.754,134800.61,1012.923),cellId=nil},
+    {coords=util.vector3(15588.817,-101563.14,1493.268),cellId=nil},
     {coords=util.vector3(-510.4207,-250.61345,-39.528988),cellId="Vivec, Canon Offices"},
     {coords=util.vector3(3133.3057,2024.5002,15574.43),cellId="Tel Vos, Aryon's Chambers"},
     {coords=util.vector3(2056.1965,569.87067,-140.088),cellId="Vivec, St. Delyn Underworks"},
     {coords=util.vector3(110351.516,-3410.3813,637.85956),cellId=nil},
     {coords=util.vector3(109003.54,118520.32,531.362),cellId=nil},
-    {coords=util.vector3(6680.145,-54743.594,2300.314),cellId="Pelagiad"},
     {coords=util.vector3(-117.46772,67.524796,-36.723557),cellId="Caldera, Odairan Ashummi-Ammus' House"},
     {coords=util.vector3(-1131.5173,1174.283,84.231),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(936.411,-3767.3096,-875.73627),cellId="Dagoth Ur, Inner Facility"},
@@ -4670,18 +4679,16 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(11.123329,-3.5427232,-43.25217),cellId="Vivec, Telvanni Sorcerer"},
     {coords=util.vector3(123.231,2142.902,-297.611),cellId="Shashpilamat, Shrine"},
     {coords=util.vector3(-320.0,-140.63446,-128.0),cellId="Vivec, Telvanni Vault"},
-    {coords=util.vector3(9954.267,-100362.375,2114.359),cellId="Ebonheart"},
     {coords=util.vector3(-18254.803,-13565.158,307.12247),cellId=nil},
     {coords=util.vector3(-62512.64,28190.725,937.314),cellId=nil},
-    {coords=util.vector3(-11621.729,18256.871,1347.139),cellId="Caldera"},
     {coords=util.vector3(-768.0,1984.0,-128.0),cellId="Ald-ruhn, Venim Manor Entrance"},
     {coords=util.vector3(768.0,2592.0,384.0),cellId="Ebonheart, Hawkmoth Legion Garrison"},
     {coords=util.vector3(-27588.795,149806.86,788.4026),cellId=nil},
     {coords=util.vector3(-1712.0,3152.0,272.0),cellId="Molag Mar, Underworks"},
     {coords=util.vector3(-1024.0,-1120.0,288.0),cellId="Salothran Ancestral Tomb"},
     {coords=util.vector3(32.0,64.0,-96.0),cellId="Kogoruhn, Temple of Fey"},
+    {coords=util.vector3(61392.445,183057.36,229.833),cellId=nil},
     {coords=util.vector3(38458.098,-86913.6,2131.117),cellId=nil},
-    {coords=util.vector3(-35877.84,-38059.594,2039.536),cellId="Odai Plateau"},
     {coords=util.vector3(5241.471,3002.816,13024.826),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(-2556.327,153545.14,2402.311),cellId=nil},
     {coords=util.vector3(21944.0,182424.0,292.0),cellId=nil},
@@ -4691,41 +4698,39 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-89.79293,1.7178822,86.135155),cellId="Kudanat"},
     {coords=util.vector3(1896.0,-1088.0,-1492.0),cellId="Druscashti, Lower Level"},
     {coords=util.vector3(-268.46985,1007.1629,-39.414078),cellId="Vivec, Ordinator Barracks"},
-    {coords=util.vector3(110175.52,-3999.93,672.85657),cellId="Erabenimsun Camp"},
     {coords=util.vector3(53481.16,-51684.867,291.99506),cellId=nil},
     {coords=util.vector3(1056.0,1664.0,-1072.0),cellId="Sulipund"},
     {coords=util.vector3(-63091.324,135934.84,833.407),cellId=nil},
     {coords=util.vector3(-50109.37,80320.07,1722.213),cellId=nil},
     {coords=util.vector3(107768.66,-63754.754,656.0),cellId=nil},
-    {coords=util.vector3(42782.07,-81869.76,1887.342),cellId="Vivec"},
+    {coords=util.vector3(3411.734,87635.31,9369.77),cellId=nil},
     {coords=util.vector3(-1214.0,3512.001,-1104.0),cellId="Marandus, Upper Level"},
     {coords=util.vector3(36.183,226.57901,-117.33552),cellId="Urshilaku Camp, Zanummu's Yurt"},
     {coords=util.vector3(4885.742,8498.458,146.16327),cellId="Urshilaku, Laterus Burial"},
     {coords=util.vector3(-12682.0,54457.0,2450.0),cellId=nil},
-    {coords=util.vector3(-13248.114,20743.543,1650.782),cellId="Caldera"},
+    {coords=util.vector3(15620.386,-102275.93,1498.87),cellId=nil},
     {coords=util.vector3(-312.55798,73.246765,-381.476),cellId="Dagon Fel, Heifnir: Trader"},
     {coords=util.vector3(-448.00006,3072.0,-448.0),cellId="Falensarano, Lower Level"},
     {coords=util.vector3(78351.016,83962.664,1009.659),cellId=nil},
+    {coords=util.vector3(71170.87,-74445.695,371.64578),cellId=nil},
     {coords=util.vector3(529.3659,544.3629,108.42836),cellId="Vivec, Hlaalu Plaza"},
-    {coords=util.vector3(26300.133,60943.17,11267.7),cellId="Odrosal"},
     {coords=util.vector3(91033.92,-93184.17,190.493),cellId=nil},
     {coords=util.vector3(4008.0227,4182.649,-878.3727),cellId="Obscure Shipwreck, Upper Level"},
     {coords=util.vector3(-243.507,1702.584,-294.44),cellId="Ashurnibibi, Shrine"},
     {coords=util.vector3(132191.64,61171.824,411.823),cellId=nil},
     {coords=util.vector3(6142.2456,3996.165,16.81442),cellId="Vivec, Puzzle Canal, Level 5"},
-    {coords=util.vector3(-8315.342,55148.098,2849.44),cellId="Ald-ruhn"},
+    {coords=util.vector3(35805.87,-22097.42,2110.0),cellId=nil},
     {coords=util.vector3(126.041,-2361.489,-414.766),cellId="Ashir-Dan"},
-    {coords=util.vector3(-43200.0,-3448.0,3072.0),cellId="Hlormaren"},
     {coords=util.vector3(4105.556,4217.596,14339.125),cellId="Dren Plantation, Storage Shack"},
     {coords=util.vector3(2688.0,448.0,128.0),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(128.0,-256.0,-128.0),cellId="Gnisis, Vabdas Hut"},
     {coords=util.vector3(1025.5236,531.15076,-1577.5651),cellId="Pelagiad, North Wall"},
     {coords=util.vector3(-31.722656,-809.77344,122.77783),cellId="Vivec, Hlaalu Plaza"},
-    {coords=util.vector3(-21590.252,-14373.016,939.642),cellId="Balmora"},
     {coords=util.vector3(144517.16,52271.883,339.997),cellId=nil},
     {coords=util.vector3(2047.0654,3992.0298,12.799473),cellId="Vivec, Puzzle Canal, Level 3"},
     {coords=util.vector3(35.611,-52.012,-11.627),cellId="Llirala's Shack"},
     {coords=util.vector3(-52421.66,23029.693,89.844),cellId=nil},
+    {coords=util.vector3(-17701.938,-16439.41,599.655),cellId=nil},
     {coords=util.vector3(31974.875,-106056.484,1349.0381),cellId=nil},
     {coords=util.vector3(-882.0,5636.0,854.0),cellId="Ilunibi, Tainted Marrow"},
     {coords=util.vector3(29117.082,-94860.445,1880.191),cellId=nil},
@@ -4733,21 +4738,23 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-2012.758,1368.461,-1120.0),cellId="Arkngthunch-Sturdumz"},
     {coords=util.vector3(-448.0,128.0,-128.0),cellId="Vivec, St. Olms Tanners and Miners Hall"},
     {coords=util.vector3(508.69403,-258.63193,340.91974),cellId="Suran, Ibarnadad Assirnarari: Apothecary"},
+    {coords=util.vector3(62283.926,185403.27,184.021),cellId=nil},
     {coords=util.vector3(-76.0,330.0,142.0),cellId="Mudan, Right Tower"},
     {coords=util.vector3(3598.5928,1924.8134,298.8511),cellId="Vivec, Puzzle Canal, Level 3"},
     {coords=util.vector3(-87113.37,69660.336,183.772),cellId=nil},
     {coords=util.vector3(-85.27335,-97.20509,109.19263),cellId="Dagon Fel, Greidil Half-Troll's House"},
     {coords=util.vector3(528.0,1024.0,-32.0),cellId="Moonmoth Legion Fort, Interior"},
     {coords=util.vector3(128.0,-320.0,-128.0),cellId="Vivec, Telvanni Mage"},
-    {coords=util.vector3(-82449.016,91806.71,1087.7914),cellId="Gnisis"},
+    {coords=util.vector3(108536.56,116171.734,732.369),cellId=nil},
     {coords=util.vector3(33931.316,-93988.26,1876.9807),cellId=nil},
+    {coords=util.vector3(-27739.723,149349.27,796.24756),cellId=nil},
     {coords=util.vector3(52872.664,101605.336,2562.069),cellId=nil},
     {coords=util.vector3(427.04257,637.2861,-368.0),cellId="Rotheran, Propylon Chamber"},
-    {coords=util.vector3(148951.1,40770.117,1380.158),cellId="Sadrith Mora"},
-    {coords=util.vector3(-87845.44,95615.54,1412.4161),cellId="Gnisis"},
+    {coords=util.vector3(-12591.056,44090.3,3018.4622),cellId=nil},
     {coords=util.vector3(2048.0,4096.0,13984.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(4786.0996,-650.49164,-399.52344),cellId="Vivec, No Name Club"},
     {coords=util.vector3(0.0,-240.0,-32.0),cellId="Ald-ruhn, Gindrala Hleran's House"},
+    {coords=util.vector3(-89396.89,129201.57,156.603),cellId=nil},
     {coords=util.vector3(4519.82,1733.163,13712.0),cellId="Tel Vos, Barracks and Armory"},
     {coords=util.vector3(-3087.85,4722.124,-159.271),cellId="Ibar-Dad"},
     {coords=util.vector3(511.10236,-755.0895,-30.871765),cellId="Vivec, Hlaalu Waistworks"},
@@ -4756,13 +4763,16 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(640.0,512.0,384.0),cellId="Suran, Suran Tradehouse"},
     {coords=util.vector3(-14946.597,-13405.65,826.297),cellId=nil},
     {coords=util.vector3(1214.0754,3397.947,-135.27202),cellId="Ebonheart, Hawkmoth Towers"},
+    {coords=util.vector3(127562.336,47149.85,965.407),cellId=nil},
     {coords=util.vector3(3904.0,5376.0,11840.0),cellId="Vivec, Telvanni Tower"},
     {coords=util.vector3(-2859.658,3069.011,1130.541),cellId="Minabi"},
     {coords=util.vector3(640.0,-1024.0,96.0),cellId="Ald-ruhn, Redoran Council Hall"},
     {coords=util.vector3(-22312.914,104869.945,2240.0),cellId=nil},
     {coords=util.vector3(5607.685,1787.056,384.0),cellId="Ashunartes, Shrine"},
-    {coords=util.vector3(94552.516,167771.11,1163.7671),cellId="Ald Daedroth"},
+    {coords=util.vector3(-13216.289,56720.344,2652.961),cellId=nil},
+    {coords=util.vector3(-16738.012,102064.77,3422.645),cellId=nil},
     {coords=util.vector3(131.228,409.441,-432.322),cellId="Marandus, Dome"},
+    {coords=util.vector3(-21675.746,-13264.275,916.627),cellId=nil},
     {coords=util.vector3(10.139632,-38.06716,128.0),cellId="Suran, Goldyn Belaram: Pawnbroker"},
     {coords=util.vector3(86708.12,119276.55,4961.516),cellId=nil},
     {coords=util.vector3(-128.0,-64.0,-128.0),cellId="Vivec, Telvanni Sorcerer"},
@@ -4778,26 +4788,26 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1582.6016,-586.4297,1598.552),cellId="Vivec, Redoran Plaza"},
     {coords=util.vector3(-1728.0,3072.0,320.0),cellId="Arkngthand, Hall of Centrifuge"},
     {coords=util.vector3(3936.0,4096.0,256.0),cellId="Urshilaku, Fragile Burial"},
+    {coords=util.vector3(-13538.228,-71932.914,161.339),cellId=nil},
     {coords=util.vector3(37609.363,-35473.05,1041.001),cellId=nil},
     {coords=util.vector3(-0.017,-4960.001,-1248.0),cellId="Dagoth Ur, Outer Facility"},
     {coords=util.vector3(94.598564,-30.077545,-18.322155),cellId="Erabenimsun Camp, Ranabi's Yurt"},
     {coords=util.vector3(2.015,-14.951,-36.062),cellId="Vivec, Hlaalu Edryno Arethi's House"},
     {coords=util.vector3(-1632.0,2320.0,704.0),cellId="Arkngthand, Hall of Centrifuge"},
     {coords=util.vector3(1488.0,3332.0,-4.0),cellId="Bal Ur, Shrine"},
-    {coords=util.vector3(-68878.195,141252.92,302.987),cellId="Khuul"},
     {coords=util.vector3(185.022,-48.456,-2.507),cellId="Llirala's Shack"},
     {coords=util.vector3(-138.298,-22.06,-208.997),cellId="Tel Branora, Lower Tower"},
     {coords=util.vector3(0.0,0.0,340.9198),cellId="Suran, Garothmuk gro-Muzgub: Smith"},
     {coords=util.vector3(27.489422,378.38525,-160.0),cellId="Zainab Camp, Ababael Timsar-Dadisun's Yurt"},
+    {coords=util.vector3(-4688.0,-17408.0,2064.0),cellId=nil},
     {coords=util.vector3(13577.879,-101930.016,832.0),cellId=nil},
     {coords=util.vector3(4120.063,3383.657,188.513),cellId="Unknown Shipwreck, Upper Level"},
-    {coords=util.vector3(86247.84,118807.91,4638.271),cellId="Tel Vos"},
     {coords=util.vector3(832.0,-256.0,-512.0),cellId="Vivec, St. Olms Haunted Manor"},
     {coords=util.vector3(132.8884,239.19066,469.0837),cellId="Dagoth Ur, Lower Facility"},
     {coords=util.vector3(1750.5372,2.3390732,-13.862055),cellId="Vivec, Arena Pit"},
     {coords=util.vector3(653.9492,-1330.6406,121.96265),cellId="Vivec, Hlaalu Plaza"},
-    {coords=util.vector3(-5568.0,-17312.0,2064.0),cellId="Moonmoth Legion Fort"},
     {coords=util.vector3(-1728.0,-1792.0,-64.0),cellId="Vivec, St. Delyn Storage"},
+    {coords=util.vector3(-78397.0,76484.0,2320.0),cellId=nil},
     {coords=util.vector3(15621.903,-5070.473,1201.553),cellId=nil},
     {coords=util.vector3(224.1047,-1397.514,-2092.981),cellId="Abaesen-Pulu Egg Mine"},
     {coords=util.vector3(-238.053,488.804,87.971),cellId="Balmora, Hlaalu Council Manor"},
@@ -4808,16 +4818,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-2432.0,-5023.999,-2336.0),cellId="Shulk Egg Mine"},
     {coords=util.vector3(1375.019,508.094,85.027),cellId="Tel Uvirith, Tower Upper"},
     {coords=util.vector3(4640.5767,1261.5974,12.250789),cellId="Vivec, Puzzle Canal, Level 2"},
-    {coords=util.vector3(54271.133,-56132.92,1326.611),cellId="Suran"},
     {coords=util.vector3(-256.0,64.0,-256.0),cellId="Vivec, Simine Fralinie: Bookseller"},
-    {coords=util.vector3(18654.94,-100442.016,576.0),cellId="Ebonheart"},
     {coords=util.vector3(1380.0,2604.0,871.23645),cellId="Ebonheart, Underground Caves"},
     {coords=util.vector3(2164.8699,1500.8887,448.0),cellId="Ebonheart, East Empire South Warehouse"},
-    {coords=util.vector3(125008.26,46125.984,1723.14),cellId="Tel Aruhn"},
     {coords=util.vector3(2801.2483,248.85526,216.39798),cellId="Vivec, St. Delyn Waistworks"},
     {coords=util.vector3(55623.91,115719.57,3828.0),cellId=nil},
-    {coords=util.vector3(-17701.938,-16439.41,599.655),cellId="Balmora"},
     {coords=util.vector3(2048.0,3553.6587,-32.0),cellId="Vivec, Puzzle Canal, Level 3"},
+    {coords=util.vector3(-9945.6,17151.562,1352.145),cellId=nil},
     {coords=util.vector3(-1248.0,224.0,-32.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(-1037.2185,-263.32764,-30.564034),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(-37669.176,110349.414,851.771),cellId=nil},
@@ -4825,6 +4832,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(118591.05,-102848.984,369.096),cellId=nil},
     {coords=util.vector3(12697.879,-102890.016,864.0),cellId=nil},
     {coords=util.vector3(1920.0,-576.0,-384.0),cellId="Vivec, Telvanni Waistworks"},
+    {coords=util.vector3(-36041.824,78453.19,2767.941),cellId=nil},
     {coords=util.vector3(1.43,-566.716,-137.067),cellId="Ald-ruhn, The Rat In The Pot"},
     {coords=util.vector3(21970.803,182281.67,304.0),cellId=nil},
     {coords=util.vector3(-85705.3,127990.92,259.327),cellId=nil},
@@ -4836,6 +4844,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(5440.0,4992.0,18048.0),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(0.0,-128.0,-64.0),cellId="Vivec, Black Shalk Cornerclub"},
     {coords=util.vector3(-251.33943,499.64188,-30.75481),cellId="Vivec, Hlaalu Treasury"},
+    {coords=util.vector3(147703.69,34047.008,840.199),cellId=nil},
     {coords=util.vector3(-1853.9053,169.72234,-769.7102),cellId="Molag Mar, Canalworks"},
     {coords=util.vector3(-515.761,-31.796,0.0),cellId="Ald-ruhn, Guild of Mages"},
     {coords=util.vector3(-2320.0,3323.9995,-988.0),cellId="Bal Ur, Shrine"},
@@ -4847,35 +4856,35 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(0.0,-384.0,0.0),cellId="Ald-ruhn, Tiras Sadus: General Merchandise"},
     {coords=util.vector3(1423.7073,2894.148,779.3098),cellId="Ebonheart, Underground Caves"},
     {coords=util.vector3(-22993.697,17206.777,2576.866),cellId=nil},
-    {coords=util.vector3(-21675.746,-13264.275,916.627),cellId="Balmora"},
     {coords=util.vector3(-1496.0,3489.998,-1104.0),cellId="Falensarano, Upper Level"},
     {coords=util.vector3(2013.957,2309.413,34.925),cellId="Elith-Pal Mine"},
     {coords=util.vector3(2496.0,-384.0,-128.0),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(1149.5991,-1000.37805,-128.671),cellId="Vivec, Arena Storage"},
     {coords=util.vector3(3048.257,1887.575,15422.688),cellId="Tel Vos, Aryon's Chambers"},
+    {coords=util.vector3(32343.95,-80134.375,1887.084),cellId=nil},
     {coords=util.vector3(-1469.9999,3512.002,-848.0),cellId="Falasmaryon, Upper Level"},
+    {coords=util.vector3(6170.0,119806.0,1472.0),cellId=nil},
     {coords=util.vector3(288.0,-416.0,96.0),cellId="Sadrith Mora, Wolverine Hall: Fighter's Guild"},
     {coords=util.vector3(-320.0,1408.0,-128.0),cellId="Vivec, Telvanni Vault"},
-    {coords=util.vector3(7873.997,186717.97,668.6154),cellId="Vas"},
+    {coords=util.vector3(15766.132,-102171.49,1310.311),cellId=nil},
     {coords=util.vector3(-44386.0,-3908.0,2386.0),cellId=nil},
     {coords=util.vector3(5504.0,3200.0,13792.0),cellId="Sarimisun-Assa Egg Mine, Queen's Lair"},
     {coords=util.vector3(1718.2216,2.7041302,-1800.6643),cellId="Vivec, St. Olms Plaza"},
-    {coords=util.vector3(129123.88,-102785.11,898.305),cellId="Tel Branora"},
+    {coords=util.vector3(149832.61,40339.84,1046.738),cellId=nil},
+    {coords=util.vector3(-12890.605,-70649.516,112.48),cellId=nil},
     {coords=util.vector3(255.65736,1021.7653,208.00003),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(34.528,379.944,-168.89),cellId="Erabenimsun Camp, Assemmus' Yurt"},
     {coords=util.vector3(144928.0,35904.0,416.0),cellId=nil},
     {coords=util.vector3(-36154.18,101959.04,2313.76),cellId=nil},
     {coords=util.vector3(86876.04,133789.02,852.175),cellId=nil},
+    {coords=util.vector3(-25767.494,-12814.449,1124.221),cellId=nil},
     {coords=util.vector3(-256.0,768.0,736.0),cellId="Ebonheart, Grand Council Chambers"},
     {coords=util.vector3(1920.1796,2361.3994,860.792),cellId="Mallapi"},
     {coords=util.vector3(-51763.508,152122.16,349.0722),cellId=nil},
     {coords=util.vector3(-67365.74,140911.42,374.0472),cellId=nil},
-    {coords=util.vector3(22893.463,-86838.88,1882.1614),cellId="Vivec, Hlaalu"},
     {coords=util.vector3(-2531.251,3844.976,-551.652),cellId="Sur Egg Mine"},
     {coords=util.vector3(94308.01,97547.74,1479.5996),cellId=nil},
-    {coords=util.vector3(20968.0,-56262.0,816.0),cellId="Dren Plantation"},
     {coords=util.vector3(-89466.51,128237.01,214.18822),cellId=nil},
-    {coords=util.vector3(55341.137,-54001.758,1330.776),cellId="Suran"},
     {coords=util.vector3(5559.0127,3188.783,13805.961),cellId="Yakin, Shrine"},
     {coords=util.vector3(9542.08,-100487.83,2642.7705),cellId=nil},
     {coords=util.vector3(2113.0554,1308.111,14.876341),cellId="Vivec, Puzzle Canal, Level 1"},
@@ -4886,57 +4895,55 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(133541.4,-62280.875,422.506),cellId=nil},
     {coords=util.vector3(-59254.85,27024.973,309.869),cellId=nil},
     {coords=util.vector3(-727.2703,-515.2299,-296.04324),cellId="Vivec, St. Olms Waistworks"},
-    {coords=util.vector3(-26530.848,151102.67,803.2373),cellId="Urshilaku Camp"},
     {coords=util.vector3(94097.555,-74696.914,415.81442),cellId=nil},
     {coords=util.vector3(5151.559,5402.9756,576.0),cellId="Mamaea, Sanctum of Awakening"},
     {coords=util.vector3(6718.817,4159.895,224.0),cellId="Ainab, Shrine"},
     {coords=util.vector3(-1047.6963,3072.063,-1031.4814),cellId="Ald Sotha, Upper Level"},
     {coords=util.vector3(32190.746,-80354.6,3098.762),cellId=nil},
     {coords=util.vector3(29106.053,-90868.42,661.617),cellId=nil},
-    {coords=util.vector3(-36041.824,78453.19,2767.941),cellId="Bal Isra"},
     {coords=util.vector3(124384.13,15857.785,491.90332),cellId=nil},
+    {coords=util.vector3(-45872.45,-38623.023,320.113),cellId=nil},
     {coords=util.vector3(62989.65,183247.28,288.82),cellId=nil},
     {coords=util.vector3(754.095,-62.441,-928.082),cellId="Yakin"},
     {coords=util.vector3(0.0,-4544.0,-512.0),cellId="Vemynal, Outer Fortress"},
-    {coords=util.vector3(-86346.06,93709.48,1109.8374),cellId="Gnisis"},
+    {coords=util.vector3(-10659.152,-71944.76,272.577),cellId=nil},
     {coords=util.vector3(336.04526,-1.6658148,129.67407),cellId="Tel Aruhn, Ferele Athram: Trader"},
-    {coords=util.vector3(13049.6,-100383.13,1760.667),cellId="Ebonheart"},
     {coords=util.vector3(-247.8644,690.2704,-545.7837),cellId="Ules Manor"},
+    {coords=util.vector3(-18815.363,104691.46,3135.695),cellId=nil},
+    {coords=util.vector3(34700.457,-103683.58,-262.683),cellId=nil},
     {coords=util.vector3(5824.0,4160.0,12928.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(0.002550372,3.2025769,87.54892),cellId="Balmora, Vorar Helas' House"},
     {coords=util.vector3(-732.552,5502.982,12304.0),cellId="Galom Daeus, Entry"},
     {coords=util.vector3(-143.91896,-153.00523,113.101),cellId="Pelagiad, Farusea Salas' House"},
     {coords=util.vector3(826.908,-127.931984,-1184.021),cellId="Pelagiad, South Wall"},
-    {coords=util.vector3(-79861.36,90983.9,1835.367),cellId="Gnisis"},
     {coords=util.vector3(-576.0,128.0,0.0),cellId="Vos, Ienasa Radas's Farmhouse"},
-    {coords=util.vector3(109225.83,116456.04,635.419),cellId="Tel Mora"},
     {coords=util.vector3(63.405098,-274.1526,0.0),cellId="Elf-Skerring, Upper Level"},
+    {coords=util.vector3(142624.0,-45440.0,2656.0),cellId=nil},
     {coords=util.vector3(155414.66,-7392.085,-288.7813),cellId=nil},
-    {coords=util.vector3(62720.555,181931.98,349.704),cellId="Dagon Fel"},
     {coords=util.vector3(-2293.3384,-633.9703,-871.7056),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(42.29,-4092.992,1112.845),cellId="Zebabi"},
     {coords=util.vector3(-1962.3674,3825.899,992.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(896.0,64.0,-256.0),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(58.851,-172.38,76.37887),cellId="Pelagiad, Dralas Gilu's House"},
-    {coords=util.vector3(-10582.168,-70725.47,356.903),cellId="Seyda Neen"},
     {coords=util.vector3(1280.0,-576.0,-256.0),cellId="Ald-ruhn, Venim Manor Private Quarters"},
     {coords=util.vector3(2432.0,4096.0,13760.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(2016.0,128.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(3.865,-44.002,84.722),cellId="Endusal, Kagrenac's study"},
+    {coords=util.vector3(-28663.54,150762.72,798.4475),cellId=nil},
     {coords=util.vector3(73215.6,-66784.61,387.716),cellId=nil},
     {coords=util.vector3(-7542.975,1427.332,527.429),cellId="Ashinabi"},
-    {coords=util.vector3(127562.336,47149.85,965.407),cellId="Tel Aruhn"},
     {coords=util.vector3(267.25415,524.28125,-32.16051),cellId="Vivec, Justice Offices"},
     {coords=util.vector3(-514.0123,4989.083,635.2303),cellId="Venim Ancestral Tomb"},
+    {coords=util.vector3(-67993.39,141319.28,389.747),cellId=nil},
     {coords=util.vector3(-2592.0,380.0,1440.0),cellId="Baram Ancestral Tomb"},
+    {coords=util.vector3(93958.64,135268.97,997.121),cellId=nil},
     {coords=util.vector3(6147.0093,638.97656,-140.56194),cellId="Vivec, Hlaalu Underworks"},
     {coords=util.vector3(-1357.6705,2812.4954,860.9718),cellId="Aharnabi"},
     {coords=util.vector3(-17.33684,27.482592,90.43498),cellId="Seyda Neen, Census and Excise Warehouse"},
     {coords=util.vector3(4206.993,3867.074,14816.509),cellId="Dren Plantation, Rethan's Shack"},
-    {coords=util.vector3(88280.24,8549.255,1854.6698),cellId="Uvirith's Grave"},
     {coords=util.vector3(-22422.676,105390.0,2240.0),cellId=nil},
-    {coords=util.vector3(-10675.308,54158.504,2445.7126),cellId="Ald-ruhn"},
     {coords=util.vector3(102073.15,-5637.307,806.7),cellId=nil},
+    {coords=util.vector3(-12611.152,41635.707,3016.4175),cellId=nil},
     {coords=util.vector3(5152.0,2048.0,96.0),cellId="Setus Egg Mine"},
     {coords=util.vector3(9.309366,-12.114477,-33.12438),cellId="Vivec, St. Olms Canal South-Three"},
     {coords=util.vector3(2309.922,3585.891,14936.974),cellId="Vivec, Foreign Quarter Upper Waistworks"},
@@ -4945,34 +4952,38 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-40518.35,67702.195,1971.44),cellId=nil},
     {coords=util.vector3(3585.2,-5276.7476,224.84996),cellId="Gnisis, Lower Eggmine"},
     {coords=util.vector3(-22728.404,12905.722,1744.324),cellId=nil},
+    {coords=util.vector3(126067.25,45670.35,2144.853),cellId=nil},
     {coords=util.vector3(4864.0,4384.0,13054.275),cellId="Vivec, Mevel Fererus: Trader"},
     {coords=util.vector3(-640.0,576.0,-128.0),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(148224.0,29184.0,1264.0),cellId=nil},
     {coords=util.vector3(-3769.697,-766.331,478.559),cellId="Ulummusa"},
     {coords=util.vector3(4044.4717,4290.4956,-463.14597),cellId="Lonely Shipwreck, Cabin"},
+    {coords=util.vector3(37551.254,-91338.87,1887.3419),cellId=nil},
     {coords=util.vector3(12709.8545,-53707.96,214.11838),cellId=nil},
     {coords=util.vector3(43450.12,-86262.984,2129.2349),cellId=nil},
+    {coords=util.vector3(34760.727,-93312.0,2235.4766),cellId=nil},
     {coords=util.vector3(-1747.4142,244.63947,233.10272),cellId="Vivec, St. Delyn Waistworks"},
     {coords=util.vector3(2098.009,1023.522,-22.069),cellId="Vivec, Foreign Quarter Tomb"},
     {coords=util.vector3(1920.0,448.0,-384.0),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(6731.9355,3089.187,11806.205),cellId="Urshilaku, Juno Burial"},
-    {coords=util.vector3(-17187.744,53303.848,2862.698),cellId="Ald-ruhn"},
     {coords=util.vector3(-222.255,16.055,199.097),cellId="Vos, Varo Tradehouse"},
-    {coords=util.vector3(-25767.494,-12814.449,1124.221),cellId="Balmora"},
     {coords=util.vector3(512.0,384.0,640.0),cellId="Balmora, Hlaalu Council Manor"},
     {coords=util.vector3(0.658,-33.256,96.926),cellId="Shushan"},
     {coords=util.vector3(1280.362,3937.982,465.763),cellId="Odirnamat"},
     {coords=util.vector3(44109.508,-81738.33,1881.6814),cellId=nil},
-    {coords=util.vector3(54737.863,-54154.758,1027.792),cellId="Suran"},
+    {coords=util.vector3(-27907.05,149869.23,797.7566),cellId=nil},
+    {coords=util.vector3(108756.05,-3058.2625,636.4296),cellId=nil},
+    {coords=util.vector3(-23806.371,-13423.26,1364.104),cellId=nil},
+    {coords=util.vector3(55685.79,-54516.316,1641.438),cellId=nil},
     {coords=util.vector3(-10004.0,22212.0,2156.0),cellId=nil},
     {coords=util.vector3(-176.0,512.0,-32.0),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(-11507.2295,18259.05,1320.0),cellId=nil},
     {coords=util.vector3(33504.0,-106568.0,1728.39),cellId=nil},
     {coords=util.vector3(0.0,5664.0,-392.0),cellId="Yasammidan, Shrine"},
     {coords=util.vector3(97417.61,-19073.611,1276.7964),cellId=nil},
-    {coords=util.vector3(51972.16,-37118.92,708.523),cellId="Bal Ur"},
     {coords=util.vector3(1664.0,3520.0,12800.0),cellId="Vivec, St. Delyn Canalworks"},
     {coords=util.vector3(-248.53922,-172.8279,-38.477875),cellId="Vivec, Telvanni Mage"},
+    {coords=util.vector3(-85744.055,95337.2,1111.607),cellId=nil},
     {coords=util.vector3(4096.0,3648.0,17344.0),cellId="Kogoruhn, Dome of Pollock's Eve"},
     {coords=util.vector3(-11705.484,19252.814,1424.0),cellId=nil},
     {coords=util.vector3(174.74835,-168.07173,93.004),cellId="Dagon Fel, Itar the Gentle's House"},
@@ -4982,6 +4993,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4416.0,5376.0,11840.0),cellId="Vivec, Telvanni Tower"},
     {coords=util.vector3(3204.0,-3648.0,3264.0),cellId="Sethan Ancestral Tomb"},
     {coords=util.vector3(21.306303,2.5359063,-35.804634),cellId="Vivec, St. Olms Canal North-One"},
+    {coords=util.vector3(38321.48,-93312.0,2236.1033),cellId=nil},
     {coords=util.vector3(892.0,3312.0,1004.0),cellId="Sud"},
     {coords=util.vector3(115648.0,9792.0,401.986),cellId=nil},
     {coords=util.vector3(-960.0,-384.0,-384.0),cellId="Vivec, Hlaalu Treasury"},
@@ -4991,12 +5003,14 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(303.1576,121.004524,473.6373),cellId="Tel Aruhn, Plot and Plaster"},
     {coords=util.vector3(2057.2012,466.5549,-16.777832),cellId="Vivec, St. Olms Underworks"},
     {coords=util.vector3(908.248,-1236.78,1664.31),cellId="Arkngthand, Land's Blood Gallery"},
+    {coords=util.vector3(34760.203,-86912.0,2234.13),cellId=nil},
     {coords=util.vector3(-418.35104,-21.20951,77.89899),cellId="Tel Mora, Lower Tower"},
     {coords=util.vector3(-55749.18,-24341.518,111.513),cellId=nil},
     {coords=util.vector3(4178.198,4204.809,124.83452),cellId="Unexplored Shipwreck, Cabin"},
     {coords=util.vector3(4314.8564,4002.2395,2368.0),cellId="Hla Oad, Murudius Flaeus's House"},
     {coords=util.vector3(704.0,-133.65141,-128.0),cellId="Vivec, Telvanni Vault"},
     {coords=util.vector3(341.31754,69.38421,-6.972924),cellId="Ules Manor, Slavemaster's Shack"},
+    {coords=util.vector3(-67571.08,47485.457,1791.036),cellId=nil},
     {coords=util.vector3(-9887.874,-71562.74,250.28181),cellId=nil},
     {coords=util.vector3(512.0,0.0,-297.61325),cellId="Ald-ruhn, Guard Tower 2"},
     {coords=util.vector3(215.372,214.832,21.928),cellId="Tureynulal, Eye of Duggan"},
@@ -5004,6 +5018,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(8124.0,-842.0,826.0),cellId="Ilunibi, Carcass of the Saint"},
     {coords=util.vector3(95198.07,134070.12,921.217),cellId=nil},
     {coords=util.vector3(-84628.14,91450.18,1085.842),cellId=nil},
+    {coords=util.vector3(30510.613,-99577.82,3632.9),cellId=nil},
     {coords=util.vector3(73108.82,-59353.773,864.1218),cellId=nil},
     {coords=util.vector3(4192.328,4038.638,16.448933),cellId="Vivec, Puzzle Canal, Level 1"},
     {coords=util.vector3(132661.4,37340.28,424.885),cellId=nil},
@@ -5020,9 +5035,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4544.0,4124.767,13536.0),cellId="Tel Vos, Jail"},
     {coords=util.vector3(-802.7268,3896.4365,1640.019),cellId="Arkngthand, Hall of Centrifuge"},
     {coords=util.vector3(67683.99,175262.67,819.569),cellId=nil},
-    {coords=util.vector3(-89380.55,128131.58,157.649),cellId="Ald Velothi"},
     {coords=util.vector3(11848.306,173559.16,2016.0635),cellId=nil},
-    {coords=util.vector3(-83782.95,124663.17,2439.686),cellId="Ald Velothi"},
     {coords=util.vector3(-96.0,0.0,64.0),cellId="Mzanchend"},
     {coords=util.vector3(-405.16602,56.774414,1155.6738),cellId="Tel Branora, Lower Tower"},
     {coords=util.vector3(-62.0,92.0,96.0),cellId="Ministry of Truth, Hall of Processing"},
@@ -5032,19 +5045,20 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(18446.814,13622.143,1682.1616),cellId=nil},
     {coords=util.vector3(1952.0,3792.0,12384.0),cellId="Vivec, St. Delyn Canalworks"},
     {coords=util.vector3(85334.75,120166.59,3737.5159),cellId=nil},
+    {coords=util.vector3(105586.586,-75371.96,1043.7963),cellId=nil},
     {coords=util.vector3(9.0,896.0,1827.0),cellId="Akulakhan's Chamber"},
     {coords=util.vector3(94529.24,115549.25,1747.7047),cellId=nil},
-    {coords=util.vector3(153457.42,38075.09,1596.1),cellId="Sadrith Mora"},
     {coords=util.vector3(4475.506,4080.14,13976.838),cellId="Uncharted Shipwreck, Lower Level"},
     {coords=util.vector3(61287.188,193154.08,896.0),cellId=nil},
     {coords=util.vector3(2624.094,4230.906,-161.171),cellId="Assurnabitashpi, Shrine"},
     {coords=util.vector3(3844.3792,2818.9504,18389.035),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(176.67502,-162.51022,96.0),cellId="Seyda Neen, Foryn Gilnith's Shack"},
     {coords=util.vector3(-1940.8789,257.751,1028.26),cellId="Dagon Fel, Vacant Tower"},
-    {coords=util.vector3(108168.83,-62521.797,1885.849),cellId="Molag Mar"},
     {coords=util.vector3(1308.5304,2947.189,-1023.09235),cellId="Shishi"},
     {coords=util.vector3(2752.0,1028.0,384.0),cellId="Releth Ancestral Tomb"},
+    {coords=util.vector3(86296.0,117432.0,5223.227),cellId=nil},
     {coords=util.vector3(320.0,128.0,-128.0),cellId="Vivec, Redoran Waistworks"},
+    {coords=util.vector3(32301.275,-99789.445,1149.218),cellId=nil},
     {coords=util.vector3(116.0,56.0,-76.0),cellId="Seyda Neen, Lighthouse"},
     {coords=util.vector3(-185.254,-43.095,88.571),cellId="Balmora, Balyn Omarel's House"},
     {coords=util.vector3(-560.5732,244.49406,-171.06813),cellId="Vivec, No Name Club"},
@@ -5055,26 +5069,25 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-15250.321,-13194.721,557.7421),cellId=nil},
     {coords=util.vector3(2240.0,2432.0,-288.0),cellId="Arkngthand, Hall of Centrifuge"},
     {coords=util.vector3(-8.442,3636.57,-775.265),cellId="Buckmoth Legion Fort, Towers"},
-    {coords=util.vector3(34054.426,-86290.87,1887.3419),cellId="Vivec, Arena"},
     {coords=util.vector3(29988.63,196988.0,393.67627),cellId=nil},
     {coords=util.vector3(608.0,2048.0005,-160.0),cellId="Ald-ruhn, Venim Manor Entrance"},
+    {coords=util.vector3(54621.336,152996.19,1846.4042),cellId=nil},
     {coords=util.vector3(157016.95,-20481.512,410.885),cellId=nil},
     {coords=util.vector3(-765.41394,4419.466,13184.0),cellId="Vivec, Mevel Fererus: Trader"},
     {coords=util.vector3(5247.5703,4026.9048,13017.041),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(1440.0,2560.0,-176.0),cellId="Ald Sotha, Lower Level"},
     {coords=util.vector3(-23063.76,10045.185,1042.457),cellId=nil},
-    {coords=util.vector3(-23806.371,-13423.26,1364.104),cellId="Balmora"},
     {coords=util.vector3(1272.5715,-54368.258,953.06915),cellId=nil},
     {coords=util.vector3(46821.176,103484.66,3209.787),cellId=nil},
     {coords=util.vector3(2943.9995,4160.0,13184.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(528.0,0.0,1368.0),cellId="Tel Uvirith, Tower Upper"},
     {coords=util.vector3(624.0,-1024.0,-288.0),cellId="Ald-ruhn, Redoran Council Hall"},
-    {coords=util.vector3(-12929.9375,51906.676,2162.248),cellId="Ald-ruhn"},
     {coords=util.vector3(14439.128,61247.227,12838.352),cellId=nil},
     {coords=util.vector3(102806.88,78453.64,801.35876),cellId=nil},
     {coords=util.vector3(3523.9534,4192.0,14736.0),cellId="Balmora, Temple"},
     {coords=util.vector3(-271.374,3077.976,211.421),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(157436.17,1382.815,296.646),cellId=nil},
+    {coords=util.vector3(85155.64,120368.65,4291.375),cellId=nil},
     {coords=util.vector3(-42.783,94.62,0.0),cellId="Yakaridan Camp, Kitbael's Yurt"},
     {coords=util.vector3(1856.0,2816.0,-96.0),cellId="Mausur Caverns"},
     {coords=util.vector3(-64.0,1792.0,-256.0),cellId="Ald-ruhn, Redoran Council Hall"},
@@ -5087,18 +5100,22 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(128.0,-256.0,-128.0),cellId="Gnisis, Shand Hut"},
     {coords=util.vector3(896.0,1728.0,-1152.0),cellId="Sulipund"},
     {coords=util.vector3(35626.496,-91198.51,1872.9535),cellId=nil},
-    {coords=util.vector3(31225.879,-100186.016,2592.0),cellId="Vivec, Temple"},
     {coords=util.vector3(109352.69,116543.664,584.091),cellId=nil},
     {coords=util.vector3(-1024.0,-624.0,-288.0),cellId="Ald-ruhn, Redoran Council Hall"},
     {coords=util.vector3(8900.194,188837.72,86.906),cellId=nil},
     {coords=util.vector3(-900.0,-1216.0,128.0),cellId="Alas Ancestral Tomb"},
-    {coords=util.vector3(95227.555,116475.56,1965.9448),cellId="Vos"},
+    {coords=util.vector3(20821.664,-84353.01,1881.5862),cellId=nil},
+    {coords=util.vector3(28026.072,-91060.8,670.75),cellId=nil},
+    {coords=util.vector3(9191.176,-100084.42,2228.995),cellId=nil},
     {coords=util.vector3(36.183,355.444,-92.066),cellId="Urshilaku Camp, Zanummu's Yurt"},
+    {coords=util.vector3(-24815.365,-10040.696,1361.4828),cellId=nil},
     {coords=util.vector3(6141.9976,4869.4424,18397.35),cellId="Vivec, Arena Waistworks"},
+    {coords=util.vector3(149392.0,29184.0,1216.0),cellId=nil},
     {coords=util.vector3(-22051.41,-13729.0,934.4445),cellId=nil},
+    {coords=util.vector3(8705.879,-100814.016,1404.0),cellId=nil},
+    {coords=util.vector3(-18444.678,104340.09,2154.209),cellId=nil},
     {coords=util.vector3(69480.914,46910.01,1832.011),cellId=nil},
     {coords=util.vector3(2802.409,-1027.801,-153.881),cellId="Vivec, Foreign Quarter Canalworks"},
-    {coords=util.vector3(-60044.25,27201.445,296.137),cellId="Gnaar Mok"},
     {coords=util.vector3(866.8105,-1014.3811,347.927),cellId="Andalen Ancestral Tomb"},
     {coords=util.vector3(4732.551,3131.53,14752.561),cellId="Tel Vos, Northeastern Tower"},
     {coords=util.vector3(-87712.32,95484.06,1404.245),cellId=nil},
@@ -5107,24 +5124,24 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-96.0,0.0,128.0),cellId="Ald-ruhn, Guard Tower 2"},
     {coords=util.vector3(1088.0,-768.0,-256.0),cellId="Ald-ruhn, Redoran Council Hall"},
     {coords=util.vector3(-610.87585,9.118628,-12.995161),cellId="Ald-ruhn, Council Hostel"},
+    {coords=util.vector3(108166.28,-61185.61,1885.849),cellId=nil},
     {coords=util.vector3(2686.2534,-1219.5729,-279.9339),cellId="Dubdilla, Uncharted Caverns"},
     {coords=util.vector3(-384.0,352.0,480.0),cellId="Suran, Ranosa Gilvayn: Outfitter"},
-    {coords=util.vector3(53768.0,-49888.0,582.52704),cellId="Suran"},
     {coords=util.vector3(-1.2031393,-249.70119,-32.0),cellId="Vivec, St. Olms Brewers and Fishmongers Hall"},
     {coords=util.vector3(-44221.6,-13795.423,121.311),cellId=nil},
     {coords=util.vector3(5760.0,6144.0,14592.0),cellId="Piernette's Farmhouse"},
     {coords=util.vector3(20.016806,-234.45651,109.513824),cellId="Molag Mar, Saetring the Nord: Smith"},
     {coords=util.vector3(4044.0,4352.0,16003.631),cellId="Balmora, Western Guard Tower North"},
-    {coords=util.vector3(126067.25,45670.35,2144.853),cellId="Tel Aruhn"},
     {coords=util.vector3(35184.277,-37115.465,750.552),cellId=nil},
     {coords=util.vector3(192.0,128.0,0.0),cellId="Vos, Maela Kaushad's Farmhouse"},
+    {coords=util.vector3(21111.873,-102877.74,156.354),cellId=nil},
     {coords=util.vector3(-1234.0029,696.68835,-1803.3997),cellId="Vivec, St. Olms Plaza"},
-    {coords=util.vector3(93508.42,134425.19,883.64),cellId="Ahemmusa Camp"},
+    {coords=util.vector3(23589.236,-84355.97,1885.9438),cellId=nil},
     {coords=util.vector3(-18.996,370.002,-256.209),cellId="Ahemmusa Camp, Wise Woman's Yurt"},
     {coords=util.vector3(-1746.6022,1.7658728,464.0),cellId="Moonmoth Legion Fort, Prison Towers"},
-    {coords=util.vector3(107520.3,119064.0,1921.914),cellId="Tel Mora"},
     {coords=util.vector3(21096.701,-56265.09,784.4808),cellId=nil},
     {coords=util.vector3(1024.0,-192.0,-963.589),cellId="Gnisis, Barracks"},
+    {coords=util.vector3(126222.79,47857.184,1042.362),cellId=nil},
     {coords=util.vector3(45499.16,192710.4,278.70392),cellId=nil},
     {coords=util.vector3(-255.76045,-0.9236021,-42.35664),cellId="Vivec, Telvanni Vault"},
     {coords=util.vector3(34176.0,-104328.0,-272.0),cellId=nil},
@@ -5133,21 +5150,19 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(6435.7163,-54635.387,2276.741),cellId=nil},
     {coords=util.vector3(1120.0,-512.0,-288.0),cellId="Ald-ruhn, Venim Manor Private Quarters"},
     {coords=util.vector3(-64.0,128.0,-128.0),cellId="Vivec, Telvanni Mage"},
-    {coords=util.vector3(110540.06,-3142.426,644.06464),cellId="Erabenimsun Camp"},
     {coords=util.vector3(4262.0273,4645.779,-157.4965),cellId="Unexplored Shipwreck, Lower Level"},
     {coords=util.vector3(0.0,0.0,-32.0),cellId="Vivec, Redoran Records"},
     {coords=util.vector3(71.634,-26.305,115.322),cellId="Dagon Fel, Fanar Fork-Beard's House"},
-    {coords=util.vector3(107850.734,-63767.625,581.602),cellId="Molag Mar"},
     {coords=util.vector3(915.30865,-247.66454,-1739.8658),cellId="Vivec, St. Delyn Plaza"},
     {coords=util.vector3(84866.62,120092.79,3577.5686),cellId=nil},
-    {coords=util.vector3(76055.29,-52942.473,1417.64),cellId="Telasero"},
     {coords=util.vector3(4035.254,6371.486,11725.908),cellId="Maelkashishi, Shrine, Forgotten Galleries"},
     {coords=util.vector3(95389.5,135632.67,1033.552),cellId=nil},
-    {coords=util.vector3(-16288.0,-11760.0,528.0),cellId=nil},
+    {coords=util.vector3(35425.926,-95570.3,671.08813),cellId=nil},
+    {coords=util.vector3(31864.791,-101082.88,3423.334),cellId=nil},
     {coords=util.vector3(1666.248,1608.822,-668.452),cellId="Masseranit"},
-    {coords=util.vector3(-19689.588,-50112.395,385.952),cellId=nil},
+    {coords=util.vector3(-16288.0,-11760.0,528.0),cellId=nil},
     {coords=util.vector3(-64.0,1280.0,1824.0),cellId="Akulakhan's Chamber"},
-    {coords=util.vector3(95550.33,134019.56,945.345),cellId="Ahemmusa Camp"},
+    {coords=util.vector3(-19689.588,-50112.395,385.952),cellId=nil},
     {coords=util.vector3(1544.304,1536.063,-1455.481),cellId="Ald Sotha, Upper Level"},
     {coords=util.vector3(0.0,0.0,0.0),cellId="Ald-ruhn, Cienne Sintieve: Alchemist"},
     {coords=util.vector3(5762.9683,1986.625,13021.594),cellId="Vivec, Hall of Wisdom"},
@@ -5160,33 +5175,31 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-128.0,0.0,128.0),cellId="Balmora, Guild of Mages"},
     {coords=util.vector3(66144.33,181481.05,941.45447),cellId=nil},
     {coords=util.vector3(72796.7,170510.0,555.935),cellId=nil},
-    {coords=util.vector3(36544.07,-88322.86,1887.342),cellId="Vivec, Arena"},
-    {coords=util.vector3(2305.426,3769.25,13648.0),cellId="Assurdirapal, Inner Shrine"},
     {coords=util.vector3(188.17854,-8.368063,237.78427),cellId="Sadrith Mora, Urtisa Romayn's House"},
+    {coords=util.vector3(2305.426,3769.25,13648.0),cellId="Assurdirapal, Inner Shrine"},
     {coords=util.vector3(352.0,0.0,128.0),cellId="Sadrith Mora, Llaalam Madalas: Mage"},
     {coords=util.vector3(131.097,149.329,-294.576),cellId="Gnisis, Man-llu Hut"},
-    {coords=util.vector3(-69749.38,132612.28,824.36884),cellId="Khuul"},
     {coords=util.vector3(4114.47,4098.77,-685.55),cellId="Unmarked Shipwreck, Upper Level"},
     {coords=util.vector3(102741.27,78719.22,705.73914),cellId=nil},
     {coords=util.vector3(-2183.633,3483.432,168.0),cellId="Rothan Ancestral Tomb"},
+    {coords=util.vector3(5093.607,-54917.645,2297.743),cellId=nil},
     {coords=util.vector3(300.5632,-47.47517,96.00319),cellId="Arvel Manor, Slave Shack"},
     {coords=util.vector3(-19.375845,-235.18803,-36.366085),cellId="Vivec, Telvanni Mage"},
     {coords=util.vector3(-2433.91,4667.359,-936.16),cellId="Assurnabitashpi, Shrine"},
     {coords=util.vector3(26501.42,-86257.95,1893.7676),cellId=nil},
     {coords=util.vector3(-823.41077,491.1875,322.9264),cellId="Vivec, Foreign Quarter Plaza"},
     {coords=util.vector3(4081.5137,5026.7573,429.2211),cellId="Sadrith Mora, Telvanni Council House, Entry"},
+    {coords=util.vector3(109108.8,-3480.3088,636.4296),cellId=nil},
     {coords=util.vector3(29951.492,-81280.8,1888.939),cellId=nil},
     {coords=util.vector3(4096.376,4733.751,340.25797),cellId="Sadrith Mora, Telvanni Council House, Chambers"},
     {coords=util.vector3(6313.5356,7110.943,117.908165),cellId="Vivec, Arena Underworks"},
     {coords=util.vector3(2688.0,-592.0,-160.0),cellId="Vivec, Redoran Canalworks"},
     {coords=util.vector3(3.051,579.385,-6.341),cellId="Arrow, Upper Level"},
     {coords=util.vector3(-1280.0,-768.0,-637.756),cellId="Pelagiad, South Wall"},
-    {coords=util.vector3(-16944.076,100097.914,1764.128),cellId="Maar Gan"},
     {coords=util.vector3(3252.986,3891.965,-1535.734),cellId="Unmarked Shipwreck, Upper Level"},
     {coords=util.vector3(-43005.023,87399.58,1389.8685),cellId=nil},
     {coords=util.vector3(1600.0,5744.0,-544.0),cellId="Bthungthumz"},
     {coords=util.vector3(-0.07945943,-262.15613,-175.99998),cellId="Maar Gan, Huleen's Hut"},
-    {coords=util.vector3(148720.0,28192.0,1792.46),cellId="Wolverine Hall"},
     {coords=util.vector3(95541.484,11602.705,1779.5878),cellId=nil},
     {coords=util.vector3(929.755,5630.295,-674.161),cellId="Abebaal Egg Mine"},
     {coords=util.vector3(576.0,959.0,-512.0),cellId="Falensarano, Propylon Chamber"},
@@ -5198,23 +5211,22 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(99349.2,113100.36,1032.2017),cellId=nil},
     {coords=util.vector3(-4.3973513,1264.0287,474.31155),cellId="Sadrith Mora, Tel Naga Great Hall"},
     {coords=util.vector3(4124.566,4087.771,15839.104),cellId="Ashamanu Camp, Kausha's Yurt"},
-    {coords=util.vector3(19410.023,-54345.996,744.0),cellId="Dren Plantation"},
     {coords=util.vector3(-1753.0316,-1272.0662,-44.278408),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(5700.845,6356.055,8896.693),cellId="Mat"},
     {coords=util.vector3(4608.0,4160.0,14496.193),cellId="Ald Redaynia, Tower"},
     {coords=util.vector3(123566.94,-114826.22,349.038),cellId=nil},
     {coords=util.vector3(1648.0,1168.0,288.0),cellId="Vivec, Telvanni Underworks"},
+    {coords=util.vector3(149616.0,30192.0,1472.0),cellId=nil},
     {coords=util.vector3(-3599.883,-766.5,468.216),cellId="Ulummusa"},
     {coords=util.vector3(1180.0,7616.0,14528.0),cellId="Andrano Ancestral Tomb"},
     {coords=util.vector3(87282.32,10177.42,2278.93),cellId=nil},
     {coords=util.vector3(58814.555,-92702.805,800.029),cellId=nil},
-    {coords=util.vector3(-45312.0,-2869.0,3040.0),cellId="Hlormaren"},
-    {coords=util.vector3(21263.338,-46169.152,850.4676),cellId="Arvel Plantation"},
+    {coords=util.vector3(-24162.088,-14714.602,667.858),cellId=nil},
     {coords=util.vector3(128.0,96.0,-160.0),cellId="Vivec, Jobasha's Rare Books"},
     {coords=util.vector3(-24.396,484.062,-141.806),cellId="Zainab Camp, Patababi's Yurt"},
     {coords=util.vector3(539.426,2688.005,-174.519),cellId="Ashimanu Egg Mine"},
     {coords=util.vector3(-3096.0,36.0,1408.0),cellId="Rethandus Ancestral Tomb"},
-    {coords=util.vector3(-24815.365,-10040.696,1361.4828),cellId="Balmora"},
+    {coords=util.vector3(-47536.535,-39668.51,175.548),cellId=nil},
     {coords=util.vector3(-69613.32,132697.86,819.049),cellId=nil},
     {coords=util.vector3(2813.5593,-668.41754,-256.64822),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(2560.0,4064.0,14240.0),cellId="Sadrith Mora, Wolverine Hall"},
@@ -5222,28 +5234,24 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(55538.484,115875.266,3801.17),cellId=nil},
     {coords=util.vector3(3824.0,504.0,310.0),cellId="Ilunibi, Marowak's Spine"},
     {coords=util.vector3(-35133.617,-36962.555,1984.0),cellId=nil},
-    {coords=util.vector3(-5069.2383,-18467.53,1065.3094),cellId="Moonmoth Legion Fort"},
     {coords=util.vector3(2845.593,260.8397,-37.266075),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(-24938.32,-13268.836,1110.0),cellId=nil},
     {coords=util.vector3(-134.337,-166.516,128.0),cellId="Balmora, Rarayn Radarys' House"},
     {coords=util.vector3(0.0,112.0,-32.0),cellId="Ald-ruhn, Boldrisa Andrano's House"},
     {coords=util.vector3(-12414.83,-70046.27,426.64224),cellId=nil},
     {coords=util.vector3(2153.949,4358.672,12496.0),cellId="Bal Fell, Outer Shrine"},
-    {coords=util.vector3(-62.0,-3610.0,96.0),cellId="Ministry of Truth, Hall of Processing"},
     {coords=util.vector3(1480.0544,128.0,412.9603),cellId="Vivec, Foreign Quarter Plaza"},
+    {coords=util.vector3(-62.0,-3610.0,96.0),cellId="Ministry of Truth, Hall of Processing"},
     {coords=util.vector3(-1.706,508.083,-31.84),cellId="Vivec, Hall of Justice Secret Library"},
     {coords=util.vector3(34633.645,-86914.3,2129.991),cellId=nil},
     {coords=util.vector3(-124.02588,345.1004,-362.97507),cellId="Valenvaryon, Umug's Hut"},
     {coords=util.vector3(23731.564,-84348.77,1885.2871),cellId=nil},
-    {coords=util.vector3(147703.69,34047.008,840.199),cellId="Sadrith Mora"},
     {coords=util.vector3(123024.48,45314.473,884.51843),cellId=nil},
     {coords=util.vector3(-1469.9999,3512.002,-976.0),cellId="Andasreth, Upper Level"},
-    {coords=util.vector3(12693.838,-101234.27,1084.214),cellId="Ebonheart"},
     {coords=util.vector3(2513.817,-1028.977,245.02005),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(-123.639,-356.467,-113.887),cellId="Chun-Ook, Cabin"},
     {coords=util.vector3(-896.0,1728.0,-384.0),cellId="Ghostgate, Tower of Dusk"},
     {coords=util.vector3(-608.0,1024.0,-48.0),cellId="Moonmoth Legion Fort, Interior"},
-    {coords=util.vector3(-13440.0,43072.0,2624.0),cellId="Buckmoth Legion Fort"},
     {coords=util.vector3(2686.986,-667.9969,-257.3757),cellId="Vivec, Hlaalu Canalworks"},
     {coords=util.vector3(-1920.0,-1216.0,-128.0),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(4115.313,3573.782,-1000.909),cellId="Lonesome Shipwreck, Upper Level"},
@@ -5252,9 +5260,11 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-2432.0,5024.0,-1024.0),cellId="Assurnabitashpi, Shrine"},
     {coords=util.vector3(3704.0,4144.0,14096.0),cellId="Tel Branora, Upper Tower"},
     {coords=util.vector3(289.0,-512.0,-302.0),cellId="Tureynulal, Kagrenac's Library"},
+    {coords=util.vector3(144736.45,42370.863,946.906),cellId=nil},
     {coords=util.vector3(119.693,-473.104,720.864),cellId="Pelagiad, Ahnassi's House"},
     {coords=util.vector3(152.889,-1384.723,-101.659),cellId="Tel Aruhn, Upper Tower"},
     {coords=util.vector3(0.0,-320.0,-576.0),cellId="Vivec, Dralor Manor"},
+    {coords=util.vector3(-13284.448,19563.803,1673.773),cellId=nil},
     {coords=util.vector3(64.0,512.0,-128.0),cellId="Suran, Suran Temple"},
     {coords=util.vector3(4226.289,2112.1138,13727.392),cellId="Tel Vos, Barracks and Armory"},
     {coords=util.vector3(-87691.98,79257.87,108.56756),cellId=nil},
@@ -5271,16 +5281,15 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1529.929,-256.94812,-36.884888),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(-268.033,-487.745,340.195),cellId="Ebonheart, Argonian Mission"},
     {coords=util.vector3(157866.75,-44619.023,2315.396),cellId=nil},
+    {coords=util.vector3(6680.145,-54743.594,2300.314),cellId=nil},
     {coords=util.vector3(-95.54974,-417.6601,121.3915),cellId="Indarys Manor, Berendas' House"},
     {coords=util.vector3(3903.2122,4156.028,14944.0),cellId="Mamaea, Shrine of Pitted Dreams"},
     {coords=util.vector3(2810.606,507.032,-154.408),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(54279.805,-80535.35,903.715),cellId=nil},
     {coords=util.vector3(6722.007,-54589.1,2921.3376),cellId=nil},
     {coords=util.vector3(2784.8499,3073.8289,13014.931),cellId="Vas, Tower"},
-    {coords=util.vector3(55454.18,-72745.68,34.215),cellId="Ald Sotha"},
     {coords=util.vector3(1015.79016,-1124.9197,-141.29529),cellId="Vivec, Hlaalu Canalworks"},
     {coords=util.vector3(-1044.885,-262.49048,339.76462),cellId="Vivec, Redoran Canalworks"},
-    {coords=util.vector3(-45872.45,-38623.023,320.113),cellId="Hla Oad"},
     {coords=util.vector3(4037.4653,3746.1758,15888.0),cellId="Tel Vos, Services Tower"},
     {coords=util.vector3(4610.77,3895.491,-773.473),cellId="Lost Shipwreck, Upper Level"},
     {coords=util.vector3(3987.9204,-3391.2898,489.57593),cellId="Mamaea, Sanctum of Black Hope"},
@@ -5291,21 +5300,16 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3281.7546,-1885.0023,-112.00003),cellId="Vivec, Justice Offices"},
     {coords=util.vector3(-256.0,-640.0,384.0),cellId="Ebonheart, Argonian Mission"},
     {coords=util.vector3(-23008.475,13170.324,1844.382),cellId=nil},
-    {coords=util.vector3(4597.308,-57224.266,2584.278),cellId="Pelagiad"},
     {coords=util.vector3(-680.0,-6760.0,1824.0),cellId="Aryon Ancestral Tomb"},
     {coords=util.vector3(184.95232,-49.594574,120.94306),cellId="Dagon Fel, Fjorrod's House"},
-    {coords=util.vector3(31756.188,-102992.414,671.429),cellId="Vivec, Temple"},
-    {coords=util.vector3(60151.11,181159.22,651.003),cellId="Dagon Fel"},
-    {coords=util.vector3(22208.0,-86137.08,2233.9004),cellId="Vivec, Hlaalu"},
     {coords=util.vector3(-8239.114,52653.78,2462.943),cellId=nil},
     {coords=util.vector3(109739.695,-3907.751,634.4912),cellId=nil},
     {coords=util.vector3(5122.014,1265.5781,16.416817),cellId="Vivec, Puzzle Canal, Level 3"},
     {coords=util.vector3(14361.879,-101226.016,1264.0),cellId=nil},
     {coords=util.vector3(0.0,0.0,0.0),cellId="Salit Camp, Zelay's Yurt"},
-    {coords=util.vector3(43456.0,-86132.695,2235.2876),cellId="Vivec, Telvanni"},
-    {coords=util.vector3(63129.23,184751.38,177.059),cellId="Dagon Fel"},
     {coords=util.vector3(-264.6909,248.71648,95.14395),cellId="Balmora, Milie Hastien: Fine Clothier"},
     {coords=util.vector3(22845.826,168624.05,589.011),cellId=nil},
+    {coords=util.vector3(34054.426,-87533.85,1887.3419),cellId=nil},
     {coords=util.vector3(4286.369,3527.611,16144.0),cellId="Tel Vos, Services Tower"},
     {coords=util.vector3(-24175.719,155795.86,-677.984),cellId=nil},
     {coords=util.vector3(4096.0,3104.0,14272.0),cellId="Sadrith Mora, Wolverine Hall"},
@@ -5315,43 +5319,35 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(118281.44,93674.07,1761.3998),cellId=nil},
     {coords=util.vector3(85788.0,-94808.0,340.0),cellId=nil},
     {coords=util.vector3(-3520.0,5568.0,-416.0),cellId="Hairat-Vassamsi Egg Mine"},
-    {coords=util.vector3(-10203.989,-71509.52,328.18402),cellId="Seyda Neen"},
     {coords=util.vector3(-534.48706,-517.4511,-275.1982),cellId="Vivec, Hlaalu Records"},
     {coords=util.vector3(126.69435,2781.4954,-2224.0),cellId="Andasreth, Lower Level"},
     {coords=util.vector3(-131.042,6339.771,-1836.534),cellId="Falasmaryon, Lower Level"},
     {coords=util.vector3(34016.0,-105608.0,960.38965),cellId=nil},
     {coords=util.vector3(-248.964,-251.225,81.908),cellId="Vos, Dreynos Elvul's Farmhouse"},
-    {coords=util.vector3(-84914.11,126481.195,987.893),cellId="Ald Velothi"},
     {coords=util.vector3(32492.543,-80125.25,1876.4022),cellId=nil},
-    {coords=util.vector3(-24162.088,-14714.602,667.858),cellId="Balmora"},
+    {coords=util.vector3(-69982.32,140873.61,302.987),cellId=nil},
     {coords=util.vector3(-4592.0,-17408.0,2160.0),cellId=nil},
     {coords=util.vector3(-128.0,0.0,128.0),cellId="Balmora, Tyermaillin's House"},
     {coords=util.vector3(-9956.033,17304.688,1400.022),cellId=nil},
     {coords=util.vector3(-896.0,288.0,32.0),cellId="Nchardumz Lower Level"},
-    {coords=util.vector3(-15259.075,-12649.136,564.63),cellId="Balmora"},
-    {coords=util.vector3(-132.0,2624.0,-512.0),cellId="Hlervu Ancestral Tomb"},
     {coords=util.vector3(16.516,521.281,-149.649),cellId="Erabenimsun Camp, Ainab's Yurt"},
+    {coords=util.vector3(-132.0,2624.0,-512.0),cellId="Hlervu Ancestral Tomb"},
     {coords=util.vector3(31708.393,-105575.57,957.5823),cellId=nil},
     {coords=util.vector3(-256.95914,-7.729475,196.82597),cellId="Tel Mora, The Covenant"},
     {coords=util.vector3(-56395.055,-29756.15,255.002),cellId=nil},
-    {coords=util.vector3(-14169.115,-71649.66,148.80879),cellId="Seyda Neen"},
+    {coords=util.vector3(78627.52,83807.23,1014.629),cellId=nil},
     {coords=util.vector3(-80375.22,99322.95,1410.337),cellId=nil},
     {coords=util.vector3(159.89534,-10.15448,235.94762),cellId="Sadrith Mora, Hleras Gidren's House"},
-    {coords=util.vector3(-87550.43,126042.016,396.205),cellId="Ald Velothi"},
     {coords=util.vector3(-256.0,-320.0,128.0),cellId="Balmora, Eight Plates"},
     {coords=util.vector3(14.259,-143.406,55.653),cellId="Caldera, Dro'Shavir's House"},
-    {coords=util.vector3(119607.66,-102674.11,375.564),cellId="Tel Branora"},
     {coords=util.vector3(3072.0,-256.0,336.0),cellId="Vivec, Arena Canalworks"},
-    {coords=util.vector3(5378.088,-54630.812,2297.743),cellId="Pelagiad"},
-    {coords=util.vector3(-16738.012,102064.77,3422.645),cellId="Maar Gan"},
     {coords=util.vector3(-910.03815,55.055542,644.2348),cellId="Tel Branora, Lower Tower"},
     {coords=util.vector3(896.0,5792.0,-1312.0),cellId="Sinamusa Egg Mine"},
-    {coords=util.vector3(-2590.542,152599.69,2385.348),cellId="Valenvaryon"},
-    {coords=util.vector3(-86460.11,97143.484,1672.232),cellId="Gnisis"},
+    {coords=util.vector3(29120.79,-94720.89,1887.342),cellId=nil},
     {coords=util.vector3(1184.152,-1144.313,-288.33884),cellId="Thalas Ancestral Tomb"},
-    {coords=util.vector3(128053.586,-103004.14,814.283),cellId="Tel Branora"},
     {coords=util.vector3(-11123.556,-67827.64,403.44116),cellId=nil},
     {coords=util.vector3(4096.0,4352.0,14224.0),cellId="Sadrith Mora, Wolverine Hall"},
+    {coords=util.vector3(-88280.33,127470.07,269.905),cellId=nil},
     {coords=util.vector3(576.0,0.0,96.0),cellId="Aleft"},
     {coords=util.vector3(-1525.8617,4999.073,-36.89283),cellId="Madas Grotto"},
     {coords=util.vector3(3749.037,3836.684,14655.107),cellId="Dren Plantation, Verethi and Dralor"},
@@ -5384,7 +5380,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2688.0,-592.0,-160.0),cellId="Vivec, Hlaalu Canalworks"},
     {coords=util.vector3(1344.047,0.216,358.779),cellId="Adanumuran"},
     {coords=util.vector3(9004.79,91003.14,10101.834),cellId=nil},
-    {coords=util.vector3(29950.992,-81137.03,1887.342),cellId="Vivec, Foreign Quarter"},
     {coords=util.vector3(-5856.0,1920.0,-296.115),cellId="Akimaes Grotto"},
     {coords=util.vector3(80570.15,70452.08,1380.624),cellId=nil},
     {coords=util.vector3(-64.0,128.0,-128.0),cellId="Vivec, St. Olms Canal North-Two"},
@@ -5395,18 +5390,21 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-1750.8673,-1289.1228,-24.208677),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(141088.0,39824.0,288.0),cellId=nil},
     {coords=util.vector3(59.252,-289.025,-95.09421),cellId="Falvilo's Endeavor, Upper Level"},
+    {coords=util.vector3(-20664.316,-13958.401,325.996),cellId=nil},
     {coords=util.vector3(22208.38,-82431.5,2131.352),cellId=nil},
     {coords=util.vector3(32498.426,-79392.164,1892.252),cellId=nil},
     {coords=util.vector3(3835.554,3781.476,-581.1494),cellId="Neglected Shipwreck, Upper Level"},
     {coords=util.vector3(142472.2,-34922.555,1049.517),cellId=nil},
+    {coords=util.vector3(-35877.84,-38059.594,2287.558),cellId=nil},
     {coords=util.vector3(27299.414,-80198.84,1893.3048),cellId=nil},
     {coords=util.vector3(-364.62213,515.09906,-532.1967),cellId="Ahinipalit"},
+    {coords=util.vector3(65972.8,104211.27,1953.3523),cellId=nil},
+    {coords=util.vector3(-22752.416,-12100.141,899.141),cellId=nil},
     {coords=util.vector3(64.0,512.0,-256.0),cellId="Vivec, St. Olms Temple"},
     {coords=util.vector3(128.0,64.0,-128.0),cellId="Ghostgate, Tower of Dawn Lower Level"},
     {coords=util.vector3(-6076.1787,191792.14,-1083.987),cellId=nil},
     {coords=util.vector3(-13167.533,142809.89,476.61),cellId=nil},
     {coords=util.vector3(4097.179,4078.008,15397.771),cellId="Khuul, Rivame Samandas's Shack"},
-    {coords=util.vector3(37517.32,-95288.96,1887.3419),cellId="Vivec, St. Olms"},
     {coords=util.vector3(-400.0,512.0,128.0),cellId="Balmora, Hlaalu Council Manor"},
     {coords=util.vector3(62455.566,182538.9,227.4834),cellId=nil},
     {coords=util.vector3(0.0,1648.0,-288.0),cellId="Ald-ruhn, Redoran Council Hall"},
@@ -5416,17 +5414,22 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(288.0,-544.0,128.0),cellId="Sadrith Mora, Wolverine Hall: Fighter's Guild"},
     {coords=util.vector3(-860.0957,134.83594,122.28369),cellId="Vivec, Hlaalu Plaza"},
     {coords=util.vector3(1453.7896,588.5014,-1729.5664),cellId="Vivec, St. Delyn Plaza"},
+    {coords=util.vector3(-21151.0,-15732.862,634.618),cellId=nil},
     {coords=util.vector3(2944.0,4352.0,14016.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(11.877,506.285,-165.488),cellId="Urshilaku Camp, Ahasour's Yurt"},
     {coords=util.vector3(149680.0,29344.0,1808.0),cellId=nil},
     {coords=util.vector3(-512.0,1024.0,-1024.0),cellId="Pelagiad, North Wall"},
     {coords=util.vector3(-26839.053,150933.81,787.237),cellId=nil},
+    {coords=util.vector3(-88391.99,92366.195,1115.7612),cellId=nil},
+    {coords=util.vector3(-87670.875,79495.72,110.348),cellId=nil},
     {coords=util.vector3(109496.48,116915.086,474.547),cellId=nil},
+    {coords=util.vector3(76137.67,85141.28,894.183),cellId=nil},
     {coords=util.vector3(30.366207,-39.106205,-5.5679398),cellId="Aharasaplit Camp, Zallay's Yurt"},
     {coords=util.vector3(-76.02656,239.7508,1356.481),cellId="Sjorvar Horse-Mouth's House"},
     {coords=util.vector3(-1011.2815,-255.14449,-42.33138),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(-35129.562,142819.2,977.76),cellId=nil},
     {coords=util.vector3(-9.674,-231.922,-42.398),cellId="Ald-ruhn, Dravasa Andrethi's House"},
+    {coords=util.vector3(9540.379,-100366.48,2661.276),cellId=nil},
     {coords=util.vector3(6505.236,-117579.53,-136.72252),cellId=nil},
     {coords=util.vector3(69852.91,-53501.96,921.4584),cellId=nil},
     {coords=util.vector3(34272.0,-105096.0,576.38965),cellId=nil},
@@ -5435,43 +5438,45 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(320.0,1396.0,640.0),cellId="Savel Ancestral Tomb"},
     {coords=util.vector3(128.0,-1248.0,1152.0),cellId="Assurnabitashpi"},
     {coords=util.vector3(4034.2131,3835.0808,15638.422),cellId="Vivec, St. Delyn Glassworker's Hall"},
+    {coords=util.vector3(18941.303,-100440.73,1188.218),cellId=nil},
     {coords=util.vector3(17.54,687.058,-34.535),cellId="Grytewake, Lower Level"},
     {coords=util.vector3(2160.0,8128.0,-96.0),cellId="Vivec, Hall Underworks"},
     {coords=util.vector3(-511.7252,35.549026,-30.235216),cellId="Vivec, Library of Vivec"},
     {coords=util.vector3(673.07434,896.35645,272.00006),cellId="Seyda Neen, Census and Excise Office"},
-    {coords=util.vector3(95974.12,135338.17,1053.631),cellId="Ahemmusa Camp"},
     {coords=util.vector3(1105.9191,491.40878,-279.88333),cellId="Balmora, Guild of Fighters"},
     {coords=util.vector3(-155.577,-228.919,106.211),cellId="Dagon Fel, Onmi Hard-mouth's House"},
     {coords=util.vector3(191.999,168.0,-448.0),cellId="Falasmaryon, Missun Akin's Hut"},
-    {coords=util.vector3(2380.28,-56031.832,1584.3774),cellId="Pelagiad"},
     {coords=util.vector3(1449.9902,3527.5203,128.0),cellId="Ebonheart, Hawkmoth Towers"},
+    {coords=util.vector3(-24769.516,-16152.689,655.403),cellId=nil},
     {coords=util.vector3(5226.339,4436.279,-816.0461),cellId="Lonely Shipwreck, Lower Level"},
     {coords=util.vector3(-2496.1895,2852.4377,-672.082),cellId="Hairat-Vassamsi Egg Mine"},
     {coords=util.vector3(-132.0,2112.0,128.0),cellId="Raviro Ancestral Tomb"},
     {coords=util.vector3(3456.0,3776.0,14336.0),cellId="Vivec, Foreign Quarter Upper Waistworks"},
+    {coords=util.vector3(33314.457,-81627.63,-250.88168),cellId=nil},
     {coords=util.vector3(4160.0,3648.0,16128.0),cellId="Molag Mar, Armigers Stronghold"},
     {coords=util.vector3(5083.7085,8025.642,1857.6366),cellId="Urshilaku, Laterus Burial"},
     {coords=util.vector3(-4.091,60.146,88.687),cellId="Ashinabi"},
     {coords=util.vector3(1846.361,3648.0,15369.443),cellId="Heleran Ancestral Tomb"},
     {coords=util.vector3(-1535.8757,-507.0694,-43.265984),cellId="Vivec, Telvanni Waistworks"},
+    {coords=util.vector3(147199.77,34789.305,889.488),cellId=nil},
     {coords=util.vector3(1616.0,7152.0,288.0),cellId="Vivec, Foreign Quarter Underworks"},
+    {coords=util.vector3(-15278.15,-15485.938,576.777),cellId=nil},
     {coords=util.vector3(320.0,3712.0,128.0),cellId="Vivec, Hall of Justice"},
+    {coords=util.vector3(76055.29,-52942.473,1417.64),cellId=nil},
     {coords=util.vector3(-1536.0,-208.0,1280.0),cellId="Moonmoth Legion Fort, Prison Towers"},
     {coords=util.vector3(4992.0,2848.0,14048.0),cellId="Arkngthand, Weepingbell Hall"},
-    {coords=util.vector3(107929.484,118783.57,2884.218),cellId="Tel Mora"},
     {coords=util.vector3(2304.0,1984.0,0.0),cellId="Ald-ruhn, Redoran Council Entrance"},
-    {coords=util.vector3(-9821.382,-71476.945,268.844),cellId="Seyda Neen"},
     {coords=util.vector3(85447.734,118002.96,4609.516),cellId=nil},
     {coords=util.vector3(-903.052,1547.015,94.678),cellId="Assumanu"},
     {coords=util.vector3(3043.8516,5046.581,13065.669),cellId="Tukushapal, Sepulcher"},
     {coords=util.vector3(109164.63,-2801.4343,631.5106),cellId=nil},
     {coords=util.vector3(1592.3036,123.60295,256.43237),cellId="Sandas Ancestral Tomb"},
-    {coords=util.vector3(-46389.0,-4683.0,2368.0),cellId="Hlormaren"},
     {coords=util.vector3(2099.9502,7547.833,-9.05127),cellId="Vivec, St. Olms Underworks"},
     {coords=util.vector3(-111113.01,107802.445,441.249),cellId=nil},
     {coords=util.vector3(121.61404,202.53925,-95.00665),cellId="Ald-ruhn, Guild of Fighters"},
     {coords=util.vector3(-128.0,-64.0,-128.0),cellId="Vivec, Foreign Quarter Tomb"},
     {coords=util.vector3(1472.0,-256.0,224.0),cellId="Vivec, Redoran Waistworks"},
+    {coords=util.vector3(28253.959,-95288.96,1887.342),cellId=nil},
     {coords=util.vector3(-35667.676,-36038.96,2971.1023),cellId=nil},
     {coords=util.vector3(-2459.1482,-6143.122,1200.4883),cellId="Salothan Ancestral Tomb"},
     {coords=util.vector3(5376.0,3648.0,14624.0),cellId="Arkngthand, Weepingbell Hall"},
@@ -5480,8 +5485,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(768.2669,-280.0031,-43.33874),cellId="Vivec, Telvanni Vault"},
     {coords=util.vector3(-1280.3693,386.1377,217.217),cellId="Thiralas Ancestral Tomb"},
     {coords=util.vector3(192.0,384.0,128.0),cellId="Sadrith Mora, Tel Naga Upper Hall"},
-    {coords=util.vector3(1289.594,-54486.77,1003.696),cellId="Pelagiad"},
     {coords=util.vector3(-626.9817,367.72546,-256.0),cellId="Vivec, No Name Club"},
+    {coords=util.vector3(-21873.893,105078.26,2266.846),cellId=nil},
     {coords=util.vector3(-1216.0,260.77768,-960.0),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(128.0,-24.0,104.0),cellId="Mudan, Central Vault"},
     {coords=util.vector3(32.0,2048.0,-836.1682),cellId="Vivec, Telvanni Plaza"},
@@ -5489,36 +5494,33 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4608.0,8224.0,13688.0),cellId="Addadshashanammu, Shrine"},
     {coords=util.vector3(64.0,384.0,128.0),cellId="Balmora, Council Club"},
     {coords=util.vector3(-64.0,384.0,-128.0),cellId="Vivec, Redoran Prison Cells"},
+    {coords=util.vector3(54365.344,154166.17,1844.4042),cellId=nil},
     {coords=util.vector3(-13014.395,-70735.39,125.39916),cellId=nil},
-    {coords=util.vector3(33874.2,-102991.16,669.235),cellId="Vivec, Temple"},
     {coords=util.vector3(-76189.82,124508.8,1571.956),cellId=nil},
     {coords=util.vector3(136467.44,3813.913,438.075),cellId=nil},
     {coords=util.vector3(27582.346,-79162.85,3095.2817),cellId=nil},
     {coords=util.vector3(-616.2227,-559.76605,-256.9976),cellId="Vivec, St. Olms Canalworks"},
     {coords=util.vector3(-0.49181646,5.518369,84.92002),cellId="Suran, Ibarnadad Assirnarari: Apothecary"},
+    {coords=util.vector3(55454.18,-72745.68,34.215),cellId=nil},
     {coords=util.vector3(315.722,4.086,231.232),cellId="Assarnud"},
     {coords=util.vector3(0.0,0.0,-37.767445),cellId="Vivec, Telvanni Enchanter"},
     {coords=util.vector3(-1724.5431,-1.2349167,-11.914301),cellId="Vivec, Arena Pit"},
     {coords=util.vector3(108313.586,119655.42,627.01),cellId=nil},
     {coords=util.vector3(-84203.445,93762.484,1096.43),cellId=nil},
     {coords=util.vector3(5470.535,5592.076,-84.84706),cellId="Vivec, Puzzle Canal, Center"},
-    {coords=util.vector3(36544.92,-85502.54,1887.3419),cellId="Vivec, Arena"},
-    {coords=util.vector3(-20664.316,-13958.401,325.996),cellId="Balmora"},
     {coords=util.vector3(86155.28,63565.363,1120.2356),cellId=nil},
     {coords=util.vector3(-247.758,-16.68,227.66),cellId="Balmora, Astius Hanotepelus' House"},
     {coords=util.vector3(-83853.87,124579.95,2514.767),cellId=nil},
     {coords=util.vector3(-4751.063,2556.357,739.308),cellId="Mannammu"},
-    {coords=util.vector3(54116.582,175796.1,1328.0038),cellId="Mzuleft Ruin"},
+    {coords=util.vector3(-24026.434,-13147.615,1937.224),cellId=nil},
     {coords=util.vector3(-64.0,-768.0,0.0),cellId="Ald-ruhn, Llethri Manor Bedrooms"},
-    {coords=util.vector3(-13239.811,21234.115,1661.778),cellId="Caldera"},
     {coords=util.vector3(4896.0,6975.0005,447.99985),cellId="Falasmaryon, Sewers"},
     {coords=util.vector3(2196.87,1340.8887,-32.0),cellId="Ebonheart, East Empire South Warehouse"},
-    {coords=util.vector3(-22752.416,-12100.141,899.141),cellId="Balmora"},
-    {coords=util.vector3(26630.016,-92671.12,1887.342),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(763.0755,-279.3351,-29.274525),cellId="Vivec, Telvanni Vault"},
     {coords=util.vector3(-614.17206,154.71194,-256.64032),cellId="Vivec, Arena Canalworks"},
     {coords=util.vector3(-88192.0,91520.0,1152.0),cellId=nil},
     {coords=util.vector3(-7360.0,2816.0,-672.0),cellId="Ilanipu Grotto"},
+    {coords=util.vector3(-20396.959,-12085.556,307.596),cellId=nil},
     {coords=util.vector3(38489.164,189704.84,718.61053),cellId=nil},
     {coords=util.vector3(-24.472,484.927,-141.757),cellId="Erabenimsun Camp, Assemmus' Yurt"},
     {coords=util.vector3(-1408.0,960.0,128.0),cellId="Ghostgate, Tower of Dawn"},
@@ -5528,6 +5530,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4608.042,7829.745,13780.849),cellId="Addadshashanammu, Shrine"},
     {coords=util.vector3(-824.69086,3710.8867,-1436.751),cellId="Nund"},
     {coords=util.vector3(3498.941,-530.5545,288.0),cellId="Ebonheart, Hawkmoth Towers"},
+    {coords=util.vector3(-5664.1113,152263.0,2385.3455),cellId=nil},
     {coords=util.vector3(3584.0,5536.0,13920.0),cellId="Kogoruhn, Hall of the Watchful Touch"},
     {coords=util.vector3(2577.848,3812.0662,15040.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(-3452.883,5438.23,-418.64),cellId="Hairat-Vassamsi Egg Mine"},
@@ -5535,6 +5538,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-384.0,256.0,256.0),cellId="Balmora, Tsiya's House"},
     {coords=util.vector3(-864.0,-832.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(3125.3057,4345.6646,14544.0),cellId="Bal Fell, Inner Shrine"},
+    {coords=util.vector3(-24815.918,-10053.001,1103.737),cellId=nil},
     {coords=util.vector3(-6.888,392.744,-174.249),cellId="Zainab Camp, Ashkhan's Yurt"},
     {coords=util.vector3(197.319,-163.925,-30.643),cellId="Alof's Farmhouse"},
     {coords=util.vector3(-544.0,-864.0,-544.0),cellId="Vivec, Redoran Treasury"},
@@ -5544,29 +5548,29 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(133.20923,-131.16476,-1454.0475),cellId="Pelagiad, South Wall"},
     {coords=util.vector3(-37551.145,110434.49,827.966),cellId=nil},
     {coords=util.vector3(-217.70992,-126.69129,-128.0),cellId="Rethan Manor, Tures' House"},
+    {coords=util.vector3(111105.805,-3707.5325,651.29956),cellId=nil},
     {coords=util.vector3(-2755.959,3647.902,1384.198),cellId="Zaintirari"},
-    {coords=util.vector3(-24769.516,-16152.689,655.403),cellId="Balmora"},
+    {coords=util.vector3(149347.88,36076.562,3503.2559),cellId=nil},
+    {coords=util.vector3(-45312.0,-2869.0,3040.0),cellId=nil},
     {coords=util.vector3(-2016.0,4096.0,-176.0),cellId="Eluba-Addon Grotto"},
     {coords=util.vector3(39333.844,-3647.1475,1347.3326),cellId=nil},
-    {coords=util.vector3(23244.0,-54396.0,1302.0),cellId="Dren Plantation"},
     {coords=util.vector3(129057.55,-88652.836,196.29167),cellId=nil},
     {coords=util.vector3(-2560.0,1632.0,-192.0),cellId="Vandus Ancestral Tomb"},
     {coords=util.vector3(95016.12,-96727.734,129.65192),cellId=nil},
     {coords=util.vector3(6336.0,1952.0,15580.0),cellId="Ilunibi, Blackened Heart"},
-    {coords=util.vector3(-14452.047,56031.777,2403.4888),cellId="Ald-ruhn"},
     {coords=util.vector3(63.876,-132.468,0.0),cellId="Falas Ancestral Tomb"},
-    {coords=util.vector3(-34910.965,-36959.86,2035.544),cellId="Odai Plateau"},
-    {coords=util.vector3(30241.36,-95569.62,671.088),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(-24046.05,-11361.78,1359.192),cellId=nil},
-    {coords=util.vector3(60390.652,184257.12,312.481),cellId="Dagon Fel"},
-    {coords=util.vector3(-15278.15,-15485.938,576.777),cellId="Balmora"},
+    {coords=util.vector3(112149.59,-62510.26,2142.971),cellId=nil},
     {coords=util.vector3(129.099,382.083,-426.679),cellId="Falasmaryon, Missun Akin's Hut"},
     {coords=util.vector3(-5.6056395,-59.36604,-44.211086),cellId="Vivec, St. Olms Upper North-Two"},
-    {coords=util.vector3(31448.922,-105247.35,559.30365),cellId="Vivec, Temple"},
+    {coords=util.vector3(109606.53,116993.19,495.084),cellId=nil},
+    {coords=util.vector3(-46568.35,-37622.703,332.348),cellId=nil},
+    {coords=util.vector3(30070.867,-91349.56,1887.3418),cellId=nil},
     {coords=util.vector3(-272.38654,110.48692,240.0),cellId="Seyda Neen, Arrille's Tradehouse"},
     {coords=util.vector3(-331.17383,-861.89844,-1729.081),cellId="Vivec, St. Delyn Plaza"},
     {coords=util.vector3(-224.0,-256.0,-96.0),cellId="Rethan Manor, Tures' House"},
     {coords=util.vector3(720.0,896.0,-432.0),cellId="Ihinipalit, Shrine"},
+    {coords=util.vector3(18830.275,-102991.97,1117.737),cellId=nil},
     {coords=util.vector3(-21711.143,-15687.869,895.2025),cellId=nil},
     {coords=util.vector3(-864.0,-448.0,-384.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(-794.806,1542.065,220.775),cellId="Ansi"},
@@ -5574,21 +5578,27 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(55.345,-159.292,-56.316),cellId="Caldera, Canodia Felannus' House"},
     {coords=util.vector3(111472.0,-71264.0,768.0),cellId=nil},
     {coords=util.vector3(685.75,1712.5312,-928.63403),cellId="Vivec, Telvanni Plaza"},
-    {coords=util.vector3(-86682.39,129029.65,179.038),cellId="Ald Velothi"},
+    {coords=util.vector3(-10790.73,126774.82,1431.322),cellId=nil},
     {coords=util.vector3(5621.062,4064.0,13280.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
+    {coords=util.vector3(-20813.71,-15183.975,327.977),cellId=nil},
     {coords=util.vector3(-192.0,-256.0,128.0),cellId="Balmora, Rarayn Radarys' House"},
+    {coords=util.vector3(-5824.0,-17424.0,1616.0),cellId=nil},
     {coords=util.vector3(6480.0,7216.0,96.0),cellId="Vivec, Hlaalu Underworks"},
     {coords=util.vector3(2431.239,1215.985,-320.0),cellId="Kogoruhn, Hall of Maki"},
     {coords=util.vector3(-240.0,512.0,-129.39696),cellId="Vivec, Hall of Justice"},
+    {coords=util.vector3(13211.967,-101236.45,1019.615),cellId=nil},
+    {coords=util.vector3(123712.7,48033.51,962.079),cellId=nil},
     {coords=util.vector3(-23176.09,9618.188,1055.501),cellId=nil},
     {coords=util.vector3(45.115,50.14,209.993),cellId="Tureynulal, Eye of Thom Wye"},
     {coords=util.vector3(1.7309291,127.45467,-173.7466),cellId="Vivec, Temporary Telvanni Housing"},
     {coords=util.vector3(2763.3552,1269.5621,0.0),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(24.0,-312.0,-40.0),cellId="Ald Daedroth, Antechamber"},
     {coords=util.vector3(5310.0,2294.0,12186.0),cellId="Corprusarium Bowels"},
+    {coords=util.vector3(85386.59,117539.12,3555.5608),cellId=nil},
     {coords=util.vector3(0.0,640.0,-160.0),cellId="Vivec, Telvanni Canalworks"},
     {coords=util.vector3(2598.8406,-1278.1517,-31.026934),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(-74114.266,39187.438,-327.644),cellId=nil},
+    {coords=util.vector3(27717.492,-80326.1,3101.869),cellId=nil},
     {coords=util.vector3(3746.667,3977.824,15374.103),cellId="Balmora, Eastern Guard Tower"},
     {coords=util.vector3(4108.676,143230.66,721.92755),cellId=nil},
     {coords=util.vector3(69.615,-395.919,101.747),cellId="Arrow, Upper Level"},
@@ -5599,7 +5609,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3955.259,4640.553,-71.058),cellId="Derelict Shipwreck, Upper Level"},
     {coords=util.vector3(192.0,168.001,-448.0),cellId="Marandus, Dome"},
     {coords=util.vector3(54434.766,-50157.906,285.08163),cellId=nil},
-    {coords=util.vector3(-24026.434,-13147.615,1937.224),cellId="Balmora"},
+    {coords=util.vector3(94268.375,118162.89,1808.6729),cellId=nil},
     {coords=util.vector3(1538.8052,4863.6494,18408.29),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(-2172.13,1893.185,1034.79),cellId="Maar Gan, Shrine"},
     {coords=util.vector3(5493.8896,5052.7812,13011.397),cellId="Vivec, Hall of Wisdom"},
@@ -5611,6 +5621,7 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(110.14704,-30.143843,152.266),cellId="Balmora, Drarayne Thelas' Storage"},
     {coords=util.vector3(68.022095,-34.141544,-44.835083),cellId="Caldera, Canodia Felannus' House"},
     {coords=util.vector3(-42861.113,-47198.117,131.243),cellId=nil},
+    {coords=util.vector3(26630.016,-93989.88,1887.342),cellId=nil},
     {coords=util.vector3(13813.07,120960.414,785.0139),cellId=nil},
     {coords=util.vector3(5119.729,-54763.355,2657.1885),cellId=nil},
     {coords=util.vector3(86713.664,70726.695,868.264),cellId=nil},
@@ -5619,41 +5630,38 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(32.0,0.0,96.0),cellId="Ald Daedroth, Antechamber"},
     {coords=util.vector3(656.0,0.0,128.0),cellId="Buckmoth Legion Fort, Prison"},
     {coords=util.vector3(126294.19,46991.453,851.6417),cellId=nil},
-    {coords=util.vector3(37825.332,-21487.26,1438.0),cellId="Marandus"},
     {coords=util.vector3(416.0,96.0,160.0),cellId="Vos, Varo Tradehouse Storage"},
     {coords=util.vector3(-64.0,128.0,-128.0),cellId="Vivec, St. Olms Canal North-One"},
     {coords=util.vector3(1.899,504.722,-143.8),cellId="Zainab Camp, Tussi's Yurt"},
     {coords=util.vector3(-1276.541,-574.442,159.521),cellId="Halit Mine"},
     {coords=util.vector3(6113.829,3328.5125,18400.736),cellId="Vivec, Arena Waistworks"},
-    {coords=util.vector3(14332.917,-100952.54,1558.473),cellId="Ebonheart"},
     {coords=util.vector3(94304.0,116736.0,1780.9327),cellId=nil},
     {coords=util.vector3(320.0,-88.0,-272.0),cellId="Tel Uvirith, Seleth's House"},
     {coords=util.vector3(0.0,-384.0,0.0),cellId="Ald-ruhn, Dandera Selaro: Smith"},
     {coords=util.vector3(113574.5,58763.457,853.358),cellId=nil},
+    {coords=util.vector3(-83535.41,94139.414,1149.061),cellId=nil},
     {coords=util.vector3(308.5302,12.995201,1229.8073),cellId="Subdun"},
     {coords=util.vector3(-2752.001,4416.0,736.8649),cellId="Dunirai Caverns"},
-    {coords=util.vector3(-47536.535,-39668.51,175.548),cellId="Hla Oad"},
     {coords=util.vector3(232.0,8.0,80.0),cellId="Tel Uvirith, Omavel's House"},
     {coords=util.vector3(5632.0,3360.0,13152.0),cellId="Shulk Egg Mine, Mining Camp"},
     {coords=util.vector3(-63581.242,-9877.271,418.978),cellId=nil},
     {coords=util.vector3(-2724.0,3040.0,-576.0),cellId="Nerano Ancestral Tomb"},
     {coords=util.vector3(-11001.119,-70352.76,376.00247),cellId=nil},
     {coords=util.vector3(15007.988,-57909.01,311.356),cellId=nil},
-    {coords=util.vector3(-24815.918,-10053.001,1103.737),cellId="Balmora"},
     {coords=util.vector3(60975.395,67826.57,1501.928),cellId=nil},
     {coords=util.vector3(6719.211,8064.0293,-832.0),cellId="Telasero, Lower Level"},
     {coords=util.vector3(4.753,-123.566,1.941),cellId="Ald Velothi, Ganus Lloryn's Shack"},
     {coords=util.vector3(3195.283,3648.398,-512.0),cellId="Hanud"},
-    {coords=util.vector3(-4330.638,-17424.0,1871.148),cellId="Moonmoth Legion Fort"},
+    {coords=util.vector3(148376.0,29192.0,1280.0),cellId=nil},
     {coords=util.vector3(-1.178344,-611.2758,553.6006),cellId="Caldera, Mining Bunkhouse"},
     {coords=util.vector3(448.0,768.0,-256.0),cellId="Vivec, Redoran Canalworks"},
     {coords=util.vector3(3862.3838,4411.222,-23.331593),cellId="Deserted Shipwreck, Upper Level"},
     {coords=util.vector3(3583.0,4799.0,13824.0),cellId="Sanit, Shrine"},
     {coords=util.vector3(891.138,1600.854,-768.0),cellId="Mababi"},
+    {coords=util.vector3(-24946.973,-13413.819,1117.344),cellId=nil},
     {coords=util.vector3(110072.29,-4741.482,647.1152),cellId=nil},
-    {coords=util.vector3(-27907.05,149869.23,797.7566),cellId="Urshilaku Camp"},
+    {coords=util.vector3(53472.42,-51823.773,572.0614),cellId=nil},
     {coords=util.vector3(-22592.662,-12122.122,643.51086),cellId=nil},
-    {coords=util.vector3(3411.734,87635.31,9369.77),cellId="Vemynal"},
     {coords=util.vector3(3927.896,4489.835,333.095),cellId="Unexplored Shipwreck, Upper Level"},
     {coords=util.vector3(-12484.6045,44757.016,3168.734),cellId=nil},
     {coords=util.vector3(-16939.758,99962.516,1744.5896),cellId=nil},
@@ -5664,26 +5672,25 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(111033.21,128862.234,-552.6388),cellId=nil},
     {coords=util.vector3(3538.076,4088.155,13523.081),cellId="Ald Sotha, Shrine"},
     {coords=util.vector3(4078.942,4306.8364,857.277),cellId="Desolate Shipwreck, Cabin"},
+    {coords=util.vector3(29918.984,-80817.03,3103.3428),cellId=nil},
     {coords=util.vector3(238.75084,519.50555,213.5526),cellId="Caldera, Shenk's Shovel"},
     {coords=util.vector3(53.519,-38.138,128.0),cellId="Big Head's Shack"},
-    {coords=util.vector3(-20813.71,-15183.975,327.977),cellId="Balmora"},
-    {coords=util.vector3(-3801.603,-18675.725,1229.318),cellId="Moonmoth Legion Fort"},
+    {coords=util.vector3(31738.707,-97714.695,670.388),cellId=nil},
     {coords=util.vector3(672.0,3712.0,-1312.0),cellId="Sarimisun-Assa Egg Mine"},
+    {coords=util.vector3(-20565.27,-13670.516,310.646),cellId=nil},
     {coords=util.vector3(-134.3899,34.235283,-174.2818),cellId="Valenvaryon, Durz's Hut"},
+    {coords=util.vector3(128343.164,-103464.92,797.652),cellId=nil},
     {coords=util.vector3(632.8495,0.04540193,-160.0),cellId="Vivec, Simine Fralinie: Bookseller"},
     {coords=util.vector3(5312.0,4160.0,12928.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(10.479,693.98,-25.696),cellId="Chun-Ook, Lower Level"},
     {coords=util.vector3(145004.0,-58823.0,973.0),cellId=nil},
     {coords=util.vector3(258.3289,1017.22284,-35.396866),cellId="Vivec, Ordinator Barracks"},
-    {coords=util.vector3(-84235.98,93928.82,1108.698),cellId="Gnisis"},
-    {coords=util.vector3(109116.484,-62276.75,2142.971),cellId="Molag Mar"},
     {coords=util.vector3(-28282.684,123808.14,916.99854),cellId=nil},
     {coords=util.vector3(4166.8857,4222.9634,15755.434),cellId="Strange Shipwreck, Cabin"},
     {coords=util.vector3(-80.074,-14.098,-35.834),cellId="Vivec, St. Delyn Canal South-Three"},
-    {coords=util.vector3(23234.0,-53556.0,1132.0),cellId="Dren Plantation"},
+    {coords=util.vector3(76370.48,83972.24,881.754),cellId=nil},
     {coords=util.vector3(104393.18,64254.254,1195.915),cellId=nil},
     {coords=util.vector3(-576.837,-1789.841,607.965),cellId="Ainat"},
-    {coords=util.vector3(76717.6,84393.99,883.264),cellId="Zainab Camp"},
     {coords=util.vector3(-5272.0,-516.0,2048.0),cellId="Andavel Ancestral Tomb"},
     {coords=util.vector3(101311.98,115120.0,237.609),cellId=nil},
     {coords=util.vector3(-7.499213,-354.8772,-43.405),cellId="Gnisis, Tansumiran Cave Dwelling"},
@@ -5710,7 +5717,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(3520.0,640.0,-32.0),cellId="Nchuleftingth, Lower Levels"},
     {coords=util.vector3(3264.0,-800.0,1056.0),cellId="Hlervi Ancestral Tomb"},
     {coords=util.vector3(0.0,96.0,224.0),cellId="Caldera, Surane Leoriane's House"},
-    {coords=util.vector3(-5136.881,153280.05,2385.348),cellId="Valenvaryon"},
     {coords=util.vector3(768.0,-64.0,-256.0),cellId="Vivec, Simine Fralinie: Bookseller"},
     {coords=util.vector3(6682.874,2794.642,-338.6979),cellId="Ashinabi, Smuggler Den"},
     {coords=util.vector3(544.0,1024.0,-608.0),cellId="Berandas, Propylon Chamber"},
@@ -5726,50 +5732,44 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(12.129543,336.18707,-148.79524),cellId="Urshilaku Camp, Zabamund's Yurt"},
     {coords=util.vector3(9881.879,-100810.016,2096.0),cellId=nil},
     {coords=util.vector3(192.0,-512.0,128.0),cellId="Ald-ruhn, Llethri Manor Entrance"},
-    {coords=util.vector3(5254.308,-54797.09,2577.201),cellId="Pelagiad"},
-    {coords=util.vector3(126003.47,-104363.36,816.568),cellId="Tel Branora"},
+    {coords=util.vector3(-25513.422,-10015.314,1131.249),cellId=nil},
+    {coords=util.vector3(34175.613,-104451.266,-278.683),cellId=nil},
     {coords=util.vector3(331.885,0.234,129.674),cellId="Tel Branora, Seryne Relas's House"},
     {coords=util.vector3(-184.0,664.0,256.0),cellId="Ald Daedroth, Outer Shrine"},
-    {coords=util.vector3(6844.2515,-64291.652,324.9184),cellId="Pelagiad"},
     {coords=util.vector3(-897.6318,-66312.125,705.35223),cellId=nil},
     {coords=util.vector3(0.50333214,-19.467583,-27.19185),cellId="Vivec, Hlaalu Vaults"},
     {coords=util.vector3(-61740.14,142879.38,780.004),cellId=nil},
     {coords=util.vector3(1784.6775,-514.81415,-40.394722),cellId="Vivec, St. Delyn Waistworks"},
-    {coords=util.vector3(148912.0,29184.0,1216.0),cellId="Wolverine Hall"},
     {coords=util.vector3(21963.525,-41452.1,1219.6375),cellId=nil},
     {coords=util.vector3(2560.0,3828.9397,14752.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(1648.0,1088.0,288.0),cellId="Vivec, Hlaalu Underworks"},
     {coords=util.vector3(14.662813,-3676.9446,608.0),cellId="Ebonheart, East Empire South Warehouse"},
-    {coords=util.vector3(184.85817,-48.17949,100.0),cellId="Seyda Neen, Fine-Mouth's Shack"},
     {coords=util.vector3(2825.8562,-56836.184,1643.0151),cellId=nil},
+    {coords=util.vector3(184.85817,-48.17949,100.0),cellId="Seyda Neen, Fine-Mouth's Shack"},
     {coords=util.vector3(448.0,2432.0,-288.0),cellId="Arkngthand, Hall of Centrifuge"},
     {coords=util.vector3(-9984.927,1501.958,248.361),cellId="Kogoruhn, Nabith Waterway"},
-    {coords=util.vector3(-18444.678,104340.09,2154.209),cellId="Maar Gan"},
-    {coords=util.vector3(31353.102,-79744.0,3449.1304),cellId="Vivec, Foreign Quarter"},
-    {coords=util.vector3(-8564.561,58585.168,2700.212),cellId="Ald-ruhn"},
     {coords=util.vector3(3776.0,2688.0,18304.0),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(3996.0,3920.0,14408.0),cellId="Tower of Tel Fyr, Hall of Fyr"},
-    {coords=util.vector3(-21870.348,-13717.901,919.974),cellId="Balmora"},
     {coords=util.vector3(145170.11,-58679.605,977.306),cellId=nil},
+    {coords=util.vector3(12560.169,-102884.11,864.0),cellId=nil},
     {coords=util.vector3(0.0,96.0,96.0),cellId="Vemynal, Outer Fortress"},
     {coords=util.vector3(2690.0923,901.85956,470.238),cellId="Releth Ancestral Tomb"},
     {coords=util.vector3(2.399008,-9.152213,-32.262875),cellId="Vivec, St. Olms Canal South-One"},
     {coords=util.vector3(148576.0,28192.0,1792.0),cellId=nil},
     {coords=util.vector3(512.6728,1699.3896,-932.09125),cellId="Vivec, Telvanni Plaza"},
     {coords=util.vector3(44997.297,-84349.18,1885.15),cellId=nil},
-    {coords=util.vector3(-24946.973,-13413.819,1117.344),cellId="Balmora"},
     {coords=util.vector3(3928.2422,2020.626,-79.8053),cellId="Prelude Shipwreck, Lower Level"},
     {coords=util.vector3(1032.0,408.0,-672.0),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(192.0,-448.0,384.0),cellId="Balmora, Ra'Virr: Trader"},
-    {coords=util.vector3(124387.836,15688.698,491.737),cellId="Tel Fyr"},
     {coords=util.vector3(-46.080154,-117.94478,227.59743),cellId="Caldera, North Guard Towers"},
-    {coords=util.vector3(33496.492,-106781.43,1717.4307),cellId="Vivec, Temple"},
     {coords=util.vector3(-3243.782,4730.411,-151.451),cellId="Ibar-Dad"},
     {coords=util.vector3(570.013,3.127,-926.236),cellId="Yakin"},
+    {coords=util.vector3(148740.38,36092.41,1565.031),cellId=nil},
     {coords=util.vector3(0.04078971,-51.220123,-21.652351),cellId="Ald-ruhn, Venim Manor Entrance"},
     {coords=util.vector3(335.104,-61.74,-3.379),cellId="Ules Manor, Slavemaster's Shack"},
     {coords=util.vector3(5263.302,5506.988,14864.0),cellId="Tel Vos, Southern Tower"},
     {coords=util.vector3(1473.748,260.56018,-173.50064),cellId="Vivec, Saren Manor"},
+    {coords=util.vector3(6078.0,121048.0,1472.0),cellId=nil},
     {coords=util.vector3(1.0,-237.0,-171.0),cellId="Ald-ruhn, Galthragoth's House"},
     {coords=util.vector3(4481.7524,4836.272,13141.078),cellId="Vivec, Mevel Fererus: Trader"},
     {coords=util.vector3(4992.0,2720.0,14048.0),cellId="Arkngthand, Weepingbell Hall"},
@@ -5778,6 +5778,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-414.0,8906.0,316.0),cellId="Ilunibi, Marowak's Spine"},
     {coords=util.vector3(5152.0,3840.0,11488.0),cellId="Matus-Akin Egg Mine, Queen's Lair"},
     {coords=util.vector3(-84.524,387.939,-158.028),cellId="Ahemmusa Camp, Nummu's Yurt"},
+    {coords=util.vector3(-47821.83,-38017.367,241.845),cellId=nil},
+    {coords=util.vector3(-21879.766,-14022.853,643.254),cellId=nil},
+    {coords=util.vector3(10007.841,-100896.11,2113.872),cellId=nil},
     {coords=util.vector3(394.381,-0.619,127.339),cellId="Tel Mora, Radras: Smith"},
     {coords=util.vector3(-24611.842,-11419.966,1050.4368),cellId=nil},
     {coords=util.vector3(-4032.0,4032.0,-673.871),cellId="Eretammus-Sennammu Egg Mine"},
@@ -5786,24 +5789,20 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4870.547,3845.1,14505.439),cellId="Vivec, Foreign Quarter Upper Waistworks"},
     {coords=util.vector3(-245.10234,-580.40265,599.0443),cellId="Ald Daedroth, Left Wing"},
     {coords=util.vector3(4671.886,1666.289,13727.392),cellId="Tel Vos, Barracks and Armory"},
-    {coords=util.vector3(-20565.27,-13670.516,310.646),cellId="Balmora"},
     {coords=util.vector3(-63110.504,136107.64,812.544),cellId=nil},
     {coords=util.vector3(-122.234,108.936,1344.884),cellId="Sjorvar Horse-Mouth's House"},
     {coords=util.vector3(-248.36586,186.87476,-164.31245),cellId="Vivec, Guild of Fighters"},
-    {coords=util.vector3(111105.805,-3707.5325,651.29956),cellId="Erabenimsun Camp"},
     {coords=util.vector3(-45260.0,-3033.0,3069.0),cellId=nil},
     {coords=util.vector3(76982.07,83665.81,859.03),cellId=nil},
+    {coords=util.vector3(18654.94,-100442.016,576.0),cellId=nil},
     {coords=util.vector3(1584.0,7280.0,288.0),cellId="Vivec, Redoran Underworks"},
     {coords=util.vector3(69341.445,46934.668,1814.9177),cellId=nil},
     {coords=util.vector3(-128.0,64.0,0.0),cellId="Vos, Fanisea Irano's Farmhouse"},
-    {coords=util.vector3(148188.25,31820.496,737.922),cellId="Wolverine Hall"},
-    {coords=util.vector3(61004.15,183133.73,316.477),cellId="Dagon Fel"},
+    {coords=util.vector3(-46389.0,-4683.0,2368.0),cellId=nil},
     {coords=util.vector3(60429.305,64167.055,1267.7631),cellId=nil},
     {coords=util.vector3(129.167,230.062,-837.387),cellId="Indarys Manor"},
-    {coords=util.vector3(-68330.38,34736.453,321.14606),cellId="Khartag Point"},
     {coords=util.vector3(94399.53,115743.54,1749.9486),cellId=nil},
     {coords=util.vector3(2564.7385,4330.9062,18148.74),cellId="Vivec, Arena Waistworks"},
-    {coords=util.vector3(-9945.6,17151.562,1352.145),cellId="Caldera"},
     {coords=util.vector3(43918.035,44488.43,2525.519),cellId=nil},
     {coords=util.vector3(1165.0,-8.0,227.0),cellId="Hlormaren, Sewers"},
     {coords=util.vector3(2426.84,3083.873,101.209),cellId="Vivec, Foreign Quarter Underworks"},
@@ -5815,10 +5814,10 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(50.176,-24.287,100.687),cellId="Dagon Fel, Anja Swift-Sailer's House"},
     {coords=util.vector3(-256.0,-320.0,-128.0),cellId="Balmora, Eight Plates"},
     {coords=util.vector3(516.4076,-1779.654,-26.92915),cellId="Vivec, Telvanni Waistworks"},
-    {coords=util.vector3(35414.7,-91060.8,670.7501),cellId="Vivec, St. Olms"},
+    {coords=util.vector3(-76957.0,76240.0,2320.0),cellId=nil},
     {coords=util.vector3(77884.8,20058.084,2022.511),cellId=nil},
     {coords=util.vector3(-255.99982,-4432.0005,2720.0),cellId="Drinith Ancestral Tomb"},
-    {coords=util.vector3(94432.89,117875.38,1806.5991),cellId="Vos"},
+    {coords=util.vector3(39031.27,-87580.25,1887.3419),cellId=nil},
     {coords=util.vector3(-1884.981,1901.074,-386.841),cellId="Ashinabi"},
     {coords=util.vector3(352.0,0.0,128.0),cellId="Sadrith Mora, Hleras Gidren's House"},
     {coords=util.vector3(4371.186,3709.7178,12179.194),cellId="Vivec, Telvanni Tower"},
@@ -5832,6 +5831,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(9092.861,4951.427,-672.942),cellId="Sanit"},
     {coords=util.vector3(192.0,-1664.0,128.0),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(0.0,-369.9683,0.0),cellId="Ald-ruhn, Daynes Redothril: Pawnbroker"},
+    {coords=util.vector3(27717.492,-79159.84,3101.869),cellId=nil},
+    {coords=util.vector3(109728.914,118206.63,652.768),cellId=nil},
     {coords=util.vector3(5143.413,2753.8962,712.0),cellId="Mamaea, Sanctum of Awakening"},
     {coords=util.vector3(54366.95,-56044.34,1316.267),cellId=nil},
     {coords=util.vector3(4151.436,3581.1248,15312.0),cellId="Molag Mar, Redoran Stronghold"},
@@ -5843,8 +5844,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-1692.7212,3548.3804,-1083.4814),cellId="Falensarano, Upper Level"},
     {coords=util.vector3(1056.0,544.0,-192.0),cellId="Kogoruhn, Hall of Phisto"},
     {coords=util.vector3(1985.1039,-1388.654,1695.2059),cellId="Uveran Ancestral Tomb"},
+    {coords=util.vector3(28159.8,-91338.87,1887.342),cellId=nil},
     {coords=util.vector3(0.0,-40.0,96.0),cellId="Dagoth Ur, Outer Facility"},
-    {coords=util.vector3(-25513.422,-10015.314,1131.249),cellId="Balmora"},
     {coords=util.vector3(-2112.0,128.0,-256.0),cellId="Molag Mar, Canalworks"},
     {coords=util.vector3(-256.0,2144.0,-384.0),cellId="Ashurnibibi, Shrine"},
     {coords=util.vector3(-320.0,-132.7764,-128.0),cellId="Vivec, Telvanni Vault"},
@@ -5852,11 +5853,13 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2116.0,-192.0,-288.0),cellId="Arenim Ancestral Tomb"},
     {coords=util.vector3(-2365.2925,-6229.9277,230.52393),cellId="Subdun"},
     {coords=util.vector3(190.993,-60.838,94.523),cellId="Tel Branora, Giron Manas's Shack"},
+    {coords=util.vector3(146467.98,36969.184,781.946),cellId=nil},
+    {coords=util.vector3(-8315.342,55148.098,2849.44),cellId=nil},
     {coords=util.vector3(4440.0,2184.0,-40.0),cellId="Ald Daedroth, Inner Shrine"},
+    {coords=util.vector3(76623.76,85664.52,920.89),cellId=nil},
     {coords=util.vector3(-64.0,-1280.0,-512.0),cellId="Ald-ruhn, Llethri Manor Bedrooms"},
     {coords=util.vector3(-112.0,0.0,-32.0),cellId="Ald-ruhn, Goras Andrelo's House"},
-    {coords=util.vector3(94390.984,116849.29,1813.7968),cellId="Vos"},
-    {coords=util.vector3(20242.79,-80930.234,-251.73059),cellId="Vivec"},
+    {coords=util.vector3(-12270.454,125271.19,2103.322),cellId=nil},
     {coords=util.vector3(768.0,224.0,165.646),cellId="Ald Velothi, Outpost"},
     {coords=util.vector3(-384.0,448.0,-128.0),cellId="Vivec, Hlaalu Treasury"},
     {coords=util.vector3(95251.234,135501.05,1037.549),cellId=nil},
@@ -5866,22 +5869,21 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(21.543,689.848,-22.478),cellId="Fair Helas, Lower Level"},
     {coords=util.vector3(73.753,-379.68,379.0),cellId="Indarys Manor, Manor Services"},
     {coords=util.vector3(-896.0,-960.0,-128.0),cellId="Vivec, Telvanni Waistworks"},
+    {coords=util.vector3(144936.39,36062.53,397.503),cellId=nil},
     {coords=util.vector3(128.0,64.0,-128.0),cellId="Ghostgate, Tower of Dusk Lower Level"},
     {coords=util.vector3(384.0,64.0,-128.0),cellId="Vivec, Telvanni Sorcerer"},
     {coords=util.vector3(128.0,640.0,-160.0),cellId="Vivec, Foreign Quarter Canalworks"},
-    {coords=util.vector3(-53838.58,-45590.875,171.598),cellId=nil},
+    {coords=util.vector3(-88502.13,126905.04,269.141),cellId=nil},
     {coords=util.vector3(306.521,747.218,-496.0),cellId="Valenvaryon, Propylon Chamber"},
-    {coords=util.vector3(39961.535,-95292.805,-247.16382),cellId="Vivec, St. Olms"},
+    {coords=util.vector3(-53838.58,-45590.875,171.598),cellId=nil},
     {coords=util.vector3(-3.796875,268.82812,-1793.263),cellId="Vivec, St. Olms Plaza"},
     {coords=util.vector3(18889.879,-101514.016,432.0),cellId=nil},
     {coords=util.vector3(2.958494,256.2777,-31.957077),cellId="Vivec, St. Olms Storage"},
     {coords=util.vector3(-41.13591,-240.76285,28.062996),cellId="Abandoned Shipwreck, Cabin"},
-    {coords=util.vector3(-21879.766,-14022.853,643.254),cellId="Balmora"},
     {coords=util.vector3(3072.0,-320.0,254.55367),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(30097.354,-90886.65,658.104),cellId=nil},
     {coords=util.vector3(87195.01,119783.02,4976.7783),cellId=nil},
     {coords=util.vector3(1176.0,312.0,-704.0),cellId="Ald-ruhn, Manor District"},
-    {coords=util.vector3(29011.412,-69611.234,764.7358),cellId="Vivec"},
     {coords=util.vector3(768.0,-512.0,-160.0),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(192.0,384.0,-128.0),cellId="Vivec, Justice Offices"},
     {coords=util.vector3(24.873,468.387,-144.398),cellId="Ahemmusa Camp, Dutadalk's Yurt"},
@@ -5903,7 +5905,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(61133.457,119087.84,921.137),cellId=nil},
     {coords=util.vector3(1575.574,-3700.5972,1152.346),cellId="Randas Ancestral Tomb"},
     {coords=util.vector3(3040.0,2976.0,14784.0),cellId="Arkngthand, Cells of Hollow Hand"},
-    {coords=util.vector3(34760.203,-86912.0,2234.13),cellId="Vivec, Arena"},
     {coords=util.vector3(5594.171,2027.3739,-283.10767),cellId="Gnisis, Underground Stream"},
     {coords=util.vector3(3971.8447,5600.1333,14339.645),cellId="Dagoth Ur, Facility Cavern"},
     {coords=util.vector3(30201.084,-22259.11,1687.538),cellId=nil},
@@ -5914,7 +5915,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(83810.72,36896.387,888.9443),cellId=nil},
     {coords=util.vector3(127.15264,-121.86576,-164.04335),cellId="Gnisis, Vabdas Hut"},
     {coords=util.vector3(448.0,-896.0,-128.0),cellId="Vivec, Hlaalu Waistworks"},
-    {coords=util.vector3(53581.3,-56771.51,1582.299),cellId="Suran"},
     {coords=util.vector3(-905.621,7387.794,-1840.0),cellId="Marandus, Lower Level"},
     {coords=util.vector3(-11152.578,-48302.695,861.795),cellId=nil},
     {coords=util.vector3(-320.0,640.0,-128.0),cellId="Vivec, Library of Vivec"},
@@ -5923,10 +5923,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(149072.0,29168.0,1200.0),cellId=nil},
     {coords=util.vector3(73.865,-20.426,1.362),cellId="Ald Velothi, Llerar Vinden's Shack"},
     {coords=util.vector3(101919.77,-5648.685,809.874),cellId=nil},
+    {coords=util.vector3(86516.234,-17961.436,1034.0754),cellId=nil},
     {coords=util.vector3(3584.0,3680.0,15808.0),cellId="Dren Plantation, Dren's Villa"},
     {coords=util.vector3(76221.89,-52880.473,1436.241),cellId=nil},
     {coords=util.vector3(572.448,258.07,93.881),cellId="Surirulk"},
     {coords=util.vector3(-320.0,-224.0,32.0),cellId="Sadrith Mora, Wolverine Hall: Imperial Shrine"},
+    {coords=util.vector3(64424.0,186752.0,168.0),cellId=nil},
     {coords=util.vector3(2.5500588,9.060242,340.92004),cellId="Suran, Ibarnadad Assirnarari: Apothecary"},
     {coords=util.vector3(6677.5127,-54867.79,2276.3838),cellId=nil},
     {coords=util.vector3(-36517.773,-11616.867,10.474),cellId=nil},
@@ -5937,21 +5939,19 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(54649.195,-54055.492,1010.80255),cellId=nil},
     {coords=util.vector3(67196.21,164550.64,295.341),cellId=nil},
     {coords=util.vector3(-3820.766,-82976.16,-262.2092),cellId=nil},
-    {coords=util.vector3(-68839.82,139958.84,170.211),cellId="Khuul"},
     {coords=util.vector3(-544.0,-1548.0,1984.0),cellId="Serano Ancestral Tomb"},
     {coords=util.vector3(-1092.0,3984.0,628.0),cellId="Ald Sotha, Lower Level"},
+    {coords=util.vector3(-24041.143,-11201.201,1386.855),cellId=nil},
     {coords=util.vector3(19.32552,121.24235,-160.85312),cellId="Vivec, Hlaalu Alchemist"},
-    {coords=util.vector3(148933.19,36120.203,1117.029),cellId="Sadrith Mora"},
     {coords=util.vector3(4496.0,2188.0,472.0),cellId="Ald Daedroth, Right Wing"},
     {coords=util.vector3(2119.2354,891.73987,-47.99994),cellId="Zaintiraris, Shrine"},
     {coords=util.vector3(5370.811,4863.999,18144.0),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(256.0,-238.93,998.67),cellId="Sadrith Mora, Tel Naga Upper Tower"},
     {coords=util.vector3(12793.879,-102250.016,1488.0),cellId=nil},
-    {coords=util.vector3(-2390.137,153627.58,2385.348),cellId="Valenvaryon"},
+    {coords=util.vector3(-85823.13,128681.98,258.781),cellId=nil},
     {coords=util.vector3(6576.0,7296.0,288.0),cellId="Vivec, Telvanni Underworks"},
-    {coords=util.vector3(-46568.35,-37622.703,332.348),cellId="Hla Oad"},
     {coords=util.vector3(1280.0,-576.0,128.0),cellId="Ald-ruhn, Venim Manor Private Quarters"},
-    {coords=util.vector3(4932.542,-55316.21,1782.449),cellId="Pelagiad"},
+    {coords=util.vector3(4597.308,-57224.266,2584.278),cellId=nil},
     {coords=util.vector3(4858.6294,3842.1494,18150.31),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(786.0521,-57554.793,1485.565),cellId=nil},
     {coords=util.vector3(4496.0,3984.0,14928.0),cellId="Maar Gan, Guard Tower 2"},
@@ -5963,10 +5963,8 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(75335.81,52569.707,1682.798),cellId=nil},
     {coords=util.vector3(2111.999,3640.6223,0.0),cellId="Vivec, Puzzle Canal, Level 1"},
     {coords=util.vector3(1087.0273,-4544.209,-544.88605),cellId="Yakin"},
-    {coords=util.vector3(109840.99,-2894.6414,638.7506),cellId="Erabenimsun Camp"},
     {coords=util.vector3(6416.0,1152.0,96.0),cellId="Vivec, Redoran Underworks"},
     {coords=util.vector3(69760.41,-53356.023,873.6999),cellId=nil},
-    {coords=util.vector3(31185.855,-97020.01,-262.683),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(-1782.136,-1954.852,-386.725),cellId="Ashinabi"},
     {coords=util.vector3(-2176.0,576.0,128.0),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(-192.0,-256.0,-256.0),cellId="Vivec, St. Olms Upper South-One"},
@@ -5988,35 +5986,36 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(4182.997,3943.9917,-717.5476),cellId="Lonesome Shipwreck, Lower Level"},
     {coords=util.vector3(-1351.149,5374.795,-409.353),cellId="Shurinbaal"},
     {coords=util.vector3(64.0,80.0,-144.0),cellId="Valenvaryon, Lambug's Hut"},
-    {coords=util.vector3(99226.2,113195.984,1031.215),cellId="Vos"},
     {coords=util.vector3(119894.85,76614.875,1418.966),cellId=nil},
     {coords=util.vector3(-80.0,496.0,112.0),cellId="Ald-ruhn, Venim Manor Right Wing"},
-    {coords=util.vector3(77444.45,83801.68,880.942),cellId="Zainab Camp"},
     {coords=util.vector3(18378.152,157904.08,986.298),cellId=nil},
     {coords=util.vector3(-1998.297,1532.7617,-296.0),cellId="Shallit"},
+    {coords=util.vector3(5378.088,-54630.812,2297.743),cellId=nil},
     {coords=util.vector3(-11860.481,-35814.4,354.632),cellId=nil},
-    {coords=util.vector3(5848.6436,-56063.1,1790.72),cellId="Pelagiad"},
     {coords=util.vector3(13962.339,120589.6,805.282),cellId=nil},
     {coords=util.vector3(4582.92,-57000.36,2274.1272),cellId=nil},
     {coords=util.vector3(83285.67,157994.83,300.054),cellId=nil},
     {coords=util.vector3(86010.62,119475.74,3737.5159),cellId=nil},
-    {coords=util.vector3(-26771.402,-11306.425,1123.426),cellId="Balmora"},
+    {coords=util.vector3(-66728.13,139817.97,119.892),cellId=nil},
     {coords=util.vector3(-86519.54,93697.29,1103.4175),cellId=nil},
     {coords=util.vector3(15721.879,-102378.016,1600.0),cellId=nil},
     {coords=util.vector3(31447.95,-105045.234,576.38965),cellId=nil},
     {coords=util.vector3(480.0,-352.0,-288.0),cellId="Vivec, Redoran Treasury"},
     {coords=util.vector3(117677.09,-9355.392,1300.2402),cellId=nil},
+    {coords=util.vector3(77106.24,83367.87,880.942),cellId=nil},
     {coords=util.vector3(384.0,-240.0,-96.0),cellId="Ald-ruhn, Ald Skar Inn"},
     {coords=util.vector3(3767.818,1015.456,-41.01),cellId="Almurbalarammi, Shrine"},
     {coords=util.vector3(6106.11,686.0036,-123.27932),cellId="Vivec, Redoran Underworks"},
     {coords=util.vector3(-64.0,-200.0,-664.0),cellId="Seyda Neen, Lighthouse"},
     {coords=util.vector3(1088.0,-768.0,128.0),cellId="Ald-ruhn, Redoran Council Hall"},
+    {coords=util.vector3(42782.07,-81869.76,1887.342),cellId=nil},
     {coords=util.vector3(4847.351,4111.494,-1291.2583),cellId="Unchartered Shipwreck, Upper Level"},
     {coords=util.vector3(320.0,-256.0,-128.0),cellId="Vivec, Redoran Vaults"},
     {coords=util.vector3(452.0,912.0,-1508.0),cellId="Druscashti, Upper Level"},
     {coords=util.vector3(3712.0,4096.0,15616.0),cellId="Balmora, Western Guard Tower South"},
     {coords=util.vector3(-256.0,512.0,-512.0),cellId="Ules Manor"},
     {coords=util.vector3(4213.474,4238.0527,-205.57999),cellId="Deserted Shipwreck, Cabin"},
+    {coords=util.vector3(39031.27,-86262.92,1887.3419),cellId=nil},
     {coords=util.vector3(-499.2041,-5.9282227,1252.3594),cellId="Tel Branora, Lower Tower"},
     {coords=util.vector3(3180.736,87848.02,9397.595),cellId=nil},
     {coords=util.vector3(800.0788,908.5172,302.65765),cellId="Seyda Neen, Census and Excise Office"},
@@ -6042,8 +6041,9 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-128.0,0.0,128.0),cellId="Suran, Goldyn Belaram: Pawnbroker"},
     {coords=util.vector3(525.3979,-254.23413,1232.0),cellId="Moonmoth Legion Fort, Prison Towers"},
     {coords=util.vector3(60236.72,184138.05,384.985),cellId=nil},
-    {coords=util.vector3(-24041.143,-11201.201,1386.855),cellId="Balmora"},
+    {coords=util.vector3(-9888.0,18736.0,1471.988),cellId=nil},
     {coords=util.vector3(3796.125,1482.072,6024.174),cellId="Dubdilla"},
+    {coords=util.vector3(149663.27,33579.12,1243.824),cellId=nil},
     {coords=util.vector3(4247.93,4733.529,-237.89449),cellId="Shunned Shipwreck, Lower Level"},
     {coords=util.vector3(259.83054,3579.1538,208.86015),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(2092.7886,272.2043,-80.3946),cellId="Tharys Ancestral Tomb"},
@@ -6052,7 +6052,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-54.316,0.121,80.0),cellId="Maar Gan, Outpost"},
     {coords=util.vector3(3070.0796,-152.18362,338.29022),cellId="Vivec, St. Olms Canalworks"},
     {coords=util.vector3(4356.963,5365.767,13556.224),cellId="Vivec, Foreign Quarter Lower Waistworks"},
-    {coords=util.vector3(86516.234,-17961.436,1034.0754),cellId="Nchuleftingth"},
     {coords=util.vector3(2113.7578,4053.6733,16.250053),cellId="Vivec, Puzzle Canal, Level 1"},
     {coords=util.vector3(-44279.715,134519.73,1402.632),cellId=nil},
     {coords=util.vector3(-74572.22,14576.519,27.441925),cellId=nil},
@@ -6063,7 +6062,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(2087.396,1031.36,607.766),cellId="Beshara"},
     {coords=util.vector3(-3664.0,240.0,-1074.458),cellId="Malmus Grotto"},
     {coords=util.vector3(1775.924,-513.55786,-286.73456),cellId="Vivec, Telvanni Waistworks"},
-    {coords=util.vector3(-13779.451,43540.195,3064.02),cellId="Buckmoth Legion Fort"},
     {coords=util.vector3(-192.0,-128.0,128.0),cellId="Balmora, Dralcea Arethi's House"},
     {coords=util.vector3(2048.0,-768.0,80.0),cellId="Ald Daedroth, Left Wing"},
     {coords=util.vector3(-392.0,77.61,80.233),cellId="Tel Mora, The Covenant"},
@@ -6071,41 +6069,43 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(384.0,0.0,-96.0),cellId="Nchuleftingth, Test of Pattern"},
     {coords=util.vector3(172.02907,-248.14774,-146.46962),cellId="Aharunartus"},
     {coords=util.vector3(2196.87,1404.8884,480.0),cellId="Ebonheart, East Empire South Warehouse"},
-    {coords=util.vector3(76137.67,85141.28,894.183),cellId="Zainab Camp"},
     {coords=util.vector3(-1536.0,-2368.0,128.0),cellId="Ald-ruhn, Llethri Manor Entrance"},
     {coords=util.vector3(1728.0,3136.0,80.0),cellId="Molag Mar, Underworks"},
     {coords=util.vector3(14.968,463.141,-145.999),cellId="Zainab Camp, Kummu's Yurt"},
     {coords=util.vector3(381.52472,-92.87545,-297.47763),cellId="Gro-Bagrat Plantation"},
     {coords=util.vector3(-16623.13,-15619.301,304.72888),cellId=nil},
+    {coords=util.vector3(2380.28,-56031.832,1584.3774),cellId=nil},
     {coords=util.vector3(-17717.5,-15264.853,554.6458),cellId=nil},
     {coords=util.vector3(1086.7379,6527.9346,-1855.9972),cellId="Falasmaryon, Lower Level"},
-    {coords=util.vector3(-12295.522,-70033.055,444.112),cellId="Seyda Neen"},
     {coords=util.vector3(2077.101,-785.58594,-752.0),cellId="Druscashti, Upper Level"},
+    {coords=util.vector3(-59762.92,26140.928,303.457),cellId=nil},
     {coords=util.vector3(25.792,485.656,-148.791),cellId="Erabenimsun Camp, Ashu-Ahhe's Yurt"},
     {coords=util.vector3(27273.797,-79345.1,1889.9576),cellId=nil},
     {coords=util.vector3(384.0,1272.0,728.0),cellId="Savel Ancestral Tomb"},
     {coords=util.vector3(-1856.0,-112.0,-688.0),cellId="Molag Mar, Canalworks"},
+    {coords=util.vector3(-10675.308,54158.504,2445.7126),cellId=nil},
     {coords=util.vector3(133.3701,-21.000578,226.65492),cellId="Sadrith Mora, Nirasa Aren's House"},
+    {coords=util.vector3(44866.496,-84349.33,1887.342),cellId=nil},
     {coords=util.vector3(-92889.234,91806.57,1115.7366),cellId=nil},
     {coords=util.vector3(-1354.8923,845.76373,-669.0757),cellId="Balmora, Dura gra-Bol's House"},
     {coords=util.vector3(5245.2446,1746.6846,12772.946),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(-486.0,-2858.0,156.0),cellId="Urshilaku, Karma Burial"},
+    {coords=util.vector3(-67441.805,141076.14,388.903),cellId=nil},
     {coords=util.vector3(-91.80211,-289.70468,-128.0),cellId="Balmora, Eight Plates"},
     {coords=util.vector3(18825.879,-102986.016,1232.0),cellId=nil},
+    {coords=util.vector3(35622.523,-91338.87,1887.342),cellId=nil},
     {coords=util.vector3(4168.0,6712.0,12416.0),cellId="Bal Fell, Outer Shrine"},
     {coords=util.vector3(1136.0,-512.0,96.0),cellId="Ald-ruhn, Venim Manor Private Quarters"},
     {coords=util.vector3(4356.665,7788.079,12187.0),cellId="Kogoruhn, Charma's Breath"},
     {coords=util.vector3(-40143.52,-55737.395,129.11185),cellId=nil},
     {coords=util.vector3(0.0,384.0,128.0),cellId="Ebonheart, Imperial Guard Garrison"},
     {coords=util.vector3(1803.8862,-96.0,-1636.4501),cellId="Vivec, St. Delyn Plaza"},
+    {coords=util.vector3(21761.754,38947.016,1315.204),cellId=nil},
     {coords=util.vector3(3776.0,5504.0,18304.0),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(-1529.4718,-415.7614,-1742.2599),cellId="Vivec, St. Delyn Plaza"},
-    {coords=util.vector3(101459.99,114208.81,204.321),cellId="Vos"},
-    {coords=util.vector3(73327.73,-96523.9,687.796),cellId="Bal Fell"},
     {coords=util.vector3(5.808586,15.0098095,91.318245),cellId="Balmora, Meldor: Armorer"},
     {coords=util.vector3(827.478,-92.716,-16.0),cellId="Ald Velothi, Outpost"},
     {coords=util.vector3(74438.13,-86320.83,38.484),cellId=nil},
-    {coords=util.vector3(-84509.695,124747.18,1398.9756),cellId="Ald Velothi"},
     {coords=util.vector3(-240.0,4098.705,-129.39696),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(-621.7333,-594.7936,-172.06645),cellId="Vivec, Arena Canalworks"},
     {coords=util.vector3(1492.7137,-2256.5632,156.18864),cellId="Clutter Warehouse - Everything Must Go!"},
@@ -6115,11 +6115,12 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(0.0,0.0,128.0),cellId="Maar Gan, Guard Tower 1"},
     {coords=util.vector3(0.0,-384.0,0.0),cellId="Maar Gan, Tashpi Ashibael's Hut"},
     {coords=util.vector3(-128.0,-176.0,0.0),cellId="Molag Mar, Saetring the Nord: Smith"},
+    {coords=util.vector3(-17187.744,53303.848,2862.698),cellId=nil},
     {coords=util.vector3(3846.0,3920.0,14392.0),cellId="Tower of Tel Fyr, Hall of Fyr"},
     {coords=util.vector3(1712.0,1008.0,96.0),cellId="Vivec, Foreign Quarter Underworks"},
     {coords=util.vector3(94295.86,97380.62,1446.6642),cellId=nil},
-    {coords=util.vector3(-35901.883,-35873.11,2284.505),cellId="Odai Plateau"},
     {coords=util.vector3(6528.0,7280.0,288.0),cellId="Vivec, Redoran Underworks"},
+    {coords=util.vector3(1289.594,-54486.77,1003.696),cellId=nil},
     {coords=util.vector3(-2240.0,4096.0,-160.0),cellId="Eluba-Addon Grotto"},
     {coords=util.vector3(157653.22,50317.1,631.636),cellId=nil},
     {coords=util.vector3(194.96144,1530.2781,85.47907),cellId="Ald-ruhn, Manor District"},
@@ -6133,7 +6134,6 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-9.0,-238.0,-171.0),cellId="Ald-ruhn, Braynas Hlervu's House"},
     {coords=util.vector3(-704.0,-384.0,-128.0),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(-13749.372,202194.33,1798.425),cellId=nil},
-    {coords=util.vector3(-35666.91,-35851.938,2856.205),cellId="Odai Plateau"},
     {coords=util.vector3(-2308.0,2528.0,928.0),cellId="Telvayn Ancestral Tomb"},
     {coords=util.vector3(64519.06,-72742.32,129.60683),cellId=nil},
     {coords=util.vector3(26.049389,-3.247064,-39.577618),cellId="Vivec, Arena Storage"},
@@ -6141,38 +6141,38 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(19365.72,127077.35,863.184),cellId=nil},
     {coords=util.vector3(-22604.941,9466.106,1053.693),cellId=nil},
     {coords=util.vector3(197.31342,-6.8134665,206.93654),cellId="Tel Branora, Fedar Davus's House"},
-    {coords=util.vector3(30061.977,-95288.96,1887.342),cellId="Vivec, St. Delyn"},
     {coords=util.vector3(-519.06274,11.228307,-22.354647),cellId="Vivec, Ordinator Barracks"},
-    {coords=util.vector3(94337.22,133704.7,867.934),cellId=nil},
+    {coords=util.vector3(-9902.688,22495.4,2214.672),cellId=nil},
     {coords=util.vector3(2368.036,-2113.0854,-1184.0),cellId="Panabanit-Nimawia Egg Mine"},
-    {coords=util.vector3(-76957.0,76240.0,2320.0),cellId="Berandas"},
+    {coords=util.vector3(94337.22,133704.7,867.934),cellId=nil},
+    {coords=util.vector3(-66782.17,140806.81,280.663),cellId=nil},
+    {coords=util.vector3(-68330.38,34736.453,321.14606),cellId=nil},
     {coords=util.vector3(515.9998,-1028.3981,-46.04173),cellId="Vivec, Arena Fighters Training"},
     {coords=util.vector3(3391.083,3768.473,15582.861),cellId="Dagon Fel, Sorkvild's Tower"},
     {coords=util.vector3(4352.0,4448.0,16000.0),cellId="Vivec, Redoran Temple Shrine"},
-    {coords=util.vector3(-85662.64,128100.58,258.779),cellId="Ald Velothi"},
-    {coords=util.vector3(3842.6636,4227.758,13784.013),cellId="Ald-ruhn, Ienas Sarandas's House"},
     {coords=util.vector3(4592.2324,3318.9805,15962.136),cellId="Omani Manor"},
+    {coords=util.vector3(3842.6636,4227.758,13784.013),cellId="Ald-ruhn, Ienas Sarandas's House"},
     {coords=util.vector3(282.8207,255.9999,-32.885803),cellId="Balmora, Guild of Fighters"},
     {coords=util.vector3(24.715302,2020.2893,-343.86603),cellId="Ebonheart, Hawkmoth Legion Garrison"},
     {coords=util.vector3(1792.0,7808.0,416.0),cellId="Caldera Mine"},
+    {coords=util.vector3(111131.12,-4453.518,649.53516),cellId=nil},
+    {coords=util.vector3(33855.27,-97710.59,670.355),cellId=nil},
     {coords=util.vector3(3518.0415,1689.442,15184.0),cellId="Dagon Fel, Sorkvild's Tower"},
     {coords=util.vector3(-256.863,-358.699,481.735),cellId="Dagon Fel, The End of the World"},
     {coords=util.vector3(3379.4602,839.534,-1024.2267),cellId="Forgotten Vaults of Anudnabia, Forge of Hilbongard"},
     {coords=util.vector3(128.0,4384.0,-776.0),cellId="Dushariran, Shrine"},
-    {coords=util.vector3(31960.13,-106271.49,1332.5896),cellId="Vivec, Temple"},
     {coords=util.vector3(18.129,452.554,-120.978),cellId="Urshilaku Camp, Zabamund's Yurt"},
-    {coords=util.vector3(110229.84,118860.05,638.455),cellId="Tel Mora"},
     {coords=util.vector3(5784.0,3512.0,-40.0),cellId="Ald Daedroth, Inner Shrine"},
-    {coords=util.vector3(-47821.83,-38017.367,241.845),cellId="Hla Oad"},
     {coords=util.vector3(1358.3799,-248.21315,32.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(562.99646,-352.7358,215.6644),cellId="Buckmoth Legion Fort, Interior"},
     {coords=util.vector3(-18795.434,102647.12,2400.0),cellId=nil},
     {coords=util.vector3(-2144.0,5752.0,-296.398),cellId="Mul Grotto"},
     {coords=util.vector3(-37522.406,1409.789,141.532),cellId=nil},
     {coords=util.vector3(544.0,784.0,80.0),cellId="Ebonheart, East Empire Company Hall"},
-    {coords=util.vector3(-88361.414,91578.125,1117.8862),cellId="Gnisis"},
     {coords=util.vector3(13.55131,-887.68665,-365.36856),cellId="Vivec, Arena Pit"},
+    {coords=util.vector3(37825.332,-21487.26,1438.0),cellId=nil},
     {coords=util.vector3(3829.036,4101.667,15613.546),cellId="Balmora, Western Guard Tower South"},
+    {coords=util.vector3(-30635.064,179348.53,2414.432),cellId=nil},
     {coords=util.vector3(196.62213,132.7407,414.3832),cellId="Vos, Varo Tradehouse Entrance"},
     {coords=util.vector3(1193.9902,3271.5203,-128.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(2804.691,-1282.1384,-27.611847),cellId="Vivec, Telvanni Waistworks"},
@@ -6184,13 +6184,15 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-250.0,61.0,0.0),cellId="Ald-ruhn, Goras Andrelo's House"},
     {coords=util.vector3(110662.28,-63368.914,1870.625),cellId=nil},
     {coords=util.vector3(3069.9526,3845.318,18138.205),cellId="Vivec, Arena Waistworks"},
-    {coords=util.vector3(12765.516,-102070.4,831.347),cellId="Ebonheart"},
     {coords=util.vector3(3072.4722,-1861.62,14242.918),cellId="Urshilaku, Astral Burial"},
     {coords=util.vector3(-192.0,7488.0,-1056.8937),cellId="Akimaes-Ilanipu Egg Mine"},
     {coords=util.vector3(4822.394,3367.215,13631.668),cellId="Tel Vos, Northeastern Tower"},
+    {coords=util.vector3(-15115.3,-13185.602,569.628),cellId=nil},
     {coords=util.vector3(2049.4492,1260.0334,15.60795),cellId="Vivec, Puzzle Canal, Level 3"},
     {coords=util.vector3(3270.0208,-1816.7206,48.000015),cellId="Vivec, Justice Offices"},
+    {coords=util.vector3(95264.13,135972.56,1052.818),cellId=nil},
     {coords=util.vector3(175.72867,-1.6138389,208.16988),cellId="Tel Mora, Jolda: Apothecary"},
+    {coords=util.vector3(-10608.033,125110.734,1430.359),cellId=nil},
     {coords=util.vector3(-284.867,255.532,601.064),cellId="Abernanit"},
     {coords=util.vector3(194.34427,194.10674,-173.03403),cellId="Vivec, St. Olms Haunted Manor"},
     {coords=util.vector3(110654.07,-61649.105,2127.999),cellId=nil},
@@ -6208,30 +6210,30 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(1648.0,0.0,-288.0),cellId="Ald-ruhn, Redoran Council Hall"},
     {coords=util.vector3(5246.6636,6323.78,12776.042),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(-490.0389,759.39886,215.6761),cellId="Sadrith Mora, Tel Naga General Quarters"},
-    {coords=util.vector3(34054.426,-87533.85,1887.3419),cellId="Vivec, Arena"},
     {coords=util.vector3(117416.29,-9544.85,1422.0637),cellId=nil},
     {coords=util.vector3(-188.0,2016.0,736.0),cellId="Favel Ancestral Tomb"},
     {coords=util.vector3(4939.5356,107.30938,-43.630074),cellId="Vivec, Tervur Braven: Trader"},
+    {coords=util.vector3(149536.0,29584.0,1216.0),cellId=nil},
     {coords=util.vector3(1888.3975,506.41068,-93.24),cellId="Vivec, Arena Underworks"},
+    {coords=util.vector3(29879.412,-78657.23,3103.829),cellId=nil},
     {coords=util.vector3(11.407,-1310.426,-123.239),cellId="Tel Aruhn, Upper Tower"},
     {coords=util.vector3(1280.0,-512.0,768.0),cellId="Pelagiad, Fort Pelagiad"},
-    {coords=util.vector3(34056.258,-92671.12,1887.3419),cellId="Vivec, St. Olms"},
     {coords=util.vector3(-128.0,64.0,-128.0),cellId="Vivec, Miun-Gei: Enchanter"},
     {coords=util.vector3(5707.363,-274.2709,128.0),cellId="Vivec, Office of the Watch"},
     {coords=util.vector3(22682.717,168675.42,485.584),cellId=nil},
     {coords=util.vector3(-6148.868,192592.28,-1047.224),cellId=nil},
     {coords=util.vector3(-22148.064,-13731.985,638.1592),cellId=nil},
     {coords=util.vector3(256.0,-384.0,128.0),cellId="Pelagiad, Guard Tower"},
-    {coords=util.vector3(127148.82,46752.145,1574.798),cellId="Tel Aruhn"},
     {coords=util.vector3(-489.76193,159.76212,-256.64822),cellId="Vivec, Foreign Quarter Canalworks"},
-    {coords=util.vector3(126306.74,-102201.69,1724.691),cellId="Tel Branora"},
     {coords=util.vector3(5928.093,6039.409,-1429.105),cellId="Ashalmawia, Shrine, Sunken Vaults"},
     {coords=util.vector3(-24576.701,-16072.117,614.389),cellId=nil},
     {coords=util.vector3(-128.0,1856.0,128.0),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(1401.9902,3399.5203,128.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(-2480.0,-3100.0,920.0),cellId="Drath Ancestral Tomb"},
     {coords=util.vector3(-128.0,-1536.0,512.0),cellId="Ald-ruhn, Pellecia Aurrus's House"},
+    {coords=util.vector3(32058.305,-80358.79,3101.271),cellId=nil},
     {coords=util.vector3(-16.891,-26.487,-27.229),cellId="Seyda Neen, Fargoth's House"},
+    {coords=util.vector3(12693.838,-101234.27,1084.214),cellId=nil},
     {coords=util.vector3(4742.879,4031.1155,13013.464),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(-384.0,0.0,256.0),cellId="Balmora, Astius Hanotepelus' House"},
     {coords=util.vector3(28200.414,21072.15,1023.5),cellId=nil},
@@ -6241,20 +6243,17 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(-83.693726,12.278356,-166.78899),cellId="Balmora, The Razor Hole"},
     {coords=util.vector3(2944.0,1216.0,-128.0),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(83504.41,6252.619,850.303),cellId=nil},
-    {coords=util.vector3(96596.92,115866.36,1598.4806),cellId="Vos"},
+    {coords=util.vector3(-12929.9375,51906.676,2162.248),cellId=nil},
     {coords=util.vector3(32862.445,-106875.92,2042.77),cellId=nil},
     {coords=util.vector3(-144.0,-144.0,-16.0),cellId="Seyda Neen, Terurise Girvayne's House"},
     {coords=util.vector3(4228.3843,4190.716,15524.002),cellId="Tel Uvirith, Menas' House"},
     {coords=util.vector3(-2176.0,-960.0,128.0),cellId="Vivec, Redoran Waistworks"},
+    {coords=util.vector3(109917.914,119772.49,601.549),cellId=nil},
     {coords=util.vector3(31730.963,-97517.35,663.596),cellId=nil},
     {coords=util.vector3(4084.7883,3439.8242,-1052.3728),cellId="Obscure Shipwreck, Upper Level"},
-    {coords=util.vector3(-14474.569,55244.05,2455.0996),cellId="Ald-ruhn"},
     {coords=util.vector3(-64.0,384.0,-128.0),cellId="Vivec, St. Olms Storage"},
-    {coords=util.vector3(-13284.448,19563.803,1673.773),cellId="Caldera"},
     {coords=util.vector3(-52997.367,-1946.0288,-7.2689066),cellId=nil},
     {coords=util.vector3(768.0,-960.0,128.0),cellId="Ald-ruhn, Redoran Council Hall"},
-    {coords=util.vector3(33264.07,74804.664,14975.878),cellId="Tureynulal"},
-    {coords=util.vector3(15588.817,-101563.14,1493.268),cellId="Ebonheart"},
     {coords=util.vector3(31481.879,-104258.016,-272.0),cellId=nil},
     {coords=util.vector3(4364.8896,4062.1301,14897.892),cellId="Maar Gan, Guard Tower 3"},
     {coords=util.vector3(166.60594,-161.75989,92.989525),cellId="Dagon Fel, Hurg's House"},
@@ -6262,3150 +6261,3151 @@ global VERTICES: {CellCoords} = {
     {coords=util.vector3(152433.8,38594.957,1408.0),cellId=nil},
     {coords=util.vector3(-23863.938,-13593.987,1335.35),cellId=nil},
     {coords=util.vector3(4135.8867,4093.8464,13088.0),cellId="Hla Oad, Shurkul gro-Sharga's House"},
+    {coords=util.vector3(37610.945,-91053.664,670.75),cellId=nil},
+    {coords=util.vector3(-11621.729,18256.871,1347.139),cellId=nil},
     {coords=util.vector3(-12000.291,-35743.066,356.59592),cellId=nil},
-    {coords=util.vector3(23589.236,-84355.97,1885.9438),cellId="Vivec, Hlaalu"},
     {coords=util.vector3(-1312.0,128.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(831.156,127.953,-921.946),cellId="Pinsun"},
     {coords=util.vector3(88604.06,9489.35,4161.329),cellId=nil},
     {coords=util.vector3(598.36127,318.08823,-938.19763),cellId="Vivec, Telvanni Plaza"},
-    {coords=util.vector3(-18080.691,-14840.155,321.07),cellId="Balmora"},
     {coords=util.vector3(33463.04,-99650.86,1141.208),cellId=nil},
+    {coords=util.vector3(146497.44,35442.46,875.695),cellId=nil},
 };
 
 global EDGES: {{CellCoords, CellCoords}:number} = {}
-EDGES[{ VERTICES[1383], VERTICES[2707] }] = 0.0
-EDGES[{ VERTICES[76], VERTICES[439] }] = 0.0
-EDGES[{ VERTICES[5464], VERTICES[3187] }] = 0.0
-EDGES[{ VERTICES[3929], VERTICES[5447] }] = 0.0
-EDGES[{ VERTICES[6020], VERTICES[5963] }] = 0.0
-EDGES[{ VERTICES[214], VERTICES[2403] }] = 0.0
-EDGES[{ VERTICES[6197], VERTICES[4726] }] = 0.0
-EDGES[{ VERTICES[108], VERTICES[525] }] = 0.0
-EDGES[{ VERTICES[3537], VERTICES[5908] }] = 0.0
-EDGES[{ VERTICES[798], VERTICES[5626] }] = 0.0
-EDGES[{ VERTICES[4581], VERTICES[1250] }] = 0.0
-EDGES[{ VERTICES[4735], VERTICES[2056] }] = 0.0
-EDGES[{ VERTICES[3728], VERTICES[4522] }] = 0.0
-EDGES[{ VERTICES[3513], VERTICES[3653] }] = 0.0
-EDGES[{ VERTICES[1020], VERTICES[4389] }] = 0.0
-EDGES[{ VERTICES[2042], VERTICES[2012] }] = 0.0
-EDGES[{ VERTICES[463], VERTICES[3703] }] = 0.0
-EDGES[{ VERTICES[5343], VERTICES[2340] }] = 0.0
-EDGES[{ VERTICES[3593], VERTICES[2298] }] = 0.0
-EDGES[{ VERTICES[4149], VERTICES[81] }] = 0.0
-EDGES[{ VERTICES[1157], VERTICES[3888] }] = 0.0
-EDGES[{ VERTICES[6166], VERTICES[3217] }] = 0.0
-EDGES[{ VERTICES[5671], VERTICES[5160] }] = 0.0
-EDGES[{ VERTICES[4894], VERTICES[1280] }] = 0.0
-EDGES[{ VERTICES[4740], VERTICES[4436] }] = 0.0
-EDGES[{ VERTICES[3379], VERTICES[2379] }] = 0.0
-EDGES[{ VERTICES[737], VERTICES[4279] }] = 0.0
-EDGES[{ VERTICES[6101], VERTICES[2444] }] = 0.0
-EDGES[{ VERTICES[2610], VERTICES[3937] }] = 0.0
-EDGES[{ VERTICES[5317], VERTICES[4029] }] = 0.0
-EDGES[{ VERTICES[4222], VERTICES[560] }] = 0.0
-EDGES[{ VERTICES[5570], VERTICES[1346] }] = 0.0
-EDGES[{ VERTICES[6145], VERTICES[944] }] = 0.0
-EDGES[{ VERTICES[4293], VERTICES[4836] }] = 0.0
-EDGES[{ VERTICES[3717], VERTICES[2009] }] = 0.0
-EDGES[{ VERTICES[1728], VERTICES[5917] }] = 0.0
-EDGES[{ VERTICES[5333], VERTICES[52] }] = 0.0
-EDGES[{ VERTICES[5018], VERTICES[6099] }] = 0.0
-EDGES[{ VERTICES[5016], VERTICES[3113] }] = 0.0
-EDGES[{ VERTICES[3100], VERTICES[3567] }] = 0.0
-EDGES[{ VERTICES[1694], VERTICES[5426] }] = 0.0
-EDGES[{ VERTICES[6051], VERTICES[842] }] = 0.0
-EDGES[{ VERTICES[2671], VERTICES[879] }] = 0.0
-EDGES[{ VERTICES[6141], VERTICES[1472] }] = 0.0
-EDGES[{ VERTICES[1492], VERTICES[5709] }] = 0.0
-EDGES[{ VERTICES[4042], VERTICES[2972] }] = 0.0
-EDGES[{ VERTICES[2215], VERTICES[917] }] = 0.0
-EDGES[{ VERTICES[1864], VERTICES[1943] }] = 0.0
-EDGES[{ VERTICES[4903], VERTICES[3495] }] = 0.0
-EDGES[{ VERTICES[91], VERTICES[5900] }] = 0.0
-EDGES[{ VERTICES[3051], VERTICES[1979] }] = 0.0
-EDGES[{ VERTICES[515], VERTICES[5196] }] = 0.0
-EDGES[{ VERTICES[4055], VERTICES[6120] }] = 0.0
-EDGES[{ VERTICES[5368], VERTICES[2460] }] = 0.0
-EDGES[{ VERTICES[3481], VERTICES[1537] }] = 0.0
-EDGES[{ VERTICES[2385], VERTICES[1921] }] = 0.0
-EDGES[{ VERTICES[1074], VERTICES[3164] }] = 0.0
-EDGES[{ VERTICES[5796], VERTICES[1105] }] = 0.0
-EDGES[{ VERTICES[3707], VERTICES[1176] }] = 0.0
-EDGES[{ VERTICES[1033], VERTICES[4463] }] = 0.0
-EDGES[{ VERTICES[1030], VERTICES[5313] }] = 0.0
-EDGES[{ VERTICES[2233], VERTICES[2944] }] = 0.0
-EDGES[{ VERTICES[601], VERTICES[2782] }] = 0.0
-EDGES[{ VERTICES[3170], VERTICES[829] }] = 0.0
-EDGES[{ VERTICES[1308], VERTICES[1710] }] = 0.0
-EDGES[{ VERTICES[1628], VERTICES[2769] }] = 0.0
-EDGES[{ VERTICES[4298], VERTICES[5600] }] = 0.0
-EDGES[{ VERTICES[3482], VERTICES[2292] }] = 0.0
-EDGES[{ VERTICES[5161], VERTICES[1625] }] = 0.0
-EDGES[{ VERTICES[3555], VERTICES[233] }] = 0.0
-EDGES[{ VERTICES[2111], VERTICES[2336] }] = 0.0
-EDGES[{ VERTICES[4780], VERTICES[3274] }] = 0.0
-EDGES[{ VERTICES[2055], VERTICES[1645] }] = 0.0
-EDGES[{ VERTICES[866], VERTICES[2019] }] = 0.0
-EDGES[{ VERTICES[5933], VERTICES[1581] }] = 0.0
-EDGES[{ VERTICES[2590], VERTICES[5401] }] = 0.0
-EDGES[{ VERTICES[1245], VERTICES[2105] }] = 0.0
-EDGES[{ VERTICES[1969], VERTICES[806] }] = 0.0
-EDGES[{ VERTICES[2370], VERTICES[3787] }] = 0.0
-EDGES[{ VERTICES[4269], VERTICES[5521] }] = 0.0
-EDGES[{ VERTICES[1701], VERTICES[1535] }] = 0.0
-EDGES[{ VERTICES[3805], VERTICES[2621] }] = 0.0
-EDGES[{ VERTICES[2212], VERTICES[5882] }] = 0.0
-EDGES[{ VERTICES[2735], VERTICES[582] }] = 0.0
-EDGES[{ VERTICES[1016], VERTICES[5954] }] = 0.0
-EDGES[{ VERTICES[2505], VERTICES[2220] }] = 0.0
-EDGES[{ VERTICES[5094], VERTICES[3837] }] = 0.0
-EDGES[{ VERTICES[4494], VERTICES[2069] }] = 0.0
-EDGES[{ VERTICES[1514], VERTICES[1214] }] = 0.0
-EDGES[{ VERTICES[488], VERTICES[796] }] = 0.0
-EDGES[{ VERTICES[2225], VERTICES[2951] }] = 0.0
-EDGES[{ VERTICES[1437], VERTICES[5208] }] = 0.0
-EDGES[{ VERTICES[2388], VERTICES[100] }] = 0.0
-EDGES[{ VERTICES[3414], VERTICES[5469] }] = 0.0
-EDGES[{ VERTICES[4690], VERTICES[1727] }] = 0.0
-EDGES[{ VERTICES[5729], VERTICES[4100] }] = 0.0
-EDGES[{ VERTICES[1218], VERTICES[5348] }] = 0.0
-EDGES[{ VERTICES[1698], VERTICES[6187] }] = 0.0
-EDGES[{ VERTICES[2539], VERTICES[3818] }] = 0.0
-EDGES[{ VERTICES[5024], VERTICES[1762] }] = 0.0
-EDGES[{ VERTICES[3951], VERTICES[113] }] = 0.0
-EDGES[{ VERTICES[4249], VERTICES[4674] }] = 0.0
-EDGES[{ VERTICES[4311], VERTICES[5835] }] = 0.0
-EDGES[{ VERTICES[1557], VERTICES[3301] }] = 0.0
-EDGES[{ VERTICES[2572], VERTICES[2277] }] = 0.0
-EDGES[{ VERTICES[2391], VERTICES[3561] }] = 0.0
-EDGES[{ VERTICES[1375], VERTICES[2368] }] = 0.0
-EDGES[{ VERTICES[1037], VERTICES[4217] }] = 0.0
-EDGES[{ VERTICES[1054], VERTICES[5897] }] = 0.0
-EDGES[{ VERTICES[967], VERTICES[472] }] = 0.0
-EDGES[{ VERTICES[2752], VERTICES[3546] }] = 0.0
-EDGES[{ VERTICES[2197], VERTICES[2057] }] = 0.0
-EDGES[{ VERTICES[1440], VERTICES[2290] }] = 0.0
-EDGES[{ VERTICES[6050], VERTICES[1336] }] = 0.0
-EDGES[{ VERTICES[1006], VERTICES[6076] }] = 0.0
-EDGES[{ VERTICES[3271], VERTICES[940] }] = 0.0
-EDGES[{ VERTICES[4119], VERTICES[4745] }] = 0.0
-EDGES[{ VERTICES[1393], VERTICES[5356] }] = 0.0
-EDGES[{ VERTICES[4642], VERTICES[4541] }] = 0.0
-EDGES[{ VERTICES[584], VERTICES[5419] }] = 0.0
-EDGES[{ VERTICES[5969], VERTICES[2604] }] = 0.0
-EDGES[{ VERTICES[5712], VERTICES[5857] }] = 0.0
-EDGES[{ VERTICES[4938], VERTICES[3523] }] = 0.0
-EDGES[{ VERTICES[318], VERTICES[2167] }] = 0.0
-EDGES[{ VERTICES[4889], VERTICES[3933] }] = 0.0
-EDGES[{ VERTICES[4003], VERTICES[5267] }] = 0.0
-EDGES[{ VERTICES[3438], VERTICES[69] }] = 0.0
-EDGES[{ VERTICES[874], VERTICES[482] }] = 0.0
-EDGES[{ VERTICES[4860], VERTICES[5164] }] = 0.0
-EDGES[{ VERTICES[4816], VERTICES[5526] }] = 0.0
-EDGES[{ VERTICES[1406], VERTICES[5180] }] = 0.0
-EDGES[{ VERTICES[4280], VERTICES[6225] }] = 0.0
-EDGES[{ VERTICES[3449], VERTICES[1707] }] = 0.0
-EDGES[{ VERTICES[3], VERTICES[5033] }] = 0.0
-EDGES[{ VERTICES[4201], VERTICES[5167] }] = 0.0
-EDGES[{ VERTICES[999], VERTICES[3782] }] = 0.0
-EDGES[{ VERTICES[2650], VERTICES[4684] }] = 0.0
-EDGES[{ VERTICES[2314], VERTICES[3068] }] = 0.0
-EDGES[{ VERTICES[3069], VERTICES[2316] }] = 0.0
-EDGES[{ VERTICES[1044], VERTICES[2334] }] = 0.0
-EDGES[{ VERTICES[186], VERTICES[4695] }] = 0.0
-EDGES[{ VERTICES[4622], VERTICES[4603] }] = 0.0
-EDGES[{ VERTICES[5647], VERTICES[2128] }] = 0.0
-EDGES[{ VERTICES[1772], VERTICES[5719] }] = 0.0
-EDGES[{ VERTICES[4882], VERTICES[1452] }] = 0.0
-EDGES[{ VERTICES[2001], VERTICES[4237] }] = 0.0
-EDGES[{ VERTICES[4238], VERTICES[4140] }] = 0.0
-EDGES[{ VERTICES[115], VERTICES[2025] }] = 0.0
-EDGES[{ VERTICES[3790], VERTICES[1565] }] = 0.0
-EDGES[{ VERTICES[2482], VERTICES[2405] }] = 0.0
-EDGES[{ VERTICES[4940], VERTICES[4098] }] = 0.0
-EDGES[{ VERTICES[761], VERTICES[3129] }] = 0.0
-EDGES[{ VERTICES[3977], VERTICES[1497] }] = 0.0
-EDGES[{ VERTICES[5576], VERTICES[557] }] = 0.0
-EDGES[{ VERTICES[3663], VERTICES[2049] }] = 0.0
-EDGES[{ VERTICES[1455], VERTICES[5886] }] = 0.0
-EDGES[{ VERTICES[1785], VERTICES[5894] }] = 0.0
-EDGES[{ VERTICES[2306], VERTICES[3975] }] = 0.0
-EDGES[{ VERTICES[1714], VERTICES[570] }] = 0.0
-EDGES[{ VERTICES[1891], VERTICES[4994] }] = 0.0
-EDGES[{ VERTICES[2658], VERTICES[4110] }] = 0.0
-EDGES[{ VERTICES[4952], VERTICES[3225] }] = 0.0
-EDGES[{ VERTICES[3446], VERTICES[2811] }] = 0.0
-EDGES[{ VERTICES[1574], VERTICES[1550] }] = 0.0
-EDGES[{ VERTICES[1069], VERTICES[2718] }] = 0.0
-EDGES[{ VERTICES[3336], VERTICES[4630] }] = 0.0
-EDGES[{ VERTICES[80], VERTICES[1356] }] = 0.0
-EDGES[{ VERTICES[1013], VERTICES[2938] }] = 0.0
-EDGES[{ VERTICES[3311], VERTICES[1640] }] = 0.0
-EDGES[{ VERTICES[3370], VERTICES[408] }] = 0.0
-EDGES[{ VERTICES[517], VERTICES[2103] }] = 0.0
-EDGES[{ VERTICES[788], VERTICES[283] }] = 0.0
-EDGES[{ VERTICES[2502], VERTICES[1123] }] = 0.0
-EDGES[{ VERTICES[4353], VERTICES[6045] }] = 0.0
-EDGES[{ VERTICES[1474], VERTICES[3453] }] = 0.0
-EDGES[{ VERTICES[3607], VERTICES[1896] }] = 0.0
-EDGES[{ VERTICES[5740], VERTICES[456] }] = 0.0
-EDGES[{ VERTICES[1491], VERTICES[6252] }] = 0.0
-EDGES[{ VERTICES[5177], VERTICES[5181] }] = 0.0
-EDGES[{ VERTICES[3695], VERTICES[2153] }] = 0.0
-EDGES[{ VERTICES[1923], VERTICES[92] }] = 0.0
-EDGES[{ VERTICES[5339], VERTICES[839] }] = 0.0
-EDGES[{ VERTICES[3701], VERTICES[5858] }] = 0.0
-EDGES[{ VERTICES[5303], VERTICES[5349] }] = 0.0
-EDGES[{ VERTICES[3847], VERTICES[5458] }] = 0.0
-EDGES[{ VERTICES[4698], VERTICES[2275] }] = 0.0
-EDGES[{ VERTICES[3297], VERTICES[1807] }] = 0.0
-EDGES[{ VERTICES[1917], VERTICES[4489] }] = 0.0
-EDGES[{ VERTICES[2369], VERTICES[5283] }] = 0.0
-EDGES[{ VERTICES[4444], VERTICES[760] }] = 0.0
-EDGES[{ VERTICES[3079], VERTICES[3613] }] = 0.0
-EDGES[{ VERTICES[2822], VERTICES[4654] }] = 0.0
-EDGES[{ VERTICES[1868], VERTICES[546] }] = 0.0
-EDGES[{ VERTICES[1567], VERTICES[3598] }] = 0.0
-EDGES[{ VERTICES[5799], VERTICES[3494] }] = 0.0
-EDGES[{ VERTICES[4669], VERTICES[5605] }] = 0.0
-EDGES[{ VERTICES[2258], VERTICES[2036] }] = 0.0
-EDGES[{ VERTICES[2240], VERTICES[656] }] = 0.0
-EDGES[{ VERTICES[1409], VERTICES[5660] }] = 0.0
-EDGES[{ VERTICES[1421], VERTICES[837] }] = 0.0
-EDGES[{ VERTICES[4624], VERTICES[4275] }] = 0.0
-EDGES[{ VERTICES[1102], VERTICES[4435] }] = 0.0
-EDGES[{ VERTICES[4057], VERTICES[3194] }] = 0.0
-EDGES[{ VERTICES[4539], VERTICES[3890] }] = 0.0
-EDGES[{ VERTICES[5506], VERTICES[5406] }] = 0.0
-EDGES[{ VERTICES[2854], VERTICES[5758] }] = 0.0
-EDGES[{ VERTICES[1631], VERTICES[3262] }] = 0.0
-EDGES[{ VERTICES[1985], VERTICES[1314] }] = 0.0
-EDGES[{ VERTICES[2597], VERTICES[2431] }] = 0.0
-EDGES[{ VERTICES[6246], VERTICES[234] }] = 0.0
-EDGES[{ VERTICES[2198], VERTICES[3264] }] = 0.0
-EDGES[{ VERTICES[2152], VERTICES[179] }] = 0.0
-EDGES[{ VERTICES[2756], VERTICES[3260] }] = 0.0
-EDGES[{ VERTICES[3298], VERTICES[3441] }] = 0.0
-EDGES[{ VERTICES[3489], VERTICES[620] }] = 0.0
-EDGES[{ VERTICES[1862], VERTICES[5050] }] = 0.0
-EDGES[{ VERTICES[1457], VERTICES[643] }] = 0.0
-EDGES[{ VERTICES[5239], VERTICES[3428] }] = 0.0
-EDGES[{ VERTICES[6059], VERTICES[6161] }] = 0.0
-EDGES[{ VERTICES[864], VERTICES[1160] }] = 0.0
-EDGES[{ VERTICES[5065], VERTICES[4821] }] = 0.0
-EDGES[{ VERTICES[3019], VERTICES[1196] }] = 0.0
-EDGES[{ VERTICES[3634], VERTICES[4743] }] = 0.0
-EDGES[{ VERTICES[4931], VERTICES[3665] }] = 0.0
-EDGES[{ VERTICES[6244], VERTICES[3930] }] = 0.0
-EDGES[{ VERTICES[3018], VERTICES[6121] }] = 0.0
-EDGES[{ VERTICES[3328], VERTICES[3233] }] = 0.0
-EDGES[{ VERTICES[235], VERTICES[2493] }] = 0.0
-EDGES[{ VERTICES[1911], VERTICES[1963] }] = 0.0
-EDGES[{ VERTICES[5549], VERTICES[907] }] = 0.0
-EDGES[{ VERTICES[2851], VERTICES[1504] }] = 0.0
-EDGES[{ VERTICES[428], VERTICES[5465] }] = 0.0
-EDGES[{ VERTICES[2798], VERTICES[6146] }] = 0.0
-EDGES[{ VERTICES[1756], VERTICES[2112] }] = 0.0
-EDGES[{ VERTICES[123], VERTICES[2675] }] = 0.0
-EDGES[{ VERTICES[2209], VERTICES[5422] }] = 0.0
-EDGES[{ VERTICES[2829], VERTICES[2328] }] = 0.0
-EDGES[{ VERTICES[3606], VERTICES[1478] }] = 0.0
-EDGES[{ VERTICES[2836], VERTICES[4833] }] = 0.0
-EDGES[{ VERTICES[4709], VERTICES[890] }] = 0.0
-EDGES[{ VERTICES[144], VERTICES[23] }] = 0.0
-EDGES[{ VERTICES[5742], VERTICES[1770] }] = 0.0
-EDGES[{ VERTICES[1778], VERTICES[818] }] = 0.0
-EDGES[{ VERTICES[4587], VERTICES[1082] }] = 0.0
-EDGES[{ VERTICES[1213], VERTICES[4290] }] = 0.0
-EDGES[{ VERTICES[1572], VERTICES[5556] }] = 0.0
-EDGES[{ VERTICES[2980], VERTICES[5314] }] = 0.0
-EDGES[{ VERTICES[3696], VERTICES[531] }] = 0.0
-EDGES[{ VERTICES[4008], VERTICES[2920] }] = 0.0
-EDGES[{ VERTICES[2694], VERTICES[3612] }] = 0.0
-EDGES[{ VERTICES[2527], VERTICES[5661] }] = 0.0
-EDGES[{ VERTICES[770], VERTICES[4499] }] = 0.0
-EDGES[{ VERTICES[4637], VERTICES[619] }] = 0.0
-EDGES[{ VERTICES[2888], VERTICES[5653] }] = 0.0
-EDGES[{ VERTICES[160], VERTICES[4214] }] = 0.0
-EDGES[{ VERTICES[3887], VERTICES[6126] }] = 0.0
-EDGES[{ VERTICES[5260], VERTICES[5766] }] = 0.0
-EDGES[{ VERTICES[5856], VERTICES[2873] }] = 0.0
-EDGES[{ VERTICES[5943], VERTICES[5866] }] = 0.0
-EDGES[{ VERTICES[4102], VERTICES[2895] }] = 0.0
-EDGES[{ VERTICES[1633], VERTICES[5229] }] = 0.0
-EDGES[{ VERTICES[5342], VERTICES[3342] }] = 0.0
-EDGES[{ VERTICES[5706], VERTICES[5665] }] = 0.0
-EDGES[{ VERTICES[506], VERTICES[3346] }] = 0.0
-EDGES[{ VERTICES[3141], VERTICES[1654] }] = 0.0
-EDGES[{ VERTICES[1347], VERTICES[3724] }] = 0.0
-EDGES[{ VERTICES[2813], VERTICES[3578] }] = 0.0
-EDGES[{ VERTICES[6215], VERTICES[4705] }] = 0.0
-EDGES[{ VERTICES[5423], VERTICES[675] }] = 0.0
-EDGES[{ VERTICES[1858], VERTICES[5243] }] = 0.0
-EDGES[{ VERTICES[40], VERTICES[2892] }] = 0.0
-EDGES[{ VERTICES[1028], VERTICES[5565] }] = 0.0
-EDGES[{ VERTICES[2683], VERTICES[3066] }] = 0.0
-EDGES[{ VERTICES[2331], VERTICES[1518] }] = 0.0
-EDGES[{ VERTICES[1114], VERTICES[5957] }] = 0.0
-EDGES[{ VERTICES[3554], VERTICES[2417] }] = 0.0
-EDGES[{ VERTICES[5759], VERTICES[6105] }] = 0.0
-EDGES[{ VERTICES[2376], VERTICES[3637] }] = 0.0
-EDGES[{ VERTICES[3177], VERTICES[4629] }] = 0.0
-EDGES[{ VERTICES[4666], VERTICES[2950] }] = 0.0
-EDGES[{ VERTICES[1164], VERTICES[4130] }] = 0.0
-EDGES[{ VERTICES[3669], VERTICES[2589] }] = 0.0
-EDGES[{ VERTICES[195], VERTICES[494] }] = 0.0
-EDGES[{ VERTICES[1866], VERTICES[6] }] = 0.0
-EDGES[{ VERTICES[3362], VERTICES[3478] }] = 0.0
-EDGES[{ VERTICES[47], VERTICES[249] }] = 0.0
-EDGES[{ VERTICES[6250], VERTICES[794] }] = 0.0
-EDGES[{ VERTICES[58], VERTICES[4369] }] = 0.0
-EDGES[{ VERTICES[1781], VERTICES[4911] }] = 0.0
-EDGES[{ VERTICES[5621], VERTICES[447] }] = 0.0
-EDGES[{ VERTICES[4016], VERTICES[1115] }] = 0.0
-EDGES[{ VERTICES[3901], VERTICES[5951] }] = 0.0
-EDGES[{ VERTICES[1558], VERTICES[1120] }] = 0.0
-EDGES[{ VERTICES[4896], VERTICES[250] }] = 0.0
-EDGES[{ VERTICES[19], VERTICES[2441] }] = 0.0
-EDGES[{ VERTICES[1894], VERTICES[3836] }] = 0.0
-EDGES[{ VERTICES[1138], VERTICES[1438] }] = 0.0
-EDGES[{ VERTICES[2278], VERTICES[5265] }] = 0.0
-EDGES[{ VERTICES[4288], VERTICES[151] }] = 0.0
-EDGES[{ VERTICES[3976], VERTICES[5601] }] = 0.0
-EDGES[{ VERTICES[4460], VERTICES[2143] }] = 0.0
-EDGES[{ VERTICES[4153], VERTICES[4343] }] = 0.0
-EDGES[{ VERTICES[3574], VERTICES[2917] }] = 0.0
-EDGES[{ VERTICES[1139], VERTICES[897] }] = 0.0
-EDGES[{ VERTICES[532], VERTICES[3359] }] = 0.0
-EDGES[{ VERTICES[2970], VERTICES[155] }] = 0.0
-EDGES[{ VERTICES[970], VERTICES[4751] }] = 0.0
-EDGES[{ VERTICES[6180], VERTICES[476] }] = 0.0
-EDGES[{ VERTICES[2273], VERTICES[3658] }] = 0.0
-EDGES[{ VERTICES[5234], VERTICES[6224] }] = 0.0
-EDGES[{ VERTICES[3125], VERTICES[6149] }] = 0.0
-EDGES[{ VERTICES[4806], VERTICES[3697] }] = 0.0
-EDGES[{ VERTICES[2953], VERTICES[2030] }] = 0.0
-EDGES[{ VERTICES[1462], VERTICES[5364] }] = 0.0
-EDGES[{ VERTICES[1446], VERTICES[4070] }] = 0.0
-EDGES[{ VERTICES[2714], VERTICES[3766] }] = 0.0
-EDGES[{ VERTICES[2776], VERTICES[4681] }] = 0.0
-EDGES[{ VERTICES[4467], VERTICES[2081] }] = 0.0
-EDGES[{ VERTICES[2617], VERTICES[5735] }] = 0.0
-EDGES[{ VERTICES[168], VERTICES[746] }] = 0.0
-EDGES[{ VERTICES[4605], VERTICES[4808] }] = 0.0
-EDGES[{ VERTICES[507], VERTICES[589] }] = 0.0
-EDGES[{ VERTICES[1170], VERTICES[6165] }] = 0.0
-EDGES[{ VERTICES[548], VERTICES[2795] }] = 0.0
-EDGES[{ VERTICES[4519], VERTICES[4265] }] = 0.0
-EDGES[{ VERTICES[1172], VERTICES[27] }] = 0.0
-EDGES[{ VERTICES[5336], VERTICES[607] }] = 0.0
-EDGES[{ VERTICES[5723], VERTICES[4634] }] = 0.0
-EDGES[{ VERTICES[519], VERTICES[3709] }] = 0.0
-EDGES[{ VERTICES[6220], VERTICES[1353] }] = 0.0
-EDGES[{ VERTICES[1655], VERTICES[3699] }] = 0.0
-EDGES[{ VERTICES[5345], VERTICES[6136] }] = 0.0
-EDGES[{ VERTICES[895], VERTICES[253] }] = 0.0
-EDGES[{ VERTICES[4856], VERTICES[1641] }] = 0.0
-EDGES[{ VERTICES[2146], VERTICES[282] }] = 0.0
-EDGES[{ VERTICES[4049], VERTICES[3522] }] = 0.0
-EDGES[{ VERTICES[1508], VERTICES[1434] }] = 0.0
-EDGES[{ VERTICES[4349], VERTICES[538] }] = 0.0
-EDGES[{ VERTICES[5083], VERTICES[2280] }] = 0.0
-EDGES[{ VERTICES[2020], VERTICES[4477] }] = 0.0
-EDGES[{ VERTICES[5290], VERTICES[4168] }] = 0.0
-EDGES[{ VERTICES[2124], VERTICES[2962] }] = 0.0
-EDGES[{ VERTICES[1967], VERTICES[2435] }] = 0.0
-EDGES[{ VERTICES[1912], VERTICES[370] }] = 0.0
-EDGES[{ VERTICES[5558], VERTICES[2849] }] = 0.0
-EDGES[{ VERTICES[6155], VERTICES[3256] }] = 0.0
-EDGES[{ VERTICES[4442], VERTICES[4813] }] = 0.0
-EDGES[{ VERTICES[2995], VERTICES[736] }] = 0.0
-EDGES[{ VERTICES[5486], VERTICES[6084] }] = 0.0
-EDGES[{ VERTICES[1838], VERTICES[2947] }] = 0.0
-EDGES[{ VERTICES[2682], VERTICES[1842] }] = 0.0
-EDGES[{ VERTICES[1676], VERTICES[2743] }] = 0.0
-EDGES[{ VERTICES[572], VERTICES[988] }] = 0.0
-EDGES[{ VERTICES[1538], VERTICES[1965] }] = 0.0
-EDGES[{ VERTICES[4046], VERTICES[2075] }] = 0.0
-EDGES[{ VERTICES[2183], VERTICES[1075] }] = 0.0
-EDGES[{ VERTICES[4423], VERTICES[6147] }] = 0.0
-EDGES[{ VERTICES[5203], VERTICES[682] }] = 0.0
-EDGES[{ VERTICES[2691], VERTICES[163] }] = 0.0
-EDGES[{ VERTICES[1660], VERTICES[3953] }] = 0.0
-EDGES[{ VERTICES[5927], VERTICES[2381] }] = 0.0
-EDGES[{ VERTICES[5547], VERTICES[1544] }] = 0.0
-EDGES[{ VERTICES[1282], VERTICES[989] }] = 0.0
-EDGES[{ VERTICES[6097], VERTICES[4095] }] = 0.0
-EDGES[{ VERTICES[1776], VERTICES[3967] }] = 0.0
-EDGES[{ VERTICES[3347], VERTICES[713] }] = 0.0
-EDGES[{ VERTICES[1662], VERTICES[4948] }] = 0.0
-EDGES[{ VERTICES[4472], VERTICES[4650] }] = 0.0
-EDGES[{ VERTICES[2317], VERTICES[977] }] = 0.0
-EDGES[{ VERTICES[1875], VERTICES[812] }] = 0.0
-EDGES[{ VERTICES[3487], VERTICES[5968] }] = 0.0
-EDGES[{ VERTICES[2226], VERTICES[4527] }] = 0.0
-EDGES[{ VERTICES[5510], VERTICES[5365] }] = 0.0
-EDGES[{ VERTICES[2788], VERTICES[5970] }] = 0.0
-EDGES[{ VERTICES[3232], VERTICES[6123] }] = 0.0
-EDGES[{ VERTICES[6137], VERTICES[1880] }] = 0.0
-EDGES[{ VERTICES[3293], VERTICES[4810] }] = 0.0
-EDGES[{ VERTICES[1321], VERTICES[5675] }] = 0.0
-EDGES[{ VERTICES[4367], VERTICES[3676] }] = 0.0
-EDGES[{ VERTICES[5552], VERTICES[1740] }] = 0.0
-EDGES[{ VERTICES[3132], VERTICES[3295] }] = 0.0
-EDGES[{ VERTICES[3012], VERTICES[2562] }] = 0.0
-EDGES[{ VERTICES[103], VERTICES[4178] }] = 0.0
-EDGES[{ VERTICES[765], VERTICES[2228] }] = 0.0
-EDGES[{ VERTICES[5962], VERTICES[2948] }] = 0.0
-EDGES[{ VERTICES[4598], VERTICES[4323] }] = 0.0
-EDGES[{ VERTICES[778], VERTICES[6106] }] = 0.0
-EDGES[{ VERTICES[4002], VERTICES[4934] }] = 0.0
-EDGES[{ VERTICES[2458], VERTICES[6202] }] = 0.0
-EDGES[{ VERTICES[159], VERTICES[5219] }] = 0.0
-EDGES[{ VERTICES[4138], VERTICES[28] }] = 0.0
-EDGES[{ VERTICES[6211], VERTICES[1304] }] = 0.0
-EDGES[{ VERTICES[2765], VERTICES[2251] }] = 0.0
-EDGES[{ VERTICES[2533], VERTICES[4977] }] = 0.0
-EDGES[{ VERTICES[5811], VERTICES[4136] }] = 0.0
-EDGES[{ VERTICES[1052], VERTICES[3862] }] = 0.0
-EDGES[{ VERTICES[1183], VERTICES[4474] }] = 0.0
-EDGES[{ VERTICES[3630], VERTICES[4120] }] = 0.0
-EDGES[{ VERTICES[1408], VERTICES[5749] }] = 0.0
-EDGES[{ VERTICES[664], VERTICES[3961] }] = 0.0
-EDGES[{ VERTICES[5402], VERTICES[390] }] = 0.0
-EDGES[{ VERTICES[1507], VERTICES[5388] }] = 0.0
-EDGES[{ VERTICES[708], VERTICES[3910] }] = 0.0
-EDGES[{ VERTICES[859], VERTICES[5463] }] = 0.0
-EDGES[{ VERTICES[2402], VERTICES[478] }] = 0.0
-EDGES[{ VERTICES[5867], VERTICES[4985] }] = 0.0
-EDGES[{ VERTICES[339], VERTICES[4121] }] = 0.0
-EDGES[{ VERTICES[3820], VERTICES[5305] }] = 0.0
-EDGES[{ VERTICES[1221], VERTICES[4855] }] = 0.0
-EDGES[{ VERTICES[2144], VERTICES[49] }] = 0.0
-EDGES[{ VERTICES[906], VERTICES[2495] }] = 0.0
-EDGES[{ VERTICES[3968], VERTICES[1389] }] = 0.0
-EDGES[{ VERTICES[1231], VERTICES[5184] }] = 0.0
-EDGES[{ VERTICES[5545], VERTICES[1379] }] = 0.0
-EDGES[{ VERTICES[4187], VERTICES[6012] }] = 0.0
-EDGES[{ VERTICES[2243], VERTICES[3401] }] = 0.0
-EDGES[{ VERTICES[5932], VERTICES[5381] }] = 0.0
-EDGES[{ VERTICES[3885], VERTICES[792] }] = 0.0
-EDGES[{ VERTICES[3956], VERTICES[2434] }] = 0.0
-EDGES[{ VERTICES[4174], VERTICES[2200] }] = 0.0
-EDGES[{ VERTICES[5051], VERTICES[5596] }] = 0.0
-EDGES[{ VERTICES[3338], VERTICES[5090] }] = 0.0
-EDGES[{ VERTICES[3871], VERTICES[6208] }] = 0.0
-EDGES[{ VERTICES[6204], VERTICES[2910] }] = 0.0
-EDGES[{ VERTICES[3107], VERTICES[5620] }] = 0.0
-EDGES[{ VERTICES[5156], VERTICES[5034] }] = 0.0
-EDGES[{ VERTICES[5498], VERTICES[1528] }] = 0.0
-EDGES[{ VERTICES[4171], VERTICES[4790] }] = 0.0
-EDGES[{ VERTICES[5899], VERTICES[5494] }] = 0.0
-EDGES[{ VERTICES[3654], VERTICES[4746] }] = 0.0
-EDGES[{ VERTICES[4866], VERTICES[5579] }] = 0.0
-EDGES[{ VERTICES[3442], VERTICES[1166] }] = 0.0
-EDGES[{ VERTICES[6259], VERTICES[594] }] = 0.0
-EDGES[{ VERTICES[5292], VERTICES[762] }] = 0.0
-EDGES[{ VERTICES[270], VERTICES[1719] }] = 0.0
-EDGES[{ VERTICES[1952], VERTICES[1737] }] = 0.0
-EDGES[{ VERTICES[4433], VERTICES[827] }] = 0.0
-EDGES[{ VERTICES[641], VERTICES[5235] }] = 0.0
-EDGES[{ VERTICES[4606], VERTICES[1806] }] = 0.0
-EDGES[{ VERTICES[486], VERTICES[6004] }] = 0.0
-EDGES[{ VERTICES[1355], VERTICES[1335] }] = 0.0
-EDGES[{ VERTICES[1720], VERTICES[3806] }] = 0.0
-EDGES[{ VERTICES[831], VERTICES[5186] }] = 0.0
-EDGES[{ VERTICES[98], VERTICES[4566] }] = 0.0
-EDGES[{ VERTICES[383], VERTICES[4857] }] = 0.0
-EDGES[{ VERTICES[2453], VERTICES[5195] }] = 0.0
-EDGES[{ VERTICES[2783], VERTICES[1893] }] = 0.0
-EDGES[{ VERTICES[4614], VERTICES[5810] }] = 0.0
-EDGES[{ VERTICES[4617], VERTICES[3902] }] = 0.0
-EDGES[{ VERTICES[624], VERTICES[1973] }] = 0.0
-EDGES[{ VERTICES[127], VERTICES[3520] }] = 0.0
-EDGES[{ VERTICES[5298], VERTICES[4047] }] = 0.0
-EDGES[{ VERTICES[5270], VERTICES[6056] }] = 0.0
-EDGES[{ VERTICES[658], VERTICES[6163] }] = 0.0
-EDGES[{ VERTICES[3245], VERTICES[1754] }] = 0.0
-EDGES[{ VERTICES[2114], VERTICES[4388] }] = 0.0
-EDGES[{ VERTICES[4877], VERTICES[210] }] = 0.0
-EDGES[{ VERTICES[2801], VERTICES[3206] }] = 0.0
-EDGES[{ VERTICES[4662], VERTICES[4795] }] = 0.0
-EDGES[{ VERTICES[3544], VERTICES[1410] }] = 0.0
-EDGES[{ VERTICES[1593], VERTICES[5041] }] = 0.0
-EDGES[{ VERTICES[1192], VERTICES[4309] }] = 0.0
-EDGES[{ VERTICES[1948], VERTICES[680] }] = 0.0
-EDGES[{ VERTICES[2698], VERTICES[5281] }] = 0.0
-EDGES[{ VERTICES[5852], VERTICES[4925] }] = 0.0
-EDGES[{ VERTICES[3452], VERTICES[6171] }] = 0.0
-EDGES[{ VERTICES[4693], VERTICES[3212] }] = 0.0
-EDGES[{ VERTICES[633], VERTICES[3396] }] = 0.0
-EDGES[{ VERTICES[2678], VERTICES[2986] }] = 0.0
-EDGES[{ VERTICES[702], VERTICES[4376] }] = 0.0
-EDGES[{ VERTICES[5380], VERTICES[596] }] = 0.0
-EDGES[{ VERTICES[4300], VERTICES[6047] }] = 0.0
-EDGES[{ VERTICES[1243], VERTICES[1786] }] = 0.0
-EDGES[{ VERTICES[920], VERTICES[1045] }] = 0.0
-EDGES[{ VERTICES[300], VERTICES[4935] }] = 0.0
-EDGES[{ VERTICES[2540], VERTICES[3415] }] = 0.0
-EDGES[{ VERTICES[3889], VERTICES[1327] }] = 0.0
-EDGES[{ VERTICES[862], VERTICES[1024] }] = 0.0
-EDGES[{ VERTICES[871], VERTICES[5714] }] = 0.0
-EDGES[{ VERTICES[5741], VERTICES[2996] }] = 0.0
-EDGES[{ VERTICES[4093], VERTICES[4638] }] = 0.0
-EDGES[{ VERTICES[3508], VERTICES[3332] }] = 0.0
-EDGES[{ VERTICES[473], VERTICES[2977] }] = 0.0
-EDGES[{ VERTICES[3391], VERTICES[5939] }] = 0.0
-EDGES[{ VERTICES[5273], VERTICES[2656] }] = 0.0
-EDGES[{ VERTICES[3093], VERTICES[4763] }] = 0.0
-EDGES[{ VERTICES[6131], VERTICES[5700] }] = 0.0
-EDGES[{ VERTICES[3590], VERTICES[514] }] = 0.0
-EDGES[{ VERTICES[4183], VERTICES[3603] }] = 0.0
-EDGES[{ VERTICES[3460], VERTICES[6003] }] = 0.0
-EDGES[{ VERTICES[4465], VERTICES[1299] }] = 0.0
-EDGES[{ VERTICES[1734], VERTICES[5748] }] = 0.0
-EDGES[{ VERTICES[5727], VERTICES[1643] }] = 0.0
-EDGES[{ VERTICES[3971], VERTICES[537] }] = 0.0
-EDGES[{ VERTICES[4117], VERTICES[4646] }] = 0.0
-EDGES[{ VERTICES[2605], VERTICES[5008] }] = 0.0
-EDGES[{ VERTICES[2566], VERTICES[6065] }] = 0.0
-EDGES[{ VERTICES[997], VERTICES[316] }] = 0.0
-EDGES[{ VERTICES[1930], VERTICES[793] }] = 0.0
-EDGES[{ VERTICES[5456], VERTICES[4927] }] = 0.0
-EDGES[{ VERTICES[2163], VERTICES[2919] }] = 0.0
-EDGES[{ VERTICES[1529], VERTICES[1418] }] = 0.0
-EDGES[{ VERTICES[1665], VERTICES[6227] }] = 0.0
-EDGES[{ VERTICES[3801], VERTICES[1035] }] = 0.0
-EDGES[{ VERTICES[3145], VERTICES[5434] }] = 0.0
-EDGES[{ VERTICES[712], VERTICES[718] }] = 0.0
-EDGES[{ VERTICES[4914], VERTICES[779] }] = 0.0
-EDGES[{ VERTICES[15], VERTICES[3577] }] = 0.0
-EDGES[{ VERTICES[2202], VERTICES[1646] }] = 0.0
-EDGES[{ VERTICES[3550], VERTICES[950] }] = 0.0
-EDGES[{ VERTICES[5330], VERTICES[1739] }] = 0.0
-EDGES[{ VERTICES[2575], VERTICES[1865] }] = 0.0
-EDGES[{ VERTICES[3667], VERTICES[904] }] = 0.0
-EDGES[{ VERTICES[6075], VERTICES[1523] }] = 0.0
-EDGES[{ VERTICES[1790], VERTICES[3677] }] = 0.0
-EDGES[{ VERTICES[2308], VERTICES[1269] }] = 0.0
-EDGES[{ VERTICES[5311], VERTICES[2219] }] = 0.0
-EDGES[{ VERTICES[5877], VERTICES[384] }] = 0.0
-EDGES[{ VERTICES[5634], VERTICES[2037] }] = 0.0
-EDGES[{ VERTICES[1051], VERTICES[110] }] = 0.0
-EDGES[{ VERTICES[2313], VERTICES[6071] }] = 0.0
-EDGES[{ VERTICES[2988], VERTICES[4157] }] = 0.0
-EDGES[{ VERTICES[4044], VERTICES[1194] }] = 0.0
-EDGES[{ VERTICES[2438], VERTICES[1364] }] = 0.0
-EDGES[{ VERTICES[1914], VERTICES[258] }] = 0.0
-EDGES[{ VERTICES[495], VERTICES[1591] }] = 0.0
-EDGES[{ VERTICES[4879], VERTICES[6079] }] = 0.0
-EDGES[{ VERTICES[5746], VERTICES[1376] }] = 0.0
-EDGES[{ VERTICES[11], VERTICES[2337] }] = 0.0
-EDGES[{ VERTICES[1369], VERTICES[703] }] = 0.0
-EDGES[{ VERTICES[5150], VERTICES[4325] }] = 0.0
-EDGES[{ VERTICES[4040], VERTICES[1456] }] = 0.0
-EDGES[{ VERTICES[3110], VERTICES[1686] }] = 0.0
-EDGES[{ VERTICES[5672], VERTICES[2858] }] = 0.0
-EDGES[{ VERTICES[804], VERTICES[5830] }] = 0.0
-EDGES[{ VERTICES[4406], VERTICES[4151] }] = 0.0
-EDGES[{ VERTICES[496], VERTICES[1477] }] = 0.0
-EDGES[{ VERTICES[1961], VERTICES[2905] }] = 0.0
-EDGES[{ VERTICES[5133], VERTICES[606] }] = 0.0
-EDGES[{ VERTICES[2823], VERTICES[2864] }] = 0.0
-EDGES[{ VERTICES[5037], VERTICES[4909] }] = 0.0
-EDGES[{ VERTICES[4266], VERTICES[1226] }] = 0.0
-EDGES[{ VERTICES[5000], VERTICES[2242] }] = 0.0
-EDGES[{ VERTICES[1388], VERTICES[1460] }] = 0.0
-EDGES[{ VERTICES[2053], VERTICES[1257] }] = 0.0
-EDGES[{ VERTICES[1144], VERTICES[5248] }] = 0.0
-EDGES[{ VERTICES[5726], VERTICES[5503] }] = 0.0
-EDGES[{ VERTICES[3405], VERTICES[5599] }] = 0.0
-EDGES[{ VERTICES[969], VERTICES[2557] }] = 0.0
-EDGES[{ VERTICES[4946], VERTICES[3190] }] = 0.0
-EDGES[{ VERTICES[1476], VERTICES[3761] }] = 0.0
-EDGES[{ VERTICES[4615], VERTICES[4897] }] = 0.0
-EDGES[{ VERTICES[426], VERTICES[1222] }] = 0.0
-EDGES[{ VERTICES[2008], VERTICES[973] }] = 0.0
-EDGES[{ VERTICES[409], VERTICES[4169] }] = 0.0
-EDGES[{ VERTICES[2325], VERTICES[4989] }] = 0.0
-EDGES[{ VERTICES[4869], VERTICES[2399] }] = 0.0
-EDGES[{ VERTICES[2130], VERTICES[2978] }] = 0.0
-EDGES[{ VERTICES[5544], VERTICES[6029] }] = 0.0
-EDGES[{ VERTICES[1209], VERTICES[9] }] = 0.0
-EDGES[{ VERTICES[5194], VERTICES[1259] }] = 0.0
-EDGES[{ VERTICES[1648], VERTICES[5955] }] = 0.0
-EDGES[{ VERTICES[5676], VERTICES[1670] }] = 0.0
-EDGES[{ VERTICES[701], VERTICES[3198] }] = 0.0
-EDGES[{ VERTICES[2825], VERTICES[3010] }] = 0.0
-EDGES[{ VERTICES[2033], VERTICES[4232] }] = 0.0
-EDGES[{ VERTICES[4209], VERTICES[1104] }] = 0.0
-EDGES[{ VERTICES[720], VERTICES[4712] }] = 0.0
-EDGES[{ VERTICES[1000], VERTICES[4059] }] = 0.0
-EDGES[{ VERTICES[2626], VERTICES[843] }] = 0.0
-EDGES[{ VERTICES[334], VERTICES[1113] }] = 0.0
-EDGES[{ VERTICES[244], VERTICES[3006] }] = 0.0
-EDGES[{ VERTICES[3989], VERTICES[4640] }] = 0.0
-EDGES[{ VERTICES[5424], VERTICES[825] }] = 0.0
-EDGES[{ VERTICES[3921], VERTICES[6025] }] = 0.0
-EDGES[{ VERTICES[2750], VERTICES[803] }] = 0.0
-EDGES[{ VERTICES[5439], VERTICES[4596] }] = 0.0
-EDGES[{ VERTICES[3655], VERTICES[1729] }] = 0.0
-EDGES[{ VERTICES[5476], VERTICES[5006] }] = 0.0
-EDGES[{ VERTICES[4653], VERTICES[2475] }] = 0.0
-EDGES[{ VERTICES[1511], VERTICES[3635] }] = 0.0
-EDGES[{ VERTICES[5338], VERTICES[4459] }] = 0.0
-EDGES[{ VERTICES[1099], VERTICES[4184] }] = 0.0
-EDGES[{ VERTICES[1049], VERTICES[3869] }] = 0.0
-EDGES[{ VERTICES[5947], VERTICES[3620] }] = 0.0
-EDGES[{ VERTICES[1986], VERTICES[402] }] = 0.0
-EDGES[{ VERTICES[4564], VERTICES[4221] }] = 0.0
-EDGES[{ VERTICES[3236], VERTICES[3579] }] = 0.0
-EDGES[{ VERTICES[1070], VERTICES[3963] }] = 0.0
-EDGES[{ VERTICES[3562], VERTICES[857] }] = 0.0
-EDGES[{ VERTICES[1688], VERTICES[1233] }] = 0.0
-EDGES[{ VERTICES[5287], VERTICES[1244] }] = 0.0
-EDGES[{ VERTICES[5722], VERTICES[4503] }] = 0.0
-EDGES[{ VERTICES[2921], VERTICES[724] }] = 0.0
-EDGES[{ VERTICES[3738], VERTICES[5654] }] = 0.0
-EDGES[{ VERTICES[1368], VERTICES[6174] }] = 0.0
-EDGES[{ VERTICES[5991], VERTICES[860] }] = 0.0
-EDGES[{ VERTICES[1560], VERTICES[3023] }] = 0.0
-EDGES[{ VERTICES[1007], VERTICES[4759] }] = 0.0
-EDGES[{ VERTICES[3636], VERTICES[4783] }] = 0.0
-EDGES[{ VERTICES[3388], VERTICES[5104] }] = 0.0
-EDGES[{ VERTICES[4386], VERTICES[961] }] = 0.0
-EDGES[{ VERTICES[4871], VERTICES[721] }] = 0.0
-EDGES[{ VERTICES[331], VERTICES[4728] }] = 0.0
-EDGES[{ VERTICES[4301], VERTICES[5923] }] = 0.0
-EDGES[{ VERTICES[372], VERTICES[5491] }] = 0.0
-EDGES[{ VERTICES[3282], VERTICES[2365] }] = 0.0
-EDGES[{ VERTICES[2503], VERTICES[522] }] = 0.0
-EDGES[{ VERTICES[4959], VERTICES[1802] }] = 0.0
-EDGES[{ VERTICES[450], VERTICES[668] }] = 0.0
-EDGES[{ VERTICES[4804], VERTICES[4457] }] = 0.0
-EDGES[{ VERTICES[2887], VERTICES[2620] }] = 0.0
-EDGES[{ VERTICES[2061], VERTICES[3365] }] = 0.0
-EDGES[{ VERTICES[1635], VERTICES[1811] }] = 0.0
-EDGES[{ VERTICES[5105], VERTICES[5261] }] = 0.0
-EDGES[{ VERTICES[918], VERTICES[3641] }] = 0.0
-EDGES[{ VERTICES[3131], VERTICES[3437] }] = 0.0
-EDGES[{ VERTICES[5910], VERTICES[2602] }] = 0.0
-EDGES[{ VERTICES[2063], VERTICES[3315] }] = 0.0
-EDGES[{ VERTICES[480], VERTICES[3345] }] = 0.0
-EDGES[{ VERTICES[3406], VERTICES[1008] }] = 0.0
-EDGES[{ VERTICES[5136], VERTICES[3843] }] = 0.0
-EDGES[{ VERTICES[1547], VERTICES[3308] }] = 0.0
-EDGES[{ VERTICES[3795], VERTICES[3659] }] = 0.0
-EDGES[{ VERTICES[5205], VERTICES[5165] }] = 0.0
-EDGES[{ VERTICES[575], VERTICES[3211] }] = 0.0
-EDGES[{ VERTICES[2608], VERTICES[3243] }] = 0.0
-EDGES[{ VERTICES[2361], VERTICES[5200] }] = 0.0
-EDGES[{ VERTICES[528], VERTICES[3057] }] = 0.0
-EDGES[{ VERTICES[4507], VERTICES[638] }] = 0.0
-EDGES[{ VERTICES[349], VERTICES[3084] }] = 0.0
-EDGES[{ VERTICES[3765], VERTICES[308] }] = 0.0
-EDGES[{ VERTICES[328], VERTICES[4992] }] = 0.0
-EDGES[{ VERTICES[2821], VERTICES[2311] }] = 0.0
-EDGES[{ VERTICES[5266], VERTICES[800] }] = 0.0
-EDGES[{ VERTICES[3959], VERTICES[3053] }] = 0.0
-EDGES[{ VERTICES[3649], VERTICES[2448] }] = 0.0
-EDGES[{ VERTICES[357], VERTICES[3823] }] = 0.0
-EDGES[{ VERTICES[5865], VERTICES[489] }] = 0.0
-EDGES[{ VERTICES[1103], VERTICES[3070] }] = 0.0
-EDGES[{ VERTICES[1197], VERTICES[598] }] = 0.0
-EDGES[{ VERTICES[145], VERTICES[4599] }] = 0.0
-EDGES[{ VERTICES[1370], VERTICES[3941] }] = 0.0
-EDGES[{ VERTICES[6258], VERTICES[322] }] = 0.0
-EDGES[{ VERTICES[714], VERTICES[602] }] = 0.0
-EDGES[{ VERTICES[2612], VERTICES[2982] }] = 0.0
-EDGES[{ VERTICES[1856], VERTICES[3965] }] = 0.0
-EDGES[{ VERTICES[2472], VERTICES[128] }] = 0.0
-EDGES[{ VERTICES[4575], VERTICES[5887] }] = 0.0
-EDGES[{ VERTICES[5112], VERTICES[1097] }] = 0.0
-EDGES[{ VERTICES[2554], VERTICES[4800] }] = 0.0
-EDGES[{ VERTICES[3926], VERTICES[4664] }] = 0.0
-EDGES[{ VERTICES[1101], VERTICES[3763] }] = 0.0
-EDGES[{ VERTICES[4468], VERTICES[4182] }] = 0.0
-EDGES[{ VERTICES[4966], VERTICES[4779] }] = 0.0
-EDGES[{ VERTICES[323], VERTICES[2079] }] = 0.0
-EDGES[{ VERTICES[670], VERTICES[2567] }] = 0.0
-EDGES[{ VERTICES[5945], VERTICES[2690] }] = 0.0
-EDGES[{ VERTICES[6159], VERTICES[6257] }] = 0.0
-EDGES[{ VERTICES[5276], VERTICES[2818] }] = 0.0
-EDGES[{ VERTICES[3573], VERTICES[960] }] = 0.0
-EDGES[{ VERTICES[5628], VERTICES[3462] }] = 0.0
-EDGES[{ VERTICES[1553], VERTICES[3690] }] = 0.0
-EDGES[{ VERTICES[293], VERTICES[3730] }] = 0.0
-EDGES[{ VERTICES[2320], VERTICES[5362] }] = 0.0
-EDGES[{ VERTICES[2924], VERTICES[3831] }] = 0.0
-EDGES[{ VERTICES[369], VERTICES[177] }] = 0.0
-EDGES[{ VERTICES[3077], VERTICES[5539] }] = 0.0
-EDGES[{ VERTICES[4677], VERTICES[639] }] = 0.0
-EDGES[{ VERTICES[5551], VERTICES[2875] }] = 0.0
-EDGES[{ VERTICES[6114], VERTICES[3272] }] = 0.0
-EDGES[{ VERTICES[6129], VERTICES[1453] }] = 0.0
-EDGES[{ VERTICES[2576], VERTICES[1352] }] = 0.0
-EDGES[{ VERTICES[3276], VERTICES[1180] }] = 0.0
-EDGES[{ VERTICES[1475], VERTICES[4706] }] = 0.0
-EDGES[{ VERTICES[687], VERTICES[1999] }] = 0.0
-EDGES[{ VERTICES[3932], VERTICES[3648] }] = 0.0
-EDGES[{ VERTICES[1901], VERTICES[3832] }] = 0.0
-EDGES[{ VERTICES[2998], VERTICES[711] }] = 0.0
-EDGES[{ VERTICES[1242], VERTICES[1512] }] = 0.0
-EDGES[{ VERTICES[500], VERTICES[547] }] = 0.0
-EDGES[{ VERTICES[3608], VERTICES[4223] }] = 0.0
-EDGES[{ VERTICES[4812], VERTICES[3059] }] = 0.0
-EDGES[{ VERTICES[1198], VERTICES[1709] }] = 0.0
-EDGES[{ VERTICES[2118], VERTICES[173] }] = 0.0
-EDGES[{ VERTICES[1185], VERTICES[5046] }] = 0.0
-EDGES[{ VERTICES[1563], VERTICES[2664] }] = 0.0
-EDGES[{ VERTICES[646], VERTICES[452] }] = 0.0
-EDGES[{ VERTICES[5615], VERTICES[3286] }] = 0.0
-EDGES[{ VERTICES[4147], VERTICES[4817] }] = 0.0
-EDGES[{ VERTICES[777], VERTICES[4758] }] = 0.0
-EDGES[{ VERTICES[365], VERTICES[5911] }] = 0.0
-EDGES[{ VERTICES[5376], VERTICES[3882] }] = 0.0
-EDGES[{ VERTICES[4965], VERTICES[1093] }] = 0.0
-EDGES[{ VERTICES[430], VERTICES[4756] }] = 0.0
-EDGES[{ VERTICES[2749], VERTICES[4030] }] = 0.0
-EDGES[{ VERTICES[4181], VERTICES[5546] }] = 0.0
-EDGES[{ VERTICES[2619], VERTICES[2665] }] = 0.0
-EDGES[{ VERTICES[3231], VERTICES[4586] }] = 0.0
-EDGES[{ VERTICES[461], VERTICES[2296] }] = 0.0
-EDGES[{ VERTICES[5218], VERTICES[1685] }] = 0.0
-EDGES[{ VERTICES[3215], VERTICES[6036] }] = 0.0
-EDGES[{ VERTICES[4792], VERTICES[4439] }] = 0.0
-EDGES[{ VERTICES[5640], VERTICES[1117] }] = 0.0
-EDGES[{ VERTICES[3979], VERTICES[5117] }] = 0.0
-EDGES[{ VERTICES[5663], VERTICES[2162] }] = 0.0
-EDGES[{ VERTICES[954], VERTICES[1900] }] = 0.0
-EDGES[{ VERTICES[6048], VERTICES[3595] }] = 0.0
-EDGES[{ VERTICES[4188], VERTICES[6042] }] = 0.0
-EDGES[{ VERTICES[2188], VERTICES[5095] }] = 0.0
-EDGES[{ VERTICES[4256], VERTICES[2827] }] = 0.0
-EDGES[{ VERTICES[4005], VERTICES[6021] }] = 0.0
-EDGES[{ VERTICES[5555], VERTICES[352] }] = 0.0
-EDGES[{ VERTICES[5324], VERTICES[2137] }] = 0.0
-EDGES[{ VERTICES[2819], VERTICES[5501] }] = 0.0
-EDGES[{ VERTICES[2135], VERTICES[3213] }] = 0.0
-EDGES[{ VERTICES[34], VERTICES[4899] }] = 0.0
-EDGES[{ VERTICES[1541], VERTICES[1933] }] = 0.0
-EDGES[{ VERTICES[4422], VERTICES[2387] }] = 0.0
-EDGES[{ VERTICES[3331], VERTICES[6060] }] = 0.0
-EDGES[{ VERTICES[593], VERTICES[5585] }] = 0.0
-EDGES[{ VERTICES[681], VERTICES[2427] }] = 0.0
-EDGES[{ VERTICES[856], VERTICES[5604] }] = 0.0
-EDGES[{ VERTICES[5319], VERTICES[1298] }] = 0.0
-EDGES[{ VERTICES[2172], VERTICES[3248] }] = 0.0
-EDGES[{ VERTICES[2703], VERTICES[6098] }] = 0.0
-EDGES[{ VERTICES[5662], VERTICES[1702] }] = 0.0
-EDGES[{ VERTICES[1127], VERTICES[5221] }] = 0.0
-EDGES[{ VERTICES[321], VERTICES[5042] }] = 0.0
-EDGES[{ VERTICES[1536], VERTICES[475] }] = 0.0
-EDGES[{ VERTICES[6264], VERTICES[3515] }] = 0.0
-EDGES[{ VERTICES[4063], VERTICES[4517] }] = 0.0
-EDGES[{ VERTICES[2032], VERTICES[4550] }] = 0.0
-EDGES[{ VERTICES[3788], VERTICES[3991] }] = 0.0
-EDGES[{ VERTICES[4137], VERTICES[220] }] = 0.0
-EDGES[{ VERTICES[1926], VERTICES[3136] }] = 0.0
-EDGES[{ VERTICES[3071], VERTICES[2253] }] = 0.0
-EDGES[{ VERTICES[5782], VERTICES[1481] }] = 0.0
-EDGES[{ VERTICES[2018], VERTICES[1320] }] = 0.0
-EDGES[{ VERTICES[4717], VERTICES[1616] }] = 0.0
-EDGES[{ VERTICES[1065], VERTICES[6148] }] = 0.0
-EDGES[{ VERTICES[3694], VERTICES[4748] }] = 0.0
-EDGES[{ VERTICES[4088], VERTICES[2284] }] = 0.0
-EDGES[{ VERTICES[3475], VERTICES[6086] }] = 0.0
-EDGES[{ VERTICES[2256], VERTICES[2657] }] = 0.0
-EDGES[{ VERTICES[2755], VERTICES[3534] }] = 0.0
-EDGES[{ VERTICES[725], VERTICES[6234] }] = 0.0
-EDGES[{ VERTICES[5509], VERTICES[3054] }] = 0.0
-EDGES[{ VERTICES[1821], VERTICES[2761] }] = 0.0
-EDGES[{ VERTICES[649], VERTICES[4097] }] = 0.0
-EDGES[{ VERTICES[5745], VERTICES[5519] }] = 0.0
-EDGES[{ VERTICES[5059], VERTICES[6168] }] = 0.0
-EDGES[{ VERTICES[1003], VERTICES[2537] }] = 0.0
-EDGES[{ VERTICES[6038], VERTICES[753] }] = 0.0
-EDGES[{ VERTICES[153], VERTICES[2011] }] = 0.0
-EDGES[{ VERTICES[5499], VERTICES[2078] }] = 0.0
-EDGES[{ VERTICES[4843], VERTICES[3419] }] = 0.0
-EDGES[{ VERTICES[5872], VERTICES[133] }] = 0.0
-EDGES[{ VERTICES[395], VERTICES[3471] }] = 0.0
-EDGES[{ VERTICES[3769], VERTICES[6083] }] = 0.0
-EDGES[{ VERTICES[3390], VERTICES[2549] }] = 0.0
-EDGES[{ VERTICES[5595], VERTICES[2142] }] = 0.0
-EDGES[{ VERTICES[4220], VERTICES[2565] }] = 0.0
-EDGES[{ VERTICES[5541], VERTICES[1373] }] = 0.0
-EDGES[{ VERTICES[2068], VERTICES[2837] }] = 0.0
-EDGES[{ VERTICES[3816], VERTICES[5520] }] = 0.0
-EDGES[{ VERTICES[1732], VERTICES[3450] }] = 0.0
-EDGES[{ VERTICES[5996], VERTICES[553] }] = 0.0
-EDGES[{ VERTICES[5753], VERTICES[3418] }] = 0.0
-EDGES[{ VERTICES[2799], VERTICES[5803] }] = 0.0
-EDGES[{ VERTICES[5635], VERTICES[896] }] = 0.0
-EDGES[{ VERTICES[5840], VERTICES[5300] }] = 0.0
-EDGES[{ VERTICES[4419], VERTICES[4878] }] = 0.0
-EDGES[{ VERTICES[5210], VERTICES[3781] }] = 0.0
-EDGES[{ VERTICES[4954], VERTICES[4796] }] = 0.0
-EDGES[{ VERTICES[5925], VERTICES[4270] }] = 0.0
-EDGES[{ VERTICES[5107], VERTICES[3047] }] = 0.0
-EDGES[{ VERTICES[4414], VERTICES[141] }] = 0.0
-EDGES[{ VERTICES[2400], VERTICES[279] }] = 0.0
-EDGES[{ VERTICES[2643], VERTICES[5820] }] = 0.0
-EDGES[{ VERTICES[6001], VERTICES[4626] }] = 0.0
-EDGES[{ VERTICES[3312], VERTICES[1004] }] = 0.0
-EDGES[{ VERTICES[3171], VERTICES[2377] }] = 0.0
-EDGES[{ VERTICES[4794], VERTICES[419] }] = 0.0
-EDGES[{ VERTICES[3003], VERTICES[4525] }] = 0.0
-EDGES[{ VERTICES[1571], VERTICES[2940] }] = 0.0
-EDGES[{ VERTICES[6247], VERTICES[2624] }] = 0.0
-EDGES[{ VERTICES[2327], VERTICES[554] }] = 0.0
-EDGES[{ VERTICES[1607], VERTICES[3543] }] = 0.0
-EDGES[{ VERTICES[5129], VERTICES[3108] }] = 0.0
-EDGES[{ VERTICES[5959], VERTICES[1276] }] = 0.0
-EDGES[{ VERTICES[4498], VERTICES[941] }] = 0.0
-EDGES[{ VERTICES[4687], VERTICES[1957] }] = 0.0
-EDGES[{ VERTICES[1827], VERTICES[3780] }] = 0.0
-EDGES[{ VERTICES[149], VERTICES[884] }] = 0.0
-EDGES[{ VERTICES[5786], VERTICES[1329] }] = 0.0
-EDGES[{ VERTICES[3463], VERTICES[4858] }] = 0.0
-EDGES[{ VERTICES[5462], VERTICES[2107] }] = 0.0
-EDGES[{ VERTICES[5204], VERTICES[1587] }] = 0.0
-EDGES[{ VERTICES[4711], VERTICES[609] }] = 0.0
-EDGES[{ VERTICES[1515], VERTICES[1733] }] = 0.0
-EDGES[{ VERTICES[3672], VERTICES[1887] }] = 0.0
-EDGES[{ VERTICES[5918], VERTICES[1611] }] = 0.0
-EDGES[{ VERTICES[1991], VERTICES[4910] }] = 0.0
-EDGES[{ VERTICES[5543], VERTICES[4689] }] = 0.0
-EDGES[{ VERTICES[2672], VERTICES[2709] }] = 0.0
-EDGES[{ VERTICES[1730], VERTICES[2754] }] = 0.0
-EDGES[{ VERTICES[1002], VERTICES[957] }] = 0.0
-EDGES[{ VERTICES[4064], VERTICES[217] }] = 0.0
-EDGES[{ VERTICES[3350], VERTICES[3575] }] = 0.0
-EDGES[{ VERTICES[1326], VERTICES[2843] }] = 0.0
-EDGES[{ VERTICES[1946], VERTICES[3682] }] = 0.0
-EDGES[{ VERTICES[2390], VERTICES[1750] }] = 0.0
-EDGES[{ VERTICES[3408], VERTICES[2231] }] = 0.0
-EDGES[{ VERTICES[627], VERTICES[4721] }] = 0.0
-EDGES[{ VERTICES[3041], VERTICES[4647] }] = 0.0
-EDGES[{ VERTICES[5378], VERTICES[5990] }] = 0.0
-EDGES[{ VERTICES[5482], VERTICES[4375] }] = 0.0
-EDGES[{ VERTICES[5769], VERTICES[2394] }] = 0.0
-EDGES[{ VERTICES[1779], VERTICES[2404] }] = 0.0
-EDGES[{ VERTICES[3485], VERTICES[3498] }] = 0.0
-EDGES[{ VERTICES[3422], VERTICES[583] }] = 0.0
-EDGES[{ VERTICES[4926], VERTICES[1359] }] = 0.0
-EDGES[{ VERTICES[2532], VERTICES[3420] }] = 0.0
-EDGES[{ VERTICES[1759], VERTICES[4998] }] = 0.0
-EDGES[{ VERTICES[4384], VERTICES[2614] }] = 0.0
-EDGES[{ VERTICES[632], VERTICES[3385] }] = 0.0
-EDGES[{ VERTICES[5880], VERTICES[5138] }] = 0.0
-EDGES[{ VERTICES[3001], VERTICES[5855] }] = 0.0
-EDGES[{ VERTICES[2401], VERTICES[3031] }] = 0.0
-EDGES[{ VERTICES[1753], VERTICES[4765] }] = 0.0
-EDGES[{ VERTICES[5696], VERTICES[6139] }] = 0.0
-EDGES[{ VERTICES[3596], VERTICES[5408] }] = 0.0
-EDGES[{ VERTICES[4081], VERTICES[2490] }] = 0.0
-EDGES[{ VERTICES[2834], VERTICES[945] }] = 0.0
-EDGES[{ VERTICES[1279], VERTICES[3407] }] = 0.0
-EDGES[{ VERTICES[1832], VERTICES[1839] }] = 0.0
-EDGES[{ VERTICES[4885], VERTICES[2900] }] = 0.0
-EDGES[{ VERTICES[5678], VERTICES[3792] }] = 0.0
-EDGES[{ VERTICES[375], VERTICES[99] }] = 0.0
-EDGES[{ VERTICES[6182], VERTICES[424] }] = 0.0
-EDGES[{ VERTICES[3681], VERTICES[730] }] = 0.0
-EDGES[{ VERTICES[5028], VERTICES[947] }] = 0.0
-EDGES[{ VERTICES[5087], VERTICES[2199] }] = 0.0
-EDGES[{ VERTICES[5580], VERTICES[5190] }] = 0.0
-EDGES[{ VERTICES[5848], VERTICES[942] }] = 0.0
-EDGES[{ VERTICES[3009], VERTICES[5612] }] = 0.0
-EDGES[{ VERTICES[358], VERTICES[6061] }] = 0.0
-EDGES[{ VERTICES[6158], VERTICES[4170] }] = 0.0
-EDGES[{ VERTICES[527], VERTICES[2515] }] = 0.0
-EDGES[{ VERTICES[2424], VERTICES[4078] }] = 0.0
-EDGES[{ VERTICES[5725], VERTICES[2852] }] = 0.0
-EDGES[{ VERTICES[2543], VERTICES[2881] }] = 0.0
-EDGES[{ VERTICES[4370], VERTICES[1473] }] = 0.0
-EDGES[{ VERTICES[852], VERTICES[5780] }] = 0.0
-EDGES[{ VERTICES[2059], VERTICES[2345] }] = 0.0
-EDGES[{ VERTICES[5938], VERTICES[1106] }] = 0.0
-EDGES[{ VERTICES[5197], VERTICES[2151] }] = 0.0
-EDGES[{ VERTICES[1748], VERTICES[5144] }] = 0.0
-EDGES[{ VERTICES[5935], VERTICES[3203] }] = 0.0
-EDGES[{ VERTICES[1617], VERTICES[5658] }] = 0.0
-EDGES[{ VERTICES[2943], VERTICES[5057] }] = 0.0
-EDGES[{ VERTICES[4886], VERTICES[836] }] = 0.0
-EDGES[{ VERTICES[3166], VERTICES[2902] }] = 0.0
-EDGES[{ VERTICES[441], VERTICES[1205] }] = 0.0
-EDGES[{ VERTICES[4213], VERTICES[1232] }] = 0.0
-EDGES[{ VERTICES[5638], VERTICES[4443] }] = 0.0
-EDGES[{ VERTICES[1362], VERTICES[4823] }] = 0.0
-EDGES[{ VERTICES[4185], VERTICES[1637] }] = 0.0
-EDGES[{ VERTICES[1441], VERTICES[1072] }] = 0.0
-EDGES[{ VERTICES[2307], VERTICES[4747] }] = 0.0
-EDGES[{ VERTICES[490], VERTICES[1783] }] = 0.0
-EDGES[{ VERTICES[4294], VERTICES[1498] }] = 0.0
-EDGES[{ VERTICES[5853], VERTICES[5502] }] = 0.0
-EDGES[{ VERTICES[5895], VERTICES[3133] }] = 0.0
-EDGES[{ VERTICES[1283], VERTICES[4593] }] = 0.0
-EDGES[{ VERTICES[6002], VERTICES[2174] }] = 0.0
-EDGES[{ VERTICES[3167], VERTICES[1683] }] = 0.0
-EDGES[{ VERTICES[2406], VERTICES[2255] }] = 0.0
-EDGES[{ VERTICES[2594], VERTICES[4440] }] = 0.0
-EDGES[{ VERTICES[1435], VERTICES[929] }] = 0.0
-EDGES[{ VERTICES[4228], VERTICES[3545] }] = 0.0
-EDGES[{ VERTICES[3994], VERTICES[3718] }] = 0.0
-EDGES[{ VERTICES[1925], VERTICES[1626] }] = 0.0
-EDGES[{ VERTICES[281], VERTICES[4697] }] = 0.0
-EDGES[{ VERTICES[3197], VERTICES[5884] }] = 0.0
-EDGES[{ VERTICES[1], VERTICES[213] }] = 0.0
-EDGES[{ VERTICES[4479], VERTICES[1738] }] = 0.0
-EDGES[{ VERTICES[3029], VERTICES[5064] }] = 0.0
-EDGES[{ VERTICES[2639], VERTICES[3432] }] = 0.0
-EDGES[{ VERTICES[3476], VERTICES[3030] }] = 0.0
-EDGES[{ VERTICES[1834], VERTICES[474] }] = 0.0
-EDGES[{ VERTICES[1465], VERTICES[1173] }] = 0.0
-EDGES[{ VERTICES[1950], VERTICES[6201] }] = 0.0
-EDGES[{ VERTICES[5624], VERTICES[3032] }] = 0.0
-EDGES[{ VERTICES[5827], VERTICES[1372] }] = 0.0
-EDGES[{ VERTICES[2720], VERTICES[2879] }] = 0.0
-EDGES[{ VERTICES[1140], VERTICES[3214] }] = 0.0
-EDGES[{ VERTICES[3316], VERTICES[174] }] = 0.0
-EDGES[{ VERTICES[6233], VERTICES[3972] }] = 0.0
-EDGES[{ VERTICES[4285], VERTICES[2607] }] = 0.0
-EDGES[{ VERTICES[1158], VERTICES[3101] }] = 0.0
-EDGES[{ VERTICES[6177], VERTICES[1387] }] = 0.0
-EDGES[{ VERTICES[2483], VERTICES[3834] }] = 0.0
-EDGES[{ VERTICES[1934], VERTICES[4192] }] = 0.0
-EDGES[{ VERTICES[5100], VERTICES[1638] }] = 0.0
-EDGES[{ VERTICES[1278], VERTICES[1703] }] = 0.0
-EDGES[{ VERTICES[1690], VERTICES[5805] }] = 0.0
-EDGES[{ VERTICES[3726], VERTICES[3949] }] = 0.0
-EDGES[{ VERTICES[4552], VERTICES[3185] }] = 0.0
-EDGES[{ VERTICES[4644], VERTICES[4754] }] = 0.0
-EDGES[{ VERTICES[2257], VERTICES[2440] }] = 0.0
-EDGES[{ VERTICES[3503], VERTICES[1230] }] = 0.0
-EDGES[{ VERTICES[2154], VERTICES[3238] }] = 0.0
-EDGES[{ VERTICES[1981], VERTICES[5876] }] = 0.0
-EDGES[{ VERTICES[3239], VERTICES[1256] }] = 0.0
-EDGES[{ VERTICES[2445], VERTICES[2287] }] = 0.0
-EDGES[{ VERTICES[1029], VERTICES[1076] }] = 0.0
-EDGES[{ VERTICES[5505], VERTICES[1268] }] = 0.0
-EDGES[{ VERTICES[5849], VERTICES[1784] }] = 0.0
-EDGES[{ VERTICES[2741], VERTICES[3922] }] = 0.0
-EDGES[{ VERTICES[4536], VERTICES[5881] }] = 0.0
-EDGES[{ VERTICES[6068], VERTICES[3852] }] = 0.0
-EDGES[{ VERTICES[5721], VERTICES[4828] }] = 0.0
-EDGES[{ VERTICES[4083], VERTICES[5351] }] = 0.0
-EDGES[{ VERTICES[6193], VERTICES[3269] }] = 0.0
-EDGES[{ VERTICES[5892], VERTICES[2544] }] = 0.0
-EDGES[{ VERTICES[2729], VERTICES[6133] }] = 0.0
-EDGES[{ VERTICES[1711], VERTICES[5085] }] = 0.0
-EDGES[{ VERTICES[4385], VERTICES[3445] }] = 0.0
-EDGES[{ VERTICES[5755], VERTICES[2501] }] = 0.0
-EDGES[{ VERTICES[5914], VERTICES[3056] }] = 0.0
-EDGES[{ VERTICES[5282], VERTICES[4661] }] = 0.0
-EDGES[{ VERTICES[5352], VERTICES[5762] }] = 0.0
-EDGES[{ VERTICES[4612], VERTICES[4431] }] = 0.0
-EDGES[{ VERTICES[4655], VERTICES[3741] }] = 0.0
-EDGES[{ VERTICES[577], VERTICES[3468] }] = 0.0
-EDGES[{ VERTICES[3987], VERTICES[413] }] = 0.0
-EDGES[{ VERTICES[3367], VERTICES[5214] }] = 0.0
-EDGES[{ VERTICES[2425], VERTICES[2824] }] = 0.0
-EDGES[{ VERTICES[6118], VERTICES[564] }] = 0.0
-EDGES[{ VERTICES[1485], VERTICES[1877] }] = 0.0
-EDGES[{ VERTICES[2269], VERTICES[5145] }] = 0.0
-EDGES[{ VERTICES[3398], VERTICES[3800] }] = 0.0
-EDGES[{ VERTICES[1860], VERTICES[5405] }] = 0.0
-EDGES[{ VERTICES[6226], VERTICES[5293] }] = 0.0
-EDGES[{ VERTICES[152], VERTICES[3134] }] = 0.0
-EDGES[{ VERTICES[1941], VERTICES[814] }] = 0.0
-EDGES[{ VERTICES[5254], VERTICES[1023] }] = 0.0
-EDGES[{ VERTICES[1751], VERTICES[692] }] = 0.0
-EDGES[{ VERTICES[305], VERTICES[2070] }] = 0.0
-EDGES[{ VERTICES[1603], VERTICES[4408] }] = 0.0
-EDGES[{ VERTICES[824], VERTICES[3015] }] = 0.0
-EDGES[{ VERTICES[3358], VERTICES[1803] }] = 0.0
-EDGES[{ VERTICES[5455], VERTICES[4069] }] = 0.0
-EDGES[{ VERTICES[1426], VERTICES[2283] }] = 0.0
-EDGES[{ VERTICES[6248], VERTICES[2451] }] = 0.0
-EDGES[{ VERTICES[1766], VERTICES[2383] }] = 0.0
-EDGES[{ VERTICES[2319], VERTICES[2528] }] = 0.0
-EDGES[{ VERTICES[541], VERTICES[3527] }] = 0.0
-EDGES[{ VERTICES[86], VERTICES[5102] }] = 0.0
-EDGES[{ VERTICES[1134], VERTICES[5850] }] = 0.0
-EDGES[{ VERTICES[5611], VERTICES[1067] }] = 0.0
-EDGES[{ VERTICES[1496], VERTICES[311] }] = 0.0
-EDGES[{ VERTICES[2561], VERTICES[4] }] = 0.0
-EDGES[{ VERTICES[5073], VERTICES[276] }] = 0.0
-EDGES[{ VERTICES[2270], VERTICES[2644] }] = 0.0
-EDGES[{ VERTICES[5101], VERTICES[5222] }] = 0.0
-EDGES[{ VERTICES[6006], VERTICES[3318] }] = 0.0
-EDGES[{ VERTICES[1486], VERTICES[1058] }] = 0.0
-EDGES[{ VERTICES[4393], VERTICES[5372] }] = 0.0
-EDGES[{ VERTICES[404], VERTICES[2161] }] = 0.0
-EDGES[{ VERTICES[176], VERTICES[1822] }] = 0.0
-EDGES[{ VERTICES[6030], VERTICES[4025] }] = 0.0
-EDGES[{ VERTICES[1883], VERTICES[671] }] = 0.0
-EDGES[{ VERTICES[5690], VERTICES[3705] }] = 0.0
-EDGES[{ VERTICES[1843], VERTICES[4415] }] = 0.0
-EDGES[{ VERTICES[1009], VERTICES[2077] }] = 0.0
-EDGES[{ VERTICES[4840], VERTICES[4379] }] = 0.0
-EDGES[{ VERTICES[3955], VERTICES[6195] }] = 0.0
-EDGES[{ VERTICES[651], VERTICES[51] }] = 0.0
-EDGES[{ VERTICES[2971], VERTICES[5076] }] = 0.0
-EDGES[{ VERTICES[3736], VERTICES[4838] }] = 0.0
-EDGES[{ VERTICES[1619], VERTICES[3067] }] = 0.0
-EDGES[{ VERTICES[2177], VERTICES[5986] }] = 0.0
-EDGES[{ VERTICES[4670], VERTICES[3255] }] = 0.0
-EDGES[{ VERTICES[4972], VERTICES[1084] }] = 0.0
-EDGES[{ VERTICES[254], VERTICES[3416] }] = 0.0
-EDGES[{ VERTICES[4099], VERTICES[3739] }] = 0.0
-EDGES[{ VERTICES[5946], VERTICES[3037] }] = 0.0
-EDGES[{ VERTICES[4915], VERTICES[3353] }] = 0.0
-EDGES[{ VERTICES[887], VERTICES[3950] }] = 0.0
-EDGES[{ VERTICES[2397], VERTICES[1568] }] = 0.0
-EDGES[{ VERTICES[654], VERTICES[5053] }] = 0.0
-EDGES[{ VERTICES[2922], VERTICES[6089] }] = 0.0
-EDGES[{ VERTICES[4643], VERTICES[5127] }] = 0.0
-EDGES[{ VERTICES[2048], VERTICES[2436] }] = 0.0
-EDGES[{ VERTICES[3865], VERTICES[2293] }] = 0.0
-EDGES[{ VERTICES[2968], VERTICES[3291] }] = 0.0
-EDGES[{ VERTICES[5532], VERTICES[2268] }] = 0.0
-EDGES[{ VERTICES[1984], VERTICES[2126] }] = 0.0
-EDGES[{ VERTICES[1038], VERTICES[3155] }] = 0.0
-EDGES[{ VERTICES[3045], VERTICES[539] }] = 0.0
-EDGES[{ VERTICES[1252], VERTICES[1910] }] = 0.0
-EDGES[{ VERTICES[3011], VERTICES[617] }] = 0.0
-EDGES[{ VERTICES[729], VERTICES[4461] }] = 0.0
-EDGES[{ VERTICES[4324], VERTICES[5067] }] = 0.0
-EDGES[{ VERTICES[2131], VERTICES[1095] }] = 0.0
-EDGES[{ VERTICES[569], VERTICES[1629] }] = 0.0
-EDGES[{ VERTICES[3779], VERTICES[2091] }] = 0.0
-EDGES[{ VERTICES[1255], VERTICES[2367] }] = 0.0
-EDGES[{ VERTICES[5822], VERTICES[296] }] = 0.0
-EDGES[{ VERTICES[5233], VERTICES[4538] }] = 0.0
-EDGES[{ VERTICES[5680], VERTICES[872] }] = 0.0
-EDGES[{ VERTICES[5201], VERTICES[3224] }] = 0.0
-EDGES[{ VERTICES[5077], VERTICES[3969] }] = 0.0
-EDGES[{ VERTICES[1846], VERTICES[5694] }] = 0.0
-EDGES[{ VERTICES[1182], VERTICES[4020] }] = 0.0
-EDGES[{ VERTICES[431], VERTICES[5382] }] = 0.0
-EDGES[{ VERTICES[2181], VERTICES[2462] }] = 0.0
-EDGES[{ VERTICES[326], VERTICES[5198] }] = 0.0
-EDGES[{ VERTICES[267], VERTICES[813] }] = 0.0
-EDGES[{ VERTICES[5845], VERTICES[4505] }] = 0.0
-EDGES[{ VERTICES[3631], VERTICES[3552] }] = 0.0
-EDGES[{ VERTICES[4125], VERTICES[1145] }] = 0.0
-EDGES[{ VERTICES[4352], VERTICES[1365] }] = 0.0
-EDGES[{ VERTICES[4062], VERTICES[3014] }] = 0.0
-EDGES[{ VERTICES[2994], VERTICES[18] }] = 0.0
-EDGES[{ VERTICES[4772], VERTICES[3280] }] = 0.0
-EDGES[{ VERTICES[3096], VERTICES[2812] }] = 0.0
-EDGES[{ VERTICES[2122], VERTICES[401] }] = 0.0
-EDGES[{ VERTICES[5049], VERTICES[2514] }] = 0.0
-EDGES[{ VERTICES[4778], VERTICES[5898] }] = 0.0
-EDGES[{ VERTICES[5014], VERTICES[219] }] = 0.0
-EDGES[{ VERTICES[1445], VERTICES[5453] }] = 0.0
-EDGES[{ VERTICES[2522], VERTICES[224] }] = 0.0
-EDGES[{ VERTICES[1835], VERTICES[4986] }] = 0.0
-EDGES[{ VERTICES[56], VERTICES[416] }] = 0.0
-EDGES[{ VERTICES[5010], VERTICES[3771] }] = 0.0
-EDGES[{ VERTICES[105], VERTICES[974] }] = 0.0
-EDGES[{ VERTICES[5768], VERTICES[3942] }] = 0.0
-EDGES[{ VERTICES[982], VERTICES[2222] }] = 0.0
-EDGES[{ VERTICES[925], VERTICES[3640] }] = 0.0
-EDGES[{ VERTICES[5470], VERTICES[3668] }] = 0.0
-EDGES[{ VERTICES[1229], VERTICES[5738] }] = 0.0
-EDGES[{ VERTICES[2847], VERTICES[4562] }] = 0.0
-EDGES[{ VERTICES[3195], VERTICES[5718] }] = 0.0
-EDGES[{ VERTICES[4589], VERTICES[5175] }] = 0.0
-EDGES[{ VERTICES[3742], VERTICES[3168] }] = 0.0
-EDGES[{ VERTICES[5587], VERTICES[705] }] = 0.0
-EDGES[{ VERTICES[239], VERTICES[919] }] = 0.0
-EDGES[{ VERTICES[1451], VERTICES[5732] }] = 0.0
-EDGES[{ VERTICES[2350], VERTICES[1458] }] = 0.0
-EDGES[{ VERTICES[3623], VERTICES[237] }] = 0.0
-EDGES[{ VERTICES[2217], VERTICES[1397] }] = 0.0
-EDGES[{ VERTICES[5288], VERTICES[4277] }] = 0.0
-EDGES[{ VERTICES[2615], VERTICES[1284] }] = 0.0
-EDGES[{ VERTICES[3580], VERTICES[3157] }] = 0.0
-EDGES[{ VERTICES[2653], VERTICES[5487] }] = 0.0
-EDGES[{ VERTICES[6199], VERTICES[1695] }] = 0.0
-EDGES[{ VERTICES[6221], VERTICES[4230] }] = 0.0
-EDGES[{ VERTICES[5698], VERTICES[5631] }] = 0.0
-EDGES[{ VERTICES[5193], VERTICES[4347] }] = 0.0
-EDGES[{ VERTICES[3983], VERTICES[4842] }] = 0.0
-EDGES[{ VERTICES[611], VERTICES[2535] }] = 0.0
-EDGES[{ VERTICES[2341], VERTICES[3304] }] = 0.0
-EDGES[{ VERTICES[4623], VERTICES[3175] }] = 0.0
-EDGES[{ VERTICES[1217], VERTICES[5708] }] = 0.0
-EDGES[{ VERTICES[1124], VERTICES[4282] }] = 0.0
-EDGES[{ VERTICES[3828], VERTICES[5373] }] = 0.0
-EDGES[{ VERTICES[3127], VERTICES[3794] }] = 0.0
-EDGES[{ VERTICES[2469], VERTICES[4920] }] = 0.0
-EDGES[{ VERTICES[805], VERTICES[5815] }] = 0.0
-EDGES[{ VERTICES[4710], VERTICES[4307] }] = 0.0
-EDGES[{ VERTICES[3947], VERTICES[5309] }] = 0.0
-EDGES[{ VERTICES[317], VERTICES[1575] }] = 0.0
-EDGES[{ VERTICES[4026], VERTICES[5988] }] = 0.0
-EDGES[{ VERTICES[1273], VERTICES[5902] }] = 0.0
-EDGES[{ VERTICES[1656], VERTICES[3505] }] = 0.0
-EDGES[{ VERTICES[5842], VERTICES[5329] }] = 0.0
-EDGES[{ VERTICES[3512], VERTICES[1545] }] = 0.0
-EDGES[{ VERTICES[5385], VERTICES[2109] }] = 0.0
-EDGES[{ VERTICES[5492], VERTICES[5366] }] = 0.0
-EDGES[{ VERTICES[2778], VERTICES[650] }] = 0.0
-EDGES[{ VERTICES[4448], VERTICES[335] }] = 0.0
-EDGES[{ VERTICES[3557], VERTICES[2832] }] = 0.0
-EDGES[{ VERTICES[3772], VERTICES[131] }] = 0.0
-EDGES[{ VERTICES[3817], VERTICES[2964] }] = 0.0
-EDGES[{ VERTICES[875], VERTICES[240] }] = 0.0
-EDGES[{ VERTICES[3767], VERTICES[899] }] = 0.0
-EDGES[{ VERTICES[3488], VERTICES[6125] }] = 0.0
-EDGES[{ VERTICES[908], VERTICES[826] }] = 0.0
-EDGES[{ VERTICES[405], VERTICES[2584] }] = 0.0
-EDGES[{ VERTICES[4146], VERTICES[591] }] = 0.0
-EDGES[{ VERTICES[4240], VERTICES[2745] }] = 0.0
-EDGES[{ VERTICES[1980], VERTICES[3599] }] = 0.0
-EDGES[{ VERTICES[2449], VERTICES[169] }] = 0.0
-EDGES[{ VERTICES[5832], VERTICES[5157] }] = 0.0
-EDGES[{ VERTICES[5429], VERTICES[3061] }] = 0.0
-EDGES[{ VERTICES[5245], VERTICES[1479] }] = 0.0
-EDGES[{ VERTICES[4332], VERTICES[2882] }] = 0.0
-EDGES[{ VERTICES[2641], VERTICES[3273] }] = 0.0
-EDGES[{ VERTICES[976], VERTICES[3502] }] = 0.0
-EDGES[{ VERTICES[418], VERTICES[449] }] = 0.0
-EDGES[{ VERTICES[4394], VERTICES[4403] }] = 0.0
-EDGES[{ VERTICES[2264], VERTICES[4034] }] = 0.0
-EDGES[{ VERTICES[6088], VERTICES[5885] }] = 0.0
-EDGES[{ VERTICES[3456], VERTICES[2894] }] = 0.0
-EDGES[{ VERTICES[2768], VERTICES[5893] }] = 0.0
-EDGES[{ VERTICES[104], VERTICES[867] }] = 0.0
-EDGES[{ VERTICES[1490], VERTICES[5530] }] = 0.0
-EDGES[{ VERTICES[3496], VERTICES[5224] }] = 0.0
-EDGES[{ VERTICES[4834], VERTICES[2559] }] = 0.0
-EDGES[{ VERTICES[3191], VERTICES[1757] }] = 0.0
-EDGES[{ VERTICES[4618], VERTICES[3384] }] = 0.0
-EDGES[{ VERTICES[479], VERTICES[55] }] = 0.0
-EDGES[{ VERTICES[3674], VERTICES[3737] }] = 0.0
-EDGES[{ VERTICES[6229], VERTICES[3691] }] = 0.0
-EDGES[{ VERTICES[1590], VERTICES[5306] }] = 0.0
-EDGES[{ VERTICES[3853], VERTICES[1668] }] = 0.0
-EDGES[{ VERTICES[4447], VERTICES[2711] }] = 0.0
-EDGES[{ VERTICES[3024], VERTICES[3799] }] = 0.0
-EDGES[{ VERTICES[608], VERTICES[1078] }] = 0.0
-EDGES[{ VERTICES[5483], VERTICES[481] }] = 0.0
-EDGES[{ VERTICES[487], VERTICES[2790] }] = 0.0
-EDGES[{ VERTICES[4610], VERTICES[362] }] = 0.0
-EDGES[{ VERTICES[1577], VERTICES[6222] }] = 0.0
-EDGES[{ VERTICES[3270], VERTICES[4318] }] = 0.0
-EDGES[{ VERTICES[1248], VERTICES[4667] }] = 0.0
-EDGES[{ VERTICES[1706], VERTICES[257] }] = 0.0
-EDGES[{ VERTICES[869], VERTICES[6073] }] = 0.0
-EDGES[{ VERTICES[2497], VERTICES[838] }] = 0.0
-EDGES[{ VERTICES[147], VERTICES[663] }] = 0.0
-EDGES[{ VERTICES[1942], VERTICES[255] }] = 0.0
-EDGES[{ VERTICES[965], VERTICES[5139] }] = 0.0
-EDGES[{ VERTICES[5334], VERTICES[454] }] = 0.0
-EDGES[{ VERTICES[5809], VERTICES[4342] }] = 0.0
-EDGES[{ VERTICES[2957], VERTICES[3864] }] = 0.0
-EDGES[{ VERTICES[1470], VERTICES[6216] }] = 0.0
-EDGES[{ VERTICES[4239], VERTICES[5091] }] = 0.0
-EDGES[{ VERTICES[4451], VERTICES[1857] }] = 0.0
-EDGES[{ VERTICES[6119], VERTICES[5436] }] = 0.0
-EDGES[{ VERTICES[2123], VERTICES[4330] }] = 0.0
-EDGES[{ VERTICES[1895], VERTICES[3002] }] = 0.0
-EDGES[{ VERTICES[1142], VERTICES[132] }] = 0.0
-EDGES[{ VERTICES[5153], VERTICES[2363] }] = 0.0
-EDGES[{ VERTICES[2476], VERTICES[4458] }] = 0.0
-EDGES[{ VERTICES[3222], VERTICES[5553] }] = 0.0
-EDGES[{ VERTICES[2281], VERTICES[5775] }] = 0.0
-EDGES[{ VERTICES[4955], VERTICES[2666] }] = 0.0
-EDGES[{ VERTICES[5403], VERTICES[952] }] = 0.0
-EDGES[{ VERTICES[1137], VERTICES[1271] }] = 0.0
-EDGES[{ VERTICES[587], VERTICES[2867] }] = 0.0
-EDGES[{ VERTICES[5687], VERTICES[3149] }] = 0.0
-EDGES[{ VERTICES[292], VERTICES[2939] }] = 0.0
-EDGES[{ VERTICES[3103], VERTICES[284] }] = 0.0
-EDGES[{ VERTICES[3123], VERTICES[406] }] = 0.0
-EDGES[{ VERTICES[3778], VERTICES[2488] }] = 0.0
-EDGES[{ VERTICES[2486], VERTICES[5903] }] = 0.0
-EDGES[{ VERTICES[2805], VERTICES[2484] }] = 0.0
-EDGES[{ VERTICES[327], VERTICES[684] }] = 0.0
-EDGES[{ VERTICES[1089], VERTICES[1077] }] = 0.0
-EDGES[{ VERTICES[1066], VERTICES[440] }] = 0.0
-EDGES[{ VERTICES[5187], VERTICES[1972] }] = 0.0
-EDGES[{ VERTICES[3183], VERTICES[343] }] = 0.0
-EDGES[{ VERTICES[2210], VERTICES[2646] }] = 0.0
-EDGES[{ VERTICES[2332], VERTICES[3918] }] = 0.0
-EDGES[{ VERTICES[6063], VERTICES[1949] }] = 0.0
-EDGES[{ VERTICES[5756], VERTICES[5563] }] = 0.0
-EDGES[{ VERTICES[5572], VERTICES[1461] }] = 0.0
-EDGES[{ VERTICES[3207], VERTICES[1600] }] = 0.0
-EDGES[{ VERTICES[16], VERTICES[6072] }] = 0.0
-EDGES[{ VERTICES[3560], VERTICES[3180] }] = 0.0
-EDGES[{ VERTICES[5068], VERTICES[3324] }] = 0.0
-EDGES[{ VERTICES[5307], VERTICES[4483] }] = 0.0
-EDGES[{ VERTICES[222], VERTICES[5648] }] = 0.0
-EDGES[{ VERTICES[4333], VERTICES[2726] }] = 0.0
-EDGES[{ VERTICES[5528], VERTICES[5258] }] = 0.0
-EDGES[{ VERTICES[5321], VERTICES[2686] }] = 0.0
-EDGES[{ VERTICES[1510], VERTICES[5220] }] = 0.0
-EDGES[{ VERTICES[830], VERTICES[4750] }] = 0.0
-EDGES[{ VERTICES[1349], VERTICES[5048] }] = 0.0
-EDGES[{ VERTICES[4233], VERTICES[126] }] = 0.0
-EDGES[{ VERTICES[5110], VERTICES[248] }] = 0.0
-EDGES[{ VERTICES[1341], VERTICES[3356] }] = 0.0
-EDGES[{ VERTICES[635], VERTICES[3556] }] = 0.0
-EDGES[{ VERTICES[6010], VERTICES[6256] }] = 0.0
-EDGES[{ VERTICES[4145], VERTICES[1876] }] = 0.0
-EDGES[{ VERTICES[1251], VERTICES[4258] }] = 0.0
-EDGES[{ VERTICES[4924], VERTICES[2642] }] = 0.0
-EDGES[{ VERTICES[706], VERTICES[5770] }] = 0.0
-EDGES[{ VERTICES[4416], VERTICES[1521] }] = 0.0
-EDGES[{ VERTICES[2072], VERTICES[2101] }] = 0.0
-EDGES[{ VERTICES[1374], VERTICES[1982] }] = 0.0
-EDGES[{ VERTICES[2265], VERTICES[529] }] = 0.0
-EDGES[{ VERTICES[5702], VERTICES[4837] }] = 0.0
-EDGES[{ VERTICES[3313], VERTICES[2304] }] = 0.0
-EDGES[{ VERTICES[2659], VERTICES[38] }] = 0.0
-EDGES[{ VERTICES[2623], VERTICES[4198] }] = 0.0
-EDGES[{ VERTICES[263], VERTICES[540] }] = 0.0
-EDGES[{ VERTICES[298], VERTICES[6128] }] = 0.0
-EDGES[{ VERTICES[2471], VERTICES[1647] }] = 0.0
-EDGES[{ VERTICES[216], VERTICES[665] }] = 0.0
-EDGES[{ VERTICES[697], VERTICES[3582] }] = 0.0
-EDGES[{ VERTICES[3604], VERTICES[5692] }] = 0.0
-EDGES[{ VERTICES[4361], VERTICES[4602] }] = 0.0
-EDGES[{ VERTICES[2499], VERTICES[2315] }] = 0.0
-EDGES[{ VERTICES[4478], VERTICES[3896] }] = 0.0
-EDGES[{ VERTICES[2263], VERTICES[4212] }] = 0.0
-EDGES[{ VERTICES[421], VERTICES[4590] }] = 0.0
-EDGES[{ VERTICES[1270], VERTICES[771] }] = 0.0
-EDGES[{ VERTICES[5613], VERTICES[634] }] = 0.0
-EDGES[{ VERTICES[802], VERTICES[3664] }] = 0.0
-EDGES[{ VERTICES[5353], VERTICES[3322] }] = 0.0
-EDGES[{ VERTICES[1855], VERTICES[2717] }] = 0.0
-EDGES[{ VERTICES[3363], VERTICES[4533] }] = 0.0
-EDGES[{ VERTICES[3049], VERTICES[5651] }] = 0.0
-EDGES[{ VERTICES[2744], VERTICES[1444] }] = 0.0
-EDGES[{ VERTICES[6150], VERTICES[3564] }] = 0.0
-EDGES[{ VERTICES[3786], VERTICES[4534] }] = 0.0
-EDGES[{ VERTICES[5567], VERTICES[4962] }] = 0.0
-EDGES[{ VERTICES[5335], VERTICES[1199] }] = 0.0
-EDGES[{ VERTICES[471], VERTICES[1363] }] = 0.0
-EDGES[{ VERTICES[4254], VERTICES[1315] }] = 0.0
-EDGES[{ VERTICES[2992], VERTICES[3109] }] = 0.0
-EDGES[{ VERTICES[3237], VERTICES[2052] }] = 0.0
-EDGES[{ VERTICES[3878], VERTICES[2359] }] = 0.0
-EDGES[{ VERTICES[2354], VERTICES[4960] }] = 0.0
-EDGES[{ VERTICES[2929], VERTICES[4114] }] = 0.0
-EDGES[{ VERTICES[2089], VERTICES[2285] }] = 0.0
-EDGES[{ VERTICES[398], VERTICES[785] }] = 0.0
-EDGES[{ VERTICES[3671], VERTICES[4504] }] = 0.0
-EDGES[{ VERTICES[4549], VERTICES[2918] }] = 0.0
-EDGES[{ VERTICES[4132], VERTICES[1305] }] = 0.0
-EDGES[{ VERTICES[3939], VERTICES[5641] }] = 0.0
-EDGES[{ VERTICES[1116], VERTICES[5058] }] = 0.0
-EDGES[{ VERTICES[1561], VERTICES[2297] }] = 0.0
-EDGES[{ VERTICES[2357], VERTICES[1847] }] = 0.0
-EDGES[{ VERTICES[3848], VERTICES[5286] }] = 0.0
-EDGES[{ VERTICES[1059], VERTICES[3078] }] = 0.0
-EDGES[{ VERTICES[1788], VERTICES[2581] }] = 0.0
-EDGES[{ VERTICES[1480], VERTICES[1339] }] = 0.0
-EDGES[{ VERTICES[1132], VERTICES[726] }] = 0.0
-EDGES[{ VERTICES[271], VERTICES[2166] }] = 0.0
-EDGES[{ VERTICES[1867], VERTICES[2874] }] = 0.0
-EDGES[{ VERTICES[2857], VERTICES[4970] }] = 0.0
-EDGES[{ VERTICES[2096], VERTICES[170] }] = 0.0
-EDGES[{ VERTICES[1975], VERTICES[2784] }] = 0.0
-EDGES[{ VERTICES[2494], VERTICES[4395] }] = 0.0
-EDGES[{ VERTICES[3216], VERTICES[6135] }] = 0.0
-EDGES[{ VERTICES[951], VERTICES[5322] }] = 0.0
-EDGES[{ VERTICES[1956], VERTICES[1317] }] = 0.0
-EDGES[{ VERTICES[5705], VERTICES[4291] }] = 0.0
-EDGES[{ VERTICES[386], VERTICES[698] }] = 0.0
-EDGES[{ VERTICES[2560], VERTICES[2963] }] = 0.0
-EDGES[{ VERTICES[1859], VERTICES[3839] }] = 0.0
-EDGES[{ VERTICES[5236], VERTICES[458] }] = 0.0
-EDGES[{ VERTICES[5668], VERTICES[3016] }] = 0.0
-EDGES[{ VERTICES[2208], VERTICES[2856] }] = 0.0
-EDGES[{ VERTICES[324], VERTICES[3793] }] = 0.0
-EDGES[{ VERTICES[1725], VERTICES[75] }] = 0.0
-EDGES[{ VERTICES[2237], VERTICES[1025] }] = 0.0
-EDGES[{ VERTICES[4241], VERTICES[6104] }] = 0.0
-EDGES[{ VERTICES[769], VERTICES[4090] }] = 0.0
-EDGES[{ VERTICES[808], VERTICES[1798] }] = 0.0
-EDGES[{ VERTICES[2006], VERTICES[3992] }] = 0.0
-EDGES[{ VERTICES[784], VERTICES[915] }] = 0.0
-EDGES[{ VERTICES[880], VERTICES[6053] }] = 0.0
-EDGES[{ VERTICES[841], VERTICES[616] }] = 0.0
-EDGES[{ VERTICES[5581], VERTICES[2777] }] = 0.0
-EDGES[{ VERTICES[533], VERTICES[3193] }] = 0.0
-EDGES[{ VERTICES[24], VERTICES[5819] }] = 0.0
-EDGES[{ VERTICES[1650], VERTICES[5032] }] = 0.0
-EDGES[{ VERTICES[112], VERTICES[377] }] = 0.0
-EDGES[{ VERTICES[1622], VERTICES[1717] }] = 0.0
-EDGES[{ VERTICES[5004], VERTICES[1080] }] = 0.0
-EDGES[{ VERTICES[3202], VERTICES[2746] }] = 0.0
-EDGES[{ VERTICES[5289], VERTICES[5404] }] = 0.0
-EDGES[{ VERTICES[3377], VERTICES[2279] }] = 0.0
-EDGES[{ VERTICES[4579], VERTICES[1823] }] = 0.0
-EDGES[{ VERTICES[4569], VERTICES[5259] }] = 0.0
-EDGES[{ VERTICES[5710], VERTICES[1562] }] = 0.0
-EDGES[{ VERTICES[4699], VERTICES[2984] }] = 0.0
-EDGES[{ VERTICES[6253], VERTICES[4891] }] = 0.0
-EDGES[{ VERTICES[4971], VERTICES[397] }] = 0.0
-EDGES[{ VERTICES[1307], VERTICES[1275] }] = 0.0
-EDGES[{ VERTICES[5437], VERTICES[6037] }] = 0.0
-EDGES[{ VERTICES[889], VERTICES[2961] }] = 0.0
-EDGES[{ VERTICES[983], VERTICES[2338] }] = 0.0
-EDGES[{ VERTICES[4196], VERTICES[6151] }] = 0.0
-EDGES[{ VERTICES[6143], VERTICES[3102] }] = 0.0
-EDGES[{ VERTICES[6152], VERTICES[1583] }] = 0.0
-EDGES[{ VERTICES[5257], VERTICES[1530] }] = 0.0
-EDGES[{ VERTICES[294], VERTICES[1381] }] = 0.0
-EDGES[{ VERTICES[5036], VERTICES[330] }] = 0.0
-EDGES[{ VERTICES[1155], VERTICES[1681] }] = 0.0
-EDGES[{ VERTICES[1522], VERTICES[4321] }] = 0.0
-EDGES[{ VERTICES[1395], VERTICES[4210] }] = 0.0
-EDGES[{ VERTICES[4769], VERTICES[5142] }] = 0.0
-EDGES[{ VERTICES[5901], VERTICES[3757] }] = 0.0
-EDGES[{ VERTICES[2574], VERTICES[4454] }] = 0.0
-EDGES[{ VERTICES[1555], VERTICES[4789] }] = 0.0
-EDGES[{ VERTICES[1258], VERTICES[2757] }] = 0.0
-EDGES[{ VERTICES[508], VERTICES[2930] }] = 0.0
-EDGES[{ VERTICES[1427], VERTICES[4656] }] = 0.0
-EDGES[{ VERTICES[1669], VERTICES[3105] }] = 0.0
-EDGES[{ VERTICES[199], VERTICES[3565] }] = 0.0
-EDGES[{ VERTICES[4775], VERTICES[3344] }] = 0.0
-EDGES[{ VERTICES[2121], VERTICES[5896] }] = 0.0
-EDGES[{ VERTICES[3807], VERTICES[4864] }] = 0.0
-EDGES[{ VERTICES[3275], VERTICES[2439] }] = 0.0
-EDGES[{ VERTICES[5592], VERTICES[3990] }] = 0.0
-EDGES[{ VERTICES[888], VERTICES[1463] }] = 0.0
-EDGES[{ VERTICES[3447], VERTICES[4010] }] = 0.0
-EDGES[{ VERTICES[4313], VERTICES[4658] }] = 0.0
-EDGES[{ VERTICES[5643], VERTICES[6100] }] = 0.0
-EDGES[{ VERTICES[3535], VERTICES[2999] }] = 0.0
-EDGES[{ VERTICES[5659], VERTICES[1330] }] = 0.0
-EDGES[{ VERTICES[70], VERTICES[891] }] = 0.0
-EDGES[{ VERTICES[3459], VERTICES[2845] }] = 0.0
-EDGES[{ VERTICES[923], VERTICES[4523] }] = 0.0
-EDGES[{ VERTICES[1705], VERTICES[2912] }] = 0.0
-EDGES[{ VERTICES[3625], VERTICES[295] }] = 0.0
-EDGES[{ VERTICES[1974], VERTICES[2598] }] = 0.0
-EDGES[{ VERTICES[2804], VERTICES[5421] }] = 0.0
-EDGES[{ VERTICES[2095], VERTICES[5488] }] = 0.0
-EDGES[{ VERTICES[5518], VERTICES[1805] }] = 0.0
-EDGES[{ VERTICES[5919], VERTICES[1469] }] = 0.0
-EDGES[{ VERTICES[3310], VERTICES[2705] }] = 0.0
-EDGES[{ VERTICES[523], VERTICES[2087] }] = 0.0
-EDGES[{ VERTICES[2195], VERTICES[2599] }] = 0.0
-EDGES[{ VERTICES[4633], VERTICES[2751] }] = 0.0
-EDGES[{ VERTICES[4487], VERTICES[4356] }] = 0.0
-EDGES[{ VERTICES[4036], VERTICES[3840] }] = 0.0
-EDGES[{ VERTICES[2817], VERTICES[3514] }] = 0.0
-EDGES[{ VERTICES[4928], VERTICES[1735] }] = 0.0
-EDGES[{ VERTICES[3137], VERTICES[5119] }] = 0.0
-EDGES[{ VERTICES[2322], VERTICES[1301] }] = 0.0
-EDGES[{ VERTICES[125], VERTICES[4573] }] = 0.0
-EDGES[{ VERTICES[6200], VERTICES[90] }] = 0.0
-EDGES[{ VERTICES[5350], VERTICES[3267] }] = 0.0
-EDGES[{ VERTICES[6191], VERTICES[2489] }] = 0.0
-EDGES[{ VERTICES[1247], VERTICES[2645] }] = 0.0
-EDGES[{ VERTICES[5813], VERTICES[425] }] = 0.0
-EDGES[{ VERTICES[3080], VERTICES[5367] }] = 0.0
-EDGES[{ VERTICES[4685], VERTICES[6009] }] = 0.0
-EDGES[{ VERTICES[2115], VERTICES[3148] }] = 0.0
-EDGES[{ VERTICES[810], VERTICES[2542] }] = 0.0
-EDGES[{ VERTICES[3539], VERTICES[6113] }] = 0.0
-EDGES[{ VERTICES[1484], VERTICES[391] }] = 0.0
-EDGES[{ VERTICES[4441], VERTICES[2248] }] = 0.0
-EDGES[{ VERTICES[1360], VERTICES[64] }] = 0.0
-EDGES[{ VERTICES[573], VERTICES[1361] }] = 0.0
-EDGES[{ VERTICES[4112], VERTICES[1657] }] = 0.0
-EDGES[{ VERTICES[3609], VERTICES[3138] }] = 0.0
-EDGES[{ VERTICES[1987], VERTICES[5103] }] = 0.0
-EDGES[{ VERTICES[2747], VERTICES[4427] }] = 0.0
-EDGES[{ VERTICES[3412], VERTICES[2547] }] = 0.0
-EDGES[{ VERTICES[885], VERTICES[5215] }] = 0.0
-EDGES[{ VERTICES[5627], VERTICES[4372] }] = 0.0
-EDGES[{ VERTICES[6154], VERTICES[4691] }] = 0.0
-EDGES[{ VERTICES[1881], VERTICES[2911] }] = 0.0
-EDGES[{ VERTICES[5285], VERTICES[615] }] = 0.0
-EDGES[{ VERTICES[4577], VERTICES[2609] }] = 0.0
-EDGES[{ VERTICES[2839], VERTICES[3531] }] = 0.0
-EDGES[{ VERTICES[2013], VERTICES[5869] }] = 0.0
-EDGES[{ VERTICES[2966], VERTICES[855] }] = 0.0
-EDGES[{ VERTICES[4559], VERTICES[3685] }] = 0.0
-EDGES[{ VERTICES[3095], VERTICES[3106] }] = 0.0
-EDGES[{ VERTICES[6066], VERTICES[6087] }] = 0.0
-EDGES[{ VERTICES[1129], VERTICES[1520] }] = 0.0
-EDGES[{ VERTICES[5508], VERTICES[3472] }] = 0.0
-EDGES[{ VERTICES[3219], VERTICES[2781] }] = 0.0
-EDGES[{ VERTICES[1141], VERTICES[3914] }] = 0.0
-EDGES[{ VERTICES[1892], VERTICES[846] }] = 0.0
-EDGES[{ VERTICES[799], VERTICES[902] }] = 0.0
-EDGES[{ VERTICES[2652], VERTICES[3128] }] = 0.0
-EDGES[{ VERTICES[5386], VERTICES[101] }] = 0.0
-EDGES[{ VERTICES[4401], VERTICES[2578] }] = 0.0
-EDGES[{ VERTICES[4862], VERTICES[1337] }] = 0.0
-EDGES[{ VERTICES[3732], VERTICES[1014] }] = 0.0
-EDGES[{ VERTICES[1449], VERTICES[5720] }] = 0.0
-EDGES[{ VERTICES[134], VERTICES[4335] }] = 0.0
-EDGES[{ VERTICES[886], VERTICES[4873] }] = 0.0
-EDGES[{ VERTICES[534], VERTICES[2192] }] = 0.0
-EDGES[{ VERTICES[4540], VERTICES[1692] }] = 0.0
-EDGES[{ VERTICES[1302], VERTICES[4438] }] = 0.0
-EDGES[{ VERTICES[4671], VERTICES[4982] }] = 0.0
-EDGES[{ VERTICES[3600], VERTICES[312] }] = 0.0
-EDGES[{ VERTICES[1394], VERTICES[5296] }] = 0.0
-EDGES[{ VERTICES[4048], VERTICES[68] }] = 0.0
-EDGES[{ VERTICES[5440], VERTICES[2797] }] = 0.0
-EDGES[{ VERTICES[900], VERTICES[1992] }] = 0.0
-EDGES[{ VERTICES[6170], VERTICES[5189] }] = 0.0
-EDGES[{ VERTICES[3879], VERTICES[2877] }] = 0.0
-EDGES[{ VERTICES[3845], VERTICES[4785] }] = 0.0
-EDGES[{ VERTICES[1819], VERTICES[1820] }] = 0.0
-EDGES[{ VERTICES[1026], VERTICES[5942] }] = 0.0
-EDGES[{ VERTICES[3683], VERTICES[986] }] = 0.0
-EDGES[{ VERTICES[5523], VERTICES[1416] }] = 0.0
-EDGES[{ VERTICES[555], VERTICES[1799] }] = 0.0
-EDGES[{ VERTICES[2975], VERTICES[5998] }] = 0.0
-EDGES[{ VERTICES[3883], VERTICES[1704] }] = 0.0
-EDGES[{ VERTICES[6160], VERTICES[223] }] = 0.0
-EDGES[{ VERTICES[3592], VERTICES[2727] }] = 0.0
-EDGES[{ VERTICES[420], VERTICES[1354] }] = 0.0
-EDGES[{ VERTICES[3646], VERTICES[2907] }] = 0.0
-EDGES[{ VERTICES[4380], VERTICES[4841] }] = 0.0
-EDGES[{ VERTICES[6092], VERTICES[4128] }] = 0.0
-EDGES[{ VERTICES[3711], VERTICES[2529] }] = 0.0
-EDGES[{ VERTICES[823], VERTICES[4819] }] = 0.0
-EDGES[{ VERTICES[2106], VERTICES[1700] }] = 0.0
-EDGES[{ VERTICES[4807], VERTICES[1589] }] = 0.0
-EDGES[{ VERTICES[922], VERTICES[5500] }] = 0.0
-EDGES[{ VERTICES[3289], VERTICES[5389] }] = 0.0
-EDGES[{ VERTICES[388], VERTICES[3689] }] = 0.0
-EDGES[{ VERTICES[1281], VERTICES[2329] }] = 0.0
-EDGES[{ VERTICES[2430], VERTICES[4402] }] = 0.0
-EDGES[{ VERTICES[2260], VERTICES[2606] }] = 0.0
-EDGES[{ VERTICES[111], VERTICES[4079] }] = 0.0
-EDGES[{ VERTICES[6116], VERTICES[4619] }] = 0.0
-EDGES[{ VERTICES[5831], VERTICES[1699] }] = 0.0
-EDGES[{ VERTICES[1744], VERTICES[4651] }] = 0.0
-EDGES[{ VERTICES[5326], VERTICES[1884] }] = 0.0
-EDGES[{ VERTICES[3044], VERTICES[5460] }] = 0.0
-EDGES[{ VERTICES[6077], VERTICES[1597] }] = 0.0
-EDGES[{ VERTICES[5516], VERTICES[5646] }] = 0.0
-EDGES[{ VERTICES[498], VERTICES[563] }] = 0.0
-EDGES[{ VERTICES[2531], VERTICES[3791] }] = 0.0
-EDGES[{ VERTICES[4776], VERTICES[5691] }] = 0.0
-EDGES[{ VERTICES[3746], VERTICES[4462] }] = 0.0
-EDGES[{ VERTICES[1240], VERTICES[5294] }] = 0.0
-EDGES[{ VERTICES[5776], VERTICES[3290] }] = 0.0
-EDGES[{ VERTICES[2792], VERTICES[715] }] = 0.0
-EDGES[{ VERTICES[4303], VERTICES[2673] }] = 0.0
-EDGES[{ VERTICES[4469], VERTICES[2303] }] = 0.0
-EDGES[{ VERTICES[5859], VERTICES[3860] }] = 0.0
-EDGES[{ VERTICES[4310], VERTICES[1310] }] = 0.0
-EDGES[{ VERTICES[3098], VERTICES[4870] }] = 0.0
-EDGES[{ VERTICES[5550], VERTICES[2628] }] = 0.0
-EDGES[{ VERTICES[1147], VERTICES[340] }] = 0.0
-EDGES[{ VERTICES[6074], VERTICES[2701] }] = 0.0
-EDGES[{ VERTICES[4429], VERTICES[4377] }] = 0.0
-EDGES[{ VERTICES[5438], VERTICES[2684] }] = 0.0
-EDGES[{ VERTICES[4041], VERTICES[545] }] = 0.0
-EDGES[{ VERTICES[5507], VERTICES[898] }] = 0.0
-EDGES[{ VERTICES[4547], VERTICES[1466] }] = 0.0
-EDGES[{ VERTICES[4849], VERTICES[3151] }] = 0.0
-EDGES[{ VERTICES[1792], VERTICES[2955] }] = 0.0
-EDGES[{ VERTICES[4700], VERTICES[2136] }] = 0.0
-EDGES[{ VERTICES[5185], VERTICES[5956] }] = 0.0
-EDGES[{ VERTICES[4511], VERTICES[3629] }] = 0.0
-EDGES[{ VERTICES[3920], VERTICES[3392] }] = 0.0
-EDGES[{ VERTICES[4844], VERTICES[647] }] = 0.0
-EDGES[{ VERTICES[3247], VERTICES[1423] }] = 0.0
-EDGES[{ VERTICES[1404], VERTICES[5681] }] = 0.0
-EDGES[{ VERTICES[4432], VERTICES[2267] }] = 0.0
-EDGES[{ VERTICES[3542], VERTICES[1412] }] = 0.0
-EDGES[{ VERTICES[3904], VERTICES[2716] }] = 0.0
-EDGES[{ VERTICES[6206], VERTICES[2119] }] = 0.0
-EDGES[{ VERTICES[1595], VERTICES[1828] }] = 0.0
-EDGES[{ VERTICES[6153], VERTICES[565] }] = 0.0
-EDGES[{ VERTICES[926], VERTICES[1928] }] = 0.0
-EDGES[{ VERTICES[3855], VERTICES[4141] }] = 0.0
-EDGES[{ VERTICES[1367], VERTICES[198] }] = 0.0
-EDGES[{ VERTICES[2221], VERTICES[4103] }] = 0.0
-EDGES[{ VERTICES[130], VERTICES[2044] }] = 0.0
-EDGES[{ VERTICES[5517], VERTICES[4150] }] = 0.0
-EDGES[{ VERTICES[821], VERTICES[1906] }] = 0.0
-EDGES[{ VERTICES[3895], VERTICES[2288] }] = 0.0
-EDGES[{ VERTICES[5398], VERTICES[4019] }] = 0.0
-EDGES[{ VERTICES[5237], VERTICES[4159] }] = 0.0
-EDGES[{ VERTICES[3733], VERTICES[262] }] = 0.0
-EDGES[{ VERTICES[3065], VERTICES[1177] }] = 0.0
-EDGES[{ VERTICES[5862], VERTICES[3296] }] = 0.0
-EDGES[{ VERTICES[4412], VERTICES[845] }] = 0.0
-EDGES[{ VERTICES[2041], VERTICES[5079] }] = 0.0
-EDGES[{ VERTICES[3055], VERTICES[21] }] = 0.0
-EDGES[{ VERTICES[3022], VERTICES[4668] }] = 0.0
-EDGES[{ VERTICES[3026], VERTICES[3124] }] = 0.0
-EDGES[{ VERTICES[3073], VERTICES[3210] }] = 0.0
-EDGES[{ VERTICES[1576], VERTICES[3650] }] = 0.0
-EDGES[{ VERTICES[2097], VERTICES[4267] }] = 0.0
-EDGES[{ VERTICES[2230], VERTICES[3748] }] = 0.0
-EDGES[{ VERTICES[3898], VERTICES[4880] }] = 0.0
-EDGES[{ VERTICES[3506], VERTICES[2180] }] = 0.0
-EDGES[{ VERTICES[1482], VERTICES[360] }] = 0.0
-EDGES[{ VERTICES[3785], VERTICES[467] }] = 0.0
-EDGES[{ VERTICES[648], VERTICES[3005] }] = 0.0
-EDGES[{ VERTICES[1204], VERTICES[3756] }] = 0.0
-EDGES[{ VERTICES[3940], VERTICES[5097] }] = 0.0
-EDGES[{ VERTICES[1027], VERTICES[1110] }] = 0.0
-EDGES[{ VERTICES[3723], VERTICES[4165] }] = 0.0
-EDGES[{ VERTICES[5120], VERTICES[801] }] = 0.0
-EDGES[{ VERTICES[4529], VERTICES[1128] }] = 0.0
-EDGES[{ VERTICES[1322], VERTICES[2016] }] = 0.0
-EDGES[{ VERTICES[4768], VERTICES[2807] }] = 0.0
-EDGES[{ VERTICES[1671], VERTICES[109] }] = 0.0
-EDGES[{ VERTICES[4071], VERTICES[1746] }] = 0.0
-EDGES[{ VERTICES[353], VERTICES[3859] }] = 0.0
-EDGES[{ VERTICES[2148], VERTICES[3909] }] = 0.0
-EDGES[{ VERTICES[558], VERTICES[850] }] = 0.0
-EDGES[{ VERTICES[3261], VERTICES[2949] }] = 0.0
-EDGES[{ VERTICES[678], VERTICES[1334] }] = 0.0
-EDGES[{ VERTICES[4939], VERTICES[4038] }] = 0.0
-EDGES[{ VERTICES[61], VERTICES[4999] }] = 0.0
-EDGES[{ VERTICES[3393], VERTICES[5496] }] = 0.0
-EDGES[{ VERTICES[1664], VERTICES[3451] }] = 0.0
-EDGES[{ VERTICES[5080], VERTICES[2954] }] = 0.0
-EDGES[{ VERTICES[1534], VERTICES[4592] }] = 0.0
-EDGES[{ VERTICES[5682], VERTICES[3387] }] = 0.0
-EDGES[{ VERTICES[4382], VERTICES[5997] }] = 0.0
-EDGES[{ VERTICES[5075], VERTICES[1098] }] = 0.0
-EDGES[{ VERTICES[5973], VERTICES[3894] }] = 0.0
-EDGES[{ VERTICES[5905], VERTICES[1100] }] = 0.0
-EDGES[{ VERTICES[4714], VERTICES[6082] }] = 0.0
-EDGES[{ VERTICES[4218], VERTICES[5513] }] = 0.0
-EDGES[{ VERTICES[3382], VERTICES[2736] }] = 0.0
-EDGES[{ VERTICES[3776], VERTICES[4065] }] = 0.0
-EDGES[{ VERTICES[5431], VERTICES[1055] }] = 0.0
-EDGES[{ VERTICES[1524], VERTICES[3062] }] = 0.0
-EDGES[{ VERTICES[1096], VERTICES[309] }] = 0.0
-EDGES[{ VERTICES[2780], VERTICES[783] }] = 0.0
-EDGES[{ VERTICES[5310], VERTICES[5538] }] = 0.0
-EDGES[{ VERTICES[5442], VERTICES[2339] }] = 0.0
-EDGES[{ VERTICES[1384], VERTICES[3257] }] = 0.0
-EDGES[{ VERTICES[5619], VERTICES[1936] }] = 0.0
-EDGES[{ VERTICES[4268], VERTICES[2674] }] = 0.0
-EDGES[{ VERTICES[5639], VERTICES[3585] }] = 0.0
-EDGES[{ VERTICES[5147], VERTICES[625] }] = 0.0
-EDGES[{ VERTICES[3072], VERTICES[3734] }] = 0.0
-EDGES[{ VERTICES[5045], VERTICES[138] }] = 0.0
-EDGES[{ VERTICES[4337], VERTICES[2660] }] = 0.0
-EDGES[{ VERTICES[504], VERTICES[958] }] = 0.0
-EDGES[{ VERTICES[4054], VERTICES[228] }] = 0.0
-EDGES[{ VERTICES[2323], VERTICES[1316] }] = 0.0
-EDGES[{ VERTICES[1769], VERTICES[215] }] = 0.0
-EDGES[{ VERTICES[3583], VERTICES[5800] }] = 0.0
-EDGES[{ VERTICES[5448], VERTICES[3094] }] = 0.0
-EDGES[{ VERTICES[4437], VERTICES[574] }] = 0.0
-EDGES[{ VERTICES[180], VERTICES[3687] }] = 0.0
-EDGES[{ VERTICES[2564], VERTICES[3497] }] = 0.0
-EDGES[{ VERTICES[1447], VERTICES[6023] }] = 0.0
-EDGES[{ VERTICES[3411], VERTICES[3443] }] = 0.0
-EDGES[{ VERTICES[2158], VERTICES[3429] }] = 0.0
-EDGES[{ VERTICES[3783], VERTICES[1899] }] = 0.0
-EDGES[{ VERTICES[4990], VERTICES[2428] }] = 0.0
-EDGES[{ VERTICES[4231], VERTICES[1817] }] = 0.0
-EDGES[{ VERTICES[2523], VERTICES[2185] }] = 0.0
-EDGES[{ VERTICES[2372], VERTICES[4327] }] = 0.0
-EDGES[{ VERTICES[979], VERTICES[4105] }] = 0.0
-EDGES[{ VERTICES[2903], VERTICES[3753] }] = 0.0
-EDGES[{ VERTICES[5704], VERTICES[1721] }] = 0.0
-EDGES[{ VERTICES[5325], VERTICES[674] }] = 0.0
-EDGES[{ VERTICES[3618], VERTICES[5588] }] = 0.0
-EDGES[{ VERTICES[96], VERTICES[4853] }] = 0.0
-EDGES[{ VERTICES[5684], VERTICES[3119] }] = 0.0
-EDGES[{ VERTICES[3524], VERTICES[4191] }] = 0.0
-EDGES[{ VERTICES[4373], VERTICES[273] }] = 0.0
-EDGES[{ VERTICES[1090], VERTICES[5787] }] = 0.0
-EDGES[{ VERTICES[5980], VERTICES[3117] }] = 0.0
-EDGES[{ VERTICES[4216], VERTICES[2352] }] = 0.0
-EDGES[{ VERTICES[586], VERTICES[966] }] = 0.0
-EDGES[{ VERTICES[652], VERTICES[3626] }] = 0.0
-EDGES[{ VERTICES[1442], VERTICES[5801] }] = 0.0
-EDGES[{ VERTICES[2234], VERTICES[2481] }] = 0.0
-EDGES[{ VERTICES[5760], VERTICES[549] }] = 0.0
-EDGES[{ VERTICES[3572], VERTICES[5802] }] = 0.0
-EDGES[{ VERTICES[3104], VERTICES[1154] }] = 0.0
-EDGES[{ VERTICES[3722], VERTICES[1989] }] = 0.0
-EDGES[{ VERTICES[5514], VERTICES[2516] }] = 0.0
-EDGES[{ VERTICES[3815], VERTICES[535] }] = 0.0
-EDGES[{ VERTICES[1624], VERTICES[1206] }] = 0.0
-EDGES[{ VERTICES[2276], VERTICES[1338] }] = 0.0
-EDGES[{ VERTICES[4997], VERTICES[1944] }] = 0.0
-EDGES[{ VERTICES[752], VERTICES[1586] }] = 0.0
-EDGES[{ VERTICES[963], VERTICES[5548] }] = 0.0
-EDGES[{ VERTICES[5771], VERTICES[3007] }] = 0.0
-EDGES[{ VERTICES[1978], VERTICES[4723] }] = 0.0
-EDGES[{ VERTICES[493], VERTICES[3504] }] = 0.0
-EDGES[{ VERTICES[2050], VERTICES[3973] }] = 0.0
-EDGES[{ VERTICES[3789], VERTICES[544] }] = 0.0
-EDGES[{ VERTICES[2519], VERTICES[1118] }] = 0.0
-EDGES[{ VERTICES[2150], VERTICES[5216] }] = 0.0
-EDGES[{ VERTICES[2463], VERTICES[2946] }] = 0.0
-EDGES[{ VERTICES[2409], VERTICES[3872] }] = 0.0
-EDGES[{ VERTICES[1171], VERTICES[3337] }] = 0.0
-EDGES[{ VERTICES[3383], VERTICES[2312] }] = 0.0
-EDGES[{ VERTICES[5795], VERTICES[816] }] = 0.0
-EDGES[{ VERTICES[1879], VERTICES[1499] }] = 0.0
-EDGES[{ VERTICES[5860], VERTICES[5370] }] = 0.0
-EDGES[{ VERTICES[2007], VERTICES[4177] }] = 0.0
-EDGES[{ VERTICES[3811], VERTICES[167] }] = 0.0
-EDGES[{ VERTICES[1505], VERTICES[5985] }] = 0.0
-EDGES[{ VERTICES[5655], VERTICES[3020] }] = 0.0
-EDGES[{ VERTICES[2587], VERTICES[2662] }] = 0.0
-EDGES[{ VERTICES[3662], VERTICES[1181] }] = 0.0
-EDGES[{ VERTICES[3046], VERTICES[5369] }] = 0.0
-EDGES[{ VERTICES[2024], VERTICES[2213] }] = 0.0
-EDGES[{ VERTICES[2555], VERTICES[4865] }] = 0.0
-EDGES[{ VERTICES[3775], VERTICES[1294] }] = 0.0
-EDGES[{ VERTICES[2026], VERTICES[1570] }] = 0.0
-EDGES[{ VERTICES[3038], VERTICES[2668] }] = 0.0
-EDGES[{ VERTICES[3064], VERTICES[3998] }] = 0.0
-EDGES[{ VERTICES[5527], VERTICES[4255] }] = 0.0
-EDGES[{ VERTICES[750], VERTICES[1057] }] = 0.0
-EDGES[{ VERTICES[2521], VERTICES[1056] }] = 0.0
-EDGES[{ VERTICES[5915], VERTICES[5253] }] = 0.0
-EDGES[{ VERTICES[2349], VERTICES[1516] }] = 0.0
-EDGES[{ VERTICES[4609], VERTICES[5739] }] = 0.0
-EDGES[{ VERTICES[6090], VERTICES[1870] }] = 0.0
-EDGES[{ VERTICES[2863], VERTICES[5379] }] = 0.0
-EDGES[{ VERTICES[6192], VERTICES[2551] }] = 0.0
-EDGES[{ VERTICES[2380], VERTICES[637] }] = 0.0
-EDGES[{ VERTICES[2324], VERTICES[998] }] = 0.0
-EDGES[{ VERTICES[209], VERTICES[410] }] = 0.0
-EDGES[{ VERTICES[5574], VERTICES[4027] }] = 0.0
-EDGES[{ VERTICES[1419], VERTICES[936] }] = 0.0
-EDGES[{ VERTICES[3517], VERTICES[415] }] = 0.0
-EDGES[{ VERTICES[83], VERTICES[5524] }] = 0.0
-EDGES[{ VERTICES[4570], VERTICES[604] }] = 0.0
-EDGES[{ VERTICES[1517], VERTICES[1801] }] = 0.0
-EDGES[{ VERTICES[392], VERTICES[1639] }] = 0.0
-EDGES[{ VERTICES[2983], VERTICES[2422] }] = 0.0
-EDGES[{ VERTICES[1588], VERTICES[3116] }] = 0.0
-EDGES[{ VERTICES[6107], VERTICES[822] }] = 0.0
-EDGES[{ VERTICES[4456], VERTICES[3993] }] = 0.0
-EDGES[{ VERTICES[1153], VERTICES[833] }] = 0.0
-EDGES[{ VERTICES[2149], VERTICES[3829] }] = 0.0
-EDGES[{ VERTICES[2833], VERTICES[3234] }] = 0.0
-EDGES[{ VERTICES[3368], VERTICES[2758] }] = 0.0
-EDGES[{ VERTICES[2899], VERTICES[5400] }] = 0.0
-EDGES[{ VERTICES[3444], VERTICES[5141] }] = 0.0
-EDGES[{ VERTICES[3251], VERTICES[3386] }] = 0.0
-EDGES[{ VERTICES[4781], VERTICES[5017] }] = 0.0
-EDGES[{ VERTICES[6254], VERTICES[1780] }] = 0.0
-EDGES[{ VERTICES[4945], VERTICES[4907] }] = 0.0
-EDGES[{ VERTICES[5441], VERTICES[4524] }] = 0.0
-EDGES[{ VERTICES[3163], VERTICES[2116] }] = 0.0
-EDGES[{ VERTICES[2051], VERTICES[3651] }] = 0.0
-EDGES[{ VERTICES[3111], VERTICES[1539] }] = 0.0
-EDGES[{ VERTICES[3404], VERTICES[260] }] = 0.0
-EDGES[{ VERTICES[6194], VERTICES[5657] }] = 0.0
-EDGES[{ VERTICES[5242], VERTICES[5981] }] = 0.0
-EDGES[{ VERTICES[910], VERTICES[1071] }] = 0.0
-EDGES[{ VERTICES[1580], VERTICES[1610] }] = 0.0
-EDGES[{ VERTICES[4035], VERTICES[659] }] = 0.0
-EDGES[{ VERTICES[5278], VERTICES[4000] }] = 0.0
-EDGES[{ VERTICES[2043], VERTICES[4930] }] = 0.0
-EDGES[{ VERTICES[1869], VERTICES[2083] }] = 0.0
-EDGES[{ VERTICES[759], VERTICES[2454] }] = 0.0
-EDGES[{ VERTICES[2410], VERTICES[4755] }] = 0.0
-EDGES[{ VERTICES[6108], VERTICES[1377] }] = 0.0
-EDGES[{ VERTICES[2934], VERTICES[6162] }] = 0.0
-EDGES[{ VERTICES[2794], VERTICES[4173] }] = 0.0
-EDGES[{ VERTICES[5950], VERTICES[3962] }] = 0.0
-EDGES[{ VERTICES[903], VERTICES[2241] }] = 0.0
-EDGES[{ VERTICES[1207], VERTICES[3287] }] = 0.0
-EDGES[{ VERTICES[1263], VERTICES[5652] }] = 0.0
-EDGES[{ VERTICES[1126], VERTICES[2433] }] = 0.0
-EDGES[{ VERTICES[3017], VERTICES[4374] }] = 0.0
-EDGES[{ VERTICES[338], VERTICES[4076] }] = 0.0
-EDGES[{ VERTICES[4835], VERTICES[772] }] = 0.0
-EDGES[{ VERTICES[5597], VERTICES[4491] }] = 0.0
-EDGES[{ VERTICES[6109], VERTICES[4641] }] = 0.0
-EDGES[{ VERTICES[870], VERTICES[5359] }] = 0.0
-EDGES[{ VERTICES[2702], VERTICES[2038] }] = 0.0
-EDGES[{ VERTICES[394], VERTICES[5806] }] = 0.0
-EDGES[{ VERTICES[5645], VERTICES[1809] }] = 0.0
-EDGES[{ VERTICES[119], VERTICES[5374] }] = 0.0
-EDGES[{ VERTICES[3050], VERTICES[1773] }] = 0.0
-EDGES[{ VERTICES[4131], VERTICES[2395] }] = 0.0
-EDGES[{ VERTICES[399], VERTICES[5137] }] = 0.0
-EDGES[{ VERTICES[811], VERTICES[3378] }] = 0.0
-EDGES[{ VERTICES[2117], VERTICES[3877] }] = 0.0
-EDGES[{ VERTICES[227], VERTICES[1782] }] = 0.0
-EDGES[{ VERTICES[407], VERTICES[1253] }] = 0.0
-EDGES[{ VERTICES[4863], VERTICES[733] }] = 0.0
-EDGES[{ VERTICES[4554], VERTICES[6231] }] = 0.0
-EDGES[{ VERTICES[4884], VERTICES[1407] }] = 0.0
-EDGES[{ VERTICES[5828], VERTICES[2182] }] = 0.0
-EDGES[{ VERTICES[2092], VERTICES[4243] }] = 0.0
-EDGES[{ VERTICES[1578], VERTICES[1983] }] = 0.0
-EDGES[{ VERTICES[5268], VERTICES[5279] }] = 0.0
-EDGES[{ VERTICES[1083], VERTICES[5607] }] = 0.0
-EDGES[{ VERTICES[1680], VERTICES[3868] }] = 0.0
-EDGES[{ VERTICES[2473], VERTICES[1111] }] = 0.0
-EDGES[{ VERTICES[1888], VERTICES[4737] }] = 0.0
-EDGES[{ VERTICES[5593], VERTICES[3519] }] = 0.0
-EDGES[{ VERTICES[562], VERTICES[1161] }] = 0.0
-EDGES[{ VERTICES[3162], VERTICES[3586] }] = 0.0
-EDGES[{ VERTICES[848], VERTICES[1344] }] = 0.0
-EDGES[{ VERTICES[3745], VERTICES[4404] }] = 0.0
-EDGES[{ VERTICES[4694], VERTICES[97] }] = 0.0
-EDGES[{ VERTICES[3314], VERTICES[4932] }] = 0.0
-EDGES[{ VERTICES[5689], VERTICES[4167] }] = 0.0
-EDGES[{ VERTICES[6016], VERTICES[4045] }] = 0.0
-EDGES[{ VERTICES[757], VERTICES[934] }] = 0.0
-EDGES[{ VERTICES[3340], VERTICES[5092] }] = 0.0
-EDGES[{ VERTICES[5140], VERTICES[4883] }] = 0.0
-EDGES[{ VERTICES[88], VERTICES[5331] }] = 0.0
-EDGES[{ VERTICES[990], VERTICES[2362] }] = 0.0
-EDGES[{ VERTICES[2164], VERTICES[5974] }] = 0.0
-EDGES[{ VERTICES[231], VERTICES[5772] }] = 0.0
-EDGES[{ VERTICES[2870], VERTICES[1997] }] = 0.0
-EDGES[{ VERTICES[2679], VERTICES[5471] }] = 0.0
-EDGES[{ VERTICES[1094], VERTICES[894] }] = 0.0
-EDGES[{ VERTICES[3830], VERTICES[1061] }] = 0.0
-EDGES[{ VERTICES[4578], VERTICES[5179] }] = 0.0
-EDGES[{ VERTICES[3966], VERTICES[6052] }] = 0.0
-EDGES[{ VERTICES[2080], VERTICES[304] }] = 0.0
-EDGES[{ VERTICES[4753], VERTICES[4919] }] = 0.0
-EDGES[{ VERTICES[265], VERTICES[4089] }] = 0.0
-EDGES[{ VERTICES[275], VERTICES[1396] }] = 0.0
-EDGES[{ VERTICES[5021], VERTICES[2187] }] = 0.0
-EDGES[{ VERTICES[78], VERTICES[191] }] = 0.0
-EDGES[{ VERTICES[5225], VERTICES[1262] }] = 0.0
-EDGES[{ VERTICES[5685], VERTICES[943] }] = 0.0
-EDGES[{ VERTICES[25], VERTICES[1506] }] = 0.0
-EDGES[{ VERTICES[32], VERTICES[3486] }] = 0.0
-EDGES[{ VERTICES[1863], VERTICES[676] }] = 0.0
-EDGES[{ VERTICES[4286], VERTICES[3589] }] = 0.0
-EDGES[{ VERTICES[3558], VERTICES[464] }] = 0.0
-EDGES[{ VERTICES[4080], VERTICES[3458] }] = 0.0
-EDGES[{ VERTICES[2437], VERTICES[2592] }] = 0.0
-EDGES[{ VERTICES[3678], VERTICES[1191] }] = 0.0
-EDGES[{ VERTICES[5445], VERTICES[4350] }] = 0.0
-EDGES[{ VERTICES[2793], VERTICES[2538] }] = 0.0
-EDGES[{ VERTICES[5841], VERTICES[3773] }] = 0.0
-EDGES[{ VERTICES[1918], VERTICES[1818] }] = 0.0
-EDGES[{ VERTICES[4832], VERTICES[2739] }] = 0.0
-EDGES[{ VERTICES[363], VERTICES[1385] }] = 0.0
-EDGES[{ VERTICES[4004], VERTICES[6069] }] = 0.0
-EDGES[{ VERTICES[313], VERTICES[4799] }] = 0.0
-EDGES[{ VERTICES[6110], VERTICES[3402] }] = 0.0
-EDGES[{ VERTICES[516], VERTICES[4289] }] = 0.0
-EDGES[{ VERTICES[4037], VERTICES[6189] }] = 0.0
-EDGES[{ VERTICES[820], VERTICES[1208] }] = 0.0
-EDGES[{ VERTICES[3529], VERTICES[164] }] = 0.0
-EDGES[{ VERTICES[5821], VERTICES[4692] }] = 0.0
-EDGES[{ VERTICES[4673], VERTICES[3891] }] = 0.0
-EDGES[{ VERTICES[605], VERTICES[6080] }] = 0.0
-EDGES[{ VERTICES[4574], VERTICES[1261] }] = 0.0
-EDGES[{ VERTICES[847], VERTICES[2629] }] = 0.0
-EDGES[{ VERTICES[603], VERTICES[5818] }] = 0.0
-EDGES[{ VERTICES[50], VERTICES[4417] }] = 0.0
-EDGES[{ VERTICES[2636], VERTICES[3302] }] = 0.0
-EDGES[{ VERTICES[1761], VERTICES[129] }] = 0.0
-EDGES[{ VERTICES[3749], VERTICES[2890] }] = 0.0
-EDGES[{ VERTICES[4492], VERTICES[438] }] = 0.0
-EDGES[{ VERTICES[3027], VERTICES[4111] }] = 0.0
-EDGES[{ VERTICES[5711], VERTICES[5904] }] = 0.0
-EDGES[{ VERTICES[39], VERTICES[4346] }] = 0.0
-EDGES[{ VERTICES[2054], VERTICES[6178] }] = 0.0
-EDGES[{ VERTICES[4420], VERTICES[4476] }] = 0.0
-EDGES[{ VERTICES[4315], VERTICES[2206] }] = 0.0
-EDGES[{ VERTICES[5478], VERTICES[5109] }] = 0.0
-EDGES[{ VERTICES[1540], VERTICES[5151] }] = 0.0
-EDGES[{ VERTICES[1048], VERTICES[2622] }] = 0.0
-EDGES[{ VERTICES[3008], VERTICES[4308] }] = 0.0
-EDGES[{ VERTICES[4733], VERTICES[2211] }] = 0.0
-EDGES[{ VERTICES[5688], VERTICES[1931] }] = 0.0
-EDGES[{ VERTICES[2355], VERTICES[5320] }] = 0.0
-EDGES[{ VERTICES[5452], VERTICES[4207] }] = 0.0
-EDGES[{ VERTICES[3355], VERTICES[2244] }] = 0.0
-EDGES[{ VERTICES[2600], VERTICES[3454] }] = 0.0
-EDGES[{ VERTICES[4175], VERTICES[1091] }] = 0.0
-EDGES[{ VERTICES[1012], VERTICES[3912] }] = 0.0
-EDGES[{ VERTICES[6190], VERTICES[4050] }] = 0.0
-EDGES[{ VERTICES[2712], VERTICES[5238] }] = 0.0
-EDGES[{ VERTICES[1913], VERTICES[868] }] = 0.0
-EDGES[{ VERTICES[3627], VERTICES[3146] }] = 0.0
-EDGES[{ VERTICES[1011], VERTICES[2468] }] = 0.0
-EDGES[{ VERTICES[4398], VERTICES[4345] }] = 0.0
-EDGES[{ VERTICES[3288], VERTICES[4551] }] = 0.0
-EDGES[{ VERTICES[3075], VERTICES[1532] }] = 0.0
-EDGES[{ VERTICES[3426], VERTICES[5479] }] = 0.0
-EDGES[{ VERTICES[2648], VERTICES[5602] }] = 0.0
-EDGES[{ VERTICES[4729], VERTICES[2480] }] = 0.0
-EDGES[{ VERTICES[4312], VERTICES[930] }] = 0.0
-EDGES[{ VERTICES[984], VERTICES[2207] }] = 0.0
-EDGES[{ VERTICES[1833], VERTICES[4937] }] = 0.0
-EDGES[{ VERTICES[937], VERTICES[949] }] = 0.0
-EDGES[{ VERTICES[1922], VERTICES[1924] }] = 0.0
-EDGES[{ VERTICES[5019], VERTICES[2667] }] = 0.0
-EDGES[{ VERTICES[2771], VERTICES[389] }] = 0.0
-EDGES[{ VERTICES[4434], VERTICES[5625] }] = 0.0
-EDGES[{ VERTICES[5589], VERTICES[4340] }] = 0.0
-EDGES[{ VERTICES[2730], VERTICES[261] }] = 0.0
-EDGES[{ VERTICES[137], VERTICES[774] }] = 0.0
-EDGES[{ VERTICES[4328], VERTICES[3092] }] = 0.0
-EDGES[{ VERTICES[5323], VERTICES[2159] }] = 0.0
-EDGES[{ VERTICES[3184], VERTICES[3034] }] = 0.0
-EDGES[{ VERTICES[5703], VERTICES[636] }] = 0.0
-EDGES[{ VERTICES[6064], VERTICES[512] }] = 0.0
-EDGES[{ VERTICES[1092], VERTICES[580] }] = 0.0
-EDGES[{ VERTICES[5534], VERTICES[3675] }] = 0.0
-EDGES[{ VERTICES[1953], VERTICES[3327] }] = 0.0
-EDGES[{ VERTICES[4560], VERTICES[2772] }] = 0.0
-EDGES[{ VERTICES[3235], VERTICES[3958] }] = 0.0
-EDGES[{ VERTICES[2850], VERTICES[1010] }] = 0.0
-EDGES[{ VERTICES[5393], VERTICES[5584] }] = 0.0
-EDGES[{ VERTICES[509], VERTICES[3160] }] = 0.0
-EDGES[{ VERTICES[3058], VERTICES[2773] }] = 0.0
-EDGES[{ VERTICES[5632], VERTICES[734] }] = 0.0
-EDGES[{ VERTICES[4495], VERTICES[4520] }] = 0.0
-EDGES[{ VERTICES[1062], VERTICES[2846] }] = 0.0
-EDGES[{ VERTICES[4515], VERTICES[1042] }] = 0.0
-EDGES[{ VERTICES[3796], VERTICES[6164] }] = 0.0
-EDGES[{ VERTICES[5522], VERTICES[3984] }] = 0.0
-EDGES[{ VERTICES[1189], VERTICES[5399] }] = 0.0
-EDGES[{ VERTICES[2571], VERTICES[6243] }] = 0.0
-EDGES[{ VERTICES[2760], VERTICES[1601] }] = 0.0
-EDGES[{ VERTICES[2266], VERTICES[699] }] = 0.0
-EDGES[{ VERTICES[3130], VERTICES[5025] }] = 0.0
-EDGES[{ VERTICES[3357], VERTICES[185] }] = 0.0
-EDGES[{ VERTICES[707], VERTICES[5931] }] = 0.0
-EDGES[{ VERTICES[4236], VERTICES[2803] }] = 0.0
-EDGES[{ VERTICES[3380], VERTICES[5669] }] = 0.0
-EDGES[{ VERTICES[1401], VERTICES[1390] }] = 0.0
-EDGES[{ VERTICES[348], VERTICES[157] }] = 0.0
-EDGES[{ VERTICES[2708], VERTICES[241] }] = 0.0
-EDGES[{ VERTICES[933], VERTICES[2346] }] = 0.0
-EDGES[{ VERTICES[5022], VERTICES[4176] }] = 0.0
-EDGES[{ VERTICES[1017], VERTICES[1411] }] = 0.0
-EDGES[{ VERTICES[510], VERTICES[1509] }] = 0.0
-EDGES[{ VERTICES[3679], VERTICES[1777] }] = 0.0
-EDGES[{ VERTICES[3283], VERTICES[178] }] = 0.0
-EDGES[{ VERTICES[1903], VERTICES[2194] }] = 0.0
-EDGES[{ VERTICES[5697], VERTICES[5301] }] = 0.0
-EDGES[{ VERTICES[5883], VERTICES[590] }] = 0.0
-EDGES[{ VERTICES[2512], VERTICES[319] }] = 0.0
-EDGES[{ VERTICES[686], VERTICES[1993] }] = 0.0
-EDGES[{ VERTICES[6140], VERTICES[2896] }] = 0.0
-EDGES[{ VERTICES[3413], VERTICES[2613] }] = 0.0
-EDGES[{ VERTICES[3693], VERTICES[5783] }] = 0.0
-EDGES[{ VERTICES[3680], VERTICES[4355] }] = 0.0
-EDGES[{ VERTICES[1186], VERTICES[3927] }] = 0.0
-EDGES[{ VERTICES[3076], VERTICES[1771] }] = 0.0
-EDGES[{ VERTICES[1313], VERTICES[749] }] = 0.0
-EDGES[{ VERTICES[4913], VERTICES[5949] }] = 0.0
-EDGES[{ VERTICES[3588], VERTICES[422] }] = 0.0
-EDGES[{ VERTICES[4901], VERTICES[5060] }] = 0.0
-EDGES[{ VERTICES[6019], VERTICES[1422] }] = 0.0
-EDGES[{ VERTICES[2715], VERTICES[2545] }] = 0.0
-EDGES[{ VERTICES[4530], VERTICES[4715] }] = 0.0
-EDGES[{ VERTICES[1679], VERTICES[5537] }] = 0.0
-EDGES[{ VERTICES[414], VERTICES[2010] }] = 0.0
-EDGES[{ VERTICES[6210], VERTICES[3995] }] = 0.0
-EDGES[{ VERTICES[4542], VERTICES[172] }] = 0.0
-EDGES[{ VERTICES[6217], VERTICES[374] }] = 0.0
-EDGES[{ VERTICES[3647], VERTICES[873] }] = 0.0
-EDGES[{ VERTICES[2638], VERTICES[4767] }] = 0.0
-EDGES[{ VERTICES[3813], VERTICES[3541] }] = 0.0
-EDGES[{ VERTICES[3563], VERTICES[5536] }] = 0.0
-EDGES[{ VERTICES[2108], VERTICES[2098] }] = 0.0
-EDGES[{ VERTICES[2586], VERTICES[4161] }] = 0.0
-EDGES[{ VERTICES[2637], VERTICES[2558] }] = 0.0
-EDGES[{ VERTICES[184], VERTICES[5737] }] = 0.0
-EDGES[{ VERTICES[302], VERTICES[5427] }] = 0.0
-EDGES[{ VERTICES[4202], VERTICES[4341] }] = 0.0
-EDGES[{ VERTICES[73], VERTICES[576] }] = 0.0
-EDGES[{ VERTICES[1296], VERTICES[3900] }] = 0.0
-EDGES[{ VERTICES[4305], VERTICES[5924] }] = 0.0
-EDGES[{ VERTICES[1400], VERTICES[5126] }] = 0.0
-EDGES[{ VERTICES[1018], VERTICES[1133] }] = 0.0
-EDGES[{ VERTICES[1724], VERTICES[102] }] = 0.0
-EDGES[{ VERTICES[4189], VERTICES[3602] }] = 0.0
-EDGES[{ VERTICES[5415], VERTICES[5608] }] = 0.0
-EDGES[{ VERTICES[93], VERTICES[5271] }] = 0.0
-EDGES[{ VERTICES[956], VERTICES[5993] }] = 0.0
-EDGES[{ VERTICES[2595], VERTICES[2245] }] = 0.0
-EDGES[{ VERTICES[4902], VERTICES[4399] }] = 0.0
-EDGES[{ VERTICES[60], VERTICES[3897] }] = 0.0
-EDGES[{ VERTICES[5176], VERTICES[2933] }] = 0.0
-EDGES[{ VERTICES[459], VERTICES[5007] }] = 0.0
-EDGES[{ VERTICES[5108], VERTICES[1791] }] = 0.0
-EDGES[{ VERTICES[6261], VERTICES[3474] }] = 0.0
-EDGES[{ VERTICES[876], VERTICES[877] }] = 0.0
-EDGES[{ VERTICES[1793], VERTICES[4033] }] = 0.0
-EDGES[{ VERTICES[3884], VERTICES[1755] }] = 0.0
-EDGES[{ VERTICES[3373], VERTICES[3088] }] = 0.0
-EDGES[{ VERTICES[4627], VERTICES[5754] }] = 0.0
-EDGES[{ VERTICES[3114], VERTICES[2616] }] = 0.0
-EDGES[{ VERTICES[4302], VERTICES[618] }] = 0.0
-EDGES[{ VERTICES[3201], VERTICES[5044] }] = 0.0
-EDGES[{ VERTICES[4682], VERTICES[2294] }] = 0.0
-EDGES[{ VERTICES[1594], VERTICES[2470] }] = 0.0
-EDGES[{ VERTICES[2591], VERTICES[5407] }] = 0.0
-EDGES[{ VERTICES[484], VERTICES[5535] }] = 0.0
-EDGES[{ VERTICES[2627], VERTICES[1908] }] = 0.0
-EDGES[{ VERTICES[2960], VERTICES[3851] }] = 0.0
-EDGES[{ VERTICES[2842], VERTICES[2820] }] = 0.0
-EDGES[{ VERTICES[5443], VERTICES[2373] }] = 0.0
-EDGES[{ VERTICES[955], VERTICES[1212] }] = 0.0
-EDGES[{ VERTICES[4162], VERTICES[5568] }] = 0.0
-EDGES[{ VERTICES[5039], VERTICES[1902] }] = 0.0
-EDGES[{ VERTICES[4043], VERTICES[3492] }] = 0.0
-EDGES[{ VERTICES[3536], VERTICES[660] }] = 0.0
-EDGES[{ VERTICES[106], VERTICES[1340] }] = 0.0
-EDGES[{ VERTICES[4365], VERTICES[3911] }] = 0.0
-EDGES[{ VERTICES[3841], VERTICES[4085] }] = 0.0
-EDGES[{ VERTICES[1813], VERTICES[361] }] = 0.0
-EDGES[{ VERTICES[1630], VERTICES[3309] }] = 0.0
-EDGES[{ VERTICES[171], VERTICES[5217] }] = 0.0
-EDGES[{ VERTICES[2125], VERTICES[2582] }] = 0.0
-EDGES[{ VERTICES[5023], VERTICES[5468] }] = 0.0
-EDGES[{ VERTICES[5561], VERTICES[1428] }] = 0.0
-EDGES[{ VERTICES[5209], VERTICES[3250] }] = 0.0
-EDGES[{ VERTICES[3139], VERTICES[4704] }] = 0.0
-EDGES[{ VERTICES[4400], VERTICES[3135] }] = 0.0
-EDGES[{ VERTICES[95], VERTICES[764] }] = 0.0
-EDGES[{ VERTICES[4126], VERTICES[1249] }] = 0.0
-EDGES[{ VERTICES[2342], VERTICES[85] }] = 0.0
-EDGES[{ VERTICES[329], VERTICES[2102] }] = 0.0
-EDGES[{ VERTICES[4339], VERTICES[1840] }] = 0.0
-EDGES[{ VERTICES[3484], VERTICES[1277] }] = 0.0
-EDGES[{ VERTICES[6022], VERTICES[3048] }] = 0.0
-EDGES[{ VERTICES[744], VERTICES[1417] }] = 0.0
-EDGES[{ VERTICES[2601], VERTICES[1826] }] = 0.0
-EDGES[{ VERTICES[6054], VERTICES[797] }] = 0.0
-EDGES[{ VERTICES[53], VERTICES[1632] }] = 0.0
-EDGES[{ VERTICES[2974], VERTICES[4193] }] = 0.0
-EDGES[{ VERTICES[445], VERTICES[4859] }] = 0.0
-EDGES[{ VERTICES[3144], VERTICES[4413] }] = 0.0
-EDGES[{ VERTICES[893], VERTICES[4473] }] = 0.0
-EDGES[{ VERTICES[5816], VERTICES[3569] }] = 0.0
-EDGES[{ VERTICES[5159], VERTICES[2524] }] = 0.0
-EDGES[{ VERTICES[2681], VERTICES[2987] }] = 0.0
-EDGES[{ VERTICES[4051], VERTICES[3303] }] = 0.0
-EDGES[{ VERTICES[2809], VERTICES[4336] }] = 0.0
-EDGES[{ VERTICES[2100], VERTICES[6255] }] = 0.0
-EDGES[{ VERTICES[6024], VERTICES[790] }] = 0.0
-EDGES[{ VERTICES[2814], VERTICES[3584] }] = 0.0
-EDGES[{ VERTICES[5683], VERTICES[1682] }] = 0.0
-EDGES[{ VERTICES[3638], VERTICES[2787] }] = 0.0
-EDGES[{ VERTICES[732], VERTICES[1211] }] = 0.0
-EDGES[{ VERTICES[3704], VERTICES[4567] }] = 0.0
-EDGES[{ VERTICES[12], VERTICES[2885] }] = 0.0
-EDGES[{ VERTICES[6027], VERTICES[4163] }] = 0.0
-EDGES[{ VERTICES[773], VERTICES[6203] }] = 0.0
-EDGES[{ VERTICES[41], VERTICES[621] }] = 0.0
-EDGES[{ VERTICES[5475], VERTICES[4490] }] = 0.0
-EDGES[{ VERTICES[4197], VERTICES[135] }] = 0.0
-EDGES[{ VERTICES[5941], VERTICES[4464] }] = 0.0
-EDGES[{ VERTICES[5590], VERTICES[5192] }] = 0.0
-EDGES[{ VERTICES[232], VERTICES[2496] }] = 0.0
-EDGES[{ VERTICES[2186], VERTICES[2378] }] = 0.0
-EDGES[{ VERTICES[3115], VERTICES[4572] }] = 0.0
-EDGES[{ VERTICES[1874], VERTICES[2396] }] = 0.0
-EDGES[{ VERTICES[1609], VERTICES[5170] }] = 0.0
-EDGES[{ VERTICES[840], VERTICES[2901] }] = 0.0
-EDGES[{ VERTICES[393], VERTICES[373] }] = 0.0
-EDGES[{ VERTICES[1295], VERTICES[3906] }] = 0.0
-EDGES[{ VERTICES[3081], VERTICES[1920] }] = 0.0
-EDGES[{ VERTICES[5124], VERTICES[5172] }] = 0.0
-EDGES[{ VERTICES[1193], VERTICES[2738] }] = 0.0
-EDGES[{ VERTICES[2840], VERTICES[3421] }] = 0.0
-EDGES[{ VERTICES[1503], VERTICES[567] }] = 0.0
-EDGES[{ VERTICES[403], VERTICES[1804] }] = 0.0
-EDGES[{ VERTICES[1234], VERTICES[1960] }] = 0.0
-EDGES[{ VERTICES[2909], VERTICES[3434] }] = 0.0
-EDGES[{ VERTICES[3087], VERTICES[1121] }] = 0.0
-EDGES[{ VERTICES[3013], VERTICES[380] }] = 0.0
-EDGES[{ VERTICES[1223], VERTICES[1265] }] = 0.0
-EDGES[{ VERTICES[3566], VERTICES[5916] }] = 0.0
-EDGES[{ VERTICES[2570], VERTICES[4943] }] = 0.0
-EDGES[{ VERTICES[3305], VERTICES[4453] }] = 0.0
-EDGES[{ VERTICES[5975], VERTICES[4488] }] = 0.0
-EDGES[{ VERTICES[4418], VERTICES[5414] }] = 0.0
-EDGES[{ VERTICES[3538], VERTICES[6124] }] = 0.0
-EDGES[{ VERTICES[379], VERTICES[2247] }] = 0.0
-EDGES[{ VERTICES[2530], VERTICES[5693] }] = 0.0
-EDGES[{ VERTICES[2925], VERTICES[1502] }] = 0.0
-EDGES[{ VERTICES[2985], VERTICES[1584] }] = 0.0
-EDGES[{ VERTICES[1178], VERTICES[4850] }] = 0.0
-EDGES[{ VERTICES[4916], VERTICES[3085] }] = 0.0
-EDGES[{ VERTICES[1808], VERTICES[3140] }] = 0.0
-EDGES[{ VERTICES[1188], VERTICES[5750] }] = 0.0
-EDGES[{ VERTICES[2419], VERTICES[2171] }] = 0.0
-EDGES[{ VERTICES[286], VERTICES[3999] }] = 0.0
-EDGES[{ VERTICES[5412], VERTICES[3908] }] = 0.0
-EDGES[{ VERTICES[1159], VERTICES[2518] }] = 0.0
-EDGES[{ VERTICES[5409], VERTICES[5953] }] = 0.0
-EDGES[{ VERTICES[2366], VERTICES[4741] }] = 0.0
-EDGES[{ VERTICES[5844], VERTICES[3957] }] = 0.0
-EDGES[{ VERTICES[5922], VERTICES[5213] }] = 0.0
-EDGES[{ VERTICES[5823], VERTICES[3499] }] = 0.0
-EDGES[{ VERTICES[3777], VERTICES[4718] }] = 0.0
-EDGES[{ VERTICES[1371], VERTICES[2990] }] = 0.0
-EDGES[{ VERTICES[5297], VERTICES[2731] }] = 0.0
-EDGES[{ VERTICES[2700], VERTICES[5054] }] = 0.0
-EDGES[{ VERTICES[2446], VERTICES[1432] }] = 0.0
-EDGES[{ VERTICES[1684], VERTICES[556] }] = 0.0
-EDGES[{ VERTICES[901], VERTICES[2104] }] = 0.0
-EDGES[{ VERTICES[381], VERTICES[1935] }] = 0.0
-EDGES[{ VERTICES[4108], VERTICES[1604] }] = 0.0
-EDGES[{ VERTICES[2309], VERTICES[1674] }] = 0.0
-EDGES[{ VERTICES[4154], VERTICES[4247] }] = 0.0
-EDGES[{ VERTICES[5461], VERTICES[4774] }] = 0.0
-EDGES[{ VERTICES[4625], VERTICES[1220] }] = 0.0
-EDGES[{ VERTICES[3242], VERTICES[2633] }] = 0.0
-EDGES[{ VERTICES[4510], VERTICES[3083] }] = 0.0
-EDGES[{ VERTICES[1696], VERTICES[2728] }] = 0.0
-EDGES[{ VERTICES[5644], VERTICES[5825] }] = 0.0
-EDGES[{ VERTICES[1195], VERTICES[5011] }] = 0.0
-EDGES[{ VERTICES[1175], VERTICES[4770] }] = 0.0
-EDGES[{ VERTICES[3518], VERTICES[4329] }] = 0.0
-EDGES[{ VERTICES[962], VERTICES[791] }] = 0.0
-EDGES[{ VERTICES[1954], VERTICES[5121] }] = 0.0
-EDGES[{ VERTICES[3802], VERTICES[1958] }] = 0.0
-EDGES[{ VERTICES[2351], VERTICES[3381] }] = 0.0
-EDGES[{ VERTICES[5664], VERTICES[4854] }] = 0.0
-EDGES[{ VERTICES[2937], VERTICES[2447] }] = 0.0
-EDGES[{ VERTICES[2913], VERTICES[4568] }] = 0.0
-EDGES[{ VERTICES[3752], VERTICES[1598] }] = 0.0
-EDGES[{ VERTICES[5428], VERTICES[2670] }] = 0.0
-EDGES[{ VERTICES[437], VERTICES[3394] }] = 0.0
-EDGES[{ VERTICES[592], VERTICES[4271] }] = 0.0
-EDGES[{ VERTICES[2299], VERTICES[5211] }] = 0.0
-EDGES[{ VERTICES[5934], VERTICES[819] }] = 0.0
-EDGES[{ VERTICES[4976], VERTICES[3720] }] = 0.0
-EDGES[{ VERTICES[1430], VERTICES[5994] }] = 0.0
-EDGES[{ VERTICES[5559], VERTICES[5223] }] = 0.0
-EDGES[{ VERTICES[4608], VERTICES[2133] }] = 0.0
-EDGES[{ VERTICES[4452], VERTICES[2415] }] = 0.0
-EDGES[{ VERTICES[3692], VERTICES[2421] }] = 0.0
-EDGES[{ VERTICES[2958], VERTICES[511] }] = 0.0
-EDGES[{ VERTICES[6015], VERTICES[669] }] = 0.0
-EDGES[{ VERTICES[2861], VERTICES[4797] }] = 0.0
-EDGES[{ VERTICES[2252], VERTICES[4993] }] = 0.0
-EDGES[{ VERTICES[1634], VERTICES[5346] }] = 0.0
-EDGES[{ VERTICES[3725], VERTICES[5633] }] = 0.0
-EDGES[{ VERTICES[4371], VERTICES[2046] }] = 0.0
-EDGES[{ VERTICES[1494], VERTICES[367] }] = 0.0
-EDGES[{ VERTICES[5736], VERTICES[4023] }] = 0.0
-EDGES[{ VERTICES[5035], VERTICES[2084] }] = 0.0
-EDGES[{ VERTICES[1143], VERTICES[5485] }] = 0.0
-EDGES[{ VERTICES[6005], VERTICES[5716] }] = 0.0
-EDGES[{ VERTICES[5361], VERTICES[4257] }] = 0.0
-EDGES[{ VERTICES[6239], VERTICES[4283] }] = 0.0
-EDGES[{ VERTICES[1527], VERTICES[4576] }] = 0.0
-EDGES[{ VERTICES[3364], VERTICES[4204] }] = 0.0
-EDGES[{ VERTICES[1285], VERTICES[4988] }] = 0.0
-EDGES[{ VERTICES[2021], VERTICES[5152] }] = 0.0
-EDGES[{ VERTICES[696], VERTICES[3086] }] = 0.0
-EDGES[{ VERTICES[6172], VERTICES[4631] }] = 0.0
-EDGES[{ VERTICES[4052], VERTICES[4588] }] = 0.0
-EDGES[{ VERTICES[4557], VERTICES[4839] }] = 0.0
-EDGES[{ VERTICES[2393], VERTICES[4190] }] = 0.0
-EDGES[{ VERTICES[1300], VERTICES[5394] }] = 0.0
-EDGES[{ VERTICES[4021], VERTICES[245] }] = 0.0
-EDGES[{ VERTICES[4563], VERTICES[3090] }] = 0.0
-EDGES[{ VERTICES[2466], VERTICES[2876] }] = 0.0
-EDGES[{ VERTICES[3549], VERTICES[5038] }] = 0.0
-EDGES[{ VERTICES[3923], VERTICES[5673] }] = 0.0
-EDGES[{ VERTICES[5966], VERTICES[2141] }] = 0.0
-EDGES[{ VERTICES[4319], VERTICES[2452] }] = 0.0
-EDGES[{ VERTICES[4801], VERTICES[1932] }] = 0.0
-EDGES[{ VERTICES[2442], VERTICES[2585] }] = 0.0
-EDGES[{ VERTICES[5630], VERTICES[3436] }] = 0.0
-EDGES[{ VERTICES[3559], VERTICES[2556] }] = 0.0
-EDGES[{ VERTICES[4031], VERTICES[3715] }] = 0.0
-EDGES[{ VERTICES[4295], VERTICES[4199] }] = 0.0
-EDGES[{ VERTICES[1324], VERTICES[6173] }] = 0.0
-EDGES[{ VERTICES[6040], VERTICES[82] }] = 0.0
-EDGES[{ VERTICES[2459], VERTICES[4548] }] = 0.0
-EDGES[{ VERTICES[2688], VERTICES[285] }] = 0.0
-EDGES[{ VERTICES[2330], VERTICES[3838] }] = 0.0
-EDGES[{ VERTICES[5982], VERTICES[2467] }] = 0.0
-EDGES[{ VERTICES[981], VERTICES[6236] }] = 0.0
-EDGES[{ VERTICES[2916], VERTICES[2408] }] = 0.0
-EDGES[{ VERTICES[3822], VERTICES[4861] }] = 0.0
-EDGES[{ VERTICES[913], VERTICES[5978] }] = 0.0
-EDGES[{ VERTICES[387], VERTICES[1618] }] = 0.0
-EDGES[{ VERTICES[5784], VERTICES[1190] }] = 0.0
-EDGES[{ VERTICES[2914], VERTICES[14] }] = 0.0
-EDGES[{ VERTICES[1149], VERTICES[4127] }] = 0.0
-EDGES[{ VERTICES[3395], VERTICES[1357] }] = 0.0
-EDGES[{ VERTICES[1760], VERTICES[2634] }] = 0.0
-EDGES[{ VERTICES[694], VERTICES[2139] }] = 0.0
-EDGES[{ VERTICES[204], VERTICES[689] }] = 0.0
-EDGES[{ VERTICES[1286], VERTICES[1848] }] = 0.0
-EDGES[{ VERTICES[3323], VERTICES[3369] }] = 0.0
-EDGES[{ VERTICES[497], VERTICES[4731] }] = 0.0
-EDGES[{ VERTICES[5846], VERTICES[566] }] = 0.0
-EDGES[{ VERTICES[644], VERTICES[3060] }] = 0.0
-EDGES[{ VERTICES[4013], VERTICES[4680] }] = 0.0
-EDGES[{ VERTICES[1216], VERTICES[289] }] = 0.0
-EDGES[{ VERTICES[5081], VERTICES[2224] }] = 0.0
-EDGES[{ VERTICES[2356], VERTICES[5636] }] = 0.0
-EDGES[{ VERTICES[2173], VERTICES[4659] }] = 0.0
-EDGES[{ VERTICES[4253], VERTICES[4508] }] = 0.0
-EDGES[{ VERTICES[4152], VERTICES[4688] }] = 0.0
-EDGES[{ VERTICES[4172], VERTICES[1526] }] = 0.0
-EDGES[{ VERTICES[6035], VERTICES[43] }] = 0.0
-EDGES[{ VERTICES[5889], VERTICES[719] }] = 0.0
-EDGES[{ VERTICES[524], VERTICES[3899] }] = 0.0
-EDGES[{ VERTICES[505], VERTICES[2058] }] = 0.0
-EDGES[{ VERTICES[485], VERTICES[1767] }] = 0.0
-EDGES[{ VERTICES[5824], VERTICES[5891] }] = 0.0
-EDGES[{ VERTICES[3294], VERTICES[5829] }] = 0.0
-EDGES[{ VERTICES[2426], VERTICES[3118] }] = 0.0
-EDGES[{ VERTICES[3974], VERTICES[912] }] = 0.0
-EDGES[{ VERTICES[2358], VERTICES[5930] }] = 0.0
-EDGES[{ VERTICES[2898], VERTICES[4620] }] = 0.0
-EDGES[{ VERTICES[3616], VERTICES[5594] }] = 0.0
-EDGES[{ VERTICES[2904], VERTICES[3461] }] = 0.0
-EDGES[{ VERTICES[781], VERTICES[3403] }] = 0.0
-EDGES[{ VERTICES[3525], VERTICES[4226] }] = 0.0
-EDGES[{ VERTICES[5251], VERTICES[1764] }] = 0.0
-EDGES[{ VERTICES[5148], VERTICES[2348] }] = 0.0
-EDGES[{ VERTICES[4749], VERTICES[3229] }] = 0.0
-EDGES[{ VERTICES[3319], VERTICES[2443] }] = 0.0
-EDGES[{ VERTICES[140], VERTICES[2090] }] = 0.0
-EDGES[{ VERTICES[5921], VERTICES[42] }] = 0.0
-EDGES[{ VERTICES[1086], VERTICES[1726] }] = 0.0
-EDGES[{ VERTICES[2022], VERTICES[1606] }] = 0.0
-EDGES[{ VERTICES[4895], VERTICES[2145] }] = 0.0
-EDGES[{ VERTICES[307], VERTICES[3866] }] = 0.0
-EDGES[{ VERTICES[3120], VERTICES[350] }] = 0.0
-EDGES[{ VERTICES[1525], VERTICES[1937] }] = 0.0
-EDGES[{ VERTICES[677], VERTICES[1715] }] = 0.0
-EDGES[{ VERTICES[351], VERTICES[5614] }] = 0.0
-EDGES[{ VERTICES[5047], VERTICES[1064] }] = 0.0
-EDGES[{ VERTICES[2706], VERTICES[3455] }] = 0.0
-EDGES[{ VERTICES[2318], VERTICES[5232] }] = 0.0
-EDGES[{ VERTICES[2969], VERTICES[4594] }] = 0.0
-EDGES[{ VERTICES[5249], VERTICES[2326] }] = 0.0
-EDGES[{ VERTICES[226], VERTICES[166] }] = 0.0
-EDGES[{ VERTICES[4166], VERTICES[2302] }] = 0.0
-EDGES[{ VERTICES[4357], VERTICES[991] }] = 0.0
-EDGES[{ VERTICES[1929], VERTICES[3196] }] = 0.0
-EDGES[{ VERTICES[1945], VERTICES[3528] }] = 0.0
-EDGES[{ VERTICES[5847], VERTICES[4818] }] = 0.0
-EDGES[{ VERTICES[5340], VERTICES[755] }] = 0.0
-EDGES[{ VERTICES[1613], VERTICES[453] }] = 0.0
-EDGES[{ VERTICES[5020], VERTICES[5246] }] = 0.0
-EDGES[{ VERTICES[4766], VERTICES[2993] }] = 0.0
-EDGES[{ VERTICES[1849], VERTICES[3152] }] = 0.0
-EDGES[{ VERTICES[5724], VERTICES[3192] }] = 0.0
-EDGES[{ VERTICES[150], VERTICES[3797] }] = 0.0
-EDGES[{ VERTICES[2883], VERTICES[4782] }] = 0.0
-EDGES[{ VERTICES[3052], VERTICES[3258] }] = 0.0
-EDGES[{ VERTICES[2088], VERTICES[1034] }] = 0.0
-EDGES[{ VERTICES[3803], VERTICES[6013] }] = 0.0
-EDGES[{ VERTICES[704], VERTICES[1915] }] = 0.0
-EDGES[{ VERTICES[2353], VERTICES[3954] }] = 0.0
-EDGES[{ VERTICES[3021], VERTICES[1431] }] = 0.0
-EDGES[{ VERTICES[1614], VERTICES[2753] }] = 0.0
-EDGES[{ VERTICES[3326], VERTICES[4652] }] = 0.0
-EDGES[{ VERTICES[4205], VERTICES[5084] }] = 0.0
-EDGES[{ VERTICES[4506], VERTICES[5387] }] = 0.0
-EDGES[{ VERTICES[3249], VERTICES[5417] }] = 0.0
-EDGES[{ VERTICES[579], VERTICES[1495] }] = 0.0
-EDGES[{ VERTICES[4987], VERTICES[5495] }] = 0.0
-EDGES[{ VERTICES[3473], VERTICES[2697] }] = 0.0
-EDGES[{ VERTICES[4274], VERTICES[310] }] = 0.0
-EDGES[{ VERTICES[5979], VERTICES[2618] }] = 0.0
-EDGES[{ VERTICES[5774], VERTICES[1787] }] = 0.0
-EDGES[{ VERTICES[6062], VERTICES[3988] }] = 0.0
-EDGES[{ VERTICES[2300], VERTICES[738] }] = 0.0
-EDGES[{ VERTICES[1672], VERTICES[3903] }] = 0.0
-EDGES[{ VERTICES[3126], VERTICES[2935] }] = 0.0
-EDGES[{ VERTICES[3223], VERTICES[4011] }] = 0.0
-EDGES[{ VERTICES[2343], VERTICES[3285] }] = 0.0
-EDGES[{ VERTICES[2869], VERTICES[4535] }] = 0.0
-EDGES[{ VERTICES[5623], VERTICES[2492] }] = 0.0
-EDGES[{ VERTICES[946], VERTICES[2375] }] = 0.0
-EDGES[{ VERTICES[1824], VERTICES[5202] }] = 0.0
-EDGES[{ VERTICES[315], VERTICES[4802] }] = 0.0
-EDGES[{ VERTICES[3905], VERTICES[2710] }] = 0.0
-EDGES[{ VERTICES[5063], VERTICES[6262] }] = 0.0
-EDGES[{ VERTICES[1366], VERTICES[513] }] = 0.0
-EDGES[{ VERTICES[4848], VERTICES[1658] }] = 0.0
-EDGES[{ VERTICES[5781], VERTICES[1238] }] = 0.0
-EDGES[{ VERTICES[5252], VERTICES[192] }] = 0.0
-EDGES[{ VERTICES[938], VERTICES[2127] }] = 0.0
-EDGES[{ VERTICES[3716], VERTICES[4760] }] = 0.0
-EDGES[{ VERTICES[1332], VERTICES[3944] }] = 0.0
-EDGES[{ VERTICES[4358], VERTICES[1041] }] = 0.0
-EDGES[{ VERTICES[4116], VERTICES[5995] }] = 0.0
-EDGES[{ VERTICES[2647], VERTICES[2789] }] = 0.0
-EDGES[{ VERTICES[354], VERTICES[3360] }] = 0.0
-EDGES[{ VERTICES[5013], VERTICES[2216] }] = 0.0
-EDGES[{ VERTICES[2802], VERTICES[3277] }] = 0.0
-EDGES[{ VERTICES[5096], VERTICES[5875] }] = 0.0
-EDGES[{ VERTICES[2800], VERTICES[4203] }] = 0.0
-EDGES[{ VERTICES[142], VERTICES[3169] }] = 0.0
-EDGES[{ VERTICES[6183], VERTICES[3615] }] = 0.0
-EDGES[{ VERTICES[4292], VERTICES[5027] }] = 0.0
-EDGES[{ VERTICES[1661], VERTICES[5135] }] = 0.0
-EDGES[{ VERTICES[3540], VERTICES[6175] }] = 0.0
-EDGES[{ VERTICES[3727], VERTICES[4006] }] = 0.0
-EDGES[{ VERTICES[345], VERTICES[290] }] = 0.0
-EDGES[{ VERTICES[3348], VERTICES[5457] }] = 0.0
-EDGES[{ VERTICES[26], VERTICES[211] }] = 0.0
-EDGES[{ VERTICES[4072], VERTICES[156] }] = 0.0
-EDGES[{ VERTICES[5637], VERTICES[1659] }] = 0.0
-EDGES[{ VERTICES[4493], VERTICES[1697] }] = 0.0
-EDGES[{ VERTICES[2504], VERTICES[5920] }] = 0.0
-EDGES[{ VERTICES[4628], VERTICES[1713] }] = 0.0
-EDGES[{ VERTICES[6130], VERTICES[411] }] = 0.0
-EDGES[{ VERTICES[5344], VERTICES[1031] }] = 0.0
-EDGES[{ VERTICES[4392], VERTICES[5566] }] = 0.0
-EDGES[{ VERTICES[3399], VERTICES[1723] }] = 0.0
-EDGES[{ VERTICES[252], VERTICES[1814] }] = 0.0
-EDGES[{ VERTICES[2085], VERTICES[2039] }] = 0.0
-EDGES[{ VERTICES[3181], VERTICES[1677] }] = 0.0
-EDGES[{ VERTICES[6111], VERTICES[1837] }] = 0.0
-EDGES[{ VERTICES[2249], VERTICES[4890] }] = 0.0
-EDGES[{ VERTICES[2274], VERTICES[4322] }] = 0.0
-EDGES[{ VERTICES[2719], VERTICES[5744] }] = 0.0
-EDGES[{ VERTICES[501], VERTICES[5459] }] = 0.0
-EDGES[{ VERTICES[1464], VERTICES[4287] }] = 0.0
-EDGES[{ VERTICES[3226], VERTICES[2360] }] = 0.0
-EDGES[{ VERTICES[631], VERTICES[5247] }] = 0.0
-EDGES[{ VERTICES[4481], VERTICES[4017] }] = 0.0
-EDGES[{ VERTICES[4995], VERTICES[3510] }] = 0.0
-EDGES[{ VERTICES[881], VERTICES[4007] }] = 0.0
-EDGES[{ VERTICES[4056], VERTICES[2456] }] = 0.0
-EDGES[{ VERTICES[3221], VERTICES[3614] }] = 0.0
-EDGES[{ VERTICES[4632], VERTICES[5577] }] = 0.0
-EDGES[{ VERTICES[4314], VERTICES[1167] }] = 0.0
-EDGES[{ VERTICES[1202], VERTICES[858] }] = 0.0
-EDGES[{ VERTICES[2295], VERTICES[6205] }] = 0.0
-EDGES[{ VERTICES[767], VERTICES[5384] }] = 0.0
-EDGES[{ VERTICES[6011], VERTICES[3804] }] = 0.0
-EDGES[{ VERTICES[1836], VERTICES[1812] }] = 0.0
-EDGES[{ VERTICES[5763], VERTICES[2027] }] = 0.0
-EDGES[{ VERTICES[4944], VERTICES[5912] }] = 0.0
-EDGES[{ VERTICES[5031], VERTICES[1689] }] = 0.0
-EDGES[{ VERTICES[3605], VERTICES[655] }] = 0.0
-EDGES[{ VERTICES[6007], VERTICES[288] }] = 0.0
-EDGES[{ VERTICES[1889], VERTICES[5928] }] = 0.0
-EDGES[{ VERTICES[1844], VERTICES[6091] }] = 0.0
-EDGES[{ VERTICES[3874], VERTICES[964] }] = 0.0
-EDGES[{ VERTICES[5650], VERTICES[22] }] = 0.0
-EDGES[{ VERTICES[3431], VERTICES[5130] }] = 0.0
-EDGES[{ VERTICES[3880], VERTICES[3281] }] = 0.0
-EDGES[{ VERTICES[4107], VERTICES[2848] }] = 0.0
-EDGES[{ VERTICES[994], VERTICES[5354] }] = 0.0
-EDGES[{ VERTICES[4786], VERTICES[2808] }] = 0.0
-EDGES[{ VERTICES[2931], VERTICES[2762] }] = 0.0
-EDGES[{ VERTICES[5162], VERTICES[832] }] = 0.0
-EDGES[{ VERTICES[5178], VERTICES[1605] }] = 0.0
-EDGES[{ VERTICES[5413], VERTICES[5416] }] = 0.0
-EDGES[{ VERTICES[1203], VERTICES[1146] }] = 0.0
-EDGES[{ VERTICES[3307], VERTICES[3931] }] = 0.0
-EDGES[{ VERTICES[1135], VERTICES[4672] }] = 0.0
-EDGES[{ VERTICES[2785], VERTICES[1800] }] = 0.0
-EDGES[{ VERTICES[2866], VERTICES[4060] }] = 0.0
-EDGES[{ VERTICES[892], VERTICES[205] }] = 0.0
-EDGES[{ VERTICES[5834], VERTICES[653] }] = 0.0
-EDGES[{ VERTICES[6156], VERTICES[336] }] = 0.0
-EDGES[{ VERTICES[5089], VERTICES[4272] }] = 0.0
-EDGES[{ VERTICES[6018], VERTICES[79] }] = 0.0
-EDGES[{ VERTICES[6181], VERTICES[4316] }] = 0.0
-EDGES[{ VERTICES[4773], VERTICES[4532] }] = 0.0
-EDGES[{ VERTICES[1079], VERTICES[4512] }] = 0.0
-EDGES[{ VERTICES[861], VERTICES[2815] }] = 0.0
-EDGES[{ VERTICES[2190], VERTICES[468] }] = 0.0
-EDGES[{ VERTICES[758], VERTICES[4696] }] = 0.0
-EDGES[{ VERTICES[1311], VERTICES[1122] }] = 0.0
-EDGES[{ VERTICES[743], VERTICES[2147] }] = 0.0
-EDGES[{ VERTICES[3597], VERTICES[2457] }] = 0.0
-EDGES[{ VERTICES[5446], VERTICES[4951] }] = 0.0
-EDGES[{ VERTICES[1087], VERTICES[6085] }] = 0.0
-EDGES[{ VERTICES[3970], VERTICES[1573] }] = 0.0
-EDGES[{ VERTICES[5838], VERTICES[4455] }] = 0.0
-EDGES[{ VERTICES[1964], VERTICES[722] }] = 0.0
-EDGES[{ VERTICES[2384], VERTICES[107] }] = 0.0
-EDGES[{ VERTICES[5983], VERTICES[1425] }] = 0.0
-EDGES[{ VERTICES[6026], VERTICES[120] }] = 0.0
-EDGES[{ VERTICES[1873], VERTICES[4679] }] = 0.0
-EDGES[{ VERTICES[2414], VERTICES[2766] }] = 0.0
-EDGES[{ VERTICES[1454], VERTICES[2506] }] = 0.0
-EDGES[{ VERTICES[1898], VERTICES[5961] }] = 0.0
-EDGES[{ VERTICES[202], VERTICES[36] }] = 0.0
-EDGES[{ VERTICES[417], VERTICES[5272] }] = 0.0
-EDGES[{ VERTICES[1599], VERTICES[3844] }] = 0.0
-EDGES[{ VERTICES[3470], VERTICES[346] }] = 0.0
-EDGES[{ VERTICES[775], VERTICES[878] }] = 0.0
-EDGES[{ VERTICES[2631], VERTICES[238] }] = 0.0
-EDGES[{ VERTICES[2321], VERTICES[542] }] = 0.0
-EDGES[{ VERTICES[2510], VERTICES[4893] }] = 0.0
-EDGES[{ VERTICES[5747], VERTICES[6014] }] = 0.0
-EDGES[{ VERTICES[400], VERTICES[2816] }] = 0.0
-EDGES[{ VERTICES[4381], VERTICES[1125] }] = 0.0
-EDGES[{ VERTICES[807], VERTICES[5070] }] = 0.0
-EDGES[{ VERTICES[2713], VERTICES[5864] }] = 0.0
-EDGES[{ VERTICES[4123], VERTICES[72] }] = 0.0
-EDGES[{ VERTICES[550], VERTICES[4331] }] = 0.0
-EDGES[{ VERTICES[1293], VERTICES[306] }] = 0.0
-EDGES[{ VERTICES[3220], VERTICES[4245] }] = 0.0
-EDGES[{ VERTICES[543], VERTICES[2175] }] = 0.0
-EDGES[{ VERTICES[314], VERTICES[6132] }] = 0.0
-EDGES[{ VERTICES[2979], VERTICES[5173] }] = 0.0
-EDGES[{ VERTICES[4156], VERTICES[3143] }] = 0.0
-EDGES[{ VERTICES[5512], VERTICES[1483] }] = 0.0
-EDGES[{ VERTICES[5149], VERTICES[1391] }] = 0.0
-EDGES[{ VERTICES[1796], VERTICES[4484] }] = 0.0
-EDGES[{ VERTICES[229], VERTICES[742] }] = 0.0
-EDGES[{ VERTICES[3684], VERTICES[5940] }] = 0.0
-EDGES[{ VERTICES[3835], VERTICES[6179] }] = 0.0
-EDGES[{ VERTICES[3112], VERTICES[5798] }] = 0.0
-EDGES[{ VERTICES[3440], VERTICES[158] }] = 0.0
-EDGES[{ VERTICES[3750], VERTICES[5948] }] = 0.0
-EDGES[{ VERTICES[1831], VERTICES[1112] }] = 0.0
-EDGES[{ VERTICES[6167], VERTICES[247] }] = 0.0
-EDGES[{ VERTICES[4073], VERTICES[4676] }] = 0.0
-EDGES[{ VERTICES[3246], VERTICES[5228] }] = 0.0
-EDGES[{ VERTICES[1443], VERTICES[1905] }] = 0.0
-EDGES[{ VERTICES[3632], VERTICES[3320] }] = 0.0
-EDGES[{ VERTICES[4847], VERTICES[4276] }] = 0.0
-EDGES[{ VERTICES[1150], VERTICES[1795] }] = 0.0
-EDGES[{ VERTICES[1403], VERTICES[5888] }] = 0.0
-EDGES[{ VERTICES[1001], VERTICES[4142] }] = 0.0
-EDGES[{ VERTICES[62], VERTICES[6103] }] = 0.0
-EDGES[{ VERTICES[4450], VERTICES[3330] }] = 0.0
-EDGES[{ VERTICES[3812], VERTICES[4155] }] = 0.0
-EDGES[{ VERTICES[2389], VERTICES[3179] }] = 0.0
-EDGES[{ VERTICES[1398], VERTICES[2965] }] = 0.0
-EDGES[{ VERTICES[5743], VERTICES[2915] }] = 0.0
-EDGES[{ VERTICES[6094], VERTICES[3259] }] = 0.0
-EDGES[{ VERTICES[3821], VERTICES[1816] }] = 0.0
-EDGES[{ VERTICES[3945], VERTICES[971] }] = 0.0
-EDGES[{ VERTICES[3335], VERTICES[4299] }] = 0.0
-EDGES[{ VERTICES[1663], VERTICES[2704] }] = 0.0
-EDGES[{ VERTICES[194], VERTICES[466] }] = 0.0
-EDGES[{ VERTICES[3870], VERTICES[6142] }] = 0.0
-EDGES[{ VERTICES[622], VERTICES[448] }] = 0.0
-EDGES[{ VERTICES[4829], VERTICES[1741] }] = 0.0
-EDGES[{ VERTICES[4074], VERTICES[5337] }] = 0.0
-EDGES[{ VERTICES[3174], VERTICES[3375] }] = 0.0
-EDGES[{ VERTICES[5078], VERTICES[4264] }] = 0.0
-EDGES[{ VERTICES[4234], VERTICES[1955] }] = 0.0
-EDGES[{ VERTICES[4830], VERTICES[3121] }] = 0.0
-EDGES[{ VERTICES[3480], VERTICES[3706] }] = 0.0
-EDGES[{ VERTICES[1994], VERTICES[5146] }] = 0.0
-EDGES[{ VERTICES[4215], VERTICES[4561] }] = 0.0
-EDGES[{ VERTICES[225], VERTICES[4678] }] = 0.0
-EDGES[{ VERTICES[503], VERTICES[4702] }] = 0.0
-EDGES[{ VERTICES[5250], VERTICES[1350] }] = 0.0
-EDGES[{ VERTICES[4094], VERTICES[4815] }] = 0.0
-EDGES[{ VERTICES[629], VERTICES[89] }] = 0.0
-EDGES[{ VERTICES[5873], VERTICES[5571] }] = 0.0
-EDGES[{ VERTICES[2271], VERTICES[2651] }] = 0.0
-EDGES[{ VERTICES[1227], VERTICES[1675] }] = 0.0
-EDGES[{ VERTICES[3477], VERTICES[4425] }] = 0.0
-EDGES[{ VERTICES[3754], VERTICES[4949] }] = 0.0
-EDGES[{ VERTICES[4912], VERTICES[2002] }] = 0.0
-EDGES[{ VERTICES[3159], VERTICES[4378] }] = 0.0
-EDGES[{ VERTICES[4824], VERTICES[2461] }] = 0.0
-EDGES[{ VERTICES[483], VERTICES[3824] }] = 0.0
-EDGES[{ VERTICES[5212], VERTICES[6112] }] = 0.0
-EDGES[{ VERTICES[297], VERTICES[1467] }] = 0.0
-EDGES[{ VERTICES[6219], VERTICES[5686] }] = 0.0
-EDGES[{ VERTICES[154], VERTICES[5] }] = 0.0
-EDGES[{ VERTICES[5062], VERTICES[1303] }] = 0.0
-EDGES[{ VERTICES[4526], VERTICES[3511] }] = 0.0
-EDGES[{ VERTICES[1264], VERTICES[5395] }] = 0.0
-EDGES[{ VERTICES[1623], VERTICES[5171] }] = 0.0
-EDGES[{ VERTICES[2], VERTICES[754] }] = 0.0
-EDGES[{ VERTICES[3934], VERTICES[5392] }] = 0.0
-EDGES[{ VERTICES[2692], VERTICES[5318] }] = 0.0
-EDGES[{ VERTICES[1556], VERTICES[1345] }] = 0.0
-EDGES[{ VERTICES[2580], VERTICES[368] }] = 0.0
-EDGES[{ VERTICES[208], VERTICES[1554] }] = 0.0
-EDGES[{ VERTICES[5472], VERTICES[5779] }] = 0.0
-EDGES[{ VERTICES[815], VERTICES[1187] }] = 0.0
-EDGES[{ VERTICES[3361], VERTICES[3714] }] = 0.0
-EDGES[{ VERTICES[3729], VERTICES[2865] }] = 0.0
-EDGES[{ VERTICES[2732], VERTICES[6078] }] = 0.0
-EDGES[{ VERTICES[3351], VERTICES[1333] }] = 0.0
-EDGES[{ VERTICES[5169], VERTICES[4106] }] = 0.0
-EDGES[{ VERTICES[4475], VERTICES[1579] }] = 0.0
-EDGES[{ VERTICES[3507], VERTICES[5785] }] = 0.0
-EDGES[{ VERTICES[2129], VERTICES[3244] }] = 0.0
-EDGES[{ VERTICES[5226], VERTICES[5699] }] = 0.0
-EDGES[{ VERTICES[63], VERTICES[2067] }] = 0.0
-EDGES[{ VERTICES[5466], VERTICES[5878] }] = 0.0
-EDGES[{ VERTICES[559], VERTICES[5269] }] = 0.0
-EDGES[{ VERTICES[3173], VERTICES[1845] }] = 0.0
-EDGES[{ VERTICES[2534], VERTICES[1549] }] = 0.0
-EDGES[{ VERTICES[1939], VERTICES[4084] }] = 0.0
-EDGES[{ VERTICES[8], VERTICES[640] }] = 0.0
-EDGES[{ VERTICES[5450], VERTICES[2064] }] = 0.0
-EDGES[{ VERTICES[3158], VERTICES[2099] }] = 0.0
-EDGES[{ VERTICES[2806], VERTICES[4334] }] = 0.0
-EDGES[{ VERTICES[5363], VERTICES[4278] }] = 0.0
-EDGES[{ VERTICES[442], VERTICES[1968] }] = 0.0
-EDGES[{ VERTICES[3688], VERTICES[4887] }] = 0.0
-EDGES[{ VERTICES[3182], VERTICES[780] }] = 0.0
-EDGES[{ VERTICES[4553], VERTICES[4096] }] = 0.0
-EDGES[{ VERTICES[2541], VERTICES[3594] }] = 0.0
-EDGES[{ VERTICES[3770], VERTICES[5489] }] = 0.0
-EDGES[{ VERTICES[3986], VERTICES[2868] }] = 0.0
-EDGES[{ VERTICES[5444], VERTICES[3881] }] = 0.0
-EDGES[{ VERTICES[3425], VERTICES[1450] }] = 0.0
-EDGES[{ VERTICES[2140], VERTICES[4397] }] = 0.0
-EDGES[{ VERTICES[3376], VERTICES[953] }] = 0.0
-EDGES[{ VERTICES[5432], VERTICES[2855] }] = 0.0
-EDGES[{ VERTICES[2906], VERTICES[3501] }] = 0.0
-EDGES[{ VERTICES[1148], VERTICES[4242] }] = 0.0
-EDGES[{ VERTICES[4387], VERTICES[4825] }] = 0.0
-EDGES[{ VERTICES[3943], VERTICES[4580] }] = 0.0
-EDGES[{ VERTICES[1970], VERTICES[4961] }] = 0.0
-EDGES[{ VERTICES[31], VERTICES[3611] }] = 0.0
-EDGES[{ VERTICES[6223], VERTICES[3673] }] = 0.0
-EDGES[{ VERTICES[2536], VERTICES[2204] }] = 0.0
-EDGES[{ VERTICES[5451], VERTICES[4922] }] = 0.0
-EDGES[{ VERTICES[371], VERTICES[6242] }] = 0.0
-EDGES[{ VERTICES[1966], VERTICES[5670] }] = 0.0
-EDGES[{ VERTICES[124], VERTICES[6138] }] = 0.0
-EDGES[{ VERTICES[667], VERTICES[2155] }] = 0.0
-EDGES[{ VERTICES[4604], VERTICES[1156] }] = 0.0
-EDGES[{ VERTICES[2509], VERTICES[4686] }] = 0.0
-EDGES[{ VERTICES[1608], VERTICES[3867] }] = 0.0
-EDGES[{ VERTICES[6102], VERTICES[2392] }] = 0.0
-EDGES[{ VERTICES[5575], VERTICES[1919] }] = 0.0
-EDGES[{ VERTICES[2477], VERTICES[2932] }] = 0.0
-EDGES[{ VERTICES[3856], VERTICES[2076] }] = 0.0
-EDGES[{ VERTICES[3591], VERTICES[1852] }] = 0.0
-EDGES[{ VERTICES[4898], VERTICES[3097] }] = 0.0
-EDGES[{ VERTICES[3004], VERTICES[2655] }] = 0.0
-EDGES[{ VERTICES[4409], VERTICES[5433] }] = 0.0
-EDGES[{ VERTICES[3617], VERTICES[849] }] = 0.0
-EDGES[{ VERTICES[2156], VERTICES[4304] }] = 0.0
-EDGES[{ VERTICES[5667], VERTICES[3178] }] = 0.0
-EDGES[{ VERTICES[139], VERTICES[2229] }] = 0.0
-EDGES[{ VERTICES[1046], VERTICES[3218] }] = 0.0
-EDGES[{ VERTICES[691], VERTICES[71] }] = 0.0
-EDGES[{ VERTICES[269], VERTICES[1890] }] = 0.0
-EDGES[{ VERTICES[4297], VERTICES[4648] }] = 0.0
-EDGES[{ VERTICES[3857], VERTICES[3547] }] = 0.0
-EDGES[{ VERTICES[1712], VERTICES[2654] }] = 0.0
-EDGES[{ VERTICES[4068], VERTICES[4144] }] = 0.0
-EDGES[{ VERTICES[3035], VERTICES[2779] }] = 0.0
-EDGES[{ VERTICES[3343], VERTICES[5695] }] = 0.0
-EDGES[{ VERTICES[3306], VERTICES[6265] }] = 0.0
-EDGES[{ VERTICES[3873], VERTICES[2764] }] = 0.0
-EDGES[{ VERTICES[4485], VERTICES[1165] }] = 0.0
-EDGES[{ VERTICES[2677], VERTICES[5274] }] = 0.0
-EDGES[{ VERTICES[3639], VERTICES[2015] }] = 0.0
-EDGES[{ VERTICES[5280], VERTICES[3465] }] = 0.0
-EDGES[{ VERTICES[2889], VERTICES[2179] }] = 0.0
-EDGES[{ VERTICES[5240], VERTICES[5573] }] = 0.0
-EDGES[{ VERTICES[2238], VERTICES[5977] }] = 0.0
-EDGES[{ VERTICES[1644], VERTICES[5099] }] = 0.0
-EDGES[{ VERTICES[3798], VERTICES[3333] }] = 0.0
-EDGES[{ VERTICES[1267], VERTICES[2232] }] = 0.0
-EDGES[{ VERTICES[344], VERTICES[3228] }] = 0.0
-EDGES[{ VERTICES[502], VERTICES[844] }] = 0.0
-EDGES[{ VERTICES[2568], VERTICES[5807] }] = 0.0
-EDGES[{ VERTICES[1108], VERTICES[385] }] = 0.0
-EDGES[{ VERTICES[5906], VERTICES[4058] }] = 0.0
-EDGES[{ VERTICES[4716], VERTICES[883] }] = 0.0
-EDGES[{ VERTICES[4791], VERTICES[5043] }] = 0.0
-EDGES[{ VERTICES[2596], VERTICES[5936] }] = 0.0
-EDGES[{ VERTICES[2838], VERTICES[2134] }] = 0.0
-EDGES[{ VERTICES[5410], VERTICES[3400] }] = 0.0
-EDGES[{ VERTICES[1239], VERTICES[1415] }] = 0.0
-EDGES[{ VERTICES[3633], VERTICES[5391] }] = 0.0
-EDGES[{ VERTICES[3165], VERTICES[939] }] = 0.0
-EDGES[{ VERTICES[2189], VERTICES[4831] }] = 0.0
-EDGES[{ VERTICES[766], VERTICES[364] }] = 0.0
-EDGES[{ VERTICES[4601], VERTICES[3712] }] = 0.0
-EDGES[{ VERTICES[2246], VERTICES[599] }] = 0.0
-EDGES[{ VERTICES[1036], VERTICES[526] }] = 0.0
-EDGES[{ VERTICES[4980], VERTICES[5728] }] = 0.0
-EDGES[{ VERTICES[5854], VERTICES[1039] }] = 0.0
-EDGES[{ VERTICES[5656], VERTICES[551] }] = 0.0
-EDGES[{ VERTICES[1602], VERTICES[2520] }] = 0.0
-EDGES[{ VERTICES[435], VERTICES[5377] }] = 0.0
-EDGES[{ VERTICES[2239], VERTICES[332] }] = 0.0
-EDGES[{ VERTICES[959], VERTICES[1551] }] = 0.0
-EDGES[{ VERTICES[5734], VERTICES[3997] }] = 0.0
-EDGES[{ VERTICES[5125], VERTICES[4225] }] = 0.0
-EDGES[{ VERTICES[588], VERTICES[5312] }] = 0.0
-EDGES[{ VERTICES[1763], VERTICES[5230] }] = 0.0
-EDGES[{ VERTICES[6235], VERTICES[1841] }] = 0.0
-EDGES[{ VERTICES[763], VERTICES[3082] }] = 0.0
-EDGES[{ VERTICES[5909], VERTICES[786] }] = 0.0
-EDGES[{ VERTICES[3758], VERTICES[6043] }] = 0.0
-EDGES[{ VERTICES[2991], VERTICES[5591] }] = 0.0
-EDGES[{ VERTICES[1745], VERTICES[246] }] = 0.0
-EDGES[{ VERTICES[4950], VERTICES[2507] }] = 0.0
-EDGES[{ VERTICES[4224], VERTICES[4445] }] = 0.0
-EDGES[{ VERTICES[4942], VERTICES[3702] }] = 0.0
-EDGES[{ VERTICES[143], VERTICES[4777] }] = 0.0
-EDGES[{ VERTICES[87], VERTICES[2004] }] = 0.0
-EDGES[{ VERTICES[828], VERTICES[1351] }] = 0.0
-EDGES[{ VERTICES[4260], VERTICES[5751] }] = 0.0
-EDGES[{ VERTICES[5972], VERTICES[1548] }] = 0.0
-EDGES[{ VERTICES[3147], VERTICES[4390] }] = 0.0
-EDGES[{ VERTICES[5206], VERTICES[3227] }] = 0.0
-EDGES[{ VERTICES[4109], VERTICES[5069] }] = 0.0
-EDGES[{ VERTICES[5879], VERTICES[6041] }] = 0.0
-EDGES[{ VERTICES[4936], VERTICES[5227] }] = 0.0
-EDGES[{ VERTICES[6185], VERTICES[3656] }] = 0.0
-EDGES[{ VERTICES[218], VERTICES[5284] }] = 0.0
-EDGES[{ VERTICES[4973], VERTICES[6228] }] = 0.0
-EDGES[{ VERTICES[4502], VERTICES[3982] }] = 0.0
-EDGES[{ VERTICES[2577], VERTICES[5598] }] = 0.0
-EDGES[{ VERTICES[1488], VERTICES[5056] }] = 0.0
-EDGES[{ VERTICES[5913], VERTICES[6032] }] = 0.0
-EDGES[{ VERTICES[1810], VERTICES[1228] }] = 0.0
-EDGES[{ VERTICES[4941], VERTICES[1306] }] = 0.0
-EDGES[{ VERTICES[5055], VERTICES[3854] }] = 0.0
-EDGES[{ VERTICES[1210], VERTICES[4470] }] = 0.0
-EDGES[{ VERTICES[1429], VERTICES[3981] }] = 0.0
-EDGES[{ VERTICES[6212], VERTICES[3040] }] = 0.0
-EDGES[{ VERTICES[1687], VERTICES[4742] }] = 0.0
-EDGES[{ VERTICES[3339], VERTICES[4101] }] = 0.0
-EDGES[{ VERTICES[5477], VERTICES[3397] }] = 0.0
-EDGES[{ VERTICES[2871], VERTICES[3154] }] = 0.0
-EDGES[{ VERTICES[1878], VERTICES[2040] }] = 0.0
-EDGES[{ VERTICES[6213], VERTICES[3230] }] = 0.0
-EDGES[{ VERTICES[932], VERTICES[6028] }] = 0.0
-EDGES[{ VERTICES[84], VERTICES[54] }] = 0.0
-EDGES[{ VERTICES[46], VERTICES[1448] }] = 0.0
-EDGES[{ VERTICES[4546], VERTICES[5098] }] = 0.0
-EDGES[{ VERTICES[518], VERTICES[4411] }] = 0.0
-EDGES[{ VERTICES[710], VERTICES[6238] }] = 0.0
-EDGES[{ VERTICES[4014], VERTICES[3532] }] = 0.0
-EDGES[{ VERTICES[4874], VERTICES[1693] }] = 0.0
-EDGES[{ VERTICES[6049], VERTICES[114] }] = 0.0
-EDGES[{ VERTICES[5001], VERTICES[3576] }] = 0.0
-EDGES[{ VERTICES[1742], VERTICES[2203] }] = 0.0
-EDGES[{ VERTICES[851], VERTICES[4250] }] = 0.0
-EDGES[{ VERTICES[2031], VERTICES[3670] }] = 0.0
-EDGES[{ VERTICES[4803], VERTICES[5425] }] = 0.0
-EDGES[{ VERTICES[1323], VERTICES[5999] }] = 0.0
-EDGES[{ VERTICES[4719], VERTICES[5327] }] = 0.0
-EDGES[{ VERTICES[59], VERTICES[5315] }] = 0.0
-EDGES[{ VERTICES[6184], VERTICES[6251] }] = 0.0
-EDGES[{ VERTICES[5295], VERTICES[4320] }] = 0.0
-EDGES[{ VERTICES[4730], VERTICES[5497] }] = 0.0
-EDGES[{ VERTICES[4611], VERTICES[2254] }] = 0.0
-EDGES[{ VERTICES[2550], VERTICES[2205] }] = 0.0
-EDGES[{ VERTICES[992], VERTICES[114] }] = 0.0
-EDGES[{ VERTICES[1420], VERTICES[4963] }] = 0.0
-EDGES[{ VERTICES[3410], VERTICES[3493] }] = 0.0
-EDGES[{ VERTICES[4211], VERTICES[4722] }] = 0.0
-EDGES[{ VERTICES[4708], VERTICES[5123] }] = 0.0
-EDGES[{ VERTICES[2335], VERTICES[4129] }] = 0.0
-EDGES[{ VERTICES[4075], VERTICES[280] }] = 0.0
-EDGES[{ VERTICES[2573], VERTICES[3252] }] = 0.0
-EDGES[{ VERTICES[3466], VERTICES[5264] }] = 0.0
-EDGES[{ VERTICES[5262], VERTICES[5420] }] = 0.0
-EDGES[{ VERTICES[5642], VERTICES[3861] }] = 0.0
-EDGES[{ VERTICES[3935], VERTICES[1168] }] = 0.0
-EDGES[{ VERTICES[2176], VERTICES[642] }] = 0.0
-EDGES[{ VERTICES[3464], VERTICES[2886] }] = 0.0
-EDGES[{ VERTICES[4227], VERTICES[5960] }] = 0.0
-EDGES[{ VERTICES[2416], VERTICES[2767] }] = 0.0
-EDGES[{ VERTICES[1290], VERTICES[782] }] = 0.0
-EDGES[{ VERTICES[4771], VERTICES[5765] }] = 0.0
-EDGES[{ VERTICES[3266], VERTICES[3533] }] = 0.0
-EDGES[{ VERTICES[4039], VERTICES[1543] }] = 0.0
-EDGES[{ VERTICES[251], VERTICES[1260] }] = 0.0
-EDGES[{ VERTICES[1399], VERTICES[2073] }] = 0.0
-EDGES[{ VERTICES[5484], VERTICES[2235] }] = 0.0
-EDGES[{ VERTICES[4087], VERTICES[5952] }] = 0.0
-EDGES[{ VERTICES[3731], VERTICES[5467] }] = 0.0
-EDGES[{ VERTICES[1569], VERTICES[1309] }] = 0.0
-EDGES[{ VERTICES[4974], VERTICES[2170] }] = 0.0
-EDGES[{ VERTICES[2003], VERTICES[3043] }] = 0.0
-EDGES[{ VERTICES[2734], VERTICES[2093] }] = 0.0
-EDGES[{ VERTICES[6000], VERTICES[2487] }] = 0.0
-EDGES[{ VERTICES[5533], VERTICES[2926] }] = 0.0
-EDGES[{ VERTICES[3833], VERTICES[4537] }] = 0.0
-EDGES[{ VERTICES[3509], VERTICES[3601] }] = 0.0
-EDGES[{ VERTICES[5789], VERTICES[3985] }] = 0.0
-EDGES[{ VERTICES[6115], VERTICES[3819] }] = 0.0
-EDGES[{ VERTICES[356], VERTICES[146] }] = 0.0
-EDGES[{ VERTICES[2649], VERTICES[5174] }] = 0.0
-EDGES[{ VERTICES[6008], VERTICES[182] }] = 0.0
-EDGES[{ VERTICES[444], VERTICES[4544] }] = 0.0
-EDGES[{ VERTICES[342], VERTICES[2344] }] = 0.0
-EDGES[{ VERTICES[6241], VERTICES[3372] }] = 0.0
-EDGES[{ VERTICES[5964], VERTICES[5168] }] = 0.0
-EDGES[{ VERTICES[1673], VERTICES[3747] }] = 0.0
-EDGES[{ VERTICES[5826], VERTICES[2045] }] = 0.0
-EDGES[{ VERTICES[695], VERTICES[2945] }] = 0.0
-EDGES[{ VERTICES[4713], VERTICES[2878] }] = 0.0
-EDGES[{ VERTICES[3186], VERTICES[116] }] = 0.0
-EDGES[{ VERTICES[2371], VERTICES[5777] }] = 0.0
-EDGES[{ VERTICES[5040], VERTICES[6144] }] = 0.0
-EDGES[{ VERTICES[221], VERTICES[5275] }] = 0.0
-EDGES[{ VERTICES[709], VERTICES[2872] }] = 0.0
-EDGES[{ VERTICES[2420], VERTICES[2742] }] = 0.0
-EDGES[{ VERTICES[2035], VERTICES[5131] }] = 0.0
-EDGES[{ VERTICES[4053], VERTICES[1312] }] = 0.0
-EDGES[{ VERTICES[5003], VERTICES[1850] }] = 0.0
-EDGES[{ VERTICES[2611], VERTICES[3814] }] = 0.0
-EDGES[{ VERTICES[1088], VERTICES[735] }] = 0.0
-EDGES[{ VERTICES[4805], VERTICES[5093] }] = 0.0
-EDGES[{ VERTICES[5707], VERTICES[980] }] = 0.0
-EDGES[{ VERTICES[3176], VERTICES[5666] }] = 0.0
-EDGES[{ VERTICES[4124], VERTICES[5890] }] = 0.0
-EDGES[{ VERTICES[190], VERTICES[5874] }] = 0.0
-EDGES[{ VERTICES[4113], VERTICES[4888] }] = 0.0
-EDGES[{ VERTICES[561], VERTICES[4645] }] = 0.0
-EDGES[{ VERTICES[1897], VERTICES[520] }] = 0.0
-EDGES[{ VERTICES[1886], VERTICES[1342] }] = 0.0
-EDGES[{ VERTICES[3199], VERTICES[1951] }] = 0.0
-EDGES[{ VERTICES[1977], VERTICES[2891] }] = 0.0
-EDGES[{ VERTICES[4967], VERTICES[5730] }] = 0.0
-EDGES[{ VERTICES[1615], VERTICES[2942] }] = 0.0
-EDGES[{ VERTICES[5074], VERTICES[206] }] = 0.0
-EDGES[{ VERTICES[4660], VERTICES[3743] }] = 0.0
-EDGES[{ VERTICES[4584], VERTICES[3349] }] = 0.0
-EDGES[{ VERTICES[747], VERTICES[465] }] = 0.0
-EDGES[{ VERTICES[3760], VERTICES[4261] }] = 0.0
-EDGES[{ VERTICES[5560], VERTICES[3300] }] = 0.0
-EDGES[{ VERTICES[2223], VERTICES[3205] }] = 0.0
-EDGES[{ VERTICES[1797], VERTICES[1990] }] = 0.0
-EDGES[{ VERTICES[5411], VERTICES[5430] }] = 0.0
-EDGES[{ VERTICES[530], VERTICES[1179] }] = 0.0
-EDGES[{ VERTICES[5244], VERTICES[5767] }] = 0.0
-EDGES[{ VERTICES[1348], VERTICES[914] }] = 0.0
-EDGES[{ VERTICES[6093], VERTICES[865] }] = 0.0
-EDGES[{ VERTICES[3858], VERTICES[6095] }] = 0.0
-EDGES[{ VERTICES[4793], VERTICES[4206] }] = 0.0
-EDGES[{ VERTICES[2411], VERTICES[5562] }] = 0.0
-EDGES[{ VERTICES[909], VERTICES[1272] }] = 0.0
-EDGES[{ VERTICES[4480], VERTICES[751] }] = 0.0
-EDGES[{ VERTICES[320], VERTICES[1996] }] = 0.0
-EDGES[{ VERTICES[5005], VERTICES[5026] }] = 0.0
-EDGES[{ VERTICES[4208], VERTICES[700] }] = 0.0
-EDGES[{ VERTICES[1909], VERTICES[37] }] = 0.0
-EDGES[{ VERTICES[1519], VERTICES[1201] }] = 0.0
-EDGES[{ VERTICES[3254], VERTICES[4597] }] = 0.0
-EDGES[{ VERTICES[1109], VERTICES[3917] }] = 0.0
-EDGES[{ VERTICES[6044], VERTICES[457] }] = 0.0
-EDGES[{ VERTICES[993], VERTICES[4306] }] = 0.0
-EDGES[{ VERTICES[1592], VERTICES[2928] }] = 0.0
-EDGES[{ VERTICES[2465], VERTICES[20] }] = 0.0
-EDGES[{ VERTICES[242], VERTICES[3643] }] = 0.0
-EDGES[{ VERTICES[1151], VERTICES[45] }] = 0.0
-EDGES[{ VERTICES[355], VERTICES[2074] }] = 0.0
-EDGES[{ VERTICES[2062], VERTICES[3188] }] = 0.0
-EDGES[{ VERTICES[4086], VERTICES[3568] }] = 0.0
-EDGES[{ VERTICES[2168], VERTICES[4724] }] = 0.0
-EDGES[{ VERTICES[4421], VERTICES[924] }] = 0.0
-EDGES[{ VERTICES[2880], VERTICES[1612] }] = 0.0
-EDGES[{ VERTICES[2952], VERTICES[2770] }] = 0.0
-EDGES[{ VERTICES[3610], VERTICES[4133] }] = 0.0
-EDGES[{ VERTICES[5617], VERTICES[1853] }] = 0.0
-EDGES[{ VERTICES[1995], VERTICES[2014] }] = 0.0
-EDGES[{ VERTICES[5383], VERTICES[2005] }] = 0.0
-EDGES[{ VERTICES[2479], VERTICES[2259] }] = 0.0
-EDGES[{ VERTICES[1471], VERTICES[1266] }] = 0.0
-EDGES[{ VERTICES[266], VERTICES[378] }] = 0.0
-EDGES[{ VERTICES[1988], VERTICES[623] }] = 0.0
-EDGES[{ VERTICES[4426], VERTICES[5870] }] = 0.0
-EDGES[{ VERTICES[423], VERTICES[4881] }] = 0.0
-EDGES[{ VERTICES[4555], VERTICES[4092] }] = 0.0
-EDGES[{ VERTICES[10], VERTICES[595] }] = 0.0
-EDGES[{ VERTICES[5490], VERTICES[1005] }] = 0.0
-EDGES[{ VERTICES[789], VERTICES[3719] }] = 0.0
-EDGES[{ VERTICES[212], VERTICES[1636] }] = 0.0
-EDGES[{ VERTICES[1718], VERTICES[1938] }] = 0.0
-EDGES[{ VERTICES[200], VERTICES[4259] }] = 0.0
-EDGES[{ VERTICES[4788], VERTICES[3808] }] = 0.0
-EDGES[{ VERTICES[3161], VERTICES[1752] }] = 0.0
-EDGES[{ VERTICES[5868], VERTICES[2826] }] = 0.0
-EDGES[{ VERTICES[3516], VERTICES[6188] }] = 0.0
-EDGES[{ VERTICES[2630], VERTICES[3189] }] = 0.0
-EDGES[{ VERTICES[333], VERTICES[657] }] = 0.0
-EDGES[{ VERTICES[2082], VERTICES[4118] }] = 0.0
-EDGES[{ VERTICES[4362], VERTICES[693] }] = 0.0
-EDGES[{ VERTICES[1032], VERTICES[4500] }] = 0.0
-EDGES[{ VERTICES[928], VERTICES[5557] }] = 0.0
-EDGES[{ VERTICES[6245], VERTICES[717] }] = 0.0
-EDGES[{ VERTICES[3624], VERTICES[4360] }] = 0.0
-EDGES[{ VERTICES[2060], VERTICES[4814] }] = 0.0
-EDGES[{ VERTICES[2374], VERTICES[5583] }] = 0.0
-EDGES[{ VERTICES[4727], VERTICES[197] }] = 0.0
-EDGES[{ VERTICES[5397], VERTICES[1907] }] = 0.0
-EDGES[{ VERTICES[187], VERTICES[1050] }] = 0.0
-EDGES[{ VERTICES[626], VERTICES[3074] }] = 0.0
-EDGES[{ VERTICES[2513], VERTICES[48] }] = 0.0
-EDGES[{ VERTICES[628], VERTICES[2959] }] = 0.0
-EDGES[{ VERTICES[2301], VERTICES[1136] }] = 0.0
-EDGES[{ VERTICES[2696], VERTICES[1564] }] = 0.0
-EDGES[{ VERTICES[4139], VERTICES[122] }] = 0.0
-EDGES[{ VERTICES[4104], VERTICES[5114] }] = 0.0
-EDGES[{ VERTICES[4134], VERTICES[1131] }] = 0.0
-EDGES[{ VERTICES[5965], VERTICES[4186] }] = 0.0
-EDGES[{ VERTICES[7], VERTICES[2407] }] = 0.0
-EDGES[{ VERTICES[4545], VERTICES[5082] }] = 0.0
-EDGES[{ VERTICES[2721], VERTICES[4363] }] = 0.0
-EDGES[{ VERTICES[1531], VERTICES[3886] }] = 0.0
-EDGES[{ VERTICES[5564], VERTICES[1940] }] = 0.0
-EDGES[{ VERTICES[768], VERTICES[6046] }] = 0.0
-EDGES[{ VERTICES[578], VERTICES[4736] }] = 0.0
-EDGES[{ VERTICES[3439], VERTICES[2763] }] = 0.0
-EDGES[{ VERTICES[882], VERTICES[2508] }] = 0.0
-EDGES[{ VERTICES[1241], VERTICES[2563] }] = 0.0
-EDGES[{ VERTICES[2689], VERTICES[427] }] = 0.0
-EDGES[{ VERTICES[4565], VERTICES[2967] }] = 0.0
-EDGES[{ VERTICES[4657], VERTICES[1854] }] = 0.0
-EDGES[{ VERTICES[4917], VERTICES[1331] }] = 0.0
-EDGES[{ VERTICES[4509], VERTICES[1976] }] = 0.0
-EDGES[{ VERTICES[4449], VERTICES[5967] }] = 0.0
-EDGES[{ VERTICES[6260], VERTICES[3427] }] = 0.0
-EDGES[{ VERTICES[5529], VERTICES[3371] }] = 0.0
-EDGES[{ VERTICES[4635], VERTICES[2663] }] = 0.0
-EDGES[{ VERTICES[1378], VERTICES[5106] }] = 0.0
-EDGES[{ VERTICES[935], VERTICES[469] }] = 0.0
-EDGES[{ VERTICES[688], VERTICES[741] }] = 0.0
-EDGES[{ VERTICES[1019], VERTICES[3850] }] = 0.0
-EDGES[{ VERTICES[3321], VERTICES[2685] }] = 0.0
-EDGES[{ VERTICES[4143], VERTICES[4826] }] = 0.0
-EDGES[{ VERTICES[1904], VERTICES[6058] }] = 0.0
-EDGES[{ VERTICES[1107], VERTICES[2017] }] = 0.0
-EDGES[{ VERTICES[1747], VERTICES[2976] }] = 0.0
-EDGES[{ VERTICES[3366], VERTICES[4591] }] = 0.0
-EDGES[{ VERTICES[1287], VERTICES[396] }] = 0.0
-EDGES[{ VERTICES[3713], VERTICES[3810] }] = 0.0
-EDGES[{ VERTICES[1053], VERTICES[4636] }] = 0.0
-EDGES[{ VERTICES[4024], VERTICES[4326] }] = 0.0
-EDGES[{ VERTICES[5128], VERTICES[5449] }] = 0.0
-EDGES[{ VERTICES[4513], VERTICES[1021] }] = 0.0
-EDGES[{ VERTICES[4639], VERTICES[4968] }] = 0.0
-EDGES[{ VERTICES[4734], VERTICES[4663] }] = 0.0
-EDGES[{ VERTICES[1649], VERTICES[5582] }] = 0.0
-EDGES[{ VERTICES[65], VERTICES[5578] }] = 0.0
-EDGES[{ VERTICES[2841], VERTICES[5817] }] = 0.0
-EDGES[{ VERTICES[5569], VERTICES[35] }] = 0.0
-EDGES[{ VERTICES[1392], VERTICES[2748] }] = 0.0
-EDGES[{ VERTICES[4996], VERTICES[4947] }] = 0.0
-EDGES[{ VERTICES[5480], VERTICES[2552] }] = 0.0
-EDGES[{ VERTICES[5713], VERTICES[2184] }] = 0.0
-EDGES[{ VERTICES[4761], VERTICES[5166] }] = 0.0
-EDGES[{ VERTICES[2138], VERTICES[3698] }] = 0.0
-EDGES[{ VERTICES[4195], VERTICES[3925] }] = 0.0
-EDGES[{ VERTICES[5863], VERTICES[3784] }] = 0.0
-EDGES[{ VERTICES[3241], VERTICES[77] }] = 0.0
-EDGES[{ VERTICES[4752], VERTICES[1552] }] = 0.0
-EDGES[{ VERTICES[4975], VERTICES[2927] }] = 0.0
-EDGES[{ VERTICES[2603], VERTICES[2693] }] = 0.0
-EDGES[{ VERTICES[1546], VERTICES[911] }] = 0.0
-EDGES[{ VERTICES[5199], VERTICES[2286] }] = 0.0
-EDGES[{ VERTICES[3946], VERTICES[2464] }] = 0.0
-EDGES[{ VERTICES[499], VERTICES[4827] }] = 0.0
-EDGES[{ VERTICES[5944], VERTICES[3645] }] = 0.0
+EDGES[{ VERTICES[1372], VERTICES[2685] }] = 0.0
+EDGES[{ VERTICES[74], VERTICES[431] }] = 0.0
+EDGES[{ VERTICES[5468], VERTICES[3178] }] = 0.0
+EDGES[{ VERTICES[3937], VERTICES[5451] }] = 0.0
+EDGES[{ VERTICES[6019], VERTICES[5961] }] = 0.0
+EDGES[{ VERTICES[203], VERTICES[2373] }] = 0.0
+EDGES[{ VERTICES[6199], VERTICES[4731] }] = 0.0
+EDGES[{ VERTICES[106], VERTICES[513] }] = 0.0
+EDGES[{ VERTICES[3532], VERTICES[5909] }] = 0.0
+EDGES[{ VERTICES[783], VERTICES[5636] }] = 0.0
+EDGES[{ VERTICES[5417], VERTICES[1225] }] = 0.0
+EDGES[{ VERTICES[381], VERTICES[2028] }] = 0.0
+EDGES[{ VERTICES[5635], VERTICES[4530] }] = 0.0
+EDGES[{ VERTICES[5416], VERTICES[3646] }] = 0.0
+EDGES[{ VERTICES[2949], VERTICES[4404] }] = 0.0
+EDGES[{ VERTICES[260], VERTICES[1989] }] = 0.0
+EDGES[{ VERTICES[4979], VERTICES[3696] }] = 0.0
+EDGES[{ VERTICES[1023], VERTICES[2309] }] = 0.0
+EDGES[{ VERTICES[1893], VERTICES[2268] }] = 0.0
+EDGES[{ VERTICES[2468], VERTICES[78] }] = 0.0
+EDGES[{ VERTICES[3095], VERTICES[3889] }] = 0.0
+EDGES[{ VERTICES[1874], VERTICES[3211] }] = 0.0
+EDGES[{ VERTICES[1343], VERTICES[5174] }] = 0.0
+EDGES[{ VERTICES[591], VERTICES[1259] }] = 0.0
+EDGES[{ VERTICES[3025], VERTICES[4447] }] = 0.0
+EDGES[{ VERTICES[3375], VERTICES[2348] }] = 0.0
+EDGES[{ VERTICES[724], VERTICES[4295] }] = 0.0
+EDGES[{ VERTICES[1520], VERTICES[2417] }] = 0.0
+EDGES[{ VERTICES[4251], VERTICES[3945] }] = 0.0
+EDGES[{ VERTICES[3385], VERTICES[4041] }] = 0.0
+EDGES[{ VERTICES[5869], VERTICES[548] }] = 0.0
+EDGES[{ VERTICES[3603], VERTICES[1333] }] = 0.0
+EDGES[{ VERTICES[1559], VERTICES[923] }] = 0.0
+EDGES[{ VERTICES[5944], VERTICES[4845] }] = 0.0
+EDGES[{ VERTICES[5343], VERTICES[1986] }] = 0.0
+EDGES[{ VERTICES[3402], VERTICES[5917] }] = 0.0
+EDGES[{ VERTICES[740], VERTICES[51] }] = 0.0
+EDGES[{ VERTICES[3100], VERTICES[6100] }] = 0.0
+EDGES[{ VERTICES[454], VERTICES[3105] }] = 0.0
+EDGES[{ VERTICES[4750], VERTICES[3561] }] = 0.0
+EDGES[{ VERTICES[1676], VERTICES[5429] }] = 0.0
+EDGES[{ VERTICES[6050], VERTICES[824] }] = 0.0
+EDGES[{ VERTICES[2653], VERTICES[856] }] = 0.0
+EDGES[{ VERTICES[5810], VERTICES[1461] }] = 0.0
+EDGES[{ VERTICES[4803], VERTICES[5715] }] = 0.0
+EDGES[{ VERTICES[4054], VERTICES[2960] }] = 0.0
+EDGES[{ VERTICES[441], VERTICES[897] }] = 0.0
+EDGES[{ VERTICES[107], VERTICES[1925] }] = 0.0
+EDGES[{ VERTICES[604], VERTICES[3489] }] = 0.0
+EDGES[{ VERTICES[2036], VERTICES[5901] }] = 0.0
+EDGES[{ VERTICES[1279], VERTICES[1957] }] = 0.0
+EDGES[{ VERTICES[505], VERTICES[5208] }] = 0.0
+EDGES[{ VERTICES[4067], VERTICES[6121] }] = 0.0
+EDGES[{ VERTICES[5364], VERTICES[2433] }] = 0.0
+EDGES[{ VERTICES[324], VERTICES[1521] }] = 0.0
+EDGES[{ VERTICES[2354], VERTICES[1904] }] = 0.0
+EDGES[{ VERTICES[1055], VERTICES[3155] }] = 0.0
+EDGES[{ VERTICES[6142], VERTICES[1086] }] = 0.0
+EDGES[{ VERTICES[4071], VERTICES[1157] }] = 0.0
+EDGES[{ VERTICES[3881], VERTICES[4475] }] = 0.0
+EDGES[{ VERTICES[3876], VERTICES[5316] }] = 0.0
+EDGES[{ VERTICES[5006], VERTICES[2930] }] = 0.0
+EDGES[{ VERTICES[589], VERTICES[2768] }] = 0.0
+EDGES[{ VERTICES[3162], VERTICES[812] }] = 0.0
+EDGES[{ VERTICES[1292], VERTICES[1695] }] = 0.0
+EDGES[{ VERTICES[1608], VERTICES[2752] }] = 0.0
+EDGES[{ VERTICES[4313], VERTICES[5610] }] = 0.0
+EDGES[{ VERTICES[3478], VERTICES[2261] }] = 0.0
+EDGES[{ VERTICES[3044], VERTICES[1605] }] = 0.0
+EDGES[{ VERTICES[1368], VERTICES[221] }] = 0.0
+EDGES[{ VERTICES[6141], VERTICES[2305] }] = 0.0
+EDGES[{ VERTICES[2629], VERTICES[3269] }] = 0.0
+EDGES[{ VERTICES[6086], VERTICES[1625] }] = 0.0
+EDGES[{ VERTICES[4930], VERTICES[1996] }] = 0.0
+EDGES[{ VERTICES[3791], VERTICES[1557] }] = 0.0
+EDGES[{ VERTICES[376], VERTICES[5400] }] = 0.0
+EDGES[{ VERTICES[5321], VERTICES[2081] }] = 0.0
+EDGES[{ VERTICES[5992], VERTICES[790] }] = 0.0
+EDGES[{ VERTICES[122], VERTICES[3784] }] = 0.0
+EDGES[{ VERTICES[4284], VERTICES[5523] }] = 0.0
+EDGES[{ VERTICES[1035], VERTICES[1519] }] = 0.0
+EDGES[{ VERTICES[3185], VERTICES[2600] }] = 0.0
+EDGES[{ VERTICES[1505], VERTICES[5884] }] = 0.0
+EDGES[{ VERTICES[2068], VERTICES[569] }] = 0.0
+EDGES[{ VERTICES[355], VERTICES[5954] }] = 0.0
+EDGES[{ VERTICES[1833], VERTICES[2195] }] = 0.0
+EDGES[{ VERTICES[4520], VERTICES[3832] }] = 0.0
+EDGES[{ VERTICES[3854], VERTICES[2040] }] = 0.0
+EDGES[{ VERTICES[857], VERTICES[1192] }] = 0.0
+EDGES[{ VERTICES[6074], VERTICES[781] }] = 0.0
+EDGES[{ VERTICES[1518], VERTICES[2937] }] = 0.0
+EDGES[{ VERTICES[1426], VERTICES[5220] }] = 0.0
+EDGES[{ VERTICES[2357], VERTICES[97] }] = 0.0
+EDGES[{ VERTICES[3412], VERTICES[5474] }] = 0.0
+EDGES[{ VERTICES[4696], VERTICES[1713] }] = 0.0
+EDGES[{ VERTICES[5734], VERTICES[4110] }] = 0.0
+EDGES[{ VERTICES[1197], VERTICES[5344] }] = 0.0
+EDGES[{ VERTICES[1680], VERTICES[6189] }] = 0.0
+EDGES[{ VERTICES[2519], VERTICES[3813] }] = 0.0
+EDGES[{ VERTICES[5037], VERTICES[1748] }] = 0.0
+EDGES[{ VERTICES[3960], VERTICES[112] }] = 0.0
+EDGES[{ VERTICES[4263], VERTICES[4681] }] = 0.0
+EDGES[{ VERTICES[4326], VERTICES[5836] }] = 0.0
+EDGES[{ VERTICES[1537], VERTICES[3294] }] = 0.0
+EDGES[{ VERTICES[2553], VERTICES[2249] }] = 0.0
+EDGES[{ VERTICES[2361], VERTICES[3556] }] = 0.0
+EDGES[{ VERTICES[1362], VERTICES[2337] }] = 0.0
+EDGES[{ VERTICES[1013], VERTICES[4231] }] = 0.0
+EDGES[{ VERTICES[1033], VERTICES[5899] }] = 0.0
+EDGES[{ VERTICES[948], VERTICES[466] }] = 0.0
+EDGES[{ VERTICES[2734], VERTICES[3540] }] = 0.0
+EDGES[{ VERTICES[2173], VERTICES[2029] }] = 0.0
+EDGES[{ VERTICES[1429], VERTICES[2259] }] = 0.0
+EDGES[{ VERTICES[6049], VERTICES[1322] }] = 0.0
+EDGES[{ VERTICES[986], VERTICES[6073] }] = 0.0
+EDGES[{ VERTICES[3266], VERTICES[919] }] = 0.0
+EDGES[{ VERTICES[4132], VERTICES[4752] }] = 0.0
+EDGES[{ VERTICES[1383], VERTICES[5352] }] = 0.0
+EDGES[{ VERTICES[4649], VERTICES[4549] }] = 0.0
+EDGES[{ VERTICES[571], VERTICES[5421] }] = 0.0
+EDGES[{ VERTICES[5967], VERTICES[2584] }] = 0.0
+EDGES[{ VERTICES[5718], VERTICES[5860] }] = 0.0
+EDGES[{ VERTICES[4945], VERTICES[3517] }] = 0.0
+EDGES[{ VERTICES[3910], VERTICES[2140] }] = 0.0
+EDGES[{ VERTICES[4828], VERTICES[3941] }] = 0.0
+EDGES[{ VERTICES[1276], VERTICES[5278] }] = 0.0
+EDGES[{ VERTICES[720], VERTICES[68] }] = 0.0
+EDGES[{ VERTICES[4452], VERTICES[474] }] = 0.0
+EDGES[{ VERTICES[4871], VERTICES[5177] }] = 0.0
+EDGES[{ VERTICES[4823], VERTICES[5529] }] = 0.0
+EDGES[{ VERTICES[1395], VERTICES[5194] }] = 0.0
+EDGES[{ VERTICES[4296], VERTICES[6225] }] = 0.0
+EDGES[{ VERTICES[3563], VERTICES[1691] }] = 0.0
+EDGES[{ VERTICES[149], VERTICES[5046] }] = 0.0
+EDGES[{ VERTICES[4350], VERTICES[5181] }] = 0.0
+EDGES[{ VERTICES[980], VERTICES[3778] }] = 0.0
+EDGES[{ VERTICES[2631], VERTICES[4691] }] = 0.0
+EDGES[{ VERTICES[2284], VERTICES[3062] }] = 0.0
+EDGES[{ VERTICES[3064], VERTICES[2286] }] = 0.0
+EDGES[{ VERTICES[4022], VERTICES[2302] }] = 0.0
+EDGES[{ VERTICES[3208], VERTICES[4701] }] = 0.0
+EDGES[{ VERTICES[3959], VERTICES[4612] }] = 0.0
+EDGES[{ VERTICES[4967], VERTICES[2101] }] = 0.0
+EDGES[{ VERTICES[4743], VERTICES[5725] }] = 0.0
+EDGES[{ VERTICES[1609], VERTICES[1441] }] = 0.0
+EDGES[{ VERTICES[4925], VERTICES[4252] }] = 0.0
+EDGES[{ VERTICES[949], VERTICES[4152] }] = 0.0
+EDGES[{ VERTICES[3115], VERTICES[2003] }] = 0.0
+EDGES[{ VERTICES[485], VERTICES[1542] }] = 0.0
+EDGES[{ VERTICES[6168], VERTICES[2376] }] = 0.0
+EDGES[{ VERTICES[4947], VERTICES[4108] }] = 0.0
+EDGES[{ VERTICES[749], VERTICES[3121] }] = 0.0
+EDGES[{ VERTICES[3988], VERTICES[1482] }] = 0.0
+EDGES[{ VERTICES[5584], VERTICES[545] }] = 0.0
+EDGES[{ VERTICES[3654], VERTICES[2022] }] = 0.0
+EDGES[{ VERTICES[1445], VERTICES[5888] }] = 0.0
+EDGES[{ VERTICES[1770], VERTICES[5896] }] = 0.0
+EDGES[{ VERTICES[2275], VERTICES[3987] }] = 0.0
+EDGES[{ VERTICES[1700], VERTICES[559] }] = 0.0
+EDGES[{ VERTICES[3030], VERTICES[5008] }] = 0.0
+EDGES[{ VERTICES[3776], VERTICES[4120] }] = 0.0
+EDGES[{ VERTICES[6111], VERTICES[3219] }] = 0.0
+EDGES[{ VERTICES[4607], VERTICES[2794] }] = 0.0
+EDGES[{ VERTICES[4621], VERTICES[1531] }] = 0.0
+EDGES[{ VERTICES[4118], VERTICES[2699] }] = 0.0
+EDGES[{ VERTICES[55], VERTICES[4636] }] = 0.0
+EDGES[{ VERTICES[3161], VERTICES[1346] }] = 0.0
+EDGES[{ VERTICES[4063], VERTICES[2923] }] = 0.0
+EDGES[{ VERTICES[20], VERTICES[1619] }] = 0.0
+EDGES[{ VERTICES[104], VERTICES[397] }] = 0.0
+EDGES[{ VERTICES[3545], VERTICES[2079] }] = 0.0
+EDGES[{ VERTICES[3830], VERTICES[270] }] = 0.0
+EDGES[{ VERTICES[5482], VERTICES[1104] }] = 0.0
+EDGES[{ VERTICES[1118], VERTICES[6045] }] = 0.0
+EDGES[{ VERTICES[4525], VERTICES[3451] }] = 0.0
+EDGES[{ VERTICES[362], VERTICES[1878] }] = 0.0
+EDGES[{ VERTICES[5109], VERTICES[448] }] = 0.0
+EDGES[{ VERTICES[4541], VERTICES[6251] }] = 0.0
+EDGES[{ VERTICES[1999], VERTICES[5195] }] = 0.0
+EDGES[{ VERTICES[453], VERTICES[2124] }] = 0.0
+EDGES[{ VERTICES[4905], VERTICES[89] }] = 0.0
+EDGES[{ VERTICES[4766], VERTICES[821] }] = 0.0
+EDGES[{ VERTICES[3694], VERTICES[5861] }] = 0.0
+EDGES[{ VERTICES[5307], VERTICES[5345] }] = 0.0
+EDGES[{ VERTICES[3844], VERTICES[5463] }] = 0.0
+EDGES[{ VERTICES[34], VERTICES[2247] }] = 0.0
+EDGES[{ VERTICES[2289], VERTICES[1792] }] = 0.0
+EDGES[{ VERTICES[3507], VERTICES[4498] }] = 0.0
+EDGES[{ VERTICES[1290], VERTICES[5292] }] = 0.0
+EDGES[{ VERTICES[6037], VERTICES[748] }] = 0.0
+EDGES[{ VERTICES[2083], VERTICES[3610] }] = 0.0
+EDGES[{ VERTICES[1810], VERTICES[4663] }] = 0.0
+EDGES[{ VERTICES[3477], VERTICES[536] }] = 0.0
+EDGES[{ VERTICES[576], VERTICES[3595] }] = 0.0
+EDGES[{ VERTICES[4820], VERTICES[3488] }] = 0.0
+EDGES[{ VERTICES[6258], VERTICES[5615] }] = 0.0
+EDGES[{ VERTICES[3839], VERTICES[2011] }] = 0.0
+EDGES[{ VERTICES[1174], VERTICES[649] }] = 0.0
+EDGES[{ VERTICES[3049], VERTICES[5669] }] = 0.0
+EDGES[{ VERTICES[3063], VERTICES[819] }] = 0.0
+EDGES[{ VERTICES[3631], VERTICES[4291] }] = 0.0
+EDGES[{ VERTICES[93], VERTICES[4445] }] = 0.0
+EDGES[{ VERTICES[3082], VERTICES[3187] }] = 0.0
+EDGES[{ VERTICES[6138], VERTICES[3890] }] = 0.0
+EDGES[{ VERTICES[861], VERTICES[5404] }] = 0.0
+EDGES[{ VERTICES[4469], VERTICES[5757] }] = 0.0
+EDGES[{ VERTICES[644], VERTICES[3257] }] = 0.0
+EDGES[{ VERTICES[3573], VERTICES[1298] }] = 0.0
+EDGES[{ VERTICES[1563], VERTICES[2402] }] = 0.0
+EDGES[{ VERTICES[5260], VERTICES[223] }] = 0.0
+EDGES[{ VERTICES[1146], VERTICES[3259] }] = 0.0
+EDGES[{ VERTICES[3577], VERTICES[169] }] = 0.0
+EDGES[{ VERTICES[4200], VERTICES[3254] }] = 0.0
+EDGES[{ VERTICES[4746], VERTICES[3443] }] = 0.0
+EDGES[{ VERTICES[4939], VERTICES[612] }] = 0.0
+EDGES[{ VERTICES[3349], VERTICES[5064] }] = 0.0
+EDGES[{ VERTICES[311], VERTICES[636] }] = 0.0
+EDGES[{ VERTICES[484], VERTICES[3429] }] = 0.0
+EDGES[{ VERTICES[1272], VERTICES[6160] }] = 0.0
+EDGES[{ VERTICES[2374], VERTICES[1141] }] = 0.0
+EDGES[{ VERTICES[6239], VERTICES[4829] }] = 0.0
+EDGES[{ VERTICES[1512], VERTICES[1176] }] = 0.0
+EDGES[{ VERTICES[2186], VERTICES[4749] }] = 0.0
+EDGES[{ VERTICES[6079], VERTICES[3657] }] = 0.0
+EDGES[{ VERTICES[1150], VERTICES[3938] }] = 0.0
+EDGES[{ VERTICES[4159], VERTICES[6122] }] = 0.0
+EDGES[{ VERTICES[4460], VERTICES[3226] }] = 0.0
+EDGES[{ VERTICES[1401], VERTICES[2475] }] = 0.0
+EDGES[{ VERTICES[3040], VERTICES[1941] }] = 0.0
+EDGES[{ VERTICES[450], VERTICES[887] }] = 0.0
+EDGES[{ VERTICES[3990], VERTICES[1488] }] = 0.0
+EDGES[{ VERTICES[1567], VERTICES[5469] }] = 0.0
+EDGES[{ VERTICES[3930], VERTICES[6147] }] = 0.0
+EDGES[{ VERTICES[2899], VERTICES[2088] }] = 0.0
+EDGES[{ VERTICES[1260], VERTICES[2657] }] = 0.0
+EDGES[{ VERTICES[3348], VERTICES[5424] }] = 0.0
+EDGES[{ VERTICES[3973], VERTICES[2296] }] = 0.0
+EDGES[{ VERTICES[4765], VERTICES[1465] }] = 0.0
+EDGES[{ VERTICES[3977], VERTICES[4842] }] = 0.0
+EDGES[{ VERTICES[5850], VERTICES[870] }] = 0.0
+EDGES[{ VERTICES[1282], VERTICES[22] }] = 0.0
+EDGES[{ VERTICES[660], VERTICES[1755] }] = 0.0
+EDGES[{ VERTICES[1764], VERTICES[801] }] = 0.0
+EDGES[{ VERTICES[5574], VERTICES[1063] }] = 0.0
+EDGES[{ VERTICES[5855], VERTICES[4306] }] = 0.0
+EDGES[{ VERTICES[6188], VERTICES[5557] }] = 0.0
+EDGES[{ VERTICES[1339], VERTICES[5317] }] = 0.0
+EDGES[{ VERTICES[3688], VERTICES[520] }] = 0.0
+EDGES[{ VERTICES[4018], VERTICES[2906] }] = 0.0
+EDGES[{ VERTICES[2673], VERTICES[3609] }] = 0.0
+EDGES[{ VERTICES[2506], VERTICES[5670] }] = 0.0
+EDGES[{ VERTICES[757], VERTICES[4508] }] = 0.0
+EDGES[{ VERTICES[4643], VERTICES[611] }] = 0.0
+EDGES[{ VERTICES[2869], VERTICES[5661] }] = 0.0
+EDGES[{ VERTICES[153], VERTICES[4228] }] = 0.0
+EDGES[{ VERTICES[3888], VERTICES[6127] }] = 0.0
+EDGES[{ VERTICES[5270], VERTICES[5766] }] = 0.0
+EDGES[{ VERTICES[5859], VERTICES[2853] }] = 0.0
+EDGES[{ VERTICES[3618], VERTICES[5870] }] = 0.0
+EDGES[{ VERTICES[1757], VERTICES[2877] }] = 0.0
+EDGES[{ VERTICES[5526], VERTICES[5240] }] = 0.0
+EDGES[{ VERTICES[3031], VERTICES[3335] }] = 0.0
+EDGES[{ VERTICES[3411], VERTICES[5674] }] = 0.0
+EDGES[{ VERTICES[4432], VERTICES[3340] }] = 0.0
+EDGES[{ VERTICES[3131], VERTICES[1634] }] = 0.0
+EDGES[{ VERTICES[1334], VERTICES[3718] }] = 0.0
+EDGES[{ VERTICES[2796], VERTICES[3572] }] = 0.0
+EDGES[{ VERTICES[6217], VERTICES[4711] }] = 0.0
+EDGES[{ VERTICES[5426], VERTICES[665] }] = 0.0
+EDGES[{ VERTICES[1842], VERTICES[5251] }] = 0.0
+EDGES[{ VERTICES[38], VERTICES[2873] }] = 0.0
+EDGES[{ VERTICES[1005], VERTICES[5569] }] = 0.0
+EDGES[{ VERTICES[2662], VERTICES[3060] }] = 0.0
+EDGES[{ VERTICES[2299], VERTICES[1498] }] = 0.0
+EDGES[{ VERTICES[4223], VERTICES[5957] }] = 0.0
+EDGES[{ VERTICES[386], VERTICES[2389] }] = 0.0
+EDGES[{ VERTICES[2642], VERTICES[6105] }] = 0.0
+EDGES[{ VERTICES[2345], VERTICES[3630] }] = 0.0
+EDGES[{ VERTICES[4128], VERTICES[4634] }] = 0.0
+EDGES[{ VERTICES[3038], VERTICES[2936] }] = 0.0
+EDGES[{ VERTICES[5776], VERTICES[4144] }] = 0.0
+EDGES[{ VERTICES[4652], VERTICES[2571] }] = 0.0
+EDGES[{ VERTICES[1171], VERTICES[486] }] = 0.0
+EDGES[{ VERTICES[177], VERTICES[5] }] = 0.0
+EDGES[{ VERTICES[1684], VERTICES[3473] }] = 0.0
+EDGES[{ VERTICES[4704], VERTICES[238] }] = 0.0
+EDGES[{ VERTICES[4657], VERTICES[779] }] = 0.0
+EDGES[{ VERTICES[1043], VERTICES[4384] }] = 0.0
+EDGES[{ VERTICES[2764], VERTICES[4918] }] = 0.0
+EDGES[{ VERTICES[342], VERTICES[439] }] = 0.0
+EDGES[{ VERTICES[2415], VERTICES[1095] }] = 0.0
+EDGES[{ VERTICES[4862], VERTICES[5951] }] = 0.0
+EDGES[{ VERTICES[2544], VERTICES[1101] }] = 0.0
+EDGES[{ VERTICES[3319], VERTICES[239] }] = 0.0
+EDGES[{ VERTICES[1010], VERTICES[2412] }] = 0.0
+EDGES[{ VERTICES[2856], VERTICES[3831] }] = 0.0
+EDGES[{ VERTICES[5747], VERTICES[1427] }] = 0.0
+EDGES[{ VERTICES[614], VERTICES[5275] }] = 0.0
+EDGES[{ VERTICES[2689], VERTICES[145] }] = 0.0
+EDGES[{ VERTICES[2378], VERTICES[5611] }] = 0.0
+EDGES[{ VERTICES[5425], VERTICES[2114] }] = 0.0
+EDGES[{ VERTICES[5102], VERTICES[4361] }] = 0.0
+EDGES[{ VERTICES[4572], VERTICES[2902] }] = 0.0
+EDGES[{ VERTICES[2139], VERTICES[877] }] = 0.0
+EDGES[{ VERTICES[5108], VERTICES[3355] }] = 0.0
+EDGES[{ VERTICES[1303], VERTICES[148] }] = 0.0
+EDGES[{ VERTICES[5582], VERTICES[4758] }] = 0.0
+EDGES[{ VERTICES[4596], VERTICES[469] }] = 0.0
+EDGES[{ VERTICES[3237], VERTICES[3649] }] = 0.0
+EDGES[{ VERTICES[6229], VERTICES[6224] }] = 0.0
+EDGES[{ VERTICES[1447], VERTICES[6149] }] = 0.0
+EDGES[{ VERTICES[5790], VERTICES[3689] }] = 0.0
+EDGES[{ VERTICES[3931], VERTICES[2007] }] = 0.0
+EDGES[{ VERTICES[2483], VERTICES[5360] }] = 0.0
+EDGES[{ VERTICES[2466], VERTICES[4081] }] = 0.0
+EDGES[{ VERTICES[1024], VERTICES[3759] }] = 0.0
+EDGES[{ VERTICES[1099], VERTICES[4688] }] = 0.0
+EDGES[{ VERTICES[5434], VERTICES[2055] }] = 0.0
+EDGES[{ VERTICES[940], VERTICES[5739] }] = 0.0
+EDGES[{ VERTICES[1153], VERTICES[733] }] = 0.0
+EDGES[{ VERTICES[5566], VERTICES[4816] }] = 0.0
+EDGES[{ VERTICES[1473], VERTICES[577] }] = 0.0
+EDGES[{ VERTICES[2176], VERTICES[6164] }] = 0.0
+EDGES[{ VERTICES[5130], VERTICES[2779] }] = 0.0
+EDGES[{ VERTICES[2892], VERTICES[4281] }] = 0.0
+EDGES[{ VERTICES[2364], VERTICES[26] }] = 0.0
+EDGES[{ VERTICES[3905], VERTICES[598] }] = 0.0
+EDGES[{ VERTICES[4288], VERTICES[4640] }] = 0.0
+EDGES[{ VERTICES[1641], VERTICES[3701] }] = 0.0
+EDGES[{ VERTICES[1120], VERTICES[1342] }] = 0.0
+EDGES[{ VERTICES[2817], VERTICES[3691] }] = 0.0
+EDGES[{ VERTICES[3916], VERTICES[6136] }] = 0.0
+EDGES[{ VERTICES[5675], VERTICES[242] }] = 0.0
+EDGES[{ VERTICES[3427], VERTICES[1620] }] = 0.0
+EDGES[{ VERTICES[3286], VERTICES[269] }] = 0.0
+EDGES[{ VERTICES[2589], VERTICES[3516] }] = 0.0
+EDGES[{ VERTICES[15], VERTICES[1423] }] = 0.0
+EDGES[{ VERTICES[2887], VERTICES[527] }] = 0.0
+EDGES[{ VERTICES[1992], VERTICES[2251] }] = 0.0
+EDGES[{ VERTICES[5054], VERTICES[4487] }] = 0.0
+EDGES[{ VERTICES[2196], VERTICES[4179] }] = 0.0
+EDGES[{ VERTICES[5154], VERTICES[2951] }] = 0.0
+EDGES[{ VERTICES[5014], VERTICES[2406] }] = 0.0
+EDGES[{ VERTICES[2403], VERTICES[356] }] = 0.0
+EDGES[{ VERTICES[2447], VERTICES[2832] }] = 0.0
+EDGES[{ VERTICES[3046], VERTICES[3249] }] = 0.0
+EDGES[{ VERTICES[1254], VERTICES[4819] }] = 0.0
+EDGES[{ VERTICES[3479], VERTICES[723] }] = 0.0
+EDGES[{ VERTICES[2383], VERTICES[6084] }] = 0.0
+EDGES[{ VERTICES[4906], VERTICES[2933] }] = 0.0
+EDGES[{ VERTICES[5729], VERTICES[1825] }] = 0.0
+EDGES[{ VERTICES[2187], VERTICES[2726] }] = 0.0
+EDGES[{ VERTICES[3672], VERTICES[967] }] = 0.0
+EDGES[{ VERTICES[2041], VERTICES[1943] }] = 0.0
+EDGES[{ VERTICES[4058], VERTICES[2047] }] = 0.0
+EDGES[{ VERTICES[2157], VERTICES[1056] }] = 0.0
+EDGES[{ VERTICES[4435], VERTICES[6146] }] = 0.0
+EDGES[{ VERTICES[5216], VERTICES[671] }] = 0.0
+EDGES[{ VERTICES[2670], VERTICES[155] }] = 0.0
+EDGES[{ VERTICES[1642], VERTICES[3962] }] = 0.0
+EDGES[{ VERTICES[5929], VERTICES[2350] }] = 0.0
+EDGES[{ VERTICES[5552], VERTICES[1526] }] = 0.0
+EDGES[{ VERTICES[1262], VERTICES[969] }] = 0.0
+EDGES[{ VERTICES[1739], VERTICES[4105] }] = 0.0
+EDGES[{ VERTICES[4153], VERTICES[3976] }] = 0.0
+EDGES[{ VERTICES[5671], VERTICES[701] }] = 0.0
+EDGES[{ VERTICES[380], VERTICES[4958] }] = 0.0
+EDGES[{ VERTICES[593], VERTICES[4660] }] = 0.0
+EDGES[{ VERTICES[979], VERTICES[958] }] = 0.0
+EDGES[{ VERTICES[4236], VERTICES[795] }] = 0.0
+EDGES[{ VERTICES[5840], VERTICES[5966] }] = 0.0
+EDGES[{ VERTICES[4577], VERTICES[4535] }] = 0.0
+EDGES[{ VERTICES[1621], VERTICES[5361] }] = 0.0
+EDGES[{ VERTICES[5101], VERTICES[5968] }] = 0.0
+EDGES[{ VERTICES[5561], VERTICES[6124] }] = 0.0
+EDGES[{ VERTICES[2303], VERTICES[1861] }] = 0.0
+EDGES[{ VERTICES[5617], VERTICES[4817] }] = 0.0
+EDGES[{ VERTICES[3713], VERTICES[5683] }] = 0.0
+EDGES[{ VERTICES[481], VERTICES[3667] }] = 0.0
+EDGES[{ VERTICES[1675], VERTICES[1725] }] = 0.0
+EDGES[{ VERTICES[5472], VERTICES[3290] }] = 0.0
+EDGES[{ VERTICES[5339], VERTICES[2542] }] = 0.0
+EDGES[{ VERTICES[2507], VERTICES[4189] }] = 0.0
+EDGES[{ VERTICES[3180], VERTICES[2202] }] = 0.0
+EDGES[{ VERTICES[2127], VERTICES[2934] }] = 0.0
+EDGES[{ VERTICES[3354], VERTICES[4338] }] = 0.0
+EDGES[{ VERTICES[3194], VERTICES[6106] }] = 0.0
+EDGES[{ VERTICES[1499], VERTICES[4941] }] = 0.0
+EDGES[{ VERTICES[6152], VERTICES[6204] }] = 0.0
+EDGES[{ VERTICES[1321], VERTICES[5230] }] = 0.0
+EDGES[{ VERTICES[1647], VERTICES[27] }] = 0.0
+EDGES[{ VERTICES[3760], VERTICES[1287] }] = 0.0
+EDGES[{ VERTICES[222], VERTICES[2223] }] = 0.0
+EDGES[{ VERTICES[6257], VERTICES[4988] }] = 0.0
+EDGES[{ VERTICES[715], VERTICES[4150] }] = 0.0
+EDGES[{ VERTICES[2239], VERTICES[3862] }] = 0.0
+EDGES[{ VERTICES[4954], VERTICES[4484] }] = 0.0
+EDGES[{ VERTICES[1130], VERTICES[4133] }] = 0.0
+EDGES[{ VERTICES[5153], VERTICES[5750] }] = 0.0
+EDGES[{ VERTICES[4446], VERTICES[3969] }] = 0.0
+EDGES[{ VERTICES[2942], VERTICES[377] }] = 0.0
+EDGES[{ VERTICES[2698], VERTICES[5383] }] = 0.0
+EDGES[{ VERTICES[1887], VERTICES[3917] }] = 0.0
+EDGES[{ VERTICES[4645], VERTICES[5467] }] = 0.0
+EDGES[{ VERTICES[6089], VERTICES[471] }] = 0.0
+EDGES[{ VERTICES[3424], VERTICES[4997] }] = 0.0
+EDGES[{ VERTICES[4136], VERTICES[4134] }] = 0.0
+EDGES[{ VERTICES[4957], VERTICES[5309] }] = 0.0
+EDGES[{ VERTICES[4989], VERTICES[4865] }] = 0.0
+EDGES[{ VERTICES[2115], VERTICES[48] }] = 0.0
+EDGES[{ VERTICES[886], VERTICES[2477] }] = 0.0
+EDGES[{ VERTICES[3978], VERTICES[1379] }] = 0.0
+EDGES[{ VERTICES[1208], VERTICES[5197] }] = 0.0
+EDGES[{ VERTICES[5550], VERTICES[1366] }] = 0.0
+EDGES[{ VERTICES[4198], VERTICES[6010] }] = 0.0
+EDGES[{ VERTICES[2214], VERTICES[3397] }] = 0.0
+EDGES[{ VERTICES[5934], VERTICES[5376] }] = 0.0
+EDGES[{ VERTICES[3886], VERTICES[777] }] = 0.0
+EDGES[{ VERTICES[3965], VERTICES[2405] }] = 0.0
+EDGES[{ VERTICES[4184], VERTICES[2175] }] = 0.0
+EDGES[{ VERTICES[1577], VERTICES[5606] }] = 0.0
+EDGES[{ VERTICES[6011], VERTICES[5105] }] = 0.0
+EDGES[{ VERTICES[327], VERTICES[6210] }] = 0.0
+EDGES[{ VERTICES[5305], VERTICES[2893] }] = 0.0
+EDGES[{ VERTICES[5813], VERTICES[5630] }] = 0.0
+EDGES[{ VERTICES[1682], VERTICES[5047] }] = 0.0
+EDGES[{ VERTICES[4628], VERTICES[1511] }] = 0.0
+EDGES[{ VERTICES[668], VERTICES[4800] }] = 0.0
+EDGES[{ VERTICES[4999], VERTICES[5500] }] = 0.0
+EDGES[{ VERTICES[5100], VERTICES[4753] }] = 0.0
+EDGES[{ VERTICES[3771], VERTICES[5587] }] = 0.0
+EDGES[{ VERTICES[2341], VERTICES[1148] }] = 0.0
+EDGES[{ VERTICES[5132], VERTICES[582] }] = 0.0
+EDGES[{ VERTICES[4214], VERTICES[750] }] = 0.0
+EDGES[{ VERTICES[1781], VERTICES[1705] }] = 0.0
+EDGES[{ VERTICES[3842], VERTICES[1721] }] = 0.0
+EDGES[{ VERTICES[2737], VERTICES[810] }] = 0.0
+EDGES[{ VERTICES[2560], VERTICES[5244] }] = 0.0
+EDGES[{ VERTICES[227], VERTICES[1790] }] = 0.0
+EDGES[{ VERTICES[2439], VERTICES[6001] }] = 0.0
+EDGES[{ VERTICES[3323], VERTICES[1320] }] = 0.0
+EDGES[{ VERTICES[3629], VERTICES[3802] }] = 0.0
+EDGES[{ VERTICES[2767], VERTICES[5199] }] = 0.0
+EDGES[{ VERTICES[2037], VERTICES[4574] }] = 0.0
+EDGES[{ VERTICES[2338], VERTICES[4868] }] = 0.0
+EDGES[{ VERTICES[3911], VERTICES[5207] }] = 0.0
+EDGES[{ VERTICES[4266], VERTICES[1875] }] = 0.0
+EDGES[{ VERTICES[6081], VERTICES[5809] }] = 0.0
+EDGES[{ VERTICES[3500], VERTICES[3903] }] = 0.0
+EDGES[{ VERTICES[2123], VERTICES[1951] }] = 0.0
+EDGES[{ VERTICES[1630], VERTICES[3514] }] = 0.0
+EDGES[{ VERTICES[579], VERTICES[4059] }] = 0.0
+EDGES[{ VERTICES[5281], VERTICES[6055] }] = 0.0
+EDGES[{ VERTICES[651], VERTICES[6162] }] = 0.0
+EDGES[{ VERTICES[3238], VERTICES[1740] }] = 0.0
+EDGES[{ VERTICES[2089], VERTICES[4403] }] = 0.0
+EDGES[{ VERTICES[4886], VERTICES[198] }] = 0.0
+EDGES[{ VERTICES[2782], VERTICES[3201] }] = 0.0
+EDGES[{ VERTICES[4671], VERTICES[4805] }] = 0.0
+EDGES[{ VERTICES[4708], VERTICES[1398] }] = 0.0
+EDGES[{ VERTICES[2814], VERTICES[5055] }] = 0.0
+EDGES[{ VERTICES[2455], VERTICES[4324] }] = 0.0
+EDGES[{ VERTICES[3297], VERTICES[670] }] = 0.0
+EDGES[{ VERTICES[1378], VERTICES[5290] }] = 0.0
+EDGES[{ VERTICES[4624], VERTICES[4933] }] = 0.0
+EDGES[{ VERTICES[2197], VERTICES[6171] }] = 0.0
+EDGES[{ VERTICES[6004], VERTICES[3206] }] = 0.0
+EDGES[{ VERTICES[5594], VERTICES[3392] }] = 0.0
+EDGES[{ VERTICES[1340], VERTICES[2976] }] = 0.0
+EDGES[{ VERTICES[5668], VERTICES[4392] }] = 0.0
+EDGES[{ VERTICES[4125], VERTICES[584] }] = 0.0
+EDGES[{ VERTICES[3043], VERTICES[6047] }] = 0.0
+EDGES[{ VERTICES[6211], VERTICES[1771] }] = 0.0
+EDGES[{ VERTICES[3326], VERTICES[1020] }] = 0.0
+EDGES[{ VERTICES[2705], VERTICES[4942] }] = 0.0
+EDGES[{ VERTICES[4857], VERTICES[3414] }] = 0.0
+EDGES[{ VERTICES[6227], VERTICES[1312] }] = 0.0
+EDGES[{ VERTICES[3255], VERTICES[1001] }] = 0.0
+EDGES[{ VERTICES[5827], VERTICES[5720] }] = 0.0
+EDGES[{ VERTICES[1876], VERTICES[2984] }] = 0.0
+EDGES[{ VERTICES[171], VERTICES[4644] }] = 0.0
+EDGES[{ VERTICES[2244], VERTICES[3327] }] = 0.0
+EDGES[{ VERTICES[5448], VERTICES[2966] }] = 0.0
+EDGES[{ VERTICES[5041], VERTICES[5940] }] = 0.0
+EDGES[{ VERTICES[5497], VERTICES[2637] }] = 0.0
+EDGES[{ VERTICES[3086], VERTICES[4773] }] = 0.0
+EDGES[{ VERTICES[6131], VERTICES[5707] }] = 0.0
+EDGES[{ VERTICES[3587], VERTICES[504] }] = 0.0
+EDGES[{ VERTICES[4194], VERTICES[3600] }] = 0.0
+EDGES[{ VERTICES[3458], VERTICES[6000] }] = 0.0
+EDGES[{ VERTICES[4477], VERTICES[1281] }] = 0.0
+EDGES[{ VERTICES[1718], VERTICES[5749] }] = 0.0
+EDGES[{ VERTICES[5732], VERTICES[1623] }] = 0.0
+EDGES[{ VERTICES[3982], VERTICES[526] }] = 0.0
+EDGES[{ VERTICES[4130], VERTICES[4654] }] = 0.0
+EDGES[{ VERTICES[2585], VERTICES[5023] }] = 0.0
+EDGES[{ VERTICES[2547], VERTICES[6063] }] = 0.0
+EDGES[{ VERTICES[977], VERTICES[305] }] = 0.0
+EDGES[{ VERTICES[3136], VERTICES[778] }] = 0.0
+EDGES[{ VERTICES[430], VERTICES[4935] }] = 0.0
+EDGES[{ VERTICES[3366], VERTICES[2905] }] = 0.0
+EDGES[{ VERTICES[2771], VERTICES[1406] }] = 0.0
+EDGES[{ VERTICES[2889], VERTICES[6228] }] = 0.0
+EDGES[{ VERTICES[2430], VERTICES[1011] }] = 0.0
+EDGES[{ VERTICES[4352], VERTICES[5438] }] = 0.0
+EDGES[{ VERTICES[1947], VERTICES[705] }] = 0.0
+EDGES[{ VERTICES[3546], VERTICES[764] }] = 0.0
+EDGES[{ VERTICES[4902], VERTICES[3571] }] = 0.0
+EDGES[{ VERTICES[3403], VERTICES[1628] }] = 0.0
+EDGES[{ VERTICES[4784], VERTICES[929] }] = 0.0
+EDGES[{ VERTICES[3979], VERTICES[1724] }] = 0.0
+EDGES[{ VERTICES[1143], VERTICES[1848] }] = 0.0
+EDGES[{ VERTICES[4867], VERTICES[884] }] = 0.0
+EDGES[{ VERTICES[1050], VERTICES[1504] }] = 0.0
+EDGES[{ VERTICES[3011], VERTICES[3668] }] = 0.0
+EDGES[{ VERTICES[846], VERTICES[1247] }] = 0.0
+EDGES[{ VERTICES[273], VERTICES[2194] }] = 0.0
+EDGES[{ VERTICES[968], VERTICES[370] }] = 0.0
+EDGES[{ VERTICES[5643], VERTICES[2012] }] = 0.0
+EDGES[{ VERTICES[1031], VERTICES[109] }] = 0.0
+EDGES[{ VERTICES[2283], VERTICES[6068] }] = 0.0
+EDGES[{ VERTICES[2977], VERTICES[4168] }] = 0.0
+EDGES[{ VERTICES[4056], VERTICES[1173] }] = 0.0
+EDGES[{ VERTICES[2409], VERTICES[1353] }] = 0.0
+EDGES[{ VERTICES[1897], VERTICES[247] }] = 0.0
+EDGES[{ VERTICES[487], VERTICES[1570] }] = 0.0
+EDGES[{ VERTICES[4888], VERTICES[6077] }] = 0.0
+EDGES[{ VERTICES[5746], VERTICES[1363] }] = 0.0
+EDGES[{ VERTICES[10], VERTICES[2306] }] = 0.0
+EDGES[{ VERTICES[1357], VERTICES[692] }] = 0.0
+EDGES[{ VERTICES[5165], VERTICES[4340] }] = 0.0
+EDGES[{ VERTICES[5120], VERTICES[1446] }] = 0.0
+EDGES[{ VERTICES[1579], VERTICES[1666] }] = 0.0
+EDGES[{ VERTICES[4207], VERTICES[2839] }] = 0.0
+EDGES[{ VERTICES[5556], VERTICES[5831] }] = 0.0
+EDGES[{ VERTICES[2904], VERTICES[4163] }] = 0.0
+EDGES[{ VERTICES[1604], VERTICES[1464] }] = 0.0
+EDGES[{ VERTICES[422], VERTICES[2886] }] = 0.0
+EDGES[{ VERTICES[3692], VERTICES[596] }] = 0.0
+EDGES[{ VERTICES[1268], VERTICES[2843] }] = 0.0
+EDGES[{ VERTICES[3581], VERTICES[4916] }] = 0.0
+EDGES[{ VERTICES[2793], VERTICES[1203] }] = 0.0
+EDGES[{ VERTICES[5015], VERTICES[2213] }] = 0.0
+EDGES[{ VERTICES[2052], VERTICES[1450] }] = 0.0
+EDGES[{ VERTICES[2692], VERTICES[1235] }] = 0.0
+EDGES[{ VERTICES[1791], VERTICES[5257] }] = 0.0
+EDGES[{ VERTICES[3796], VERTICES[5507] }] = 0.0
+EDGES[{ VERTICES[3401], VERTICES[5609] }] = 0.0
+EDGES[{ VERTICES[951], VERTICES[2536] }] = 0.0
+EDGES[{ VERTICES[4955], VERTICES[3181] }] = 0.0
+EDGES[{ VERTICES[1463], VERTICES[3754] }] = 0.0
+EDGES[{ VERTICES[4622], VERTICES[4904] }] = 0.0
+EDGES[{ VERTICES[417], VERTICES[1200] }] = 0.0
+EDGES[{ VERTICES[1985], VERTICES[954] }] = 0.0
+EDGES[{ VERTICES[398], VERTICES[4180] }] = 0.0
+EDGES[{ VERTICES[2294], VERTICES[5002] }] = 0.0
+EDGES[{ VERTICES[312], VERTICES[2370] }] = 0.0
+EDGES[{ VERTICES[3798], VERTICES[2967] }] = 0.0
+EDGES[{ VERTICES[984], VERTICES[6028] }] = 0.0
+EDGES[{ VERTICES[2913], VERTICES[8] }] = 0.0
+EDGES[{ VERTICES[672], VERTICES[1237] }] = 0.0
+EDGES[{ VERTICES[3379], VERTICES[5955] }] = 0.0
+EDGES[{ VERTICES[1121], VERTICES[1650] }] = 0.0
+EDGES[{ VERTICES[2432], VERTICES[3191] }] = 0.0
+EDGES[{ VERTICES[4507], VERTICES[2998] }] = 0.0
+EDGES[{ VERTICES[3704], VERTICES[4245] }] = 0.0
+EDGES[{ VERTICES[3332], VERTICES[1084] }] = 0.0
+EDGES[{ VERTICES[2448], VERTICES[4717] }] = 0.0
+EDGES[{ VERTICES[62], VERTICES[4070] }] = 0.0
+EDGES[{ VERTICES[1668], VERTICES[825] }] = 0.0
+EDGES[{ VERTICES[2056], VERTICES[1094] }] = 0.0
+EDGES[{ VERTICES[233], VERTICES[2994] }] = 0.0
+EDGES[{ VERTICES[4002], VERTICES[4647] }] = 0.0
+EDGES[{ VERTICES[5427], VERTICES[808] }] = 0.0
+EDGES[{ VERTICES[4589], VERTICES[6024] }] = 0.0
+EDGES[{ VERTICES[3382], VERTICES[788] }] = 0.0
+EDGES[{ VERTICES[6070], VERTICES[4605] }] = 0.0
+EDGES[{ VERTICES[4298], VERTICES[1715] }] = 0.0
+EDGES[{ VERTICES[6116], VERTICES[5021] }] = 0.0
+EDGES[{ VERTICES[5277], VERTICES[2453] }] = 0.0
+EDGES[{ VERTICES[2188], VERTICES[3628] }] = 0.0
+EDGES[{ VERTICES[5986], VERTICES[4472] }] = 0.0
+EDGES[{ VERTICES[1742], VERTICES[4195] }] = 0.0
+EDGES[{ VERTICES[1685], VERTICES[3869] }] = 0.0
+EDGES[{ VERTICES[337], VERTICES[3616] }] = 0.0
+EDGES[{ VERTICES[2618], VERTICES[391] }] = 0.0
+EDGES[{ VERTICES[5178], VERTICES[4234] }] = 0.0
+EDGES[{ VERTICES[3846], VERTICES[3575] }] = 0.0
+EDGES[{ VERTICES[1722], VERTICES[3972] }] = 0.0
+EDGES[{ VERTICES[4222], VERTICES[838] }] = 0.0
+EDGES[{ VERTICES[2367], VERTICES[1210] }] = 0.0
+EDGES[{ VERTICES[5947], VERTICES[1220] }] = 0.0
+EDGES[{ VERTICES[3789], VERTICES[4511] }] = 0.0
+EDGES[{ VERTICES[3549], VERTICES[710] }] = 0.0
+EDGES[{ VERTICES[4390], VERTICES[5662] }] = 0.0
+EDGES[{ VERTICES[2032], VERTICES[6174] }] = 0.0
+EDGES[{ VERTICES[403], VERTICES[840] }] = 0.0
+EDGES[{ VERTICES[3605], VERTICES[3008] }] = 0.0
+EDGES[{ VERTICES[3066], VERTICES[4769] }] = 0.0
+EDGES[{ VERTICES[5656], VERTICES[4793] }] = 0.0
+EDGES[{ VERTICES[1762], VERTICES[5122] }] = 0.0
+EDGES[{ VERTICES[2801], VERTICES[939] }] = 0.0
+EDGES[{ VERTICES[679], VERTICES[708] }] = 0.0
+EDGES[{ VERTICES[4970], VERTICES[4733] }] = 0.0
+EDGES[{ VERTICES[79], VERTICES[5925] }] = 0.0
+EDGES[{ VERTICES[2457], VERTICES[5496] }] = 0.0
+EDGES[{ VERTICES[1627], VERTICES[2334] }] = 0.0
+EDGES[{ VERTICES[844], VERTICES[510] }] = 0.0
+EDGES[{ VERTICES[767], VERTICES[1786] }] = 0.0
+EDGES[{ VERTICES[2512], VERTICES[658] }] = 0.0
+EDGES[{ VERTICES[620], VERTICES[4470] }] = 0.0
+EDGES[{ VERTICES[1229], VERTICES[2599] }] = 0.0
+EDGES[{ VERTICES[425], VERTICES[3360] }] = 0.0
+EDGES[{ VERTICES[3681], VERTICES[1796] }] = 0.0
+EDGES[{ VERTICES[927], VERTICES[5271] }] = 0.0
+EDGES[{ VERTICES[2972], VERTICES[3635] }] = 0.0
+EDGES[{ VERTICES[1491], VERTICES[3440] }] = 0.0
+EDGES[{ VERTICES[1720], VERTICES[2582] }] = 0.0
+EDGES[{ VERTICES[4097], VERTICES[3308] }] = 0.0
+EDGES[{ VERTICES[2539], VERTICES[3339] }] = 0.0
+EDGES[{ VERTICES[1027], VERTICES[987] }] = 0.0
+EDGES[{ VERTICES[5458], VERTICES[3838] }] = 0.0
+EDGES[{ VERTICES[4247], VERTICES[3302] }] = 0.0
+EDGES[{ VERTICES[186], VERTICES[3650] }] = 0.0
+EDGES[{ VERTICES[1658], VERTICES[5179] }] = 0.0
+EDGES[{ VERTICES[3288], VERTICES[3205] }] = 0.0
+EDGES[{ VERTICES[2677], VERTICES[3235] }] = 0.0
+EDGES[{ VERTICES[2330], VERTICES[5213] }] = 0.0
+EDGES[{ VERTICES[517], VERTICES[3050] }] = 0.0
+EDGES[{ VERTICES[4515], VERTICES[632] }] = 0.0
+EDGES[{ VERTICES[335], VERTICES[3077] }] = 0.0
+EDGES[{ VERTICES[3757], VERTICES[297] }] = 0.0
+EDGES[{ VERTICES[317], VERTICES[5005] }] = 0.0
+EDGES[{ VERTICES[2805], VERTICES[2281] }] = 0.0
+EDGES[{ VERTICES[5276], VERTICES[785] }] = 0.0
+EDGES[{ VERTICES[3968], VERTICES[3041] }] = 0.0
+EDGES[{ VERTICES[3643], VERTICES[2421] }] = 0.0
+EDGES[{ VERTICES[345], VERTICES[3817] }] = 0.0
+EDGES[{ VERTICES[5871], VERTICES[479] }] = 0.0
+EDGES[{ VERTICES[1083], VERTICES[3065] }] = 0.0
+EDGES[{ VERTICES[1177], VERTICES[586] }] = 0.0
+EDGES[{ VERTICES[4914], VERTICES[4608] }] = 0.0
+EDGES[{ VERTICES[3437], VERTICES[3949] }] = 0.0
+EDGES[{ VERTICES[6259], VERTICES[310] }] = 0.0
+EDGES[{ VERTICES[700], VERTICES[590] }] = 0.0
+EDGES[{ VERTICES[2591], VERTICES[2970] }] = 0.0
+EDGES[{ VERTICES[1840], VERTICES[3974] }] = 0.0
+EDGES[{ VERTICES[2450], VERTICES[124] }] = 0.0
+EDGES[{ VERTICES[4584], VERTICES[5889] }] = 0.0
+EDGES[{ VERTICES[5128], VERTICES[1079] }] = 0.0
+EDGES[{ VERTICES[2533], VERTICES[4810] }] = 0.0
+EDGES[{ VERTICES[3934], VERTICES[4673] }] = 0.0
+EDGES[{ VERTICES[1082], VERTICES[3755] }] = 0.0
+EDGES[{ VERTICES[4479], VERTICES[4193] }] = 0.0
+EDGES[{ VERTICES[534], VERTICES[4790] }] = 0.0
+EDGES[{ VERTICES[2138], VERTICES[2053] }] = 0.0
+EDGES[{ VERTICES[224], VERTICES[2548] }] = 0.0
+EDGES[{ VERTICES[5560], VERTICES[2669] }] = 0.0
+EDGES[{ VERTICES[5774], VERTICES[6256] }] = 0.0
+EDGES[{ VERTICES[4898], VERTICES[2803] }] = 0.0
+EDGES[{ VERTICES[3199], VERTICES[938] }] = 0.0
+EDGES[{ VERTICES[5222], VERTICES[3460] }] = 0.0
+EDGES[{ VERTICES[1134], VERTICES[3684] }] = 0.0
+EDGES[{ VERTICES[282], VERTICES[3724] }] = 0.0
+EDGES[{ VERTICES[1028], VERTICES[5358] }] = 0.0
+EDGES[{ VERTICES[1672], VERTICES[3825] }] = 0.0
+EDGES[{ VERTICES[2748], VERTICES[167] }] = 0.0
+EDGES[{ VERTICES[5391], VERTICES[5543] }] = 0.0
+EDGES[{ VERTICES[745], VERTICES[633] }] = 0.0
+EDGES[{ VERTICES[1640], VERTICES[2855] }] = 0.0
+EDGES[{ VERTICES[2266], VERTICES[3267] }] = 0.0
+EDGES[{ VERTICES[2277], VERTICES[1442] }] = 0.0
+EDGES[{ VERTICES[2556], VERTICES[1341] }] = 0.0
+EDGES[{ VERTICES[3271], VERTICES[1161] }] = 0.0
+EDGES[{ VERTICES[1371], VERTICES[4712] }] = 0.0
+EDGES[{ VERTICES[677], VERTICES[1976] }] = 0.0
+EDGES[{ VERTICES[3940], VERTICES[3642] }] = 0.0
+EDGES[{ VERTICES[1883], VERTICES[3826] }] = 0.0
+EDGES[{ VERTICES[3783], VERTICES[699] }] = 0.0
+EDGES[{ VERTICES[1219], VERTICES[1494] }] = 0.0
+EDGES[{ VERTICES[492], VERTICES[537] }] = 0.0
+EDGES[{ VERTICES[3604], VERTICES[4235] }] = 0.0
+EDGES[{ VERTICES[4726], VERTICES[3052] }] = 0.0
+EDGES[{ VERTICES[1085], VERTICES[1693] }] = 0.0
+EDGES[{ VERTICES[1982], VERTICES[164] }] = 0.0
+EDGES[{ VERTICES[1070], VERTICES[5060] }] = 0.0
+EDGES[{ VERTICES[1435], VERTICES[2645] }] = 0.0
+EDGES[{ VERTICES[639], VERTICES[444] }] = 0.0
+EDGES[{ VERTICES[6166], VERTICES[3280] }] = 0.0
+EDGES[{ VERTICES[4715], VERTICES[4824] }] = 0.0
+EDGES[{ VERTICES[1327], VERTICES[4767] }] = 0.0
+EDGES[{ VERTICES[916], VERTICES[5911] }] = 0.0
+EDGES[{ VERTICES[5372], VERTICES[3883] }] = 0.0
+EDGES[{ VERTICES[4976], VERTICES[1075] }] = 0.0
+EDGES[{ VERTICES[420], VERTICES[4764] }] = 0.0
+EDGES[{ VERTICES[2732], VERTICES[4042] }] = 0.0
+EDGES[{ VERTICES[4192], VERTICES[5551] }] = 0.0
+EDGES[{ VERTICES[2598], VERTICES[2647] }] = 0.0
+EDGES[{ VERTICES[3225], VERTICES[4595] }] = 0.0
+EDGES[{ VERTICES[2086], VERTICES[2265] }] = 0.0
+EDGES[{ VERTICES[624], VERTICES[1665] }] = 0.0
+EDGES[{ VERTICES[4795], VERTICES[6035] }] = 0.0
+EDGES[{ VERTICES[128], VERTICES[4450] }] = 0.0
+EDGES[{ VERTICES[988], VERTICES[1097] }] = 0.0
+EDGES[{ VERTICES[5578], VERTICES[5134] }] = 0.0
+EDGES[{ VERTICES[1026], VERTICES[2134] }] = 0.0
+EDGES[{ VERTICES[2570], VERTICES[1882] }] = 0.0
+EDGES[{ VERTICES[5919], VERTICES[3591] }] = 0.0
+EDGES[{ VERTICES[4199], VERTICES[6042] }] = 0.0
+EDGES[{ VERTICES[2163], VERTICES[5112] }] = 0.0
+EDGES[{ VERTICES[4272], VERTICES[2809] }] = 0.0
+EDGES[{ VERTICES[3906], VERTICES[6020] }] = 0.0
+EDGES[{ VERTICES[5456], VERTICES[339] }] = 0.0
+EDGES[{ VERTICES[2646], VERTICES[2108] }] = 0.0
+EDGES[{ VERTICES[2706], VERTICES[5505] }] = 0.0
+EDGES[{ VERTICES[1998], VERTICES[3207] }] = 0.0
+EDGES[{ VERTICES[6183], VERTICES[4908] }] = 0.0
+EDGES[{ VERTICES[1425], VERTICES[1914] }] = 0.0
+EDGES[{ VERTICES[4321], VERTICES[2356] }] = 0.0
+EDGES[{ VERTICES[572], VERTICES[6058] }] = 0.0
+EDGES[{ VERTICES[462], VERTICES[5595] }] = 0.0
+EDGES[{ VERTICES[566], VERTICES[2399] }] = 0.0
+EDGES[{ VERTICES[4405], VERTICES[5614] }] = 0.0
+EDGES[{ VERTICES[5217], VERTICES[1280] }] = 0.0
+EDGES[{ VERTICES[2027], VERTICES[3241] }] = 0.0
+EDGES[{ VERTICES[2567], VERTICES[6099] }] = 0.0
+EDGES[{ VERTICES[5576], VERTICES[1686] }] = 0.0
+EDGES[{ VERTICES[995], VERTICES[5232] }] = 0.0
+EDGES[{ VERTICES[201], VERTICES[5056] }] = 0.0
+EDGES[{ VERTICES[1421], VERTICES[468] }] = 0.0
+EDGES[{ VERTICES[3566], VERTICES[3509] }] = 0.0
+EDGES[{ VERTICES[3970], VERTICES[4527] }] = 0.0
+EDGES[{ VERTICES[1915], VERTICES[4558] }] = 0.0
+EDGES[{ VERTICES[3683], VERTICES[4004] }] = 0.0
+EDGES[{ VERTICES[4051], VERTICES[209] }] = 0.0
+EDGES[{ VERTICES[5410], VERTICES[3126] }] = 0.0
+EDGES[{ VERTICES[2946], VERTICES[2225] }] = 0.0
+EDGES[{ VERTICES[5673], VERTICES[1469] }] = 0.0
+EDGES[{ VERTICES[5516], VERTICES[1306] }] = 0.0
+EDGES[{ VERTICES[4627], VERTICES[1595] }] = 0.0
+EDGES[{ VERTICES[946], VERTICES[6148] }] = 0.0
+EDGES[{ VERTICES[3574], VERTICES[4755] }] = 0.0
+EDGES[{ VERTICES[3991], VERTICES[2254] }] = 0.0
+EDGES[{ VERTICES[3374], VERTICES[6087] }] = 0.0
+EDGES[{ VERTICES[2122], VERTICES[2638] }] = 0.0
+EDGES[{ VERTICES[2620], VERTICES[3529] }] = 0.0
+EDGES[{ VERTICES[626], VERTICES[6236] }] = 0.0
+EDGES[{ VERTICES[5395], VERTICES[3045] }] = 0.0
+EDGES[{ VERTICES[1694], VERTICES[2742] }] = 0.0
+EDGES[{ VERTICES[521], VERTICES[4107] }] = 0.0
+EDGES[{ VERTICES[3057], VERTICES[5521] }] = 0.0
+EDGES[{ VERTICES[4969], VERTICES[6167] }] = 0.0
+EDGES[{ VERTICES[874], VERTICES[2517] }] = 0.0
+EDGES[{ VERTICES[5937], VERTICES[741] }] = 0.0
+EDGES[{ VERTICES[43], VERTICES[1988] }] = 0.0
+EDGES[{ VERTICES[5386], VERTICES[2051] }] = 0.0
+EDGES[{ VERTICES[4768], VERTICES[3418] }] = 0.0
+EDGES[{ VERTICES[5775], VERTICES[131] }] = 0.0
+EDGES[{ VERTICES[3951], VERTICES[3467] }] = 0.0
+EDGES[{ VERTICES[3659], VERTICES[6083] }] = 0.0
+EDGES[{ VERTICES[3292], VERTICES[2528] }] = 0.0
+EDGES[{ VERTICES[5508], VERTICES[2113] }] = 0.0
+EDGES[{ VERTICES[4124], VERTICES[2546] }] = 0.0
+EDGES[{ VERTICES[5443], VERTICES[1360] }] = 0.0
+EDGES[{ VERTICES[1946], VERTICES[2820] }] = 0.0
+EDGES[{ VERTICES[3705], VERTICES[5522] }] = 0.0
+EDGES[{ VERTICES[1603], VERTICES[3449] }] = 0.0
+EDGES[{ VERTICES[3337], VERTICES[541] }] = 0.0
+EDGES[{ VERTICES[5654], VERTICES[3417] }] = 0.0
+EDGES[{ VERTICES[2681], VERTICES[5802] }] = 0.0
+EDGES[{ VERTICES[5534], VERTICES[876] }] = 0.0
+EDGES[{ VERTICES[5728], VERTICES[5303] }] = 0.0
+EDGES[{ VERTICES[4317], VERTICES[4887] }] = 0.0
+EDGES[{ VERTICES[5104], VERTICES[3777] }] = 0.0
+EDGES[{ VERTICES[4873], VERTICES[4806] }] = 0.0
+EDGES[{ VERTICES[5927], VERTICES[4285] }] = 0.0
+EDGES[{ VERTICES[5124], VERTICES[3034] }] = 0.0
+EDGES[{ VERTICES[4427], VERTICES[138] }] = 0.0
+EDGES[{ VERTICES[2371], VERTICES[266] }] = 0.0
+EDGES[{ VERTICES[2623], VERTICES[5819] }] = 0.0
+EDGES[{ VERTICES[5997], VERTICES[4630] }] = 0.0
+EDGES[{ VERTICES[3306], VERTICES[983] }] = 0.0
+EDGES[{ VERTICES[3163], VERTICES[2346] }] = 0.0
+EDGES[{ VERTICES[4804], VERTICES[410] }] = 0.0
+EDGES[{ VERTICES[2990], VERTICES[4533] }] = 0.0
+EDGES[{ VERTICES[1548], VERTICES[2926] }] = 0.0
+EDGES[{ VERTICES[6248], VERTICES[2603] }] = 0.0
+EDGES[{ VERTICES[2035], VERTICES[542] }] = 0.0
+EDGES[{ VERTICES[4968], VERTICES[3538] }] = 0.0
+EDGES[{ VERTICES[2360], VERTICES[3101] }] = 0.0
+EDGES[{ VERTICES[3148], VERTICES[1255] }] = 0.0
+EDGES[{ VERTICES[1626], VERTICES[920] }] = 0.0
+EDGES[{ VERTICES[4457], VERTICES[1936] }] = 0.0
+EDGES[{ VERTICES[5185], VERTICES[3775] }] = 0.0
+EDGES[{ VERTICES[6151], VERTICES[863] }] = 0.0
+EDGES[{ VERTICES[5544], VERTICES[1314] }] = 0.0
+EDGES[{ VERTICES[597], VERTICES[4869] }] = 0.0
+EDGES[{ VERTICES[5794], VERTICES[2084] }] = 0.0
+EDGES[{ VERTICES[5547], VERTICES[1565] }] = 0.0
+EDGES[{ VERTICES[2442], VERTICES[600] }] = 0.0
+EDGES[{ VERTICES[1844], VERTICES[1717] }] = 0.0
+EDGES[{ VERTICES[3663], VERTICES[1868] }] = 0.0
+EDGES[{ VERTICES[5918], VERTICES[1590] }] = 0.0
+EDGES[{ VERTICES[1967], VERTICES[4917] }] = 0.0
+EDGES[{ VERTICES[5549], VERTICES[4695] }] = 0.0
+EDGES[{ VERTICES[2654], VERTICES[2687] }] = 0.0
+EDGES[{ VERTICES[1714], VERTICES[2736] }] = 0.0
+EDGES[{ VERTICES[982], VERTICES[935] }] = 0.0
+EDGES[{ VERTICES[4075], VERTICES[206] }] = 0.0
+EDGES[{ VERTICES[3343], VERTICES[3569] }] = 0.0
+EDGES[{ VERTICES[1311], VERTICES[2826] }] = 0.0
+EDGES[{ VERTICES[1928], VERTICES[3674] }] = 0.0
+EDGES[{ VERTICES[2359], VERTICES[1735] }] = 0.0
+EDGES[{ VERTICES[3405], VERTICES[2205] }] = 0.0
+EDGES[{ VERTICES[619], VERTICES[4725] }] = 0.0
+EDGES[{ VERTICES[3026], VERTICES[4656] }] = 0.0
+EDGES[{ VERTICES[5374], VERTICES[5987] }] = 0.0
+EDGES[{ VERTICES[5487], VERTICES[4391] }] = 0.0
+EDGES[{ VERTICES[5769], VERTICES[2365] }] = 0.0
+EDGES[{ VERTICES[1765], VERTICES[2375] }] = 0.0
+EDGES[{ VERTICES[3481], VERTICES[3492] }] = 0.0
+EDGES[{ VERTICES[3421], VERTICES[570] }] = 0.0
+EDGES[{ VERTICES[4934], VERTICES[1348] }] = 0.0
+EDGES[{ VERTICES[2513], VERTICES[3419] }] = 0.0
+EDGES[{ VERTICES[1745], VERTICES[5012] }] = 0.0
+EDGES[{ VERTICES[4400], VERTICES[2593] }] = 0.0
+EDGES[{ VERTICES[627], VERTICES[3383] }] = 0.0
+EDGES[{ VERTICES[5882], VERTICES[5152] }] = 0.0
+EDGES[{ VERTICES[2988], VERTICES[5858] }] = 0.0
+EDGES[{ VERTICES[2372], VERTICES[3017] }] = 0.0
+EDGES[{ VERTICES[1738], VERTICES[4775] }] = 0.0
+EDGES[{ VERTICES[5703], VERTICES[6140] }] = 0.0
+EDGES[{ VERTICES[3592], VERTICES[5406] }] = 0.0
+EDGES[{ VERTICES[4093], VERTICES[2472] }] = 0.0
+EDGES[{ VERTICES[2818], VERTICES[924] }] = 0.0
+EDGES[{ VERTICES[1258], VERTICES[3404] }] = 0.0
+EDGES[{ VERTICES[1816], VERTICES[1823] }] = 0.0
+EDGES[{ VERTICES[4893], VERTICES[2881] }] = 0.0
+EDGES[{ VERTICES[5686], VERTICES[3787] }] = 0.0
+EDGES[{ VERTICES[361], VERTICES[96] }] = 0.0
+EDGES[{ VERTICES[6181], VERTICES[415] }] = 0.0
+EDGES[{ VERTICES[3673], VERTICES[716] }] = 0.0
+EDGES[{ VERTICES[5042], VERTICES[926] }] = 0.0
+EDGES[{ VERTICES[5099], VERTICES[2174] }] = 0.0
+EDGES[{ VERTICES[5588], VERTICES[5203] }] = 0.0
+EDGES[{ VERTICES[5851], VERTICES[921] }] = 0.0
+EDGES[{ VERTICES[2997], VERTICES[5623] }] = 0.0
+EDGES[{ VERTICES[346], VERTICES[6059] }] = 0.0
+EDGES[{ VERTICES[6158], VERTICES[4181] }] = 0.0
+EDGES[{ VERTICES[516], VERTICES[2495] }] = 0.0
+EDGES[{ VERTICES[2396], VERTICES[4090] }] = 0.0
+EDGES[{ VERTICES[5731], VERTICES[2834] }] = 0.0
+EDGES[{ VERTICES[2522], VERTICES[2862] }] = 0.0
+EDGES[{ VERTICES[4385], VERTICES[1462] }] = 0.0
+EDGES[{ VERTICES[834], VERTICES[5783] }] = 0.0
+EDGES[{ VERTICES[2031], VERTICES[2314] }] = 0.0
+EDGES[{ VERTICES[5939], VERTICES[1087] }] = 0.0
+EDGES[{ VERTICES[5209], VERTICES[2121] }] = 0.0
+EDGES[{ VERTICES[1733], VERTICES[5159] }] = 0.0
+EDGES[{ VERTICES[5936], VERTICES[3197] }] = 0.0
+EDGES[{ VERTICES[1596], VERTICES[5666] }] = 0.0
+EDGES[{ VERTICES[2929], VERTICES[5071] }] = 0.0
+EDGES[{ VERTICES[4894], VERTICES[818] }] = 0.0
+EDGES[{ VERTICES[3157], VERTICES[2883] }] = 0.0
+EDGES[{ VERTICES[433], VERTICES[1184] }] = 0.0
+EDGES[{ VERTICES[4227], VERTICES[1209] }] = 0.0
+EDGES[{ VERTICES[5646], VERTICES[4454] }] = 0.0
+EDGES[{ VERTICES[1351], VERTICES[4831] }] = 0.0
+EDGES[{ VERTICES[4196], VERTICES[1615] }] = 0.0
+EDGES[{ VERTICES[1430], VERTICES[1053] }] = 0.0
+EDGES[{ VERTICES[2276], VERTICES[4754] }] = 0.0
+EDGES[{ VERTICES[480], VERTICES[1768] }] = 0.0
+EDGES[{ VERTICES[4309], VERTICES[1483] }] = 0.0
+EDGES[{ VERTICES[5856], VERTICES[5506] }] = 0.0
+EDGES[{ VERTICES[5897], VERTICES[3124] }] = 0.0
+EDGES[{ VERTICES[1263], VERTICES[4602] }] = 0.0
+EDGES[{ VERTICES[5999], VERTICES[2147] }] = 0.0
+EDGES[{ VERTICES[3158], VERTICES[1663] }] = 0.0
+EDGES[{ VERTICES[2377], VERTICES[2228] }] = 0.0
+EDGES[{ VERTICES[2575], VERTICES[4451] }] = 0.0
+EDGES[{ VERTICES[1424], VERTICES[907] }] = 0.0
+EDGES[{ VERTICES[4241], VERTICES[3539] }] = 0.0
+EDGES[{ VERTICES[4007], VERTICES[3711] }] = 0.0
+EDGES[{ VERTICES[1907], VERTICES[1606] }] = 0.0
+EDGES[{ VERTICES[268], VERTICES[4703] }] = 0.0
+EDGES[{ VERTICES[3190], VERTICES[5886] }] = 0.0
+EDGES[{ VERTICES[1], VERTICES[202] }] = 0.0
+EDGES[{ VERTICES[4489], VERTICES[1723] }] = 0.0
+EDGES[{ VERTICES[3015], VERTICES[5077] }] = 0.0
+EDGES[{ VERTICES[2617], VERTICES[3434] }] = 0.0
+EDGES[{ VERTICES[3471], VERTICES[3016] }] = 0.0
+EDGES[{ VERTICES[1818], VERTICES[467] }] = 0.0
+EDGES[{ VERTICES[1454], VERTICES[1155] }] = 0.0
+EDGES[{ VERTICES[1930], VERTICES[6203] }] = 0.0
+EDGES[{ VERTICES[5633], VERTICES[3018] }] = 0.0
+EDGES[{ VERTICES[5826], VERTICES[1359] }] = 0.0
+EDGES[{ VERTICES[2701], VERTICES[2860] }] = 0.0
+EDGES[{ VERTICES[1122], VERTICES[3209] }] = 0.0
+EDGES[{ VERTICES[3309], VERTICES[165] }] = 0.0
+EDGES[{ VERTICES[6235], VERTICES[3984] }] = 0.0
+EDGES[{ VERTICES[4302], VERTICES[2587] }] = 0.0
+EDGES[{ VERTICES[1139], VERTICES[3093] }] = 0.0
+EDGES[{ VERTICES[6177], VERTICES[1376] }] = 0.0
+EDGES[{ VERTICES[2462], VERTICES[3828] }] = 0.0
+EDGES[{ VERTICES[1916], VERTICES[4204] }] = 0.0
+EDGES[{ VERTICES[5117], VERTICES[1617] }] = 0.0
+EDGES[{ VERTICES[1257], VERTICES[1687] }] = 0.0
+EDGES[{ VERTICES[1670], VERTICES[5804] }] = 0.0
+EDGES[{ VERTICES[3721], VERTICES[3957] }] = 0.0
+EDGES[{ VERTICES[4560], VERTICES[3176] }] = 0.0
+EDGES[{ VERTICES[4651], VERTICES[4762] }] = 0.0
+EDGES[{ VERTICES[2229], VERTICES[2411] }] = 0.0
+EDGES[{ VERTICES[3497], VERTICES[1207] }] = 0.0
+EDGES[{ VERTICES[2125], VERTICES[3230] }] = 0.0
+EDGES[{ VERTICES[1959], VERTICES[5879] }] = 0.0
+EDGES[{ VERTICES[3231], VERTICES[1234] }] = 0.0
+EDGES[{ VERTICES[2418], VERTICES[2257] }] = 0.0
+EDGES[{ VERTICES[1006], VERTICES[1057] }] = 0.0
+EDGES[{ VERTICES[5509], VERTICES[1246] }] = 0.0
+EDGES[{ VERTICES[5853], VERTICES[1769] }] = 0.0
+EDGES[{ VERTICES[2723], VERTICES[3928] }] = 0.0
+EDGES[{ VERTICES[4545], VERTICES[5883] }] = 0.0
+EDGES[{ VERTICES[6065], VERTICES[3850] }] = 0.0
+EDGES[{ VERTICES[5727], VERTICES[4836] }] = 0.0
+EDGES[{ VERTICES[4094], VERTICES[5347] }] = 0.0
+EDGES[{ VERTICES[6195], VERTICES[3264] }] = 0.0
+EDGES[{ VERTICES[5894], VERTICES[2523] }] = 0.0
+EDGES[{ VERTICES[2712], VERTICES[6133] }] = 0.0
+EDGES[{ VERTICES[1696], VERTICES[5097] }] = 0.0
+EDGES[{ VERTICES[4401], VERTICES[3446] }] = 0.0
+EDGES[{ VERTICES[5755], VERTICES[2484] }] = 0.0
+EDGES[{ VERTICES[5914], VERTICES[3047] }] = 0.0
+EDGES[{ VERTICES[5291], VERTICES[4670] }] = 0.0
+EDGES[{ VERTICES[5348], VERTICES[5761] }] = 0.0
+EDGES[{ VERTICES[4619], VERTICES[4442] }] = 0.0
+EDGES[{ VERTICES[4664], VERTICES[3734] }] = 0.0
+EDGES[{ VERTICES[563], VERTICES[3464] }] = 0.0
+EDGES[{ VERTICES[4000], VERTICES[402] }] = 0.0
+EDGES[{ VERTICES[3362], VERTICES[5226] }] = 0.0
+EDGES[{ VERTICES[2397], VERTICES[2807] }] = 0.0
+EDGES[{ VERTICES[6119], VERTICES[553] }] = 0.0
+EDGES[{ VERTICES[1472], VERTICES[1857] }] = 0.0
+EDGES[{ VERTICES[2242], VERTICES[5160] }] = 0.0
+EDGES[{ VERTICES[3394], VERTICES[3797] }] = 0.0
+EDGES[{ VERTICES[1845], VERTICES[5403] }] = 0.0
+EDGES[{ VERTICES[6226], VERTICES[5298] }] = 0.0
+EDGES[{ VERTICES[146], VERTICES[3123] }] = 0.0
+EDGES[{ VERTICES[1923], VERTICES[797] }] = 0.0
+EDGES[{ VERTICES[5264], VERTICES[1000] }] = 0.0
+EDGES[{ VERTICES[1736], VERTICES[683] }] = 0.0
+EDGES[{ VERTICES[294], VERTICES[2042] }] = 0.0
+EDGES[{ VERTICES[1583], VERTICES[4422] }] = 0.0
+EDGES[{ VERTICES[807], VERTICES[3002] }] = 0.0
+EDGES[{ VERTICES[3353], VERTICES[1787] }] = 0.0
+EDGES[{ VERTICES[5461], VERTICES[4080] }] = 0.0
+EDGES[{ VERTICES[1414], VERTICES[2253] }] = 0.0
+EDGES[{ VERTICES[6249], VERTICES[2424] }] = 0.0
+EDGES[{ VERTICES[1751], VERTICES[2352] }] = 0.0
+EDGES[{ VERTICES[2288], VERTICES[2508] }] = 0.0
+EDGES[{ VERTICES[530], VERTICES[3521] }] = 0.0
+EDGES[{ VERTICES[84], VERTICES[5119] }] = 0.0
+EDGES[{ VERTICES[1115], VERTICES[5854] }] = 0.0
+EDGES[{ VERTICES[5622], VERTICES[1049] }] = 0.0
+EDGES[{ VERTICES[1481], VERTICES[300] }] = 0.0
+EDGES[{ VERTICES[2541], VERTICES[3] }] = 0.0
+EDGES[{ VERTICES[5086], VERTICES[264] }] = 0.0
+EDGES[{ VERTICES[2243], VERTICES[2624] }] = 0.0
+EDGES[{ VERTICES[5118], VERTICES[5233] }] = 0.0
+EDGES[{ VERTICES[6003], VERTICES[3310] }] = 0.0
+EDGES[{ VERTICES[1474], VERTICES[1039] }] = 0.0
+EDGES[{ VERTICES[4409], VERTICES[5368] }] = 0.0
+EDGES[{ VERTICES[393], VERTICES[2133] }] = 0.0
+EDGES[{ VERTICES[166], VERTICES[1806] }] = 0.0
+EDGES[{ VERTICES[6029], VERTICES[4037] }] = 0.0
+EDGES[{ VERTICES[1864], VERTICES[661] }] = 0.0
+EDGES[{ VERTICES[5697], VERTICES[3698] }] = 0.0
+EDGES[{ VERTICES[1826], VERTICES[4428] }] = 0.0
+EDGES[{ VERTICES[989], VERTICES[2050] }] = 0.0
+EDGES[{ VERTICES[4849], VERTICES[4394] }] = 0.0
+EDGES[{ VERTICES[3964], VERTICES[6197] }] = 0.0
+EDGES[{ VERTICES[643], VERTICES[50] }] = 0.0
+EDGES[{ VERTICES[2959], VERTICES[5089] }] = 0.0
+EDGES[{ VERTICES[3730], VERTICES[4847] }] = 0.0
+EDGES[{ VERTICES[1598], VERTICES[3061] }] = 0.0
+EDGES[{ VERTICES[2150], VERTICES[5983] }] = 0.0
+EDGES[{ VERTICES[4677], VERTICES[3248] }] = 0.0
+EDGES[{ VERTICES[4983], VERTICES[1065] }] = 0.0
+EDGES[{ VERTICES[243], VERTICES[3415] }] = 0.0
+EDGES[{ VERTICES[4109], VERTICES[3732] }] = 0.0
+EDGES[{ VERTICES[5946], VERTICES[3022] }] = 0.0
+EDGES[{ VERTICES[4921], VERTICES[3346] }] = 0.0
+EDGES[{ VERTICES[867], VERTICES[3958] }] = 0.0
+EDGES[{ VERTICES[2368], VERTICES[1545] }] = 0.0
+EDGES[{ VERTICES[647], VERTICES[5066] }] = 0.0
+EDGES[{ VERTICES[2907], VERTICES[6091] }] = 0.0
+EDGES[{ VERTICES[4650], VERTICES[5144] }] = 0.0
+EDGES[{ VERTICES[2021], VERTICES[2407] }] = 0.0
+EDGES[{ VERTICES[3865], VERTICES[2262] }] = 0.0
+EDGES[{ VERTICES[2957], VERTICES[3285] }] = 0.0
+EDGES[{ VERTICES[5536], VERTICES[2241] }] = 0.0
+EDGES[{ VERTICES[1962], VERTICES[2099] }] = 0.0
+EDGES[{ VERTICES[1014], VERTICES[3145] }] = 0.0
+EDGES[{ VERTICES[3032], VERTICES[528] }] = 0.0
+EDGES[{ VERTICES[1227], VERTICES[1895] }] = 0.0
+EDGES[{ VERTICES[2999], VERTICES[609] }] = 0.0
+EDGES[{ VERTICES[714], VERTICES[4473] }] = 0.0
+EDGES[{ VERTICES[4339], VERTICES[5079] }] = 0.0
+EDGES[{ VERTICES[2103], VERTICES[1077] }] = 0.0
+EDGES[{ VERTICES[558], VERTICES[1610] }] = 0.0
+EDGES[{ VERTICES[3773], VERTICES[2067] }] = 0.0
+EDGES[{ VERTICES[1232], VERTICES[2336] }] = 0.0
+EDGES[{ VERTICES[5821], VERTICES[285] }] = 0.0
+EDGES[{ VERTICES[5243], VERTICES[4547] }] = 0.0
+EDGES[{ VERTICES[5687], VERTICES[850] }] = 0.0
+EDGES[{ VERTICES[5214], VERTICES[3218] }] = 0.0
+EDGES[{ VERTICES[5090], VERTICES[3980] }] = 0.0
+EDGES[{ VERTICES[1829], VERTICES[5701] }] = 0.0
+EDGES[{ VERTICES[1163], VERTICES[4031] }] = 0.0
+EDGES[{ VERTICES[421], VERTICES[5377] }] = 0.0
+EDGES[{ VERTICES[2154], VERTICES[2435] }] = 0.0
+EDGES[{ VERTICES[315], VERTICES[5210] }] = 0.0
+EDGES[{ VERTICES[256], VERTICES[796] }] = 0.0
+EDGES[{ VERTICES[5846], VERTICES[4513] }] = 0.0
+EDGES[{ VERTICES[3625], VERTICES[3548] }] = 0.0
+EDGES[{ VERTICES[4139], VERTICES[1126] }] = 0.0
+EDGES[{ VERTICES[4368], VERTICES[1354] }] = 0.0
+EDGES[{ VERTICES[4074], VERTICES[3001] }] = 0.0
+EDGES[{ VERTICES[2983], VERTICES[17] }] = 0.0
+EDGES[{ VERTICES[4782], VERTICES[3276] }] = 0.0
+EDGES[{ VERTICES[3089], VERTICES[2795] }] = 0.0
+EDGES[{ VERTICES[2096], VERTICES[390] }] = 0.0
+EDGES[{ VERTICES[5063], VERTICES[2494] }] = 0.0
+EDGES[{ VERTICES[4789], VERTICES[5900] }] = 0.0
+EDGES[{ VERTICES[5029], VERTICES[208] }] = 0.0
+EDGES[{ VERTICES[1434], VERTICES[5460] }] = 0.0
+EDGES[{ VERTICES[2502], VERTICES[213] }] = 0.0
+EDGES[{ VERTICES[1819], VERTICES[4998] }] = 0.0
+EDGES[{ VERTICES[56], VERTICES[406] }] = 0.0
+EDGES[{ VERTICES[5025], VERTICES[3764] }] = 0.0
+EDGES[{ VERTICES[101], VERTICES[955] }] = 0.0
+EDGES[{ VERTICES[5768], VERTICES[3950] }] = 0.0
+EDGES[{ VERTICES[962], VERTICES[2199] }] = 0.0
+EDGES[{ VERTICES[903], VERTICES[3634] }] = 0.0
+EDGES[{ VERTICES[5475], VERTICES[3660] }] = 0.0
+EDGES[{ VERTICES[1206], VERTICES[5742] }] = 0.0
+EDGES[{ VERTICES[2830], VERTICES[4570] }] = 0.0
+EDGES[{ VERTICES[3188], VERTICES[5724] }] = 0.0
+EDGES[{ VERTICES[4598], VERTICES[5190] }] = 0.0
+EDGES[{ VERTICES[3735], VERTICES[3159] }] = 0.0
+EDGES[{ VERTICES[5597], VERTICES[694] }] = 0.0
+EDGES[{ VERTICES[229], VERTICES[899] }] = 0.0
+EDGES[{ VERTICES[1440], VERTICES[5736] }] = 0.0
+EDGES[{ VERTICES[2319], VERTICES[1448] }] = 0.0
+EDGES[{ VERTICES[3619], VERTICES[226] }] = 0.0
+EDGES[{ VERTICES[2192], VERTICES[1387] }] = 0.0
+EDGES[{ VERTICES[5296], VERTICES[4293] }] = 0.0
+EDGES[{ VERTICES[2594], VERTICES[1264] }] = 0.0
+EDGES[{ VERTICES[3576], VERTICES[3147] }] = 0.0
+EDGES[{ VERTICES[2634], VERTICES[5492] }] = 0.0
+EDGES[{ VERTICES[6201], VERTICES[1677] }] = 0.0
+EDGES[{ VERTICES[6221], VERTICES[4243] }] = 0.0
+EDGES[{ VERTICES[5705], VERTICES[5640] }] = 0.0
+EDGES[{ VERTICES[5206], VERTICES[4364] }] = 0.0
+EDGES[{ VERTICES[3995], VERTICES[4851] }] = 0.0
+EDGES[{ VERTICES[602], VERTICES[2515] }] = 0.0
+EDGES[{ VERTICES[2310], VERTICES[3298] }] = 0.0
+EDGES[{ VERTICES[4629], VERTICES[3167] }] = 0.0
+EDGES[{ VERTICES[1195], VERTICES[5714] }] = 0.0
+EDGES[{ VERTICES[1105], VERTICES[4299] }] = 0.0
+EDGES[{ VERTICES[3822], VERTICES[5369] }] = 0.0
+EDGES[{ VERTICES[3119], VERTICES[3790] }] = 0.0
+EDGES[{ VERTICES[2445], VERTICES[4927] }] = 0.0
+EDGES[{ VERTICES[789], VERTICES[5814] }] = 0.0
+EDGES[{ VERTICES[4716], VERTICES[4322] }] = 0.0
+EDGES[{ VERTICES[3955], VERTICES[5313] }] = 0.0
+EDGES[{ VERTICES[306], VERTICES[1551] }] = 0.0
+EDGES[{ VERTICES[4038], VERTICES[5984] }] = 0.0
+EDGES[{ VERTICES[1251], VERTICES[5903] }] = 0.0
+EDGES[{ VERTICES[1636], VERTICES[3499] }] = 0.0
+EDGES[{ VERTICES[5843], VERTICES[5330] }] = 0.0
+EDGES[{ VERTICES[3506], VERTICES[1527] }] = 0.0
+EDGES[{ VERTICES[5380], VERTICES[2087] }] = 0.0
+EDGES[{ VERTICES[5498], VERTICES[5362] }] = 0.0
+EDGES[{ VERTICES[2761], VERTICES[642] }] = 0.0
+EDGES[{ VERTICES[4459], VERTICES[322] }] = 0.0
+EDGES[{ VERTICES[3551], VERTICES[2815] }] = 0.0
+EDGES[{ VERTICES[3765], VERTICES[129] }] = 0.0
+EDGES[{ VERTICES[3812], VERTICES[2953] }] = 0.0
+EDGES[{ VERTICES[852], VERTICES[230] }] = 0.0
+EDGES[{ VERTICES[3761], VERTICES[879] }] = 0.0
+EDGES[{ VERTICES[3483], VERTICES[6126] }] = 0.0
+EDGES[{ VERTICES[888], VERTICES[809] }] = 0.0
+EDGES[{ VERTICES[394], VERTICES[2564] }] = 0.0
+EDGES[{ VERTICES[4160], VERTICES[580] }] = 0.0
+EDGES[{ VERTICES[4254], VERTICES[2728] }] = 0.0
+EDGES[{ VERTICES[1958], VERTICES[3596] }] = 0.0
+EDGES[{ VERTICES[2422], VERTICES[160] }] = 0.0
+EDGES[{ VERTICES[5833], VERTICES[5172] }] = 0.0
+EDGES[{ VERTICES[5432], VERTICES[3054] }] = 0.0
+EDGES[{ VERTICES[5253], VERTICES[1466] }] = 0.0
+EDGES[{ VERTICES[4347], VERTICES[2863] }] = 0.0
+EDGES[{ VERTICES[2621], VERTICES[3268] }] = 0.0
+EDGES[{ VERTICES[957], VERTICES[3496] }] = 0.0
+EDGES[{ VERTICES[408], VERTICES[442] }] = 0.0
+EDGES[{ VERTICES[4410], VERTICES[4419] }] = 0.0
+EDGES[{ VERTICES[2235], VERTICES[4046] }] = 0.0
+EDGES[{ VERTICES[6090], VERTICES[5887] }] = 0.0
+EDGES[{ VERTICES[3454], VERTICES[2875] }] = 0.0
+EDGES[{ VERTICES[2750], VERTICES[5895] }] = 0.0
+EDGES[{ VERTICES[100], VERTICES[843] }] = 0.0
+EDGES[{ VERTICES[1477], VERTICES[5533] }] = 0.0
+EDGES[{ VERTICES[3490], VERTICES[5235] }] = 0.0
+EDGES[{ VERTICES[4843], VERTICES[2538] }] = 0.0
+EDGES[{ VERTICES[3182], VERTICES[1743] }] = 0.0
+EDGES[{ VERTICES[4623], VERTICES[3381] }] = 0.0
+EDGES[{ VERTICES[472], VERTICES[54] }] = 0.0
+EDGES[{ VERTICES[3665], VERTICES[3731] }] = 0.0
+EDGES[{ VERTICES[6231], VERTICES[3685] }] = 0.0
+EDGES[{ VERTICES[1569], VERTICES[5310] }] = 0.0
+EDGES[{ VERTICES[3851], VERTICES[1648] }] = 0.0
+EDGES[{ VERTICES[4458], VERTICES[2690] }] = 0.0
+EDGES[{ VERTICES[3009], VERTICES[3795] }] = 0.0
+EDGES[{ VERTICES[599], VERTICES[1059] }] = 0.0
+EDGES[{ VERTICES[5488], VERTICES[473] }] = 0.0
+EDGES[{ VERTICES[478], VERTICES[2775] }] = 0.0
+EDGES[{ VERTICES[4617], VERTICES[349] }] = 0.0
+EDGES[{ VERTICES[1553], VERTICES[6222] }] = 0.0
+EDGES[{ VERTICES[3265], VERTICES[4333] }] = 0.0
+EDGES[{ VERTICES[1223], VERTICES[4675] }] = 0.0
+EDGES[{ VERTICES[1690], VERTICES[246] }] = 0.0
+EDGES[{ VERTICES[847], VERTICES[6071] }] = 0.0
+EDGES[{ VERTICES[2479], VERTICES[820] }] = 0.0
+EDGES[{ VERTICES[142], VERTICES[655] }] = 0.0
+EDGES[{ VERTICES[1924], VERTICES[244] }] = 0.0
+EDGES[{ VERTICES[945], VERTICES[5156] }] = 0.0
+EDGES[{ VERTICES[5334], VERTICES[446] }] = 0.0
+EDGES[{ VERTICES[5808], VERTICES[4360] }] = 0.0
+EDGES[{ VERTICES[2943], VERTICES[3864] }] = 0.0
+EDGES[{ VERTICES[1459], VERTICES[6218] }] = 0.0
+EDGES[{ VERTICES[4253], VERTICES[5107] }] = 0.0
+EDGES[{ VERTICES[4463], VERTICES[1841] }] = 0.0
+EDGES[{ VERTICES[6120], VERTICES[5439] }] = 0.0
+EDGES[{ VERTICES[2097], VERTICES[4345] }] = 0.0
+EDGES[{ VERTICES[1877], VERTICES[2989] }] = 0.0
+EDGES[{ VERTICES[1124], VERTICES[130] }] = 0.0
+EDGES[{ VERTICES[5168], VERTICES[2332] }] = 0.0
+EDGES[{ VERTICES[2454], VERTICES[4471] }] = 0.0
+EDGES[{ VERTICES[3216], VERTICES[5555] }] = 0.0
+EDGES[{ VERTICES[2252], VERTICES[5778] }] = 0.0
+EDGES[{ VERTICES[4963], VERTICES[2648] }] = 0.0
+EDGES[{ VERTICES[5401], VERTICES[931] }] = 0.0
+EDGES[{ VERTICES[1119], VERTICES[1249] }] = 0.0
+EDGES[{ VERTICES[573], VERTICES[2847] }] = 0.0
+EDGES[{ VERTICES[5694], VERTICES[3139] }] = 0.0
+EDGES[{ VERTICES[280], VERTICES[2924] }] = 0.0
+EDGES[{ VERTICES[3096], VERTICES[271] }] = 0.0
+EDGES[{ VERTICES[3116], VERTICES[395] }] = 0.0
+EDGES[{ VERTICES[3772], VERTICES[2470] }] = 0.0
+EDGES[{ VERTICES[2467], VERTICES[5904] }] = 0.0
+EDGES[{ VERTICES[2787], VERTICES[2463] }] = 0.0
+EDGES[{ VERTICES[316], VERTICES[674] }] = 0.0
+EDGES[{ VERTICES[1071], VERTICES[1058] }] = 0.0
+EDGES[{ VERTICES[1048], VERTICES[432] }] = 0.0
+EDGES[{ VERTICES[5200], VERTICES[1950] }] = 0.0
+EDGES[{ VERTICES[3174], VERTICES[329] }] = 0.0
+EDGES[{ VERTICES[2184], VERTICES[2626] }] = 0.0
+EDGES[{ VERTICES[2300], VERTICES[3925] }] = 0.0
+EDGES[{ VERTICES[6061], VERTICES[1929] }] = 0.0
+EDGES[{ VERTICES[5756], VERTICES[5567] }] = 0.0
+EDGES[{ VERTICES[5577], VERTICES[1451] }] = 0.0
+EDGES[{ VERTICES[3202], VERTICES[1580] }] = 0.0
+EDGES[{ VERTICES[14], VERTICES[6069] }] = 0.0
+EDGES[{ VERTICES[3554], VERTICES[3171] }] = 0.0
+EDGES[{ VERTICES[5080], VERTICES[3316] }] = 0.0
+EDGES[{ VERTICES[5311], VERTICES[4493] }] = 0.0
+EDGES[{ VERTICES[211], VERTICES[5657] }] = 0.0
+EDGES[{ VERTICES[4349], VERTICES[2709] }] = 0.0
+EDGES[{ VERTICES[5531], VERTICES[5268] }] = 0.0
+EDGES[{ VERTICES[5323], VERTICES[2665] }] = 0.0
+EDGES[{ VERTICES[1493], VERTICES[5231] }] = 0.0
+EDGES[{ VERTICES[813], VERTICES[4757] }] = 0.0
+EDGES[{ VERTICES[1336], VERTICES[5062] }] = 0.0
+EDGES[{ VERTICES[4246], VERTICES[123] }] = 0.0
+EDGES[{ VERTICES[5127], VERTICES[237] }] = 0.0
+EDGES[{ VERTICES[1328], VERTICES[3351] }] = 0.0
+EDGES[{ VERTICES[629], VERTICES[3550] }] = 0.0
+EDGES[{ VERTICES[6008], VERTICES[6255] }] = 0.0
+EDGES[{ VERTICES[4158], VERTICES[1856] }] = 0.0
+EDGES[{ VERTICES[1226], VERTICES[4274] }] = 0.0
+EDGES[{ VERTICES[4931], VERTICES[2622] }] = 0.0
+EDGES[{ VERTICES[695], VERTICES[5770] }] = 0.0
+EDGES[{ VERTICES[4429], VERTICES[1502] }] = 0.0
+EDGES[{ VERTICES[2044], VERTICES[2077] }] = 0.0
+EDGES[{ VERTICES[1361], VERTICES[1960] }] = 0.0
+EDGES[{ VERTICES[2236], VERTICES[518] }] = 0.0
+EDGES[{ VERTICES[5709], VERTICES[4846] }] = 0.0
+EDGES[{ VERTICES[3307], VERTICES[2274] }] = 0.0
+EDGES[{ VERTICES[2639], VERTICES[36] }] = 0.0
+EDGES[{ VERTICES[2602], VERTICES[4211] }] = 0.0
+EDGES[{ VERTICES[252], VERTICES[529] }] = 0.0
+EDGES[{ VERTICES[287], VERTICES[6129] }] = 0.0
+EDGES[{ VERTICES[2449], VERTICES[1629] }] = 0.0
+EDGES[{ VERTICES[205], VERTICES[656] }] = 0.0
+EDGES[{ VERTICES[688], VERTICES[3578] }] = 0.0
+EDGES[{ VERTICES[3601], VERTICES[5699] }] = 0.0
+EDGES[{ VERTICES[4376], VERTICES[4611] }] = 0.0
+EDGES[{ VERTICES[2481], VERTICES[2285] }] = 0.0
+EDGES[{ VERTICES[4488], VERTICES[3897] }] = 0.0
+EDGES[{ VERTICES[2234], VERTICES[4226] }] = 0.0
+EDGES[{ VERTICES[412], VERTICES[4599] }] = 0.0
+EDGES[{ VERTICES[1248], VERTICES[758] }] = 0.0
+EDGES[{ VERTICES[5624], VERTICES[628] }] = 0.0
+EDGES[{ VERTICES[787], VERTICES[3656] }] = 0.0
+EDGES[{ VERTICES[5349], VERTICES[3314] }] = 0.0
+EDGES[{ VERTICES[1839], VERTICES[2697] }] = 0.0
+EDGES[{ VERTICES[3358], VERTICES[4542] }] = 0.0
+EDGES[{ VERTICES[3036], VERTICES[5659] }] = 0.0
+EDGES[{ VERTICES[2727], VERTICES[1433] }] = 0.0
+EDGES[{ VERTICES[6150], VERTICES[3558] }] = 0.0
+EDGES[{ VERTICES[3782], VERTICES[4543] }] = 0.0
+EDGES[{ VERTICES[5571], VERTICES[4973] }] = 0.0
+EDGES[{ VERTICES[5335], VERTICES[1178] }] = 0.0
+EDGES[{ VERTICES[465], VERTICES[1352] }] = 0.0
+EDGES[{ VERTICES[4270], VERTICES[1299] }] = 0.0
+EDGES[{ VERTICES[2981], VERTICES[3102] }] = 0.0
+EDGES[{ VERTICES[3229], VERTICES[2025] }] = 0.0
+EDGES[{ VERTICES[3877], VERTICES[2328] }] = 0.0
+EDGES[{ VERTICES[2323], VERTICES[4971] }] = 0.0
+EDGES[{ VERTICES[2914], VERTICES[4126] }] = 0.0
+EDGES[{ VERTICES[2065], VERTICES[2255] }] = 0.0
+EDGES[{ VERTICES[387], VERTICES[771] }] = 0.0
+EDGES[{ VERTICES[3662], VERTICES[4512] }] = 0.0
+EDGES[{ VERTICES[4557], VERTICES[2903] }] = 0.0
+EDGES[{ VERTICES[4146], VERTICES[1288] }] = 0.0
+EDGES[{ VERTICES[3946], VERTICES[5649] }] = 0.0
+EDGES[{ VERTICES[1096], VERTICES[5072] }] = 0.0
+EDGES[{ VERTICES[1539], VERTICES[2267] }] = 0.0
+EDGES[{ VERTICES[2326], VERTICES[1830] }] = 0.0
+EDGES[{ VERTICES[3845], VERTICES[5295] }] = 0.0
+EDGES[{ VERTICES[1040], VERTICES[3072] }] = 0.0
+EDGES[{ VERTICES[1773], VERTICES[2561] }] = 0.0
+EDGES[{ VERTICES[1467], VERTICES[1325] }] = 0.0
+EDGES[{ VERTICES[1113], VERTICES[711] }] = 0.0
+EDGES[{ VERTICES[259], VERTICES[2137] }] = 0.0
+EDGES[{ VERTICES[1849], VERTICES[2854] }] = 0.0
+EDGES[{ VERTICES[2838], VERTICES[4981] }] = 0.0
+EDGES[{ VERTICES[2072], VERTICES[161] }] = 0.0
+EDGES[{ VERTICES[1953], VERTICES[2769] }] = 0.0
+EDGES[{ VERTICES[2476], VERTICES[4411] }] = 0.0
+EDGES[{ VERTICES[3210], VERTICES[6135] }] = 0.0
+EDGES[{ VERTICES[930], VERTICES[5324] }] = 0.0
+EDGES[{ VERTICES[1935], VERTICES[1302] }] = 0.0
+EDGES[{ VERTICES[5712], VERTICES[4307] }] = 0.0
+EDGES[{ VERTICES[372], VERTICES[689] }] = 0.0
+EDGES[{ VERTICES[2540], VERTICES[2952] }] = 0.0
+EDGES[{ VERTICES[1843], VERTICES[3834] }] = 0.0
+EDGES[{ VERTICES[5245], VERTICES[451] }] = 0.0
+EDGES[{ VERTICES[5678], VERTICES[3003] }] = 0.0
+EDGES[{ VERTICES[2183], VERTICES[2837] }] = 0.0
+EDGES[{ VERTICES[313], VERTICES[3788] }] = 0.0
+EDGES[{ VERTICES[1710], VERTICES[73] }] = 0.0
+EDGES[{ VERTICES[2209], VERTICES[1002] }] = 0.0
+EDGES[{ VERTICES[4255], VERTICES[6104] }] = 0.0
+EDGES[{ VERTICES[756], VERTICES[4101] }] = 0.0
+EDGES[{ VERTICES[792], VERTICES[1782] }] = 0.0
+EDGES[{ VERTICES[1983], VERTICES[4005] }] = 0.0
+EDGES[{ VERTICES[770], VERTICES[895] }] = 0.0
+EDGES[{ VERTICES[858], VERTICES[6052] }] = 0.0
+EDGES[{ VERTICES[823], VERTICES[608] }] = 0.0
+EDGES[{ VERTICES[5589], VERTICES[2760] }] = 0.0
+EDGES[{ VERTICES[522], VERTICES[3186] }] = 0.0
+EDGES[{ VERTICES[23], VERTICES[5818] }] = 0.0
+EDGES[{ VERTICES[1632], VERTICES[5045] }] = 0.0
+EDGES[{ VERTICES[111], VERTICES[364] }] = 0.0
+EDGES[{ VERTICES[1600], VERTICES[1703] }] = 0.0
+EDGES[{ VERTICES[5019], VERTICES[1061] }] = 0.0
+EDGES[{ VERTICES[3196], VERTICES[2729] }] = 0.0
+EDGES[{ VERTICES[5297], VERTICES[5402] }] = 0.0
+EDGES[{ VERTICES[3372], VERTICES[2250] }] = 0.0
+EDGES[{ VERTICES[4590], VERTICES[1807] }] = 0.0
+EDGES[{ VERTICES[4578], VERTICES[5269] }] = 0.0
+EDGES[{ VERTICES[5716], VERTICES[1540] }] = 0.0
+EDGES[{ VERTICES[4705], VERTICES[2973] }] = 0.0
+EDGES[{ VERTICES[6252], VERTICES[4899] }] = 0.0
+EDGES[{ VERTICES[4982], VERTICES[385] }] = 0.0
+EDGES[{ VERTICES[1291], VERTICES[1253] }] = 0.0
+EDGES[{ VERTICES[5440], VERTICES[6036] }] = 0.0
+EDGES[{ VERTICES[869], VERTICES[2948] }] = 0.0
+EDGES[{ VERTICES[963], VERTICES[2307] }] = 0.0
+EDGES[{ VERTICES[4209], VERTICES[6153] }] = 0.0
+EDGES[{ VERTICES[6144], VERTICES[3094] }] = 0.0
+EDGES[{ VERTICES[6154], VERTICES[1558] }] = 0.0
+EDGES[{ VERTICES[5267], VERTICES[1513] }] = 0.0
+EDGES[{ VERTICES[283], VERTICES[1369] }] = 0.0
+EDGES[{ VERTICES[5049], VERTICES[319] }] = 0.0
+EDGES[{ VERTICES[1137], VERTICES[1661] }] = 0.0
+EDGES[{ VERTICES[1503], VERTICES[4336] }] = 0.0
+EDGES[{ VERTICES[1385], VERTICES[4224] }] = 0.0
+EDGES[{ VERTICES[4779], VERTICES[5157] }] = 0.0
+EDGES[{ VERTICES[5902], VERTICES[3750] }] = 0.0
+EDGES[{ VERTICES[2555], VERTICES[4466] }] = 0.0
+EDGES[{ VERTICES[1535], VERTICES[4799] }] = 0.0
+EDGES[{ VERTICES[1236], VERTICES[2738] }] = 0.0
+EDGES[{ VERTICES[499], VERTICES[2915] }] = 0.0
+EDGES[{ VERTICES[1415], VERTICES[4665] }] = 0.0
+EDGES[{ VERTICES[1649], VERTICES[3098] }] = 0.0
+EDGES[{ VERTICES[189], VERTICES[3559] }] = 0.0
+EDGES[{ VERTICES[4786], VERTICES[3338] }] = 0.0
+EDGES[{ VERTICES[2095], VERTICES[5898] }] = 0.0
+EDGES[{ VERTICES[3803], VERTICES[4876] }] = 0.0
+EDGES[{ VERTICES[3270], VERTICES[2410] }] = 0.0
+EDGES[{ VERTICES[5602], VERTICES[4003] }] = 0.0
+EDGES[{ VERTICES[868], VERTICES[1452] }] = 0.0
+EDGES[{ VERTICES[3447], VERTICES[4020] }] = 0.0
+EDGES[{ VERTICES[4328], VERTICES[4667] }] = 0.0
+EDGES[{ VERTICES[5651], VERTICES[6101] }] = 0.0
+EDGES[{ VERTICES[3530], VERTICES[2987] }] = 0.0
+EDGES[{ VERTICES[5667], VERTICES[1315] }] = 0.0
+EDGES[{ VERTICES[69], VERTICES[871] }] = 0.0
+EDGES[{ VERTICES[3457], VERTICES[2828] }] = 0.0
+EDGES[{ VERTICES[901], VERTICES[4531] }] = 0.0
+EDGES[{ VERTICES[1689], VERTICES[2896] }] = 0.0
+EDGES[{ VERTICES[3621], VERTICES[284] }] = 0.0
+EDGES[{ VERTICES[1952], VERTICES[2578] }] = 0.0
+EDGES[{ VERTICES[2786], VERTICES[5423] }] = 0.0
+EDGES[{ VERTICES[2071], VERTICES[5493] }] = 0.0
+EDGES[{ VERTICES[5520], VERTICES[1789] }] = 0.0
+EDGES[{ VERTICES[5920], VERTICES[1458] }] = 0.0
+EDGES[{ VERTICES[3304], VERTICES[2683] }] = 0.0
+EDGES[{ VERTICES[511], VERTICES[2063] }] = 0.0
+EDGES[{ VERTICES[2171], VERTICES[2579] }] = 0.0
+EDGES[{ VERTICES[4639], VERTICES[2733] }] = 0.0
+EDGES[{ VERTICES[4496], VERTICES[4370] }] = 0.0
+EDGES[{ VERTICES[4048], VERTICES[3835] }] = 0.0
+EDGES[{ VERTICES[2802], VERTICES[3508] }] = 0.0
+EDGES[{ VERTICES[4936], VERTICES[1719] }] = 0.0
+EDGES[{ VERTICES[3127], VERTICES[5135] }] = 0.0
+EDGES[{ VERTICES[2291], VERTICES[1284] }] = 0.0
+EDGES[{ VERTICES[121], VERTICES[4582] }] = 0.0
+EDGES[{ VERTICES[6202], VERTICES[88] }] = 0.0
+EDGES[{ VERTICES[5346], VERTICES[3262] }] = 0.0
+EDGES[{ VERTICES[6193], VERTICES[2471] }] = 0.0
+EDGES[{ VERTICES[1222], VERTICES[2625] }] = 0.0
+EDGES[{ VERTICES[5812], VERTICES[416] }] = 0.0
+EDGES[{ VERTICES[3073], VERTICES[5363] }] = 0.0
+EDGES[{ VERTICES[4692], VERTICES[6007] }] = 0.0
+EDGES[{ VERTICES[2090], VERTICES[3138] }] = 0.0
+EDGES[{ VERTICES[793], VERTICES[2521] }] = 0.0
+EDGES[{ VERTICES[3534], VERTICES[6114] }] = 0.0
+EDGES[{ VERTICES[1471], VERTICES[378] }] = 0.0
+EDGES[{ VERTICES[4453], VERTICES[2220] }] = 0.0
+EDGES[{ VERTICES[1349], VERTICES[64] }] = 0.0
+EDGES[{ VERTICES[560], VERTICES[1350] }] = 0.0
+EDGES[{ VERTICES[4122], VERTICES[1635] }] = 0.0
+EDGES[{ VERTICES[3606], VERTICES[3128] }] = 0.0
+EDGES[{ VERTICES[1963], VERTICES[5121] }] = 0.0
+EDGES[{ VERTICES[2730], VERTICES[4439] }] = 0.0
+EDGES[{ VERTICES[3409], VERTICES[2526] }] = 0.0
+EDGES[{ VERTICES[864], VERTICES[5227] }] = 0.0
+EDGES[{ VERTICES[5637], VERTICES[4387] }] = 0.0
+EDGES[{ VERTICES[6156], VERTICES[4697] }] = 0.0
+EDGES[{ VERTICES[1862], VERTICES[2895] }] = 0.0
+EDGES[{ VERTICES[5294], VERTICES[606] }] = 0.0
+EDGES[{ VERTICES[4587], VERTICES[2588] }] = 0.0
+EDGES[{ VERTICES[2822], VERTICES[3525] }] = 0.0
+EDGES[{ VERTICES[1990], VERTICES[5873] }] = 0.0
+EDGES[{ VERTICES[2955], VERTICES[837] }] = 0.0
+EDGES[{ VERTICES[4567], VERTICES[3677] }] = 0.0
+EDGES[{ VERTICES[3088], VERTICES[3099] }] = 0.0
+EDGES[{ VERTICES[6064], VERTICES[6088] }] = 0.0
+EDGES[{ VERTICES[1110], VERTICES[1501] }] = 0.0
+EDGES[{ VERTICES[5511], VERTICES[3468] }] = 0.0
+EDGES[{ VERTICES[3213], VERTICES[2766] }] = 0.0
+EDGES[{ VERTICES[1123], VERTICES[3921] }] = 0.0
+EDGES[{ VERTICES[1873], VERTICES[828] }] = 0.0
+EDGES[{ VERTICES[784], VERTICES[882] }] = 0.0
+EDGES[{ VERTICES[2633], VERTICES[3120] }] = 0.0
+EDGES[{ VERTICES[5381], VERTICES[98] }] = 0.0
+EDGES[{ VERTICES[4417], VERTICES[2558] }] = 0.0
+EDGES[{ VERTICES[4874], VERTICES[1323] }] = 0.0
+EDGES[{ VERTICES[3726], VERTICES[993] }] = 0.0
+EDGES[{ VERTICES[1438], VERTICES[5726] }] = 0.0
+EDGES[{ VERTICES[132], VERTICES[4353] }] = 0.0
+EDGES[{ VERTICES[866], VERTICES[4882] }] = 0.0
+EDGES[{ VERTICES[523], VERTICES[2167] }] = 0.0
+EDGES[{ VERTICES[4548], VERTICES[1673] }] = 0.0
+EDGES[{ VERTICES[1285], VERTICES[4449] }] = 0.0
+EDGES[{ VERTICES[4678], VERTICES[4994] }] = 0.0
+EDGES[{ VERTICES[3597], VERTICES[301] }] = 0.0
+EDGES[{ VERTICES[1384], VERTICES[5301] }] = 0.0
+EDGES[{ VERTICES[4060], VERTICES[67] }] = 0.0
+EDGES[{ VERTICES[5442], VERTICES[2781] }] = 0.0
+EDGES[{ VERTICES[880], VERTICES[1969] }] = 0.0
+EDGES[{ VERTICES[6170], VERTICES[5202] }] = 0.0
+EDGES[{ VERTICES[3879], VERTICES[2858] }] = 0.0
+EDGES[{ VERTICES[3841], VERTICES[4796] }] = 0.0
+EDGES[{ VERTICES[1804], VERTICES[1805] }] = 0.0
+EDGES[{ VERTICES[1003], VERTICES[5943] }] = 0.0
+EDGES[{ VERTICES[3675], VERTICES[965] }] = 0.0
+EDGES[{ VERTICES[5525], VERTICES[1404] }] = 0.0
+EDGES[{ VERTICES[543], VERTICES[1783] }] = 0.0
+EDGES[{ VERTICES[2964], VERTICES[5994] }] = 0.0
+EDGES[{ VERTICES[3884], VERTICES[1688] }] = 0.0
+EDGES[{ VERTICES[6159], VERTICES[212] }] = 0.0
+EDGES[{ VERTICES[3589], VERTICES[2710] }] = 0.0
+EDGES[{ VERTICES[411], VERTICES[1344] }] = 0.0
+EDGES[{ VERTICES[3640], VERTICES[2890] }] = 0.0
+EDGES[{ VERTICES[4396], VERTICES[4850] }] = 0.0
+EDGES[{ VERTICES[6094], VERTICES[4142] }] = 0.0
+EDGES[{ VERTICES[3703], VERTICES[2509] }] = 0.0
+EDGES[{ VERTICES[806], VERTICES[4826] }] = 0.0
+EDGES[{ VERTICES[2082], VERTICES[1683] }] = 0.0
+EDGES[{ VERTICES[4815], VERTICES[1568] }] = 0.0
+EDGES[{ VERTICES[900], VERTICES[5504] }] = 0.0
+EDGES[{ VERTICES[3283], VERTICES[5384] }] = 0.0
+EDGES[{ VERTICES[374], VERTICES[3682] }] = 0.0
+EDGES[{ VERTICES[1261], VERTICES[2297] }] = 0.0
+EDGES[{ VERTICES[2401], VERTICES[4418] }] = 0.0
+EDGES[{ VERTICES[2231], VERTICES[2586] }] = 0.0
+EDGES[{ VERTICES[110], VERTICES[4091] }] = 0.0
+EDGES[{ VERTICES[6117], VERTICES[4625] }] = 0.0
+EDGES[{ VERTICES[5832], VERTICES[1681] }] = 0.0
+EDGES[{ VERTICES[1729], VERTICES[4661] }] = 0.0
+EDGES[{ VERTICES[5326], VERTICES[1865] }] = 0.0
+EDGES[{ VERTICES[3029], VERTICES[5465] }] = 0.0
+EDGES[{ VERTICES[6075], VERTICES[1575] }] = 0.0
+EDGES[{ VERTICES[5518], VERTICES[5655] }] = 0.0
+EDGES[{ VERTICES[489], VERTICES[552] }] = 0.0
+EDGES[{ VERTICES[2511], VERTICES[3786] }] = 0.0
+EDGES[{ VERTICES[4787], VERTICES[5698] }] = 0.0
+EDGES[{ VERTICES[3739], VERTICES[4474] }] = 0.0
+EDGES[{ VERTICES[1217], VERTICES[5299] }] = 0.0
+EDGES[{ VERTICES[5779], VERTICES[3284] }] = 0.0
+EDGES[{ VERTICES[2776], VERTICES[702] }] = 0.0
+EDGES[{ VERTICES[4316], VERTICES[2655] }] = 0.0
+EDGES[{ VERTICES[4480], VERTICES[2273] }] = 0.0
+EDGES[{ VERTICES[5862], VERTICES[3859] }] = 0.0
+EDGES[{ VERTICES[4325], VERTICES[1294] }] = 0.0
+EDGES[{ VERTICES[3091], VERTICES[4880] }] = 0.0
+EDGES[{ VERTICES[5554], VERTICES[2606] }] = 0.0
+EDGES[{ VERTICES[1128], VERTICES[326] }] = 0.0
+EDGES[{ VERTICES[6072], VERTICES[2679] }] = 0.0
+EDGES[{ VERTICES[4440], VERTICES[4393] }] = 0.0
+EDGES[{ VERTICES[5441], VERTICES[2663] }] = 0.0
+EDGES[{ VERTICES[4053], VERTICES[535] }] = 0.0
+EDGES[{ VERTICES[5510], VERTICES[878] }] = 0.0
+EDGES[{ VERTICES[4555], VERTICES[1455] }] = 0.0
+EDGES[{ VERTICES[4858], VERTICES[3141] }] = 0.0
+EDGES[{ VERTICES[1775], VERTICES[2940] }] = 0.0
+EDGES[{ VERTICES[4706], VERTICES[2107] }] = 0.0
+EDGES[{ VERTICES[5198], VERTICES[5956] }] = 0.0
+EDGES[{ VERTICES[4519], VERTICES[3624] }] = 0.0
+EDGES[{ VERTICES[3927], VERTICES[3388] }] = 0.0
+EDGES[{ VERTICES[4852], VERTICES[640] }] = 0.0
+EDGES[{ VERTICES[3240], VERTICES[1411] }] = 0.0
+EDGES[{ VERTICES[1394], VERTICES[5688] }] = 0.0
+EDGES[{ VERTICES[4443], VERTICES[2240] }] = 0.0
+EDGES[{ VERTICES[3537], VERTICES[1400] }] = 0.0
+EDGES[{ VERTICES[3908], VERTICES[2695] }] = 0.0
+EDGES[{ VERTICES[6207], VERTICES[2093] }] = 0.0
+EDGES[{ VERTICES[1573], VERTICES[1812] }] = 0.0
+EDGES[{ VERTICES[6155], VERTICES[554] }] = 0.0
+EDGES[{ VERTICES[904], VERTICES[1910] }] = 0.0
+EDGES[{ VERTICES[3853], VERTICES[4154] }] = 0.0
+EDGES[{ VERTICES[1356], VERTICES[188] }] = 0.0
+EDGES[{ VERTICES[2198], VERTICES[4112] }] = 0.0
+EDGES[{ VERTICES[127], VERTICES[2018] }] = 0.0
+EDGES[{ VERTICES[5519], VERTICES[4162] }] = 0.0
+EDGES[{ VERTICES[804], VERTICES[1890] }] = 0.0
+EDGES[{ VERTICES[3896], VERTICES[2258] }] = 0.0
+EDGES[{ VERTICES[5397], VERTICES[4030] }] = 0.0
+EDGES[{ VERTICES[5246], VERTICES[4170] }] = 0.0
+EDGES[{ VERTICES[3727], VERTICES[251] }] = 0.0
+EDGES[{ VERTICES[3058], VERTICES[1158] }] = 0.0
+EDGES[{ VERTICES[5866], VERTICES[3291] }] = 0.0
+EDGES[{ VERTICES[4425], VERTICES[827] }] = 0.0
+EDGES[{ VERTICES[2016], VERTICES[5092] }] = 0.0
+EDGES[{ VERTICES[3048], VERTICES[19] }] = 0.0
+EDGES[{ VERTICES[3007], VERTICES[4676] }] = 0.0
+EDGES[{ VERTICES[3012], VERTICES[3117] }] = 0.0
+EDGES[{ VERTICES[3068], VERTICES[3204] }] = 0.0
+EDGES[{ VERTICES[1552], VERTICES[3644] }] = 0.0
+EDGES[{ VERTICES[2073], VERTICES[4282] }] = 0.0
+EDGES[{ VERTICES[2204], VERTICES[3741] }] = 0.0
+EDGES[{ VERTICES[3900], VERTICES[4889] }] = 0.0
+EDGES[{ VERTICES[3501], VERTICES[2153] }] = 0.0
+EDGES[{ VERTICES[1470], VERTICES[347] }] = 0.0
+EDGES[{ VERTICES[3781], VERTICES[460] }] = 0.0
+EDGES[{ VERTICES[641], VERTICES[2992] }] = 0.0
+EDGES[{ VERTICES[1183], VERTICES[3749] }] = 0.0
+EDGES[{ VERTICES[3947], VERTICES[5114] }] = 0.0
+EDGES[{ VERTICES[1004], VERTICES[1091] }] = 0.0
+EDGES[{ VERTICES[3717], VERTICES[4176] }] = 0.0
+EDGES[{ VERTICES[5136], VERTICES[786] }] = 0.0
+EDGES[{ VERTICES[4537], VERTICES[1108] }] = 0.0
+EDGES[{ VERTICES[1307], VERTICES[1994] }] = 0.0
+EDGES[{ VERTICES[4778], VERTICES[2789] }] = 0.0
+EDGES[{ VERTICES[1651], VERTICES[108] }] = 0.0
+EDGES[{ VERTICES[4082], VERTICES[1731] }] = 0.0
+EDGES[{ VERTICES[340], VERTICES[3858] }] = 0.0
+EDGES[{ VERTICES[2118], VERTICES[3915] }] = 0.0
+EDGES[{ VERTICES[546], VERTICES[832] }] = 0.0
+EDGES[{ VERTICES[3256], VERTICES[2935] }] = 0.0
+EDGES[{ VERTICES[669], VERTICES[1319] }] = 0.0
+EDGES[{ VERTICES[4946], VERTICES[4050] }] = 0.0
+EDGES[{ VERTICES[60], VERTICES[5013] }] = 0.0
+EDGES[{ VERTICES[3389], VERTICES[5502] }] = 0.0
+EDGES[{ VERTICES[1645], VERTICES[3450] }] = 0.0
+EDGES[{ VERTICES[5093], VERTICES[2939] }] = 0.0
+EDGES[{ VERTICES[1516], VERTICES[4601] }] = 0.0
+EDGES[{ VERTICES[5689], VERTICES[3386] }] = 0.0
+EDGES[{ VERTICES[4398], VERTICES[5993] }] = 0.0
+EDGES[{ VERTICES[5088], VERTICES[1080] }] = 0.0
+EDGES[{ VERTICES[5971], VERTICES[3894] }] = 0.0
+EDGES[{ VERTICES[5906], VERTICES[1081] }] = 0.0
+EDGES[{ VERTICES[4719], VERTICES[6082] }] = 0.0
+EDGES[{ VERTICES[4232], VERTICES[5514] }] = 0.0
+EDGES[{ VERTICES[3378], VERTICES[2718] }] = 0.0
+EDGES[{ VERTICES[3769], VERTICES[4076] }] = 0.0
+EDGES[{ VERTICES[5435], VERTICES[1034] }] = 0.0
+EDGES[{ VERTICES[1506], VERTICES[3055] }] = 0.0
+EDGES[{ VERTICES[1078], VERTICES[298] }] = 0.0
+EDGES[{ VERTICES[2765], VERTICES[769] }] = 0.0
+EDGES[{ VERTICES[5314], VERTICES[5542] }] = 0.0
+EDGES[{ VERTICES[5445], VERTICES[2308] }] = 0.0
+EDGES[{ VERTICES[1373], VERTICES[3251] }] = 0.0
+EDGES[{ VERTICES[5629], VERTICES[1918] }] = 0.0
+EDGES[{ VERTICES[4283], VERTICES[2656] }] = 0.0
+EDGES[{ VERTICES[5647], VERTICES[3582] }] = 0.0
+EDGES[{ VERTICES[5162], VERTICES[617] }] = 0.0
+EDGES[{ VERTICES[3067], VERTICES[3728] }] = 0.0
+EDGES[{ VERTICES[5059], VERTICES[135] }] = 0.0
+EDGES[{ VERTICES[4355], VERTICES[2640] }] = 0.0
+EDGES[{ VERTICES[496], VERTICES[936] }] = 0.0
+EDGES[{ VERTICES[4066], VERTICES[217] }] = 0.0
+EDGES[{ VERTICES[2292], VERTICES[1300] }] = 0.0
+EDGES[{ VERTICES[1754], VERTICES[204] }] = 0.0
+EDGES[{ VERTICES[3579], VERTICES[5799] }] = 0.0
+EDGES[{ VERTICES[5452], VERTICES[3087] }] = 0.0
+EDGES[{ VERTICES[4448], VERTICES[561] }] = 0.0
+EDGES[{ VERTICES[170], VERTICES[3679] }] = 0.0
+EDGES[{ VERTICES[2545], VERTICES[3491] }] = 0.0
+EDGES[{ VERTICES[1436], VERTICES[6022] }] = 0.0
+EDGES[{ VERTICES[3408], VERTICES[3444] }] = 0.0
+EDGES[{ VERTICES[2130], VERTICES[3431] }] = 0.0
+EDGES[{ VERTICES[3779], VERTICES[1881] }] = 0.0
+EDGES[{ VERTICES[5003], VERTICES[2400] }] = 0.0
+EDGES[{ VERTICES[4244], VERTICES[1802] }] = 0.0
+EDGES[{ VERTICES[2503], VERTICES[2159] }] = 0.0
+EDGES[{ VERTICES[2340], VERTICES[4342] }] = 0.0
+EDGES[{ VERTICES[959], VERTICES[4114] }] = 0.0
+EDGES[{ VERTICES[2884], VERTICES[3746] }] = 0.0
+EDGES[{ VERTICES[5711], VERTICES[1707] }] = 0.0
+EDGES[{ VERTICES[5327], VERTICES[664] }] = 0.0
+EDGES[{ VERTICES[3615], VERTICES[5598] }] = 0.0
+EDGES[{ VERTICES[94], VERTICES[4863] }] = 0.0
+EDGES[{ VERTICES[5691], VERTICES[3111] }] = 0.0
+EDGES[{ VERTICES[3518], VERTICES[4203] }] = 0.0
+EDGES[{ VERTICES[4388], VERTICES[262] }] = 0.0
+EDGES[{ VERTICES[1072], VERTICES[5788] }] = 0.0
+EDGES[{ VERTICES[5978], VERTICES[3109] }] = 0.0
+EDGES[{ VERTICES[4230], VERTICES[2321] }] = 0.0
+EDGES[{ VERTICES[574], VERTICES[947] }] = 0.0
+EDGES[{ VERTICES[645], VERTICES[3622] }] = 0.0
+EDGES[{ VERTICES[1431], VERTICES[5800] }] = 0.0
+EDGES[{ VERTICES[2207], VERTICES[2461] }] = 0.0
+EDGES[{ VERTICES[5758], VERTICES[538] }] = 0.0
+EDGES[{ VERTICES[3567], VERTICES[5801] }] = 0.0
+EDGES[{ VERTICES[3097], VERTICES[1136] }] = 0.0
+EDGES[{ VERTICES[3716], VERTICES[1965] }] = 0.0
+EDGES[{ VERTICES[5515], VERTICES[2496] }] = 0.0
+EDGES[{ VERTICES[3811], VERTICES[524] }] = 0.0
+EDGES[{ VERTICES[1602], VERTICES[1185] }] = 0.0
+EDGES[{ VERTICES[2248], VERTICES[1324] }] = 0.0
+EDGES[{ VERTICES[5011], VERTICES[1926] }] = 0.0
+EDGES[{ VERTICES[739], VERTICES[1564] }] = 0.0
+EDGES[{ VERTICES[943], VERTICES[5553] }] = 0.0
+EDGES[{ VERTICES[5771], VERTICES[2995] }] = 0.0
+EDGES[{ VERTICES[1956], VERTICES[4728] }] = 0.0
+EDGES[{ VERTICES[483], VERTICES[3498] }] = 0.0
+EDGES[{ VERTICES[2023], VERTICES[3985] }] = 0.0
+EDGES[{ VERTICES[3785], VERTICES[533] }] = 0.0
+EDGES[{ VERTICES[2499], VERTICES[1098] }] = 0.0
+EDGES[{ VERTICES[2120], VERTICES[5228] }] = 0.0
+EDGES[{ VERTICES[2437], VERTICES[2932] }] = 0.0
+EDGES[{ VERTICES[2381], VERTICES[3871] }] = 0.0
+EDGES[{ VERTICES[1154], VERTICES[3330] }] = 0.0
+EDGES[{ VERTICES[3380], VERTICES[2282] }] = 0.0
+EDGES[{ VERTICES[5796], VERTICES[799] }] = 0.0
+EDGES[{ VERTICES[1860], VERTICES[1484] }] = 0.0
+EDGES[{ VERTICES[5863], VERTICES[5366] }] = 0.0
+EDGES[{ VERTICES[1984], VERTICES[4188] }] = 0.0
+EDGES[{ VERTICES[3807], VERTICES[159] }] = 0.0
+EDGES[{ VERTICES[1489], VERTICES[5982] }] = 0.0
+EDGES[{ VERTICES[5663], VERTICES[3005] }] = 0.0
+EDGES[{ VERTICES[2568], VERTICES[2643] }] = 0.0
+EDGES[{ VERTICES[3653], VERTICES[1162] }] = 0.0
+EDGES[{ VERTICES[3033], VERTICES[5365] }] = 0.0
+EDGES[{ VERTICES[2002], VERTICES[2189] }] = 0.0
+EDGES[{ VERTICES[2534], VERTICES[4877] }] = 0.0
+EDGES[{ VERTICES[3768], VERTICES[1274] }] = 0.0
+EDGES[{ VERTICES[2004], VERTICES[1547] }] = 0.0
+EDGES[{ VERTICES[3023], VERTICES[2650] }] = 0.0
+EDGES[{ VERTICES[3059], VERTICES[4011] }] = 0.0
+EDGES[{ VERTICES[5530], VERTICES[4271] }] = 0.0
+EDGES[{ VERTICES[737], VERTICES[1038] }] = 0.0
+EDGES[{ VERTICES[2501], VERTICES[1036] }] = 0.0
+EDGES[{ VERTICES[5915], VERTICES[5263] }] = 0.0
+EDGES[{ VERTICES[2318], VERTICES[1496] }] = 0.0
+EDGES[{ VERTICES[4616], VERTICES[5743] }] = 0.0
+EDGES[{ VERTICES[6092], VERTICES[1851] }] = 0.0
+EDGES[{ VERTICES[2842], VERTICES[5375] }] = 0.0
+EDGES[{ VERTICES[6194], VERTICES[2530] }] = 0.0
+EDGES[{ VERTICES[2349], VERTICES[631] }] = 0.0
+EDGES[{ VERTICES[2293], VERTICES[978] }] = 0.0
+EDGES[{ VERTICES[197], VERTICES[399] }] = 0.0
+EDGES[{ VERTICES[5580], VERTICES[4039] }] = 0.0
+EDGES[{ VERTICES[1407], VERTICES[914] }] = 0.0
+EDGES[{ VERTICES[3511], VERTICES[405] }] = 0.0
+EDGES[{ VERTICES[81], VERTICES[5527] }] = 0.0
+EDGES[{ VERTICES[4579], VERTICES[594] }] = 0.0
+EDGES[{ VERTICES[1497], VERTICES[1785] }] = 0.0
+EDGES[{ VERTICES[379], VERTICES[1618] }] = 0.0
+EDGES[{ VERTICES[2971], VERTICES[2394] }] = 0.0
+EDGES[{ VERTICES[1566], VERTICES[3108] }] = 0.0
+EDGES[{ VERTICES[6107], VERTICES[805] }] = 0.0
+EDGES[{ VERTICES[4468], VERTICES[4006] }] = 0.0
+EDGES[{ VERTICES[1135], VERTICES[815] }] = 0.0
+EDGES[{ VERTICES[2119], VERTICES[3823] }] = 0.0
+EDGES[{ VERTICES[2816], VERTICES[3227] }] = 0.0
+EDGES[{ VERTICES[3363], VERTICES[2739] }] = 0.0
+EDGES[{ VERTICES[2880], VERTICES[5399] }] = 0.0
+EDGES[{ VERTICES[3445], VERTICES[5158] }] = 0.0
+EDGES[{ VERTICES[3244], VERTICES[3384] }] = 0.0
+EDGES[{ VERTICES[4791], VERTICES[5031] }] = 0.0
+EDGES[{ VERTICES[6253], VERTICES[1766] }] = 0.0
+EDGES[{ VERTICES[4953], VERTICES[4915] }] = 0.0
+EDGES[{ VERTICES[5444], VERTICES[4532] }] = 0.0
+EDGES[{ VERTICES[3154], VERTICES[2091] }] = 0.0
+EDGES[{ VERTICES[2024], VERTICES[3645] }] = 0.0
+EDGES[{ VERTICES[3103], VERTICES[1522] }] = 0.0
+EDGES[{ VERTICES[3400], VERTICES[249] }] = 0.0
+EDGES[{ VERTICES[6196], VERTICES[5665] }] = 0.0
+EDGES[{ VERTICES[5250], VERTICES[5979] }] = 0.0
+EDGES[{ VERTICES[890], VERTICES[1052] }] = 0.0
+EDGES[{ VERTICES[1556], VERTICES[1589] }] = 0.0
+EDGES[{ VERTICES[4047], VERTICES[652] }] = 0.0
+EDGES[{ VERTICES[5287], VERTICES[4013] }] = 0.0
+EDGES[{ VERTICES[2017], VERTICES[4937] }] = 0.0
+EDGES[{ VERTICES[1850], VERTICES[2058] }] = 0.0
+EDGES[{ VERTICES[747], VERTICES[2426] }] = 0.0
+EDGES[{ VERTICES[2382], VERTICES[4763] }] = 0.0
+EDGES[{ VERTICES[6108], VERTICES[1364] }] = 0.0
+EDGES[{ VERTICES[2919], VERTICES[6161] }] = 0.0
+EDGES[{ VERTICES[2778], VERTICES[4183] }] = 0.0
+EDGES[{ VERTICES[5950], VERTICES[3971] }] = 0.0
+EDGES[{ VERTICES[883], VERTICES[2212] }] = 0.0
+EDGES[{ VERTICES[1186], VERTICES[3281] }] = 0.0
+EDGES[{ VERTICES[1241], VERTICES[5660] }] = 0.0
+EDGES[{ VERTICES[1107], VERTICES[2404] }] = 0.0
+EDGES[{ VERTICES[3004], VERTICES[4389] }] = 0.0
+EDGES[{ VERTICES[325], VERTICES[4088] }] = 0.0
+EDGES[{ VERTICES[4844], VERTICES[759] }] = 0.0
+EDGES[{ VERTICES[5607], VERTICES[4500] }] = 0.0
+EDGES[{ VERTICES[6109], VERTICES[4648] }] = 0.0
+EDGES[{ VERTICES[848], VERTICES[5355] }] = 0.0
+EDGES[{ VERTICES[2680], VERTICES[2013] }] = 0.0
+EDGES[{ VERTICES[383], VERTICES[5805] }] = 0.0
+EDGES[{ VERTICES[5653], VERTICES[1794] }] = 0.0
+EDGES[{ VERTICES[116], VERTICES[5370] }] = 0.0
+EDGES[{ VERTICES[3037], VERTICES[1760] }] = 0.0
+EDGES[{ VERTICES[4145], VERTICES[2366] }] = 0.0
+EDGES[{ VERTICES[388], VERTICES[5151] }] = 0.0
+EDGES[{ VERTICES[794], VERTICES[3373] }] = 0.0
+EDGES[{ VERTICES[2092], VERTICES[3878] }] = 0.0
+EDGES[{ VERTICES[216], VERTICES[1767] }] = 0.0
+EDGES[{ VERTICES[396], VERTICES[1230] }] = 0.0
+EDGES[{ VERTICES[4875], VERTICES[719] }] = 0.0
+EDGES[{ VERTICES[4562], VERTICES[6233] }] = 0.0
+EDGES[{ VERTICES[4892], VERTICES[1396] }] = 0.0
+EDGES[{ VERTICES[5829], VERTICES[2155] }] = 0.0
+EDGES[{ VERTICES[2069], VERTICES[4257] }] = 0.0
+EDGES[{ VERTICES[1554], VERTICES[1961] }] = 0.0
+EDGES[{ VERTICES[5279], VERTICES[5288] }] = 0.0
+EDGES[{ VERTICES[1064], VERTICES[5618] }] = 0.0
+EDGES[{ VERTICES[1660], VERTICES[3868] }] = 0.0
+EDGES[{ VERTICES[2451], VERTICES[1092] }] = 0.0
+EDGES[{ VERTICES[1869], VERTICES[4744] }] = 0.0
+EDGES[{ VERTICES[5603], VERTICES[3513] }] = 0.0
+EDGES[{ VERTICES[551], VERTICES[1142] }] = 0.0
+EDGES[{ VERTICES[3153], VERTICES[3583] }] = 0.0
+EDGES[{ VERTICES[830], VERTICES[1331] }] = 0.0
+EDGES[{ VERTICES[3738], VERTICES[4420] }] = 0.0
+EDGES[{ VERTICES[4700], VERTICES[95] }] = 0.0
+EDGES[{ VERTICES[3305], VERTICES[4938] }] = 0.0
+EDGES[{ VERTICES[5696], VERTICES[4178] }] = 0.0
+EDGES[{ VERTICES[6015], VERTICES[4057] }] = 0.0
+EDGES[{ VERTICES[744], VERTICES[912] }] = 0.0
+EDGES[{ VERTICES[3333], VERTICES[5110] }] = 0.0
+EDGES[{ VERTICES[5155], VERTICES[4891] }] = 0.0
+EDGES[{ VERTICES[86], VERTICES[5332] }] = 0.0
+EDGES[{ VERTICES[970], VERTICES[2331] }] = 0.0
+EDGES[{ VERTICES[2135], VERTICES[5972] }] = 0.0
+EDGES[{ VERTICES[219], VERTICES[5772] }] = 0.0
+EDGES[{ VERTICES[2850], VERTICES[1974] }] = 0.0
+EDGES[{ VERTICES[2659], VERTICES[5476] }] = 0.0
+EDGES[{ VERTICES[1076], VERTICES[875] }] = 0.0
+EDGES[{ VERTICES[3824], VERTICES[1042] }] = 0.0
+EDGES[{ VERTICES[4588], VERTICES[5193] }] = 0.0
+EDGES[{ VERTICES[3975], VERTICES[6051] }] = 0.0
+EDGES[{ VERTICES[2054], VERTICES[293] }] = 0.0
+EDGES[{ VERTICES[4761], VERTICES[4926] }] = 0.0
+EDGES[{ VERTICES[254], VERTICES[4100] }] = 0.0
+EDGES[{ VERTICES[263], VERTICES[1386] }] = 0.0
+EDGES[{ VERTICES[5034], VERTICES[2162] }] = 0.0
+EDGES[{ VERTICES[76], VERTICES[182] }] = 0.0
+EDGES[{ VERTICES[5237], VERTICES[1240] }] = 0.0
+EDGES[{ VERTICES[5692], VERTICES[922] }] = 0.0
+EDGES[{ VERTICES[24], VERTICES[1490] }] = 0.0
+EDGES[{ VERTICES[31], VERTICES[3482] }] = 0.0
+EDGES[{ VERTICES[1847], VERTICES[666] }] = 0.0
+EDGES[{ VERTICES[4303], VERTICES[3586] }] = 0.0
+EDGES[{ VERTICES[3552], VERTICES[456] }] = 0.0
+EDGES[{ VERTICES[4092], VERTICES[3456] }] = 0.0
+EDGES[{ VERTICES[2408], VERTICES[2573] }] = 0.0
+EDGES[{ VERTICES[3669], VERTICES[1170] }] = 0.0
+EDGES[{ VERTICES[5449], VERTICES[4366] }] = 0.0
+EDGES[{ VERTICES[2777], VERTICES[2518] }] = 0.0
+EDGES[{ VERTICES[5842], VERTICES[3766] }] = 0.0
+EDGES[{ VERTICES[1901], VERTICES[1803] }] = 0.0
+EDGES[{ VERTICES[4841], VERTICES[2721] }] = 0.0
+EDGES[{ VERTICES[350], VERTICES[1374] }] = 0.0
+EDGES[{ VERTICES[4015], VERTICES[6066] }] = 0.0
+EDGES[{ VERTICES[302], VERTICES[4809] }] = 0.0
+EDGES[{ VERTICES[6110], VERTICES[3398] }] = 0.0
+EDGES[{ VERTICES[506], VERTICES[4305] }] = 0.0
+EDGES[{ VERTICES[4049], VERTICES[6191] }] = 0.0
+EDGES[{ VERTICES[803], VERTICES[1187] }] = 0.0
+EDGES[{ VERTICES[3523], VERTICES[156] }] = 0.0
+EDGES[{ VERTICES[5820], VERTICES[4698] }] = 0.0
+EDGES[{ VERTICES[4680], VERTICES[3891] }] = 0.0
+EDGES[{ VERTICES[595], VERTICES[6078] }] = 0.0
+EDGES[{ VERTICES[4583], VERTICES[1239] }] = 0.0
+EDGES[{ VERTICES[829], VERTICES[2608] }] = 0.0
+EDGES[{ VERTICES[592], VERTICES[5817] }] = 0.0
+EDGES[{ VERTICES[49], VERTICES[4430] }] = 0.0
+EDGES[{ VERTICES[2614], VERTICES[3295] }] = 0.0
+EDGES[{ VERTICES[1747], VERTICES[126] }] = 0.0
+EDGES[{ VERTICES[3742], VERTICES[2871] }] = 0.0
+EDGES[{ VERTICES[4501], VERTICES[428] }] = 0.0
+EDGES[{ VERTICES[3013], VERTICES[4121] }] = 0.0
+EDGES[{ VERTICES[5717], VERTICES[5905] }] = 0.0
+EDGES[{ VERTICES[37], VERTICES[4363] }] = 0.0
+EDGES[{ VERTICES[2026], VERTICES[6178] }] = 0.0
+EDGES[{ VERTICES[4433], VERTICES[4486] }] = 0.0
+EDGES[{ VERTICES[4330], VERTICES[2181] }] = 0.0
+EDGES[{ VERTICES[5483], VERTICES[5126] }] = 0.0
+EDGES[{ VERTICES[1523], VERTICES[5166] }] = 0.0
+EDGES[{ VERTICES[1025], VERTICES[2601] }] = 0.0
+EDGES[{ VERTICES[2996], VERTICES[4323] }] = 0.0
+EDGES[{ VERTICES[4739], VERTICES[2185] }] = 0.0
+EDGES[{ VERTICES[5695], VERTICES[1912] }] = 0.0
+EDGES[{ VERTICES[2324], VERTICES[5322] }] = 0.0
+EDGES[{ VERTICES[5459], VERTICES[4220] }] = 0.0
+EDGES[{ VERTICES[3350], VERTICES[2216] }] = 0.0
+EDGES[{ VERTICES[2580], VERTICES[3452] }] = 0.0
+EDGES[{ VERTICES[4185], VERTICES[1073] }] = 0.0
+EDGES[{ VERTICES[992], VERTICES[3919] }] = 0.0
+EDGES[{ VERTICES[6192], VERTICES[4061] }] = 0.0
+EDGES[{ VERTICES[2691], VERTICES[5247] }] = 0.0
+EDGES[{ VERTICES[1896], VERTICES[845] }] = 0.0
+EDGES[{ VERTICES[3623], VERTICES[3135] }] = 0.0
+EDGES[{ VERTICES[991], VERTICES[2444] }] = 0.0
+EDGES[{ VERTICES[4414], VERTICES[4362] }] = 0.0
+EDGES[{ VERTICES[3282], VERTICES[4559] }] = 0.0
+EDGES[{ VERTICES[3070], VERTICES[1515] }] = 0.0
+EDGES[{ VERTICES[3425], VERTICES[5484] }] = 0.0
+EDGES[{ VERTICES[2628], VERTICES[5612] }] = 0.0
+EDGES[{ VERTICES[4735], VERTICES[2460] }] = 0.0
+EDGES[{ VERTICES[4327], VERTICES[908] }] = 0.0
+EDGES[{ VERTICES[964], VERTICES[2182] }] = 0.0
+EDGES[{ VERTICES[1817], VERTICES[4944] }] = 0.0
+EDGES[{ VERTICES[915], VERTICES[928] }] = 0.0
+EDGES[{ VERTICES[1905], VERTICES[1906] }] = 0.0
+EDGES[{ VERTICES[5032], VERTICES[2649] }] = 0.0
+EDGES[{ VERTICES[2755], VERTICES[375] }] = 0.0
+EDGES[{ VERTICES[4444], VERTICES[5634] }] = 0.0
+EDGES[{ VERTICES[5599], VERTICES[4358] }] = 0.0
+EDGES[{ VERTICES[2713], VERTICES[250] }] = 0.0
+EDGES[{ VERTICES[134], VERTICES[761] }] = 0.0
+EDGES[{ VERTICES[4343], VERTICES[3085] }] = 0.0
+EDGES[{ VERTICES[5325], VERTICES[2131] }] = 0.0
+EDGES[{ VERTICES[3175], VERTICES[3019] }] = 0.0
+EDGES[{ VERTICES[5710], VERTICES[630] }] = 0.0
+EDGES[{ VERTICES[6062], VERTICES[502] }] = 0.0
+EDGES[{ VERTICES[1074], VERTICES[567] }] = 0.0
+EDGES[{ VERTICES[5538], VERTICES[3666] }] = 0.0
+EDGES[{ VERTICES[1932], VERTICES[3322] }] = 0.0
+EDGES[{ VERTICES[4568], VERTICES[2756] }] = 0.0
+EDGES[{ VERTICES[3228], VERTICES[3967] }] = 0.0
+EDGES[{ VERTICES[2833], VERTICES[990] }] = 0.0
+EDGES[{ VERTICES[5389], VERTICES[5593] }] = 0.0
+EDGES[{ VERTICES[498], VERTICES[3151] }] = 0.0
+EDGES[{ VERTICES[3051], VERTICES[2757] }] = 0.0
+EDGES[{ VERTICES[5641], VERTICES[721] }] = 0.0
+EDGES[{ VERTICES[4503], VERTICES[4528] }] = 0.0
+EDGES[{ VERTICES[1045], VERTICES[2829] }] = 0.0
+EDGES[{ VERTICES[4524], VERTICES[1018] }] = 0.0
+EDGES[{ VERTICES[3792], VERTICES[6163] }] = 0.0
+EDGES[{ VERTICES[5524], VERTICES[3996] }] = 0.0
+EDGES[{ VERTICES[1168], VERTICES[5398] }] = 0.0
+EDGES[{ VERTICES[2552], VERTICES[6246] }] = 0.0
+EDGES[{ VERTICES[2741], VERTICES[1581] }] = 0.0
+EDGES[{ VERTICES[2237], VERTICES[690] }] = 0.0
+EDGES[{ VERTICES[3122], VERTICES[5038] }] = 0.0
+EDGES[{ VERTICES[3352], VERTICES[176] }] = 0.0
+EDGES[{ VERTICES[696], VERTICES[5933] }] = 0.0
+EDGES[{ VERTICES[4250], VERTICES[2785] }] = 0.0
+EDGES[{ VERTICES[3376], VERTICES[5679] }] = 0.0
+EDGES[{ VERTICES[1391], VERTICES[1380] }] = 0.0
+EDGES[{ VERTICES[334], VERTICES[151] }] = 0.0
+EDGES[{ VERTICES[2686], VERTICES[231] }] = 0.0
+EDGES[{ VERTICES[911], VERTICES[2315] }] = 0.0
+EDGES[{ VERTICES[5035], VERTICES[4186] }] = 0.0
+EDGES[{ VERTICES[996], VERTICES[1399] }] = 0.0
+EDGES[{ VERTICES[500], VERTICES[1492] }] = 0.0
+EDGES[{ VERTICES[3670], VERTICES[1763] }] = 0.0
+EDGES[{ VERTICES[3278], VERTICES[168] }] = 0.0
+EDGES[{ VERTICES[1885], VERTICES[2170] }] = 0.0
+EDGES[{ VERTICES[5704], VERTICES[5304] }] = 0.0
+EDGES[{ VERTICES[5885], VERTICES[578] }] = 0.0
+EDGES[{ VERTICES[2492], VERTICES[308] }] = 0.0
+EDGES[{ VERTICES[676], VERTICES[1970] }] = 0.0
+EDGES[{ VERTICES[6139], VERTICES[2878] }] = 0.0
+EDGES[{ VERTICES[3410], VERTICES[2592] }] = 0.0
+EDGES[{ VERTICES[3687], VERTICES[5785] }] = 0.0
+EDGES[{ VERTICES[3671], VERTICES[4369] }] = 0.0
+EDGES[{ VERTICES[1165], VERTICES[3935] }] = 0.0
+EDGES[{ VERTICES[3071], VERTICES[1756] }] = 0.0
+EDGES[{ VERTICES[1297], VERTICES[736] }] = 0.0
+EDGES[{ VERTICES[4920], VERTICES[5949] }] = 0.0
+EDGES[{ VERTICES[3585], VERTICES[413] }] = 0.0
+EDGES[{ VERTICES[4910], VERTICES[5073] }] = 0.0
+EDGES[{ VERTICES[6018], VERTICES[1410] }] = 0.0
+EDGES[{ VERTICES[2694], VERTICES[2524] }] = 0.0
+EDGES[{ VERTICES[4538], VERTICES[4720] }] = 0.0
+EDGES[{ VERTICES[1659], VERTICES[5541] }] = 0.0
+EDGES[{ VERTICES[404], VERTICES[1987] }] = 0.0
+EDGES[{ VERTICES[6213], VERTICES[4008] }] = 0.0
+EDGES[{ VERTICES[4550], VERTICES[163] }] = 0.0
+EDGES[{ VERTICES[6219], VERTICES[360] }] = 0.0
+EDGES[{ VERTICES[3641], VERTICES[851] }] = 0.0
+EDGES[{ VERTICES[2616], VERTICES[4777] }] = 0.0
+EDGES[{ VERTICES[3809], VERTICES[3536] }] = 0.0
+EDGES[{ VERTICES[3557], VERTICES[5540] }] = 0.0
+EDGES[{ VERTICES[2085], VERTICES[2074] }] = 0.0
+EDGES[{ VERTICES[2566], VERTICES[4172] }] = 0.0
+EDGES[{ VERTICES[2615], VERTICES[2537] }] = 0.0
+EDGES[{ VERTICES[175], VERTICES[5740] }] = 0.0
+EDGES[{ VERTICES[291], VERTICES[5430] }] = 0.0
+EDGES[{ VERTICES[4215], VERTICES[4359] }] = 0.0
+EDGES[{ VERTICES[72], VERTICES[562] }] = 0.0
+EDGES[{ VERTICES[1277], VERTICES[3902] }] = 0.0
+EDGES[{ VERTICES[4318], VERTICES[5926] }] = 0.0
+EDGES[{ VERTICES[1390], VERTICES[5143] }] = 0.0
+EDGES[{ VERTICES[997], VERTICES[1114] }] = 0.0
+EDGES[{ VERTICES[1709], VERTICES[99] }] = 0.0
+EDGES[{ VERTICES[4201], VERTICES[3599] }] = 0.0
+EDGES[{ VERTICES[5414], VERTICES[5619] }] = 0.0
+EDGES[{ VERTICES[90], VERTICES[5282] }] = 0.0
+EDGES[{ VERTICES[934], VERTICES[5989] }] = 0.0
+EDGES[{ VERTICES[2576], VERTICES[2217] }] = 0.0
+EDGES[{ VERTICES[4911], VERTICES[4415] }] = 0.0
+EDGES[{ VERTICES[59], VERTICES[3898] }] = 0.0
+EDGES[{ VERTICES[5191], VERTICES[2918] }] = 0.0
+EDGES[{ VERTICES[452], VERTICES[5022] }] = 0.0
+EDGES[{ VERTICES[5125], VERTICES[1774] }] = 0.0
+EDGES[{ VERTICES[6261], VERTICES[3470] }] = 0.0
+EDGES[{ VERTICES[853], VERTICES[854] }] = 0.0
+EDGES[{ VERTICES[1776], VERTICES[4045] }] = 0.0
+EDGES[{ VERTICES[3885], VERTICES[1741] }] = 0.0
+EDGES[{ VERTICES[3368], VERTICES[3081] }] = 0.0
+EDGES[{ VERTICES[4632], VERTICES[5754] }] = 0.0
+EDGES[{ VERTICES[3106], VERTICES[2595] }] = 0.0
+EDGES[{ VERTICES[4315], VERTICES[610] }] = 0.0
+EDGES[{ VERTICES[3195], VERTICES[5058] }] = 0.0
+EDGES[{ VERTICES[4689], VERTICES[2263] }] = 0.0
+EDGES[{ VERTICES[1572], VERTICES[2446] }] = 0.0
+EDGES[{ VERTICES[2572], VERTICES[5405] }] = 0.0
+EDGES[{ VERTICES[476], VERTICES[5539] }] = 0.0
+EDGES[{ VERTICES[2605], VERTICES[1892] }] = 0.0
+EDGES[{ VERTICES[2947], VERTICES[3849] }] = 0.0
+EDGES[{ VERTICES[2825], VERTICES[2804] }] = 0.0
+EDGES[{ VERTICES[5446], VERTICES[2342] }] = 0.0
+EDGES[{ VERTICES[933], VERTICES[1190] }] = 0.0
+EDGES[{ VERTICES[4173], VERTICES[5572] }] = 0.0
+EDGES[{ VERTICES[5051], VERTICES[1884] }] = 0.0
+EDGES[{ VERTICES[4055], VERTICES[3486] }] = 0.0
+EDGES[{ VERTICES[3531], VERTICES[653] }] = 0.0
+EDGES[{ VERTICES[102], VERTICES[1326] }] = 0.0
+EDGES[{ VERTICES[4381], VERTICES[3918] }] = 0.0
+EDGES[{ VERTICES[3836], VERTICES[4096] }] = 0.0
+EDGES[{ VERTICES[1798], VERTICES[348] }] = 0.0
+EDGES[{ VERTICES[1611], VERTICES[3303] }] = 0.0
+EDGES[{ VERTICES[162], VERTICES[5229] }] = 0.0
+EDGES[{ VERTICES[2098], VERTICES[2562] }] = 0.0
+EDGES[{ VERTICES[5036], VERTICES[5473] }] = 0.0
+EDGES[{ VERTICES[5564], VERTICES[1416] }] = 0.0
+EDGES[{ VERTICES[5221], VERTICES[3243] }] = 0.0
+EDGES[{ VERTICES[3129], VERTICES[4710] }] = 0.0
+EDGES[{ VERTICES[4416], VERTICES[3125] }] = 0.0
+EDGES[{ VERTICES[92], VERTICES[752] }] = 0.0
+EDGES[{ VERTICES[4140], VERTICES[1224] }] = 0.0
+EDGES[{ VERTICES[2311], VERTICES[83] }] = 0.0
+EDGES[{ VERTICES[318], VERTICES[2078] }] = 0.0
+EDGES[{ VERTICES[4357], VERTICES[1822] }] = 0.0
+EDGES[{ VERTICES[3480], VERTICES[1256] }] = 0.0
+EDGES[{ VERTICES[6021], VERTICES[3035] }] = 0.0
+EDGES[{ VERTICES[731], VERTICES[1405] }] = 0.0
+EDGES[{ VERTICES[2581], VERTICES[1811] }] = 0.0
+EDGES[{ VERTICES[6053], VERTICES[782] }] = 0.0
+EDGES[{ VERTICES[52], VERTICES[1612] }] = 0.0
+EDGES[{ VERTICES[2963], VERTICES[4205] }] = 0.0
+EDGES[{ VERTICES[437], VERTICES[4870] }] = 0.0
+EDGES[{ VERTICES[3134], VERTICES[4426] }] = 0.0
+EDGES[{ VERTICES[873], VERTICES[4483] }] = 0.0
+EDGES[{ VERTICES[5815], VERTICES[3564] }] = 0.0
+EDGES[{ VERTICES[5173], VERTICES[2504] }] = 0.0
+EDGES[{ VERTICES[2661], VERTICES[2974] }] = 0.0
+EDGES[{ VERTICES[4062], VERTICES[3296] }] = 0.0
+EDGES[{ VERTICES[2791], VERTICES[4354] }] = 0.0
+EDGES[{ VERTICES[2076], VERTICES[6254] }] = 0.0
+EDGES[{ VERTICES[6023], VERTICES[775] }] = 0.0
+EDGES[{ VERTICES[2798], VERTICES[3580] }] = 0.0
+EDGES[{ VERTICES[5690], VERTICES[1662] }] = 0.0
+EDGES[{ VERTICES[3632], VERTICES[2773] }] = 0.0
+EDGES[{ VERTICES[718], VERTICES[1189] }] = 0.0
+EDGES[{ VERTICES[3697], VERTICES[4575] }] = 0.0
+EDGES[{ VERTICES[11], VERTICES[2867] }] = 0.0
+EDGES[{ VERTICES[6026], VERTICES[4174] }] = 0.0
+EDGES[{ VERTICES[760], VERTICES[6205] }] = 0.0
+EDGES[{ VERTICES[39], VERTICES[613] }] = 0.0
+EDGES[{ VERTICES[5480], VERTICES[4499] }] = 0.0
+EDGES[{ VERTICES[4210], VERTICES[133] }] = 0.0
+EDGES[{ VERTICES[5942], VERTICES[4476] }] = 0.0
+EDGES[{ VERTICES[5600], VERTICES[5205] }] = 0.0
+EDGES[{ VERTICES[220], VERTICES[2478] }] = 0.0
+EDGES[{ VERTICES[2160], VERTICES[2347] }] = 0.0
+EDGES[{ VERTICES[3107], VERTICES[4581] }] = 0.0
+EDGES[{ VERTICES[1855], VERTICES[2369] }] = 0.0
+EDGES[{ VERTICES[1588], VERTICES[5184] }] = 0.0
+EDGES[{ VERTICES[822], VERTICES[2882] }] = 0.0
+EDGES[{ VERTICES[382], VERTICES[359] }] = 0.0
+EDGES[{ VERTICES[1275], VERTICES[3912] }] = 0.0
+EDGES[{ VERTICES[3074], VERTICES[1903] }] = 0.0
+EDGES[{ VERTICES[5141], VERTICES[5187] }] = 0.0
+EDGES[{ VERTICES[1172], VERTICES[2720] }] = 0.0
+EDGES[{ VERTICES[2823], VERTICES[3420] }] = 0.0
+EDGES[{ VERTICES[1487], VERTICES[556] }] = 0.0
+EDGES[{ VERTICES[392], VERTICES[1788] }] = 0.0
+EDGES[{ VERTICES[1211], VERTICES[1939] }] = 0.0
+EDGES[{ VERTICES[2894], VERTICES[3436] }] = 0.0
+EDGES[{ VERTICES[3080], VERTICES[1102] }] = 0.0
+EDGES[{ VERTICES[3000], VERTICES[367] }] = 0.0
+EDGES[{ VERTICES[1201], VERTICES[1243] }] = 0.0
+EDGES[{ VERTICES[3560], VERTICES[5916] }] = 0.0
+EDGES[{ VERTICES[2551], VERTICES[4951] }] = 0.0
+EDGES[{ VERTICES[3299], VERTICES[4465] }] = 0.0
+EDGES[{ VERTICES[5973], VERTICES[4497] }] = 0.0
+EDGES[{ VERTICES[4431], VERTICES[5413] }] = 0.0
+EDGES[{ VERTICES[3533], VERTICES[6125] }] = 0.0
+EDGES[{ VERTICES[366], VERTICES[2219] }] = 0.0
+EDGES[{ VERTICES[2510], VERTICES[5700] }] = 0.0
+EDGES[{ VERTICES[2909], VERTICES[1486] }] = 0.0
+EDGES[{ VERTICES[2975], VERTICES[1560] }] = 0.0
+EDGES[{ VERTICES[1159], VERTICES[4860] }] = 0.0
+EDGES[{ VERTICES[4922], VERTICES[3078] }] = 0.0
+EDGES[{ VERTICES[1793], VERTICES[3130] }] = 0.0
+EDGES[{ VERTICES[1167], VERTICES[5751] }] = 0.0
+EDGES[{ VERTICES[2391], VERTICES[2144] }] = 0.0
+EDGES[{ VERTICES[274], VERTICES[4012] }] = 0.0
+EDGES[{ VERTICES[5411], VERTICES[3914] }] = 0.0
+EDGES[{ VERTICES[1140], VERTICES[2498] }] = 0.0
+EDGES[{ VERTICES[5407], VERTICES[5953] }] = 0.0
+EDGES[{ VERTICES[2335], VERTICES[4747] }] = 0.0
+EDGES[{ VERTICES[5845], VERTICES[3966] }] = 0.0
+EDGES[{ VERTICES[5923], VERTICES[5225] }] = 0.0
+EDGES[{ VERTICES[5822], VERTICES[3493] }] = 0.0
+EDGES[{ VERTICES[3770], VERTICES[4722] }] = 0.0
+EDGES[{ VERTICES[1358], VERTICES[2979] }] = 0.0
+EDGES[{ VERTICES[5302], VERTICES[2714] }] = 0.0
+EDGES[{ VERTICES[2678], VERTICES[5068] }] = 0.0
+EDGES[{ VERTICES[2419], VERTICES[1420] }] = 0.0
+EDGES[{ VERTICES[1664], VERTICES[544] }] = 0.0
+EDGES[{ VERTICES[881], VERTICES[2080] }] = 0.0
+EDGES[{ VERTICES[368], VERTICES[1917] }] = 0.0
+EDGES[{ VERTICES[4117], VERTICES[1584] }] = 0.0
+EDGES[{ VERTICES[2278], VERTICES[1654] }] = 0.0
+EDGES[{ VERTICES[4165], VERTICES[4261] }] = 0.0
+EDGES[{ VERTICES[5466], VERTICES[4785] }] = 0.0
+EDGES[{ VERTICES[4631], VERTICES[1199] }] = 0.0
+EDGES[{ VERTICES[3234], VERTICES[2612] }] = 0.0
+EDGES[{ VERTICES[4518], VERTICES[3076] }] = 0.0
+EDGES[{ VERTICES[1678], VERTICES[2711] }] = 0.0
+EDGES[{ VERTICES[5652], VERTICES[5824] }] = 0.0
+EDGES[{ VERTICES[1175], VERTICES[5026] }] = 0.0
+EDGES[{ VERTICES[1156], VERTICES[4780] }] = 0.0
+EDGES[{ VERTICES[3512], VERTICES[4344] }] = 0.0
+EDGES[{ VERTICES[941], VERTICES[776] }] = 0.0
+EDGES[{ VERTICES[1933], VERTICES[5138] }] = 0.0
+EDGES[{ VERTICES[3799], VERTICES[1937] }] = 0.0
+EDGES[{ VERTICES[2320], VERTICES[3377] }] = 0.0
+EDGES[{ VERTICES[5672], VERTICES[4864] }] = 0.0
+EDGES[{ VERTICES[2922], VERTICES[2420] }] = 0.0
+EDGES[{ VERTICES[2897], VERTICES[4576] }] = 0.0
+EDGES[{ VERTICES[3745], VERTICES[1576] }] = 0.0
+EDGES[{ VERTICES[5431], VERTICES[2652] }] = 0.0
+EDGES[{ VERTICES[427], VERTICES[3390] }] = 0.0
+EDGES[{ VERTICES[581], VERTICES[4286] }] = 0.0
+EDGES[{ VERTICES[2269], VERTICES[5223] }] = 0.0
+EDGES[{ VERTICES[5935], VERTICES[802] }] = 0.0
+EDGES[{ VERTICES[4987], VERTICES[3714] }] = 0.0
+EDGES[{ VERTICES[1418], VERTICES[5990] }] = 0.0
+EDGES[{ VERTICES[5562], VERTICES[5234] }] = 0.0
+EDGES[{ VERTICES[4615], VERTICES[2105] }] = 0.0
+EDGES[{ VERTICES[4464], VERTICES[2387] }] = 0.0
+EDGES[{ VERTICES[3686], VERTICES[2393] }] = 0.0
+EDGES[{ VERTICES[2944], VERTICES[501] }] = 0.0
+EDGES[{ VERTICES[6014], VERTICES[659] }] = 0.0
+EDGES[{ VERTICES[2841], VERTICES[4807] }] = 0.0
+EDGES[{ VERTICES[2224], VERTICES[5007] }] = 0.0
+EDGES[{ VERTICES[1613], VERTICES[5341] }] = 0.0
+EDGES[{ VERTICES[3720], VERTICES[5642] }] = 0.0
+EDGES[{ VERTICES[4386], VERTICES[2020] }] = 0.0
+EDGES[{ VERTICES[1479], VERTICES[353] }] = 0.0
+EDGES[{ VERTICES[5741], VERTICES[4034] }] = 0.0
+EDGES[{ VERTICES[5048], VERTICES[2059] }] = 0.0
+EDGES[{ VERTICES[1125], VERTICES[5491] }] = 0.0
+EDGES[{ VERTICES[6002], VERTICES[5722] }] = 0.0
+EDGES[{ VERTICES[5357], VERTICES[4273] }] = 0.0
+EDGES[{ VERTICES[6241], VERTICES[4300] }] = 0.0
+EDGES[{ VERTICES[1510], VERTICES[4585] }] = 0.0
+EDGES[{ VERTICES[3359], VERTICES[4217] }] = 0.0
+EDGES[{ VERTICES[1265], VERTICES[5001] }] = 0.0
+EDGES[{ VERTICES[1997], VERTICES[5167] }] = 0.0
+EDGES[{ VERTICES[687], VERTICES[3079] }] = 0.0
+EDGES[{ VERTICES[6172], VERTICES[4637] }] = 0.0
+EDGES[{ VERTICES[4064], VERTICES[4597] }] = 0.0
+EDGES[{ VERTICES[4565], VERTICES[4848] }] = 0.0
+EDGES[{ VERTICES[2363], VERTICES[4202] }] = 0.0
+EDGES[{ VERTICES[1283], VERTICES[5390] }] = 0.0
+EDGES[{ VERTICES[4032], VERTICES[234] }] = 0.0
+EDGES[{ VERTICES[4571], VERTICES[3083] }] = 0.0
+EDGES[{ VERTICES[2441], VERTICES[2857] }] = 0.0
+EDGES[{ VERTICES[3544], VERTICES[5050] }] = 0.0
+EDGES[{ VERTICES[3929], VERTICES[5681] }] = 0.0
+EDGES[{ VERTICES[5964], VERTICES[2112] }] = 0.0
+EDGES[{ VERTICES[4334], VERTICES[2425] }] = 0.0
+EDGES[{ VERTICES[4811], VERTICES[1913] }] = 0.0
+EDGES[{ VERTICES[2414], VERTICES[2565] }] = 0.0
+EDGES[{ VERTICES[5639], VERTICES[3439] }] = 0.0
+EDGES[{ VERTICES[3553], VERTICES[2535] }] = 0.0
+EDGES[{ VERTICES[4043], VERTICES[3709] }] = 0.0
+EDGES[{ VERTICES[4310], VERTICES[4212] }] = 0.0
+EDGES[{ VERTICES[1309], VERTICES[6173] }] = 0.0
+EDGES[{ VERTICES[6040], VERTICES[80] }] = 0.0
+EDGES[{ VERTICES[2431], VERTICES[4556] }] = 0.0
+EDGES[{ VERTICES[2666], VERTICES[272] }] = 0.0
+EDGES[{ VERTICES[2298], VERTICES[3833] }] = 0.0
+EDGES[{ VERTICES[5980], VERTICES[2443] }] = 0.0
+EDGES[{ VERTICES[961], VERTICES[6238] }] = 0.0
+EDGES[{ VERTICES[2901], VERTICES[2380] }] = 0.0
+EDGES[{ VERTICES[3816], VERTICES[4872] }] = 0.0
+EDGES[{ VERTICES[893], VERTICES[5976] }] = 0.0
+EDGES[{ VERTICES[373], VERTICES[1597] }] = 0.0
+EDGES[{ VERTICES[5786], VERTICES[1169] }] = 0.0
+EDGES[{ VERTICES[2898], VERTICES[13] }] = 0.0
+EDGES[{ VERTICES[1131], VERTICES[4141] }] = 0.0
+EDGES[{ VERTICES[3391], VERTICES[1345] }] = 0.0
+EDGES[{ VERTICES[1746], VERTICES[2613] }] = 0.0
+EDGES[{ VERTICES[685], VERTICES[2110] }] = 0.0
+EDGES[{ VERTICES[192], VERTICES[680] }] = 0.0
+EDGES[{ VERTICES[1266], VERTICES[1831] }] = 0.0
+EDGES[{ VERTICES[3315], VERTICES[3364] }] = 0.0
+EDGES[{ VERTICES[488], VERTICES[4737] }] = 0.0
+EDGES[{ VERTICES[5847], VERTICES[555] }] = 0.0
+EDGES[{ VERTICES[637], VERTICES[3053] }] = 0.0
+EDGES[{ VERTICES[4024], VERTICES[4687] }] = 0.0
+EDGES[{ VERTICES[1194], VERTICES[277] }] = 0.0
+EDGES[{ VERTICES[5094], VERTICES[2201] }] = 0.0
+EDGES[{ VERTICES[2325], VERTICES[5644] }] = 0.0
+EDGES[{ VERTICES[2146], VERTICES[4668] }] = 0.0
+EDGES[{ VERTICES[4268], VERTICES[4516] }] = 0.0
+EDGES[{ VERTICES[4164], VERTICES[4694] }] = 0.0
+EDGES[{ VERTICES[4182], VERTICES[1509] }] = 0.0
+EDGES[{ VERTICES[6034], VERTICES[41] }] = 0.0
+EDGES[{ VERTICES[5891], VERTICES[706] }] = 0.0
+EDGES[{ VERTICES[512], VERTICES[3901] }] = 0.0
+EDGES[{ VERTICES[497], VERTICES[2030] }] = 0.0
+EDGES[{ VERTICES[477], VERTICES[1752] }] = 0.0
+EDGES[{ VERTICES[5823], VERTICES[5893] }] = 0.0
+EDGES[{ VERTICES[3289], VERTICES[5830] }] = 0.0
+EDGES[{ VERTICES[2398], VERTICES[3110] }] = 0.0
+EDGES[{ VERTICES[3986], VERTICES[892] }] = 0.0
+EDGES[{ VERTICES[2327], VERTICES[5932] }] = 0.0
+EDGES[{ VERTICES[2879], VERTICES[4626] }] = 0.0
+EDGES[{ VERTICES[3613], VERTICES[5604] }] = 0.0
+EDGES[{ VERTICES[2885], VERTICES[3459] }] = 0.0
+EDGES[{ VERTICES[766], VERTICES[3399] }] = 0.0
+EDGES[{ VERTICES[3519], VERTICES[4239] }] = 0.0
+EDGES[{ VERTICES[5261], VERTICES[1750] }] = 0.0
+EDGES[{ VERTICES[5163], VERTICES[2317] }] = 0.0
+EDGES[{ VERTICES[4756], VERTICES[3223] }] = 0.0
+EDGES[{ VERTICES[3311], VERTICES[2416] }] = 0.0
+EDGES[{ VERTICES[137], VERTICES[2066] }] = 0.0
+EDGES[{ VERTICES[5922], VERTICES[40] }] = 0.0
+EDGES[{ VERTICES[1067], VERTICES[1711] }] = 0.0
+EDGES[{ VERTICES[2000], VERTICES[1586] }] = 0.0
+EDGES[{ VERTICES[4903], VERTICES[2116] }] = 0.0
+EDGES[{ VERTICES[296], VERTICES[3866] }] = 0.0
+EDGES[{ VERTICES[3112], VERTICES[336] }] = 0.0
+EDGES[{ VERTICES[1508], VERTICES[1919] }] = 0.0
+EDGES[{ VERTICES[667], VERTICES[1701] }] = 0.0
+EDGES[{ VERTICES[338], VERTICES[5625] }] = 0.0
+EDGES[{ VERTICES[5061], VERTICES[1047] }] = 0.0
+EDGES[{ VERTICES[2684], VERTICES[3453] }] = 0.0
+EDGES[{ VERTICES[2287], VERTICES[5242] }] = 0.0
+EDGES[{ VERTICES[2958], VERTICES[4603] }] = 0.0
+EDGES[{ VERTICES[5258], VERTICES[2295] }] = 0.0
+EDGES[{ VERTICES[215], VERTICES[158] }] = 0.0
+EDGES[{ VERTICES[4177], VERTICES[2272] }] = 0.0
+EDGES[{ VERTICES[4371], VERTICES[971] }] = 0.0
+EDGES[{ VERTICES[1911], VERTICES[3189] }] = 0.0
+EDGES[{ VERTICES[1927], VERTICES[3522] }] = 0.0
+EDGES[{ VERTICES[5848], VERTICES[4825] }] = 0.0
+EDGES[{ VERTICES[5337], VERTICES[743] }] = 0.0
+EDGES[{ VERTICES[1592], VERTICES[445] }] = 0.0
+EDGES[{ VERTICES[5033], VERTICES[5254] }] = 0.0
+EDGES[{ VERTICES[4776], VERTICES[2982] }] = 0.0
+EDGES[{ VERTICES[1832], VERTICES[3142] }] = 0.0
+EDGES[{ VERTICES[5730], VERTICES[3184] }] = 0.0
+EDGES[{ VERTICES[144], VERTICES[3793] }] = 0.0
+EDGES[{ VERTICES[2865], VERTICES[4792] }] = 0.0
+EDGES[{ VERTICES[3039], VERTICES[3252] }] = 0.0
+EDGES[{ VERTICES[2064], VERTICES[1009] }] = 0.0
+EDGES[{ VERTICES[3800], VERTICES[6012] }] = 0.0
+EDGES[{ VERTICES[693], VERTICES[1898] }] = 0.0
+EDGES[{ VERTICES[2322], VERTICES[3963] }] = 0.0
+EDGES[{ VERTICES[3006], VERTICES[1419] }] = 0.0
+EDGES[{ VERTICES[1593], VERTICES[2735] }] = 0.0
+EDGES[{ VERTICES[3320], VERTICES[4662] }] = 0.0
+EDGES[{ VERTICES[4218], VERTICES[5096] }] = 0.0
+EDGES[{ VERTICES[4514], VERTICES[5382] }] = 0.0
+EDGES[{ VERTICES[3242], VERTICES[5418] }] = 0.0
+EDGES[{ VERTICES[565], VERTICES[1480] }] = 0.0
+EDGES[{ VERTICES[5000], VERTICES[5501] }] = 0.0
+EDGES[{ VERTICES[3469], VERTICES[2676] }] = 0.0
+EDGES[{ VERTICES[4290], VERTICES[299] }] = 0.0
+EDGES[{ VERTICES[5977], VERTICES[2597] }] = 0.0
+EDGES[{ VERTICES[5777], VERTICES[1772] }] = 0.0
+EDGES[{ VERTICES[6060], VERTICES[4001] }] = 0.0
+EDGES[{ VERTICES[2270], VERTICES[725] }] = 0.0
+EDGES[{ VERTICES[1652], VERTICES[3907] }] = 0.0
+EDGES[{ VERTICES[3118], VERTICES[2920] }] = 0.0
+EDGES[{ VERTICES[3217], VERTICES[4021] }] = 0.0
+EDGES[{ VERTICES[2312], VERTICES[3279] }] = 0.0
+EDGES[{ VERTICES[2849], VERTICES[4544] }] = 0.0
+EDGES[{ VERTICES[5632], VERTICES[2474] }] = 0.0
+EDGES[{ VERTICES[925], VERTICES[2344] }] = 0.0
+EDGES[{ VERTICES[1808], VERTICES[5215] }] = 0.0
+EDGES[{ VERTICES[304], VERTICES[4812] }] = 0.0
+EDGES[{ VERTICES[3909], VERTICES[2688] }] = 0.0
+EDGES[{ VERTICES[5076], VERTICES[6262] }] = 0.0
+EDGES[{ VERTICES[1355], VERTICES[503] }] = 0.0
+EDGES[{ VERTICES[4856], VERTICES[1637] }] = 0.0
+EDGES[{ VERTICES[5784], VERTICES[1215] }] = 0.0
+EDGES[{ VERTICES[5262], VERTICES[183] }] = 0.0
+EDGES[{ VERTICES[917], VERTICES[2100] }] = 0.0
+EDGES[{ VERTICES[3710], VERTICES[4770] }] = 0.0
+EDGES[{ VERTICES[1317], VERTICES[3952] }] = 0.0
+EDGES[{ VERTICES[4372], VERTICES[1017] }] = 0.0
+EDGES[{ VERTICES[4129], VERTICES[5991] }] = 0.0
+EDGES[{ VERTICES[2627], VERTICES[2774] }] = 0.0
+EDGES[{ VERTICES[341], VERTICES[3356] }] = 0.0
+EDGES[{ VERTICES[5028], VERTICES[2191] }] = 0.0
+EDGES[{ VERTICES[2784], VERTICES[3272] }] = 0.0
+EDGES[{ VERTICES[5113], VERTICES[5878] }] = 0.0
+EDGES[{ VERTICES[2783], VERTICES[4216] }] = 0.0
+EDGES[{ VERTICES[139], VERTICES[3160] }] = 0.0
+EDGES[{ VERTICES[6182], VERTICES[3612] }] = 0.0
+EDGES[{ VERTICES[4308], VERTICES[5040] }] = 0.0
+EDGES[{ VERTICES[1643], VERTICES[5150] }] = 0.0
+EDGES[{ VERTICES[3535], VERTICES[6175] }] = 0.0
+EDGES[{ VERTICES[3722], VERTICES[4016] }] = 0.0
+EDGES[{ VERTICES[331], VERTICES[278] }] = 0.0
+EDGES[{ VERTICES[3341], VERTICES[5462] }] = 0.0
+EDGES[{ VERTICES[25], VERTICES[199] }] = 0.0
+EDGES[{ VERTICES[4083], VERTICES[150] }] = 0.0
+EDGES[{ VERTICES[5645], VERTICES[1638] }] = 0.0
+EDGES[{ VERTICES[4502], VERTICES[1679] }] = 0.0
+EDGES[{ VERTICES[2485], VERTICES[5921] }] = 0.0
+EDGES[{ VERTICES[4633], VERTICES[1698] }] = 0.0
+EDGES[{ VERTICES[6130], VERTICES[400] }] = 0.0
+EDGES[{ VERTICES[5340], VERTICES[1007] }] = 0.0
+EDGES[{ VERTICES[4408], VERTICES[5570] }] = 0.0
+EDGES[{ VERTICES[3395], VERTICES[1708] }] = 0.0
+EDGES[{ VERTICES[241], VERTICES[1799] }] = 0.0
+EDGES[{ VERTICES[2060], VERTICES[2014] }] = 0.0
+EDGES[{ VERTICES[3172], VERTICES[1656] }] = 0.0
+EDGES[{ VERTICES[6112], VERTICES[1821] }] = 0.0
+EDGES[{ VERTICES[2221], VERTICES[4897] }] = 0.0
+EDGES[{ VERTICES[2246], VERTICES[4337] }] = 0.0
+EDGES[{ VERTICES[2700], VERTICES[5745] }] = 0.0
+EDGES[{ VERTICES[493], VERTICES[5464] }] = 0.0
+EDGES[{ VERTICES[1453], VERTICES[4304] }] = 0.0
+EDGES[{ VERTICES[3220], VERTICES[2329] }] = 0.0
+EDGES[{ VERTICES[625], VERTICES[5255] }] = 0.0
+EDGES[{ VERTICES[4492], VERTICES[4028] }] = 0.0
+EDGES[{ VERTICES[5009], VERTICES[3504] }] = 0.0
+EDGES[{ VERTICES[859], VERTICES[4017] }] = 0.0
+EDGES[{ VERTICES[4068], VERTICES[2428] }] = 0.0
+EDGES[{ VERTICES[3215], VERTICES[3611] }] = 0.0
+EDGES[{ VERTICES[4638], VERTICES[5585] }] = 0.0
+EDGES[{ VERTICES[4329], VERTICES[1149] }] = 0.0
+EDGES[{ VERTICES[1181], VERTICES[839] }] = 0.0
+EDGES[{ VERTICES[2264], VERTICES[6206] }] = 0.0
+EDGES[{ VERTICES[754], VERTICES[5379] }] = 0.0
+EDGES[{ VERTICES[6009], VERTICES[3801] }] = 0.0
+EDGES[{ VERTICES[1820], VERTICES[1797] }] = 0.0
+EDGES[{ VERTICES[5762], VERTICES[2005] }] = 0.0
+EDGES[{ VERTICES[4952], VERTICES[5912] }] = 0.0
+EDGES[{ VERTICES[5044], VERTICES[1669] }] = 0.0
+EDGES[{ VERTICES[3602], VERTICES[648] }] = 0.0
+EDGES[{ VERTICES[6005], VERTICES[276] }] = 0.0
+EDGES[{ VERTICES[1871], VERTICES[5930] }] = 0.0
+EDGES[{ VERTICES[1827], VERTICES[6093] }] = 0.0
+EDGES[{ VERTICES[3873], VERTICES[944] }] = 0.0
+EDGES[{ VERTICES[5658], VERTICES[21] }] = 0.0
+EDGES[{ VERTICES[3433], VERTICES[5146] }] = 0.0
+EDGES[{ VERTICES[3880], VERTICES[3277] }] = 0.0
+EDGES[{ VERTICES[4116], VERTICES[2831] }] = 0.0
+EDGES[{ VERTICES[974], VERTICES[5350] }] = 0.0
+EDGES[{ VERTICES[4797], VERTICES[2790] }] = 0.0
+EDGES[{ VERTICES[2916], VERTICES[2743] }] = 0.0
+EDGES[{ VERTICES[5175], VERTICES[814] }] = 0.0
+EDGES[{ VERTICES[5192], VERTICES[1585] }] = 0.0
+EDGES[{ VERTICES[5412], VERTICES[5415] }] = 0.0
+EDGES[{ VERTICES[1182], VERTICES[1127] }] = 0.0
+EDGES[{ VERTICES[3301], VERTICES[3939] }] = 0.0
+EDGES[{ VERTICES[1116], VERTICES[4679] }] = 0.0
+EDGES[{ VERTICES[2770], VERTICES[1784] }] = 0.0
+EDGES[{ VERTICES[2846], VERTICES[4072] }] = 0.0
+EDGES[{ VERTICES[872], VERTICES[193] }] = 0.0
+EDGES[{ VERTICES[5835], VERTICES[646] }] = 0.0
+EDGES[{ VERTICES[6157], VERTICES[323] }] = 0.0
+EDGES[{ VERTICES[5103], VERTICES[4287] }] = 0.0
+EDGES[{ VERTICES[6017], VERTICES[77] }] = 0.0
+EDGES[{ VERTICES[6180], VERTICES[4331] }] = 0.0
+EDGES[{ VERTICES[4783], VERTICES[4540] }] = 0.0
+EDGES[{ VERTICES[1060], VERTICES[4521] }] = 0.0
+EDGES[{ VERTICES[841], VERTICES[2799] }] = 0.0
+EDGES[{ VERTICES[2165], VERTICES[461] }] = 0.0
+EDGES[{ VERTICES[746], VERTICES[4702] }] = 0.0
+EDGES[{ VERTICES[1295], VERTICES[1103] }] = 0.0
+EDGES[{ VERTICES[730], VERTICES[2117] }] = 0.0
+EDGES[{ VERTICES[3593], VERTICES[2429] }] = 0.0
+EDGES[{ VERTICES[5450], VERTICES[4961] }] = 0.0
+EDGES[{ VERTICES[1068], VERTICES[6085] }] = 0.0
+EDGES[{ VERTICES[3981], VERTICES[1550] }] = 0.0
+EDGES[{ VERTICES[5839], VERTICES[4467] }] = 0.0
+EDGES[{ VERTICES[1942], VERTICES[709] }] = 0.0
+EDGES[{ VERTICES[2353], VERTICES[103] }] = 0.0
+EDGES[{ VERTICES[5981], VERTICES[1413] }] = 0.0
+EDGES[{ VERTICES[6025], VERTICES[117] }] = 0.0
+EDGES[{ VERTICES[1854], VERTICES[4686] }] = 0.0
+EDGES[{ VERTICES[2386], VERTICES[2746] }] = 0.0
+EDGES[{ VERTICES[1444], VERTICES[2486] }] = 0.0
+EDGES[{ VERTICES[1880], VERTICES[5960] }] = 0.0
+EDGES[{ VERTICES[191], VERTICES[33] }] = 0.0
+EDGES[{ VERTICES[407], VERTICES[5283] }] = 0.0
+EDGES[{ VERTICES[1578], VERTICES[3840] }] = 0.0
+EDGES[{ VERTICES[3466], VERTICES[332] }] = 0.0
+EDGES[{ VERTICES[762], VERTICES[855] }] = 0.0
+EDGES[{ VERTICES[2610], VERTICES[228] }] = 0.0
+EDGES[{ VERTICES[2290], VERTICES[531] }] = 0.0
+EDGES[{ VERTICES[2490], VERTICES[4901] }] = 0.0
+EDGES[{ VERTICES[5748], VERTICES[6013] }] = 0.0
+EDGES[{ VERTICES[389], VERTICES[2800] }] = 0.0
+EDGES[{ VERTICES[4397], VERTICES[1106] }] = 0.0
+EDGES[{ VERTICES[791], VERTICES[5082] }] = 0.0
+EDGES[{ VERTICES[2693], VERTICES[5868] }] = 0.0
+EDGES[{ VERTICES[4137], VERTICES[71] }] = 0.0
+EDGES[{ VERTICES[539], VERTICES[4346] }] = 0.0
+EDGES[{ VERTICES[1273], VERTICES[295] }] = 0.0
+EDGES[{ VERTICES[3214], VERTICES[4259] }] = 0.0
+EDGES[{ VERTICES[532], VERTICES[2148] }] = 0.0
+EDGES[{ VERTICES[303], VERTICES[6132] }] = 0.0
+EDGES[{ VERTICES[2968], VERTICES[5188] }] = 0.0
+EDGES[{ VERTICES[4167], VERTICES[3133] }] = 0.0
+EDGES[{ VERTICES[5513], VERTICES[1468] }] = 0.0
+EDGES[{ VERTICES[5164], VERTICES[1381] }] = 0.0
+EDGES[{ VERTICES[1779], VERTICES[4494] }] = 0.0
+EDGES[{ VERTICES[218], VERTICES[729] }] = 0.0
+EDGES[{ VERTICES[3676], VERTICES[5941] }] = 0.0
+EDGES[{ VERTICES[3829], VERTICES[6179] }] = 0.0
+EDGES[{ VERTICES[3104], VERTICES[5798] }] = 0.0
+EDGES[{ VERTICES[3442], VERTICES[152] }] = 0.0
+EDGES[{ VERTICES[3743], VERTICES[5948] }] = 0.0
+EDGES[{ VERTICES[1815], VERTICES[1093] }] = 0.0
+EDGES[{ VERTICES[6165], VERTICES[236] }] = 0.0
+EDGES[{ VERTICES[4085], VERTICES[4684] }] = 0.0
+EDGES[{ VERTICES[3239], VERTICES[5239] }] = 0.0
+EDGES[{ VERTICES[1432], VERTICES[1888] }] = 0.0
+EDGES[{ VERTICES[3626], VERTICES[3312] }] = 0.0
+EDGES[{ VERTICES[4855], VERTICES[4292] }] = 0.0
+EDGES[{ VERTICES[1132], VERTICES[1778] }] = 0.0
+EDGES[{ VERTICES[1393], VERTICES[5890] }] = 0.0
+EDGES[{ VERTICES[981], VERTICES[4155] }] = 0.0
+EDGES[{ VERTICES[61], VERTICES[6103] }] = 0.0
+EDGES[{ VERTICES[4462], VERTICES[3325] }] = 0.0
+EDGES[{ VERTICES[3808], VERTICES[4166] }] = 0.0
+EDGES[{ VERTICES[2358], VERTICES[3170] }] = 0.0
+EDGES[{ VERTICES[1388], VERTICES[2954] }] = 0.0
+EDGES[{ VERTICES[5744], VERTICES[2900] }] = 0.0
+EDGES[{ VERTICES[6097], VERTICES[3253] }] = 0.0
+EDGES[{ VERTICES[3815], VERTICES[1801] }] = 0.0
+EDGES[{ VERTICES[3953], VERTICES[952] }] = 0.0
+EDGES[{ VERTICES[3329], VERTICES[4314] }] = 0.0
+EDGES[{ VERTICES[1644], VERTICES[2682] }] = 0.0
+EDGES[{ VERTICES[185], VERTICES[459] }] = 0.0
+EDGES[{ VERTICES[3870], VERTICES[6143] }] = 0.0
+EDGES[{ VERTICES[615], VERTICES[440] }] = 0.0
+EDGES[{ VERTICES[4837], VERTICES[1726] }] = 0.0
+EDGES[{ VERTICES[4086], VERTICES[5336] }] = 0.0
+EDGES[{ VERTICES[3166], VERTICES[3370] }] = 0.0
+EDGES[{ VERTICES[5091], VERTICES[4280] }] = 0.0
+EDGES[{ VERTICES[4248], VERTICES[1934] }] = 0.0
+EDGES[{ VERTICES[4838], VERTICES[3113] }] = 0.0
+EDGES[{ VERTICES[3475], VERTICES[3699] }] = 0.0
+EDGES[{ VERTICES[1971], VERTICES[5161] }] = 0.0
+EDGES[{ VERTICES[4229], VERTICES[4569] }] = 0.0
+EDGES[{ VERTICES[214], VERTICES[4685] }] = 0.0
+EDGES[{ VERTICES[495], VERTICES[4709] }] = 0.0
+EDGES[{ VERTICES[5259], VERTICES[1337] }] = 0.0
+EDGES[{ VERTICES[4104], VERTICES[4822] }] = 0.0
+EDGES[{ VERTICES[622], VERTICES[87] }] = 0.0
+EDGES[{ VERTICES[5876], VERTICES[5575] }] = 0.0
+EDGES[{ VERTICES[2245], VERTICES[2632] }] = 0.0
+EDGES[{ VERTICES[1204], VERTICES[1655] }] = 0.0
+EDGES[{ VERTICES[3472], VERTICES[4437] }] = 0.0
+EDGES[{ VERTICES[3747], VERTICES[4959] }] = 0.0
+EDGES[{ VERTICES[4919], VERTICES[1978] }] = 0.0
+EDGES[{ VERTICES[3150], VERTICES[4395] }] = 0.0
+EDGES[{ VERTICES[4832], VERTICES[2434] }] = 0.0
+EDGES[{ VERTICES[475], VERTICES[3818] }] = 0.0
+EDGES[{ VERTICES[5224], VERTICES[6113] }] = 0.0
+EDGES[{ VERTICES[286], VERTICES[1456] }] = 0.0
+EDGES[{ VERTICES[6220], VERTICES[5693] }] = 0.0
+EDGES[{ VERTICES[147], VERTICES[4] }] = 0.0
+EDGES[{ VERTICES[5075], VERTICES[1286] }] = 0.0
+EDGES[{ VERTICES[4534], VERTICES[3505] }] = 0.0
+EDGES[{ VERTICES[1242], VERTICES[5392] }] = 0.0
+EDGES[{ VERTICES[1601], VERTICES[5186] }] = 0.0
+EDGES[{ VERTICES[2], VERTICES[742] }] = 0.0
+EDGES[{ VERTICES[3942], VERTICES[5388] }] = 0.0
+EDGES[{ VERTICES[2671], VERTICES[5320] }] = 0.0
+EDGES[{ VERTICES[1536], VERTICES[1332] }] = 0.0
+EDGES[{ VERTICES[2559], VERTICES[354] }] = 0.0
+EDGES[{ VERTICES[196], VERTICES[1534] }] = 0.0
+EDGES[{ VERTICES[5477], VERTICES[5782] }] = 0.0
+EDGES[{ VERTICES[798], VERTICES[1166] }] = 0.0
+EDGES[{ VERTICES[3357], VERTICES[3708] }] = 0.0
+EDGES[{ VERTICES[3723], VERTICES[2845] }] = 0.0
+EDGES[{ VERTICES[2715], VERTICES[6076] }] = 0.0
+EDGES[{ VERTICES[3344], VERTICES[1318] }] = 0.0
+EDGES[{ VERTICES[5183], VERTICES[4115] }] = 0.0
+EDGES[{ VERTICES[4485], VERTICES[1555] }] = 0.0
+EDGES[{ VERTICES[3502], VERTICES[5787] }] = 0.0
+EDGES[{ VERTICES[2102], VERTICES[3236] }] = 0.0
+EDGES[{ VERTICES[5236], VERTICES[5706] }] = 0.0
+EDGES[{ VERTICES[63], VERTICES[2039] }] = 0.0
+EDGES[{ VERTICES[5470], VERTICES[5880] }] = 0.0
+EDGES[{ VERTICES[547], VERTICES[5280] }] = 0.0
+EDGES[{ VERTICES[3165], VERTICES[1828] }] = 0.0
+EDGES[{ VERTICES[2514], VERTICES[1530] }] = 0.0
+EDGES[{ VERTICES[1921], VERTICES[4095] }] = 0.0
+EDGES[{ VERTICES[7], VERTICES[634] }] = 0.0
+EDGES[{ VERTICES[5455], VERTICES[2038] }] = 0.0
+EDGES[{ VERTICES[3149], VERTICES[2075] }] = 0.0
+EDGES[{ VERTICES[2788], VERTICES[4351] }] = 0.0
+EDGES[{ VERTICES[5359], VERTICES[4294] }] = 0.0
+EDGES[{ VERTICES[434], VERTICES[1945] }] = 0.0
+EDGES[{ VERTICES[3680], VERTICES[4895] }] = 0.0
+EDGES[{ VERTICES[3173], VERTICES[765] }] = 0.0
+EDGES[{ VERTICES[4561], VERTICES[4106] }] = 0.0
+EDGES[{ VERTICES[2520], VERTICES[3590] }] = 0.0
+EDGES[{ VERTICES[3763], VERTICES[5494] }] = 0.0
+EDGES[{ VERTICES[3998], VERTICES[2848] }] = 0.0
+EDGES[{ VERTICES[5447], VERTICES[3882] }] = 0.0
+EDGES[{ VERTICES[3423], VERTICES[1439] }] = 0.0
+EDGES[{ VERTICES[2111], VERTICES[4413] }] = 0.0
+EDGES[{ VERTICES[3371], VERTICES[932] }] = 0.0
+EDGES[{ VERTICES[5436], VERTICES[2836] }] = 0.0
+EDGES[{ VERTICES[2888], VERTICES[3495] }] = 0.0
+EDGES[{ VERTICES[1129], VERTICES[4256] }] = 0.0
+EDGES[{ VERTICES[4402], VERTICES[4833] }] = 0.0
+EDGES[{ VERTICES[3948], VERTICES[4591] }] = 0.0
+EDGES[{ VERTICES[1948], VERTICES[4972] }] = 0.0
+EDGES[{ VERTICES[30], VERTICES[3608] }] = 0.0
+EDGES[{ VERTICES[6223], VERTICES[3664] }] = 0.0
+EDGES[{ VERTICES[2516], VERTICES[2179] }] = 0.0
+EDGES[{ VERTICES[5457], VERTICES[4928] }] = 0.0
+EDGES[{ VERTICES[357], VERTICES[6245] }] = 0.0
+EDGES[{ VERTICES[1944], VERTICES[5680] }] = 0.0
+EDGES[{ VERTICES[120], VERTICES[6137] }] = 0.0
+EDGES[{ VERTICES[657], VERTICES[2126] }] = 0.0
+EDGES[{ VERTICES[4613], VERTICES[1138] }] = 0.0
+EDGES[{ VERTICES[2489], VERTICES[4693] }] = 0.0
+EDGES[{ VERTICES[1587], VERTICES[3867] }] = 0.0
+EDGES[{ VERTICES[6102], VERTICES[2362] }] = 0.0
+EDGES[{ VERTICES[5581], VERTICES[1902] }] = 0.0
+EDGES[{ VERTICES[2456], VERTICES[2917] }] = 0.0
+EDGES[{ VERTICES[3855], VERTICES[2049] }] = 0.0
+EDGES[{ VERTICES[3588], VERTICES[1836] }] = 0.0
+EDGES[{ VERTICES[4907], VERTICES[3090] }] = 0.0
+EDGES[{ VERTICES[2991], VERTICES[2636] }] = 0.0
+EDGES[{ VERTICES[4423], VERTICES[5437] }] = 0.0
+EDGES[{ VERTICES[3614], VERTICES[831] }] = 0.0
+EDGES[{ VERTICES[2128], VERTICES[4319] }] = 0.0
+EDGES[{ VERTICES[5677], VERTICES[3169] }] = 0.0
+EDGES[{ VERTICES[136], VERTICES[2203] }] = 0.0
+EDGES[{ VERTICES[1021], VERTICES[3212] }] = 0.0
+EDGES[{ VERTICES[682], VERTICES[70] }] = 0.0
+EDGES[{ VERTICES[258], VERTICES[1872] }] = 0.0
+EDGES[{ VERTICES[4312], VERTICES[4658] }] = 0.0
+EDGES[{ VERTICES[3856], VERTICES[3541] }] = 0.0
+EDGES[{ VERTICES[1697], VERTICES[2635] }] = 0.0
+EDGES[{ VERTICES[4079], VERTICES[4157] }] = 0.0
+EDGES[{ VERTICES[3020], VERTICES[2763] }] = 0.0
+EDGES[{ VERTICES[3336], VERTICES[5702] }] = 0.0
+EDGES[{ VERTICES[3300], VERTICES[6264] }] = 0.0
+EDGES[{ VERTICES[3872], VERTICES[2745] }] = 0.0
+EDGES[{ VERTICES[4495], VERTICES[1147] }] = 0.0
+EDGES[{ VERTICES[2658], VERTICES[5284] }] = 0.0
+EDGES[{ VERTICES[3633], VERTICES[1993] }] = 0.0
+EDGES[{ VERTICES[5289], VERTICES[3462] }] = 0.0
+EDGES[{ VERTICES[2870], VERTICES[2152] }] = 0.0
+EDGES[{ VERTICES[5248], VERTICES[5579] }] = 0.0
+EDGES[{ VERTICES[2210], VERTICES[5975] }] = 0.0
+EDGES[{ VERTICES[1624], VERTICES[5116] }] = 0.0
+EDGES[{ VERTICES[3794], VERTICES[3328] }] = 0.0
+EDGES[{ VERTICES[1245], VERTICES[2206] }] = 0.0
+EDGES[{ VERTICES[330], VERTICES[3222] }] = 0.0
+EDGES[{ VERTICES[494], VERTICES[826] }] = 0.0
+EDGES[{ VERTICES[2549], VERTICES[5806] }] = 0.0
+EDGES[{ VERTICES[1089], VERTICES[371] }] = 0.0
+EDGES[{ VERTICES[5907], VERTICES[4069] }] = 0.0
+EDGES[{ VERTICES[4721], VERTICES[862] }] = 0.0
+EDGES[{ VERTICES[4801], VERTICES[5057] }] = 0.0
+EDGES[{ VERTICES[2577], VERTICES[5938] }] = 0.0
+EDGES[{ VERTICES[2821], VERTICES[2106] }] = 0.0
+EDGES[{ VERTICES[5408], VERTICES[3396] }] = 0.0
+EDGES[{ VERTICES[1216], VERTICES[1403] }] = 0.0
+EDGES[{ VERTICES[3627], VERTICES[5387] }] = 0.0
+EDGES[{ VERTICES[3156], VERTICES[918] }] = 0.0
+EDGES[{ VERTICES[2164], VERTICES[4839] }] = 0.0
+EDGES[{ VERTICES[753], VERTICES[351] }] = 0.0
+EDGES[{ VERTICES[4610], VERTICES[3706] }] = 0.0
+EDGES[{ VERTICES[2218], VERTICES[587] }] = 0.0
+EDGES[{ VERTICES[1012], VERTICES[514] }] = 0.0
+EDGES[{ VERTICES[4992], VERTICES[5733] }] = 0.0
+EDGES[{ VERTICES[5857], VERTICES[1015] }] = 0.0
+EDGES[{ VERTICES[5664], VERTICES[540] }] = 0.0
+EDGES[{ VERTICES[1582], VERTICES[2500] }] = 0.0
+EDGES[{ VERTICES[426], VERTICES[5373] }] = 0.0
+EDGES[{ VERTICES[2211], VERTICES[320] }] = 0.0
+EDGES[{ VERTICES[937], VERTICES[1532] }] = 0.0
+EDGES[{ VERTICES[5738], VERTICES[4010] }] = 0.0
+EDGES[{ VERTICES[5142], VERTICES[4238] }] = 0.0
+EDGES[{ VERTICES[575], VERTICES[5315] }] = 0.0
+EDGES[{ VERTICES[1749], VERTICES[5241] }] = 0.0
+EDGES[{ VERTICES[6237], VERTICES[1824] }] = 0.0
+EDGES[{ VERTICES[751], VERTICES[3075] }] = 0.0
+EDGES[{ VERTICES[5910], VERTICES[772] }] = 0.0
+EDGES[{ VERTICES[3751], VERTICES[6043] }] = 0.0
+EDGES[{ VERTICES[2980], VERTICES[5601] }] = 0.0
+EDGES[{ VERTICES[1730], VERTICES[235] }] = 0.0
+EDGES[{ VERTICES[4960], VERTICES[2487] }] = 0.0
+EDGES[{ VERTICES[4237], VERTICES[4456] }] = 0.0
+EDGES[{ VERTICES[4950], VERTICES[3695] }] = 0.0
+EDGES[{ VERTICES[140], VERTICES[4788] }] = 0.0
+EDGES[{ VERTICES[85], VERTICES[1980] }] = 0.0
+EDGES[{ VERTICES[811], VERTICES[1338] }] = 0.0
+EDGES[{ VERTICES[4276], VERTICES[5752] }] = 0.0
+EDGES[{ VERTICES[5970], VERTICES[1529] }] = 0.0
+EDGES[{ VERTICES[3137], VERTICES[4406] }] = 0.0
+EDGES[{ VERTICES[5218], VERTICES[3221] }] = 0.0
+EDGES[{ VERTICES[4119], VERTICES[5081] }] = 0.0
+EDGES[{ VERTICES[5881], VERTICES[6041] }] = 0.0
+EDGES[{ VERTICES[4943], VERTICES[5238] }] = 0.0
+EDGES[{ VERTICES[6185], VERTICES[3647] }] = 0.0
+EDGES[{ VERTICES[207], VERTICES[5293] }] = 0.0
+EDGES[{ VERTICES[4984], VERTICES[6230] }] = 0.0
+EDGES[{ VERTICES[4510], VERTICES[3994] }] = 0.0
+EDGES[{ VERTICES[2557], VERTICES[5608] }] = 0.0
+EDGES[{ VERTICES[1475], VERTICES[5070] }] = 0.0
+EDGES[{ VERTICES[5913], VERTICES[6031] }] = 0.0
+EDGES[{ VERTICES[1795], VERTICES[1205] }] = 0.0
+EDGES[{ VERTICES[4949], VERTICES[1289] }] = 0.0
+EDGES[{ VERTICES[5069], VERTICES[3852] }] = 0.0
+EDGES[{ VERTICES[1188], VERTICES[4481] }] = 0.0
+EDGES[{ VERTICES[1417], VERTICES[3993] }] = 0.0
+EDGES[{ VERTICES[6214], VERTICES[3024] }] = 0.0
+EDGES[{ VERTICES[1667], VERTICES[4748] }] = 0.0
+EDGES[{ VERTICES[3331], VERTICES[4111] }] = 0.0
+EDGES[{ VERTICES[5481], VERTICES[3393] }] = 0.0
+EDGES[{ VERTICES[2851], VERTICES[3144] }] = 0.0
+EDGES[{ VERTICES[1859], VERTICES[2015] }] = 0.0
+EDGES[{ VERTICES[6215], VERTICES[3224] }] = 0.0
+EDGES[{ VERTICES[910], VERTICES[6027] }] = 0.0
+EDGES[{ VERTICES[82], VERTICES[53] }] = 0.0
+EDGES[{ VERTICES[45], VERTICES[1437] }] = 0.0
+EDGES[{ VERTICES[4554], VERTICES[5115] }] = 0.0
+EDGES[{ VERTICES[507], VERTICES[4424] }] = 0.0
+EDGES[{ VERTICES[698], VERTICES[6240] }] = 0.0
+EDGES[{ VERTICES[4025], VERTICES[3527] }] = 0.0
+EDGES[{ VERTICES[4883], VERTICES[1674] }] = 0.0
+EDGES[{ VERTICES[6048], VERTICES[113] }] = 0.0
+EDGES[{ VERTICES[5016], VERTICES[3570] }] = 0.0
+EDGES[{ VERTICES[1727], VERTICES[2178] }] = 0.0
+EDGES[{ VERTICES[833], VERTICES[4264] }] = 0.0
+EDGES[{ VERTICES[2008], VERTICES[3661] }] = 0.0
+EDGES[{ VERTICES[4813], VERTICES[5428] }] = 0.0
+EDGES[{ VERTICES[1308], VERTICES[5995] }] = 0.0
+EDGES[{ VERTICES[4723], VERTICES[5328] }] = 0.0
+EDGES[{ VERTICES[58], VERTICES[5318] }] = 0.0
+EDGES[{ VERTICES[6184], VERTICES[6250] }] = 0.0
+EDGES[{ VERTICES[5300], VERTICES[4335] }] = 0.0
+EDGES[{ VERTICES[4736], VERTICES[5503] }] = 0.0
+EDGES[{ VERTICES[4618], VERTICES[2226] }] = 0.0
+EDGES[{ VERTICES[2529], VERTICES[2180] }] = 0.0
+EDGES[{ VERTICES[972], VERTICES[113] }] = 0.0
+EDGES[{ VERTICES[1408], VERTICES[4974] }] = 0.0
+EDGES[{ VERTICES[3407], VERTICES[3487] }] = 0.0
+EDGES[{ VERTICES[4225], VERTICES[4727] }] = 0.0
+EDGES[{ VERTICES[4714], VERTICES[5140] }] = 0.0
+EDGES[{ VERTICES[2304], VERTICES[4143] }] = 0.0
+EDGES[{ VERTICES[4087], VERTICES[267] }] = 0.0
+EDGES[{ VERTICES[2554], VERTICES[3245] }] = 0.0
+EDGES[{ VERTICES[3463], VERTICES[5274] }] = 0.0
+EDGES[{ VERTICES[5272], VERTICES[5422] }] = 0.0
+EDGES[{ VERTICES[5650], VERTICES[3860] }] = 0.0
+EDGES[{ VERTICES[3943], VERTICES[1151] }] = 0.0
+EDGES[{ VERTICES[2149], VERTICES[635] }] = 0.0
+EDGES[{ VERTICES[3461], VERTICES[2868] }] = 0.0
+EDGES[{ VERTICES[4240], VERTICES[5959] }] = 0.0
+EDGES[{ VERTICES[2388], VERTICES[2747] }] = 0.0
+EDGES[{ VERTICES[1270], VERTICES[768] }] = 0.0
+EDGES[{ VERTICES[4781], VERTICES[5764] }] = 0.0
+EDGES[{ VERTICES[3261], VERTICES[3528] }] = 0.0
+EDGES[{ VERTICES[4052], VERTICES[1525] }] = 0.0
+EDGES[{ VERTICES[240], VERTICES[1238] }] = 0.0
+EDGES[{ VERTICES[1389], VERTICES[2045] }] = 0.0
+EDGES[{ VERTICES[5489], VERTICES[2208] }] = 0.0
+EDGES[{ VERTICES[4099], VERTICES[5952] }] = 0.0
+EDGES[{ VERTICES[3725], VERTICES[5471] }] = 0.0
+EDGES[{ VERTICES[1546], VERTICES[1293] }] = 0.0
+EDGES[{ VERTICES[4985], VERTICES[2143] }] = 0.0
+EDGES[{ VERTICES[1979], VERTICES[3028] }] = 0.0
+EDGES[{ VERTICES[2717], VERTICES[2070] }] = 0.0
+EDGES[{ VERTICES[5996], VERTICES[2469] }] = 0.0
+EDGES[{ VERTICES[5537], VERTICES[2910] }] = 0.0
+EDGES[{ VERTICES[3827], VERTICES[4546] }] = 0.0
+EDGES[{ VERTICES[3503], VERTICES[3598] }] = 0.0
+EDGES[{ VERTICES[5791], VERTICES[3997] }] = 0.0
+EDGES[{ VERTICES[6115], VERTICES[3814] }] = 0.0
+EDGES[{ VERTICES[344], VERTICES[141] }] = 0.0
+EDGES[{ VERTICES[2630], VERTICES[5189] }] = 0.0
+EDGES[{ VERTICES[6006], VERTICES[173] }] = 0.0
+EDGES[{ VERTICES[436], VERTICES[4552] }] = 0.0
+EDGES[{ VERTICES[328], VERTICES[2313] }] = 0.0
+EDGES[{ VERTICES[6243], VERTICES[3367] }] = 0.0
+EDGES[{ VERTICES[5962], VERTICES[5182] }] = 0.0
+EDGES[{ VERTICES[1653], VERTICES[3740] }] = 0.0
+EDGES[{ VERTICES[5825], VERTICES[2019] }] = 0.0
+EDGES[{ VERTICES[686], VERTICES[2931] }] = 0.0
+EDGES[{ VERTICES[4718], VERTICES[2859] }] = 0.0
+EDGES[{ VERTICES[3177], VERTICES[114] }] = 0.0
+EDGES[{ VERTICES[2339], VERTICES[5780] }] = 0.0
+EDGES[{ VERTICES[5053], VERTICES[6145] }] = 0.0
+EDGES[{ VERTICES[210], VERTICES[5285] }] = 0.0
+EDGES[{ VERTICES[697], VERTICES[2852] }] = 0.0
+EDGES[{ VERTICES[2392], VERTICES[2724] }] = 0.0
+EDGES[{ VERTICES[2010], VERTICES[5147] }] = 0.0
+EDGES[{ VERTICES[4065], VERTICES[1296] }] = 0.0
+EDGES[{ VERTICES[5018], VERTICES[1834] }] = 0.0
+EDGES[{ VERTICES[2590], VERTICES[3810] }] = 0.0
+EDGES[{ VERTICES[1069], VERTICES[722] }] = 0.0
+EDGES[{ VERTICES[4814], VERTICES[5111] }] = 0.0
+EDGES[{ VERTICES[5713], VERTICES[960] }] = 0.0
+EDGES[{ VERTICES[3168], VERTICES[5676] }] = 0.0
+EDGES[{ VERTICES[4138], VERTICES[5892] }] = 0.0
+EDGES[{ VERTICES[181], VERTICES[5877] }] = 0.0
+EDGES[{ VERTICES[4123], VERTICES[4896] }] = 0.0
+EDGES[{ VERTICES[549], VERTICES[4653] }] = 0.0
+EDGES[{ VERTICES[1879], VERTICES[508] }] = 0.0
+EDGES[{ VERTICES[1867], VERTICES[1329] }] = 0.0
+EDGES[{ VERTICES[3192], VERTICES[1931] }] = 0.0
+EDGES[{ VERTICES[1955], VERTICES[2872] }] = 0.0
+EDGES[{ VERTICES[4977], VERTICES[5735] }] = 0.0
+EDGES[{ VERTICES[1594], VERTICES[2928] }] = 0.0
+EDGES[{ VERTICES[5087], VERTICES[194] }] = 0.0
+EDGES[{ VERTICES[4669], VERTICES[3736] }] = 0.0
+EDGES[{ VERTICES[4593], VERTICES[3342] }] = 0.0
+EDGES[{ VERTICES[734], VERTICES[458] }] = 0.0
+EDGES[{ VERTICES[3753], VERTICES[4277] }] = 0.0
+EDGES[{ VERTICES[5563], VERTICES[3293] }] = 0.0
+EDGES[{ VERTICES[2200], VERTICES[3200] }] = 0.0
+EDGES[{ VERTICES[1780], VERTICES[1966] }] = 0.0
+EDGES[{ VERTICES[5409], VERTICES[5433] }] = 0.0
+EDGES[{ VERTICES[519], VERTICES[1160] }] = 0.0
+EDGES[{ VERTICES[5252], VERTICES[5767] }] = 0.0
+EDGES[{ VERTICES[1335], VERTICES[894] }] = 0.0
+EDGES[{ VERTICES[6095], VERTICES[842] }] = 0.0
+EDGES[{ VERTICES[3857], VERTICES[6098] }] = 0.0
+EDGES[{ VERTICES[4802], VERTICES[4219] }] = 0.0
+EDGES[{ VERTICES[2384], VERTICES[5565] }] = 0.0
+EDGES[{ VERTICES[889], VERTICES[1250] }] = 0.0
+EDGES[{ VERTICES[4491], VERTICES[738] }] = 0.0
+EDGES[{ VERTICES[309], VERTICES[1973] }] = 0.0
+EDGES[{ VERTICES[5020], VERTICES[5039] }] = 0.0
+EDGES[{ VERTICES[4221], VERTICES[691] }] = 0.0
+EDGES[{ VERTICES[1894], VERTICES[35] }] = 0.0
+EDGES[{ VERTICES[1500], VERTICES[1180] }] = 0.0
+EDGES[{ VERTICES[3247], VERTICES[4606] }] = 0.0
+EDGES[{ VERTICES[1090], VERTICES[3924] }] = 0.0
+EDGES[{ VERTICES[6044], VERTICES[449] }] = 0.0
+EDGES[{ VERTICES[973], VERTICES[4320] }] = 0.0
+EDGES[{ VERTICES[1571], VERTICES[2912] }] = 0.0
+EDGES[{ VERTICES[2440], VERTICES[18] }] = 0.0
+EDGES[{ VERTICES[232], VERTICES[3637] }] = 0.0
+EDGES[{ VERTICES[1133], VERTICES[44] }] = 0.0
+EDGES[{ VERTICES[343], VERTICES[2046] }] = 0.0
+EDGES[{ VERTICES[2034], VERTICES[3179] }] = 0.0
+EDGES[{ VERTICES[4098], VERTICES[3562] }] = 0.0
+EDGES[{ VERTICES[2141], VERTICES[4729] }] = 0.0
+EDGES[{ VERTICES[4434], VERTICES[902] }] = 0.0
+EDGES[{ VERTICES[2861], VERTICES[1591] }] = 0.0
+EDGES[{ VERTICES[2938], VERTICES[2753] }] = 0.0
+EDGES[{ VERTICES[3607], VERTICES[4147] }] = 0.0
+EDGES[{ VERTICES[5627], VERTICES[1837] }] = 0.0
+EDGES[{ VERTICES[1972], VERTICES[1991] }] = 0.0
+EDGES[{ VERTICES[5378], VERTICES[1981] }] = 0.0
+EDGES[{ VERTICES[2459], VERTICES[2230] }] = 0.0
+EDGES[{ VERTICES[1460], VERTICES[1244] }] = 0.0
+EDGES[{ VERTICES[255], VERTICES[365] }] = 0.0
+EDGES[{ VERTICES[1964], VERTICES[616] }] = 0.0
+EDGES[{ VERTICES[4438], VERTICES[5874] }] = 0.0
+EDGES[{ VERTICES[414], VERTICES[4890] }] = 0.0
+EDGES[{ VERTICES[4563], VERTICES[4103] }] = 0.0
+EDGES[{ VERTICES[9], VERTICES[583] }] = 0.0
+EDGES[{ VERTICES[5495], VERTICES[985] }] = 0.0
+EDGES[{ VERTICES[774], VERTICES[3712] }] = 0.0
+EDGES[{ VERTICES[200], VERTICES[1614] }] = 0.0
+EDGES[{ VERTICES[1704], VERTICES[1920] }] = 0.0
+EDGES[{ VERTICES[190], VERTICES[4275] }] = 0.0
+EDGES[{ VERTICES[4798], VERTICES[3804] }] = 0.0
+EDGES[{ VERTICES[3152], VERTICES[1737] }] = 0.0
+EDGES[{ VERTICES[5872], VERTICES[2808] }] = 0.0
+EDGES[{ VERTICES[3510], VERTICES[6190] }] = 0.0
+EDGES[{ VERTICES[2609], VERTICES[3183] }] = 0.0
+EDGES[{ VERTICES[321], VERTICES[650] }] = 0.0
+EDGES[{ VERTICES[2057], VERTICES[4131] }] = 0.0
+EDGES[{ VERTICES[4377], VERTICES[684] }] = 0.0
+EDGES[{ VERTICES[1008], VERTICES[4509] }] = 0.0
+EDGES[{ VERTICES[906], VERTICES[5558] }] = 0.0
+EDGES[{ VERTICES[6247], VERTICES[704] }] = 0.0
+EDGES[{ VERTICES[3620], VERTICES[4374] }] = 0.0
+EDGES[{ VERTICES[2033], VERTICES[4821] }] = 0.0
+EDGES[{ VERTICES[2343], VERTICES[5592] }] = 0.0
+EDGES[{ VERTICES[4732], VERTICES[187] }] = 0.0
+EDGES[{ VERTICES[5396], VERTICES[1891] }] = 0.0
+EDGES[{ VERTICES[178], VERTICES[1030] }] = 0.0
+EDGES[{ VERTICES[618], VERTICES[3069] }] = 0.0
+EDGES[{ VERTICES[2493], VERTICES[46] }] = 0.0
+EDGES[{ VERTICES[621], VERTICES[2945] }] = 0.0
+EDGES[{ VERTICES[2271], VERTICES[1117] }] = 0.0
+EDGES[{ VERTICES[2675], VERTICES[1541] }] = 0.0
+EDGES[{ VERTICES[4151], VERTICES[119] }] = 0.0
+EDGES[{ VERTICES[4113], VERTICES[5131] }] = 0.0
+EDGES[{ VERTICES[4148], VERTICES[1112] }] = 0.0
+EDGES[{ VERTICES[5963], VERTICES[4197] }] = 0.0
+EDGES[{ VERTICES[6], VERTICES[2379] }] = 0.0
+EDGES[{ VERTICES[4553], VERTICES[5095] }] = 0.0
+EDGES[{ VERTICES[2702], VERTICES[4379] }] = 0.0
+EDGES[{ VERTICES[1514], VERTICES[3887] }] = 0.0
+EDGES[{ VERTICES[5568], VERTICES[1922] }] = 0.0
+EDGES[{ VERTICES[755], VERTICES[6046] }] = 0.0
+EDGES[{ VERTICES[564], VERTICES[4742] }] = 0.0
+EDGES[{ VERTICES[3441], VERTICES[2744] }] = 0.0
+EDGES[{ VERTICES[860], VERTICES[2488] }] = 0.0
+EDGES[{ VERTICES[1218], VERTICES[2543] }] = 0.0
+EDGES[{ VERTICES[2667], VERTICES[418] }] = 0.0
+EDGES[{ VERTICES[4573], VERTICES[2956] }] = 0.0
+EDGES[{ VERTICES[4666], VERTICES[1838] }] = 0.0
+EDGES[{ VERTICES[4923], VERTICES[1316] }] = 0.0
+EDGES[{ VERTICES[4517], VERTICES[1954] }] = 0.0
+EDGES[{ VERTICES[4461], VERTICES[5965] }] = 0.0
+EDGES[{ VERTICES[6260], VERTICES[3428] }] = 0.0
+EDGES[{ VERTICES[5532], VERTICES[3365] }] = 0.0
+EDGES[{ VERTICES[4641], VERTICES[2644] }] = 0.0
+EDGES[{ VERTICES[1365], VERTICES[5123] }] = 0.0
+EDGES[{ VERTICES[913], VERTICES[463] }] = 0.0
+EDGES[{ VERTICES[678], VERTICES[728] }] = 0.0
+EDGES[{ VERTICES[998], VERTICES[3848] }] = 0.0
+EDGES[{ VERTICES[3313], VERTICES[2664] }] = 0.0
+EDGES[{ VERTICES[4156], VERTICES[4834] }] = 0.0
+EDGES[{ VERTICES[1886], VERTICES[6057] }] = 0.0
+EDGES[{ VERTICES[1088], VERTICES[1995] }] = 0.0
+EDGES[{ VERTICES[1732], VERTICES[2965] }] = 0.0
+EDGES[{ VERTICES[3361], VERTICES[4600] }] = 0.0
+EDGES[{ VERTICES[1267], VERTICES[384] }] = 0.0
+EDGES[{ VERTICES[3707], VERTICES[3806] }] = 0.0
+EDGES[{ VERTICES[1032], VERTICES[4642] }] = 0.0
+EDGES[{ VERTICES[4036], VERTICES[4341] }] = 0.0
+EDGES[{ VERTICES[5145], VERTICES[5453] }] = 0.0
+EDGES[{ VERTICES[4522], VERTICES[999] }] = 0.0
+EDGES[{ VERTICES[4646], VERTICES[4978] }] = 0.0
+EDGES[{ VERTICES[4740], VERTICES[4672] }] = 0.0
+EDGES[{ VERTICES[1631], VERTICES[5591] }] = 0.0
+EDGES[{ VERTICES[65], VERTICES[5586] }] = 0.0
+EDGES[{ VERTICES[2824], VERTICES[5816] }] = 0.0
+EDGES[{ VERTICES[5573], VERTICES[32] }] = 0.0
+EDGES[{ VERTICES[1382], VERTICES[2731] }] = 0.0
+EDGES[{ VERTICES[5010], VERTICES[4956] }] = 0.0
+EDGES[{ VERTICES[5485], VERTICES[2531] }] = 0.0
+EDGES[{ VERTICES[5719], VERTICES[2158] }] = 0.0
+EDGES[{ VERTICES[4771], VERTICES[5180] }] = 0.0
+EDGES[{ VERTICES[2109], VERTICES[3690] }] = 0.0
+EDGES[{ VERTICES[4208], VERTICES[3933] }] = 0.0
+EDGES[{ VERTICES[5867], VERTICES[3780] }] = 0.0
+EDGES[{ VERTICES[3233], VERTICES[75] }] = 0.0
+EDGES[{ VERTICES[4760], VERTICES[1533] }] = 0.0
+EDGES[{ VERTICES[4986], VERTICES[2911] }] = 0.0
+EDGES[{ VERTICES[2583], VERTICES[2672] }] = 0.0
+EDGES[{ VERTICES[1528], VERTICES[891] }] = 0.0
+EDGES[{ VERTICES[5211], VERTICES[2256] }] = 0.0
+EDGES[{ VERTICES[3954], VERTICES[2438] }] = 0.0
+EDGES[{ VERTICES[490], VERTICES[4835] }] = 0.0
+EDGES[{ VERTICES[5945], VERTICES[3639] }] = 0.0
 EDGES[{ VERTICES[6176], VERTICES[6263] }] = 0.0
-EDGES[{ VERTICES[4851], VERTICES[3354] }] = 0.0
-EDGES[{ VERTICES[5843], VERTICES[5511] }] = 0.0
-EDGES[{ VERTICES[1060], VERTICES[2830] }] = 0.0
-EDGES[{ VERTICES[4991], VERTICES[5473] }] = 0.0
-EDGES[{ VERTICES[4665], VERTICES[5122] }] = 0.0
-EDGES[{ VERTICES[6127], VERTICES[2071] }] = 0.0
-EDGES[{ VERTICES[4820], VERTICES[4683] }] = 0.0
-EDGES[{ VERTICES[5241], VERTICES[1774] }] = 0.0
-EDGES[{ VERTICES[2218], VERTICES[4762] }] = 0.0
-EDGES[{ VERTICES[1200], VERTICES[5752] }] = 0.0
-EDGES[{ VERTICES[2908], VERTICES[4028] }] = 0.0
-EDGES[{ VERTICES[2491], VERTICES[3263] }] = 0.0
-EDGES[{ VERTICES[2853], VERTICES[4958] }] = 0.0
-EDGES[{ VERTICES[683], VERTICES[2695] }] = 0.0
-EDGES[{ VERTICES[5926], VERTICES[6232] }] = 0.0
-EDGES[{ VERTICES[1081], VERTICES[4348] }] = 0.0
-EDGES[{ VERTICES[4846], VERTICES[854] }] = 0.0
-EDGES[{ VERTICES[3156], VERTICES[5493] }] = 0.0
-EDGES[{ VERTICES[4251], VERTICES[1225] }] = 0.0
-EDGES[{ VERTICES[5861], VERTICES[3548] }] = 0.0
-EDGES[{ VERTICES[272], VERTICES[1768] }] = 0.0
-EDGES[{ VERTICES[4284], VERTICES[2583] }] = 0.0
-EDGES[{ VERTICES[1386], VERTICES[916] }] = 0.0
-EDGES[{ VERTICES[3036], VERTICES[3764] }] = 0.0
-EDGES[{ VERTICES[3341], VERTICES[6207] }] = 0.0
-EDGES[{ VERTICES[2333], VERTICES[5134] }] = 0.0
-EDGES[{ VERTICES[325], VERTICES[1063] }] = 0.0
-EDGES[{ VERTICES[3448], VERTICES[1872] }] = 0.0
-EDGES[{ VERTICES[3025], VERTICES[1292] }] = 0.0
-EDGES[{ VERTICES[5778], VERTICES[3042] }] = 0.0
-EDGES[{ VERTICES[3907], VERTICES[4235] }] = 0.0
-EDGES[{ VERTICES[5791], VERTICES[5797] }] = 0.0
-EDGES[{ VERTICES[4904], VERTICES[5029] }] = 0.0
-EDGES[{ VERTICES[5113], VERTICES[1068] }] = 0.0
-EDGES[{ VERTICES[3142], VERTICES[1749] }] = 0.0
-EDGES[{ VERTICES[3744], VERTICES[931] }] = 0.0
-EDGES[{ VERTICES[5012], VERTICES[30] }] = 0.0
-EDGES[{ VERTICES[1328], VERTICES[3936] }] = 0.0
-EDGES[{ VERTICES[4983], VERTICES[5622] }] = 0.0
-EDGES[{ VERTICES[2500], VERTICES[4466] }] = 0.0
-EDGES[{ VERTICES[4953], VERTICES[2661] }] = 0.0
-EDGES[{ VERTICES[1885], VERTICES[264] }] = 0.0
-EDGES[{ VERTICES[716], VERTICES[207] }] = 0.0
-EDGES[{ VERTICES[3928], VERTICES[5191] }] = 0.0
-EDGES[{ VERTICES[6033], VERTICES[2364] }] = 0.0
-EDGES[{ VERTICES[5616], VERTICES[6122] }] = 0.0
-EDGES[{ VERTICES[2347], VERTICES[1861] }] = 0.0
-EDGES[{ VERTICES[1130], VERTICES[1620] }] = 0.0
-EDGES[{ VERTICES[5071], VERTICES[148] }] = 0.0
-EDGES[{ VERTICES[5958], VERTICES[4514] }] = 0.0
-EDGES[{ VERTICES[5610], VERTICES[4872] }] = 0.0
-EDGES[{ VERTICES[4892], VERTICES[2193] }] = 0.0
-EDGES[{ VERTICES[2593], VERTICES[94] }] = 0.0
-EDGES[{ VERTICES[690], VERTICES[291] }] = 0.0
-EDGES[{ VERTICES[3200], VERTICES[5761] }] = 0.0
-EDGES[{ VERTICES[3644], VERTICES[347] }] = 0.0
-EDGES[{ VERTICES[268], VERTICES[731] }] = 0.0
-EDGES[{ VERTICES[613], VERTICES[3952] }] = 0.0
-EDGES[{ VERTICES[4964], VERTICES[581] }] = 0.0
-EDGES[{ VERTICES[1851], VERTICES[5606] }] = 0.0
-EDGES[{ VERTICES[987], VERTICES[4077] }] = 0.0
-EDGES[{ VERTICES[1708], VERTICES[2261] }] = 0.0
-EDGES[{ VERTICES[1691], VERTICES[5481] }] = 0.0
-EDGES[{ VERTICES[3268], VERTICES[5804] }] = 0.0
-EDGES[{ VERTICES[1959], VERTICES[995] }] = 0.0
-EDGES[{ VERTICES[4798], VERTICES[5788] }] = 0.0
-EDGES[{ VERTICES[165], VERTICES[1246] }] = 0.0
-EDGES[{ VERTICES[6070], VERTICES[3735] }] = 0.0
-EDGES[{ VERTICES[4001], VERTICES[4582] }] = 0.0
-EDGES[{ VERTICES[5207], VERTICES[2981] }] = 0.0
-EDGES[{ VERTICES[5618], VERTICES[4701] }] = 0.0
-EDGES[{ VERTICES[2893], VERTICES[6198] }] = 0.0
-EDGES[{ VERTICES[2455], VERTICES[2310] }] = 0.0
-EDGES[{ VERTICES[5540], VERTICES[1815] }] = 0.0
-EDGES[{ VERTICES[1489], VERTICES[2120] }] = 0.0
-EDGES[{ VERTICES[3661], VERTICES[3809] }] = 0.0
-EDGES[{ VERTICES[4317], VERTICES[4248] }] = 0.0
-EDGES[{ VERTICES[2724], VERTICES[727] }] = 0.0
-EDGES[{ VERTICES[1871], VERTICES[4571] }] = 0.0
-EDGES[{ VERTICES[4246], VERTICES[5183] }] = 0.0
-EDGES[{ VERTICES[366], VERTICES[4244] }] = 0.0
-EDGES[{ VERTICES[3325], VERTICES[1678] }] = 0.0
-EDGES[{ VERTICES[2936], VERTICES[4179] }] = 0.0
-EDGES[{ VERTICES[2725], VERTICES[2733] }] = 0.0
-EDGES[{ VERTICES[17], VERTICES[5072] }] = 0.0
-EDGES[{ VERTICES[5649], VERTICES[1971] }] = 0.0
-EDGES[{ VERTICES[4410], VERTICES[4969] }] = 0.0
-EDGES[{ VERTICES[4518], VERTICES[1040] }] = 0.0
-EDGES[{ VERTICES[3033], VERTICES[5837] }] = 0.0
-EDGES[{ VERTICES[230], VERTICES[4675] }] = 0.0
-EDGES[{ VERTICES[1667], VERTICES[2423] }] = 0.0
-EDGES[{ VERTICES[5929], VERTICES[3916] }] = 0.0
-EDGES[{ VERTICES[5586], VERTICES[3875] }] = 0.0
-EDGES[{ VERTICES[3409], VERTICES[2860] }] = 0.0
-EDGES[{ VERTICES[1219], VERTICES[1882] }] = 0.0
-EDGES[{ VERTICES[4852], VERTICES[4252] }] = 0.0
-EDGES[{ VERTICES[3826], VERTICES[5188] }] = 0.0
-EDGES[{ VERTICES[44], VERTICES[1731] }] = 0.0
-EDGES[{ VERTICES[5066], VERTICES[4918] }] = 0.0
-EDGES[{ VERTICES[1274], VERTICES[3479] }] = 0.0
-EDGES[{ VERTICES[4543], VERTICES[4497] }] = 0.0
-EDGES[{ VERTICES[5992], VERTICES[5263] }] = 0.0
-EDGES[{ VERTICES[756], VERTICES[4720] }] = 0.0
-EDGES[{ VERTICES[299], VERTICES[673] }] = 0.0
-EDGES[{ VERTICES[5086], VERTICES[5871] }] = 0.0
-EDGES[{ VERTICES[1169], VERTICES[3915] }] = 0.0
-EDGES[{ VERTICES[3317], VERTICES[3893] }] = 0.0
-EDGES[{ VERTICES[2687], VERTICES[5357] }] = 0.0
-EDGES[{ VERTICES[4273], VERTICES[4066] }] = 0.0
-EDGES[{ VERTICES[985], VERTICES[5839] }] = 0.0
-EDGES[{ VERTICES[1047], VERTICES[3642] }] = 0.0
-EDGES[{ VERTICES[2669], VERTICES[968] }] = 0.0
-EDGES[{ VERTICES[745], VERTICES[2941] }] = 0.0
-EDGES[{ VERTICES[6134], VERTICES[4981] }] = 0.0
-EDGES[{ VERTICES[2262], VERTICES[4725] }] = 0.0
-EDGES[{ VERTICES[6214], VERTICES[278] }] = 0.0
-EDGES[{ VERTICES[4822], VERTICES[4978] }] = 0.0
-EDGES[{ VERTICES[795], VERTICES[4405] }] = 0.0
-EDGES[{ VERTICES[6230], VERTICES[4556] }] = 0.0
-EDGES[{ VERTICES[3827], VERTICES[4516] }] = 0.0
-EDGES[{ VERTICES[4703], VERTICES[972] }] = 0.0
-EDGES[{ VERTICES[2474], VERTICES[2774] }] = 0.0
-EDGES[{ VERTICES[3622], VERTICES[2828] }] = 0.0
-EDGES[{ VERTICES[2997], VERTICES[1513] }] = 0.0
-EDGES[{ VERTICES[5052], VERTICES[3876] }] = 0.0
-EDGES[{ VERTICES[2723], VERTICES[1501] }] = 0.0
-EDGES[{ VERTICES[3430], VERTICES[4351] }] = 0.0
-EDGES[{ VERTICES[2526], VERTICES[3913] }] = 0.0
-EDGES[{ VERTICES[6249], VERTICES[2023] }] = 0.0
-EDGES[{ VERTICES[3551], VERTICES[6055] }] = 0.0
-EDGES[{ VERTICES[433], VERTICES[2214] }] = 0.0
-EDGES[{ VERTICES[2250], VERTICES[5418] }] = 0.0
-EDGES[{ VERTICES[1343], VERTICES[1184] }] = 0.0
-EDGES[{ VERTICES[5515], VERTICES[4229] }] = 0.0
-EDGES[{ VERTICES[1468], VERTICES[4471] }] = 0.0
-EDGES[{ VERTICES[3740], VERTICES[1653] }] = 0.0
-EDGES[{ VERTICES[1829], VERTICES[4764] }] = 0.0
-EDGES[{ VERTICES[5061], VERTICES[4359] }] = 0.0
-EDGES[{ VERTICES[4616], VERTICES[3469] }] = 0.0
-EDGES[{ VERTICES[4219], VERTICES[1380] }] = 0.0
-EDGES[{ VERTICES[1325], VERTICES[2640] }] = 0.0
-EDGES[{ VERTICES[2498], VERTICES[3500] }] = 0.0
-EDGES[{ VERTICES[2132], VERTICES[4558] }] = 0.0
-EDGES[{ VERTICES[1493], VERTICES[429] }] = 0.0
-EDGES[{ VERTICES[4811], VERTICES[4194] }] = 0.0
-EDGES[{ VERTICES[3686], VERTICES[2157] }] = 0.0
-EDGES[{ VERTICES[1174], VERTICES[4738] }] = 0.0
-EDGES[{ VERTICES[67], VERTICES[685] }] = 0.0
-EDGES[{ VERTICES[1582], VERTICES[2923] }] = 0.0
-EDGES[{ VERTICES[4009], VERTICES[4446] }] = 0.0
-EDGES[{ VERTICES[5504], VERTICES[3924] }] = 0.0
-EDGES[{ VERTICES[1666], VERTICES[6057] }] = 0.0
-EDGES[{ VERTICES[5360], VERTICES[4366] }] = 0.0
-EDGES[{ VERTICES[2517], VERTICES[5355] }] = 0.0
-EDGES[{ VERTICES[5794], VERTICES[1439] }] = 0.0
-EDGES[{ VERTICES[3490], VERTICES[4867] }] = 0.0
-EDGES[{ VERTICES[1825], VERTICES[4845] }] = 0.0
-EDGES[{ VERTICES[1297], VERTICES[3279] }] = 0.0
-EDGES[{ VERTICES[2632], VERTICES[4296] }] = 0.0
-EDGES[{ VERTICES[3028], VERTICES[57] }] = 0.0
-EDGES[{ VERTICES[5291], VERTICES[4135] }] = 0.0
-EDGES[{ VERTICES[3284], VERTICES[4424] }] = 0.0
-EDGES[{ VERTICES[3762], VERTICES[2796] }] = 0.0
-EDGES[{ VERTICES[948], VERTICES[834] }] = 0.0
-EDGES[{ VERTICES[277], VERTICES[6196] }] = 0.0
-EDGES[{ VERTICES[4908], VERTICES[1235] }] = 0.0
-EDGES[{ VERTICES[2047], VERTICES[5132] }] = 0.0
-EDGES[{ VERTICES[5793], VERTICES[3000] }] = 0.0
-EDGES[{ VERTICES[3751], VERTICES[4732] }] = 0.0
-EDGES[{ VERTICES[1621], VERTICES[193] }] = 0.0
-EDGES[{ VERTICES[118], VERTICES[5808] }] = 0.0
-EDGES[{ VERTICES[1414], VERTICES[1743] }] = 0.0
-EDGES[{ VERTICES[3334], VERTICES[1642] }] = 0.0
-EDGES[{ VERTICES[5554], VERTICES[3526] }] = 0.0
-EDGES[{ VERTICES[5299], VERTICES[3700] }] = 0.0
-EDGES[{ VERTICES[2110], VERTICES[3240] }] = 0.0
-EDGES[{ VERTICES[412], VERTICES[905] }] = 0.0
-EDGES[{ VERTICES[1043], VERTICES[4900] }] = 0.0
-EDGES[{ VERTICES[4022], VERTICES[4091] }] = 0.0
-EDGES[{ VERTICES[3521], VERTICES[434] }] = 0.0
-EDGES[{ VERTICES[5790], VERTICES[3352] }] = 0.0
-EDGES[{ VERTICES[1291], VERTICES[1433] }] = 0.0
-EDGES[{ VERTICES[4396], VERTICES[5009] }] = 0.0
-EDGES[{ VERTICES[2169], VERTICES[3122] }] = 0.0
-EDGES[{ VERTICES[4158], VERTICES[2553] }] = 0.0
-EDGES[{ VERTICES[4531], VERTICES[3278] }] = 0.0
-EDGES[{ VERTICES[382], VERTICES[5989] }] = 0.0
-EDGES[{ VERTICES[5155], VERTICES[568] }] = 0.0
-EDGES[{ VERTICES[2548], VERTICES[4957] }] = 0.0
-EDGES[{ VERTICES[5015], VERTICES[1162] }] = 0.0
-EDGES[{ VERTICES[5154], VERTICES[2740] }] = 0.0
-EDGES[{ VERTICES[5812], VERTICES[1716] }] = 0.0
-EDGES[{ VERTICES[5371], VERTICES[5375] }] = 0.0
-EDGES[{ VERTICES[4486], VERTICES[4148] }] = 0.0
-EDGES[{ VERTICES[341], VERTICES[5836] }] = 0.0
-EDGES[{ VERTICES[2113], VERTICES[3996] }] = 0.0
-EDGES[{ VERTICES[1236], VERTICES[3292] }] = 0.0
-EDGES[{ VERTICES[2034], VERTICES[2831] }] = 0.0
-EDGES[{ VERTICES[4012], VERTICES[4018] }] = 0.0
-EDGES[{ VERTICES[723], VERTICES[5531] }] = 0.0
-EDGES[{ VERTICES[432], VERTICES[4528] }] = 0.0
-EDGES[{ VERTICES[5987], VERTICES[3433] }] = 0.0
-EDGES[{ VERTICES[5679], VERTICES[4180] }] = 0.0
-EDGES[{ VERTICES[74], VERTICES[66] }] = 0.0
-EDGES[{ VERTICES[1651], VERTICES[2450] }] = 0.0
-EDGES[{ VERTICES[2429], VERTICES[3457] }] = 0.0
-EDGES[{ VERTICES[243], VERTICES[4784] }] = 0.0
-EDGES[{ VERTICES[585], VERTICES[1318] }] = 0.0
-EDGES[{ VERTICES[6067], VERTICES[462] }] = 0.0
-EDGES[{ VERTICES[4383], VERTICES[4923] }] = 0.0
-EDGES[{ VERTICES[4015], VERTICES[927] }] = 0.0
-EDGES[{ VERTICES[5976], VERTICES[2722] }] = 0.0
-EDGES[{ VERTICES[492], VERTICES[3423] }] = 0.0
-EDGES[{ VERTICES[4876], VERTICES[614] }] = 0.0
-EDGES[{ VERTICES[5971], VERTICES[5256] }] = 0.0
-EDGES[{ VERTICES[2588], VERTICES[4956] }] = 0.0
-EDGES[{ VERTICES[4344], VERTICES[5629] }] = 0.0
-EDGES[{ VERTICES[4621], VERTICES[4595] }] = 0.0
-EDGES[{ VERTICES[4583], VERTICES[3948] }] = 0.0
-EDGES[{ VERTICES[4929], VERTICES[6240] }] = 0.0
-EDGES[{ VERTICES[3628], VERTICES[610] }] = 0.0
-EDGES[{ VERTICES[2272], VERTICES[1358] }] = 0.0
-EDGES[{ VERTICES[5907], VERTICES[4067] }] = 0.0
-EDGES[{ VERTICES[4032], VERTICES[3919] }] = 0.0
-EDGES[{ VERTICES[2737], VERTICES[1722] }] = 0.0
-EDGES[{ VERTICES[5609], VERTICES[1927] }] = 0.0
-EDGES[{ VERTICES[2973], VERTICES[4607] }] = 0.0
-EDGES[{ VERTICES[4787], VERTICES[1830] }] = 0.0
-EDGES[{ VERTICES[2305], VERTICES[5764] }] = 0.0
-EDGES[{ VERTICES[2413], VERTICES[3063] }] = 0.0
-EDGES[{ VERTICES[2236], VERTICES[5302] }] = 0.0
-EDGES[{ VERTICES[436], VERTICES[1794] }] = 0.0
-EDGES[{ VERTICES[666], VERTICES[5277] }] = 0.0
-EDGES[{ VERTICES[3960], VERTICES[4649] }] = 0.0
-EDGES[{ VERTICES[3483], VERTICES[3530] }] = 0.0
-EDGES[{ VERTICES[4482], VERTICES[455] }] = 0.0
-EDGES[{ VERTICES[1533], VERTICES[3099] }] = 0.0
-EDGES[{ VERTICES[337], VERTICES[2680] }] = 0.0
-EDGES[{ VERTICES[552], VERTICES[4744] }] = 0.0
-EDGES[{ VERTICES[921], VERTICES[728] }] = 0.0
-EDGES[{ VERTICES[2065], VERTICES[188] }] = 0.0
-EDGES[{ VERTICES[4501], VERTICES[2844] }] = 0.0
-EDGES[{ VERTICES[274], VERTICES[2884] }] = 0.0
-EDGES[{ VERTICES[2432], VERTICES[3172] }] = 0.0
-EDGES[{ VERTICES[2485], VERTICES[5341] }] = 0.0
-EDGES[{ VERTICES[1382], VERTICES[4933] }] = 0.0
-EDGES[{ VERTICES[612], VERTICES[477] }] = 0.0
-EDGES[{ VERTICES[3825], VERTICES[2000] }] = 0.0
-EDGES[{ VERTICES[4868], VERTICES[6039] }] = 0.0
-EDGES[{ VERTICES[5717], VERTICES[3759] }] = 0.0
-EDGES[{ VERTICES[5851], VERTICES[662] }] = 0.0
-EDGES[{ VERTICES[3964], VERTICES[5255] }] = 0.0
-EDGES[{ VERTICES[5814], VERTICES[2386] }] = 0.0
-EDGES[{ VERTICES[1319], VERTICES[5316] }] = 0.0
-EDGES[{ VERTICES[2282], VERTICES[4521] }] = 0.0
-EDGES[{ VERTICES[2227], VERTICES[2759] }] = 0.0
-EDGES[{ VERTICES[1152], VERTICES[1459] }] = 0.0
-EDGES[{ VERTICES[1085], VERTICES[2956] }] = 0.0
-EDGES[{ VERTICES[6237], VERTICES[236] }] = 0.0
-EDGES[{ VERTICES[571], VERTICES[1627] }] = 0.0
-EDGES[{ VERTICES[5088], VERTICES[13] }] = 0.0
-EDGES[{ VERTICES[1765], VERTICES[1559] }] = 0.0
-EDGES[{ VERTICES[661], VERTICES[4262] }] = 0.0
-EDGES[{ VERTICES[5143], VERTICES[630] }] = 0.0
-EDGES[{ VERTICES[3621], VERTICES[4122] }] = 0.0
-EDGES[{ VERTICES[5435], VERTICES[739] }] = 0.0
-EDGES[{ VERTICES[2028], VERTICES[5116] }] = 0.0
-EDGES[{ VERTICES[809], VERTICES[5715] }] = 0.0
-EDGES[{ VERTICES[460], VERTICES[5773] }] = 0.0
-EDGES[{ VERTICES[5115], VERTICES[29] }] = 0.0
-EDGES[{ VERTICES[4757], VERTICES[2160] }] = 0.0
-EDGES[{ VERTICES[2165], VERTICES[597] }] = 0.0
-EDGES[{ VERTICES[4368], VERTICES[189] }] = 0.0
-EDGES[{ VERTICES[3587], VERTICES[5396] }] = 0.0
-EDGES[{ VERTICES[3619], VERTICES[470] }] = 0.0
-EDGES[{ VERTICES[5677], VERTICES[5474] }] = 0.0
-EDGES[{ VERTICES[5163], VERTICES[645] }] = 0.0
-EDGES[{ VERTICES[3774], VERTICES[1566] }] = 0.0
-EDGES[{ VERTICES[2201], VERTICES[3491] }] = 0.0
-EDGES[{ VERTICES[5984], VERTICES[6169] }] = 0.0
-EDGES[{ VERTICES[201], VERTICES[1596] }] = 0.0
-EDGES[{ VERTICES[6096], VERTICES[5390] }] = 0.0
-EDGES[{ VERTICES[1073], VERTICES[2086] }] = 0.0
-EDGES[{ VERTICES[3721], VERTICES[5542] }] = 0.0
-EDGES[{ VERTICES[3417], VERTICES[4115] }] = 0.0
-EDGES[{ VERTICES[1962], VERTICES[4281] }] = 0.0
-EDGES[{ VERTICES[183], VERTICES[835] }] = 0.0
-EDGES[{ VERTICES[376], VERTICES[451] }] = 0.0
-EDGES[{ VERTICES[600], VERTICES[4875] }] = 0.0
-EDGES[{ VERTICES[256], VERTICES[1916] }] = 0.0
-EDGES[{ VERTICES[3435], VERTICES[4061] }] = 0.0
-EDGES[{ VERTICES[3978], VERTICES[3570] }] = 0.0
-EDGES[{ VERTICES[5118], VERTICES[3153] }] = 0.0
-EDGES[{ VERTICES[2635], VERTICES[975] }] = 0.0
-EDGES[{ VERTICES[2859], VERTICES[301] }] = 0.0
-EDGES[{ VERTICES[162], VERTICES[5328] }] = 0.0
-EDGES[{ VERTICES[6157], VERTICES[6186] }] = 0.0
-EDGES[{ VERTICES[3842], VERTICES[4263] }] = 0.0
-EDGES[{ VERTICES[1736], VERTICES[5701] }] = 0.0
-EDGES[{ VERTICES[1288], VERTICES[776] }] = 0.0
-EDGES[{ VERTICES[1022], VERTICES[3150] }] = 0.0
-EDGES[{ VERTICES[4905], VERTICES[2178] }] = 0.0
-EDGES[{ VERTICES[3768], VERTICES[4585] }] = 0.0
-EDGES[{ VERTICES[5454], VERTICES[3253] }] = 0.0
-EDGES[{ VERTICES[4364], VERTICES[287] }] = 0.0
-EDGES[{ VERTICES[6031], VERTICES[3389] }] = 0.0
-EDGES[{ VERTICES[4979], VERTICES[4496] }] = 0.0
-EDGES[{ VERTICES[1254], VERTICES[4338] }] = 0.0
-EDGES[{ VERTICES[1413], VERTICES[1119] }] = 0.0
-EDGES[{ VERTICES[5308], VERTICES[3708] }] = 0.0
-EDGES[{ VERTICES[5757], VERTICES[303] }] = 0.0
-EDGES[{ VERTICES[2791], VERTICES[853] }] = 0.0
-EDGES[{ VERTICES[5111], VERTICES[3755] }] = 0.0
-EDGES[{ VERTICES[1775], VERTICES[2412] }] = 0.0
-EDGES[{ VERTICES[4921], VERTICES[3657] }] = 0.0
-EDGES[{ VERTICES[1224], VERTICES[6209] }] = 0.0
-EDGES[{ VERTICES[4809], VERTICES[1542] }] = 0.0
-EDGES[{ VERTICES[1436], VERTICES[2029] }] = 0.0
-EDGES[{ VERTICES[6218], VERTICES[4984] }] = 0.0
-EDGES[{ VERTICES[3208], VERTICES[2511] }] = 0.0
-EDGES[{ VERTICES[2897], VERTICES[2291] }] = 0.0
-EDGES[{ VERTICES[978], VERTICES[536] }] = 0.0
-EDGES[{ VERTICES[3980], VERTICES[1215] }] = 0.0
-EDGES[{ VERTICES[2625], VERTICES[2835] }] = 0.0
-EDGES[{ VERTICES[5603], VERTICES[121] }] = 0.0
-EDGES[{ VERTICES[2989], VERTICES[672] }] = 0.0
-EDGES[{ VERTICES[2478], VERTICES[3863] }] = 0.0
-EDGES[{ VERTICES[5002], VERTICES[5358] }] = 0.0
-EDGES[{ VERTICES[259], VERTICES[443] }] = 0.0
-EDGES[{ VERTICES[4707], VERTICES[2191] }] = 0.0
-EDGES[{ VERTICES[2289], VERTICES[5158] }] = 0.0
-EDGES[{ VERTICES[3089], VERTICES[5833] }] = 0.0
-EDGES[{ VERTICES[2676], VERTICES[6081] }] = 0.0
-EDGES[{ VERTICES[491], VERTICES[3329] }] = 0.0
-EDGES[{ VERTICES[3424], VERTICES[3374] }] = 0.0
-EDGES[{ VERTICES[2699], VERTICES[2810] }] = 0.0
-EDGES[{ VERTICES[175], VERTICES[521] }] = 0.0
-EDGES[{ VERTICES[679], VERTICES[4906] }] = 0.0
-EDGES[{ VERTICES[2094], VERTICES[2382] }] = 0.0
-EDGES[{ VERTICES[2196], VERTICES[2775] }] = 0.0
-EDGES[{ VERTICES[3265], VERTICES[1758] }] = 0.0
-EDGES[{ VERTICES[3039], VERTICES[4600] }] = 0.0
-EDGES[{ VERTICES[5792], VERTICES[117] }] = 0.0
-EDGES[{ VERTICES[3571], VERTICES[6034] }] = 0.0
-EDGES[{ VERTICES[203], VERTICES[1289] }] = 0.0
-EDGES[{ VERTICES[136], VERTICES[2546] }] = 0.0
-EDGES[{ VERTICES[196], VERTICES[740] }] = 0.0
-EDGES[{ VERTICES[4407], VERTICES[1585] }] = 0.0
-EDGES[{ VERTICES[1947], VERTICES[3204] }] = 0.0
-EDGES[{ VERTICES[863], VERTICES[3660] }] = 0.0
-EDGES[{ VERTICES[2525], VERTICES[4160] }] = 0.0
-EDGES[{ VERTICES[3652], VERTICES[5304] }] = 0.0
-EDGES[{ VERTICES[4082], VERTICES[1237] }] = 0.0
-EDGES[{ VERTICES[5731], VERTICES[5347] }] = 0.0
-EDGES[{ VERTICES[1405], VERTICES[161] }] = 0.0
-EDGES[{ VERTICES[1487], VERTICES[446] }] = 0.0
-EDGES[{ VERTICES[1789], VERTICES[4200] }] = 0.0
-EDGES[{ VERTICES[2066], VERTICES[3209] }] = 0.0
-EDGES[{ VERTICES[3938], VERTICES[5525] }] = 0.0
-EDGES[{ VERTICES[359], VERTICES[2786] }] = 0.0
-EDGES[{ VERTICES[5182], VERTICES[5733] }] = 0.0
-EDGES[{ VERTICES[3581], VERTICES[1424] }] = 0.0
-EDGES[{ VERTICES[33], VERTICES[3846] }] = 0.0
-EDGES[{ VERTICES[3553], VERTICES[817] }] = 0.0
-EDGES[{ VERTICES[2579], VERTICES[4164] }] = 0.0
-EDGES[{ VERTICES[1500], VERTICES[2418] }] = 0.0
-EDGES[{ VERTICES[1652], VERTICES[3849] }] = 0.0
-EDGES[{ VERTICES[4739], VERTICES[4430] }] = 0.0
-EDGES[{ VERTICES[5030], VERTICES[4391] }] = 0.0
-EDGES[{ VERTICES[4428], VERTICES[6017] }] = 0.0
-EDGES[{ VERTICES[3299], VERTICES[787] }] = 0.0
-EDGES[{ VERTICES[4354], VERTICES[1015] }] = 0.0
-EDGES[{ VERTICES[5231], VERTICES[5332] }] = 0.0
-EDGES[{ VERTICES[2398], VERTICES[748] }] = 0.0
-EDGES[{ VERTICES[5937], VERTICES[3666] }] = 0.0
-EDGES[{ VERTICES[3467], VERTICES[1402] }] = 0.0
-EDGES[{ VERTICES[2862], VERTICES[181] }] = 0.0
-EDGES[{ VERTICES[3892], VERTICES[1163] }] = 0.0
-EDGES[{ VERTICES[4613], VERTICES[996] }] = 0.0
-EDGES[{ VERTICES[6117], VERTICES[5674] }] = 0.0
-EDGES[{ VERTICES[1998], VERTICES[2569] }] = 0.0
-EDGES[{ VERTICES[3091], VERTICES[3710] }] = 0.0
+EDGES[{ VERTICES[4861], VERTICES[3347] }] = 0.0
+EDGES[{ VERTICES[5844], VERTICES[5512] }] = 0.0
+EDGES[{ VERTICES[1041], VERTICES[2812] }] = 0.0
+EDGES[{ VERTICES[5004], VERTICES[5478] }] = 0.0
+EDGES[{ VERTICES[4674], VERTICES[5139] }] = 0.0
+EDGES[{ VERTICES[6128], VERTICES[2043] }] = 0.0
+EDGES[{ VERTICES[4827], VERTICES[4690] }] = 0.0
+EDGES[{ VERTICES[5249], VERTICES[1761] }] = 0.0
+EDGES[{ VERTICES[2193], VERTICES[4772] }] = 0.0
+EDGES[{ VERTICES[1179], VERTICES[5753] }] = 0.0
+EDGES[{ VERTICES[2891], VERTICES[4040] }] = 0.0
+EDGES[{ VERTICES[2473], VERTICES[3258] }] = 0.0
+EDGES[{ VERTICES[2835], VERTICES[4966] }] = 0.0
+EDGES[{ VERTICES[673], VERTICES[2674] }] = 0.0
+EDGES[{ VERTICES[5928], VERTICES[6234] }] = 0.0
+EDGES[{ VERTICES[1062], VERTICES[4365] }] = 0.0
+EDGES[{ VERTICES[4854], VERTICES[836] }] = 0.0
+EDGES[{ VERTICES[3146], VERTICES[5499] }] = 0.0
+EDGES[{ VERTICES[4265], VERTICES[1202] }] = 0.0
+EDGES[{ VERTICES[5864], VERTICES[3543] }] = 0.0
+EDGES[{ VERTICES[261], VERTICES[1753] }] = 0.0
+EDGES[{ VERTICES[4301], VERTICES[2563] }] = 0.0
+EDGES[{ VERTICES[1375], VERTICES[896] }] = 0.0
+EDGES[{ VERTICES[3021], VERTICES[3756] }] = 0.0
+EDGES[{ VERTICES[3334], VERTICES[6208] }] = 0.0
+EDGES[{ VERTICES[2301], VERTICES[5149] }] = 0.0
+EDGES[{ VERTICES[314], VERTICES[1046] }] = 0.0
+EDGES[{ VERTICES[3448], VERTICES[1853] }] = 0.0
+EDGES[{ VERTICES[3010], VERTICES[1271] }] = 0.0
+EDGES[{ VERTICES[5781], VERTICES[3027] }] = 0.0
+EDGES[{ VERTICES[3913], VERTICES[4249] }] = 0.0
+EDGES[{ VERTICES[5793], VERTICES[5797] }] = 0.0
+EDGES[{ VERTICES[4912], VERTICES[5043] }] = 0.0
+EDGES[{ VERTICES[5129], VERTICES[1051] }] = 0.0
+EDGES[{ VERTICES[3132], VERTICES[1734] }] = 0.0
+EDGES[{ VERTICES[3737], VERTICES[909] }] = 0.0
+EDGES[{ VERTICES[5027], VERTICES[29] }] = 0.0
+EDGES[{ VERTICES[1313], VERTICES[3944] }] = 0.0
+EDGES[{ VERTICES[4995], VERTICES[5631] }] = 0.0
+EDGES[{ VERTICES[2482], VERTICES[4478] }] = 0.0
+EDGES[{ VERTICES[4962], VERTICES[2641] }] = 0.0
+EDGES[{ VERTICES[1866], VERTICES[253] }] = 0.0
+EDGES[{ VERTICES[703], VERTICES[195] }] = 0.0
+EDGES[{ VERTICES[3936], VERTICES[5204] }] = 0.0
+EDGES[{ VERTICES[6032], VERTICES[2333] }] = 0.0
+EDGES[{ VERTICES[5626], VERTICES[6123] }] = 0.0
+EDGES[{ VERTICES[2316], VERTICES[1846] }] = 0.0
+EDGES[{ VERTICES[1111], VERTICES[1599] }] = 0.0
+EDGES[{ VERTICES[5084], VERTICES[143] }] = 0.0
+EDGES[{ VERTICES[5958], VERTICES[4523] }] = 0.0
+EDGES[{ VERTICES[5621], VERTICES[4881] }] = 0.0
+EDGES[{ VERTICES[4900], VERTICES[2169] }] = 0.0
+EDGES[{ VERTICES[2574], VERTICES[91] }] = 0.0
+EDGES[{ VERTICES[681], VERTICES[279] }] = 0.0
+EDGES[{ VERTICES[3193], VERTICES[5759] }] = 0.0
+EDGES[{ VERTICES[3638], VERTICES[333] }] = 0.0
+EDGES[{ VERTICES[257], VERTICES[717] }] = 0.0
+EDGES[{ VERTICES[605], VERTICES[3961] }] = 0.0
+EDGES[{ VERTICES[4975], VERTICES[568] }] = 0.0
+EDGES[{ VERTICES[1835], VERTICES[5616] }] = 0.0
+EDGES[{ VERTICES[966], VERTICES[4089] }] = 0.0
+EDGES[{ VERTICES[1692], VERTICES[2232] }] = 0.0
+EDGES[{ VERTICES[1671], VERTICES[5486] }] = 0.0
+EDGES[{ VERTICES[3263], VERTICES[5803] }] = 0.0
+EDGES[{ VERTICES[1938], VERTICES[975] }] = 0.0
+EDGES[{ VERTICES[4808], VERTICES[5789] }] = 0.0
+EDGES[{ VERTICES[157], VERTICES[1221] }] = 0.0
+EDGES[{ VERTICES[6067], VERTICES[3729] }] = 0.0
+EDGES[{ VERTICES[4014], VERTICES[4592] }] = 0.0
+EDGES[{ VERTICES[5219], VERTICES[2969] }] = 0.0
+EDGES[{ VERTICES[5628], VERTICES[4707] }] = 0.0
+EDGES[{ VERTICES[2874], VERTICES[6200] }] = 0.0
+EDGES[{ VERTICES[2427], VERTICES[2279] }] = 0.0
+EDGES[{ VERTICES[5545], VERTICES[1800] }] = 0.0
+EDGES[{ VERTICES[1476], VERTICES[2094] }] = 0.0
+EDGES[{ VERTICES[3652], VERTICES[3805] }] = 0.0
+EDGES[{ VERTICES[4332], VERTICES[4262] }] = 0.0
+EDGES[{ VERTICES[2707], VERTICES[712] }] = 0.0
+EDGES[{ VERTICES[1852], VERTICES[4580] }] = 0.0
+EDGES[{ VERTICES[4260], VERTICES[5196] }] = 0.0
+EDGES[{ VERTICES[352], VERTICES[4258] }] = 0.0
+EDGES[{ VERTICES[3317], VERTICES[1657] }] = 0.0
+EDGES[{ VERTICES[2921], VERTICES[4190] }] = 0.0
+EDGES[{ VERTICES[2708], VERTICES[2716] }] = 0.0
+EDGES[{ VERTICES[16], VERTICES[5085] }] = 0.0
+EDGES[{ VERTICES[4699], VERTICES[1949] }] = 0.0
+EDGES[{ VERTICES[4859], VERTICES[4980] }] = 0.0
+EDGES[{ VERTICES[2413], VERTICES[1016] }] = 0.0
+EDGES[{ VERTICES[849], VERTICES[5838] }] = 0.0
+EDGES[{ VERTICES[4375], VERTICES[4682] }] = 0.0
+EDGES[{ VERTICES[5765], VERTICES[2395] }] = 0.0
+EDGES[{ VERTICES[5931], VERTICES[3923] }] = 0.0
+EDGES[{ VERTICES[5596], VERTICES[3874] }] = 0.0
+EDGES[{ VERTICES[3406], VERTICES[2840] }] = 0.0
+EDGES[{ VERTICES[1198], VERTICES[1863] }] = 0.0
+EDGES[{ VERTICES[2607], VERTICES[4267] }] = 0.0
+EDGES[{ VERTICES[3820], VERTICES[5201] }] = 0.0
+EDGES[{ VERTICES[42], VERTICES[1716] }] = 0.0
+EDGES[{ VERTICES[5078], VERTICES[4924] }] = 0.0
+EDGES[{ VERTICES[1252], VERTICES[3474] }] = 0.0
+EDGES[{ VERTICES[4551], VERTICES[4505] }] = 0.0
+EDGES[{ VERTICES[5988], VERTICES[5273] }] = 0.0
+EDGES[{ VERTICES[1443], VERTICES[4724] }] = 0.0
+EDGES[{ VERTICES[288], VERTICES[663] }] = 0.0
+EDGES[{ VERTICES[5098], VERTICES[5875] }] = 0.0
+EDGES[{ VERTICES[1152], VERTICES[3922] }] = 0.0
+EDGES[{ VERTICES[6096], VERTICES[3893] }] = 0.0
+EDGES[{ VERTICES[1858], VERTICES[5353] }] = 0.0
+EDGES[{ VERTICES[4289], VERTICES[4077] }] = 0.0
+EDGES[{ VERTICES[2227], VERTICES[5841] }] = 0.0
+EDGES[{ VERTICES[1022], VERTICES[3636] }] = 0.0
+EDGES[{ VERTICES[2651], VERTICES[950] }] = 0.0
+EDGES[{ VERTICES[732], VERTICES[2927] }] = 0.0
+EDGES[{ VERTICES[6134], VERTICES[4993] }] = 0.0
+EDGES[{ VERTICES[2233], VERTICES[4730] }] = 0.0
+EDGES[{ VERTICES[6216], VERTICES[265] }] = 0.0
+EDGES[{ VERTICES[4830], VERTICES[4990] }] = 0.0
+EDGES[{ VERTICES[780], VERTICES[4421] }] = 0.0
+EDGES[{ VERTICES[6232], VERTICES[4564] }] = 0.0
+EDGES[{ VERTICES[3821], VERTICES[4526] }] = 0.0
+EDGES[{ VERTICES[1561], VERTICES[953] }] = 0.0
+EDGES[{ VERTICES[2452], VERTICES[2758] }] = 0.0
+EDGES[{ VERTICES[3617], VERTICES[2810] }] = 0.0
+EDGES[{ VERTICES[2985], VERTICES[1495] }] = 0.0
+EDGES[{ VERTICES[5065], VERTICES[3875] }] = 0.0
+EDGES[{ VERTICES[2704], VERTICES[1485] }] = 0.0
+EDGES[{ VERTICES[3432], VERTICES[4367] }] = 0.0
+EDGES[{ VERTICES[2505], VERTICES[3920] }] = 0.0
+EDGES[{ VERTICES[2876], VERTICES[2001] }] = 0.0
+EDGES[{ VERTICES[3547], VERTICES[6054] }] = 0.0
+EDGES[{ VERTICES[423], VERTICES[2190] }] = 0.0
+EDGES[{ VERTICES[2222], VERTICES[5420] }] = 0.0
+EDGES[{ VERTICES[1330], VERTICES[1164] }] = 0.0
+EDGES[{ VERTICES[5517], VERTICES[4242] }] = 0.0
+EDGES[{ VERTICES[1457], VERTICES[4482] }] = 0.0
+EDGES[{ VERTICES[3733], VERTICES[1633] }] = 0.0
+EDGES[{ VERTICES[1813], VERTICES[4774] }] = 0.0
+EDGES[{ VERTICES[5074], VERTICES[4373] }] = 0.0
+EDGES[{ VERTICES[898], VERTICES[3465] }] = 0.0
+EDGES[{ VERTICES[4233], VERTICES[1367] }] = 0.0
+EDGES[{ VERTICES[1310], VERTICES[2619] }] = 0.0
+EDGES[{ VERTICES[2480], VERTICES[3494] }] = 0.0
+EDGES[{ VERTICES[2104], VERTICES[4566] }] = 0.0
+EDGES[{ VERTICES[1478], VERTICES[419] }] = 0.0
+EDGES[{ VERTICES[4818], VERTICES[4206] }] = 0.0
+EDGES[{ VERTICES[3678], VERTICES[2129] }] = 0.0
+EDGES[{ VERTICES[5067], VERTICES[4745] }] = 0.0
+EDGES[{ VERTICES[4026], VERTICES[675] }] = 0.0
+EDGES[{ VERTICES[5490], VERTICES[2908] }] = 0.0
+EDGES[{ VERTICES[4019], VERTICES[4455] }] = 0.0
+EDGES[{ VERTICES[3542], VERTICES[3932] }] = 0.0
+EDGES[{ VERTICES[1646], VERTICES[6056] }] = 0.0
+EDGES[{ VERTICES[5356], VERTICES[4382] }] = 0.0
+EDGES[{ VERTICES[2497], VERTICES[5351] }] = 0.0
+EDGES[{ VERTICES[5795], VERTICES[1428] }] = 0.0
+EDGES[{ VERTICES[3484], VERTICES[4878] }] = 0.0
+EDGES[{ VERTICES[1809], VERTICES[4853] }] = 0.0
+EDGES[{ VERTICES[1278], VERTICES[3274] }] = 0.0
+EDGES[{ VERTICES[2611], VERTICES[4311] }] = 0.0
+EDGES[{ VERTICES[3014], VERTICES[57] }] = 0.0
+EDGES[{ VERTICES[1712], VERTICES[4149] }] = 0.0
+EDGES[{ VERTICES[2280], VERTICES[4436] }] = 0.0
+EDGES[{ VERTICES[125], VERTICES[2780] }] = 0.0
+EDGES[{ VERTICES[3594], VERTICES[816] }] = 0.0
+EDGES[{ VERTICES[2950], VERTICES[6198] }] = 0.0
+EDGES[{ VERTICES[1304], VERTICES[1212] }] = 0.0
+EDGES[{ VERTICES[4683], VERTICES[5148] }] = 0.0
+EDGES[{ VERTICES[2215], VERTICES[2986] }] = 0.0
+EDGES[{ VERTICES[2762], VERTICES[4738] }] = 0.0
+EDGES[{ VERTICES[4269], VERTICES[184] }] = 0.0
+EDGES[{ VERTICES[2797], VERTICES[5807] }] = 0.0
+EDGES[{ VERTICES[4084], VERTICES[1728] }] = 0.0
+EDGES[{ VERTICES[5924], VERTICES[1622] }] = 0.0
+EDGES[{ VERTICES[1968], VERTICES[3520] }] = 0.0
+EDGES[{ VERTICES[4348], VERTICES[3693] }] = 0.0
+EDGES[{ VERTICES[4734], VERTICES[3232] }] = 0.0
+EDGES[{ VERTICES[401], VERTICES[885] }] = 0.0
+EDGES[{ VERTICES[1019], VERTICES[4909] }] = 0.0
+EDGES[{ VERTICES[4033], VERTICES[4102] }] = 0.0
+EDGES[{ VERTICES[3515], VERTICES[424] }] = 0.0
+EDGES[{ VERTICES[5792], VERTICES[3345] }] = 0.0
+EDGES[{ VERTICES[5394], VERTICES[1422] }] = 0.0
+EDGES[{ VERTICES[4412], VERTICES[5024] }] = 0.0
+EDGES[{ VERTICES[2142], VERTICES[3114] }] = 0.0
+EDGES[{ VERTICES[4169], VERTICES[2532] }] = 0.0
+EDGES[{ VERTICES[4539], VERTICES[3273] }] = 0.0
+EDGES[{ VERTICES[369], VERTICES[5985] }] = 0.0
+EDGES[{ VERTICES[5170], VERTICES[557] }] = 0.0
+EDGES[{ VERTICES[2527], VERTICES[4965] }] = 0.0
+EDGES[{ VERTICES[5030], VERTICES[1144] }] = 0.0
+EDGES[{ VERTICES[5169], VERTICES[2722] }] = 0.0
+EDGES[{ VERTICES[5811], VERTICES[1702] }] = 0.0
+EDGES[{ VERTICES[5367], VERTICES[5371] }] = 0.0
+EDGES[{ VERTICES[2749], VERTICES[4161] }] = 0.0
+EDGES[{ VERTICES[1191], VERTICES[5837] }] = 0.0
+EDGES[{ VERTICES[307], VERTICES[4009] }] = 0.0
+EDGES[{ VERTICES[1213], VERTICES[3287] }] = 0.0
+EDGES[{ VERTICES[2009], VERTICES[2813] }] = 0.0
+EDGES[{ VERTICES[4023], VERTICES[4029] }] = 0.0
+EDGES[{ VERTICES[47], VERTICES[5535] }] = 0.0
+EDGES[{ VERTICES[5998], VERTICES[4536] }] = 0.0
+EDGES[{ VERTICES[2754], VERTICES[3435] }] = 0.0
+EDGES[{ VERTICES[2464], VERTICES[4191] }] = 0.0
+EDGES[{ VERTICES[5684], VERTICES[66] }] = 0.0
+EDGES[{ VERTICES[4655], VERTICES[2423] }] = 0.0
+EDGES[{ VERTICES[5331], VERTICES[3455] }] = 0.0
+EDGES[{ VERTICES[5852], VERTICES[4794] }] = 0.0
+EDGES[{ VERTICES[3555], VERTICES[1305] }] = 0.0
+EDGES[{ VERTICES[5419], VERTICES[455] }] = 0.0
+EDGES[{ VERTICES[4399], VERTICES[4929] }] = 0.0
+EDGES[{ VERTICES[4027], VERTICES[905] }] = 0.0
+EDGES[{ VERTICES[5974], VERTICES[2703] }] = 0.0
+EDGES[{ VERTICES[482], VERTICES[3422] }] = 0.0
+EDGES[{ VERTICES[4885], VERTICES[607] }] = 0.0
+EDGES[{ VERTICES[5969], VERTICES[5266] }] = 0.0
+EDGES[{ VERTICES[2569], VERTICES[4964] }] = 0.0
+EDGES[{ VERTICES[3762], VERTICES[5638] }] = 0.0
+EDGES[{ VERTICES[4035], VERTICES[4604] }] = 0.0
+EDGES[{ VERTICES[3999], VERTICES[3956] }] = 0.0
+EDGES[{ VERTICES[707], VERTICES[6242] }] = 0.0
+EDGES[{ VERTICES[3042], VERTICES[601] }] = 0.0
+EDGES[{ VERTICES[1616], VERTICES[1347] }] = 0.0
+EDGES[{ VERTICES[5908], VERTICES[4078] }] = 0.0
+EDGES[{ VERTICES[4044], VERTICES[3926] }] = 0.0
+EDGES[{ VERTICES[2719], VERTICES[1706] }] = 0.0
+EDGES[{ VERTICES[5620], VERTICES[1909] }] = 0.0
+EDGES[{ VERTICES[2961], VERTICES[4614] }] = 0.0
+EDGES[{ VERTICES[1758], VERTICES[1814] }] = 0.0
+EDGES[{ VERTICES[2864], VERTICES[5763] }] = 0.0
+EDGES[{ VERTICES[2962], VERTICES[3056] }] = 0.0
+EDGES[{ VERTICES[2806], VERTICES[5306] }] = 0.0
+EDGES[{ VERTICES[1029], VERTICES[1777] }] = 0.0
+EDGES[{ VERTICES[1228], VERTICES[5286] }] = 0.0
+EDGES[{ VERTICES[4586], VERTICES[4659] }] = 0.0
+EDGES[{ VERTICES[429], VERTICES[3524] }] = 0.0
+EDGES[{ VERTICES[5052], VERTICES[447] }] = 0.0
+EDGES[{ VERTICES[2168], VERTICES[3092] }] = 0.0
+EDGES[{ VERTICES[3568], VERTICES[2660] }] = 0.0
+EDGES[{ VERTICES[3774], VERTICES[4751] }] = 0.0
+EDGES[{ VERTICES[1517], VERTICES[713] }] = 0.0
+EDGES[{ VERTICES[2668], VERTICES[179] }] = 0.0
+EDGES[{ VERTICES[5083], VERTICES[2827] }] = 0.0
+EDGES[{ VERTICES[3526], VERTICES[2866] }] = 0.0
+EDGES[{ VERTICES[5590], VERTICES[3164] }] = 0.0
+EDGES[{ VERTICES[2465], VERTICES[5338] }] = 0.0
+EDGES[{ VERTICES[1370], VERTICES[4940] }] = 0.0
+EDGES[{ VERTICES[603], VERTICES[470] }] = 0.0
+EDGES[{ VERTICES[3819], VERTICES[1977] }] = 0.0
+EDGES[{ VERTICES[4879], VERTICES[6038] }] = 0.0
+EDGES[{ VERTICES[5723], VERTICES[3752] }] = 0.0
+EDGES[{ VERTICES[1233], VERTICES[654] }] = 0.0
+EDGES[{ VERTICES[5605], VERTICES[5265] }] = 0.0
+EDGES[{ VERTICES[1196], VERTICES[2355] }] = 0.0
+EDGES[{ VERTICES[2993], VERTICES[5319] }] = 0.0
+EDGES[{ VERTICES[3895], VERTICES[4529] }] = 0.0
+EDGES[{ VERTICES[3837], VERTICES[2740] }] = 0.0
+EDGES[{ VERTICES[2811], VERTICES[1449] }] = 0.0
+EDGES[{ VERTICES[2751], VERTICES[2941] }] = 0.0
+EDGES[{ VERTICES[1639], VERTICES[225] }] = 0.0
+EDGES[{ VERTICES[2238], VERTICES[1607] }] = 0.0
+EDGES[{ VERTICES[4187], VERTICES[12] }] = 0.0
+EDGES[{ VERTICES[1044], VERTICES[1538] }] = 0.0
+EDGES[{ VERTICES[6186], VERTICES[4278] }] = 0.0
+EDGES[{ VERTICES[1908], VERTICES[623] }] = 0.0
+EDGES[{ VERTICES[281], VERTICES[4135] }] = 0.0
+EDGES[{ VERTICES[2161], VERTICES[726] }] = 0.0
+EDGES[{ VERTICES[4932], VERTICES[5133] }] = 0.0
+EDGES[{ VERTICES[105], VERTICES[5721] }] = 0.0
+EDGES[{ VERTICES[3426], VERTICES[5773] }] = 0.0
+EDGES[{ VERTICES[1870], VERTICES[28] }] = 0.0
+EDGES[{ VERTICES[2596], VERTICES[2132] }] = 0.0
+EDGES[{ VERTICES[2136], VERTICES[585] }] = 0.0
+EDGES[{ VERTICES[4383], VERTICES[180] }] = 0.0
+EDGES[{ VERTICES[3584], VERTICES[5393] }] = 0.0
+EDGES[{ VERTICES[1759], VERTICES[464] }] = 0.0
+EDGES[{ VERTICES[5685], VERTICES[5479] }] = 0.0
+EDGES[{ VERTICES[5176], VERTICES[638] }] = 0.0
+EDGES[{ VERTICES[3767], VERTICES[1544] }] = 0.0
+EDGES[{ VERTICES[2177], VERTICES[3485] }] = 0.0
+EDGES[{ VERTICES[1397], VERTICES[6169] }] = 0.0
+EDGES[{ VERTICES[1900], VERTICES[1574] }] = 0.0
+EDGES[{ VERTICES[1507], VERTICES[5385] }] = 0.0
+EDGES[{ VERTICES[1054], VERTICES[2061] }] = 0.0
+EDGES[{ VERTICES[3715], VERTICES[5548] }] = 0.0
+EDGES[{ VERTICES[3416], VERTICES[4127] }] = 0.0
+EDGES[{ VERTICES[1940], VERTICES[4297] }] = 0.0
+EDGES[{ VERTICES[174], VERTICES[817] }] = 0.0
+EDGES[{ VERTICES[363], VERTICES[443] }] = 0.0
+EDGES[{ VERTICES[588], VERTICES[4884] }] = 0.0
+EDGES[{ VERTICES[245], VERTICES[1899] }] = 0.0
+EDGES[{ VERTICES[3438], VERTICES[4073] }] = 0.0
+EDGES[{ VERTICES[3989], VERTICES[3565] }] = 0.0
+EDGES[{ VERTICES[3476], VERTICES[3143] }] = 0.0
+EDGES[{ VERTICES[865], VERTICES[956] }] = 0.0
+EDGES[{ VERTICES[1109], VERTICES[290] }] = 0.0
+EDGES[{ VERTICES[4741], VERTICES[5329] }] = 0.0
+EDGES[{ VERTICES[4490], VERTICES[6187] }] = 0.0
+EDGES[{ VERTICES[2145], VERTICES[4279] }] = 0.0
+EDGES[{ VERTICES[6244], VERTICES[5708] }] = 0.0
+EDGES[{ VERTICES[5828], VERTICES[763] }] = 0.0
+EDGES[{ VERTICES[5559], VERTICES[3140] }] = 0.0
+EDGES[{ VERTICES[3250], VERTICES[2151] }] = 0.0
+EDGES[{ VERTICES[2062], VERTICES[4594] }] = 0.0
+EDGES[{ VERTICES[3758], VERTICES[3246] }] = 0.0
+EDGES[{ VERTICES[4380], VERTICES[275] }] = 0.0
+EDGES[{ VERTICES[6030], VERTICES[3387] }] = 0.0
+EDGES[{ VERTICES[4991], VERTICES[4504] }] = 0.0
+EDGES[{ VERTICES[1231], VERTICES[4356] }] = 0.0
+EDGES[{ VERTICES[1402], VERTICES[1100] }] = 0.0
+EDGES[{ VERTICES[5312], VERTICES[3700] }] = 0.0
+EDGES[{ VERTICES[4378], VERTICES[292] }] = 0.0
+EDGES[{ VERTICES[5137], VERTICES[835] }] = 0.0
+EDGES[{ VERTICES[4948], VERTICES[3748] }] = 0.0
+EDGES[{ VERTICES[1549], VERTICES[2385] }] = 0.0
+EDGES[{ VERTICES[4759], VERTICES[3648] }] = 0.0
+EDGES[{ VERTICES[3655], VERTICES[6212] }] = 0.0
+EDGES[{ VERTICES[4635], VERTICES[1524] }] = 0.0
+EDGES[{ VERTICES[3861], VERTICES[2006] }] = 0.0
+EDGES[{ VERTICES[2436], VERTICES[4996] }] = 0.0
+EDGES[{ VERTICES[5583], VERTICES[2491] }] = 0.0
+EDGES[{ VERTICES[2696], VERTICES[2260] }] = 0.0
+EDGES[{ VERTICES[3413], VERTICES[525] }] = 0.0
+EDGES[{ VERTICES[3992], VERTICES[1193] }] = 0.0
+EDGES[{ VERTICES[2604], VERTICES[2819] }] = 0.0
+EDGES[{ VERTICES[5613], VERTICES[118] }] = 0.0
+EDGES[{ VERTICES[2978], VERTICES[662] }] = 0.0
+EDGES[{ VERTICES[2458], VERTICES[3863] }] = 0.0
+EDGES[{ VERTICES[5017], VERTICES[5354] }] = 0.0
+EDGES[{ VERTICES[248], VERTICES[435] }] = 0.0
+EDGES[{ VERTICES[4713], VERTICES[2166] }] = 0.0
+EDGES[{ VERTICES[5454], VERTICES[5171] }] = 0.0
+EDGES[{ VERTICES[6265], VERTICES[5834] }] = 0.0
+EDGES[{ VERTICES[5849], VERTICES[6080] }] = 0.0
+EDGES[{ VERTICES[3719], VERTICES[3324] }] = 0.0
+EDGES[{ VERTICES[358], VERTICES[3369] }] = 0.0
+EDGES[{ VERTICES[5865], VERTICES[2792] }] = 0.0
+EDGES[{ VERTICES[3430], VERTICES[509] }] = 0.0
+EDGES[{ VERTICES[3899], VERTICES[4913] }] = 0.0
+EDGES[{ VERTICES[5256], VERTICES[2351] }] = 0.0
+EDGES[{ VERTICES[2172], VERTICES[2759] }] = 0.0
+EDGES[{ VERTICES[3260], VERTICES[1744] }] = 0.0
+EDGES[{ VERTICES[491], VERTICES[4609] }] = 0.0
+EDGES[{ VERTICES[3321], VERTICES[115] }] = 0.0
+EDGES[{ VERTICES[1037], VERTICES[6033] }] = 0.0
+EDGES[{ VERTICES[3983], VERTICES[1269] }] = 0.0
+EDGES[{ VERTICES[3904], VERTICES[2525] }] = 0.0
+EDGES[{ VERTICES[289], VERTICES[727] }] = 0.0
+EDGES[{ VERTICES[4506], VERTICES[1562] }] = 0.0
+EDGES[{ VERTICES[5648], VERTICES[3198] }] = 0.0
+EDGES[{ VERTICES[942], VERTICES[3651] }] = 0.0
+EDGES[{ VERTICES[6209], VERTICES[4171] }] = 0.0
+EDGES[{ VERTICES[3744], VERTICES[5308] }] = 0.0
+EDGES[{ VERTICES[1543], VERTICES[1214] }] = 0.0
+EDGES[{ VERTICES[3275], VERTICES[5342] }] = 0.0
+EDGES[{ VERTICES[5106], VERTICES[154] }] = 0.0
+EDGES[{ VERTICES[5212], VERTICES[438] }] = 0.0
+EDGES[{ VERTICES[1889], VERTICES[4213] }] = 0.0
+EDGES[{ VERTICES[2156], VERTICES[3203] }] = 0.0
+EDGES[{ VERTICES[1409], VERTICES[5528] }] = 0.0
+EDGES[{ VERTICES[457], VERTICES[2772] }] = 0.0
+EDGES[{ VERTICES[2725], VERTICES[5737] }] = 0.0
+EDGES[{ VERTICES[550], VERTICES[1412] }] = 0.0
+EDGES[{ VERTICES[3318], VERTICES[3843] }] = 0.0
+EDGES[{ VERTICES[515], VERTICES[800] }] = 0.0
+EDGES[{ VERTICES[5760], VERTICES[4175] }] = 0.0
+EDGES[{ VERTICES[1066], VERTICES[2390] }] = 0.0
+EDGES[{ VERTICES[4866], VERTICES[3847] }] = 0.0
+EDGES[{ VERTICES[1699], VERTICES[4441] }] = 0.0
+EDGES[{ VERTICES[2048], VERTICES[4407] }] = 0.0
+EDGES[{ VERTICES[1377], VERTICES[6016] }] = 0.0
+EDGES[{ VERTICES[2844], VERTICES[773] }] = 0.0
+EDGES[{ VERTICES[1301], VERTICES[994] }] = 0.0
+EDGES[{ VERTICES[4840], VERTICES[5333] }] = 0.0
+EDGES[{ VERTICES[5546], VERTICES[735] }] = 0.0
+EDGES[{ VERTICES[2925], VERTICES[3658] }] = 0.0
+EDGES[{ VERTICES[409], VERTICES[1392] }] = 0.0
+EDGES[{ VERTICES[6039], VERTICES[172] }] = 0.0
+EDGES[{ VERTICES[3892], VERTICES[1145] }] = 0.0
+EDGES[{ VERTICES[4620], VERTICES[976] }] = 0.0
+EDGES[{ VERTICES[6118], VERTICES[5682] }] = 0.0
+EDGES[{ VERTICES[1975], VERTICES[2550] }] = 0.0
+EDGES[{ VERTICES[3084], VERTICES[3702] }] = 0.0
 
 global GRAPH: RoutingGraph = {vertices = VERTICES, edges = EDGES}
 return {graph = GRAPH}
