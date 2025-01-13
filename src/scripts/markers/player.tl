@@ -139,16 +139,26 @@ local function updateViewportObjectives(objectiveBlips: ObjectiveBlips)
     setObjectiveBlips(screenSpace)
 end
 
+local function getPlayerCellCoords(): CellCoords
+    local cellId: string
+    if self.object.cell.isExterior then
+        cellId = nil
+    else
+        cellId = self.object.cell.name
+    end
+
+    return { cellId = cellId, coords = self.object.position }
+end
+
 return {
     engineHandlers = {
         onKeyPress = function(key: input.KeyboardEvent)
             if key.symbol == 'x' then
-                local playerPos: CellCoords = { cellId = self.object.cell.name, coords = self.object.position }
                 local objective: CellCoords = {
                     coords = util.vector3(1175.262, -610.6491, 272.00006),
                     cellId = "Seyda Neen, Census and Excise Office",
                 }
-                OBJECTIVE_BLIPS = computeBlips({objective}, playerPos, GRAPH)
+                OBJECTIVE_BLIPS = computeBlips({objective}, getPlayerCellCoords(), GRAPH)
             end
         end,
         onUpdate = function(dt: number)
