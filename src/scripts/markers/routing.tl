@@ -15,7 +15,7 @@ local function cellIdToIndex(cellId: string): string
 end
 
 local function dijkstra(graph: RoutingGraph, source: CellCoords, destination: CellCoords): {CellCoords: number}, {CellCoords: CellCoords}
-    print("routing: source " ..  coordsToString(source) .. ".." ..  coordsToString(destination))
+    -- print("routing: source " ..  coordsToString(source) .. ".." ..  coordsToString(destination))
     local INFINITY: number = 1e50
 
     local dist: {CellCoords: number} = {}
@@ -57,17 +57,26 @@ local function dijkstra(graph: RoutingGraph, source: CellCoords, destination: Ce
 
     vertices = verticesByCell[cellIdToIndex(destination.cellId)]
     if vertices == nil then vertices = {} end
-    table.insert(vertices, source)
+    table.insert(vertices, destination)
     verticesByCell[cellIdToIndex(destination.cellId)] = vertices
 
     while not Q:empty() do
-        local vertex = Q:pop() as CellCoords
-        print("dijkstra, q size is " .. tostring(Q:size()))
+        -- print("dijkstra, q size is " .. tostring(Q:size()))
+
+        local vertexAndCost = Q.heap[1]
+        local vertex = vertexAndCost[1] as CellCoords
+        local vertexCost = vertexAndCost[2]
+
+        Q:pop()
+        
         if vertex == destination then
             return dist, prev
         end
 
-        print("dijkstra " .. coordsToString(vertex))
+        -- https://cs.stackexchange.com/a/118406
+        if dist[vertex] < vertexCost then goto continue end
+        
+        -- print("dijkstra " .. coordsToString(vertex))
 
         -- each vertex (without ASV and teleports) has one normal edge
         
@@ -75,28 +84,31 @@ local function dijkstra(graph: RoutingGraph, source: CellCoords, destination: Ce
         
         -- Add actual teleportation neighbours
         local neighbours = graph.edges[vertex]
-        if neighbours == nil then neighbours = {} end
-        for _, neighbour in ipairs(neighbours) do
-            table.insert(vertexNeighbours, {neighbour.vertex, neighbour.cost})
+        if neighbours ~= nil then
+            for _, neighbour in ipairs(neighbours) do
+                table.insert(vertexNeighbours, {neighbour.vertex, neighbour.cost})
+            end
         end
 
         -- Add neighbours in the same cell
         local cellNeighbours = verticesByCell[cellIdToIndex(vertex.cellId)]
-        if cellNeighbours == nil then cellNeighbours = {} end
-        for _, neighbour in ipairs(cellNeighbours) do
-            table.insert(vertexNeighbours, {neighbour, (neighbour.coords - vertex.coords):length()})
+        if cellNeighbours ~= nil then
+            for _, neighbour in ipairs(cellNeighbours) do
+                table.insert(vertexNeighbours, {neighbour, (neighbour.coords - vertex.coords):length()})
+            end
         end
 
         for _, otherVertexAndCost in ipairs(vertexNeighbours) do
             local otherVertex = otherVertexAndCost[1]
             local distance = otherVertexAndCost[2]
-            print("checking cost to " .. coordsToString(otherVertex) .. " dist " .. tostring(distance))
+            -- print("checking cost to " .. coordsToString(otherVertex) .. " dist " .. tostring(distance))
             if dist[vertex] + distance < dist[otherVertex] then
                 dist[otherVertex] = dist[vertex] + distance
                 prev[otherVertex] = vertex
                 Q:put(otherVertex, dist[otherVertex])
             end
         end
+        ::continue::
     end
 
     return dist, prev
@@ -107,7 +119,7 @@ local function getRoute(graph: RoutingGraph, source: CellCoords, destination: Ce
 
     local result: {CellCoords} = {}
 
-    while destination ~= nil do
+    while (destination ~= nil) and (destination ~= source) do
         table.insert(result, destination)
         destination = prev[destination]
     end
@@ -117,12 +129,18 @@ local function getRoute(graph: RoutingGraph, source: CellCoords, destination: Ce
         ui.printToConsole(coordsToString(v), ui.CONSOLE_COLOR.Default)
     end
 
-    if destination ~= source then
-        return nil
+    if destination == source then
+        listReverse(result)
+        return result
     end
 
-    listReverse(result)
-    return result
+    return nil
 end
 
 return { getRoute = getRoute }
+
+-- ISSUES
+--  - duplicate vertices (because equality is on table IDs, not data)
+--  - will need to mess around with door positions a lot because each door's origin is different
+--  - still slow, need that pruning
+--  - seyda need census problem: same interior but they're physically unreachable from each other lol

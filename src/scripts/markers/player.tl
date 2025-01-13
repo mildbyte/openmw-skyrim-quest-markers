@@ -155,8 +155,8 @@ return {
         onKeyPress = function(key: input.KeyboardEvent)
             if key.symbol == 'x' then
                 local objective: CellCoords = {
-                    coords = util.vector3(1175.262, -610.6491, 272.00006),
-                    cellId = "Seyda Neen, Census and Excise Office",
+                    coords = util.vector3(3874, 3954, 14410),
+                    cellId = "Dagoth Ur, Facility Cavern",
                 }
                 OBJECTIVE_BLIPS = computeBlips({objective}, getPlayerCellCoords(), GRAPH)
             end
