@@ -159,6 +159,8 @@ return {
                     cellId = "Dagoth Ur, Facility Cavern",
                 }
                 OBJECTIVE_BLIPS = computeBlips({objective}, getPlayerCellCoords(), GRAPH)
+                -- local globalCoord = OBJECTIVE_BLIPS.globalBlips[1]
+                -- ui.printToConsole("global cell objective: " .. tostring(globalCoord.x) .. "," .. tostring(globalCoord.y) .. "," .. tostring(globalCoord.z), ui.CONSOLE_COLOR.Default)
             end
         end,
         onUpdate = function(dt: number)

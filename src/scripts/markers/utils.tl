@@ -14,5 +14,11 @@ local function listReverse<A>(l: {A}): {A}
     end
 end
 
+local function tableLength(t: table): integer
+    local result = 0
+    for _ in pairs(t) do result = result + 1 end
+    return result
+end
 
-return { listContains = listContains, listReverse = listReverse }
+
+return { listContains = listContains, listReverse = listReverse, tableLength = tableLength }
