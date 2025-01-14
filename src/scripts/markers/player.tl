@@ -150,21 +150,31 @@ local function getPlayerCellCoords(): CellCoords
     return { cellId = cellId, coords = self.object.position }
 end
 
+global TEST_OBJECTIVE: CellCoords = {
+    coords = util.vector3(3874, 3954, 14410),
+    cellId = "Dagoth Ur, Facility Cavern",
+}
+
+global PLAYER_COORDS: CellCoords = nil
+
 return {
     engineHandlers = {
         onKeyPress = function(key: input.KeyboardEvent)
             if key.symbol == 'x' then
-                local objective: CellCoords = {
-                    coords = util.vector3(3874, 3954, 14410),
-                    cellId = "Dagoth Ur, Facility Cavern",
-                }
-                OBJECTIVE_BLIPS = computeBlips({objective}, getPlayerCellCoords(), GRAPH)
-                -- local globalCoord = OBJECTIVE_BLIPS.globalBlips[1]
-                -- ui.printToConsole("global cell objective: " .. tostring(globalCoord.x) .. "," .. tostring(globalCoord.y) .. "," .. tostring(globalCoord.z), ui.CONSOLE_COLOR.Default)
+                OBJECTIVE_BLIPS = computeBlips({TEST_OBJECTIVE}, getPlayerCellCoords(), GRAPH)
             end
         end,
         onUpdate = function(dt: number)
+            local cellCoords = getPlayerCellCoords()
+
+            -- Automatically update the routing when a cell changes
+            -- TODO: also do it occasionally in the exterior
+            -- hmm, what about ASV teleports
+            if PLAYER_COORDS == nil or cellCoords.cellId ~= PLAYER_COORDS.cellId then
+                OBJECTIVE_BLIPS = computeBlips({TEST_OBJECTIVE}, getPlayerCellCoords(), GRAPH)
+            end
             updateViewportObjectives(OBJECTIVE_BLIPS)
-        end,
+            PLAYER_COORDS = cellCoords
+        end
     }
 }
