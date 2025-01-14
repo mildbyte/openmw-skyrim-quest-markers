@@ -12,22 +12,35 @@ class CellCluster(NamedTuple):
 
 class Graph(NamedTuple):
     vertices: list[Location]
+    travelNPCVertices: list[Location]
     # add type of edge later?
     edges: dict[Location, list[tuple[Location, float]]]
 
     cell_clusters: list[CellCluster]
-    # vertices for each cell too?
     cell_cluster_map: dict[str, int]
 
 
-def build_graph(
-    cells: list[any],
-) -> Graph:
+def build_graph(cells: list[any], npcs: list[any]) -> Graph:
     vertices: set[Location] = set()
     edges: defaultdict[Location, list[tuple[Location, float]]] = defaultdict(list)
 
+    travel_npcs: dict[str, list[Location]] = {}
+    for npc in npcs:
+        if npc["travel_destinations"]:
+            target_locations: list[Location] = []
+            for destination in npc["travel_destinations"]:
+                target_location = (
+                    tuple(destination["translation"]),
+                    destination["cell"] if destination["cell"] else None,
+                )
+                target_locations.append(target_location)
+            travel_npcs[npc["id"]] = target_locations
+
+    travelNPCVertices: list[Location] = []
+
     for cell in cells:
         for ref in cell["references"]:
+            # Add doors
             if "destination" in ref:
                 source_location = (
                     tuple(ref["translation"]),
@@ -44,12 +57,33 @@ def build_graph(
                 vertices.add(source_location)
                 vertices.add(target_location)
                 edges[source_location].append((target_location, 0))
+            if ref["id"] in travel_npcs:
+                source_location = (
+                    tuple(ref["translation"]),
+                    (
+                        cell["name"]
+                        if cell["name"] and "IS_INTERIOR" in cell["data"]["flags"]
+                        else None
+                    ),
+                )
+                travelNPCVertices.append(source_location)
+                vertices.add(source_location)
+                for tl in travel_npcs[ref["id"]]:
+                    edges[source_location].append((tl, 0))
+                    vertices.add(tl)
 
+    edges = dict(edges)
+    clusters, cell_cluster_map = get_cell_clusters(vertices, edges)
+
+    return Graph(list(vertices), travelNPCVertices, edges, clusters, cell_cluster_map)
+
+
+def get_cell_clusters(
+    vertices: set[Location], edges: dict[Location, list[tuple[Location, float]]]
+) -> tuple[list[CellCluster], dict[str, int]]:
     to_visit = vertices.copy()
     clusters: list[CellCluster] = []
-
     visited: set[Location] = set()
-    edges = dict(edges)
 
     while to_visit:
         vertex = to_visit.pop()
@@ -102,7 +136,7 @@ def build_graph(
                     vertex
                 )
 
-    return Graph(list(vertices), edges, clusters, cell_cluster_map)
+    return clusters, cell_cluster_map
 
 
 def emit_cell(cell: str | None) -> str:
@@ -156,13 +190,12 @@ def dump_graph(graph: Graph):
         f.write("return {graph = GRAPH}\n")
 
 
-
 with open("./Morrowind.esm.json") as f:
     raw_graph = json.load(f)
 cells = [g for g in raw_graph if g["type"] == "Cell"]
-graph = build_graph(cells)
+npcs = [g for g in raw_graph if g["type"] == "Npc"]
+graph = build_graph(cells, npcs)
 dump_graph(graph)
-
 
 
 surrogate_edges = 0
