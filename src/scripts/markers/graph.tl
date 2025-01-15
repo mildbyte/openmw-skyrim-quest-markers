@@ -17,6 +17,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-1865.513,-7.9844265,138.27386),cellId="Dagon Fel, Andre Maul's Tower"},
     {coords=util.vector3(-640.0,160.0,-256.74686),cellId="Vivec, Redoran Canalworks"},
     {coords=util.vector3(127407.76,-101678.57,1340.946),cellId=nil},
+    {coords=util.vector3(32206.377,-72225.12,1006.6583),cellId=nil},
     {coords=util.vector3(1964.1263,80697.51,4612.313),cellId=nil},
     {coords=util.vector3(896.0,5792.0,-1312.0),cellId="Sinamusa Egg Mine"},
     {coords=util.vector3(-1856.0,240.0,-688.0),cellId="Molag Mar, Canalworks"},
@@ -52,6 +53,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-20769.46,102488.71,2078.926),cellId=nil},
     {coords=util.vector3(-128.0,0.0,128.0),cellId="Balmora, Guild of Mages"},
     {coords=util.vector3(896.0,960.0,-512.0),cellId="Ihinipalit, Shrine"},
+    {coords=util.vector3(-8680.872,-70138.66,923.2978),cellId=nil},
     {coords=util.vector3(-176.0,4096.0,-32.0),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(20688.0,-53056.0,744.0),cellId=nil},
     {coords=util.vector3(448.0,-1920.0,-128.0),cellId="Vivec, Telvanni Waistworks"},
@@ -68,6 +70,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(54563.812,153175.95,1860.404),cellId=nil},
     {coords=util.vector3(-574.94495,4799.9683,-1312.0),cellId="Ainab"},
     {coords=util.vector3(-0.49181646,5.518369,84.92002),cellId="Suran, Ibarnadad Assirnarari: Apothecary"},
+    {coords=util.vector3(525.7135,334.80548,490.127),cellId="Caldera, Guild of Mages"},
     {coords=util.vector3(20291.684,-54111.973,728.044),cellId=nil},
     {coords=util.vector3(4424.0,7662.0,12181.0),cellId="Kogoruhn, Charma's Breath"},
     {coords=util.vector3(-10807.743,17137.932,1364.681),cellId=nil},
@@ -87,6 +90,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(94908.16,135553.2,1052.818),cellId=nil},
     {coords=util.vector3(-100042.375,124744.34,-1478.2645),cellId=nil},
     {coords=util.vector3(-80768.0,93358.0,2329.0),cellId=nil},
+    {coords=util.vector3(-48492.97,-39756.793,187.18106),cellId=nil},
     {coords=util.vector3(3520.0,640.0,-32.0),cellId="Nchuleftingth, Lower Levels"},
     {coords=util.vector3(32227.637,-106564.33,1737.8508),cellId=nil},
     {coords=util.vector3(31738.336,-87525.86,1886.6277),cellId=nil},
@@ -94,6 +98,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(1592.3036,123.60295,256.43237),cellId="Sandas Ancestral Tomb"},
     {coords=util.vector3(760.2082,-257.25742,-33.217625),cellId="Vivec, St. Olms Brewers and Fishmongers Hall"},
     {coords=util.vector3(-2095.361,3210.625,-551.906),cellId="Nammu"},
+    {coords=util.vector3(-755.8966,-1002.73267,-644.62787),cellId="Balmora, Guild of Mages"},
     {coords=util.vector3(125.34846,-1128.0878,610.68884),cellId="Gnisis, Yahaz Hut"},
     {coords=util.vector3(3815.1047,4042.174,14551.61),cellId="Suran, Guard Tower"},
     {coords=util.vector3(-2181.6868,2456.9482,1008.0),cellId="Telvayn Ancestral Tomb"},
@@ -102,6 +107,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(128.0,-256.0,-128.0),cellId="Gnisis, Vabdas Hut"},
     {coords=util.vector3(4160.999,2352.344,12496.0),cellId="Bal Fell, Outer Shrine"},
     {coords=util.vector3(-109.738,-261.723,128.0),cellId="Balmora, Eight Plates"},
+    {coords=util.vector3(-21318.512,-18232.85,1180.8386),cellId=nil},
     {coords=util.vector3(-177.89986,1854.8961,-1136.0),cellId="Tel Branora, Upper Tower: Therana's Chamber"},
     {coords=util.vector3(-69592.086,141244.97,302.987),cellId=nil},
     {coords=util.vector3(-20437.475,-13668.966,303.097),cellId=nil},
@@ -113,6 +119,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(3824.0,-2480.0,672.0),cellId="Drethan Ancestral Tomb"},
     {coords=util.vector3(108039.695,-61183.156,1880.0845),cellId=nil},
     {coords=util.vector3(-5568.0,-17312.0,2064.0),cellId=nil},
+    {coords=util.vector3(119149.92,-102117.05,158.7645),cellId=nil},
     {coords=util.vector3(-22037.111,-14007.134,888.868),cellId=nil},
     {coords=util.vector3(149125.58,36067.977,3468.1667),cellId=nil},
     {coords=util.vector3(-2432.0,-5184.0,-2336.0),cellId="Shulk Egg Mine"},
@@ -126,6 +133,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(1014.2815,1119.3011,-1071.9999),cellId="Pelagiad, North Wall"},
     {coords=util.vector3(0.0,-128.0,-64.0),cellId="Vivec, Black Shalk Cornerclub"},
     {coords=util.vector3(10584.482,-4568.974,-171.822),cellId="Omaren Ancestral Tomb"},
+    {coords=util.vector3(-21226.648,-18292.15,1097.342),cellId=nil},
     {coords=util.vector3(-721.0075,7170.377,-546.3589),cellId="Ahanibi-Malmus Egg Mine"},
     {coords=util.vector3(-39777.305,150050.7,698.088),cellId=nil},
     {coords=util.vector3(85472.39,117459.68,3529.5159),cellId=nil},
@@ -162,8 +170,10 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-1357.6705,2812.4954,860.9718),cellId="Aharnabi"},
     {coords=util.vector3(1728.0,7168.0,80.0),cellId="Vivec, St. Delyn Underworks"},
     {coords=util.vector3(-40421.14,67833.336,1963.855),cellId=nil},
+    {coords=util.vector3(113960.16,-61257.71,761.3097),cellId=nil},
     {coords=util.vector3(-128.0,-718.0,822.0),cellId="Ilunibi, Carcass of the Saint"},
     {coords=util.vector3(14217.879,-100394.016,1280.0),cellId=nil},
+    {coords=util.vector3(-58679.21,26485.94,190.11243),cellId=nil},
     {coords=util.vector3(0.50333214,-19.467583,-27.19185),cellId="Vivec, Hlaalu Vaults"},
     {coords=util.vector3(31319.188,-100091.55,2560.8743),cellId=nil},
     {coords=util.vector3(86186.734,117437.62,5203.31),cellId=nil},
@@ -302,6 +312,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-12904.959,126525.484,1455.416),cellId=nil},
     {coords=util.vector3(3632.0,4672.0,864.0),cellId="Sadrith Mora, Gateway Inn"},
     {coords=util.vector3(33119.242,-84726.305,-247.16382),cellId=nil},
+    {coords=util.vector3(22613.068,-87935.86,105.257355),cellId=nil},
     {coords=util.vector3(-25793.49,-11676.645,1138.385),cellId=nil},
     {coords=util.vector3(125801.664,67265.125,-193.1839),cellId=nil},
     {coords=util.vector3(-2016.0,1216.0,-1152.0),cellId="Arkngthunch-Sturdumz"},
@@ -398,6 +409,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(37544.594,135243.47,754.581),cellId=nil},
     {coords=util.vector3(-128.0,-64.0,-128.0),cellId="Vivec, Telvanni Sorcerer"},
     {coords=util.vector3(56233.05,-51544.188,662.36304),cellId=nil},
+    {coords=util.vector3(-65882.91,135516.08,1111.1692),cellId=nil},
     {coords=util.vector3(-480.0,512.0,-32.0),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(-42.60473,426.05426,110.49509),cellId="Vivec, Hlaalu Plaza"},
     {coords=util.vector3(512.0,-384.0,384.0),cellId="Suran, Ibarnadad Assirnarari: Apothecary"},
@@ -409,6 +421,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-9821.382,-71476.945,268.844),cellId=nil},
     {coords=util.vector3(-2144.0,5752.0,-296.398),cellId="Mul Grotto"},
     {coords=util.vector3(-24813.428,-10272.697,1077.4138),cellId=nil},
+    {coords=util.vector3(28829.506,-76725.164,157.19632),cellId=nil},
     {coords=util.vector3(-36.35281,397.39493,-169.88928),cellId="Zainab Camp, Ashur-Dan's Yurt"},
     {coords=util.vector3(2113.244,1818.3634,-59.30258),cellId="ToddTest"},
     {coords=util.vector3(4032.0,3968.0,14784.0),cellId="Mila-Nipal, Manat's Yurt"},
@@ -440,6 +453,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-63.52525,-70.97312,32.184998),cellId="Vivec, St. Olms Waist South-One"},
     {coords=util.vector3(505.4502,719.16486,-299.77148),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(-13092.74,56807.41,2676.0),cellId=nil},
+    {coords=util.vector3(20570.135,-101315.125,86.30681),cellId=nil},
     {coords=util.vector3(448.0,-256.0,-256.0),cellId="Gro-Bagrat Plantation"},
     {coords=util.vector3(1825.6119,-518.1945,-30.446857),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(-21160.896,-16810.266,617.18933),cellId=nil},
@@ -454,6 +468,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(384.0,1024.0,-48.0),cellId="Moonmoth Legion Fort, Interior"},
     {coords=util.vector3(4068.613,2723.252,14753.518),cellId="Hla Oad, Relien Rirne's House"},
     {coords=util.vector3(-13440.0,43072.0,2624.0),cellId=nil},
+    {coords=util.vector3(20362.787,-102424.5,185.2708),cellId=nil},
     {coords=util.vector3(2102.6316,4624.823,359.43652),cellId="Shallit"},
     {coords=util.vector3(-26992.39,151767.92,834.35724),cellId=nil},
     {coords=util.vector3(1216.0,384.0,-7.69),cellId="Tel Uvirith, Tower Upper"},
@@ -528,8 +543,9 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(1327.707,-3090.703,351.535),cellId="Maba-Ilu"},
     {coords=util.vector3(-118219.52,115894.336,444.801),cellId=nil},
     {coords=util.vector3(-1312.0033,540.7848,1824.0),cellId="Saren Ancestral Tomb"},
-    {coords=util.vector3(832.0,-320.0,0.0),cellId="Ald-ruhn, Venim Manor Guard Quarters"},
+    {coords=util.vector3(-8680.601,-70135.79,919.59393),cellId=nil},
     {coords=util.vector3(35422.883,161008.77,251.77054),cellId=nil},
+    {coords=util.vector3(832.0,-320.0,0.0),cellId="Ald-ruhn, Venim Manor Guard Quarters"},
     {coords=util.vector3(-40446.707,34877.293,1303.552),cellId=nil},
     {coords=util.vector3(213.13013,6.9500456,202.81802),cellId="Tel Branora, Manos Vavyn's House"},
     {coords=util.vector3(-16376.031,-14447.433,325.714),cellId=nil},
@@ -600,6 +616,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(83551.13,-77816.82,-213.93793),cellId=nil},
     {coords=util.vector3(127242.01,94538.64,31.012789),cellId=nil},
     {coords=util.vector3(-8115.9175,-84528.93,-33.595314),cellId=nil},
+    {coords=util.vector3(32206.885,-72222.42,1004.64557),cellId=nil},
     {coords=util.vector3(0.47303456,110.707,225.735),cellId="Dagon Fel, Watch Tower"},
     {coords=util.vector3(2688.0,80.0,-160.0),cellId="Vivec, Telvanni Canalworks"},
     {coords=util.vector3(-17702.652,-16274.009,613.697),cellId=nil},
@@ -635,6 +652,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(19410.023,-54345.996,744.0),cellId=nil},
     {coords=util.vector3(-26639.646,-11314.235,1110.44),cellId=nil},
     {coords=util.vector3(-384.0,512.0,256.0),cellId="Suran, Ranosa Gilvayn: Outfitter"},
+    {coords=util.vector3(1657.6456,261.29364,-642.28705),cellId="ToddTest"},
     {coords=util.vector3(132789.78,-28792.016,1464.7836),cellId=nil},
     {coords=util.vector3(340.95,-1.819,131.072),cellId="Tel Mora, Jolda: Apothecary"},
     {coords=util.vector3(55341.137,-54001.758,1330.776),cellId=nil},
@@ -712,6 +730,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-2432.0,-5023.999,-2336.0),cellId="Shulk Egg Mine"},
     {coords=util.vector3(208.18555,-8.471294,209.04707),cellId="Tel Mora, Radras: Smith"},
     {coords=util.vector3(-87550.43,126042.016,396.205),cellId=nil},
+    {coords=util.vector3(28829.268,-76725.49,157.25336),cellId=nil},
     {coords=util.vector3(29869.787,-78190.84,1876.6538),cellId=nil},
     {coords=util.vector3(126160.0,-102200.0,1696.0),cellId=nil},
     {coords=util.vector3(1776.0,7072.0,208.0),cellId="Vivec, St. Olms Underworks"},
@@ -827,6 +846,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(4493.4854,3968.0115,14384.0),cellId="Tel Aruhn, Tower Entry"},
     {coords=util.vector3(-24340.48,-11413.808,1128.974),cellId=nil},
     {coords=util.vector3(1806.098,80759.914,4616.0),cellId=nil},
+    {coords=util.vector3(-69427.67,142115.75,192.24974),cellId=nil},
     {coords=util.vector3(1648.0,0.0,112.0),cellId="Ald-ruhn, Redoran Council Hall"},
     {coords=util.vector3(-307.421,130.367,-127.29863),cellId="Dagon Fel, Heifnir: Trader"},
     {coords=util.vector3(9801.879,-101914.016,1392.0),cellId=nil},
@@ -872,6 +892,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-25588.635,-12830.934,1122.359),cellId=nil},
     {coords=util.vector3(-64.0,320.0,-256.0),cellId="Vivec, Curio Manor"},
     {coords=util.vector3(512.542,-502.996,348.92),cellId="Suran, Oran Manor"},
+    {coords=util.vector3(53161.16,-48229.477,984.1379),cellId=nil},
     {coords=util.vector3(3607.274,-74964.6,335.458),cellId=nil},
     {coords=util.vector3(1214.0754,3397.947,-135.27202),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(18169.879,-103034.016,1301.268),cellId=nil},
@@ -898,6 +919,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-704.0,1056.0,-704.0),cellId="Mzuleft"},
     {coords=util.vector3(39176.004,-87580.25,1878.5448),cellId=nil},
     {coords=util.vector3(174.74835,-168.07173,93.004),cellId="Dagon Fel, Itar the Gentle's House"},
+    {coords=util.vector3(119153.4,-102116.17,159.79312),cellId=nil},
     {coords=util.vector3(-123.639,-356.467,-113.887),cellId="Arrow, Cabin"},
     {coords=util.vector3(-254.87035,505.9581,-36.037735),cellId="Vivec, Library of Vivec"},
     {coords=util.vector3(256.0,-256.0,0.0),cellId="Balmora, Nine Toes' House"},
@@ -1008,6 +1030,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(480.0,1887.998,-2688.0),cellId="Falensarano, Upper Level"},
     {coords=util.vector3(101303.53,115269.3,209.673),cellId=nil},
     {coords=util.vector3(-67.056,-1230.665,453.866),cellId="An Abandoned Shack"},
+    {coords=util.vector3(100663.22,114038.51,254.08958),cellId=nil},
     {coords=util.vector3(-65898.05,22085.846,104.066),cellId=nil},
     {coords=util.vector3(4600.0,-1928.0,1280.0),cellId="Salvel Ancestral Tomb"},
     {coords=util.vector3(-383.99915,-62.962337,64.0),cellId="Kogoruhn, Hall of Maki"},
@@ -1027,6 +1050,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(2048.0,3568.5513,-32.0),cellId="Vivec, Puzzle Canal, Level 4"},
     {coords=util.vector3(4736.0,4928.0,14336.0),cellId="Vivec, Foreign Quarter Upper Waistworks"},
     {coords=util.vector3(152.5435,18.46064,240.43242),cellId="Sadrith Mora, Volmyni Dral's House"},
+    {coords=util.vector3(-48492.668,-39754.523,187.12549),cellId=nil},
     {coords=util.vector3(-794.806,1542.065,220.775),cellId="Ansi"},
     {coords=util.vector3(4151.078,4001.672,-69.22),cellId="Abandoned Shipwreck, Lower Level"},
     {coords=util.vector3(107915.805,11889.975,1127.5062),cellId=nil},
@@ -1081,6 +1105,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(701.8281,320.28088,-64.0),cellId="Berandas, Keep, Bottom Level"},
     {coords=util.vector3(-27304.633,149539.6,791.23267),cellId=nil},
     {coords=util.vector3(695.5236,133.0444,-936.0),cellId="Pinsun"},
+    {coords=util.vector3(113844.664,-61405.793,585.56384),cellId=nil},
     {coords=util.vector3(196.62213,132.7407,414.3832),cellId="Vos, Varo Tradehouse Entrance"},
     {coords=util.vector3(1.1664975,72.14429,-171.8563),cellId="Vivec, Telvanni Upper Storage"},
     {coords=util.vector3(-128.0,-176.0,0.0),cellId="Molag Mar, Saetring the Nord: Smith"},
@@ -1154,6 +1179,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(60335.047,64280.973,1354.5609),cellId=nil},
     {coords=util.vector3(4206.993,3867.074,14816.509),cellId="Dren Plantation, Rethan's Shack"},
     {coords=util.vector3(66.751,-105.133,92.275),cellId="Dagon Fel, Hurg's House"},
+    {coords=util.vector3(-70.134476,434.52173,65.99049),cellId="Sadrith Mora, Wolverine Hall: Mage's Guild"},
     {coords=util.vector3(4274.4067,4275.6245,16400.0),cellId="Tel Vos, Services Tower"},
     {coords=util.vector3(1712.0,7152.0,96.0),cellId="Vivec, Foreign Quarter Underworks"},
     {coords=util.vector3(-13698.0,55511.0,2452.0),cellId=nil},
@@ -1170,6 +1196,8 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(108910.445,-25143.793,755.95197),cellId=nil},
     {coords=util.vector3(-1216.0,832.0,-640.0),cellId="Balmora, Dura gra-Bol's House"},
     {coords=util.vector3(-883.461,3376.081,-802.768),cellId="Assemanu"},
+    {coords=util.vector3(141870.9,38621.242,331.33755),cellId=nil},
+    {coords=util.vector3(43869.965,-87539.48,594.04395),cellId=nil},
     {coords=util.vector3(77786.97,86056.32,921.37),cellId=nil},
     {coords=util.vector3(53126.934,153595.36,1860.404),cellId=nil},
     {coords=util.vector3(1674.8291,-92.73533,-1739.2968),cellId="Vivec, St. Delyn Plaza"},
@@ -1184,7 +1212,9 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(31028.021,-86904.055,2129.7205),cellId=nil},
     {coords=util.vector3(191.997,703.999,-926.8503),cellId="Mudan-Mul Egg Mine"},
     {coords=util.vector3(30479.924,-99459.78,3603.9785),cellId=nil},
+    {coords=util.vector3(-30.279549,212.14183,158.23793),cellId="Sadrith Mora, Wolverine Hall: Mage's Guild"},
     {coords=util.vector3(500.68436,-241.0819,-35.355743),cellId="Vivec, Canon Offices"},
+    {coords=util.vector3(-17642.643,54699.15,2865.9158),cellId=nil},
     {coords=util.vector3(2112.0,2432.0,-288.0),cellId="Arkngthand, Hall of Centrifuge"},
     {coords=util.vector3(149264.0,30272.0,1264.0),cellId=nil},
     {coords=util.vector3(37711.1,-95719.46,665.22095),cellId=nil},
@@ -1230,6 +1260,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(5771.361,45.72869,-128.0),cellId="Vivec, Office of the Watch"},
     {coords=util.vector3(-12461.642,20565.625,1616.0),cellId=nil},
     {coords=util.vector3(-9776.959,17879.889,1348.573),cellId=nil},
+    {coords=util.vector3(-58162.965,26616.516,18.822495),cellId=nil},
     {coords=util.vector3(-71170.2,95452.555,180.0164),cellId=nil},
     {coords=util.vector3(188.083,-57.969,89.59),cellId="Caldera, Slave Shack Two"},
     {coords=util.vector3(2944.0,192.0,-128.0),cellId="Vivec, Telvanni Waistworks"},
@@ -1253,10 +1284,12 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-449.67102,-791.0506,-29.764133),cellId="Vivec, Justice Offices"},
     {coords=util.vector3(5619.2095,3552.0,13146.537),cellId="Shulk Egg Mine, Mining Camp"},
     {coords=util.vector3(-676.0,-640.0,32.0),cellId="Hleran Ancestral Tomb"},
+    {coords=util.vector3(119148.26,-102117.836,151.48479),cellId=nil},
     {coords=util.vector3(47229.113,161394.03,387.31732),cellId=nil},
     {coords=util.vector3(1087.0273,-4544.209,-544.88605),cellId="Yakin"},
     {coords=util.vector3(2.958494,256.2777,-31.957077),cellId="Vivec, St. Olms Storage"},
     {coords=util.vector3(12162.709,-45662.477,-883.232),cellId=nil},
+    {coords=util.vector3(519.8269,334.84186,489.20905),cellId="Caldera, Guild of Mages"},
     {coords=util.vector3(2686.6226,-902.89246,-307.50873),cellId="Dubdilla, Uncharted Caverns, Lower"},
     {coords=util.vector3(-128.0,0.0,128.0),cellId="Suran, Ibarnadad Assirnarari: Apothecary"},
     {coords=util.vector3(-2080.0,1439.998,-2112.0),cellId="Falensarano, Upper Level"},
@@ -1279,6 +1312,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-2181.268,183172.6,25.062),cellId=nil},
     {coords=util.vector3(-264.545,179.229,217.312),cellId="Balmora, Tsiya's House"},
     {coords=util.vector3(194.96144,1530.2781,85.47907),cellId="Ald-ruhn, Manor District"},
+    {coords=util.vector3(35692.87,-74335.914,101.203606),cellId=nil},
     {coords=util.vector3(-247.8644,690.2704,-545.7837),cellId="Ules Manor"},
     {coords=util.vector3(-12894.996,126347.86,1431.322),cellId=nil},
     {coords=util.vector3(185.022,-48.456,-2.507),cellId="Llirala's Shack"},
@@ -1286,10 +1320,12 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(4286.531,3605.06,-43.20508),cellId="Unexplored Shipwreck, Upper Level"},
     {coords=util.vector3(-128.0,0.0,384.0),cellId="Suran, Ibarnadad Assirnarari: Apothecary"},
     {coords=util.vector3(-84235.98,93928.82,1108.698),cellId=nil},
+    {coords=util.vector3(32318.992,-72129.94,927.3754),cellId=nil},
     {coords=util.vector3(35332.67,-37033.305,795.188),cellId=nil},
     {coords=util.vector3(1584.0,7280.0,288.0),cellId="Vivec, Redoran Underworks"},
     {coords=util.vector3(160256.0,-64800.0,256.859),cellId=nil},
     {coords=util.vector3(-2057.001,871.124,-300.0),cellId="Kogoruhn, Bleeding Heart"},
+    {coords=util.vector3(33020.71,-87971.445,126.4238),cellId=nil},
     {coords=util.vector3(1792.0,-64.0,-256.0),cellId="Ald-ruhn, Llethri Guard Quarters"},
     {coords=util.vector3(-1692.7212,3548.3804,-1083.4814),cellId="Falensarano, Upper Level"},
     {coords=util.vector3(2944.0,-320.0,256.0),cellId="Vivec, Redoran Canalworks"},
@@ -1304,6 +1340,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-51821.78,152308.64,241.727),cellId=nil},
     {coords=util.vector3(60.642998,256.352,1247.959),cellId="Dagon Fel, Vacant Tower"},
     {coords=util.vector3(-5.838,601.435,-52.024536),cellId="Elf-Skerring, Upper Level"},
+    {coords=util.vector3(53162.0,-48230.25,984.1379),cellId=nil},
     {coords=util.vector3(-19095.143,102264.86,3442.9648),cellId=nil},
     {coords=util.vector3(-260.751,1856.306,-1280.0),cellId="Odirniran"},
     {coords=util.vector3(-66.67293,340.6574,192.0),cellId="Seyda Neen, Census and Excise Office"},
@@ -1313,6 +1350,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-67972.75,139669.19,203.993),cellId=nil},
     {coords=util.vector3(1304.046,487.066,-401.914),cellId="Balmora, Guild of Fighters"},
     {coords=util.vector3(832.0,3712.0,-1312.0),cellId="Sarimisun-Assa Egg Mine"},
+    {coords=util.vector3(106921.36,117169.125,263.3589),cellId=nil},
     {coords=util.vector3(64428.33,186910.75,156.458),cellId=nil},
     {coords=util.vector3(83126.44,158063.1,329.925),cellId=nil},
     {coords=util.vector3(-56083.34,-29913.102,147.17575),cellId=nil},
@@ -1361,6 +1399,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-35878.707,-37883.547,2266.0789),cellId=nil},
     {coords=util.vector3(1600.0,5888.0,-544.0),cellId="Bthungthumz"},
     {coords=util.vector3(2560.0,4064.0,13984.0),cellId="Sadrith Mora, Wolverine Hall"},
+    {coords=util.vector3(106924.68,117168.76,263.70416),cellId=nil},
     {coords=util.vector3(3889.5996,4265.814,-824.9088),cellId="Deserted Shipwreck, Lower Level"},
     {coords=util.vector3(624.0,4096.0,-288.0),cellId="Ald-ruhn, Sarethi Manor"},
     {coords=util.vector3(-23544.424,-14406.012,923.121),cellId=nil},
@@ -1418,6 +1457,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(4475.506,4080.14,13976.838),cellId="Uncharted Shipwreck, Lower Level"},
     {coords=util.vector3(25.792,470.745,-142.578),cellId="Erabenimsun Camp, Han-Ammu's Yurt"},
     {coords=util.vector3(-448.0,-128.0,-128.0),cellId="Vivec, Ordinator Barracks"},
+    {coords=util.vector3(53158.793,-48228.83,984.1379),cellId=nil},
     {coords=util.vector3(-458.96194,-862.3632,-1741.2046),cellId="Vivec, St. Delyn Plaza"},
     {coords=util.vector3(4220.225,3798.8057,-183.59172),cellId="Abandoned Shipwreck, Lower Level"},
     {coords=util.vector3(4035.3354,3038.2344,15767.055),cellId="Dren Plantation, Dren's Villa"},
@@ -1475,6 +1515,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(86584.0,118784.0,5127.227),cellId=nil},
     {coords=util.vector3(-61120.59,27932.248,439.239),cellId=nil},
     {coords=util.vector3(2656.0,-496.0,-160.0),cellId="Vivec, St. Olms Canalworks"},
+    {coords=util.vector3(62677.742,184290.25,186.34564),cellId=nil},
     {coords=util.vector3(-84509.695,124747.18,1398.9756),cellId=nil},
     {coords=util.vector3(4847.351,4111.494,-1291.2583),cellId="Unchartered Shipwreck, Upper Level"},
     {coords=util.vector3(3893.447,4686.354,-48.036),cellId="Derelict Shipwreck, Lower Level"},
@@ -1491,6 +1532,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(33518.54,-81654.47,-265.71176),cellId=nil},
     {coords=util.vector3(4923.667,3996.904,6.962),cellId="Ancient Shipwreck, Upper Level"},
     {coords=util.vector3(-2752.0,-576.0,734.13),cellId="Inanius Egg Mine"},
+    {coords=util.vector3(142120.28,39365.613,278.45905),cellId=nil},
     {coords=util.vector3(-52984.98,104109.39,1288.005),cellId=nil},
     {coords=util.vector3(-64.0,-64.0,-16.0),cellId="Vivec, Miun-Gei: Enchanter"},
     {coords=util.vector3(384.0,64.0,-128.0),cellId="Vivec, Telvanni Sorcerer"},
@@ -1527,6 +1569,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(1792.0,7808.0,416.0),cellId="Caldera Mine"},
     {coords=util.vector3(-1285.0875,128.4833,-871.0743),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(3072.0,4352.0,13984.0),cellId="Sadrith Mora, Wolverine Hall"},
+    {coords=util.vector3(103458.58,-58515.367,1452.1176),cellId=nil},
     {coords=util.vector3(109079.81,-3001.1301,632.31775),cellId=nil},
     {coords=util.vector3(63583.96,-45892.74,1121.2366),cellId=nil},
     {coords=util.vector3(34054.426,-86290.87,1887.3419),cellId=nil},
@@ -1534,6 +1577,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(110652.75,-61514.676,2142.663),cellId=nil},
     {coords=util.vector3(-15120.04,-14262.061,790.35504),cellId=nil},
     {coords=util.vector3(-6162.151,192420.6,-979.891),cellId=nil},
+    {coords=util.vector3(0.17864418,1392.8215,-385.92874),cellId="Vivec, Guild of Mages"},
     {coords=util.vector3(512.0,-272.0,16.0),cellId="Ald-ruhn, Redoran Council Entrance"},
     {coords=util.vector3(-187.92717,-522.6323,-163.054),cellId="Vivec, No Name Club"},
     {coords=util.vector3(4356.869,2823.896,13525.169),cellId="Vivec, Foreign Quarter Lower Waistworks"},
@@ -1664,6 +1708,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-25882.361,-71780.9,192.0),cellId=nil},
     {coords=util.vector3(4096.376,4733.751,340.25797),cellId="Sadrith Mora, Telvanni Council House, Chambers"},
     {coords=util.vector3(4759.5317,4017.3374,74.72342),cellId="Ancient Shipwreck, Upper Level"},
+    {coords=util.vector3(160255.1,-36135.164,168.10515),cellId=nil},
     {coords=util.vector3(127440.0,47016.0,1000.0),cellId=nil},
     {coords=util.vector3(60151.11,181159.22,651.003),cellId=nil},
     {coords=util.vector3(-376.9752,225.86232,66.497665),cellId="Pelagiad, Murberius Harmevus' House"},
@@ -1875,6 +1920,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(126143.57,45548.176,2098.093),cellId=nil},
     {coords=util.vector3(0.0,3344.0,-1056.0),cellId="Buckmoth Legion Fort, Towers"},
     {coords=util.vector3(2752.061,7163.925,4224.0),cellId="Ashmelech"},
+    {coords=util.vector3(30125.951,-98355.62,173.44983),cellId=nil},
     {coords=util.vector3(38.896244,-91.06949,92.27495),cellId="Seyda Neen, Foryn Gilnith's Shack"},
     {coords=util.vector3(-3113.1555,2057.5906,739.189),cellId="Zainsipilu"},
     {coords=util.vector3(1859.542,3629.0999,-789.08746),cellId="Desolate Shipwreck, Lower Level"},
@@ -1885,6 +1931,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-640.0,-667.9969,-257.3757),cellId="Vivec, Hlaalu Canalworks"},
     {coords=util.vector3(-1164.0,-1184.0,192.0),cellId="Salothran Ancestral Tomb"},
     {coords=util.vector3(576.1149,704.1547,-384.0),cellId="Rotheran, Propylon Chamber"},
+    {coords=util.vector3(42594.227,-87906.08,145.74846),cellId=nil},
     {coords=util.vector3(-192.0,-256.0,128.0),cellId="Balmora, Dralosa Athren's House"},
     {coords=util.vector3(896.0,64.0,-256.0),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(-7474.259,171118.12,397.258),cellId=nil},
@@ -1964,6 +2011,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(1216.0,7104.0,-320.0),cellId="Hlormaren, Keep, Bottom Level"},
     {coords=util.vector3(4224.0,3328.0,14272.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(4349.724,3727.9714,255.572),cellId="Derelict Shipwreck, Upper Level"},
+    {coords=util.vector3(160323.48,-35965.5,99.332825),cellId=nil},
     {coords=util.vector3(1168.0,-48.0,464.0),cellId="Ebonheart, Grand Council Chambers"},
     {coords=util.vector3(-13488.265,-72070.914,164.6741),cellId=nil},
     {coords=util.vector3(-64.0,1792.0,-256.0),cellId="Ald-ruhn, Redoran Council Hall"},
@@ -1976,6 +2024,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-20982.695,-14493.162,628.98),cellId=nil},
     {coords=util.vector3(0.0,0.0,0.0),cellId="Aidanat Camp, Abassel's Yurt"},
     {coords=util.vector3(55754.133,-55048.613,1569.9418),cellId=nil},
+    {coords=util.vector3(35752.44,-74468.71,190.27174),cellId=nil},
     {coords=util.vector3(-65.640625,805.3823,-328.87555),cellId="Valenvaryon, Lurog's Hut"},
     {coords=util.vector3(-760.11597,517.25,-292.96524),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(-1568.0,-1496.0,1184.0),cellId="Omalen Ancestral Tomb"},
@@ -2016,6 +2065,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(6633.398,4859.742,13534.85),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(109074.09,118650.51,597.5678),cellId=nil},
     {coords=util.vector3(162.915,127.044,-128.0),cellId="Pelagiad, Adanja's House"},
+    {coords=util.vector3(-86779.13,89453.34,1126.5557),cellId=nil},
     {coords=util.vector3(23704.03,-55771.984,1339.7493),cellId=nil},
     {coords=util.vector3(56385.36,-53113.008,1304.9232),cellId=nil},
     {coords=util.vector3(-68475.234,46813.227,1861.8408),cellId=nil},
@@ -2093,6 +2143,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(9533.879,-100822.016,2652.0),cellId=nil},
     {coords=util.vector3(352.0,0.0,128.0),cellId="Sadrith Mora, Hleras Gidren's House"},
     {coords=util.vector3(67322.914,128491.56,1376.924),cellId=nil},
+    {coords=util.vector3(-86786.09,89452.07,1130.6611),cellId=nil},
     {coords=util.vector3(110622.516,119758.945,660.497),cellId=nil},
     {coords=util.vector3(-16.0,-256.0,-48.0),cellId="Maar Gan, Yeherradad's Hut"},
     {coords=util.vector3(-639.9314,-662.7472,-257.02597),cellId="Vivec, Telvanni Canalworks"},
@@ -2224,6 +2275,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-40118.69,-55872.617,83.693),cellId=nil},
     {coords=util.vector3(-2046.34,4222.834,-812.549),cellId="Maelu Egg Mine"},
     {coords=util.vector3(126224.62,45887.29,3714.583),cellId=nil},
+    {coords=util.vector3(-22369.432,100114.11,2523.5872),cellId=nil},
     {coords=util.vector3(-1120.0,-1088.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(3824.0,4352.0,14240.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(130014.25,-111842.71,152.54742),cellId=nil},
@@ -2241,6 +2293,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(0.658,-33.256,96.926),cellId="Shushan"},
     {coords=util.vector3(-2287.4856,904.75415,-866.8193),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(256.0,4384.0,-264.0),cellId="Ashalmawia, Shrine"},
+    {coords=util.vector3(521.4369,335.16,489.77106),cellId="Caldera, Guild of Mages"},
     {coords=util.vector3(-254.55408,202.37886,-413.78452),cellId="Vivec, Elven Nations Cornerclub"},
     {coords=util.vector3(204.68474,183.6497,-172.55338),cellId="Vivec, Hlaalu Weaponsmith"},
     {coords=util.vector3(-1291.302,2817.5872,224.93884),cellId="Ainab"},
@@ -2362,6 +2415,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(2016.0,4480.0,423.5086),cellId="Shallit"},
     {coords=util.vector3(-264.6909,248.71648,95.14395),cellId="Balmora, Milie Hastien: Fine Clothier"},
     {coords=util.vector3(452.0,56.0,192.0),cellId="Sadrith Mora, Wolverine Hall: Mage's Guild"},
+    {coords=util.vector3(-86782.37,89454.35,1124.3341),cellId=nil},
     {coords=util.vector3(-43200.0,-3448.0,3072.0),cellId=nil},
     {coords=util.vector3(-65761.26,21963.104,132.861),cellId=nil},
     {coords=util.vector3(4226.289,2112.1138,13727.392),cellId="Tel Vos, Barracks and Armory"},
@@ -2394,6 +2448,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(103548.21,21297.332,910.96985),cellId=nil},
     {coords=util.vector3(4288.0,5888.0,12832.0),cellId="Arkngthand, Heaven's Gallery"},
     {coords=util.vector3(89848.0,9376.0,1960.3297),cellId=nil},
+    {coords=util.vector3(-8681.428,-70136.1,919.9393),cellId=nil},
     {coords=util.vector3(1542.9222,1165.4758,875.32007),cellId="Odaishah"},
     {coords=util.vector3(-192.0,7488.0,-1056.8937),cellId="Akimaes-Ilanipu Egg Mine"},
     {coords=util.vector3(45362.906,192654.95,294.2603),cellId=nil},
@@ -2401,6 +2456,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(3935.9666,669.0271,832.0),cellId="Mamaea, Sanctum of Black Hope"},
     {coords=util.vector3(256.0,-64.0,0.0),cellId="Ald-ruhn, Malpenix Blonia: Trader"},
     {coords=util.vector3(6432.0,7280.0,96.0),cellId="Vivec, Redoran Underworks"},
+    {coords=util.vector3(30770.705,-99639.164,589.8268),cellId=nil},
     {coords=util.vector3(18644.021,-103000.85,998.845),cellId=nil},
     {coords=util.vector3(2556.8,896.0,-32.0),cellId="Nchurdamz, Interior"},
     {coords=util.vector3(1401.9902,3399.5203,128.0),cellId="Ebonheart, Hawkmoth Towers"},
@@ -2413,6 +2469,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(496.0,0.0,80.0),cellId="Buckmoth Legion Fort, Prison"},
     {coords=util.vector3(1280.0,2684.0,-96.0),cellId="Seran Ancestral Tomb"},
     {coords=util.vector3(36533.168,-94832.164,1878.6058),cellId=nil},
+    {coords=util.vector3(123303.91,41164.46,182.47305),cellId=nil},
     {coords=util.vector3(-1248.0,224.0,-32.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(1.884,-134.93,115.44),cellId="Pelagiad, Madres Navur's House"},
     {coords=util.vector3(3850.149,4268.729,14531.698),cellId="Dren Plantation, Doves' Shack"},
@@ -2485,6 +2542,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-154.74416,-603.4297,549.05493),cellId="Caldera, Mining Bunkhouse"},
     {coords=util.vector3(124.293945,7.0657587,-944.0),cellId="Indarys Manor"},
     {coords=util.vector3(-53482.094,125740.484,1898.52),cellId=nil},
+    {coords=util.vector3(-17642.227,54701.22,2863.686),cellId=nil},
     {coords=util.vector3(4371.186,3709.7178,12179.194),cellId="Vivec, Telvanni Tower"},
     {coords=util.vector3(-896.0,1728.0,-384.0),cellId="Ghostgate, Tower of Dusk"},
     {coords=util.vector3(5376.0,4864.0,18144.0),cellId="Vivec, Arena Waistworks"},
@@ -2564,6 +2622,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-68878.195,141252.92,302.987),cellId=nil},
     {coords=util.vector3(-28123.186,19297.678,1678.635),cellId=nil},
     {coords=util.vector3(-240.0,4098.705,-129.39696),cellId="Vivec, Hall of Justice"},
+    {coords=util.vector3(141880.22,38646.445,315.29416),cellId=nil},
     {coords=util.vector3(112.0,0.0,-32.0),cellId="Ald-ruhn, Practice Room"},
     {coords=util.vector3(2240.0,2432.0,-288.0),cellId="Arkngthand, Hall of Centrifuge"},
     {coords=util.vector3(4086.5447,4143.163,870.78156),cellId="Desolate Shipwreck, Cabin"},
@@ -2577,6 +2636,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-448.0,-768.0,-960.0),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(131.91899,66.276726,88.213776),cellId="Mudan, Lost Dwemer Checkpoint"},
     {coords=util.vector3(4415.094,3868.289,14233.037),cellId="Dagoth Ur, Facility Cavern"},
+    {coords=util.vector3(113965.01,-61251.926,766.67694),cellId=nil},
     {coords=util.vector3(-15259.075,-12649.136,564.63),cellId=nil},
     {coords=util.vector3(-26282.068,-13289.279,1362.15),cellId=nil},
     {coords=util.vector3(77728.0,20096.0,1984.0),cellId=nil},
@@ -2592,7 +2652,9 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(112589.07,78566.6,793.957),cellId=nil},
     {coords=util.vector3(6912.141,52300.785,9024.195),cellId=nil},
     {coords=util.vector3(-74240.41,39160.723,-493.825),cellId=nil},
+    {coords=util.vector3(62679.16,184288.88,185.83994),cellId=nil},
     {coords=util.vector3(63694.58,-8016.882,946.9991),cellId=nil},
+    {coords=util.vector3(-31.409912,212.68123,159.84871),cellId="Sadrith Mora, Wolverine Hall: Mage's Guild"},
     {coords=util.vector3(522.4858,-1335.8156,111.84451),cellId="Vivec, Hlaalu Plaza"},
     {coords=util.vector3(461.79016,246.4928,-43.080017),cellId="Manat's Farmhouse"},
     {coords=util.vector3(123564.65,-114633.8,320.855),cellId=nil},
@@ -2616,6 +2678,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-12.99067,2.255746,-34.04787),cellId="Ghostgate, Tower of Dusk"},
     {coords=util.vector3(5243.277,2771.335,13023.517),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(108224.69,118139.05,1572.2877),cellId=nil},
+    {coords=util.vector3(3.5649648,1393.2603,-390.19974),cellId="Vivec, Guild of Mages"},
     {coords=util.vector3(3092.8787,6393.0566,12800.891),cellId="Urshilaku, Astral Burial"},
     {coords=util.vector3(11.472,-5.612,86.204),cellId="Balmora, South Wall Cornerclub"},
     {coords=util.vector3(21815.754,-46922.5,851.9566),cellId=nil},
@@ -2705,9 +2768,11 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(1374.3799,-408.2131,544.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(3868.8958,3631.2197,656.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(75264.0,52736.0,1664.0),cellId=nil},
+    {coords=util.vector3(1822.6411,-231.5323,-292.95007),cellId="ToddTest"},
     {coords=util.vector3(2994.0,5202.0,12992.0),cellId="Tukushapal, Sepulcher"},
     {coords=util.vector3(96803.95,115478.95,1538.4615),cellId=nil},
     {coords=util.vector3(3685.246,4250.687,14476.453),cellId="Hla Oad, Fatleg's Drop Off"},
+    {coords=util.vector3(42593.99,-87906.49,146.88506),cellId=nil},
     {coords=util.vector3(874.189,-163.195,756.293),cellId="Pelagiad, Mebestien Ence: Trader"},
     {coords=util.vector3(1744.0,7232.0,96.0),cellId="Vivec, Hlaalu Underworks"},
     {coords=util.vector3(77444.45,83801.68,880.942),cellId=nil},
@@ -2836,6 +2901,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(2045.1261,3995.457,13.878783),cellId="Vivec, Puzzle Canal, Level 4"},
     {coords=util.vector3(-1956.0,3932.0,908.0),cellId="Yesamsi"},
     {coords=util.vector3(1321.9902,3399.5203,640.0),cellId="Ebonheart, Hawkmoth Towers"},
+    {coords=util.vector3(-17654.55,54770.06,2774.658),cellId=nil},
     {coords=util.vector3(-1920.0,1344.0,-128.0),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(168.0,8.0,240.0),cellId="Tel Aruhn, Aryne Telnim: Smith"},
     {coords=util.vector3(33264.07,74804.664,14975.878),cellId=nil},
@@ -2843,6 +2909,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(7405.35,45297.766,6327.547),cellId=nil},
     {coords=util.vector3(128.0,640.0,-160.0),cellId="Vivec, Foreign Quarter Canalworks"},
     {coords=util.vector3(3072.0,-320.0,254.55367),cellId="Vivec, Foreign Quarter Canalworks"},
+    {coords=util.vector3(-22371.016,100115.586,2519.3955),cellId=nil},
     {coords=util.vector3(3392.0,4664.0,224.0),cellId="Gnisis, Eggmine"},
     {coords=util.vector3(-6.0,-238.0,-170.0),cellId="Ald-ruhn, Drinar Varyon's House"},
     {coords=util.vector3(795.95386,3208.768,84.75004),cellId="Kumarahaz"},
@@ -2868,6 +2935,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-352.0,2560.0,256.0),cellId="Bthuand"},
     {coords=util.vector3(0.0,-384.0,-128.0),cellId="Maar Gan, Huleen's Hut"},
     {coords=util.vector3(2845.593,260.8397,-37.266075),cellId="Vivec, St. Olms Waistworks"},
+    {coords=util.vector3(2594.188,-509.68878,-267.5864),cellId="Ald-ruhn, Guild of Mages"},
     {coords=util.vector3(2784.8499,3073.8289,13014.931),cellId="Vas, Tower"},
     {coords=util.vector3(1037.8291,-2793.8032,143.87343),cellId="Clutter Warehouse - Everything Must Go!"},
     {coords=util.vector3(32.0,-256.0,-160.0),cellId="Vos, Ulvil Llothas's Farmhouse"},
@@ -2912,9 +2980,10 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-20402.797,-12087.091,566.599),cellId=nil},
     {coords=util.vector3(60785.395,183636.83,318.665),cellId=nil},
     {coords=util.vector3(-88584.516,97028.93,1996.817),cellId=nil},
-    {coords=util.vector3(-80.074,-14.098,-35.834),cellId="Vivec, St. Delyn Canal South-Three"},
     {coords=util.vector3(58.851,-172.38,76.37887),cellId="Pelagiad, Dralas Gilu's House"},
+    {coords=util.vector3(-80.074,-14.098,-35.834),cellId="Vivec, St. Delyn Canal South-Three"},
     {coords=util.vector3(62589.816,182536.86,253.764),cellId=nil},
+    {coords=util.vector3(33018.176,-87911.86,143.14523),cellId=nil},
     {coords=util.vector3(0.0,0.0,340.9198),cellId="Suran, Garothmuk gro-Muzgub: Smith"},
     {coords=util.vector3(-10574.921,18837.412,1440.0),cellId=nil},
     {coords=util.vector3(-131.639,-348.465,-113.887),cellId="Elf-Skerring, Cabin"},
@@ -2942,6 +3011,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(53767.28,-49888.793,315.915),cellId=nil},
     {coords=util.vector3(146202.86,36557.36,917.40985),cellId=nil},
     {coords=util.vector3(1786.698,830.678,1264.0),cellId="Senim Ancestral Tomb"},
+    {coords=util.vector3(100770.72,114190.0,136.89041),cellId=nil},
     {coords=util.vector3(37222.438,-60303.625,947.708),cellId=nil},
     {coords=util.vector3(136486.83,3601.987,352.555),cellId=nil},
     {coords=util.vector3(103712.47,92392.82,786.30615),cellId=nil},
@@ -3010,7 +3080,9 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(5623.9497,3456.5454,12882.4),cellId="Vivec, St. Delyn Canalworks"},
     {coords=util.vector3(147589.83,39747.93,1037.0817),cellId=nil},
     {coords=util.vector3(9954.267,-100362.375,2114.359),cellId=nil},
+    {coords=util.vector3(-86648.39,89352.984,1043.4307),cellId=nil},
     {coords=util.vector3(-15285.494,55836.812,2435.887),cellId=nil},
+    {coords=util.vector3(-69561.234,142137.56,94.01681),cellId=nil},
     {coords=util.vector3(4192.328,4038.638,16.448933),cellId="Vivec, Puzzle Canal, Level 1"},
     {coords=util.vector3(87765.664,10858.964,2355.256),cellId=nil},
     {coords=util.vector3(29879.412,-78335.04,1887.342),cellId=nil},
@@ -3024,6 +3096,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(16.0,198.92812,-228.28389),cellId="Erabenimsun Camp, Wise Woman's Yurt"},
     {coords=util.vector3(-36668.84,152301.75,784.0),cellId=nil},
     {coords=util.vector3(4037.8516,4000.44,8232.322),cellId="Hla Oad, Fadila Balvel's House"},
+    {coords=util.vector3(62681.508,184288.64,188.39827),cellId=nil},
     {coords=util.vector3(0.0,-384.0,-128.0),cellId="Ald-ruhn, Codus Callonus: Bookseller"},
     {coords=util.vector3(3505.272,1641.2911,15362.98),cellId="Dagon Fel, Sorkvild's Tower"},
     {coords=util.vector3(-21870.348,-13717.901,919.974),cellId=nil},
@@ -3066,6 +3139,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(3515.9067,7616.291,-1312.082),cellId="Rissun"},
     {coords=util.vector3(0.0,0.0,64.0),cellId="Odrosal, Dwemer Training Academy"},
     {coords=util.vector3(256.0,4512.0,-776.0),cellId="Assalkushalit, Shrine"},
+    {coords=util.vector3(-8604.412,-70205.125,831.3376),cellId=nil},
     {coords=util.vector3(2352.171,773.121,12176.434),cellId="Kogoruhn, Charma's Breath"},
     {coords=util.vector3(-640.0,704.0,128.0),cellId="Sadrith Mora, Tel Naga General Quarters"},
     {coords=util.vector3(-9887.794,18521.254,1500.0),cellId=nil},
@@ -3196,6 +3270,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-1998.297,1532.7617,-296.0),cellId="Shallit"},
     {coords=util.vector3(4367.714,3837.271,8926.589),cellId="Gnaar Mok, Arenim Manor"},
     {coords=util.vector3(-1728.0,2688.0,320.0),cellId="Arkngthand, Hall of Centrifuge"},
+    {coords=util.vector3(-48493.727,-39754.043,187.78487),cellId=nil},
     {coords=util.vector3(13577.252,-102070.305,842.79),cellId=nil},
     {coords=util.vector3(2566.171,-1057.233,-261.39),cellId="Dubdilla, Uncharted Caverns, Lower"},
     {coords=util.vector3(511.83878,33.99656,-34.260906),cellId="Vivec, Library of Vivec"},
@@ -3259,6 +3334,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(1792.0,64.0,-256.0),cellId="Ald-ruhn, Redoran Council Hall"},
     {coords=util.vector3(5706.948,6250.764,436.10092),cellId="Urshilaku, Laterus Burial"},
     {coords=util.vector3(-248.0,1392.0,16.0),cellId="Ald-ruhn, Manor District"},
+    {coords=util.vector3(2597.3198,-509.36542,-264.27573),cellId="Ald-ruhn, Guild of Mages"},
     {coords=util.vector3(0.0,-384.0,0.199),cellId="Maar Gan, Garry's Hut"},
     {coords=util.vector3(3674.9412,-514.55457,544.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(-22146.146,-8306.55,870.761),cellId=nil},
@@ -3352,6 +3428,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(2943.006,-211.98,256.0),cellId="Vivec, St. Olms Canalworks"},
     {coords=util.vector3(-768.0,32.0,-32.0),cellId="Vivec, The Lizard's Head"},
     {coords=util.vector3(12800.0,-4064.0,-592.69775),cellId="Arys Ancestral Tomb"},
+    {coords=util.vector3(103449.016,-58402.79,1545.5377),cellId=nil},
     {coords=util.vector3(-96.0,0.0,64.0),cellId="Mzanchend"},
     {coords=util.vector3(67499.0,175256.0,832.0),cellId=nil},
     {coords=util.vector3(-64.0,-256.0,0.0),cellId="Ald-ruhn, Galsa Gindu's House"},
@@ -3392,6 +3469,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-192.0,-128.0,128.0),cellId="Balmora, Dralcea Arethi's House"},
     {coords=util.vector3(-37076.188,-68756.445,254.07088),cellId=nil},
     {coords=util.vector3(-133.89201,67.12022,127.663),cellId="Dagon Fel, End of the World Renter Rooms"},
+    {coords=util.vector3(2592.8887,-511.85394,-261.04968),cellId="Ald-ruhn, Guild of Mages"},
     {coords=util.vector3(146422.86,35310.098,880.0239),cellId=nil},
     {coords=util.vector3(-192.0,-192.0,128.0),cellId="Balmora, Balyn Omarel's House"},
     {coords=util.vector3(1215.7328,3777.1187,-1312.0),cellId="Piran"},
@@ -3443,8 +3521,10 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-1790.8948,381.1338,342.533),cellId="Helan Ancestral Tomb"},
     {coords=util.vector3(-256.95914,-7.729475,196.82597),cellId="Tel Mora, The Covenant"},
     {coords=util.vector3(892.0,1084.0,-1312.0),cellId="Pelagiad, North Wall"},
+    {coords=util.vector3(-754.6631,-1006.1605,-640.2347),cellId="Balmora, Guild of Mages"},
     {coords=util.vector3(-3.508,374.608,-184.272),cellId="Ahemmusa Camp, Ashkhan's Yurt"},
     {coords=util.vector3(107520.3,119064.0,1921.914),cellId=nil},
+    {coords=util.vector3(35750.65,-74467.56,190.87222),cellId=nil},
     {coords=util.vector3(3747.2197,2863.404,1968.5687),cellId="Sadrith Mora, Telvanni Council House, Hermitage"},
     {coords=util.vector3(544.80115,-230.7429,-429.4323),cellId="Vivec, Saren Manor"},
     {coords=util.vector3(-10329.949,19960.645,1465.251),cellId=nil},
@@ -3539,6 +3619,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(128.0,-384.0,-128.0),cellId="Gnisis, Dinadad Hut"},
     {coords=util.vector3(8936.84,188669.33,156.5498),cellId=nil},
     {coords=util.vector3(33504.0,-106600.0,1728.39),cellId=nil},
+    {coords=util.vector3(-65875.59,135522.34,1106.4603),cellId=nil},
     {coords=util.vector3(-772.0,-276.0,476.0),cellId="Caldera, Ghorak Manor"},
     {coords=util.vector3(-10289.647,22497.963,2160.026),cellId=nil},
     {coords=util.vector3(-21718.23,-15501.866,913.987),cellId=nil},
@@ -3586,6 +3667,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-2390.137,153627.58,2385.348),cellId=nil},
     {coords=util.vector3(-672.0,192.0,576.0),cellId="Vos, Varo Tradehouse Entrance"},
     {coords=util.vector3(76899.83,53324.58,1678.0),cellId=nil},
+    {coords=util.vector3(33040.215,-87932.13,109.70627),cellId=nil},
     {coords=util.vector3(1145.737,6965.115,-297.665),cellId="Hlormaren, Keep, Bottom Level"},
     {coords=util.vector3(-1472.441,889.89,-640.005),cellId="Vivec, High Fane"},
     {coords=util.vector3(27333.3,-86912.0,2234.282),cellId=nil},
@@ -3641,6 +3723,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(1194.982,-4.498,349.218),cellId="Adanumuran"},
     {coords=util.vector3(1.1353623,261.29596,-25.900312),cellId="Vivec, St. Olms Farmers and Laborers Hall"},
     {coords=util.vector3(-14951.956,-14824.306,865.558),cellId=nil},
+    {coords=util.vector3(-65939.25,135592.0,974.8912),cellId=nil},
     {coords=util.vector3(2745.823,-1919.056,355.65),cellId="Milk"},
     {coords=util.vector3(-284.867,255.532,601.064),cellId="Abernanit"},
     {coords=util.vector3(-12308.017,135209.23,696.0385),cellId=nil},
@@ -3715,6 +3798,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(107929.484,118783.57,2884.218),cellId=nil},
     {coords=util.vector3(4064.0,2880.0,13760.0),cellId="Shulk Egg Mine, Queen's Lair"},
     {coords=util.vector3(34056.258,-92671.12,1887.3419),cellId=nil},
+    {coords=util.vector3(62677.797,184289.77,186.23698),cellId=nil},
     {coords=util.vector3(89102.2,9077.841,2071.862),cellId=nil},
     {coords=util.vector3(-5504.0,4288.0,-160.0),cellId="Mudan Grotto"},
     {coords=util.vector3(4993.419,4205.95,12920.0),cellId="Bal Fell, West Wing"},
@@ -3760,6 +3844,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-384.0,256.0,256.0),cellId="Balmora, Tsiya's House"},
     {coords=util.vector3(-1191.344,2827.52,838.761),cellId="Aharnabi"},
     {coords=util.vector3(5456.0,5824.0,12768.0),cellId="Vivec, Hall of Wisdom"},
+    {coords=util.vector3(119153.21,-102118.266,155.02292),cellId=nil},
     {coords=util.vector3(3.501,-158.196,3.251),cellId="Ald Velothi, Vireveri Darethran's Shack"},
     {coords=util.vector3(34.716755,-52.503906,107.946144),cellId="Dren Plantation, Hlevala's Shack"},
     {coords=util.vector3(64.0,384.0,128.0),cellId="Balmora, Council Club"},
@@ -3781,6 +3866,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(1059.6599,2111.519,16479.39),cellId="Tel Vos, Central Tower"},
     {coords=util.vector3(-576.0,128.0,0.0),cellId="Vos, Ienasa Radas's Farmhouse"},
     {coords=util.vector3(91935.11,47433.883,107.465),cellId=nil},
+    {coords=util.vector3(53155.75,-47745.805,1116.5555),cellId=nil},
     {coords=util.vector3(5738.763,200575.5,169.619),cellId=nil},
     {coords=util.vector3(320.0,-256.0,402.0),cellId="Hlormaren, Dome"},
     {coords=util.vector3(27198.877,39412.918,2540.519),cellId=nil},
@@ -3803,8 +3889,10 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(4096.0,3776.0,14522.522),cellId="Tel Branora, Upper Tower"},
     {coords=util.vector3(4132.0,1545.9998,438.0),cellId="Urshilaku, Karma Burial"},
     {coords=util.vector3(-1284.253,2169.552,-172.56702),cellId="Onnissiralis, Shrine"},
+    {coords=util.vector3(-17641.514,54701.176,2863.4526),cellId=nil},
     {coords=util.vector3(94525.11,115399.805,1761.8446),cellId=nil},
     {coords=util.vector3(4362.4683,3523.9,-65.23338),cellId="Prelude Shipwreck, Upper Level"},
+    {coords=util.vector3(2597.4673,-511.15442,-265.32812),cellId="Ald-ruhn, Guild of Mages"},
     {coords=util.vector3(-13284.491,19945.357,1642.428),cellId=nil},
     {coords=util.vector3(2579.1677,4091.7222,18152.693),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(-36.6469,-1012.72876,158.517),cellId="Gnisis, Mantiti Cave Dwelling"},
@@ -3850,6 +3938,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(1728.0,-1536.0,-384.0),cellId="Ald-ruhn, Llethri Manor Entrance"},
     {coords=util.vector3(0.0,-384.0,0.0),cellId="Ald-ruhn, Tauryon's House"},
     {coords=util.vector3(-67555.46,45834.527,2464.0),cellId=nil},
+    {coords=util.vector3(20232.982,-103320.2,160.46611),cellId=nil},
     {coords=util.vector3(144.0,-80.0,-208.0),cellId="Tel Uvirith, Seleth's House"},
     {coords=util.vector3(-8014.322,-84740.29,-84.921),cellId=nil},
     {coords=util.vector3(37518.152,-95417.18,1873.3896),cellId=nil},
@@ -3904,6 +3993,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(1533.847,6347.407,146.804),cellId="Salmantu"},
     {coords=util.vector3(-13707.501,55363.535,2444.193),cellId=nil},
     {coords=util.vector3(18749.086,-100434.37,1064.413),cellId=nil},
+    {coords=util.vector3(35748.996,-74467.49,189.10724),cellId=nil},
     {coords=util.vector3(77.167,-428.028,39.982),cellId="Falvilo's Endeavor, Upper Level"},
     {coords=util.vector3(142546.92,-34577.16,939.7984),cellId=nil},
     {coords=util.vector3(-103209.33,93976.87,1491.2635),cellId=nil},
@@ -3965,6 +4055,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(529.3659,544.3629,108.42836),cellId="Vivec, Hlaalu Plaza"},
     {coords=util.vector3(-2563.1414,1830.7341,-64.0),cellId="Ebonheart, East Empire South Warehouse"},
     {coords=util.vector3(-22582.314,9314.362,1057.349),cellId=nil},
+    {coords=util.vector3(20377.666,-102406.234,187.52168),cellId=nil},
     {coords=util.vector3(4045.617,4479.755,14222.777),cellId="Tel Aruhn, Tower Entry"},
     {coords=util.vector3(128.0,-224.0,-32.0),cellId="Caldera, Nedhelas' House"},
     {coords=util.vector3(110081.41,90905.43,484.111),cellId=nil},
@@ -4063,6 +4154,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(512.0,-128.0,128.0),cellId="Balmora, Karlirah's House"},
     {coords=util.vector3(18.449,17.067,100.167),cellId="Balmora, Nerano Manor"},
     {coords=util.vector3(62991.074,183381.55,297.832),cellId=nil},
+    {coords=util.vector3(20380.297,-102414.15,183.51323),cellId=nil},
     {coords=util.vector3(0.0,0.0,0.0),cellId="Bensiberib Camp, Odaishah's Yurt"},
     {coords=util.vector3(3760.0,4064.0,15328.0),cellId="Maar Gan, Guard Tower 3"},
     {coords=util.vector3(3955.259,4640.553,-71.058),cellId="Derelict Shipwreck, Upper Level"},
@@ -4078,6 +4170,8 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(56192.195,-56388.973,1428.6862),cellId=nil},
     {coords=util.vector3(4096.0,4928.0,14784.0),cellId="Vivec, Telvanni Prison Cells"},
     {coords=util.vector3(-256.0,-640.0,384.0),cellId="Ebonheart, Argonian Mission"},
+    {coords=util.vector3(27537.176,-77110.87,580.81714),cellId=nil},
+    {coords=util.vector3(-17640.62,54698.758,2866.8613),cellId=nil},
     {coords=util.vector3(-1747.4142,244.63947,233.10272),cellId="Vivec, St. Delyn Waistworks"},
     {coords=util.vector3(-128.0,-128.0,-128.0),cellId="Balmora, The Razor Hole"},
     {coords=util.vector3(6016.0,-2304.0,-1072.0),cellId="Kogoruhn, Hall of Maki"},
@@ -4089,6 +4183,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-176.0,512.0,-32.0),cellId="Vivec, Hall of Justice"},
     {coords=util.vector3(3575.171,6643.234,223.887),cellId="Gnisis, Arvs-Drelen"},
     {coords=util.vector3(-113.86807,-269.77155,-146.1279),cellId="Chun-Ook, Cabin"},
+    {coords=util.vector3(-48637.01,-39657.74,111.88485),cellId=nil},
     {coords=util.vector3(-245.87733,1225.1677,467.8942),cellId="Hlaalu Ancestral Tomb"},
     {coords=util.vector3(29919.473,-80957.26,3104.473),cellId=nil},
     {coords=util.vector3(3950.0332,4095.2456,1200.611),cellId="Sadrith Mora, Telvanni Council House, Entry"},
@@ -4128,6 +4223,8 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-128.0,-64.0,-128.0),cellId="Vivec, Hlaalu Records"},
     {coords=util.vector3(352.0,768.0,-928.0),cellId="Mudan-Mul Egg Mine"},
     {coords=util.vector3(33760.0,-106088.0,1344.39),cellId=nil},
+    {coords=util.vector3(53159.55,-48228.605,984.1379),cellId=nil},
+    {coords=util.vector3(62333.0,184190.2,85.9486),cellId=nil},
     {coords=util.vector3(5690.064,-182.24,-287.9446),cellId="Vivec, Telvanni Mage"},
     {coords=util.vector3(-122.44266,345.74777,208.0),cellId="Caldera, Verick Gemain: Trader"},
     {coords=util.vector3(48.0,-240.0,-16.0),cellId="Seyda Neen, Vodunius Nuccius' House"},
@@ -4135,12 +4232,15 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(63.41529,69.37148,97.79167),cellId="Balmora, Hecerinde's House"},
     {coords=util.vector3(31608.65,-92515.48,1885.9888),cellId=nil},
     {coords=util.vector3(-1149.5116,-234.16585,-552.7523),cellId="Vivec, High Fane"},
+    {coords=util.vector3(-48489.703,-39754.93,181.71173),cellId=nil},
     {coords=util.vector3(-13189.909,57047.523,2660.047),cellId=nil},
     {coords=util.vector3(4272.302,4199.8267,14696.603),cellId="Khuul, Brurid's Shack"},
     {coords=util.vector3(3976.3708,4172.9775,15425.029),cellId="Unchartered Shipwreck, Cabin"},
+    {coords=util.vector3(-58674.816,26485.355,185.77237),cellId=nil},
     {coords=util.vector3(519.531,2261.315,721.574),cellId="Ashunartes, Shrine"},
     {coords=util.vector3(-3908.0,-13023.0,-305.0),cellId="Hlormaren, Sewers"},
     {coords=util.vector3(-1920.0,-1216.0,-128.0),cellId="Vivec, Telvanni Waistworks"},
+    {coords=util.vector3(106924.555,117169.3,263.7065),cellId=nil},
     {coords=util.vector3(1025.5236,531.15076,-1577.5651),cellId="Pelagiad, North Wall"},
     {coords=util.vector3(67828.47,132705.45,896.3366),cellId=nil},
     {coords=util.vector3(-602.9044,90.72845,-171.02458),cellId="Vivec, Arena Canalworks"},
@@ -4327,6 +4427,8 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-524.1196,767.8924,725.6151),cellId="Sadrith Mora, Tel Naga Great Hall"},
     {coords=util.vector3(-1535.8757,-507.0694,-43.265984),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(149029.55,40605.22,1370.6759),cellId=nil},
+    {coords=util.vector3(141876.95,38613.12,325.00565),cellId=nil},
+    {coords=util.vector3(430.9907,227.70361,400.8527),cellId="Caldera, Guild of Mages"},
     {coords=util.vector3(2368.0,4224.0,13440.0),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(3326.403,3051.875,356.426),cellId="Gnisis, Underground Stream"},
     {coords=util.vector3(234.287,-261.311,85.553),cellId="Pelagiad, Halfway Tavern"},
@@ -4358,6 +4460,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-29.565,-385.17,56.528423),cellId="Abandoned Shipwreck, Cabin"},
     {coords=util.vector3(103046.17,8306.046,1475.7031),cellId=nil},
     {coords=util.vector3(539.426,2688.005,-174.519),cellId="Ashimanu Egg Mine"},
+    {coords=util.vector3(22611.785,-87934.03,98.41487),cellId=nil},
     {coords=util.vector3(35629.79,27868.76,866.289),cellId=nil},
     {coords=util.vector3(-22276.768,104148.21,2258.586),cellId=nil},
     {coords=util.vector3(6323.825,-56462.266,2777.124),cellId=nil},
@@ -4379,6 +4482,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(3840.0,4096.0,13824.0),cellId="Ald-ruhn, Ienas Sarandas's House"},
     {coords=util.vector3(-87.572,-144.0,-16.0),cellId="Seyda Neen, Draren Thiralas' House"},
     {coords=util.vector3(3928.2422,2020.626,-79.8053),cellId="Prelude Shipwreck, Lower Level"},
+    {coords=util.vector3(141877.86,38637.31,337.96896),cellId=nil},
     {coords=util.vector3(-764.0,3232.0,64.0),cellId="Velas Ancestral Tomb"},
     {coords=util.vector3(-1344.0,1472.0,-128.0),cellId="Balmora, Dura gra-Bol's House"},
     {coords=util.vector3(6625.3286,3331.4556,13539.2),cellId="Vivec, Foreign Quarter Lower Waistworks"},
@@ -4393,6 +4497,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-1028.8573,780.699,-84.20367),cellId="Ebonheart, Imperial Commission"},
     {coords=util.vector3(-4584.7026,152215.64,2385.348),cellId=nil},
     {coords=util.vector3(1920.1796,2361.3994,860.792),cellId="Mallapi"},
+    {coords=util.vector3(35751.11,-74468.734,189.02147),cellId=nil},
     {coords=util.vector3(58912.9,-93351.38,1056.992),cellId=nil},
     {coords=util.vector3(3936.0,4096.0,256.0),cellId="Urshilaku, Fragile Burial"},
     {coords=util.vector3(-4026.092,-383.35,-226.967),cellId="Odibaal"},
@@ -4421,6 +4526,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(149248.0,29184.0,1200.0),cellId=nil},
     {coords=util.vector3(0.0,96.0,224.0),cellId="Caldera, Surane Leoriane's House"},
     {coords=util.vector3(-26134.88,6877.66,961.464),cellId=nil},
+    {coords=util.vector3(-21318.732,-18232.406,1177.6636),cellId=nil},
     {coords=util.vector3(-4391.033,3708.4048,-668.0),cellId="Dun-Ahhe"},
     {coords=util.vector3(4333.755,4113.264,14832.5),cellId="Tel Branora, Tower Guardpost"},
     {coords=util.vector3(864.03955,2112.6587,-624.34644),cellId="Arano Ancestral Tomb"},
@@ -4442,6 +4548,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(1887.966,109.534,-80.695),cellId="Vivec, Arena Underworks"},
     {coords=util.vector3(352.0,0.0,128.0),cellId="Sadrith Mora, Urtisa Romayn's House"},
     {coords=util.vector3(1220.2875,6720.8774,12160.0),cellId="Urshilaku, Kefka Burial"},
+    {coords=util.vector3(-627.93207,-1079.8151,-753.7773),cellId="Balmora, Guild of Mages"},
     {coords=util.vector3(3842.6636,4227.758,13784.013),cellId="Ald-ruhn, Ienas Sarandas's House"},
     {coords=util.vector3(-1888.0,-1216.0,-128.0),cellId="Vivec, St. Olms Waistworks"},
     {coords=util.vector3(6560.0,1024.0,272.0),cellId="Vivec, St. Delyn Underworks"},
@@ -4502,6 +4609,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-64.0,1536.0,-960.0),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(67716.46,154422.64,71.47975),cellId=nil},
     {coords=util.vector3(3979.7434,4066.272,15076.644),cellId="Gnaar Mok, Jerian Dolbanitte's Shack"},
+    {coords=util.vector3(30125.871,-98353.56,174.67755),cellId=nil},
     {coords=util.vector3(-17236.957,102243.6,2453.604),cellId=nil},
     {coords=util.vector3(1265.6062,-504.39456,-47.957973),cellId="Pelagiad, Fort Pelagiad"},
     {coords=util.vector3(5152.0,2048.0,96.0),cellId="Setus Egg Mine"},
@@ -4521,6 +4629,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(9003.758,91220.89,10086.288),cellId=nil},
     {coords=util.vector3(58.078,5.408,-26.368),cellId="Ald Velothi, Fevila Bethrano's Shack"},
     {coords=util.vector3(98.628,371.596,-169.549),cellId="Erabenimsun Camp, Han-Ammu's Yurt"},
+    {coords=util.vector3(119242.72,-102108.37,57.542725),cellId=nil},
     {coords=util.vector3(-256.0,64.0,-256.0),cellId="Vivec, Simine Fralinie: Bookseller"},
     {coords=util.vector3(656.0,512.0,128.0),cellId="Balmora, Tyravel Manor"},
     {coords=util.vector3(1040.0,-1232.0,1680.0),cellId="Arkngthand, Land's Blood Gallery"},
@@ -4568,6 +4677,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-17148.396,52087.918,2862.096),cellId=nil},
     {coords=util.vector3(-0.31135213,-3.1004837,-29.611813),cellId="Vivec, Hlaalu Ancestral Vaults"},
     {coords=util.vector3(-13563.711,43062.195,2674.2534),cellId=nil},
+    {coords=util.vector3(28828.943,-76727.01,154.32468),cellId=nil},
     {coords=util.vector3(-89.79293,1.7178822,86.135155),cellId="Kudanat"},
     {coords=util.vector3(3391.083,3768.473,15582.861),cellId="Dagon Fel, Sorkvild's Tower"},
     {coords=util.vector3(4738.532,3568.0518,170.5139),cellId="Salmantu, Shrine"},
@@ -4632,11 +4742,11 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(15588.817,-101563.14,1493.268),cellId=nil},
     {coords=util.vector3(-64.0,192.0,-256.0),cellId="Vivec, Telvanni Upper Storage"},
     {coords=util.vector3(1043.2219,1527.9553,-668.258),cellId="Mababi"},
-    {coords=util.vector3(5312.0,4160.0,12928.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(704.0,1632.0,-128.0),cellId="Bthanchend"},
     {coords=util.vector3(2.399008,-9.152213,-32.262875),cellId="Vivec, St. Olms Canal South-One"},
     {coords=util.vector3(110351.516,-3410.3813,637.85956),cellId=nil},
     {coords=util.vector3(109003.54,118520.32,531.362),cellId=nil},
+    {coords=util.vector3(5312.0,4160.0,12928.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(3760.0,3920.0,15312.0),cellId="Maar Gan, Guard Tower 2"},
     {coords=util.vector3(53890.688,-49976.12,297.42),cellId=nil},
     {coords=util.vector3(-768.0,1088.0,-256.0),cellId="Ald-ruhn, Redoran Council Hall"},
@@ -4785,6 +4895,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(233.95956,-438.3396,-32.0),cellId="Vivec, St. Olms Tailors and Dyers Hall"},
     {coords=util.vector3(2057.2012,466.5549,-16.777832),cellId="Vivec, St. Olms Underworks"},
     {coords=util.vector3(2622.7852,1198.403,-809.616),cellId="Andrethi Ancestral Tomb"},
+    {coords=util.vector3(32207.008,-72224.586,1007.12085),cellId=nil},
     {coords=util.vector3(-1275.0858,-765.2427,-944.0101),cellId="Pelagiad, South Wall"},
     {coords=util.vector3(-4688.0,-17408.0,2064.0),cellId=nil},
     {coords=util.vector3(13577.879,-101930.016,832.0),cellId=nil},
@@ -4819,11 +4930,13 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(4679.7056,3707.8604,167.918),cellId="Salmantu, Shrine"},
     {coords=util.vector3(358.11008,-238.9794,-192.22876),cellId="Vivec, Redoran Treasury"},
     {coords=util.vector3(118591.05,-102848.984,369.096),cellId=nil},
+    {coords=util.vector3(106927.875,117172.414,262.7754),cellId=nil},
     {coords=util.vector3(12697.879,-102890.016,864.0),cellId=nil},
     {coords=util.vector3(1648.0,0.0,-288.0),cellId="Ald-ruhn, Llethri Guard Quarters"},
     {coords=util.vector3(-2236.542,1089.558,-672.479),cellId="Sinarralit Egg Mine"},
     {coords=util.vector3(-1931.2078,256.649,1167.7622),cellId="Dagon Fel, Vacant Tower"},
     {coords=util.vector3(-64.0,-200.0,-664.0),cellId="Seyda Neen, Lighthouse"},
+    {coords=util.vector3(20426.113,-101409.07,162.68622),cellId=nil},
     {coords=util.vector3(4095.465,2723.117,14569.936),cellId="Maelkashishi, Shrine"},
     {coords=util.vector3(-36041.824,78453.19,2767.941),cellId=nil},
     {coords=util.vector3(255.39,242.332,214.708),cellId="Balmora, Guild of Fighters"},
@@ -4960,6 +5073,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(102073.15,-5637.307,806.7),cellId=nil},
     {coords=util.vector3(2153.949,4358.672,12496.0),cellId="Bal Fell, Outer Shrine"},
     {coords=util.vector3(-12611.152,41635.707,3016.4175),cellId=nil},
+    {coords=util.vector3(123303.9,41163.9,180.35558),cellId=nil},
     {coords=util.vector3(-217.71765,-4252.771,112.0),cellId="Ebonheart, East Empire South Warehouse"},
     {coords=util.vector3(1775.924,-513.55786,-286.73456),cellId="Vivec, Telvanni Waistworks"},
     {coords=util.vector3(131.88417,-633.0737,427.98297),cellId="Tel Mora, Nona's House"},
@@ -5020,6 +5134,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(3848.65,5832.829,13904.0),cellId="Maelkashishi, Shrine"},
     {coords=util.vector3(1193.9902,3271.5203,-128.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(3904.0,3776.0,13504.0),cellId="Vivec, Lucretinaus Olcinius: Trader"},
+    {coords=util.vector3(-8681.27,-70133.805,918.23663),cellId=nil},
     {coords=util.vector3(34760.203,-86912.0,2234.13),cellId=nil},
     {coords=util.vector3(133.3701,-21.000578,226.65492),cellId="Sadrith Mora, Nirasa Aren's House"},
     {coords=util.vector3(4149.032,4340.976,15779.555),cellId="Strange Shipwreck, Cabin"},
@@ -5045,6 +5160,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(73108.82,-59353.773,864.1218),cellId=nil},
     {coords=util.vector3(132661.4,37340.28,424.885),cellId=nil},
     {coords=util.vector3(4044.0,4352.0,16003.631),cellId="Balmora, Western Guard Tower North"},
+    {coords=util.vector3(33428.477,-89213.445,589.5783),cellId=nil},
     {coords=util.vector3(29.87,349.93915,-169.77896),cellId="Urshilaku Camp, Sakiran's Yurt"},
     {coords=util.vector3(512.0,2592.0,640.0),cellId="Ashunartes, Shrine"},
     {coords=util.vector3(540.122,629.091,-368.0),cellId="Andasreth, Propylon Chamber"},
@@ -5113,6 +5229,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-128.0,0.0,128.0),cellId="Suran, Verara Rendo: Clothier"},
     {coords=util.vector3(3845.3652,5497.6753,11926.5625),cellId="Vivec, Telvanni Tower"},
     {coords=util.vector3(3824.046,4123.257,15360.0),cellId="Balmora, Western Guard Tower North"},
+    {coords=util.vector3(-69428.79,142115.72,195.14447),cellId=nil},
     {coords=util.vector3(4320.0,3776.0,13856.0),cellId="Khuul, Thongar's Tradehouse"},
     {coords=util.vector3(157436.17,1382.815,296.646),cellId=nil},
     {coords=util.vector3(85155.64,120368.65,4291.375),cellId=nil},
@@ -5258,6 +5375,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(129.167,230.062,-837.387),cellId="Indarys Manor"},
     {coords=util.vector3(-10.298,805.415,-113.479),cellId="Elf-Skerring, Upper Level"},
     {coords=util.vector3(-1156.6583,-606.2933,182.0),cellId="Ministry of Truth, Holding Cells"},
+    {coords=util.vector3(113948.6,-61251.453,755.2904),cellId=nil},
     {coords=util.vector3(55538.484,115875.266,3801.17),cellId=nil},
     {coords=util.vector3(3820.171,3391.1323,12587.588),cellId="Hairat-Vassamsi Egg Mine, Queen's Lair"},
     {coords=util.vector3(5248.0,4416.0,14624.0),cellId="Arkngthand, Weepingbell Hall"},
@@ -5308,6 +5426,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(2432.0,832.0,-960.0),cellId="Molag Mar, Waistworks"},
     {coords=util.vector3(54279.805,-80535.35,903.715),cellId=nil},
     {coords=util.vector3(6722.007,-54589.1,2921.3376),cellId=nil},
+    {coords=util.vector3(107069.734,117142.37,191.68422),cellId=nil},
     {coords=util.vector3(-964.5365,5416.2197,681.2025),cellId="Llando Ancestral Tomb"},
     {coords=util.vector3(2176.001,2366.9976,30.13),cellId="Elith-Pal Mine"},
     {coords=util.vector3(2092.7886,272.2043,-80.3946),cellId="Tharys Ancestral Tomb"},
@@ -5338,6 +5457,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(2416.0,3744.0,16.0),cellId="Nchardahrk"},
     {coords=util.vector3(2303.774,4087.602,13545.338),cellId="Vivec, Foreign Quarter Lower Waistworks"},
     {coords=util.vector3(31708.393,-105575.57,957.5823),cellId=nil},
+    {coords=util.vector3(4.562033,1393.7876,-388.10922),cellId="Vivec, Guild of Mages"},
     {coords=util.vector3(6528.0,7280.0,288.0),cellId="Vivec, Redoran Underworks"},
     {coords=util.vector3(-56395.055,-29756.15,255.002),cellId=nil},
     {coords=util.vector3(21.306303,2.5359063,-35.804634),cellId="Vivec, St. Olms Canal North-One"},
@@ -5386,6 +5506,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(77212.164,31790.098,1352.2579),cellId=nil},
     {coords=util.vector3(109.479385,590.4406,63.079),cellId="Grytewake, Upper Level"},
     {coords=util.vector3(924.0,2242.0,-702.0),cellId="Arano Ancestral Tomb"},
+    {coords=util.vector3(96.900024,1432.6503,-478.74493),cellId="Vivec, Guild of Mages"},
     {coords=util.vector3(3404.239,3956.394,16.149),cellId="Shunned Shipwreck, Upper Level"},
     {coords=util.vector3(424.96817,32.208344,124.451614),cellId="Arvel Manor, Storage Shack"},
     {coords=util.vector3(-24052.787,155953.48,-677.687),cellId=nil},
@@ -5414,6 +5535,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(512.0,384.0,640.0),cellId="Balmora, Hlaalu Council Manor"},
     {coords=util.vector3(65972.8,104211.27,1953.3523),cellId=nil},
     {coords=util.vector3(-22752.416,-12100.141,899.141),cellId=nil},
+    {coords=util.vector3(-22301.484,100047.45,2417.7751),cellId=nil},
     {coords=util.vector3(-6076.1787,191792.14,-1083.987),cellId=nil},
     {coords=util.vector3(-13167.533,142809.89,476.61),cellId=nil},
     {coords=util.vector3(-192.0,-256.0,128.0),cellId="Balmora, Itan's House"},
@@ -5430,6 +5552,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(94263.56,134918.19,951.425),cellId=nil},
     {coords=util.vector3(624.0,0.0,-32.0),cellId="Ald-ruhn, Tuveso Beleth: Smith"},
     {coords=util.vector3(-21151.0,-15732.862,634.618),cellId=nil},
+    {coords=util.vector3(-86780.33,89454.16,1125.222),cellId=nil},
     {coords=util.vector3(149680.0,29344.0,1808.0),cellId=nil},
     {coords=util.vector3(1358.3799,-312.2132,576.0),cellId="Ebonheart, Hawkmoth Towers"},
     {coords=util.vector3(167.631,-466.192,199.842),cellId="Grytewake, Upper Level"},
@@ -5456,6 +5579,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(18941.303,-100440.73,1188.218),cellId=nil},
     {coords=util.vector3(-31.448,411.828,-170.486),cellId="Ahemmusa Camp, Lanabi's Yurt"},
     {coords=util.vector3(3328.0,3680.0,15808.0),cellId="Dren Plantation, Dren's Villa"},
+    {coords=util.vector3(-22370.852,100115.14,2520.1323),cellId=nil},
     {coords=util.vector3(2880.0,2947.326,12928.0),cellId="Vas, Tower"},
     {coords=util.vector3(2146.0,2235.0,320.0),cellId="Ilunibi, Marowak's Spine"},
     {coords=util.vector3(4992.0,2848.0,14432.0),cellId="Arkngthand, Weepingbell Hall"},
@@ -5479,6 +5603,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(2304.0,1984.0,0.0),cellId="Ald-ruhn, Redoran Council Entrance"},
     {coords=util.vector3(-256.863,-358.699,481.735),cellId="Dagon Fel, The End of the World"},
     {coords=util.vector3(-11.43708,123.94769,-171.6751),cellId="Vivec, Hlaalu General Goods"},
+    {coords=util.vector3(33022.46,-88001.445,132.44168),cellId=nil},
     {coords=util.vector3(257.259,-11.22,-32.346),cellId="Vivec, Telvanni Sorcerer"},
     {coords=util.vector3(-2696.265,2346.727,-393.271),cellId="Bensamsi"},
     {coords=util.vector3(282.8207,255.9999,-32.885803),cellId="Balmora, Guild of Fighters"},
@@ -5500,6 +5625,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(76659.0,85321.75,898.354),cellId=nil},
     {coords=util.vector3(-1464.0,-96.0,16.0),cellId="Ald-ruhn, Manor District"},
     {coords=util.vector3(2113.0554,1308.111,14.876341),cellId="Vivec, Puzzle Canal, Level 1"},
+    {coords=util.vector3(141874.31,38605.598,326.8212),cellId=nil},
     {coords=util.vector3(54365.344,154166.17,1844.4042),cellId=nil},
     {coords=util.vector3(123.128685,237.37083,-43.548508),cellId="Vivec, Ralen Tilvur: Smith"},
     {coords=util.vector3(-13014.395,-70735.39,125.39916),cellId=nil},
@@ -5561,6 +5687,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-45312.0,-2869.0,3040.0),cellId=nil},
     {coords=util.vector3(899.874,1517.595,-1648.0),cellId="Andasreth, Upper Level"},
     {coords=util.vector3(39333.844,-3647.1475,1347.3326),cellId=nil},
+    {coords=util.vector3(-21322.697,-18234.543,1183.2424),cellId=nil},
     {coords=util.vector3(129057.55,-88652.836,196.29167),cellId=nil},
     {coords=util.vector3(95016.12,-96727.734,129.65192),cellId=nil},
     {coords=util.vector3(-1024.0,-2368.0,-256.0),cellId="Ald-ruhn, Llethri Manor Entrance"},
@@ -5781,6 +5908,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(94.598564,-30.077545,-18.322155),cellId="Erabenimsun Camp, Ranabi's Yurt"},
     {coords=util.vector3(-128.0,0.0,384.0),cellId="Balmora, Milie Hastien: Fine Clothier"},
     {coords=util.vector3(148740.38,36092.41,1565.031),cellId=nil},
+    {coords=util.vector3(3.5204701,1391.3254,-385.8533),cellId="Vivec, Guild of Mages"},
     {coords=util.vector3(1.899,504.722,-143.8),cellId="Ahemmusa Camp, Assamma-Idan's Yurt"},
     {coords=util.vector3(5248.0,4032.0,18048.0),cellId="Vivec, Arena Waistworks"},
     {coords=util.vector3(4405.3,3432.88,34.858322),cellId="Neglected Shipwreck, Lower Level"},
@@ -5832,6 +5960,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-76957.0,76240.0,2320.0),cellId=nil},
     {coords=util.vector3(448.0,-896.0,-128.0),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(77884.8,20058.084,2022.511),cellId=nil},
+    {coords=util.vector3(103448.52,-58400.91,1547.8694),cellId=nil},
     {coords=util.vector3(39031.27,-87580.25,1887.3419),cellId=nil},
     {coords=util.vector3(-248.36586,186.87476,-164.31245),cellId="Vivec, Guild of Fighters"},
     {coords=util.vector3(2752.0,1930.0,-32.0),cellId="Ald Daedroth, Right Wing"},
@@ -5846,6 +5975,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-1129.6356,-503.64255,160.14252),cellId="Halit Mine"},
     {coords=util.vector3(-400.0,512.0,128.0),cellId="Balmora, Hlaalu Council Manor"},
     {coords=util.vector3(27717.492,-79159.84,3101.869),cellId=nil},
+    {coords=util.vector3(32207.215,-72223.805,1006.43726),cellId=nil},
     {coords=util.vector3(-298.42996,-96.19117,209.169),cellId="Tel Mora, Lower Tower"},
     {coords=util.vector3(109728.914,118206.63,652.768),cellId=nil},
     {coords=util.vector3(54366.95,-56044.34,1316.267),cellId=nil},
@@ -5880,6 +6010,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(4416.0,4576.0,15904.0),cellId="Vivec, Redoran Temple Shrine"},
     {coords=util.vector3(6016.0,5056.0,14848.0),cellId="Vivec, Foreign Quarter Upper Waistworks"},
     {coords=util.vector3(-1351.149,5374.795,-409.353),cellId="Shurinbaal"},
+    {coords=util.vector3(100663.64,114037.305,255.47075),cellId=nil},
     {coords=util.vector3(1008.7399,506.1835,-797.17236),cellId="Buckmoth Legion Fort, Towers"},
     {coords=util.vector3(-448.00006,3072.0,-448.0),cellId="Falensarano, Lower Level"},
     {coords=util.vector3(131.7829,-0.7276929,345.3405),cellId="Buckmoth Legion Fort, Prison"},
@@ -5917,18 +6048,20 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(3904.0,4416.0,16191.994),cellId="Molag Mar, Vasesius Viciulus: Trader"},
     {coords=util.vector3(-2012.758,1368.461,-1120.0),cellId="Arkngthunch-Sturdumz"},
     {coords=util.vector3(5002.0,-1252.0,15322.0),cellId="Ilunibi, Blackened Heart"},
-    {coords=util.vector3(5312.0,2624.0,12928.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(240.912,-97.007,96.649),cellId="Pelagiad, Junal-lei's House"},
+    {coords=util.vector3(5312.0,2624.0,12928.0),cellId="Vivec, Hall of Wisdom"},
     {coords=util.vector3(2160.0,8128.0,-96.0),cellId="Vivec, Hall Underworks"},
     {coords=util.vector3(-10936.623,56504.832,2684.0408),cellId=nil},
     {coords=util.vector3(73315.48,-96083.766,777.371),cellId=nil},
     {coords=util.vector3(-53.907,418.819,-173.267),cellId="Ahemmusa Camp, Assamma-Idan's Yurt"},
     {coords=util.vector3(1728.0,1024.0,80.0),cellId="Vivec, St. Delyn Underworks"},
     {coords=util.vector3(1712.0,1008.0,96.0),cellId="Vivec, Foreign Quarter Underworks"},
+    {coords=util.vector3(-65872.72,135522.27,1101.9825),cellId=nil},
     {coords=util.vector3(-2.0640454,-247.04694,-176.18047),cellId="Gnisis, Abelmawia Hut"},
     {coords=util.vector3(117.221695,-511.3191,-148.57733),cellId="Vivec, Arena Canalworks"},
     {coords=util.vector3(28024.865,-90912.89,663.865),cellId=nil},
     {coords=util.vector3(-1542.4023,-454.6953,-1793.5183),cellId="Vivec, St. Olms Plaza"},
+    {coords=util.vector3(123181.57,40787.137,77.34537),cellId=nil},
     {coords=util.vector3(55756.676,-54405.613,1631.1425),cellId=nil},
     {coords=util.vector3(2321.635,762.632,-41.767),cellId="Rotheran, Arena"},
     {coords=util.vector3(4152.029,4293.1313,134.29286),cellId="Prelude Shipwreck, Cabin"},
@@ -5944,6 +6077,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(2668.417,86.936,-171.66046),cellId="Vivec, Arena Canalworks"},
     {coords=util.vector3(256.0,-512.0,870.811),cellId="Sadrith Mora, Tel Naga Upper Hall"},
     {coords=util.vector3(83810.72,36896.387,888.9443),cellId=nil},
+    {coords=util.vector3(30127.568,-98356.555,172.53835),cellId=nil},
     {coords=util.vector3(-11152.578,-48302.695,861.795),cellId=nil},
     {coords=util.vector3(0.0,-384.0,-128.0),cellId="Ald-ruhn, Aryni Orethi's House"},
     {coords=util.vector3(2810.606,507.032,-154.408),cellId="Vivec, Foreign Quarter Canalworks"},
@@ -5973,6 +6107,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(1600.0,5744.0,-544.0),cellId="Bthungthumz"},
     {coords=util.vector3(-24041.143,-11201.201,1386.855),cellId=nil},
     {coords=util.vector3(5045.345,3068.312,15041.744),cellId="Tel Vos, Northeastern Tower"},
+    {coords=util.vector3(20361.344,-102425.26,182.3513),cellId=nil},
     {coords=util.vector3(1405.069,-453.192,-32.472),cellId="Pelagiad, Fort Pelagiad"},
     {coords=util.vector3(12793.879,-102250.016,1488.0),cellId=nil},
     {coords=util.vector3(-801.0303,3607.414,1616.0),cellId="Arkngthand, Hall of Centrifuge"},
@@ -5998,6 +6133,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-216.663,-158.695,3.684),cellId="Dagon Fel, Heifnir: Trader"},
     {coords=util.vector3(128.0,64.0,-128.0),cellId="Vivec, Milo's Quarters"},
     {coords=util.vector3(0.0,-4544.0,-512.0),cellId="Vemynal, Outer Fortress"},
+    {coords=util.vector3(-21320.674,-18233.113,1179.0317),cellId=nil},
     {coords=util.vector3(4096.0,3920.0,15712.0),cellId="Dren Plantation, Shipping House"},
     {coords=util.vector3(4.001,-0.377,-1.439),cellId="Aharasaplit Camp, Zallay's Yurt"},
     {coords=util.vector3(3271.7502,-2001.0758,-105.51837),cellId="Vivec, Justice Offices"},
@@ -6049,6 +6185,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(2688.0,448.0,128.0),cellId="Vivec, Redoran Waistworks"},
     {coords=util.vector3(-105985.14,94365.375,-99.251),cellId=nil},
     {coords=util.vector3(4415.094,3900.289,14233.037),cellId="Dagoth Ur, Facility Cavern"},
+    {coords=util.vector3(523.1633,335.72705,487.87213),cellId="Caldera, Guild of Mages"},
     {coords=util.vector3(6008.0,4352.0,12416.0),cellId="Bal Fell, Outer Shrine"},
     {coords=util.vector3(110957.36,129036.64,-564.275),cellId=nil},
     {coords=util.vector3(1.4855739,4602.5483,-32.140797),cellId="Vivec, Hall of Justice"},
@@ -6094,6 +6231,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-10675.308,54158.504,2445.7126),cellId=nil},
     {coords=util.vector3(44866.496,-84349.33,1887.342),cellId=nil},
     {coords=util.vector3(1.43,-566.716,-137.067),cellId="Ald-ruhn, The Rat In The Pot"},
+    {coords=util.vector3(22611.465,-87935.92,107.37586),cellId=nil},
     {coords=util.vector3(-92889.234,91806.57,1115.7366),cellId=nil},
     {coords=util.vector3(5140.0,3060.0,14248.0),cellId="Sadrith Mora, Wolverine Hall"},
     {coords=util.vector3(-67441.805,141076.14,388.903),cellId=nil},
@@ -6101,6 +6239,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-256.0,384.0,128.0),cellId="Balmora, Milie Hastien: Fine Clothier"},
     {coords=util.vector3(-1473.697,134.4209,324.4889),cellId="Vivec, Foreign Quarter Plaza"},
     {coords=util.vector3(18825.879,-102986.016,1232.0),cellId=nil},
+    {coords=util.vector3(2629.1975,-699.838,-381.57907),cellId="Ald-ruhn, Guild of Mages"},
     {coords=util.vector3(0.0,0.0,-32.0),cellId="Vivec, The Lizard's Head"},
     {coords=util.vector3(35622.523,-91338.87,1887.342),cellId=nil},
     {coords=util.vector3(-40143.52,-55737.395,129.11185),cellId=nil},
@@ -6210,6 +6349,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(29879.412,-78657.23,3103.829),cellId=nil},
     {coords=util.vector3(4178.198,4204.809,124.83452),cellId="Unexplored Shipwreck, Cabin"},
     {coords=util.vector3(-2937.7478,370.80188,1008.0001),cellId="Sarethi Ancestral Tomb"},
+    {coords=util.vector3(23928.78,-87537.88,579.8521),cellId=nil},
     {coords=util.vector3(0.0,0.0,-32.0),cellId="Vivec, St. Olms Yngling Manor Basement"},
     {coords=util.vector3(-231.75276,-9.948074,96.92066),cellId="Balmora, Hlaalu Council Manor"},
     {coords=util.vector3(3634.35,4113.246,-1050.4678),cellId="Unchartered Shipwreck, Upper Level"},
@@ -6223,6 +6363,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(-454.0,900.0,-1312.0),cellId="Pelagiad, North Wall"},
     {coords=util.vector3(32058.305,-80358.79,3101.271),cellId=nil},
     {coords=util.vector3(4225.1616,3924.7588,15136.0),cellId="Dren Plantation, Guardhouse"},
+    {coords=util.vector3(42593.812,-87905.52,144.33647),cellId=nil},
     {coords=util.vector3(12693.838,-101234.27,1084.214),cellId=nil},
     {coords=util.vector3(576.0,896.0,-384.0),cellId="Vivec, Hlaalu Waistworks"},
     {coords=util.vector3(28200.414,21072.15,1023.5),cellId=nil},
@@ -6262,6 +6403,7 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(37610.945,-91053.664,670.75),cellId=nil},
     {coords=util.vector3(1025.2542,766.465,-791.62415),cellId="Buckmoth Legion Fort, Towers"},
     {coords=util.vector3(-11621.729,18256.871,1347.139),cellId=nil},
+    {coords=util.vector3(123304.72,41165.22,178.39713),cellId=nil},
     {coords=util.vector3(-12000.291,-35743.066,356.59592),cellId=nil},
     {coords=util.vector3(-1760.0,2080.0,-1472.0),cellId="Falensarano, Upper Level"},
     {coords=util.vector3(2753.276,4033.951,12770.151),cellId="Minabi, Bandit Lair"},
@@ -6271,3962 +6413,4029 @@ global VERTICES: {T.CellCoords} = {
     {coords=util.vector3(4.0,-104.0,-68.0),cellId="Caldera, Governor's Hall"},
 };
 
+global TRAVEL_NPC_VERTICES: {T.CellCoords} = {
+    VERTICES[3077],
+    VERTICES[3720],
+    VERTICES[3079],
+    VERTICES[1257],
+    VERTICES[2898],
+    VERTICES[5532],
+    VERTICES[450],
+    VERTICES[3935],
+    VERTICES[4626],
+    VERTICES[2453],
+    VERTICES[5157],
+    VERTICES[6346],
+    VERTICES[1194],
+    VERTICES[4167],
+    VERTICES[1309],
+    VERTICES[3136],
+    VERTICES[1317],
+    VERTICES[1566],
+    VERTICES[1102],
+    VERTICES[3863],
+    VERTICES[2008],
+    VERTICES[4180],
+    VERTICES[130],
+    VERTICES[6236],
+    VERTICES[4545],
+    VERTICES[4425],
+    VERTICES[1176],
+    VERTICES[649],
+    VERTICES[5503],
+    VERTICES[4221],
+    VERTICES[3008],
+    VERTICES[5423],
+    VERTICES[6058],
+    VERTICES[1529],
+};
+
 global EDGES: {T.CellCoords:{T.Edge}} = {}
-EDGES[VERTICES[1313]] = {{ vertex=VERTICES[4853], cost=0 },}
-EDGES[VERTICES[58]] = {{ vertex=VERTICES[5773], cost=0 },}
-EDGES[VERTICES[5484]] = {{ vertex=VERTICES[240], cost=0 },}
-EDGES[VERTICES[3903]] = {{ vertex=VERTICES[701], cost=0 },}
-EDGES[VERTICES[6044]] = {{ vertex=VERTICES[1200], cost=0 },}
-EDGES[VERTICES[177]] = {{ vertex=VERTICES[431], cost=0 },}
-EDGES[VERTICES[6196]] = {{ vertex=VERTICES[5912], cost=0 },}
-EDGES[VERTICES[82]] = {{ vertex=VERTICES[4542], cost=0 },}
-EDGES[VERTICES[3495]] = {{ vertex=VERTICES[3957], cost=0 },}
-EDGES[VERTICES[744]] = {{ vertex=VERTICES[358], cost=0 },}
-EDGES[VERTICES[5435]] = {{ vertex=VERTICES[4066], cost=0 },}
-EDGES[VERTICES[349]] = {{ vertex=VERTICES[1290], cost=0 },}
-EDGES[VERTICES[5652]] = {{ vertex=VERTICES[4095], cost=0 },}
-EDGES[VERTICES[5432]] = {{ vertex=VERTICES[5892], cost=0 },}
-EDGES[VERTICES[2908]] = {{ vertex=VERTICES[238], cost=0 },}
-EDGES[VERTICES[225]] = {{ vertex=VERTICES[443], cost=0 },}
-EDGES[VERTICES[4998]] = {{ vertex=VERTICES[2687], cost=0 },}
-EDGES[VERTICES[956]] = {{ vertex=VERTICES[5782], cost=0 },}
-EDGES[VERTICES[1836]] = {{ vertex=VERTICES[5922], cost=0 },}
-EDGES[VERTICES[2385]] = {{ vertex=VERTICES[6027], cost=0 },}
-EDGES[VERTICES[3056]] = {{ vertex=VERTICES[2501], cost=0 },}
-EDGES[VERTICES[1823]] = {{ vertex=VERTICES[91], cost=0 },}
-EDGES[VERTICES[1282]] = {{ vertex=VERTICES[5536], cost=0 },}
-EDGES[VERTICES[541]] = {{ vertex=VERTICES[353], cost=0 },}
-EDGES[VERTICES[2992]] = {{ vertex=VERTICES[4084], cost=0 },}
-EDGES[VERTICES[3329]] = {{ vertex=VERTICES[2975], cost=0 },}
-EDGES[VERTICES[690]] = {{ vertex=VERTICES[3475], cost=0 },}
-EDGES[VERTICES[1472]] = {{ vertex=VERTICES[604], cost=0 },}
-EDGES[VERTICES[4212]] = {{ vertex=VERTICES[4806], cost=0 },}
-EDGES[VERTICES[3342]] = {{ vertex=VERTICES[4516], cost=0 },}
-EDGES[VERTICES[5895]] = {{ vertex=VERTICES[5273], cost=0 },}
-EDGES[VERTICES[3564]] = {{ vertex=VERTICES[5396], cost=0 },}
-EDGES[VERTICES[1513]] = {{ vertex=VERTICES[1053], cost=0 },}
-EDGES[VERTICES[5973]] = {{ vertex=VERTICES[5031], cost=0 },}
-EDGES[VERTICES[5358]] = {{ vertex=VERTICES[4454], cost=0 },}
-EDGES[VERTICES[3360]] = {{ vertex=VERTICES[1904], cost=0 },}
-EDGES[VERTICES[708]] = {{ vertex=VERTICES[1383], cost=0 },}
-EDGES[VERTICES[3058]] = {{ vertex=VERTICES[700], cost=0 },}
-EDGES[VERTICES[423]] = {{ vertex=VERTICES[6169], cost=0 },}
-EDGES[VERTICES[4742]] = {{ vertex=VERTICES[1820], cost=0 },}
-EDGES[VERTICES[1628]] = {{ vertex=VERTICES[4514], cost=0 },}
-EDGES[VERTICES[6064]] = {{ vertex=VERTICES[885], cost=0 },}
-EDGES[VERTICES[2588]] = {{ vertex=VERTICES[5838], cost=0 },}
-EDGES[VERTICES[5826]] = {{ vertex=VERTICES[5179], cost=0 },}
-EDGES[VERTICES[4796]] = {{ vertex=VERTICES[4043], cost=0 },}
-EDGES[VERTICES[4033]] = {{ vertex=VERTICES[6155], cost=0 },}
-EDGES[VERTICES[411]] = {{ vertex=VERTICES[1466], cost=0 },}
-EDGES[VERTICES[83]] = {{ vertex=VERTICES[6251], cost=0 },}
-EDGES[VERTICES[555]] = {{ vertex=VERTICES[4082], cost=0 },}
-EDGES[VERTICES[1980]] = {{ vertex=VERTICES[5274], cost=0 },}
-EDGES[VERTICES[1213]] = {{ vertex=VERTICES[3228], cost=0 },}
-EDGES[VERTICES[466]] = {{ vertex=VERTICES[3484], cost=0 },}
-EDGES[VERTICES[4041]] = {{ vertex=VERTICES[57], cost=0 },}
-EDGES[VERTICES[5375]] = {{ vertex=VERTICES[5222], cost=0 },}
-EDGES[VERTICES[290]] = {{ vertex=VERTICES[1136], cost=0 },}
-EDGES[VERTICES[2268]] = {{ vertex=VERTICES[925], cost=0 },}
-EDGES[VERTICES[1005]] = {{ vertex=VERTICES[5611], cost=0 },}
-EDGES[VERTICES[6147]] = {{ vertex=VERTICES[857], cost=0 },}
-EDGES[VERTICES[4044]] = {{ vertex=VERTICES[2437], cost=0 },}
-EDGES[VERTICES[3846]] = {{ vertex=VERTICES[4750], cost=0 },}
-EDGES[VERTICES[3841]] = {{ vertex=VERTICES[589], cost=0 },}
-EDGES[VERTICES[5027]] = {{ vertex=VERTICES[5044], cost=0 },}
-EDGES[VERTICES[539]] = {{ vertex=VERTICES[1697], cost=0 },}
-EDGES[VERTICES[3119]] = {{ vertex=VERTICES[3115], cost=0 },}
-EDGES[VERTICES[1227]] = {{ vertex=VERTICES[2964], cost=0 },}
-EDGES[VERTICES[1562]] = {{ vertex=VERTICES[2509], cost=0 },}
-EDGES[VERTICES[4281]] = {{ vertex=VERTICES[3912], cost=0 },}
-EDGES[VERTICES[3445]] = {{ vertex=VERTICES[3116], cost=0 },}
-EDGES[VERTICES[3013]] = {{ vertex=VERTICES[4424], cost=0 },}
-EDGES[VERTICES[1307]] = {{ vertex=VERTICES[6127], cost=0 },}
-EDGES[VERTICES[6146]] = {{ vertex=VERTICES[2536], cost=0 },}
-EDGES[VERTICES[2558]] = {{ vertex=VERTICES[877], cost=0 },}
-EDGES[VERTICES[6093]] = {{ vertex=VERTICES[4133], cost=0 },}
-EDGES[VERTICES[4950]] = {{ vertex=VERTICES[782], cost=0 },}
-EDGES[VERTICES[3741]] = {{ vertex=VERTICES[1185], cost=0 },}
-EDGES[VERTICES[345]] = {{ vertex=VERTICES[653], cost=0 },}
-EDGES[VERTICES[5329]] = {{ vertex=VERTICES[726], cost=0 },}
-EDGES[VERTICES[6018]] = {{ vertex=VERTICES[3422], cost=0 },}
-EDGES[VERTICES[100]] = {{ vertex=VERTICES[5747], cost=0 },}
-EDGES[VERTICES[4253]] = {{ vertex=VERTICES[5570], cost=0 },}
-EDGES[VERTICES[973]] = {{ vertex=VERTICES[3191], cost=0 },}
-EDGES[VERTICES[3142]] = {{ vertex=VERTICES[4223], cost=0 },}
-EDGES[VERTICES[1455]] = {{ vertex=VERTICES[4649], cost=0 },}
-EDGES[VERTICES[2016]] = {{ vertex=VERTICES[5595], cost=0 },}
-EDGES[VERTICES[324]] = {{ vertex=VERTICES[70], cost=0 },}
-EDGES[VERTICES[1785]] = {{ vertex=VERTICES[5740], cost=0 },}
-EDGES[VERTICES[4485]] = {{ vertex=VERTICES[4498], cost=0 },}
-EDGES[VERTICES[3819]] = {{ vertex=VERTICES[1806], cost=0 },}
-EDGES[VERTICES[806]] = {{ vertex=VERTICES[4301], cost=0 },}
-EDGES[VERTICES[6084]] = {{ vertex=VERTICES[941], cost=0 },}
-EDGES[VERTICES[1470]] = {{ vertex=VERTICES[195], cost=0 },}
-EDGES[VERTICES[1363]] = {{ vertex=VERTICES[4354], cost=0 },}
-EDGES[VERTICES[2271]] = {{ vertex=VERTICES[3588], cost=0 },}
-EDGES[VERTICES[3368]] = {{ vertex=VERTICES[3370], cost=0 },}
-EDGES[VERTICES[4670]] = {{ vertex=VERTICES[623], cost=0 },}
-EDGES[VERTICES[5751]] = {{ vertex=VERTICES[4239], cost=0 },}
-EDGES[VERTICES[1146]] = {{ vertex=VERTICES[6165], cost=0 },}
-EDGES[VERTICES[1631]] = {{ vertex=VERTICES[3639], cost=0 },}
-EDGES[VERTICES[2448]] = {{ vertex=VERTICES[3324], cost=0 },}
-EDGES[VERTICES[5057]] = {{ vertex=VERTICES[93], cost=0 },}
-EDGES[VERTICES[3926]] = {{ vertex=VERTICES[4470], cost=0 },}
-EDGES[VERTICES[4230]] = {{ vertex=VERTICES[6184], cost=0 },}
-EDGES[VERTICES[4294]] = {{ vertex=VERTICES[215], cost=0 },}
-EDGES[VERTICES[1488]] = {{ vertex=VERTICES[4093], cost=0 },}
-EDGES[VERTICES[2481]] = {{ vertex=VERTICES[3464], cost=0 },}
-EDGES[VERTICES[2274]] = {{ vertex=VERTICES[1960], cost=0 },}
-EDGES[VERTICES[1298]] = {{ vertex=VERTICES[279], cost=0 },}
-EDGES[VERTICES[948]] = {{ vertex=VERTICES[171], cost=0 },}
-EDGES[VERTICES[972]] = {{ vertex=VERTICES[230], cost=0 },}
-EDGES[VERTICES[882]] = {{ vertex=VERTICES[5227], cost=0 },}
-EDGES[VERTICES[2676]] = {{ vertex=VERTICES[5014], cost=0 },}
-EDGES[VERTICES[2111]] = {{ vertex=VERTICES[4195], cost=0 },}
-EDGES[VERTICES[1365]] = {{ vertex=VERTICES[2831], cost=0 },}
-EDGES[VERTICES[6063]] = {{ vertex=VERTICES[2963], cost=0 },}
-EDGES[VERTICES[924]] = {{ vertex=VERTICES[4556], cost=0 },}
-EDGES[VERTICES[3227]] = {{ vertex=VERTICES[5680], cost=0 },}
-EDGES[VERTICES[4116]] = {{ vertex=VERTICES[1983], cost=0 },}
-EDGES[VERTICES[1320]] = {{ vertex=VERTICES[2515], cost=0 },}
-EDGES[VERTICES[4618]] = {{ vertex=VERTICES[5210], cost=0 },}
-EDGES[VERTICES[527]] = {{ vertex=VERTICES[2020], cost=0 },}
-EDGES[VERTICES[5998]] = {{ vertex=VERTICES[938], cost=0 },}
-EDGES[VERTICES[5734]] = {{ vertex=VERTICES[5609], cost=0 },}
-EDGES[VERTICES[4962]] = {{ vertex=VERTICES[1938], cost=0 },}
-EDGES[VERTICES[3871]] = {{ vertex=VERTICES[5148], cost=0 },}
-EDGES[VERTICES[4822]] = {{ vertex=VERTICES[317], cost=0 },}
-EDGES[VERTICES[1209]] = {{ vertex=VERTICES[5823], cost=0 },}
-EDGES[VERTICES[683]] = {{ vertex=VERTICES[2760], cost=0 },}
-EDGES[VERTICES[4402]] = {{ vertex=VERTICES[2480], cost=0 },}
-EDGES[VERTICES[4869]] = {{ vertex=VERTICES[1321], cost=0 },}
-EDGES[VERTICES[4811]] = {{ vertex=VERTICES[1765], cost=0 },}
-EDGES[VERTICES[1325]] = {{ vertex=VERTICES[5967], cost=0 },}
-EDGES[VERTICES[4266]] = {{ vertex=VERTICES[4263], cost=0 },}
-EDGES[VERTICES[3525]] = {{ vertex=VERTICES[785], cost=0 },}
-EDGES[VERTICES[124]] = {{ vertex=VERTICES[1056], cost=0 },}
-EDGES[VERTICES[4318]] = {{ vertex=VERTICES[4886], cost=0 },}
-EDGES[VERTICES[918]] = {{ vertex=VERTICES[743], cost=0 },}
-EDGES[VERTICES[2559]] = {{ vertex=VERTICES[4565], cost=0 },}
-EDGES[VERTICES[2206]] = {{ vertex=VERTICES[4488], cost=0 },}
-EDGES[VERTICES[3025]] = {{ vertex=VERTICES[2505], cost=0 },}
-EDGES[VERTICES[4000]] = {{ vertex=VERTICES[619], cost=0 },}
-EDGES[VERTICES[3168]] = {{ vertex=VERTICES[5226], cost=0 },}
-EDGES[VERTICES[3924]] = {{ vertex=VERTICES[2334], cost=0 },}
-EDGES[VERTICES[4985]] = {{ vertex=VERTICES[3334], cost=0 },}
-EDGES[VERTICES[4733]] = {{ vertex=VERTICES[4721], cost=0 },}
-EDGES[VERTICES[1563]] = {{ vertex=VERTICES[3928], cost=0 },}
-EDGES[VERTICES[4946]] = {{ vertex=VERTICES[77], cost=0 },}
-EDGES[VERTICES[883]] = {{ vertex=VERTICES[505], cost=0 },}
-EDGES[VERTICES[3072]] = {{ vertex=VERTICES[5042], cost=0 },}
-EDGES[VERTICES[452]] = {{ vertex=VERTICES[5837], cost=0 },}
-EDGES[VERTICES[6182]] = {{ vertex=VERTICES[2040], cost=0 },}
-EDGES[VERTICES[4964]] = {{ vertex=VERTICES[43], cost=0 },}
-EDGES[VERTICES[715]] = {{ vertex=VERTICES[2921], cost=0 },}
-EDGES[VERTICES[3961]] = {{ vertex=VERTICES[5909], cost=0 },}
-EDGES[VERTICES[5593]] = {{ vertex=VERTICES[3187], cost=0 },}
-EDGES[VERTICES[3605]] = {{ vertex=VERTICES[2479], cost=0 },}
-EDGES[VERTICES[1384]] = {{ vertex=VERTICES[127], cost=0 },}
-EDGES[VERTICES[1722]] = {{ vertex=VERTICES[1849], cost=0 },}
-EDGES[VERTICES[2193]] = {{ vertex=VERTICES[5639], cost=0 },}
-EDGES[VERTICES[1654]] = {{ vertex=VERTICES[3895], cost=0 },}
-EDGES[VERTICES[2996]] = {{ vertex=VERTICES[5079], cost=0 },}
-EDGES[VERTICES[3724]] = {{ vertex=VERTICES[3111], cost=0 },}
-EDGES[VERTICES[6122]] = {{ vertex=VERTICES[5856], cost=0 },}
-EDGES[VERTICES[4562]] = {{ vertex=VERTICES[1757], cost=0 },}
-EDGES[VERTICES[4585]] = {{ vertex=VERTICES[3728], cost=0 },}
-EDGES[VERTICES[4097]] = {{ vertex=VERTICES[4681], cost=0 },}
-EDGES[VERTICES[46]] = {{ vertex=VERTICES[2091], cost=0 },}
-EDGES[VERTICES[3118]] = {{ vertex=VERTICES[6194], cost=0 },}
-EDGES[VERTICES[4040]] = {{ vertex=VERTICES[5177], cost=0 },}
-EDGES[VERTICES[19]] = {{ vertex=VERTICES[5662], cost=0 },}
-EDGES[VERTICES[79]] = {{ vertex=VERTICES[3752], cost=0 },}
-EDGES[VERTICES[3505]] = {{ vertex=VERTICES[2354], cost=0 },}
-EDGES[VERTICES[3789]] = {{ vertex=VERTICES[3787], cost=0 },}
-EDGES[VERTICES[5490]] = {{ vertex=VERTICES[5604], cost=0 },}
-EDGES[VERTICES[1066]] = {{ vertex=VERTICES[755], cost=0 },}
-EDGES[VERTICES[4490]] = {{ vertex=VERTICES[4216], cost=0 },}
-EDGES[VERTICES[329]] = {{ vertex=VERTICES[2264], cost=0 },}
-EDGES[VERTICES[5143]] = {{ vertex=VERTICES[2300], cost=0 },}
-EDGES[VERTICES[4499]] = {{ vertex=VERTICES[518], cost=0 },}
-EDGES[VERTICES[1937]] = {{ vertex=VERTICES[551], cost=0 },}
-EDGES[VERTICES[422]] = {{ vertex=VERTICES[2491], cost=0 },}
-EDGES[VERTICES[4921]] = {{ vertex=VERTICES[1940], cost=0 },}
-EDGES[VERTICES[4756]] = {{ vertex=VERTICES[3988], cost=0 },}
-EDGES[VERTICES[3648]] = {{ vertex=VERTICES[5091], cost=0 },}
-EDGES[VERTICES[5317]] = {{ vertex=VERTICES[5525], cost=0 },}
-EDGES[VERTICES[3809]] = {{ vertex=VERTICES[3282], cost=0 },}
-EDGES[VERTICES[27]] = {{ vertex=VERTICES[1752], cost=0 },}
-EDGES[VERTICES[2214]] = {{ vertex=VERTICES[1768], cost=0 },}
-EDGES[VERTICES[3476]] = {{ vertex=VERTICES[507], cost=0 },}
-EDGES[VERTICES[1226]] = {{ vertex=VERTICES[3963], cost=0 },}
-EDGES[VERTICES[6051]] = {{ vertex=VERTICES[3767], cost=0 },}
-EDGES[VERTICES[2029]] = {{ vertex=VERTICES[339], cost=0 },}
-EDGES[VERTICES[1769]] = {{ vertex=VERTICES[2846], cost=0 },}
-EDGES[VERTICES[3444]] = {{ vertex=VERTICES[768], cost=0 },}
-EDGES[VERTICES[530]] = {{ vertex=VERTICES[4197], cost=0 },}
-EDGES[VERTICES[4809]] = {{ vertex=VERTICES[5238], cost=0 },}
-EDGES[VERTICES[6258]] = {{ vertex=VERTICES[4343], cost=0 },}
-EDGES[VERTICES[3802]] = {{ vertex=VERTICES[2086], cost=0 },}
-EDGES[VERTICES[1123]] = {{ vertex=VERTICES[4126], cost=0 },}
-EDGES[VERTICES[3016]] = {{ vertex=VERTICES[6005], cost=0 },}
-EDGES[VERTICES[3024]] = {{ vertex=VERTICES[1091], cost=0 },}
-EDGES[VERTICES[3586]] = {{ vertex=VERTICES[5625], cost=0 },}
-EDGES[VERTICES[67]] = {{ vertex=VERTICES[6170], cost=0 },}
-EDGES[VERTICES[3044]] = {{ vertex=VERTICES[3536], cost=0 },}
-EDGES[VERTICES[6144]] = {{ vertex=VERTICES[6265], cost=0 },}
-EDGES[VERTICES[809]] = {{ vertex=VERTICES[1456], cost=0 },}
-EDGES[VERTICES[4421]] = {{ vertex=VERTICES[1841], cost=0 },}
-EDGES[VERTICES[590]] = {{ vertex=VERTICES[4311], cost=0 },}
-EDGES[VERTICES[3537]] = {{ vertex=VERTICES[3680], cost=0 },}
-EDGES[VERTICES[1518]] = {{ vertex=VERTICES[4769], cost=0 },}
-EDGES[VERTICES[5282]] = {{ vertex=VERTICES[1746], cost=0 },}
-EDGES[VERTICES[1097]] = {{ vertex=VERTICES[455], cost=0 },}
-EDGES[VERTICES[3545]] = {{ vertex=VERTICES[6257], cost=0 },}
-EDGES[VERTICES[4167]] = {{ vertex=VERTICES[834], cost=0 },}
-EDGES[VERTICES[4737]] = {{ vertex=VERTICES[5877], cost=0 },}
-EDGES[VERTICES[4956]] = {{ vertex=VERTICES[5669], cost=0 },}
-EDGES[VERTICES[3306]] = {{ vertex=VERTICES[4929], cost=0 },}
-EDGES[VERTICES[276]] = {{ vertex=VERTICES[419], cost=0 },}
-EDGES[VERTICES[450]] = {{ vertex=VERTICES[5879], cost=0 },}
-EDGES[VERTICES[1206]] = {{ vertex=VERTICES[3853], cost=0 },}
-EDGES[VERTICES[2288]] = {{ vertex=VERTICES[5104], cost=0 },}
-EDGES[VERTICES[6230]] = {{ vertex=VERTICES[6090], cost=0 },}
-EDGES[VERTICES[1463]] = {{ vertex=VERTICES[2600], cost=0 },}
-EDGES[VERTICES[2122]] = {{ vertex=VERTICES[1773], cost=0 },}
-EDGES[VERTICES[6088]] = {{ vertex=VERTICES[4048], cost=0 },}
-EDGES[VERTICES[1100]] = {{ vertex=VERTICES[2841], cost=0 },}
-EDGES[VERTICES[4132]] = {{ vertex=VERTICES[252], cost=0 },}
-EDGES[VERTICES[4411]] = {{ vertex=VERTICES[1634], cost=0 },}
-EDGES[VERTICES[1333]] = {{ vertex=VERTICES[719], cost=0 },}
-EDGES[VERTICES[3007]] = {{ vertex=VERTICES[4941], cost=0 },}
-EDGES[VERTICES[418]] = {{ vertex=VERTICES[593], cost=0 },}
-EDGES[VERTICES[3966]] = {{ vertex=VERTICES[2229], cost=0 },}
-EDGES[VERTICES[1519]] = {{ vertex=VERTICES[179], cost=0 },}
-EDGES[VERTICES[3899]] = {{ vertex=VERTICES[4439], cost=0 },}
-EDGES[VERTICES[2852]] = {{ vertex=VERTICES[3158], cost=0 },}
-EDGES[VERTICES[1196]] = {{ vertex=VERTICES[6243], cost=0 },}
-EDGES[VERTICES[3305]] = {{ vertex=VERTICES[5894], cost=0 },}
-EDGES[VERTICES[3946]] = {{ vertex=VERTICES[4241], cost=0 },}
-EDGES[VERTICES[4755]] = {{ vertex=VERTICES[2686], cost=0 },}
-EDGES[VERTICES[3947]] = {{ vertex=VERTICES[3922], cost=0 },}
-EDGES[VERTICES[5864]] = {{ vertex=VERTICES[473], cost=0 },}
-EDGES[VERTICES[1221]] = {{ vertex=VERTICES[1447], cost=0 },}
-EDGES[VERTICES[607]] = {{ vertex=VERTICES[1174], cost=0 },}
-EDGES[VERTICES[1711]] = {{ vertex=VERTICES[390], cost=0 },}
-EDGES[VERTICES[5585]] = {{ vertex=VERTICES[3656], cost=0 },}
-EDGES[VERTICES[5870]] = {{ vertex=VERTICES[2745], cost=0 },}
-EDGES[VERTICES[6191]] = {{ vertex=VERTICES[1517], cost=0 },}
-EDGES[VERTICES[1277]] = {{ vertex=VERTICES[5724], cost=0 },}
-EDGES[VERTICES[3640]] = {{ vertex=VERTICES[2993], cost=0 },}
-EDGES[VERTICES[3993]] = {{ vertex=VERTICES[5305], cost=0 },}
-EDGES[VERTICES[2608]] = {{ vertex=VERTICES[3271], cost=0 },}
-EDGES[VERTICES[2432]] = {{ vertex=VERTICES[2382], cost=0 },}
-EDGES[VERTICES[720]] = {{ vertex=VERTICES[4578], cost=0 },}
-EDGES[VERTICES[4610]] = {{ vertex=VERTICES[5115], cost=0 },}
-EDGES[VERTICES[2829]] = {{ vertex=VERTICES[6039], cost=0 },}
-EDGES[VERTICES[136]] = {{ vertex=VERTICES[4745], cost=0 },}
-EDGES[VERTICES[3852]] = {{ vertex=VERTICES[1317], cost=0 },}
-EDGES[VERTICES[5293]] = {{ vertex=VERTICES[2259], cost=0 },}
-EDGES[VERTICES[5887]] = {{ vertex=VERTICES[1919], cost=0 },}
-EDGES[VERTICES[3580]] = {{ vertex=VERTICES[1508], cost=0 },}
-EDGES[VERTICES[1700]] = {{ vertex=VERTICES[5147], cost=0 },}
-EDGES[VERTICES[5539]] = {{ vertex=VERTICES[4543], cost=0 },}
-EDGES[VERTICES[2998]] = {{ vertex=VERTICES[1973], cost=0 },}
-EDGES[VERTICES[3364]] = {{ vertex=VERTICES[3373], cost=0 },}
-EDGES[VERTICES[4388]] = {{ vertex=VERTICES[2244], cost=0 },}
-EDGES[VERTICES[3089]] = {{ vertex=VERTICES[951], cost=0 },}
-EDGES[VERTICES[1273]] = {{ vertex=VERTICES[3799], cost=0 },}
-EDGES[VERTICES[2746]] = {{ vertex=VERTICES[949], cost=0 },}
-EDGES[VERTICES[6214]] = {{ vertex=VERTICES[3301], cost=0 },}
-EDGES[VERTICES[5446]] = {{ vertex=VERTICES[3396], cost=0 },}
-EDGES[VERTICES[1795]] = {{ vertex=VERTICES[729], cost=0 },}
-EDGES[VERTICES[29]] = {{ vertex=VERTICES[3399], cost=0 },}
-EDGES[VERTICES[942]] = {{ vertex=VERTICES[1024], cost=0 },}
-EDGES[VERTICES[2592]] = {{ vertex=VERTICES[4420], cost=0 },}
-EDGES[VERTICES[2223]] = {{ vertex=VERTICES[480], cost=0 },}
-EDGES[VERTICES[4191]] = {{ vertex=VERTICES[3953], cost=0 },}
-EDGES[VERTICES[356]] = {{ vertex=VERTICES[1243], cost=0 },}
-EDGES[VERTICES[2567]] = {{ vertex=VERTICES[4110], cost=0 },}
-EDGES[VERTICES[2263]] = {{ vertex=VERTICES[3348], cost=0 },}
-EDGES[VERTICES[4111]] = {{ vertex=VERTICES[1324], cost=0 },}
-EDGES[VERTICES[3006]] = {{ vertex=VERTICES[1961], cost=0 },}
-EDGES[VERTICES[5790]] = {{ vertex=VERTICES[3206], cost=0 },}
-EDGES[VERTICES[4619]] = {{ vertex=VERTICES[5605], cost=0 },}
-EDGES[VERTICES[1120]] = {{ vertex=VERTICES[5582], cost=0 },}
-EDGES[VERTICES[160]] = {{ vertex=VERTICES[3059], cost=0 },}
-EDGES[VERTICES[1642]] = {{ vertex=VERTICES[2827], cost=0 },}
-EDGES[VERTICES[4683]] = {{ vertex=VERTICES[2699], cost=0 },}
-EDGES[VERTICES[4626]] = {{ vertex=VERTICES[3257], cost=0 },}
-EDGES[VERTICES[984]] = {{ vertex=VERTICES[3181], cost=0 },}
-EDGES[VERTICES[2716]] = {{ vertex=VERTICES[3708], cost=0 },}
-EDGES[VERTICES[309]] = {{ vertex=VERTICES[6086], cost=0 },}
-EDGES[VERTICES[2321]] = {{ vertex=VERTICES[3529], cost=0 },}
-EDGES[VERTICES[4859]] = {{ vertex=VERTICES[2139], cost=0 },}
-EDGES[VERTICES[2474]] = {{ vertex=VERTICES[3541], cost=0 },}
-EDGES[VERTICES[3276]] = {{ vertex=VERTICES[2700], cost=0 },}
-EDGES[VERTICES[947]] = {{ vertex=VERTICES[1121], cost=0 },}
-EDGES[VERTICES[2811]] = {{ vertex=VERTICES[2861], cost=0 },}
-EDGES[VERTICES[5760]] = {{ vertex=VERTICES[1099], cost=0 },}
-EDGES[VERTICES[560]] = {{ vertex=VERTICES[4053], cost=0 },}
-EDGES[VERTICES[2627]] = {{ vertex=VERTICES[1868], cost=0 },}
-EDGES[VERTICES[2291]] = {{ vertex=VERTICES[4697], cost=0 },}
-EDGES[VERTICES[5445]] = {{ vertex=VERTICES[4848], cost=0 },}
-EDGES[VERTICES[5126]] = {{ vertex=VERTICES[791], cost=0 },}
-EDGES[VERTICES[4525]] = {{ vertex=VERTICES[1926], cost=0 },}
-EDGES[VERTICES[2087]] = {{ vertex=VERTICES[2538], cost=0 },}
-EDGES[VERTICES[5142]] = {{ vertex=VERTICES[4546], cost=0 },}
-EDGES[VERTICES[1238]] = {{ vertex=VERTICES[1816], cost=0 },}
-EDGES[VERTICES[5591]] = {{ vertex=VERTICES[870], cost=0 },}
-EDGES[VERTICES[4544]] = {{ vertex=VERTICES[2900], cost=0 },}
-EDGES[VERTICES[3193]] = {{ vertex=VERTICES[6094], cost=0 },}
-EDGES[VERTICES[6220]] = {{ vertex=VERTICES[2400], cost=0 },}
-EDGES[VERTICES[1388]] = {{ vertex=VERTICES[5576], cost=0 },}
-EDGES[VERTICES[5801]] = {{ vertex=VERTICES[3960], cost=0 },}
-EDGES[VERTICES[3900]] = {{ vertex=VERTICES[2228], cost=0 },}
-EDGES[VERTICES[2398]] = {{ vertex=VERTICES[5666], cost=0 },}
-EDGES[VERTICES[2384]] = {{ vertex=VERTICES[1585], cost=0 },}
-EDGES[VERTICES[958]] = {{ vertex=VERTICES[792], cost=0 },}
-EDGES[VERTICES[1047]] = {{ vertex=VERTICES[4957], cost=0 },}
-EDGES[VERTICES[5450]] = {{ vertex=VERTICES[2282], cost=0 },}
-EDGES[VERTICES[871]] = {{ vertex=VERTICES[6035], cost=0 },}
-EDGES[VERTICES[1105]] = {{ vertex=VERTICES[961], cost=0 },}
-EDGES[VERTICES[5579]] = {{ vertex=VERTICES[5097], cost=0 },}
-EDGES[VERTICES[1411]] = {{ vertex=VERTICES[789], cost=0 },}
-EDGES[VERTICES[2115]] = {{ vertex=VERTICES[3730], cost=0 },}
-EDGES[VERTICES[5161]] = {{ vertex=VERTICES[4085], cost=0 },}
-EDGES[VERTICES[2847]] = {{ vertex=VERTICES[4995], cost=0 },}
-EDGES[VERTICES[2278]] = {{ vertex=VERTICES[584], cost=0 },}
-EDGES[VERTICES[3865]] = {{ vertex=VERTICES[2856], cost=0 },}
-EDGES[VERTICES[4259]] = {{ vertex=VERTICES[6073], cost=0 },}
-EDGES[VERTICES[1600]] = {{ vertex=VERTICES[1403], cost=0 },}
-EDGES[VERTICES[1069]] = {{ vertex=VERTICES[812], cost=0 },}
-EDGES[VERTICES[2776]] = {{ vertex=VERTICES[4419], cost=0 },}
-EDGES[VERTICES[3881]] = {{ vertex=VERTICES[6224], cost=0 },}
-EDGES[VERTICES[5689]] = {{ vertex=VERTICES[5061], cost=0 },}
-EDGES[VERTICES[3398]] = {{ vertex=VERTICES[168], cost=0 },}
-EDGES[VERTICES[3247]] = {{ vertex=VERTICES[528], cost=0 },}
-EDGES[VERTICES[2525]] = {{ vertex=VERTICES[5048], cost=0 },}
-EDGES[VERTICES[13]] = {{ vertex=VERTICES[888], cost=0 },}
-EDGES[VERTICES[2844]] = {{ vertex=VERTICES[1589], cost=0 },}
-EDGES[VERTICES[1931]] = {{ vertex=VERTICES[5517], cost=0 },}
-EDGES[VERTICES[5083]] = {{ vertex=VERTICES[1558], cost=0 },}
-EDGES[VERTICES[2131]] = {{ vertex=VERTICES[601], cost=0 },}
-EDGES[VERTICES[5188]] = {{ vertex=VERTICES[6200], cost=0 },}
-EDGES[VERTICES[5036]] = {{ vertex=VERTICES[3017], cost=0 },}
-EDGES[VERTICES[2311]] = {{ vertex=VERTICES[1218], cost=0 },}
-EDGES[VERTICES[2365]] = {{ vertex=VERTICES[1021], cost=0 },}
-EDGES[VERTICES[3014]] = {{ vertex=VERTICES[3450], cost=0 },}
-EDGES[VERTICES[1191]] = {{ vertex=VERTICES[4870], cost=0 },}
-EDGES[VERTICES[3446]] = {{ vertex=VERTICES[4131], cost=0 },}
-EDGES[VERTICES[2299]] = {{ vertex=VERTICES[5059], cost=0 },}
-EDGES[VERTICES[4922]] = {{ vertex=VERTICES[3377], cost=0 },}
-EDGES[VERTICES[5749]] = {{ vertex=VERTICES[2717], cost=0 },}
-EDGES[VERTICES[2123]] = {{ vertex=VERTICES[4597], cost=0 },}
-EDGES[VERTICES[3623]] = {{ vertex=VERTICES[967], cost=0 },}
-EDGES[VERTICES[1992]] = {{ vertex=VERTICES[2143], cost=0 },}
-EDGES[VERTICES[4035]] = {{ vertex=VERTICES[3226], cost=0 },}
-EDGES[VERTICES[2096]] = {{ vertex=VERTICES[3287], cost=0 },}
-EDGES[VERTICES[4390]] = {{ vertex=VERTICES[4692], cost=0 },}
-EDGES[VERTICES[5241]] = {{ vertex=VERTICES[5467], cost=0 },}
-EDGES[VERTICES[2605]] = {{ vertex=VERTICES[2661], cost=0 },}
-EDGES[VERTICES[1601]] = {{ vertex=VERTICES[3896], cost=0 },}
-EDGES[VERTICES[5957]] = {{ vertex=VERTICES[1464], cost=0 },}
-EDGES[VERTICES[5559]] = {{ vertex=VERTICES[5928], cost=0 },}
-EDGES[VERTICES[1198]] = {{ vertex=VERTICES[2822], cost=0 },}
-EDGES[VERTICES[1687]] = {{ vertex=VERTICES[3733], cost=0 },}
-EDGES[VERTICES[4130]] = {{ vertex=VERTICES[413], cost=0 },}
-EDGES[VERTICES[5687]] = {{ vertex=VERTICES[6048], cost=0 },}
-EDGES[VERTICES[348]] = {{ vertex=VERTICES[4075], cost=0 },}
-EDGES[VERTICES[542]] = {{ vertex=VERTICES[905], cost=0 },}
-EDGES[VERTICES[917]] = {{ vertex=VERTICES[2433], cost=0 },}
-EDGES[VERTICES[4199]] = {{ vertex=VERTICES[3631], cost=0 },}
-EDGES[VERTICES[5853]] = {{ vertex=VERTICES[2424], cost=0 },}
-EDGES[VERTICES[4527]] = {{ vertex=VERTICES[937], cost=0 },}
-EDGES[VERTICES[1577]] = {{ vertex=VERTICES[4463], cost=0 },}
-EDGES[VERTICES[5125]] = {{ vertex=VERTICES[4940], cost=0 },}
-EDGES[VERTICES[5574]] = {{ vertex=VERTICES[53], cost=0 },}
-EDGES[VERTICES[2226]] = {{ vertex=VERTICES[6032], cost=0 },}
-EDGES[VERTICES[5631]] = {{ vertex=VERTICES[1217], cost=0 },}
-EDGES[VERTICES[3660]] = {{ vertex=VERTICES[2909], cost=0 },}
-EDGES[VERTICES[444]] = {{ vertex=VERTICES[2203], cost=0 },}
-EDGES[VERTICES[1627]] = {{ vertex=VERTICES[4232], cost=0 },}
-EDGES[VERTICES[5485]] = {{ vertex=VERTICES[3241], cost=0 },}
-EDGES[VERTICES[5350]] = {{ vertex=VERTICES[5276], cost=0 },}
-EDGES[VERTICES[2434]] = {{ vertex=VERTICES[4141], cost=0 },}
-EDGES[VERTICES[3139]] = {{ vertex=VERTICES[4771], cost=0 },}
-EDGES[VERTICES[2077]] = {{ vertex=VERTICES[3381], cost=0 },}
-EDGES[VERTICES[3313]] = {{ vertex=VERTICES[2030], cost=0 },}
-EDGES[VERTICES[3149]] = {{ vertex=VERTICES[1169], cost=0 },}
-EDGES[VERTICES[1449]] = {{ vertex=VERTICES[2582], cost=0 },}
-EDGES[VERTICES[6161]] = {{ vertex=VERTICES[5180], cost=0 },}
-EDGES[VERTICES[1258]] = {{ vertex=VERTICES[2864], cost=0 },}
-EDGES[VERTICES[1604]] = {{ vertex=VERTICES[249], cost=0 },}
-EDGES[VERTICES[3711]] = {{ vertex=VERTICES[5219], cost=0 },}
-EDGES[VERTICES[191]] = {{ vertex=VERTICES[2405], cost=0 },}
-EDGES[VERTICES[6256]] = {{ vertex=VERTICES[5337], cost=0 },}
-EDGES[VERTICES[679]] = {{ vertex=VERTICES[1158], cost=0 },}
-EDGES[VERTICES[2172]] = {{ vertex=VERTICES[1375], cost=0 },}
-EDGES[VERTICES[4970]] = {{ vertex=VERTICES[5463], cost=0 },}
-EDGES[VERTICES[1081]] = {{ vertex=VERTICES[2286], cost=0 },}
-EDGES[VERTICES[5187]] = {{ vertex=VERTICES[4631], cost=0 },}
-EDGES[VERTICES[4397]] = {{ vertex=VERTICES[1537], cost=0 },}
-EDGES[VERTICES[2901]] = {{ vertex=VERTICES[359], cost=0 },}
-EDGES[VERTICES[2638]] = {{ vertex=VERTICES[3026], cost=0 },}
-EDGES[VERTICES[1833]] = {{ vertex=VERTICES[434], cost=0 },}
-EDGES[VERTICES[4611]] = {{ vertex=VERTICES[5251], cost=0 },}
-EDGES[VERTICES[6099]] = {{ vertex=VERTICES[5550], cost=0 },}
-EDGES[VERTICES[3395]] = {{ vertex=VERTICES[4780], cost=0 },}
-EDGES[VERTICES[4119]] = {{ vertex=VERTICES[4570], cost=0 },}
-EDGES[VERTICES[4976]] = {{ vertex=VERTICES[4990], cost=0 },}
-EDGES[VERTICES[5002]] = {{ vertex=VERTICES[1893], cost=0 },}
-EDGES[VERTICES[2069]] = {{ vertex=VERTICES[2007], cost=0 },}
-EDGES[VERTICES[832]] = {{ vertex=VERTICES[1506], cost=0 },}
-EDGES[VERTICES[3948]] = {{ vertex=VERTICES[4966], cost=0 },}
-EDGES[VERTICES[1156]] = {{ vertex=VERTICES[5884], cost=0 },}
-EDGES[VERTICES[5558]] = {{ vertex=VERTICES[2842], cost=0 },}
-EDGES[VERTICES[4164]] = {{ vertex=VERTICES[3766], cost=0 },}
-EDGES[VERTICES[2147]] = {{ vertex=VERTICES[1608], cost=0 },}
-EDGES[VERTICES[5965]] = {{ vertex=VERTICES[3745], cost=0 },}
-EDGES[VERTICES[3848]] = {{ vertex=VERTICES[5398], cost=0 },}
-EDGES[VERTICES[3931]] = {{ vertex=VERTICES[495], cost=0 },}
-EDGES[VERTICES[4149]] = {{ vertex=VERTICES[3132], cost=0 },}
-EDGES[VERTICES[1526]] = {{ vertex=VERTICES[997], cost=0 },}
-EDGES[VERTICES[6036]] = {{ vertex=VERTICES[3205], cost=0 },}
-EDGES[VERTICES[298]] = {{ vertex=VERTICES[3281], cost=0 },}
-EDGES[VERTICES[5316]] = {{ vertex=VERTICES[4588], cost=0 },}
-EDGES[VERTICES[5829]] = {{ vertex=VERTICES[1029], cost=0 },}
-EDGES[VERTICES[1633]] = {{ vertex=VERTICES[499], cost=0 },}
-EDGES[VERTICES[4599]] = {{ vertex=VERTICES[3237], cost=0 },}
-EDGES[VERTICES[618]] = {{ vertex=VERTICES[4523], cost=0 },}
-EDGES[VERTICES[5017]] = {{ vertex=VERTICES[2602], cost=0 },}
-EDGES[VERTICES[5124]] = {{ vertex=VERTICES[4615], cost=0 },}
-EDGES[VERTICES[3721]] = {{ vertex=VERTICES[5489], cost=0 },}
-EDGES[VERTICES[2260]] = {{ vertex=VERTICES[986], cost=0 },}
-EDGES[VERTICES[5164]] = {{ vertex=VERTICES[4103], cost=0 },}
-EDGES[VERTICES[4181]] = {{ vertex=VERTICES[7], cost=0 },}
-EDGES[VERTICES[1740]] = {{ vertex=VERTICES[4601], cost=0 },}
-EDGES[VERTICES[3807]] = {{ vertex=VERTICES[3037], cost=0 },}
-EDGES[VERTICES[2683]] = {{ vertex=VERTICES[5808], cost=0 },}
-EDGES[VERTICES[2487]] = {{ vertex=VERTICES[3990], cost=0 },}
-EDGES[VERTICES[199]] = {{ vertex=VERTICES[3113], cost=0 },}
-EDGES[VERTICES[2353]] = {{ vertex=VERTICES[1538], cost=0 },}
-EDGES[VERTICES[3280]] = {{ vertex=VERTICES[3152], cost=0 },}
-EDGES[VERTICES[3585]] = {{ vertex=VERTICES[684], cost=0 },}
-EDGES[VERTICES[2720]] = {{ vertex=VERTICES[4772], cost=0 },}
-EDGES[VERTICES[1982]] = {{ vertex=VERTICES[5906], cost=0 },}
-EDGES[VERTICES[2255]] = {{ vertex=VERTICES[3570], cost=0 },}
-EDGES[VERTICES[3872]] = {{ vertex=VERTICES[4099], cost=0 },}
-EDGES[VERTICES[4234]] = {{ vertex=VERTICES[691], cost=0 },}
-EDGES[VERTICES[6089]] = {{ vertex=VERTICES[4690], cost=0 },}
-EDGES[VERTICES[3470]] = {{ vertex=VERTICES[2737], cost=0 },}
-EDGES[VERTICES[2074]] = {{ vertex=VERTICES[6102], cost=0 },}
-EDGES[VERTICES[1588]] = {{ vertex=VERTICES[4168], cost=0 },}
-EDGES[VERTICES[533]] = {{ vertex=VERTICES[4728], cost=0 },}
-EDGES[VERTICES[5303]] = {{ vertex=VERTICES[1771], cost=0 },}
-EDGES[VERTICES[594]] = {{ vertex=VERTICES[404], cost=0 },}
-EDGES[VERTICES[3197]] = {{ vertex=VERTICES[4873], cost=0 },}
-EDGES[VERTICES[2037]] = {{ vertex=VERTICES[4086], cost=0 },}
-EDGES[VERTICES[4892]] = {{ vertex=VERTICES[4032], cost=0 },}
-EDGES[VERTICES[2732]] = {{ vertex=VERTICES[3729], cost=0 },}
-EDGES[VERTICES[4638]] = {{ vertex=VERTICES[52], cost=0 },}
-EDGES[VERTICES[4688]] = {{ vertex=VERTICES[3267], cost=0 },}
-EDGES[VERTICES[2774]] = {{ vertex=VERTICES[188], cost=0 },}
-EDGES[VERTICES[2371]] = {{ vertex=VERTICES[5728], cost=0 },}
-EDGES[VERTICES[3263]] = {{ vertex=VERTICES[517], cost=0 },}
-EDGES[VERTICES[1315]] = {{ vertex=VERTICES[5211], cost=0 },}
-EDGES[VERTICES[4593]] = {{ vertex=VERTICES[1637], cost=0 },}
-EDGES[VERTICES[2132]] = {{ vertex=VERTICES[5070], cost=0 },}
-EDGES[VERTICES[6030]] = {{ vertex=VERTICES[2017], cost=0 },}
-EDGES[VERTICES[5601]] = {{ vertex=VERTICES[432], cost=0 },}
-EDGES[VERTICES[1279]] = {{ vertex=VERTICES[3978], cost=0 },}
-EDGES[VERTICES[5682]] = {{ vertex=VERTICES[1405], cost=0 },}
-EDGES[VERTICES[4106]] = {{ vertex=VERTICES[1533], cost=0 },}
-EDGES[VERTICES[3010]] = {{ vertex=VERTICES[3424], cost=0 },}
-EDGES[VERTICES[6204]] = {{ vertex=VERTICES[5127], cost=0 },}
-EDGES[VERTICES[3284]] = {{ vertex=VERTICES[2010], cost=0 },}
-EDGES[VERTICES[2647]] = {{ vertex=VERTICES[2028], cost=0 },}
-EDGES[VERTICES[4854]] = {{ vertex=VERTICES[4378], cost=0 },}
-EDGES[VERTICES[6218]] = {{ vertex=VERTICES[4694], cost=0 },}
-EDGES[VERTICES[3212]] = {{ vertex=VERTICES[1991], cost=0 },}
-EDGES[VERTICES[5842]] = {{ vertex=VERTICES[2809], cost=0 },}
-EDGES[VERTICES[1824]] = {{ vertex=VERTICES[4426], cost=0 },}
-EDGES[VERTICES[152]] = {{ vertex=VERTICES[6096], cost=0 },}
-EDGES[VERTICES[2177]] = {{ vertex=VERTICES[3032], cost=0 },}
-EDGES[VERTICES[5462]] = {{ vertex=VERTICES[2695], cost=0 },}
-EDGES[VERTICES[5067]] = {{ vertex=VERTICES[721], cost=0 },}
-EDGES[VERTICES[5508]] = {{ vertex=VERTICES[5434], cost=0 },}
-EDGES[VERTICES[3047]] = {{ vertex=VERTICES[3683], cost=0 },}
-EDGES[VERTICES[6139]] = {{ vertex=VERTICES[4623], cost=0 },}
-EDGES[VERTICES[3552]] = {{ vertex=VERTICES[115], cost=0 },}
-EDGES[VERTICES[4162]] = {{ vertex=VERTICES[4691], cost=0 },}
-EDGES[VERTICES[3425]] = {{ vertex=VERTICES[5075], cost=0 },}
-EDGES[VERTICES[4430]] = {{ vertex=VERTICES[4404], cost=0 },}
-EDGES[VERTICES[1666]] = {{ vertex=VERTICES[2372], cost=0 },}
-EDGES[VERTICES[5750]] = {{ vertex=VERTICES[492], cost=0 },}
-EDGES[VERTICES[3952]] = {{ vertex=VERTICES[4278], cost=0 },}
-EDGES[VERTICES[4112]] = {{ vertex=VERTICES[1509], cost=0 },}
-EDGES[VERTICES[2518]] = {{ vertex=VERTICES[3738], cost=0 },}
-EDGES[VERTICES[2476]] = {{ vertex=VERTICES[5439], cost=0 },}
-EDGES[VERTICES[916]] = {{ vertex=VERTICES[922], cost=0 },}
-EDGES[VERTICES[3091]] = {{ vertex=VERTICES[6233], cost=0 },}
-EDGES[VERTICES[403]] = {{ vertex=VERTICES[1815], cost=0 },}
-EDGES[VERTICES[3325]] = {{ vertex=VERTICES[2426], cost=0 },}
-EDGES[VERTICES[2722]] = {{ vertex=VERTICES[250], cost=0 },}
-EDGES[VERTICES[2845]] = {{ vertex=VERTICES[1754], cost=0 },}
-EDGES[VERTICES[2342]] = {{ vertex=VERTICES[5575], cost=0 },}
-EDGES[VERTICES[4319]] = {{ vertex=VERTICES[4637], cost=0 },}
-EDGES[VERTICES[1891]] = {{ vertex=VERTICES[3462], cost=0 },}
-EDGES[VERTICES[3506]] = {{ vertex=VERTICES[3379], cost=0 },}
-EDGES[VERTICES[4913]] = {{ vertex=VERTICES[2756], cost=0 },}
-EDGES[VERTICES[3361]] = {{ vertex=VERTICES[793], cost=0 },}
-EDGES[VERTICES[4765]] = {{ vertex=VERTICES[6237], cost=0 },}
-EDGES[VERTICES[3949]] = {{ vertex=VERTICES[625], cost=0 },}
-EDGES[VERTICES[1090]] = {{ vertex=VERTICES[1872], cost=0 },}
-EDGES[VERTICES[4866]] = {{ vertex=VERTICES[135], cost=0 },}
-EDGES[VERTICES[990]] = {{ vertex=VERTICES[1043], cost=0 },}
-EDGES[VERTICES[2972]] = {{ vertex=VERTICES[531], cost=0 },}
-EDGES[VERTICES[796]] = {{ vertex=VERTICES[4987], cost=0 },}
-EDGES[VERTICES[237]] = {{ vertex=VERTICES[1303], cost=0 },}
-EDGES[VERTICES[906]] = {{ vertex=VERTICES[3769], cost=0 },}
-EDGES[VERTICES[5659]] = {{ vertex=VERTICES[2079], cost=0 },}
-EDGES[VERTICES[969]] = {{ vertex=VERTICES[2734], cost=0 },}
-EDGES[VERTICES[2202]] = {{ vertex=VERTICES[3213], cost=0 },}
-EDGES[VERTICES[2939]] = {{ vertex=VERTICES[1726], cost=0 },}
-EDGES[VERTICES[4034]] = {{ vertex=VERTICES[3321], cost=0 },}
-EDGES[VERTICES[2318]] = {{ vertex=VERTICES[5506], cost=0 },}
-EDGES[VERTICES[1839]] = {{ vertex=VERTICES[2680], cost=0 },}
-EDGES[VERTICES[454]] = {{ vertex=VERTICES[2669], cost=0 },}
-EDGES[VERTICES[4896]] = {{ vertex=VERTICES[2735], cost=0 },}
-EDGES[VERTICES[5758]] = {{ vertex=VERTICES[4776], cost=0 },}
-EDGES[VERTICES[5]] = {{ vertex=VERTICES[3755], cost=0 },}
-EDGES[VERTICES[1294]] = {{ vertex=VERTICES[4926], cost=0 },}
-EDGES[VERTICES[5196]] = {{ vertex=VERTICES[2730], cost=0 },}
-EDGES[VERTICES[5149]] = {{ vertex=VERTICES[2236], cost=0 },}
-EDGES[VERTICES[1528]] = {{ vertex=VERTICES[134], cost=0 },}
-EDGES[VERTICES[4176]] = {{ vertex=VERTICES[5617], cost=0 },}
-EDGES[VERTICES[5566]] = {{ vertex=VERTICES[3641], cost=0 },}
-EDGES[VERTICES[2858]] = {{ vertex=VERTICES[4973], cost=0 },}
-EDGES[VERTICES[1557]] = {{ vertex=VERTICES[5958], cost=0 },}
-EDGES[VERTICES[389]] = {{ vertex=VERTICES[1031], cost=0 },}
-EDGES[VERTICES[3647]] = {{ vertex=VERTICES[3393], cost=0 },}
-EDGES[VERTICES[1204]] = {{ vertex=VERTICES[1966], cost=0 },}
-EDGES[VERTICES[3548]] = {{ vertex=VERTICES[3127], cost=0 },}
-EDGES[VERTICES[2742]] = {{ vertex=VERTICES[5701], cost=0 },}
-EDGES[VERTICES[5039]] = {{ vertex=VERTICES[3992], cost=0 },}
-EDGES[VERTICES[2001]] = {{ vertex=VERTICES[426], cost=0 },}
-EDGES[VERTICES[2631]] = {{ vertex=VERTICES[5534], cost=0 },}
-EDGES[VERTICES[1753]] = {{ vertex=VERTICES[1907], cost=0 },}
-EDGES[VERTICES[3746]] = {{ vertex=VERTICES[5618], cost=0 },}
-EDGES[VERTICES[3359]] = {{ vertex=VERTICES[2630], cost=0 },}
-EDGES[VERTICES[891]] = {{ vertex=VERTICES[5735], cost=0 },}
-EDGES[VERTICES[4971]] = {{ vertex=VERTICES[447], cost=0 },}
-EDGES[VERTICES[1401]] = {{ vertex=VERTICES[934], cost=0 },}
-EDGES[VERTICES[4586]] = {{ vertex=VERTICES[1276], cost=0 },}
-EDGES[VERTICES[383]] = {{ vertex=VERTICES[3619], cost=0 },}
-EDGES[VERTICES[1925]] = {{ vertex=VERTICES[1873], cost=0 },}
-EDGES[VERTICES[366]] = {{ vertex=VERTICES[4545], cost=0 },}
-EDGES[VERTICES[2218]] = {{ vertex=VERTICES[6205], cost=0 },}
-EDGES[VERTICES[277]] = {{ vertex=VERTICES[5214], cost=0 },}
-EDGES[VERTICES[3747]] = {{ vertex=VERTICES[1417], cost=0 },}
-EDGES[VERTICES[919]] = {{ vertex=VERTICES[1721], cost=0 },}
-EDGES[VERTICES[2873]] = {{ vertex=VERTICES[2957], cost=0 },}
-EDGES[VERTICES[629]] = {{ vertex=VERTICES[3773], cost=0 },}
-EDGES[VERTICES[3333]] = {{ vertex=VERTICES[4477], cost=0 },}
-EDGES[VERTICES[1070]] = {{ vertex=VERTICES[6219], cost=0 },}
-EDGES[VERTICES[2344]] = {{ vertex=VERTICES[1409], cost=0 },}
-EDGES[VERTICES[4471]] = {{ vertex=VERTICES[1446], cost=0 },}
-EDGES[VERTICES[3653]] = {{ vertex=VERTICES[844], cost=0 },}
-EDGES[VERTICES[3295]] = {{ vertex=VERTICES[608], cost=0 },}
-EDGES[VERTICES[2366]] = {{ vertex=VERTICES[4273], cost=0 },}
-EDGES[VERTICES[50]] = {{ vertex=VERTICES[689], cost=0 },}
-EDGES[VERTICES[1617]] = {{ vertex=VERTICES[3758], cost=0 },}
-EDGES[VERTICES[2003]] = {{ vertex=VERTICES[3934], cost=0 },}
-EDGES[VERTICES[203]] = {{ vertex=VERTICES[3437], cost=0 },}
-EDGES[VERTICES[3979]] = {{ vertex=VERTICES[3816], cost=0 },}
-EDGES[VERTICES[5447]] = {{ vertex=VERTICES[4682], cost=0 },}
-EDGES[VERTICES[4539]] = {{ vertex=VERTICES[1663], cost=0 },}
-EDGES[VERTICES[3335]] = {{ vertex=VERTICES[1125], cost=0 },}
-EDGES[VERTICES[6077]] = {{ vertex=VERTICES[4326], cost=0 },}
-EDGES[VERTICES[4268]] = {{ vertex=VERTICES[4227], cost=0 },}
-EDGES[VERTICES[6128]] = {{ vertex=VERTICES[5612], cost=0 },}
-EDGES[VERTICES[5297]] = {{ vertex=VERTICES[1822], cost=0 },}
-EDGES[VERTICES[2124]] = {{ vertex=VERTICES[4242], cost=0 },}
-EDGES[VERTICES[6011]] = {{ vertex=VERTICES[3869], cost=0 },}
-EDGES[VERTICES[1688]] = {{ vertex=VERTICES[3591], cost=0 },}
-EDGES[VERTICES[1643]] = {{ vertex=VERTICES[4782], cost=0 },}
-EDGES[VERTICES[304]] = {{ vertex=VERTICES[3038], cost=0 },}
-EDGES[VERTICES[2549]] = {{ vertex=VERTICES[1246], cost=0 },}
-EDGES[VERTICES[5205]] = {{ vertex=VERTICES[3621], cost=0 },}
-EDGES[VERTICES[3811]] = {{ vertex=VERTICES[1832], cost=0 },}
-EDGES[VERTICES[1671]] = {{ vertex=VERTICES[4860], cost=0 },}
-EDGES[VERTICES[4190]] = {{ vertex=VERTICES[4370], cost=0 },}
-EDGES[VERTICES[2281]] = {{ vertex=VERTICES[5792], cost=0 },}
-EDGES[VERTICES[5977]] = {{ vertex=VERTICES[2136], cost=0 },}
-EDGES[VERTICES[3737]] = {{ vertex=VERTICES[3932], cost=0 },}
-EDGES[VERTICES[3512]] = {{ vertex=VERTICES[120], cost=0 },}
-EDGES[VERTICES[4357]] = {{ vertex=VERTICES[31], cost=0 },}
-EDGES[VERTICES[1976]] = {{ vertex=VERTICES[549], cost=0 },}
-EDGES[VERTICES[372]] = {{ vertex=VERTICES[1732], cost=0 },}
-EDGES[VERTICES[3567]] = {{ vertex=VERTICES[2461], cost=0 },}
-EDGES[VERTICES[3027]] = {{ vertex=VERTICES[1606], cost=0 },}
-EDGES[VERTICES[5674]] = {{ vertex=VERTICES[2912], cost=0 },}
-EDGES[VERTICES[1709]] = {{ vertex=VERTICES[2176], cost=0 },}
-EDGES[VERTICES[2752]] = {{ vertex=VERTICES[4251], cost=0 },}
-EDGES[VERTICES[634]] = {{ vertex=VERTICES[1144], cost=0 },}
-EDGES[VERTICES[4989]] = {{ vertex=VERTICES[5586], cost=0 },}
-EDGES[VERTICES[60]] = {{ vertex=VERTICES[506], cost=0 },}
-EDGES[VERTICES[2373]] = {{ vertex=VERTICES[64], cost=0 },}
-EDGES[VERTICES[1583]] = {{ vertex=VERTICES[1459], cost=0 },}
-EDGES[VERTICES[794]] = {{ vertex=VERTICES[6001], cost=0 },}
-EDGES[VERTICES[731]] = {{ vertex=VERTICES[2243], cost=0 },}
-EDGES[VERTICES[2439]] = {{ vertex=VERTICES[4992], cost=0 },}
-EDGES[VERTICES[565]] = {{ vertex=VERTICES[909], cost=0 },}
-EDGES[VERTICES[1171]] = {{ vertex=VERTICES[4810], cost=0 },}
-EDGES[VERTICES[394]] = {{ vertex=VERTICES[5563], cost=0 },}
-EDGES[VERTICES[3632]] = {{ vertex=VERTICES[868], cost=0 },}
-EDGES[VERTICES[862]] = {{ vertex=VERTICES[1814], cost=0 },}
-EDGES[VERTICES[2936]] = {{ vertex=VERTICES[151], cost=0 },}
-EDGES[VERTICES[1437]] = {{ vertex=VERTICES[5155], cost=0 },}
-EDGES[VERTICES[1669]] = {{ vertex=VERTICES[5351], cost=0 },}
-EDGES[VERTICES[4072]] = {{ vertex=VERTICES[1865], cost=0 },}
-EDGES[VERTICES[2466]] = {{ vertex=VERTICES[1391], cost=0 },}
-EDGES[VERTICES[960]] = {{ vertex=VERTICES[2164], cost=0 },}
-EDGES[VERTICES[5470]] = {{ vertex=VERTICES[3318], cost=0 },}
-EDGES[VERTICES[4203]] = {{ vertex=VERTICES[72], cost=0 },}
-EDGES[VERTICES[166]] = {{ vertex=VERTICES[3074], cost=0 },}
-EDGES[VERTICES[1611]] = {{ vertex=VERTICES[2249], cost=0 },}
-EDGES[VERTICES[3249]] = {{ vertex=VERTICES[1367], cost=0 },}
-EDGES[VERTICES[2615]] = {{ vertex=VERTICES[5384], cost=0 },}
-EDGES[VERTICES[2250]] = {{ vertex=VERTICES[1735], cost=0 },}
-EDGES[VERTICES[479]] = {{ vertex=VERTICES[4039], cost=0 },}
-EDGES[VERTICES[4480]] = {{ vertex=VERTICES[2563], cost=0 },}
-EDGES[VERTICES[302]] = {{ vertex=VERTICES[4003], cost=0 },}
-EDGES[VERTICES[3705]] = {{ vertex=VERTICES[2591], cost=0 },}
-EDGES[VERTICES[283]] = {{ vertex=VERTICES[5389], cost=0 },}
-EDGES[VERTICES[2762]] = {{ vertex=VERTICES[5614], cost=0 },}
-EDGES[VERTICES[5296]] = {{ vertex=VERTICES[3001], cost=0 },}
-EDGES[VERTICES[3938]] = {{ vertex=VERTICES[4468], cost=0 },}
-EDGES[VERTICES[3597]] = {{ vertex=VERTICES[1034], cost=0 },}
-EDGES[VERTICES[313]] = {{ vertex=VERTICES[1856], cost=0 },}
-EDGES[VERTICES[5896]] = {{ vertex=VERTICES[6056], cost=0 },}
-EDGES[VERTICES[1033]] = {{ vertex=VERTICES[1801], cost=0 },}
-EDGES[VERTICES[1124]] = {{ vertex=VERTICES[2635], cost=0 },}
-EDGES[VERTICES[4930]] = {{ vertex=VERTICES[2429], cost=0 },}
-EDGES[VERTICES[3407]] = {{ vertex=VERTICES[92], cost=0 },}
-EDGES[VERTICES[6259]] = {{ vertex=VERTICES[3635], cost=0 },}
-EDGES[VERTICES[652]] = {{ vertex=VERTICES[3891], cost=0 },}
-EDGES[VERTICES[2528]] = {{ vertex=VERTICES[3659], cost=0 },}
-EDGES[VERTICES[1793]] = {{ vertex=VERTICES[814], cost=0 },}
-EDGES[VERTICES[2367]] = {{ vertex=VERTICES[307], cost=0 },}
-EDGES[VERTICES[4534]] = {{ vertex=VERTICES[6232], cost=0 },}
-EDGES[VERTICES[5159]] = {{ vertex=VERTICES[1370], cost=0 },}
-EDGES[VERTICES[2460]] = {{ vertex=VERTICES[2031], cost=0 },}
-EDGES[VERTICES[3902]] = {{ vertex=VERTICES[4888], cost=0 },}
-EDGES[VERTICES[1028]] = {{ vertex=VERTICES[2934], cost=0 },}
-EDGES[VERTICES[4433]] = {{ vertex=VERTICES[3612], cost=0 },}
-EDGES[VERTICES[496]] = {{ vertex=VERTICES[3336], cost=0 },}
-EDGES[VERTICES[2085]] = {{ vertex=VERTICES[578], cost=0 },}
-EDGES[VERTICES[196]] = {{ vertex=VERTICES[3159], cost=0 },}
-EDGES[VERTICES[5573]] = {{ vertex=VERTICES[3269], cost=0 },}
-EDGES[VERTICES[5788]] = {{ vertex=VERTICES[4146], cost=0 },}
-EDGES[VERTICES[4910]] = {{ vertex=VERTICES[5596], cost=0 },}
-EDGES[VERTICES[3162]] = {{ vertex=VERTICES[5223], cost=0 },}
-EDGES[VERTICES[5247]] = {{ vertex=VERTICES[2825], cost=0 },}
-EDGES[VERTICES[1084]] = {{ vertex=VERTICES[3020], cost=0 },}
-EDGES[VERTICES[247]] = {{ vertex=VERTICES[745], cost=0 },}
-EDGES[VERTICES[962]] = {{ vertex=VERTICES[928], cost=0 },}
-EDGES[VERTICES[1624]] = {{ vertex=VERTICES[4080], cost=0 },}
-EDGES[VERTICES[2696]] = {{ vertex=VERTICES[4187], cost=0 },}
-EDGES[VERTICES[5403]] = {{ vertex=VERTICES[2988], cost=0 },}
-EDGES[VERTICES[712]] = {{ vertex=VERTICES[4584], cost=0 },}
-EDGES[VERTICES[1599]] = {{ vertex=VERTICES[2061], cost=0 },}
-EDGES[VERTICES[2186]] = {{ vertex=VERTICES[5003], cost=0 },}
-EDGES[VERTICES[2195]] = {{ vertex=VERTICES[5859], cost=0 },}
-EDGES[VERTICES[2485]] = {{ vertex=VERTICES[6166], cost=0 },}
-EDGES[VERTICES[3235]] = {{ vertex=VERTICES[1818], cost=0 },}
-EDGES[VERTICES[1312]] = {{ vertex=VERTICES[3], cost=0 },}
-EDGES[VERTICES[632]] = {{ vertex=VERTICES[4937], cost=0 },}
-EDGES[VERTICES[3908]] = {{ vertex=VERTICES[4792], cost=0 },}
-EDGES[VERTICES[1829]] = {{ vertex=VERTICES[2205], cost=0 },}
-EDGES[VERTICES[3732]] = {{ vertex=VERTICES[4179], cost=0 },}
-EDGES[VERTICES[1164]] = {{ vertex=VERTICES[859], cost=0 },}
-EDGES[VERTICES[457]] = {{ vertex=VERTICES[4984], cost=0 },}
-EDGES[VERTICES[3566]] = {{ vertex=VERTICES[3939], cost=0 },}
-EDGES[VERTICES[4716]] = {{ vertex=VERTICES[2327], cost=0 },}
-EDGES[VERTICES[1035]] = {{ vertex=VERTICES[3658], cost=0 },}
-EDGES[VERTICES[1922]] = {{ vertex=VERTICES[4753], cost=0 },}
-EDGES[VERTICES[1015]] = {{ vertex=VERTICES[779], cost=0 },}
-EDGES[VERTICES[1373]] = {{ vertex=VERTICES[1924], cost=0 },}
-EDGES[VERTICES[585]] = {{ vertex=VERTICES[1817], cost=0 },}
-EDGES[VERTICES[6180]] = {{ vertex=VERTICES[333], cost=0 },}
-EDGES[VERTICES[4706]] = {{ vertex=VERTICES[4495], cost=0 },}
-EDGES[VERTICES[1263]] = {{ vertex=VERTICES[4974], cost=0 },}
-EDGES[VERTICES[854]] = {{ vertex=VERTICES[4306], cost=0 },}
-EDGES[VERTICES[5386]] = {{ vertex=VERTICES[694], cost=0 },}
-EDGES[VERTICES[4996]] = {{ vertex=VERTICES[4773], cost=0 },}
-EDGES[VERTICES[386]] = {{ vertex=VERTICES[2204], cost=0 },}
-EDGES[VERTICES[2673]] = {{ vertex=VERTICES[4135], cost=0 },}
-EDGES[VERTICES[4161]] = {{ vertex=VERTICES[5242], cost=0 },}
-EDGES[VERTICES[2534]] = {{ vertex=VERTICES[5165], cost=0 },}
-EDGES[VERTICES[3180]] = {{ vertex=VERTICES[4628], cost=0 },}
-EDGES[VERTICES[2032]] = {{ vertex=VERTICES[4943], cost=0 },}
-EDGES[VERTICES[567]] = {{ vertex=VERTICES[998], cost=0 },}
-EDGES[VERTICES[4783]] = {{ vertex=VERTICES[5465], cost=0 },}
-EDGES[VERTICES[109]] = {{ vertex=VERTICES[3791], cost=0 },}
-EDGES[VERTICES[927]] = {{ vertex=VERTICES[461], cost=0 },}
-EDGES[VERTICES[5588]] = {{ vertex=VERTICES[4538], cost=0 },}
-EDGES[VERTICES[959]] = {{ vertex=VERTICES[4113], cost=0 },}
-EDGES[VERTICES[2498]] = {{ vertex=VERTICES[1172], cost=0 },}
-EDGES[VERTICES[5947]] = {{ vertex=VERTICES[5300], cost=0 },}
-EDGES[VERTICES[4166]] = {{ vertex=VERTICES[5307], cost=0 },}
-EDGES[VERTICES[2101]] = {{ vertex=VERTICES[6172], cost=0 },}
-EDGES[VERTICES[4238]] = {{ vertex=VERTICES[2039], cost=0 },}
-EDGES[VERTICES[3866]] = {{ vertex=VERTICES[2128], cost=0 },}
-EDGES[VERTICES[5469]] = {{ vertex=VERTICES[1322], cost=0 },}
-EDGES[VERTICES[2574]] = {{ vertex=VERTICES[4217], cost=0 },}
-EDGES[VERTICES[2648]] = {{ vertex=VERTICES[3911], cost=0 },}
-EDGES[VERTICES[1935]] = {{ vertex=VERTICES[5763], cost=0 },}
-EDGES[VERTICES[6187]] = {{ vertex=VERTICES[4664], cost=0 },}
-EDGES[VERTICES[1361]] = {{ vertex=VERTICES[3607], cost=0 },}
-EDGES[VERTICES[4288]] = {{ vertex=VERTICES[4774], cost=0 },}
-EDGES[VERTICES[529]] = {{ vertex=VERTICES[3386], cost=0 },}
-EDGES[VERTICES[430]] = {{ vertex=VERTICES[5632], cost=0 },}
-EDGES[VERTICES[520]] = {{ vertex=VERTICES[4165], cost=0 },}
-EDGES[VERTICES[4364]] = {{ vertex=VERTICES[3423], cost=0 },}
-EDGES[VERTICES[5243]] = {{ vertex=VERTICES[2994], cost=0 },}
-EDGES[VERTICES[1970]] = {{ vertex=VERTICES[1500], cost=0 },}
-EDGES[VERTICES[2495]] = {{ vertex=VERTICES[6171], cost=0 },}
-EDGES[VERTICES[5587]] = {{ vertex=VERTICES[6178], cost=0 },}
-EDGES[VERTICES[936]] = {{ vertex=VERTICES[2173], cost=0 },}
-EDGES[VERTICES[176]] = {{ vertex=VERTICES[617], cost=0 },}
-EDGES[VERTICES[1360]] = {{ vertex=VERTICES[4790], cost=0 },}
-EDGES[VERTICES[3527]] = {{ vertex=VERTICES[5932], cost=0 },}
-EDGES[VERTICES[3940]] = {{ vertex=VERTICES[5182], cost=0 },}
-EDGES[VERTICES[1860]] = {{ vertex=VERTICES[4129], cost=0 },}
-EDGES[VERTICES[3633]] = {{ vertex=VERTICES[2614], cost=0 },}
-EDGES[VERTICES[4029]] = {{ vertex=VERTICES[5158], cost=0 },}
-EDGES[VERTICES[5426]] = {{ vertex=VERTICES[1274], cost=0 },}
-EDGES[VERTICES[2906]] = {{ vertex=VERTICES[810], cost=0 },}
-EDGES[VERTICES[5688]] = {{ vertex=VERTICES[1340], cost=0 },}
-EDGES[VERTICES[5524]] = {{ vertex=VERTICES[6153], cost=0 },}
-EDGES[VERTICES[4598]] = {{ vertex=VERTICES[2708], cost=0 },}
-EDGES[VERTICES[880]] = {{ vertex=VERTICES[5478], cost=0 },}
-EDGES[VERTICES[3538]] = {{ vertex=VERTICES[1387], cost=0 },}
-EDGES[VERTICES[3967]] = {{ vertex=VERTICES[5991], cost=0 },}
-EDGES[VERTICES[3328]] = {{ vertex=VERTICES[5325], cost=0 },}
-EDGES[VERTICES[2073]] = {{ vertex=VERTICES[5109], cost=0 },}
-EDGES[VERTICES[2552]] = {{ vertex=VERTICES[98], cost=0 },}
-EDGES[VERTICES[575]] = {{ vertex=VERTICES[3817], cost=0 },}
-EDGES[VERTICES[5410]] = {{ vertex=VERTICES[579], cost=0 },}
-EDGES[VERTICES[1652]] = {{ vertex=VERTICES[2819], cost=0 },}
-EDGES[VERTICES[487]] = {{ vertex=VERTICES[4201], cost=0 },}
-EDGES[VERTICES[3023]] = {{ vertex=VERTICES[4823], cost=0 },}
-EDGES[VERTICES[4988]] = {{ vertex=VERTICES[5464], cost=0 },}
-EDGES[VERTICES[822]] = {{ vertex=VERTICES[2211], cost=0 },}
-EDGES[VERTICES[5968]] = {{ vertex=VERTICES[481], cost=0 },}
-EDGES[VERTICES[34]] = {{ vertex=VERTICES[4405], cost=0 },}
-EDGES[VERTICES[5395]] = {{ vertex=VERTICES[350], cost=0 },}
-EDGES[VERTICES[4757]] = {{ vertex=VERTICES[2677], cost=0 },}
-EDGES[VERTICES[5789]] = {{ vertex=VERTICES[3879], cost=0 },}
-EDGES[VERTICES[3917]] = {{ vertex=VERTICES[2754], cost=0 },}
-EDGES[VERTICES[3610]] = {{ vertex=VERTICES[1778], cost=0 },}
-EDGES[VERTICES[3258]] = {{ vertex=VERTICES[3814], cost=0 },}
-EDGES[VERTICES[5520]] = {{ vertex=VERTICES[3954], cost=0 },}
-EDGES[VERTICES[4105]] = {{ vertex=VERTICES[5026], cost=0 },}
-EDGES[VERTICES[5458]] = {{ vertex=VERTICES[5089], cost=0 },}
-EDGES[VERTICES[1890]] = {{ vertex=VERTICES[3231], cost=0 },}
-EDGES[VERTICES[3654]] = {{ vertex=VERTICES[3502], cost=0 },}
-EDGES[VERTICES[1556]] = {{ vertex=VERTICES[4058], cost=0 },}
-EDGES[VERTICES[3298]] = {{ vertex=VERTICES[1655], cost=0 },}
-EDGES[VERTICES[5664]] = {{ vertex=VERTICES[3781], cost=0 },}
-EDGES[VERTICES[2622]] = {{ vertex=VERTICES[6208], cost=0 },}
-EDGES[VERTICES[5545]] = {{ vertex=VERTICES[78], cost=0 },}
-EDGES[VERTICES[5748]] = {{ vertex=VERTICES[2357], cost=0 },}
-EDGES[VERTICES[4284]] = {{ vertex=VERTICES[4579], cost=0 },}
-EDGES[VERTICES[5130]] = {{ vertex=VERTICES[2966], cost=0 },}
-EDGES[VERTICES[4876]] = {{ vertex=VERTICES[5230], cost=0 },}
-EDGES[VERTICES[5955]] = {{ vertex=VERTICES[4781], cost=0 },}
-EDGES[VERTICES[5156]] = {{ vertex=VERTICES[4621], cost=0 },}
-EDGES[VERTICES[4382]] = {{ vertex=VERTICES[3323], cost=0 },}
-EDGES[VERTICES[2285]] = {{ vertex=VERTICES[388], cost=0 },}
-EDGES[VERTICES[2554]] = {{ vertex=VERTICES[5972], cost=0 },}
-EDGES[VERTICES[6026]] = {{ vertex=VERTICES[2527], cost=0 },}
-EDGES[VERTICES[3266]] = {{ vertex=VERTICES[3216], cost=0 },}
-EDGES[VERTICES[3123]] = {{ vertex=VERTICES[5905], cost=0 },}
-EDGES[VERTICES[4800]] = {{ vertex=VERTICES[524], cost=0 },}
-EDGES[VERTICES[2947]] = {{ vertex=VERTICES[1159], cost=0 },}
-EDGES[VERTICES[1499]] = {{ vertex=VERTICES[2153], cost=0 },}
-EDGES[VERTICES[6249]] = {{ vertex=VERTICES[6156], cost=0 },}
-EDGES[VERTICES[1979]] = {{ vertex=VERTICES[2657], cost=0 },}
-EDGES[VERTICES[4986]] = {{ vertex=VERTICES[2958], cost=0 },}
-EDGES[VERTICES[2273]] = {{ vertex=VERTICES[4298], cost=0 },}
-EDGES[VERTICES[3109]] = {{ vertex=VERTICES[4605], cost=0 },}
-EDGES[VERTICES[1580]] = {{ vertex=VERTICES[4517], cost=0 },}
-EDGES[VERTICES[4409]] = {{ vertex=VERTICES[3018], cost=0 },}
-EDGES[VERTICES[5212]] = {{ vertex=VERTICES[1055], cost=0 },}
-EDGES[VERTICES[6158]] = {{ vertex=VERTICES[5897], cost=0 },}
-EDGES[VERTICES[5553]] = {{ vertex=VERTICES[1717], cost=0 },}
-EDGES[VERTICES[548]] = {{ vertex=VERTICES[4847], cost=0 },}
-EDGES[VERTICES[5804]] = {{ vertex=VERTICES[2323], cost=0 },}
-EDGES[VERTICES[5555]] = {{ vertex=VERTICES[757], cost=0 },}
-EDGES[VERTICES[2359]] = {{ vertex=VERTICES[3779], cost=0 },}
-EDGES[VERTICES[1796]] = {{ vertex=VERTICES[3583], cost=0 },}
-EDGES[VERTICES[3615]] = {{ vertex=VERTICES[1421], cost=0 },}
-EDGES[VERTICES[5945]] = {{ vertex=VERTICES[4531], cost=0 },}
-EDGES[VERTICES[1911]] = {{ vertex=VERTICES[2823], cost=0 },}
-EDGES[VERTICES[5557]] = {{ vertex=VERTICES[5974], cost=0 },}
-EDGES[VERTICES[2589]] = {{ vertex=VERTICES[2693], cost=0 },}
-EDGES[VERTICES[2055]] = {{ vertex=VERTICES[2678], cost=0 },}
-EDGES[VERTICES[2475]] = {{ vertex=VERTICES[869], cost=0 },}
-EDGES[VERTICES[1560]] = {{ vertex=VERTICES[181], cost=0 },}
-EDGES[VERTICES[4352]] = {{ vertex=VERTICES[3534], cost=0 },}
-EDGES[VERTICES[1025]] = {{ vertex=VERTICES[153], cost=0 },}
-EDGES[VERTICES[5547]] = {{ vertex=VERTICES[3624], cost=0 },}
-EDGES[VERTICES[2269]] = {{ vertex=VERTICES[1416], cost=0 },}
-EDGES[VERTICES[4030]] = {{ vertex=VERTICES[2140], cost=0 },}
-EDGES[VERTICES[4304]] = {{ vertex=VERTICES[4713], cost=0 },}
-EDGES[VERTICES[3312]] = {{ vertex=VERTICES[4624], cost=0 },}
-EDGES[VERTICES[2421]] = {{ vertex=VERTICES[6013], cost=0 },}
-EDGES[VERTICES[2872]] = {{ vertex=VERTICES[4358], cost=0 },}
-EDGES[VERTICES[3292]] = {{ vertex=VERTICES[2279], cost=0 },}
-EDGES[VERTICES[4177]] = {{ vertex=VERTICES[2289], cost=0 },}
-EDGES[VERTICES[2642]] = {{ vertex=VERTICES[3456], cost=0 },}
-EDGES[VERTICES[5996]] = {{ vertex=VERTICES[526], cost=0 },}
-EDGES[VERTICES[156]] = {{ vertex=VERTICES[1285], cost=0 },}
-EDGES[VERTICES[5487]] = {{ vertex=VERTICES[3387], cost=0 },}
-EDGES[VERTICES[5653]] = {{ vertex=VERTICES[5032], cost=0 },}
-EDGES[VERTICES[1]] = {{ vertex=VERTICES[2530], cost=0 },}
-EDGES[VERTICES[5778]] = {{ vertex=VERTICES[3339], cost=0 },}
-EDGES[VERTICES[1613]] = {{ vertex=VERTICES[5186], cost=0 },}
-EDGES[VERTICES[1264]] = {{ vertex=VERTICES[5880], cost=0 },}
-EDGES[VERTICES[3603]] = {{ vertex=VERTICES[2979], cost=0 },}
-EDGES[VERTICES[2114]] = {{ vertex=VERTICES[4762], cost=0 },}
-EDGES[VERTICES[2871]] = {{ vertex=VERTICES[6145], cost=0 },}
-EDGES[VERTICES[1404]] = {{ vertex=VERTICES[5424], cost=0 },}
-EDGES[VERTICES[6021]] = {{ vertex=VERTICES[2388], cost=0 },}
-EDGES[VERTICES[1971]] = {{ vertex=VERTICES[860], cost=0 },}
-EDGES[VERTICES[5835]] = {{ vertex=VERTICES[3362], cost=0 },}
-EDGES[VERTICES[63]] = {{ vertex=VERTICES[2632], cost=0 },}
-EDGES[VERTICES[5757]] = {{ vertex=VERTICES[3743], cost=0 },}
-EDGES[VERTICES[561]] = {{ vertex=VERTICES[3735], cost=0 },}
-EDGES[VERTICES[5022]] = {{ vertex=VERTICES[71], cost=0 },}
-EDGES[VERTICES[2392]] = {{ vertex=VERTICES[380], cost=0 },}
-EDGES[VERTICES[190]] = {{ vertex=VERTICES[6045], cost=0 },}
-EDGES[VERTICES[1587]] = {{ vertex=VERTICES[2573], cost=0 },}
-EDGES[VERTICES[1906]] = {{ vertex=VERTICES[2112], cost=0 },}
-EDGES[VERTICES[5352]] = {{ vertex=VERTICES[2234], cost=0 },}
-EDGES[VERTICES[2882]] = {{ vertex=VERTICES[1145], cost=0 },}
-EDGES[VERTICES[10]] = {{ vertex=VERTICES[1703], cost=0 },}
-EDGES[VERTICES[6]] = {{ vertex=VERTICES[4398], cost=0 },}
-EDGES[VERTICES[3239]] = {{ vertex=VERTICES[1665], cost=0 },}
-EDGES[VERTICES[1400]] = {{ vertex=VERTICES[2108], cost=0 },}
-EDGES[VERTICES[651]] = {{ vertex=VERTICES[4337], cost=0 },}
-EDGES[VERTICES[6034]] = {{ vertex=VERTICES[2793], cost=0 },}
-EDGES[VERTICES[138]] = {{ vertex=VERTICES[4036], cost=0 },}
-EDGES[VERTICES[4641]] = {{ vertex=VERTICES[4794], cost=0 },}
-EDGES[VERTICES[1063]] = {{ vertex=VERTICES[4128], cost=0 },}
-EDGES[VERTICES[5831]] = {{ vertex=VERTICES[1912], cost=0 },}
-EDGES[VERTICES[820]] = {{ vertex=VERTICES[5030], cost=0 },}
-EDGES[VERTICES[1244]] = {{ vertex=VERTICES[2072], cost=0 },}
-EDGES[VERTICES[4961]] = {{ vertex=VERTICES[1691], cost=0 },}
-EDGES[VERTICES[2890]] = {{ vertex=VERTICES[5988], cost=0 },}
-EDGES[VERTICES[2178]] = {{ vertex=VERTICES[6067], cost=0 },}
-EDGES[VERTICES[655]] = {{ vertex=VERTICES[5718], cost=0 },}
-EDGES[VERTICES[1385]] = {{ vertex=VERTICES[771], cost=0 },}
-EDGES[VERTICES[3316]] = {{ vertex=VERTICES[3474], cost=0 },}
-EDGES[VERTICES[3251]] = {{ vertex=VERTICES[4413], cost=0 },}
-EDGES[VERTICES[4731]] = {{ vertex=VERTICES[1157], cost=0 },}
-EDGES[VERTICES[4109]] = {{ vertex=VERTICES[4407], cost=0 },}
-EDGES[VERTICES[1484]] = {{ vertex=VERTICES[4826], cost=0 },}
-EDGES[VERTICES[4351]] = {{ vertex=VERTICES[1572], cost=0 },}
-EDGES[VERTICES[5459]] = {{ vertex=VERTICES[1001], cost=0 },}
-EDGES[VERTICES[4486]] = {{ vertex=VERTICES[4743], cost=0 },}
-EDGES[VERTICES[5011]] = {{ vertex=VERTICES[1720], cost=0 },}
-EDGES[VERTICES[5189]] = {{ vertex=VERTICES[1430], cost=0 },}
-EDGES[VERTICES[458]] = {{ vertex=VERTICES[5518], cost=0 },}
-EDGES[VERTICES[36]] = {{ vertex=VERTICES[3084], cost=0 },}
-EDGES[VERTICES[3757]] = {{ vertex=VERTICES[4559], cost=0 },}
-EDGES[VERTICES[5762]] = {{ vertex=VERTICES[2093], cost=0 },}
-EDGES[VERTICES[1073]] = {{ vertex=VERTICES[3176], cost=0 },}
-EDGES[VERTICES[3991]] = {{ vertex=VERTICES[3138], cost=0 },}
-EDGES[VERTICES[2583]] = {{ vertex=VERTICES[2248], cost=0 },}
-EDGES[VERTICES[2325]] = {{ vertex=VERTICES[2343], cost=0 },}
-EDGES[VERTICES[5169]] = {{ vertex=VERTICES[5192], cost=0 },}
-EDGES[VERTICES[5505]] = {{ vertex=VERTICES[5349], cost=0 },}
-EDGES[VERTICES[3383]] = {{ vertex=VERTICES[1629], cost=0 },}
-EDGES[VERTICES[5942]] = {{ vertex=VERTICES[4680], cost=0 },}
-EDGES[VERTICES[4226]] = {{ vertex=VERTICES[5917], cost=0 },}
-EDGES[VERTICES[1061]] = {{ vertex=VERTICES[1650], cost=0 },}
-EDGES[VERTICES[912]] = {{ vertex=VERTICES[4863], cost=0 },}
-EDGES[VERTICES[5787]] = {{ vertex=VERTICES[1946], cost=0 },}
-EDGES[VERTICES[4091]] = {{ vertex=VERTICES[3405], cost=0 },}
-EDGES[VERTICES[5347]] = {{ vertex=VERTICES[4445], cost=0 },}
-EDGES[VERTICES[3021]] = {{ vertex=VERTICES[436], cost=0 },}
-EDGES[VERTICES[4455]] = {{ vertex=VERTICES[1109], cost=0 },}
-EDGES[VERTICES[4081]] = {{ vertex=VERTICES[3105], cost=0 },}
-EDGES[VERTICES[3973]] = {{ vertex=VERTICES[2982], cost=0 },}
-EDGES[VERTICES[6245]] = {{ vertex=VERTICES[1297], cost=0 },}
-EDGES[VERTICES[5742]] = {{ vertex=VERTICES[2815], cost=0 },}
-EDGES[VERTICES[59]] = {{ vertex=VERTICES[3169], cost=0 },}
-EDGES[VERTICES[3351]] = {{ vertex=VERTICES[3327], cost=0 },}
-EDGES[VERTICES[2758]] = {{ vertex=VERTICES[3956], cost=0 },}
-EDGES[VERTICES[2058]] = {{ vertex=VERTICES[2521], cost=0 },}
-EDGES[VERTICES[4451]] = {{ vertex=VERTICES[3051], cost=0 },}
-EDGES[VERTICES[4851]] = {{ vertex=VERTICES[824], cost=0 },}
-EDGES[VERTICES[1368]] = {{ vertex=VERTICES[3788], cost=0 },}
-EDGES[VERTICES[3496]] = {{ vertex=VERTICES[4175], cost=0 },}
-EDGES[VERTICES[1504]] = {{ vertex=VERTICES[1574], cost=0 },}
-EDGES[VERTICES[3941]] = {{ vertex=VERTICES[1645], cost=0 },}
-EDGES[VERTICES[2652]] = {{ vertex=VERTICES[5820], cost=0 },}
-EDGES[VERTICES[2773]] = {{ vertex=VERTICES[3921], cost=0 },}
-EDGES[VERTICES[1439]] = {{ vertex=VERTICES[2620], cost=0 },}
-EDGES[VERTICES[1543]] = {{ vertex=VERTICES[1581], cost=0 },}
-EDGES[VERTICES[3608]] = {{ vertex=VERTICES[2320], cost=0 },}
-EDGES[VERTICES[4373]] = {{ vertex=VERTICES[1153], cost=0 },}
-EDGES[VERTICES[5736]] = {{ vertex=VERTICES[3185], cost=0 },}
-EDGES[VERTICES[674]] = {{ vertex=VERTICES[1038], cost=0 },}
-EDGES[VERTICES[4791]] = {{ vertex=VERTICES[571], cost=0 },}
-EDGES[VERTICES[1287]] = {{ vertex=VERTICES[1512], cost=0 },}
-EDGES[VERTICES[4968]] = {{ vertex=VERTICES[3108], cost=0 },}
-EDGES[VERTICES[3189]] = {{ vertex=VERTICES[577], cost=0 },}
-EDGES[VERTICES[3511]] = {{ vertex=VERTICES[1046], cost=0 },}
-EDGES[VERTICES[1998]] = {{ vertex=VERTICES[2738], cost=0 },}
-EDGES[VERTICES[3844]] = {{ vertex=VERTICES[4277], cost=0 },}
-EDGES[VERTICES[5433]] = {{ vertex=VERTICES[2802], cost=0 },}
-EDGES[VERTICES[5077]] = {{ vertex=VERTICES[2468], cost=0 },}
-EDGES[VERTICES[3400]] = {{ vertex=VERTICES[5676], cost=0 },}
-EDGES[VERTICES[5560]] = {{ vertex=VERTICES[4817], cost=0 },}
-EDGES[VERTICES[1651]] = {{ vertex=VERTICES[1810], cost=0 },}
-EDGES[VERTICES[4741]] = {{ vertex=VERTICES[3808], cost=0 },}
-EDGES[VERTICES[6022]] = {{ vertex=VERTICES[1978], cost=0 },}
-EDGES[VERTICES[2396]] = {{ vertex=VERTICES[270], cost=0 },}
-EDGES[VERTICES[899]] = {{ vertex=VERTICES[4867], cost=0 },}
-EDGES[VERTICES[1082]] = {{ vertex=VERTICES[3011], cost=0 },}
-EDGES[VERTICES[484]] = {{ vertex=VERTICES[5599], cost=0 },}
-EDGES[VERTICES[545]] = {{ vertex=VERTICES[637], cost=0 },}
-EDGES[VERTICES[6058]] = {{ vertex=VERTICES[4056], cost=0 },}
-EDGES[VERTICES[3481]] = {{ vertex=VERTICES[3050], cost=0 },}
-EDGES[VERTICES[1984]] = {{ vertex=VERTICES[3431], cost=0 },}
-EDGES[VERTICES[5460]] = {{ vertex=VERTICES[573], cost=0 },}
-EDGES[VERTICES[4799]] = {{ vertex=VERTICES[3289], cost=0 },}
-EDGES[VERTICES[1133]] = {{ vertex=VERTICES[2763], cost=0 },}
-EDGES[VERTICES[1275]] = {{ vertex=VERTICES[3154], cost=0 },}
-EDGES[VERTICES[2924]] = {{ vertex=VERTICES[2904], cost=0 },}
-EDGES[VERTICES[3645]] = {{ vertex=VERTICES[3434], cost=0 },}
-EDGES[VERTICES[4018]] = {{ vertex=VERTICES[5259], cost=0 },}
-EDGES[VERTICES[6079]] = {{ vertex=VERTICES[2265], cost=0 },}
-EDGES[VERTICES[5353]] = {{ vertex=VERTICES[5310], cost=0 },}
-EDGES[VERTICES[2713]] = {{ vertex=VERTICES[6227], cost=0 },}
-EDGES[VERTICES[4457]] = {{ vertex=VERTICES[261], cost=0 },}
-EDGES[VERTICES[5493]] = {{ vertex=VERTICES[2431], cost=0 },}
-EDGES[VERTICES[1903]] = {{ vertex=VERTICES[510], cost=0 },}
-EDGES[VERTICES[139]] = {{ vertex=VERTICES[2187], cost=0 },}
-EDGES[VERTICES[1531]] = {{ vertex=VERTICES[5872], cost=0 },}
-EDGES[VERTICES[761]] = {{ vertex=VERTICES[4435], cost=0 },}
-EDGES[VERTICES[3311]] = {{ vertex=VERTICES[3255], cost=0 },}
-EDGES[VERTICES[5473]] = {{ vertex=VERTICES[876], cost=0 },}
-EDGES[VERTICES[1352]] = {{ vertex=VERTICES[5372], cost=0 },}
-EDGES[VERTICES[3161]] = {{ vertex=VERTICES[5619], cost=0 },}
-EDGES[VERTICES[4900]] = {{ vertex=VERTICES[5090], cost=0 },}
-EDGES[VERTICES[5417]] = {{ vertex=VERTICES[514], cost=0 },}
-EDGES[VERTICES[3643]] = {{ vertex=VERTICES[3487], cost=0 },}
-EDGES[VERTICES[3253]] = {{ vertex=VERTICES[1000], cost=0 },}
-EDGES[VERTICES[4264]] = {{ vertex=VERTICES[4513], cost=0 },}
-EDGES[VERTICES[5131]] = {{ vertex=VERTICES[6148], cost=0 },}
-EDGES[VERTICES[4636]] = {{ vertex=VERTICES[5425], cost=0 },}
-EDGES[VERTICES[5685]] = {{ vertex=VERTICES[2561], cost=0 },}
-EDGES[VERTICES[1963]] = {{ vertex=VERTICES[4528], cost=0 },}
-EDGES[VERTICES[5361]] = {{ vertex=VERTICES[2670], cost=0 },}
-EDGES[VERTICES[4647]] = {{ vertex=VERTICES[1745], cost=0 },}
-EDGES[VERTICES[2892]] = {{ vertex=VERTICES[183], cost=0 },}
-EDGES[VERTICES[4625]] = {{ vertex=VERTICES[978], cost=0 },}
-EDGES[VERTICES[1194]] = {{ vertex=VERTICES[776], cost=0 },}
-EDGES[VERTICES[6152]] = {{ vertex=VERTICES[2044], cost=0 },}
-EDGES[VERTICES[566]] = {{ vertex=VERTICES[1359], cost=0 },}
-EDGES[VERTICES[5692]] = {{ vertex=VERTICES[5495], cost=0 },}
-EDGES[VERTICES[1407]] = {{ vertex=VERTICES[988], cost=0 },}
-EDGES[VERTICES[3845]] = {{ vertex=VERTICES[3649], cost=0 },}
-EDGES[VERTICES[1364]] = {{ vertex=VERTICES[4383], cost=0 },}
-EDGES[VERTICES[2227]] = {{ vertex=VERTICES[1999], cost=0 },}
-EDGES[VERTICES[688]] = {{ vertex=VERTICES[4359], cost=0 },}
-EDGES[VERTICES[5393]] = {{ vertex=VERTICES[3097], cost=0 },}
-EDGES[VERTICES[5729]] = {{ vertex=VERTICES[3217], cost=0 },}
-EDGES[VERTICES[5362]] = {{ vertex=VERTICES[1619], cost=0 },}
-EDGES[VERTICES[6123]] = {{ vertex=VERTICES[1336], cost=0 },}
-EDGES[VERTICES[2743]] = {{ vertex=VERTICES[4487], cost=0 },}
-EDGES[VERTICES[3293]] = {{ vertex=VERTICES[4914], cost=0 },}
-EDGES[VERTICES[2142]] = {{ vertex=VERTICES[3489], cost=0 },}
-EDGES[VERTICES[6159]] = {{ vertex=VERTICES[3873], cost=0 },}
-EDGES[VERTICES[525]] = {{ vertex=VERTICES[839], cost=0 },}
-EDGES[VERTICES[610]] = {{ vertex=VERTICES[4891], cost=0 },}
-EDGES[VERTICES[2465]] = {{ vertex=VERTICES[1875], cost=0 },}
-EDGES[VERTICES[1418]] = {{ vertex=VERTICES[2169], cost=0 },}
-EDGES[VERTICES[3655]] = {{ vertex=VERTICES[2688], cost=0 },}
-EDGES[VERTICES[5135]] = {{ vertex=VERTICES[278], cost=0 },}
-EDGES[VERTICES[5799]] = {{ vertex=VERTICES[6242], cost=0 },}
-EDGES[VERTICES[1770]] = {{ vertex=VERTICES[2633], cost=0 },}
-EDGES[VERTICES[3499]] = {{ vertex=VERTICES[1685], cost=0 },}
-EDGES[VERTICES[2795]] = {{ vertex=VERTICES[2317], cost=0 },}
-EDGES[VERTICES[2450]] = {{ vertex=VERTICES[2184], cost=0 },}
-EDGES[VERTICES[1953]] = {{ vertex=VERTICES[3246], cost=0 },}
-EDGES[VERTICES[3141]] = {{ vertex=VERTICES[2174], cost=0 },}
-EDGES[VERTICES[1004]] = {{ vertex=VERTICES[2051], cost=0 },}
-EDGES[VERTICES[2973]] = {{ vertex=VERTICES[3103], cost=0 },}
-EDGES[VERTICES[5886]] = {{ vertex=VERTICES[1660], cost=0 },}
-EDGES[VERTICES[6070]] = {{ vertex=VERTICES[1838], cost=0 },}
-EDGES[VERTICES[1486]] = {{ vertex=VERTICES[3433], cost=0 },}
-EDGES[VERTICES[1712]] = {{ vertex=VERTICES[4425], cost=0 },}
-EDGES[VERTICES[4548]] = {{ vertex=VERTICES[5106], cost=0 },}
-EDGES[VERTICES[1895]] = {{ vertex=VERTICES[1026], cost=0 },}
-EDGES[VERTICES[4732]] = {{ vertex=VERTICES[5556], cost=0 },}
-EDGES[VERTICES[1623]] = {{ vertex=VERTICES[2015], cost=0 },}
-EDGES[VERTICES[3366]] = {{ vertex=VERTICES[2253], cost=0 },}
-EDGES[VERTICES[6110]] = {{ vertex=VERTICES[4461], cost=0 },}
-EDGES[VERTICES[5562]] = {{ vertex=VERTICES[4509], cost=0 },}
-EDGES[VERTICES[5360]] = {{ vertex=VERTICES[800], cost=0 },}
-EDGES[VERTICES[1445]] = {{ vertex=VERTICES[3172], cost=0 },}
-EDGES[VERTICES[2989]] = {{ vertex=VERTICES[3950], cost=0 },}
-EDGES[VERTICES[4719]] = {{ vertex=VERTICES[5715], cost=0 },}
-EDGES[VERTICES[2926]] = {{ vertex=VERTICES[4008], cost=0 },}
-EDGES[VERTICES[5667]] = {{ vertex=VERTICES[5388], cost=0 },}
-EDGES[VERTICES[2148]] = {{ vertex=VERTICES[2349], cost=0 },}
-EDGES[VERTICES[5382]] = {{ vertex=VERTICES[5234], cost=0 },}
-EDGES[VERTICES[118]] = {{ vertex=VERTICES[750], cost=0 },}
-EDGES[VERTICES[5123]] = {{ vertex=VERTICES[4479], cost=0 },}
-EDGES[VERTICES[980]] = {{ vertex=VERTICES[3508], cost=0 },}
-EDGES[VERTICES[3272]] = {{ vertex=VERTICES[1182], cost=0 },}
-EDGES[VERTICES[3478]] = {{ vertex=VERTICES[1435], cost=0 },}
-EDGES[VERTICES[1190]] = {{ vertex=VERTICES[4837], cost=0 },}
-EDGES[VERTICES[3086]] = {{ vertex=VERTICES[5257], cost=0 },}
-EDGES[VERTICES[4898]] = {{ vertex=VERTICES[4802], cost=0 },}
-EDGES[VERTICES[3192]] = {{ vertex=VERTICES[1674], cost=0 },}
-EDGES[VERTICES[2170]] = {{ vertex=VERTICES[5615], cost=0 },}
-EDGES[VERTICES[2562]] = {{ vertex=VERTICES[1565], cost=0 },}
-EDGES[VERTICES[4907]] = {{ vertex=VERTICES[5063], cost=0 },}
-EDGES[VERTICES[2516]] = {{ vertex=VERTICES[182], cost=0 },}
-EDGES[VERTICES[1328]] = {{ vertex=VERTICES[4386], cost=0 },}
-EDGES[VERTICES[2389]] = {{ vertex=VERTICES[5455], cost=0 },}
-EDGES[VERTICES[1719]] = {{ vertex=VERTICES[581], cost=0 },}
-EDGES[VERTICES[4520]] = {{ vertex=VERTICES[320], cost=0 },}
-EDGES[VERTICES[605]] = {{ vertex=VERTICES[3571], cost=0 },}
-EDGES[VERTICES[1615]] = {{ vertex=VERTICES[847], cost=0 },}
-EDGES[VERTICES[1016]] = {{ vertex=VERTICES[3867], cost=0 },}
-EDGES[VERTICES[6164]] = {{ vertex=VERTICES[5960], cost=0 },}
-EDGES[VERTICES[6115]] = {{ vertex=VERTICES[3716], cost=0 },}
-EDGES[VERTICES[4408]] = {{ vertex=VERTICES[3748], cost=0 },}
-EDGES[VERTICES[2768]] = {{ vertex=VERTICES[5901], cost=0 },}
-EDGES[VERTICES[301]] = {{ vertex=VERTICES[4524], cost=0 },}
-EDGES[VERTICES[895]] = {{ vertex=VERTICES[5739], cost=0 },}
-EDGES[VERTICES[4016]] = {{ vertex=VERTICES[1122], cost=0 },}
-EDGES[VERTICES[3344]] = {{ vertex=VERTICES[2517], cost=0 },}
-EDGES[VERTICES[5237]] = {{ vertex=VERTICES[649], cost=0 },}
-EDGES[VERTICES[5982]] = {{ vertex=VERTICES[845], cost=0 },}
-EDGES[VERTICES[837]] = {{ vertex=VERTICES[5754], cost=0 },}
-EDGES[VERTICES[5646]] = {{ vertex=VERTICES[1389], cost=0 },}
-EDGES[VERTICES[1854]] = {{ vertex=VERTICES[198], cost=0 },}
-EDGES[VERTICES[1686]] = {{ vertex=VERTICES[1323], cost=0 },}
-EDGES[VERTICES[2784]] = {{ vertex=VERTICES[4265], cost=0 },}
-EDGES[VERTICES[4934]] = {{ vertex=VERTICES[1202], cost=0 },}
-EDGES[VERTICES[1853]] = {{ vertex=VERTICES[3107], cost=0 },}
-EDGES[VERTICES[2237]] = {{ vertex=VERTICES[5500], cost=0 },}
-EDGES[VERTICES[5908]] = {{ vertex=VERTICES[3296], cost=0 },}
-EDGES[VERTICES[1542]] = {{ vertex=VERTICES[205], cost=0 },}
-EDGES[VERTICES[2593]] = {{ vertex=VERTICES[5656], cost=0 },}
-EDGES[VERTICES[5710]] = {{ vertex=VERTICES[4330], cost=0 },}
-EDGES[VERTICES[1010]] = {{ vertex=VERTICES[4844], cost=0 },}
-EDGES[VERTICES[5986]] = {{ vertex=VERTICES[2445], cost=0 },}
-EDGES[VERTICES[5051]] = {{ vertex=VERTICES[4224], cost=0 },}
-EDGES[VERTICES[5607]] = {{ vertex=VERTICES[2215], cost=0 },}
-EDGES[VERTICES[2751]] = {{ vertex=VERTICES[1641], cost=0 },}
-EDGES[VERTICES[2643]] = {{ vertex=VERTICES[4269], cost=0 },}
-EDGES[VERTICES[5367]] = {{ vertex=VERTICES[1261], cost=0 },}
-EDGES[VERTICES[4646]] = {{ vertex=VERTICES[3739], cost=0 },}
-EDGES[VERTICES[4608]] = {{ vertex=VERTICES[3859], cost=0 },}
-EDGES[VERTICES[2997]] = {{ vertex=VERTICES[1062], cost=0 },}
-EDGES[VERTICES[2207]] = {{ vertex=VERTICES[4290], cost=0 },}
-EDGES[VERTICES[149]] = {{ vertex=VERTICES[5321], cost=0 },}
-EDGES[VERTICES[271]] = {{ vertex=VERTICES[3200], cost=0 },}
-EDGES[VERTICES[1871]] = {{ vertex=VERTICES[6009], cost=0 },}
-EDGES[VERTICES[5043]] = {{ vertex=VERTICES[5934], cost=0 },}
-EDGES[VERTICES[5420]] = {{ vertex=VERTICES[3465], cost=0 },}
-EDGES[VERTICES[3764]] = {{ vertex=VERTICES[5336], cost=0 },}
-EDGES[VERTICES[3062]] = {{ vertex=VERTICES[1483], cost=0 },}
-EDGES[VERTICES[4400]] = {{ vertex=VERTICES[2034], cost=0 },}
-EDGES[VERTICES[501]] = {{ vertex=VERTICES[5373], cost=0 },}
-EDGES[VERTICES[4031]] = {{ vertex=VERTICES[587], cost=0 },}
-EDGES[VERTICES[5441]] = {{ vertex=VERTICES[287], cost=0 },}
-EDGES[VERTICES[1899]] = {{ vertex=VERTICES[5269], cost=0 },}
-EDGES[VERTICES[4758]] = {{ vertex=VERTICES[2557], cost=0 },}
-EDGES[VERTICES[6238]] = {{ vertex=VERTICES[3925], cost=0 },}
-EDGES[VERTICES[3317]] = {{ vertex=VERTICES[1166], cost=0 },}
-EDGES[VERTICES[5216]] = {{ vertex=VERTICES[620], cost=0 },}
-EDGES[VERTICES[3697]] = {{ vertex=VERTICES[6133], cost=0 },}
-EDGES[VERTICES[4978]] = {{ vertex=VERTICES[765], cost=0 },}
-EDGES[VERTICES[3048]] = {{ vertex=VERTICES[1679], cost=0 },}
-EDGES[VERTICES[512]] = {{ vertex=VERTICES[2310], cost=0 },}
-EDGES[VERTICES[3410]] = {{ vertex=VERTICES[2671], cost=0 },}
-EDGES[VERTICES[3684]] = {{ vertex=VERTICES[3559], cost=0 },}
-EDGES[VERTICES[4157]] = {{ vertex=VERTICES[2820], cost=0 },}
-EDGES[VERTICES[5021]] = {{ vertex=VERTICES[1548], cost=0 },}
-EDGES[VERTICES[4576]] = {{ vertex=VERTICES[3019], cost=0 },}
-EDGES[VERTICES[1241]] = {{ vertex=VERTICES[1410], cost=0 },}
-EDGES[VERTICES[332]] = {{ vertex=VERTICES[2821], cost=0 },}
-EDGES[VERTICES[273]] = {{ vertex=VERTICES[2880], cost=0 },}
-EDGES[VERTICES[4953]] = {{ vertex=VERTICES[3356], cost=0 },}
-EDGES[VERTICES[236]] = {{ vertex=VERTICES[97], cost=0 },}
-EDGES[VERTICES[4248]] = {{ vertex=VERTICES[5764], cost=0 },}
-EDGES[VERTICES[2071]] = {{ vertex=VERTICES[4289], cost=0 },}
-EDGES[VERTICES[5806]] = {{ vertex=VERTICES[5918], cost=0 },}
-EDGES[VERTICES[3110]] = {{ vertex=VERTICES[3137], cost=0 },}
-EDGES[VERTICES[2374]] = {{ vertex=VERTICES[5796], cost=0 },}
-EDGES[VERTICES[6046]] = {{ vertex=VERTICES[2179], cost=0 },}
-EDGES[VERTICES[1727]] = {{ vertex=VERTICES[5440], cost=0 },}
-EDGES[VERTICES[3714]] = {{ vertex=VERTICES[4955], cost=0 },}
-EDGES[VERTICES[3413]] = {{ vertex=VERTICES[2464], cost=0 },}
-EDGES[VERTICES[1677]] = {{ vertex=VERTICES[1689], cost=0 },}
-EDGES[VERTICES[3174]] = {{ vertex=VERTICES[5540], cost=0 },}
-EDGES[VERTICES[2629]] = {{ vertex=VERTICES[4904], cost=0 },}
-EDGES[VERTICES[2053]] = {{ vertex=VERTICES[3675], cost=0 },}
-EDGES[VERTICES[950]] = {{ vertex=VERTICES[3637], cost=0 },}
-EDGES[VERTICES[3390]] = {{ vertex=VERTICES[5319], cost=0 },}
-EDGES[VERTICES[5677]] = {{ vertex=VERTICES[1605], cost=0 },}
-EDGES[VERTICES[281]] = {{ vertex=VERTICES[2628], cost=0 },}
-EDGES[VERTICES[4700]] = {{ vertex=VERTICES[3744], cost=0 },}
-EDGES[VERTICES[2245]] = {{ vertex=VERTICES[1009], cost=0 },}
-EDGES[VERTICES[3759]] = {{ vertex=VERTICES[439], cost=0 },}
-EDGES[VERTICES[574]] = {{ vertex=VERTICES[2727], cost=0 },}
-EDGES[VERTICES[4735]] = {{ vertex=VERTICES[318], cost=0 },}
-EDGES[VERTICES[5285]] = {{ vertex=VERTICES[6216], cost=0 },}
-EDGES[VERTICES[3150]] = {{ vertex=VERTICES[4297], cost=0 },}
-EDGES[VERTICES[1882]] = {{ vertex=VERTICES[4640], cost=0 },}
-EDGES[VERTICES[4101]] = {{ vertex=VERTICES[213], cost=0 },}
-EDGES[VERTICES[4932]] = {{ vertex=VERTICES[6078], cost=0 },}
-EDGES[VERTICES[4377]] = {{ vertex=VERTICES[773], cost=0 },}
-EDGES[VERTICES[5771]] = {{ vertex=VERTICES[599], cost=0 },}
-EDGES[VERTICES[1165]] = {{ vertex=VERTICES[211], cost=0 },}
-EDGES[VERTICES[3563]] = {{ vertex=VERTICES[5190], cost=0 },}
-EDGES[VERTICES[4568]] = {{ vertex=VERTICES[416], cost=0 },}
-EDGES[VERTICES[5049]] = {{ vertex=VERTICES[4328], cost=0 },}
-EDGES[VERTICES[1564]] = {{ vertex=VERTICES[3828], cost=0 },}
-EDGES[VERTICES[728]] = {{ vertex=VERTICES[6215], cost=0 },}
-EDGES[VERTICES[3509]] = {{ vertex=VERTICES[5141], cost=0 },}
-EDGES[VERTICES[3699]] = {{ vertex=VERTICES[1794], cost=0 },}
-EDGES[VERTICES[5456]] = {{ vertex=VERTICES[4751], cost=0 },}
-EDGES[VERTICES[1308]] = {{ vertex=VERTICES[3594], cost=0 },}
-EDGES[VERTICES[5624]] = {{ vertex=VERTICES[2946], cost=0 },}
-EDGES[VERTICES[4882]] = {{ vertex=VERTICES[110], cost=0 },}
-EDGES[VERTICES[47]] = {{ vertex=VERTICES[2252], cost=0 },}
-EDGES[VERTICES[4612]] = {{ vertex=VERTICES[4423], cost=0 },}
-EDGES[VERTICES[5551]] = {{ vertex=VERTICES[5564], cost=0 },}
-EDGES[VERTICES[1934]] = {{ vertex=VERTICES[5791], cost=0 },}
-EDGES[VERTICES[5408]] = {{ vertex=VERTICES[2575], cost=0 },}
-EDGES[VERTICES[5841]] = {{ vertex=VERTICES[866], cost=0 },}
-EDGES[VERTICES[1494]] = {{ vertex=VERTICES[1186], cost=0 },}
-EDGES[VERTICES[5413]] = {{ vertex=VERTICES[2807], cost=0 },}
-EDGES[VERTICES[4057]] = {{ vertex=VERTICES[3094], cost=0 },}
-EDGES[VERTICES[4924]] = {{ vertex=VERTICES[2887], cost=0 },}
-EDGES[VERTICES[5074]] = {{ vertex=VERTICES[233], cost=0 },}
-EDGES[VERTICES[5102]] = {{ vertex=VERTICES[365], cost=0 },}
-EDGES[VERTICES[3794]] = {{ vertex=VERTICES[2386], cost=0 },}
-EDGES[VERTICES[5776]] = {{ vertex=VERTICES[5935], cost=0 },}
-EDGES[VERTICES[6095]] = {{ vertex=VERTICES[2380], cost=0 },}
-EDGES[VERTICES[1423]] = {{ vertex=VERTICES[630], cost=0 },}
-EDGES[VERTICES[239]] = {{ vertex=VERTICES[1008], cost=0 },}
-EDGES[VERTICES[222]] = {{ vertex=VERTICES[405], cost=0 },}
-EDGES[VERTICES[5852]] = {{ vertex=VERTICES[1894], cost=0 },}
-EDGES[VERTICES[3726]] = {{ vertex=VERTICES[299], cost=0 },}
-EDGES[VERTICES[897]] = {{ vertex=VERTICES[2556], cost=0 },}
-EDGES[VERTICES[4736]] = {{ vertex=VERTICES[3890], cost=0 },}
-EDGES[VERTICES[2770]] = {{ vertex=VERTICES[1877], cost=0 },}
-EDGES[VERTICES[2430]] = {{ vertex=VERTICES[5581], cost=0 },}
-EDGES[VERTICES[2478]] = {{ vertex=VERTICES[1393], cost=0 },}
-EDGES[VERTICES[4931]] = {{ vertex=VERTICES[1529], cost=0 },}
-EDGES[VERTICES[1240]] = {{ vertex=VERTICES[6075], cost=0 },}
-EDGES[VERTICES[4829]] = {{ vertex=VERTICES[3134], cost=0 },}
-EDGES[VERTICES[3792]] = {{ vertex=VERTICES[3273], cost=0 },}
-EDGES[VERTICES[2876]] = {{ vertex=VERTICES[4448], cost=0 },}
-EDGES[VERTICES[4076]] = {{ vertex=VERTICES[5675], cost=0 },}
-EDGES[VERTICES[2526]] = {{ vertex=VERTICES[2650], cost=0 },}
-EDGES[VERTICES[3754]] = {{ vertex=VERTICES[5288], cost=0 },}
-EDGES[VERTICES[1612]] = {{ vertex=VERTICES[2595], cost=0 },}
-EDGES[VERTICES[4519]] = {{ vertex=VERTICES[5261], cost=0 },}
-EDGES[VERTICES[3188]] = {{ vertex=VERTICES[4746], cost=0 },}
-EDGES[VERTICES[3678]] = {{ vertex=VERTICES[5087], cost=0 },}
-EDGES[VERTICES[483]] = {{ vertex=VERTICES[101], cost=0 },}
-EDGES[VERTICES[5041]] = {{ vertex=VERTICES[206], cost=0 },}
-EDGES[VERTICES[1143]] = {{ vertex=VERTICES[3310], cost=0 },}
-EDGES[VERTICES[2438]] = {{ vertex=VERTICES[3514], cost=0 },}
-EDGES[VERTICES[1592]] = {{ vertex=VERTICES[6255], cost=0 },}
-EDGES[VERTICES[498]] = {{ vertex=VERTICES[1808], cost=0 },}
-EDGES[VERTICES[1892]] = {{ vertex=VERTICES[4243], cost=0 },}
-EDGES[VERTICES[1326]] = {{ vertex=VERTICES[2553], cost=0 },}
-EDGES[VERTICES[3420]] = {{ vertex=VERTICES[5785], cost=0 },}
-EDGES[VERTICES[4060]] = {{ vertex=VERTICES[1451], cost=0 },}
-EDGES[VERTICES[957]] = {{ vertex=VERTICES[2021], cost=0 },}
-EDGES[VERTICES[241]] = {{ vertex=VERTICES[3221], cost=0 },}
-EDGES[VERTICES[1075]] = {{ vertex=VERTICES[4198], cost=0 },}
-EDGES[VERTICES[3156]] = {{ vertex=VERTICES[1103], cost=0 },}
-EDGES[VERTICES[659]] = {{ vertex=VERTICES[2192], cost=0 },}
-EDGES[VERTICES[856]] = {{ vertex=VERTICES[28], cost=0 },}
-EDGES[VERTICES[3840]] = {{ vertex=VERTICES[471], cost=0 },}
-EDGES[VERTICES[2212]] = {{ vertex=VERTICES[490], cost=0 },}
-EDGES[VERTICES[3314]] = {{ vertex=VERTICES[6137], cost=0 },}
-EDGES[VERTICES[4630]] = {{ vertex=VERTICES[1584], cost=0 },}
-EDGES[VERTICES[2862]] = {{ vertex=VERTICES[600], cost=0 },}
-EDGES[VERTICES[1356]] = {{ vertex=VERTICES[3546], cost=0 },}
-EDGES[VERTICES[4939]] = {{ vertex=VERTICES[1870], cost=0 },}
-EDGES[VERTICES[5700]] = {{ vertex=VERTICES[4564], cost=0 },}
-EDGES[VERTICES[102]] = {{ vertex=VERTICES[2208], cost=0 },}
-EDGES[VERTICES[5813]] = {{ vertex=VERTICES[3857], cost=0 },}
-EDGES[VERTICES[4655]] = {{ vertex=VERTICES[4193], cost=0 },}
-EDGES[VERTICES[5492]] = {{ vertex=VERTICES[3376], cost=0 },}
-EDGES[VERTICES[3686]] = {{ vertex=VERTICES[5854], cost=0 },}
-EDGES[VERTICES[1797]] = {{ vertex=VERTICES[414], cost=0 },}
-EDGES[VERTICES[3242]] = {{ vertex=VERTICES[2407], cost=0 },}
-EDGES[VERTICES[5206]] = {{ vertex=VERTICES[3270], cost=0 },}
-EDGES[VERTICES[4247]] = {{ vertex=VERTICES[2637], cost=0 },}
-EDGES[VERTICES[3143]] = {{ vertex=VERTICES[5868], cost=0 },}
-EDGES[VERTICES[2818]] = {{ vertex=VERTICES[5678], cost=0 },}
-EDGES[VERTICES[2472]] = {{ vertex=VERTICES[1371], cost=0 },}
-EDGES[VERTICES[1521]] = {{ vertex=VERTICES[3521], cost=0 },}
-EDGES[VERTICES[4068]] = {{ vertex=VERTICES[4504], cost=0 },}
-EDGES[VERTICES[4285]] = {{ vertex=VERTICES[4993], cost=0 },}
-EDGES[VERTICES[4923]] = {{ vertex=VERTICES[1126], cost=0 },}
-EDGES[VERTICES[3997]] = {{ vertex=VERTICES[1291], cost=0 },}
-EDGES[VERTICES[267]] = {{ vertex=VERTICES[1233], cost=0 },}
-EDGES[VERTICES[6007]] = {{ vertex=VERTICES[3065], cost=0 },}
-EDGES[VERTICES[3578]] = {{ vertex=VERTICES[1969], cost=0 },}
-EDGES[VERTICES[4271]] = {{ vertex=VERTICES[2247], cost=0 },}
-EDGES[VERTICES[4689]] = {{ vertex=VERTICES[4991], cost=0 },}
-EDGES[VERTICES[5313]] = {{ vertex=VERTICES[4107], cost=0 },}
-EDGES[VERTICES[4429]] = {{ vertex=VERTICES[2181], cost=0 },}
-EDGES[VERTICES[1898]] = {{ vertex=VERTICES[733], cost=0 },}
-EDGES[VERTICES[2117]] = {{ vertex=VERTICES[4478], cost=0 },}
-EDGES[VERTICES[5163]] = {{ vertex=VERTICES[2857], cost=0 },}
-EDGES[VERTICES[462]] = {{ vertex=VERTICES[1225], cost=0 },}
-EDGES[VERTICES[759]] = {{ vertex=VERTICES[2477], cost=0 },}
-EDGES[VERTICES[4219]] = {{ vertex=VERTICES[5096], cost=0 },}
-EDGES[VERTICES[2045]] = {{ vertex=VERTICES[5365], cost=0 },}
-EDGES[VERTICES[5448]] = {{ vertex=VERTICES[1784], cost=0 },}
-EDGES[VERTICES[6062]] = {{ vertex=VERTICES[5308], cost=0 },}
-EDGES[VERTICES[3277]] = {{ vertex=VERTICES[3031], cost=0 },}
-EDGES[VERTICES[1566]] = {{ vertex=VERTICES[2489], cost=0 },}
-EDGES[VERTICES[103]] = {{ vertex=VERTICES[1262], cost=0 },}
-EDGES[VERTICES[2340]] = {{ vertex=VERTICES[1828], cost=0 },}
-EDGES[VERTICES[2609]] = {{ vertex=VERTICES[2084], cost=0 },}
-EDGES[VERTICES[4180]] = {{ vertex=VERTICES[2810], cost=0 },}
-EDGES[VERTICES[4711]] = {{ vertex=VERTICES[5000], cost=0 },}
-EDGES[VERTICES[4983]] = {{ vertex=VERTICES[144], cost=0 },}
-EDGES[VERTICES[4855]] = {{ vertex=VERTICES[2721], cost=0 },}
-EDGES[VERTICES[5086]] = {{ vertex=VERTICES[4365], cost=0 },}
-EDGES[VERTICES[1228]] = {{ vertex=VERTICES[6143], cost=0 },}
-EDGES[VERTICES[2674]] = {{ vertex=VERTICES[5331], cost=0 },}
-EDGES[VERTICES[3634]] = {{ vertex=VERTICES[1237], cost=0 },}
-EDGES[VERTICES[4416]] = {{ vertex=VERTICES[4276], cost=0 },}
-EDGES[VERTICES[3102]] = {{ vertex=VERTICES[643], cost=0 },}
-EDGES[VERTICES[2326]] = {{ vertex=VERTICES[2913], cost=0 },}
-EDGES[VERTICES[1551]] = {{ vertex=VERTICES[3795], cost=0 },}
-EDGES[VERTICES[3986]] = {{ vertex=VERTICES[420], cost=0 },}
-EDGES[VERTICES[1787]] = {{ vertex=VERTICES[1042], cost=0 },}
-EDGES[VERTICES[214]] = {{ vertex=VERTICES[1510], cost=0 },}
-EDGES[VERTICES[4703]] = {{ vertex=VERTICES[3736], cost=0 },}
-EDGES[VERTICES[147]] = {{ vertex=VERTICES[4827], cost=0 },}
-EDGES[VERTICES[628]] = {{ vertex=VERTICES[5765], cost=0 },}
-EDGES[VERTICES[2697]] = {{ vertex=VERTICES[4602], cost=0 },}
-EDGES[VERTICES[2866]] = {{ vertex=VERTICES[2512], cost=0 },}
-EDGES[VERTICES[5546]] = {{ vertex=VERTICES[209], cost=0 },}
-EDGES[VERTICES[3290]] = {{ vertex=VERTICES[3436], cost=0 },}
-EDGES[VERTICES[2078]] = {{ vertex=VERTICES[816], cost=0 },}
-EDGES[VERTICES[2160]] = {{ vertex=VERTICES[6038], cost=0 },}
-EDGES[VERTICES[748]] = {{ vertex=VERTICES[1876], cost=0 },}
-EDGES[VERTICES[2915]] = {{ vertex=VERTICES[4063], cost=0 },}
-EDGES[VERTICES[3125]] = {{ vertex=VERTICES[3136], cost=0 },}
-EDGES[VERTICES[11]] = {{ vertex=VERTICES[2141], cost=0 },}
-EDGES[VERTICES[4236]] = {{ vertex=VERTICES[5071], cost=0 },}
-EDGES[VERTICES[194]] = {{ vertex=VERTICES[334], cost=0 },}
-EDGES[VERTICES[3388]] = {{ vertex=VERTICES[910], cost=0 },}
-EDGES[VERTICES[540]] = {{ vertex=VERTICES[1012], cost=0 },}
-EDGES[VERTICES[2133]] = {{ vertex=VERTICES[2672], cost=0 },}
-EDGES[VERTICES[3419]] = {{ vertex=VERTICES[5416], cost=0 },}
-EDGES[VERTICES[5376]] = {{ vertex=VERTICES[2180], cost=0 },}
-EDGES[VERTICES[291]] = {{ vertex=VERTICES[1766], cost=0 },}
-EDGES[VERTICES[5992]] = {{ vertex=VERTICES[5290], cost=0 },}
-EDGES[VERTICES[825]] = {{ vertex=VERTICES[2955], cost=0 },}
-EDGES[VERTICES[6101]] = {{ vertex=VERTICES[4367], cost=0 },}
-EDGES[VERTICES[3166]] = {{ vertex=VERTICES[4911], cost=0 },}
-EDGES[VERTICES[894]] = {{ vertex=VERTICES[355], cost=0 },}
-EDGES[VERTICES[4094]] = {{ vertex=VERTICES[1192], cost=0 },}
-EDGES[VERTICES[4118]] = {{ vertex=VERTICES[6050], cost=0 },}
-EDGES[VERTICES[5834]] = {{ vertex=VERTICES[2907], cost=0 },}
-EDGES[VERTICES[3022]] = {{ vertex=VERTICES[646], cost=0 },}
-EDGES[VERTICES[6231]] = {{ vertex=VERTICES[4582], cost=0 },}
-EDGES[VERTICES[4566]] = {{ vertex=VERTICES[3053], cost=0 },}
-EDGES[VERTICES[5474]] = {{ vertex=VERTICES[3352], cost=0 },}
-EDGES[VERTICES[4550]] = {{ vertex=VERTICES[1465], cost=0 },}
-EDGES[VERTICES[1299]] = {{ vertex=VERTICES[1310], cost=0 },}
-EDGES[VERTICES[6134]] = {{ vertex=VERTICES[4013], cost=0 },}
-EDGES[VERTICES[4819]] = {{ vertex=VERTICES[5343], cost=0 },}
-EDGES[VERTICES[597]] = {{ vertex=VERTICES[4302], cost=0 },}
-EDGES[VERTICES[429]] = {{ vertex=VERTICES[739], cost=0 },}
-EDGES[VERTICES[145]] = {{ vertex=VERTICES[1718], cost=0 },}
-EDGES[VERTICES[4980]] = {{ vertex=VERTICES[201], cost=0 },}
-EDGES[VERTICES[2986]] = {{ vertex=VERTICES[4213], cost=0 },}
-EDGES[VERTICES[1967]] = {{ vertex=VERTICES[1223], cost=0 },}
-EDGES[VERTICES[1683]] = {{ vertex=VERTICES[1807], cost=0 },}
-EDGES[VERTICES[5898]] = {{ vertex=VERTICES[716], cost=0 },}
-EDGES[VERTICES[4188]] = {{ vertex=VERTICES[5114], cost=0 },}
-EDGES[VERTICES[4412]] = {{ vertex=VERTICES[2109], cost=0 },}
-EDGES[VERTICES[2584]] = {{ vertex=VERTICES[3522], cost=0 },}
-EDGES[VERTICES[851]] = {{ vertex=VERTICES[1093], cost=0 },}
-EDGES[VERTICES[6072]] = {{ vertex=VERTICES[5929], cost=0 },}
-EDGES[VERTICES[1791]] = {{ vertex=VERTICES[4879], cost=0 },}
-EDGES[VERTICES[1474]] = {{ vertex=VERTICES[772], cost=0 },}
-EDGES[VERTICES[4062]] = {{ vertex=VERTICES[2241], cost=0 },}
-EDGES[VERTICES[5602]] = {{ vertex=VERTICES[1394], cost=0 },}
-EDGES[VERTICES[3771]] = {{ vertex=VERTICES[3998], cost=0 },}
-EDGES[VERTICES[2744]] = {{ vertex=VERTICES[2918], cost=0 },}
-EDGES[VERTICES[3944]] = {{ vertex=VERTICES[6112], cost=0 },}
-EDGES[VERTICES[1786]] = {{ vertex=VERTICES[1358], cost=0 },}
-EDGES[VERTICES[4020]] = {{ vertex=VERTICES[1253], cost=0 },}
-EDGES[VERTICES[1054]] = {{ vertex=VERTICES[4434], cost=0 },}
-EDGES[VERTICES[692]] = {{ vertex=VERTICES[2789], cost=0 },}
-EDGES[VERTICES[4464]] = {{ vertex=VERTICES[1874], cost=0 },}
-EDGES[VERTICES[441]] = {{ vertex=VERTICES[2851], cost=0 },}
-EDGES[VERTICES[2850]] = {{ vertex=VERTICES[248], cost=0 },}
-EDGES[VERTICES[4037]] = {{ vertex=VERTICES[2506], cost=0 },}
-EDGES[VERTICES[747]] = {{ vertex=VERTICES[5442], cost=0 },}
-EDGES[VERTICES[5999]] = {{ vertex=VERTICES[5501], cost=0 },}
-EDGES[VERTICES[2412]] = {{ vertex=VERTICES[1750], cost=0 },}
-EDGES[VERTICES[4442]] = {{ vertex=VERTICES[1399], cost=0 },}
-EDGES[VERTICES[5452]] = {{ vertex=VERTICES[2624], cost=0 },}
-EDGES[VERTICES[5298]] = {{ vertex=VERTICES[2013], cost=0 },}
-EDGES[VERTICES[433]] = {{ vertex=VERTICES[2510], cost=0 },}
-EDGES[VERTICES[2923]] = {{ vertex=VERTICES[2675], cost=0 },}
-EDGES[VERTICES[2777]] = {{ vertex=VERTICES[4339], cost=0 },}
-EDGES[VERTICES[4347]] = {{ vertex=VERTICES[3796], cost=0 },}
-EDGES[VERTICES[5743]] = {{ vertex=VERTICES[3477], cost=0 },}
-EDGES[VERTICES[1149]] = {{ vertex=VERTICES[1667], cost=0 },}
-EDGES[VERTICES[5995]] = {{ vertex=VERTICES[5168], cost=0 },}
-EDGES[VERTICES[1813]] = {{ vertex=VERTICES[1222], cost=0 },}
-EDGES[VERTICES[2948]] = {{ vertex=VERTICES[4533], cost=0 },}
-EDGES[VERTICES[2869]] = {{ vertex=VERTICES[65], cost=0 },}
-EDGES[VERTICES[5705]] = {{ vertex=VERTICES[3223], cost=0 },}
-EDGES[VERTICES[3297]] = {{ vertex=VERTICES[2387], cost=0 },}
-EDGES[VERTICES[4581]] = {{ vertex=VERTICES[2356], cost=0 },}
-EDGES[VERTICES[5725]] = {{ vertex=VERTICES[382], cost=0 },}
-EDGES[VERTICES[3750]] = {{ vertex=VERTICES[5374], cost=0 },}
-EDGES[VERTICES[1534]] = {{ vertex=VERTICES[4491], cost=0 },}
-EDGES[VERTICES[3163]] = {{ vertex=VERTICES[6262], cost=0 },}
-EDGES[VERTICES[5544]] = {{ vertex=VERTICES[2451], cost=0 },}
-EDGES[VERTICES[1107]] = {{ vertex=VERTICES[6126], cost=0 },}
-EDGES[VERTICES[2740]] = {{ vertex=VERTICES[3473], cost=0 },}
-EDGES[VERTICES[4925]] = {{ vertex=VERTICES[3460], cost=0 },}
-EDGES[VERTICES[4443]] = {{ vertex=VERTICES[1254], cost=0 },}
-EDGES[VERTICES[3622]] = {{ vertex=VERTICES[2565], cost=0 },}
-EDGES[VERTICES[4589]] = {{ vertex=VERTICES[2868], cost=0 },}
-EDGES[VERTICES[4841]] = {{ vertex=VERTICES[3561], cost=0 },}
-EDGES[VERTICES[3194]] = {{ vertex=VERTICES[1945], cost=0 },}
-EDGES[VERTICES[3943]] = {{ vertex=VERTICES[4916], cost=0 },}
-EDGES[VERTICES[5568]] = {{ vertex=VERTICES[2454], cost=0 },}
-EDGES[VERTICES[4418]] = {{ vertex=VERTICES[5255], cost=0 },}
-EDGES[VERTICES[4481]] = {{ vertex=VERTICES[4355], cost=0 },}
-EDGES[VERTICES[570]] = {{ vertex=VERTICES[4673], cost=0 },}
-EDGES[VERTICES[1344]] = {{ vertex=VERTICES[2849], cost=0 },}
-EDGES[VERTICES[4074]] = {{ vertex=VERTICES[557], cost=0 },}
-EDGES[VERTICES[5794]] = {{ vertex=VERTICES[2523], cost=0 },}
-EDGES[VERTICES[352]] = {{ vertex=VERTICES[3490], cost=0 },}
-EDGES[VERTICES[5322]] = {{ vertex=VERTICES[5899], cost=0 },}
-EDGES[VERTICES[3234]] = {{ vertex=VERTICES[781], cost=0 },}
-EDGES[VERTICES[4825]] = {{ vertex=VERTICES[3626], cost=0 },}
-EDGES[VERTICES[3337]] = {{ vertex=VERTICES[3057], cost=0 },}
-EDGES[VERTICES[75]] = {{ vertex=VERTICES[6097], cost=0 },}
-EDGES[VERTICES[1327]] = {{ vertex=VERTICES[1450], cost=0 },}
-EDGES[VERTICES[3178]] = {{ vertex=VERTICES[3432], cost=0 },}
-EDGES[VERTICES[784]] = {{ vertex=VERTICES[2718], cost=0 },}
-EDGES[VERTICES[1348]] = {{ vertex=VERTICES[3887], cost=0 },}
-EDGES[VERTICES[2113]] = {{ vertex=VERTICES[778], cost=0 },}
-EDGES[VERTICES[6118]] = {{ vertex=VERTICES[826], cost=0 },}
-EDGES[VERTICES[1640]] = {{ vertex=VERTICES[3081], cost=0 },}
-EDGES[VERTICES[4450]] = {{ vertex=VERTICES[73], cost=0 },}
-EDGES[VERTICES[3449]] = {{ vertex=VERTICES[5371], cost=0 },}
-EDGES[VERTICES[256]] = {{ vertex=VERTICES[1260], cost=0 },}
-EDGES[VERTICES[5405]] = {{ vertex=VERTICES[933], cost=0 },}
-EDGES[VERTICES[493]] = {{ vertex=VERTICES[5746], cost=0 },}
-EDGES[VERTICES[1805]] = {{ vertex=VERTICES[4320], cost=0 },}
-EDGES[VERTICES[963]] = {{ vertex=VERTICES[4887], cost=0 },}
-EDGES[VERTICES[636]] = {{ vertex=VERTICES[2103], cost=0 },}
-EDGES[VERTICES[3915]] = {{ vertex=VERTICES[1625], cost=0 },}
-EDGES[VERTICES[4336]] = {{ vertex=VERTICES[4401], cost=0 },}
-EDGES[VERTICES[1369]] = {{ vertex=VERTICES[5010], cost=0 },}
-EDGES[VERTICES[2971]] = {{ vertex=VERTICES[266], cost=0 },}
-EDGES[VERTICES[746]] = {{ vertex=VERTICES[5314], cost=0 },}
-EDGES[VERTICES[2832]] = {{ vertex=VERTICES[54], cost=0 },}
-EDGES[VERTICES[4244]] = {{ vertex=VERTICES[2731], cost=0 },}
-EDGES[VERTICES[3353]] = {{ vertex=VERTICES[1915], cost=0 },}
-EDGES[VERTICES[5015]] = {{ vertex=VERTICES[5225], cost=0 },}
-EDGES[VERTICES[2665]] = {{ vertex=VERTICES[2813], cost=0 },}
-EDGES[VERTICES[2623]] = {{ vertex=VERTICES[4784], cost=0 },}
-EDGES[VERTICES[580]] = {{ vertex=VERTICES[1764], cost=0 },}
-EDGES[VERTICES[6081]] = {{ vertex=VERTICES[5971], cost=0 },}
-EDGES[VERTICES[6114]] = {{ vertex=VERTICES[903], cost=0 },}
-EDGES[VERTICES[4342]] = {{ vertex=VERTICES[1338], cost=0 },}
-EDGES[VERTICES[2985]] = {{ vertex=VERTICES[1742], cost=0 },}
-EDGES[VERTICES[5428]] = {{ vertex=VERTICES[6024], cost=0 },}
-EDGES[VERTICES[2667]] = {{ vertex=VERTICES[1647], cost=0 },}
-EDGES[VERTICES[2335]] = {{ vertex=VERTICES[184], cost=0 },}
-EDGES[VERTICES[4831]] = {{ vertex=VERTICES[2653], cost=0 },}
-EDGES[VERTICES[3252]] = {{ vertex=VERTICES[3030], cost=0 },}
-EDGES[VERTICES[164]] = {{ vertex=VERTICES[5139], cost=0 },}
-EDGES[VERTICES[878]] = {{ vertex=VERTICES[2352], cost=0 },}
-EDGES[VERTICES[2081]] = {{ vertex=VERTICES[657], cost=0 },}
-EDGES[VERTICES[5444]] = {{ vertex=VERTICES[2435], cost=0 },}
-EDGES[VERTICES[4160]] = {{ vertex=VERTICES[4816], cost=0 },}
-EDGES[VERTICES[5873]] = {{ vertex=VERTICES[1639], cost=0 },}
-EDGES[VERTICES[6006]] = {{ vertex=VERTICES[4387], cost=0 },}
-EDGES[VERTICES[5537]] = {{ vertex=VERTICES[5516], cost=0 },}
-EDGES[VERTICES[2914]] = {{ vertex=VERTICES[5394], cost=0 },}
-EDGES[VERTICES[4899]] = {{ vertex=VERTICES[1300], cost=0 },}
-EDGES[VERTICES[5253]] = {{ vertex=VERTICES[491], cost=0 },}
-EDGES[VERTICES[44]] = {{ vertex=VERTICES[4368], cost=0 },}
-EDGES[VERTICES[5306]] = {{ vertex=VERTICES[2519], cost=0 },}
-EDGES[VERTICES[6135]] = {{ vertex=VERTICES[4067], cost=0 },}
-EDGES[VERTICES[5037]] = {{ vertex=VERTICES[4595], cost=0 },}
-EDGES[VERTICES[1257]] = {{ vertex=VERTICES[1632], cost=0 },}
-EDGES[VERTICES[295]] = {{ vertex=VERTICES[4632], cost=0 },}
-EDGES[VERTICES[3153]] = {{ vertex=VERTICES[1812], cost=0 },}
-EDGES[VERTICES[5162]] = {{ vertex=VERTICES[5483], cost=0 },}
-EDGES[VERTICES[2902]] = {{ vertex=VERTICES[1524], cost=0 },}
-EDGES[VERTICES[5512]] = {{ vertex=VERTICES[5665], cost=0 },}
-EDGES[VERTICES[1413]] = {{ vertex=VERTICES[509], cost=0 },}
-EDGES[VERTICES[3214]] = {{ vertex=VERTICES[3734], cost=0 },}
-EDGES[VERTICES[5775]] = {{ vertex=VERTICES[5713], cost=0 },}
-EDGES[VERTICES[2417]] = {{ vertex=VERTICES[4428], cost=0 },}
-EDGES[VERTICES[2306]] = {{ vertex=VERTICES[5312], cost=0 },}
-EDGES[VERTICES[3083]] = {{ vertex=VERTICES[3244], cost=0 },}
-EDGES[VERTICES[2960]] = {{ vertex=VERTICES[656], cost=0 },}
-EDGES[VERTICES[6130]] = {{ vertex=VERTICES[2587], cost=0 },}
-EDGES[VERTICES[2728]] = {{ vertex=VERTICES[2190], cost=0 },}
-EDGES[VERTICES[2144]] = {{ vertex=VERTICES[641], cost=0 },}
-EDGES[VERTICES[1094]] = {{ vertex=VERTICES[3855], cost=0 },}
-EDGES[VERTICES[6151]] = {{ vertex=VERTICES[4884], cost=0 },}
-EDGES[VERTICES[5122]] = {{ vertex=VERTICES[2541], cost=0 },}
-EDGES[VERTICES[5173]] = {{ vertex=VERTICES[296], cost=0 },}
-EDGES[VERTICES[3843]] = {{ vertex=VERTICES[1068], cost=0 },}
-EDGES[VERTICES[2161]] = {{ vertex=VERTICES[3076], cost=0 },}
-EDGES[VERTICES[1377]] = {{ vertex=VERTICES[2594], cost=0 },}
-EDGES[VERTICES[2999]] = {{ vertex=VERTICES[497], cost=0 },}
-EDGES[VERTICES[4205]] = {{ vertex=VERTICES[1201], cost=0 },}
-EDGES[VERTICES[363]] = {{ vertex=VERTICES[5513], cost=0 },}
-EDGES[VERTICES[687]] = {{ vertex=VERTICES[3099], cost=0 },}
-EDGES[VERTICES[286]] = {{ vertex=VERTICES[1002], cost=0 },}
-EDGES[VERTICES[5878]] = {{ vertex=VERTICES[172], cost=0 },}
-EDGES[VERTICES[6124]] = {{ vertex=VERTICES[5985], cost=0 },}
-EDGES[VERTICES[6260]] = {{ vertex=VERTICES[3582], cost=0 },}
-EDGES[VERTICES[2004]] = {{ vertex=VERTICES[1888], cost=0 },}
-EDGES[VERTICES[2968]] = {{ vertex=VERTICES[586], cost=0 },}
-EDGES[VERTICES[1256]] = {{ vertex=VERTICES[2555], cost=0 },}
-EDGES[VERTICES[285]] = {{ vertex=VERTICES[5703], cost=0 },}
-EDGES[VERTICES[5699]] = {{ vertex=VERTICES[5221], cost=0 },}
-EDGES[VERTICES[3901]] = {{ vertex=VERTICES[1332], cost=0 },}
-EDGES[VERTICES[4260]] = {{ vertex=VERTICES[3920], cost=0 },}
-EDGES[VERTICES[4465]] = {{ vertex=VERTICES[2046], cost=0 },}
-EDGES[VERTICES[1941]] = {{ vertex=VERTICES[1776], cost=0 },}
-EDGES[VERTICES[3250]] = {{ vertex=VERTICES[122], cost=0 },}
-EDGES[VERTICES[5415]] = {{ vertex=VERTICES[1852], cost=0 },}
-EDGES[VERTICES[2047]] = {{ vertex=VERTICES[4172], cost=0 },}
-EDGES[VERTICES[1347]] = {{ vertex=VERTICES[4705], cost=0 },}
-EDGES[VERTICES[5936]] = {{ vertex=VERTICES[1296], cost=0 },}
-EDGES[VERTICES[3876]] = {{ vertex=VERTICES[2750], cost=0 },}
-EDGES[VERTICES[8]] = {{ vertex=VERTICES[1582], cost=0 },}
-EDGES[VERTICES[5236]] = {{ vertex=VERTICES[3688], cost=0 },}
-EDGES[VERTICES[2005]] = {{ vertex=VERTICES[2182], cost=0 },}
-EDGES[VERTICES[3592]] = {{ vertex=VERTICES[2135], cost=0 },}
-EDGES[VERTICES[2483]] = {{ vertex=VERTICES[2043], cost=0 },}
-EDGES[VERTICES[911]] = {{ vertex=VERTICES[4023], cost=0 },}
-EDGES[VERTICES[257]] = {{ vertex=VERTICES[1111], cost=0 },}
-EDGES[VERTICES[3761]] = {{ vertex=VERTICES[485], cost=0 },}
-EDGES[VERTICES[5815]] = {{ vertex=VERTICES[775], cost=0 },}
-EDGES[VERTICES[105]] = {{ vertex=VERTICES[5116], cost=0 },}
-EDGES[VERTICES[6033]] = {{ vertex=VERTICES[18], cost=0 },}
-EDGES[VERTICES[4639]] = {{ vertex=VERTICES[4643], cost=0 },}
-EDGES[VERTICES[4644]] = {{ vertex=VERTICES[3073], cost=0 },}
-EDGES[VERTICES[6136]] = {{ vertex=VERTICES[3164], cost=0 },}
-EDGES[VERTICES[5129]] = {{ vertex=VERTICES[3598], cost=0 },}
-EDGES[VERTICES[2995]] = {{ vertex=VERTICES[4249], cost=0 },}
-EDGES[VERTICES[5504]] = {{ vertex=VERTICES[3687], cost=0 },}
-EDGES[VERTICES[23]] = {{ vertex=VERTICES[4897], cost=0 },}
-EDGES[VERTICES[2213]] = {{ vertex=VERTICES[2094], cost=0 },}
-EDGES[VERTICES[193]] = {{ vertex=VERTICES[315], cost=0 },}
-EDGES[VERTICES[4005]] = {{ vertex=VERTICES[428], cost=0 },}
-EDGES[VERTICES[4279]] = {{ vertex=VERTICES[2952], cost=0 },}
-EDGES[VERTICES[4704]] = {{ vertex=VERTICES[3694], cost=0 },}
-EDGES[VERTICES[3565]] = {{ vertex=VERTICES[5146], cost=0 },}
-EDGES[VERTICES[2959]] = {{ vertex=VERTICES[1039], cost=0 },}
-EDGES[VERTICES[3040]] = {{ vertex=VERTICES[3485], cost=0 },}
-EDGES[VERTICES[4492]] = {{ vertex=VERTICES[106], cost=0 },}
-EDGES[VERTICES[2961]] = {{ vertex=VERTICES[1460], cost=0 },}
-EDGES[VERTICES[3533]] = {{ vertex=VERTICES[1932], cost=0 },}
-EDGES[VERTICES[2840]] = {{ vertex=VERTICES[2736], cost=0 },}
-EDGES[VERTICES[3408]] = {{ vertex=VERTICES[488], cost=0 },}
-EDGES[VERTICES[4658]] = {{ vertex=VERTICES[1678], cost=0 },}
-EDGES[VERTICES[898]] = {{ vertex=VERTICES[3821], cost=0 },}
-EDGES[VERTICES[568]] = {{ vertex=VERTICES[3880], cost=0 },}
-EDGES[VERTICES[4580]] = {{ vertex=VERTICES[2548], cost=0 },}
-EDGES[VERTICES[935]] = {{ vertex=VERTICES[2242], cost=0 },}
-EDGES[VERTICES[4710]] = {{ vertex=VERTICES[4325], cost=0 },}
-EDGES[VERTICES[5359]] = {{ vertex=VERTICES[2436], cost=0 },}
-EDGES[VERTICES[6012]] = {{ vertex=VERTICES[5035], cost=0 },}
-EDGES[VERTICES[26]] = {{ vertex=VERTICES[5511], cost=0 },}
-EDGES[VERTICES[3804]] = {{ vertex=VERTICES[3416], cost=0 },}
-EDGES[VERTICES[4702]] = {{ vertex=VERTICES[2899], cost=0 },}
-EDGES[VERTICES[165]] = {{ vertex=VERTICES[4553], cost=0 },}
-EDGES[VERTICES[4724]] = {{ vertex=VERTICES[3343], cost=0 },}
-EDGES[VERTICES[3468]] = {{ vertex=VERTICES[6023], cost=0 },}
-EDGES[VERTICES[4449]] = {{ vertex=VERTICES[1426], cost=0 },}
-EDGES[VERTICES[5341]] = {{ vertex=VERTICES[1618], cost=0 },}
-EDGES[VERTICES[5281]] = {{ vertex=VERTICES[1027], cost=0 },}
-EDGES[VERTICES[96]] = {{ vertex=VERTICES[6091], cost=0 },}
-EDGES[VERTICES[1102]] = {{ vertex=VERTICES[5523], cost=0 },}
-EDGES[VERTICES[437]] = {{ vertex=VERTICES[2658], cost=0 },}
-EDGES[VERTICES[3068]] = {{ vertex=VERTICES[4051], cost=0 },}
-EDGES[VERTICES[1071]] = {{ vertex=VERTICES[5381], cost=0 },}
-EDGES[VERTICES[5862]] = {{ vertex=VERTICES[4982], cost=0 },}
-EDGES[VERTICES[5429]] = {{ vertex=VERTICES[262], cost=0 },}
-EDGES[VERTICES[5193]] = {{ vertex=VERTICES[732], cost=0 },}
-EDGES[VERTICES[5245]] = {{ vertex=VERTICES[5552], cost=0 },}
-EDGES[VERTICES[5344]] = {{ vertex=VERTICES[5256], cost=0 },}
-EDGES[VERTICES[4344]] = {{ vertex=VERTICES[3106], cost=0 },}
-EDGES[VERTICES[4483]] = {{ vertex=VERTICES[1866], cost=0 },}
-EDGES[VERTICES[5541]] = {{ vertex=VERTICES[2586], cost=0 },}
-EDGES[VERTICES[616]] = {{ vertex=VERTICES[5860], cost=0 },}
-EDGES[VERTICES[1127]] = {{ vertex=VERTICES[5514], cost=0 },}
-EDGES[VERTICES[3718]] = {{ vertex=VERTICES[3671], cost=0 },}
-EDGES[VERTICES[2127]] = {{ vertex=VERTICES[185], cost=0 },}
+EDGES[VERTICES[1351]] = {{ vertex=VERTICES[4966], cost=0 },}
+EDGES[VERTICES[60]] = {{ vertex=VERTICES[5900], cost=0 },}
+EDGES[VERTICES[5609]] = {{ vertex=VERTICES[250], cost=0 },}
+EDGES[VERTICES[3993]] = {{ vertex=VERTICES[719], cost=0 },}
+EDGES[VERTICES[6180]] = {{ vertex=VERTICES[1230], cost=0 },}
+EDGES[VERTICES[187]] = {{ vertex=VERTICES[444], cost=0 },}
+EDGES[VERTICES[6335]] = {{ vertex=VERTICES[6043], cost=0 },}
+EDGES[VERTICES[85]] = {{ vertex=VERTICES[4651], cost=0 },}
+EDGES[VERTICES[3575]] = {{ vertex=VERTICES[4047], cost=0 },}
+EDGES[VERTICES[763]] = {{ vertex=VERTICES[369], cost=0 },}
+EDGES[VERTICES[5558]] = {{ vertex=VERTICES[4158], cost=0 },}
+EDGES[VERTICES[3077]] = {{ vertex=VERTICES[3886], cost=0 },{ vertex=VERTICES[2272], cost=0 },{ vertex=VERTICES[3616], cost=0 },{ vertex=VERTICES[50], cost=0 },}
+EDGES[VERTICES[360]] = {{ vertex=VERTICES[1326], cost=0 },}
+EDGES[VERTICES[5779]] = {{ vertex=VERTICES[4190], cost=0 },}
+EDGES[VERTICES[5555]] = {{ vertex=VERTICES[6023], cost=0 },}
+EDGES[VERTICES[2976]] = {{ vertex=VERTICES[248], cost=0 },}
+EDGES[VERTICES[235]] = {{ vertex=VERTICES[457], cost=0 },}
+EDGES[VERTICES[5112]] = {{ vertex=VERTICES[2750], cost=0 },}
+EDGES[VERTICES[978]] = {{ vertex=VERTICES[5910], cost=0 },}
+EDGES[VERTICES[1881]] = {{ vertex=VERTICES[6054], cost=0 },}
+EDGES[VERTICES[2439]] = {{ vertex=VERTICES[6163], cost=0 },}
+EDGES[VERTICES[3129]] = {{ vertex=VERTICES[2559], cost=0 },}
+EDGES[VERTICES[1868]] = {{ vertex=VERTICES[96], cost=0 },}
+EDGES[VERTICES[1316]] = {{ vertex=VERTICES[5662], cost=0 },}
+EDGES[VERTICES[557]] = {{ vertex=VERTICES[364], cost=0 },}
+EDGES[VERTICES[3062]] = {{ vertex=VERTICES[4178], cost=0 },}
+EDGES[VERTICES[3405]] = {{ vertex=VERTICES[3045], cost=0 },}
+EDGES[VERTICES[708]] = {{ vertex=VERTICES[3555], cost=0 },}
+EDGES[VERTICES[1513]] = {{ vertex=VERTICES[621], cost=0 },}
+EDGES[VERTICES[4312]] = {{ vertex=VERTICES[4917], cost=0 },}
+EDGES[VERTICES[3418]] = {{ vertex=VERTICES[4624], cost=0 },}
+EDGES[VERTICES[6026]] = {{ vertex=VERTICES[5391], cost=0 },}
+EDGES[VERTICES[3645]] = {{ vertex=VERTICES[5517], cost=0 },}
+EDGES[VERTICES[1555]] = {{ vertex=VERTICES[1077], cost=0 },}
+EDGES[VERTICES[6108]] = {{ vertex=VERTICES[5146], cost=0 },}
+EDGES[VERTICES[5478]] = {{ vertex=VERTICES[4561], cost=0 },}
+EDGES[VERTICES[3437]] = {{ vertex=VERTICES[1951], cost=0 },}
+EDGES[VERTICES[726]] = {{ vertex=VERTICES[1422], cost=0 },}
+EDGES[VERTICES[3131]] = {{ vertex=VERTICES[718], cost=0 },}
+EDGES[VERTICES[436]] = {{ vertex=VERTICES[6308], cost=0 },}
+EDGES[VERTICES[4852]] = {{ vertex=VERTICES[1865], cost=0 },}
+EDGES[VERTICES[1672]] = {{ vertex=VERTICES[4622], cost=0 },}
+EDGES[VERTICES[6201]] = {{ vertex=VERTICES[906], cost=0 },}
+EDGES[VERTICES[2648]] = {{ vertex=VERTICES[5967], cost=0 },}
+EDGES[VERTICES[5954]] = {{ vertex=VERTICES[5296], cost=0 },}
+EDGES[VERTICES[4907]] = {{ vertex=VERTICES[4134], cost=0 },}
+EDGES[VERTICES[4124]] = {{ vertex=VERTICES[6294], cost=0 },}
+EDGES[VERTICES[424]] = {{ vertex=VERTICES[1506], cost=0 },}
+EDGES[VERTICES[86]] = {{ vertex=VERTICES[6392], cost=0 },}
+EDGES[VERTICES[571]] = {{ vertex=VERTICES[4176], cost=0 },}
+EDGES[VERTICES[2029]] = {{ vertex=VERTICES[5392], cost=0 },}
+EDGES[VERTICES[1243]] = {{ vertex=VERTICES[3303], cost=0 },}
+EDGES[VERTICES[481]] = {{ vertex=VERTICES[3564], cost=0 },}
+EDGES[VERTICES[4132]] = {{ vertex=VERTICES[59], cost=0 },}
+EDGES[VERTICES[5495]] = {{ vertex=VERTICES[5339], cost=0 },}
+EDGES[VERTICES[300]] = {{ vertex=VERTICES[1161], cost=0 },}
+EDGES[VERTICES[2321]] = {{ vertex=VERTICES[947], cost=0 },}
+EDGES[VERTICES[1028]] = {{ vertex=VERTICES[5738], cost=0 },}
+EDGES[VERTICES[6286]] = {{ vertex=VERTICES[877], cost=0 },}
+EDGES[VERTICES[4135]] = {{ vertex=VERTICES[2494], cost=0 },}
+EDGES[VERTICES[3934]] = {{ vertex=VERTICES[4860], cost=0 },}
+EDGES[VERTICES[3929]] = {{ vertex=VERTICES[605], cost=0 },}
+EDGES[VERTICES[5142]] = {{ vertex=VERTICES[5160], cost=0 },}
+EDGES[VERTICES[555]] = {{ vertex=VERTICES[1742], cost=0 },}
+EDGES[VERTICES[3193]] = {{ vertex=VERTICES[3189], cost=0 },}
+EDGES[VERTICES[1258]] = {{ vertex=VERTICES[3034], cost=0 },}
+EDGES[VERTICES[1606]] = {{ vertex=VERTICES[2567], cost=0 },}
+EDGES[VERTICES[4381]] = {{ vertex=VERTICES[4002], cost=0 },}
+EDGES[VERTICES[3525]] = {{ vertex=VERTICES[3190], cost=0 },}
+EDGES[VERTICES[3085]] = {{ vertex=VERTICES[4530], cost=0 },}
+EDGES[VERTICES[3720]] = {{ vertex=VERTICES[5576], cost=0 },{ vertex=VERTICES[4168], cost=0 },{ vertex=VERTICES[5549], cost=0 },}
+EDGES[VERTICES[1344]] = {{ vertex=VERTICES[6266], cost=0 },}
+EDGES[VERTICES[6285]] = {{ vertex=VERTICES[2594], cost=0 },}
+EDGES[VERTICES[2616]] = {{ vertex=VERTICES[898], cost=0 },}
+EDGES[VERTICES[6231]] = {{ vertex=VERTICES[4231], cost=0 },}
+EDGES[VERTICES[5063]] = {{ vertex=VERTICES[801], cost=0 },}
+EDGES[VERTICES[3825]] = {{ vertex=VERTICES[1215], cost=0 },}
+EDGES[VERTICES[356]] = {{ vertex=VERTICES[671], cost=0 },}
+EDGES[VERTICES[5448]] = {{ vertex=VERTICES[745], cost=0 },}
+EDGES[VERTICES[6154]] = {{ vertex=VERTICES[3500], cost=0 },}
+EDGES[VERTICES[106]] = {{ vertex=VERTICES[5874], cost=0 },}
+EDGES[VERTICES[3079]] = {{ vertex=VERTICES[170], cost=0 },{ vertex=VERTICES[2649], cost=0 },}
+EDGES[VERTICES[4353]] = {{ vertex=VERTICES[5697], cost=0 },}
+EDGES[VERTICES[995]] = {{ vertex=VERTICES[3265], cost=0 },}
+EDGES[VERTICES[3216]] = {{ vertex=VERTICES[4323], cost=0 },}
+EDGES[VERTICES[1495]] = {{ vertex=VERTICES[4759], cost=0 },}
+EDGES[VERTICES[2066]] = {{ vertex=VERTICES[5722], cost=0 },}
+EDGES[VERTICES[335]] = {{ vertex=VERTICES[73], cost=0 },}
+EDGES[VERTICES[1830]] = {{ vertex=VERTICES[5867], cost=0 },}
+EDGES[VERTICES[4592]] = {{ vertex=VERTICES[4605], cost=0 },}
+EDGES[VERTICES[3907]] = {{ vertex=VERTICES[1851], cost=0 },}
+EDGES[VERTICES[825]] = {{ vertex=VERTICES[4401], cost=0 },}
+EDGES[VERTICES[6221]] = {{ vertex=VERTICES[963], cost=0 },}
+EDGES[VERTICES[1510]] = {{ vertex=VERTICES[205], cost=0 },}
+EDGES[VERTICES[1257]] = {{ vertex=VERTICES[5226], cost=0 },{ vertex=VERTICES[87], cost=0 },}
+EDGES[VERTICES[1402]] = {{ vertex=VERTICES[4456], cost=0 },}
+EDGES[VERTICES[2324]] = {{ vertex=VERTICES[3670], cost=0 },}
+EDGES[VERTICES[3445]] = {{ vertex=VERTICES[3447], cost=0 },}
+EDGES[VERTICES[4780]] = {{ vertex=VERTICES[640], cost=0 },}
+EDGES[VERTICES[5878]] = {{ vertex=VERTICES[4339], cost=0 },}
+EDGES[VERTICES[1171]] = {{ vertex=VERTICES[6304], cost=0 },}
+EDGES[VERTICES[1675]] = {{ vertex=VERTICES[3722], cost=0 },}
+EDGES[VERTICES[2505]] = {{ vertex=VERTICES[3400], cost=0 },}
+EDGES[VERTICES[5173]] = {{ vertex=VERTICES[98], cost=0 },}
+EDGES[VERTICES[4016]] = {{ vertex=VERTICES[4577], cost=0 },}
+EDGES[VERTICES[4330]] = {{ vertex=VERTICES[6323], cost=0 },}
+EDGES[VERTICES[4394]] = {{ vertex=VERTICES[225], cost=0 },}
+EDGES[VERTICES[1530]] = {{ vertex=VERTICES[4188], cost=0 },}
+EDGES[VERTICES[2538]] = {{ vertex=VERTICES[3544], cost=0 },}
+EDGES[VERTICES[2327]] = {{ vertex=VERTICES[2007], cost=0 },}
+EDGES[VERTICES[1334]] = {{ vertex=VERTICES[289], cost=0 },}
+EDGES[VERTICES[970]] = {{ vertex=VERTICES[181], cost=0 },}
+EDGES[VERTICES[994]] = {{ vertex=VERTICES[240], cost=0 },}
+EDGES[VERTICES[903]] = {{ vertex=VERTICES[5344], cost=0 },}
+EDGES[VERTICES[2739]] = {{ vertex=VERTICES[5128], cost=0 },}
+EDGES[VERTICES[2162]] = {{ vertex=VERTICES[4295], cost=0 },}
+EDGES[VERTICES[1404]] = {{ vertex=VERTICES[2896], cost=0 },}
+EDGES[VERTICES[6200]] = {{ vertex=VERTICES[3033], cost=0 },}
+EDGES[VERTICES[946]] = {{ vertex=VERTICES[4665], cost=0 },}
+EDGES[VERTICES[3302]] = {{ vertex=VERTICES[5807], cost=0 },}
+EDGES[VERTICES[4211]] = {{ vertex=VERTICES[2032], cost=0 },}
+EDGES[VERTICES[1358]] = {{ vertex=VERTICES[2573], cost=0 },}
+EDGES[VERTICES[4728]] = {{ vertex=VERTICES[5327], cost=0 },}
+EDGES[VERTICES[543]] = {{ vertex=VERTICES[2070], cost=0 },}
+EDGES[VERTICES[6134]] = {{ vertex=VERTICES[960], cost=0 },}
+EDGES[VERTICES[5861]] = {{ vertex=VERTICES[5736], cost=0 },}
+EDGES[VERTICES[5076]] = {{ vertex=VERTICES[1985], cost=0 },}
+EDGES[VERTICES[3960]] = {{ vertex=VERTICES[5265], cost=0 },}
+EDGES[VERTICES[4935]] = {{ vertex=VERTICES[328], cost=0 },}
+EDGES[VERTICES[1239]] = {{ vertex=VERTICES[5951], cost=0 },}
+EDGES[VERTICES[701]] = {{ vertex=VERTICES[2825], cost=0 },}
+EDGES[VERTICES[4507]] = {{ vertex=VERTICES[2537], cost=0 },}
+EDGES[VERTICES[4982]] = {{ vertex=VERTICES[1359], cost=0 },}
+EDGES[VERTICES[4922]] = {{ vertex=VERTICES[1810], cost=0 },}
+EDGES[VERTICES[1363]] = {{ vertex=VERTICES[6101], cost=0 },}
+EDGES[VERTICES[4366]] = {{ vertex=VERTICES[4363], cost=0 },}
+EDGES[VERTICES[3605]] = {{ vertex=VERTICES[804], cost=0 },}
+EDGES[VERTICES[132]] = {{ vertex=VERTICES[1080], cost=0 },}
+EDGES[VERTICES[4418]] = {{ vertex=VERTICES[4999], cost=0 },}
+EDGES[VERTICES[940]] = {{ vertex=VERTICES[762], cost=0 },}
+EDGES[VERTICES[2617]] = {{ vertex=VERTICES[4675], cost=0 },}
+EDGES[VERTICES[2257]] = {{ vertex=VERTICES[4595], cost=0 },}
+EDGES[VERTICES[3098]] = {{ vertex=VERTICES[2563], cost=0 },}
+EDGES[VERTICES[4091]] = {{ vertex=VERTICES[636], cost=0 },}
+EDGES[VERTICES[3242]] = {{ vertex=VERTICES[5343], cost=0 },}
+EDGES[VERTICES[4014]] = {{ vertex=VERTICES[2387], cost=0 },}
+EDGES[VERTICES[5099]] = {{ vertex=VERTICES[3410], cost=0 },}
+EDGES[VERTICES[4843]] = {{ vertex=VERTICES[4831], cost=0 },}
+EDGES[VERTICES[1607]] = {{ vertex=VERTICES[4018], cost=0 },}
+EDGES[VERTICES[5059]] = {{ vertex=VERTICES[80], cost=0 },}
+EDGES[VERTICES[904]] = {{ vertex=VERTICES[520], cost=0 },}
+EDGES[VERTICES[3146]] = {{ vertex=VERTICES[5158], cost=0 },}
+EDGES[VERTICES[467]] = {{ vertex=VERTICES[5966], cost=0 },}
+EDGES[VERTICES[6321]] = {{ vertex=VERTICES[2090], cost=0 },}
+EDGES[VERTICES[5078]] = {{ vertex=VERTICES[44], cost=0 },}
+EDGES[VERTICES[734]] = {{ vertex=VERTICES[2990], cost=0 },}
+EDGES[VERTICES[4051]] = {{ vertex=VERTICES[6040], cost=0 },}
+EDGES[VERTICES[5720]] = {{ vertex=VERTICES[3261], cost=0 },}
+EDGES[VERTICES[3687]] = {{ vertex=VERTICES[2536], cost=0 },}
+EDGES[VERTICES[1423]] = {{ vertex=VERTICES[135], cost=0 },}
+EDGES[VERTICES[1767]] = {{ vertex=VERTICES[1894], cost=0 },}
+EDGES[VERTICES[2244]] = {{ vertex=VERTICES[5766], cost=0 },}
+EDGES[VERTICES[1698]] = {{ vertex=VERTICES[3984], cost=0 },}
+EDGES[VERTICES[3066]] = {{ vertex=VERTICES[5195], cost=0 },}
+EDGES[VERTICES[3808]] = {{ vertex=VERTICES[3185], cost=0 },}
+EDGES[VERTICES[2898]] = {{ vertex=VERTICES[6130], cost=0 },{ vertex=VERTICES[6053], cost=0 },{ vertex=VERTICES[2906], cost=0 },{ vertex=VERTICES[2412], cost=0 },}
+EDGES[VERTICES[6261]] = {{ vertex=VERTICES[5986], cost=0 },}
+EDGES[VERTICES[4671]] = {{ vertex=VERTICES[1802], cost=0 },}
+EDGES[VERTICES[4695]] = {{ vertex=VERTICES[3812], cost=0 },}
+EDGES[VERTICES[4192]] = {{ vertex=VERTICES[4791], cost=0 },}
+EDGES[VERTICES[47]] = {{ vertex=VERTICES[2142], cost=0 },}
+EDGES[VERTICES[3192]] = {{ vertex=VERTICES[6333], cost=0 },}
+EDGES[VERTICES[4131]] = {{ vertex=VERTICES[5294], cost=0 },}
+EDGES[VERTICES[20]] = {{ vertex=VERTICES[5789], cost=0 },}
+EDGES[VERTICES[82]] = {{ vertex=VERTICES[3836], cost=0 },}
+EDGES[VERTICES[3585]] = {{ vertex=VERTICES[2407], cost=0 },}
+EDGES[VERTICES[3875]] = {{ vertex=VERTICES[3873], cost=0 },}
+EDGES[VERTICES[5615]] = {{ vertex=VERTICES[5731], cost=0 },}
+EDGES[VERTICES[1090]] = {{ vertex=VERTICES[774], cost=0 },}
+EDGES[VERTICES[4597]] = {{ vertex=VERTICES[4316], cost=0 },}
+EDGES[VERTICES[340]] = {{ vertex=VERTICES[2317], cost=0 },}
+EDGES[VERTICES[5260]] = {{ vertex=VERTICES[2353], cost=0 },}
+EDGES[VERTICES[4607]] = {{ vertex=VERTICES[533], cost=0 },}
+EDGES[VERTICES[1984]] = {{ vertex=VERTICES[567], cost=0 },}
+EDGES[VERTICES[5532]] = {{ vertex=VERTICES[2539], cost=0 },{ vertex=VERTICES[406], cost=0 },{ vertex=VERTICES[2062], cost=0 },}
+EDGES[VERTICES[435]] = {{ vertex=VERTICES[2549], cost=0 },}
+EDGES[VERTICES[5034]] = {{ vertex=VERTICES[1987], cost=0 },}
+EDGES[VERTICES[4866]] = {{ vertex=VERTICES[4079], cost=0 },}
+EDGES[VERTICES[3731]] = {{ vertex=VERTICES[5207], cost=0 },}
+EDGES[VERTICES[5436]] = {{ vertex=VERTICES[5651], cost=0 },}
+EDGES[VERTICES[3897]] = {{ vertex=VERTICES[3358], cost=0 },}
+EDGES[VERTICES[28]] = {{ vertex=VERTICES[1797], cost=0 },}
+EDGES[VERTICES[2265]] = {{ vertex=VERTICES[1813], cost=0 },}
+EDGES[VERTICES[3556]] = {{ vertex=VERTICES[522], cost=0 },}
+EDGES[VERTICES[1256]] = {{ vertex=VERTICES[4054], cost=0 },}
+EDGES[VERTICES[6188]] = {{ vertex=VERTICES[3852], cost=0 },}
+EDGES[VERTICES[2079]] = {{ vertex=VERTICES[350], cost=0 },}
+EDGES[VERTICES[1814]] = {{ vertex=VERTICES[2913], cost=0 },}
+EDGES[VERTICES[3524]] = {{ vertex=VERTICES[787], cost=0 },}
+EDGES[VERTICES[546]] = {{ vertex=VERTICES[4297], cost=0 },}
+EDGES[VERTICES[4920]] = {{ vertex=VERTICES[5355], cost=0 },}
+EDGES[VERTICES[6399]] = {{ vertex=VERTICES[4445], cost=0 },}
+EDGES[VERTICES[3890]] = {{ vertex=VERTICES[2136], cost=0 },}
+EDGES[VERTICES[1148]] = {{ vertex=VERTICES[4223], cost=0 },}
+EDGES[VERTICES[3088]] = {{ vertex=VERTICES[6141], cost=0 },}
+EDGES[VERTICES[3097]] = {{ vertex=VERTICES[1116], cost=0 },}
+EDGES[VERTICES[3668]] = {{ vertex=VERTICES[5752], cost=0 },}
+EDGES[VERTICES[70]] = {{ vertex=VERTICES[6309], cost=0 },}
+EDGES[VERTICES[3117]] = {{ vertex=VERTICES[3617], cost=0 },}
+EDGES[VERTICES[6283]] = {{ vertex=VERTICES[6407], cost=0 },}
+EDGES[VERTICES[828]] = {{ vertex=VERTICES[1496], cost=0 },}
+EDGES[VERTICES[4527]] = {{ vertex=VERTICES[1886], cost=0 },}
+EDGES[VERTICES[606]] = {{ vertex=VERTICES[4411], cost=0 },}
+EDGES[VERTICES[3618]] = {{ vertex=VERTICES[3763], cost=0 },}
+EDGES[VERTICES[1560]] = {{ vertex=VERTICES[4879], cost=0 },}
+EDGES[VERTICES[5400]] = {{ vertex=VERTICES[1791], cost=0 },}
+EDGES[VERTICES[1122]] = {{ vertex=VERTICES[470], cost=0 },}
+EDGES[VERTICES[3626]] = {{ vertex=VERTICES[6398], cost=0 },}
+EDGES[VERTICES[4267]] = {{ vertex=VERTICES[854], cost=0 },}
+EDGES[VERTICES[4847]] = {{ vertex=VERTICES[6008], cost=0 },}
+EDGES[VERTICES[5069]] = {{ vertex=VERTICES[5796], cost=0 },}
+EDGES[VERTICES[3382]] = {{ vertex=VERTICES[5042], cost=0 },}
+EDGES[VERTICES[286]] = {{ vertex=VERTICES[432], cost=0 },}
+EDGES[VERTICES[464]] = {{ vertex=VERTICES[6010], cost=0 },}
+EDGES[VERTICES[1236]] = {{ vertex=VERTICES[3942], cost=0 },}
+EDGES[VERTICES[2341]] = {{ vertex=VERTICES[5220], cost=0 },}
+EDGES[VERTICES[6371]] = {{ vertex=VERTICES[6227], cost=0 },}
+EDGES[VERTICES[1503]] = {{ vertex=VERTICES[2662], cost=0 },}
+EDGES[VERTICES[2173]] = {{ vertex=VERTICES[1818], cost=0 },}
+EDGES[VERTICES[6225]] = {{ vertex=VERTICES[4139], cost=0 },}
+EDGES[VERTICES[1125]] = {{ vertex=VERTICES[2908], cost=0 },}
+EDGES[VERTICES[4230]] = {{ vertex=VERTICES[262], cost=0 },}
+EDGES[VERTICES[4516]] = {{ vertex=VERTICES[1678], cost=0 },}
+EDGES[VERTICES[1371]] = {{ vertex=VERTICES[738], cost=0 },}
+EDGES[VERTICES[3078]] = {{ vertex=VERTICES[5054], cost=0 },}
+EDGES[VERTICES[431]] = {{ vertex=VERTICES[609], cost=0 },}
+EDGES[VERTICES[4057]] = {{ vertex=VERTICES[2281], cost=0 },}
+EDGES[VERTICES[1561]] = {{ vertex=VERTICES[189], cost=0 },}
+EDGES[VERTICES[3988]] = {{ vertex=VERTICES[4546], cost=0 },}
+EDGES[VERTICES[2919]] = {{ vertex=VERTICES[3232], cost=0 },}
+EDGES[VERTICES[1226]] = {{ vertex=VERTICES[6384], cost=0 },}
+EDGES[VERTICES[3381]] = {{ vertex=VERTICES[6025], cost=0 },}
+EDGES[VERTICES[4036]] = {{ vertex=VERTICES[4341], cost=0 },}
+EDGES[VERTICES[4865]] = {{ vertex=VERTICES[2749], cost=0 },}
+EDGES[VERTICES[4037]] = {{ vertex=VERTICES[4012], cost=0 },}
+EDGES[VERTICES[5994]] = {{ vertex=VERTICES[488], cost=0 },}
+EDGES[VERTICES[1251]] = {{ vertex=VERTICES[1487], cost=0 },}
+EDGES[VERTICES[624]] = {{ vertex=VERTICES[1202], cost=0 },}
+EDGES[VERTICES[1756]] = {{ vertex=VERTICES[401], cost=0 },}
+EDGES[VERTICES[5712]] = {{ vertex=VERTICES[3739], cost=0 },}
+EDGES[VERTICES[6000]] = {{ vertex=VERTICES[2810], cost=0 },}
+EDGES[VERTICES[6330]] = {{ vertex=VERTICES[1559], cost=0 },}
+EDGES[VERTICES[1311]] = {{ vertex=VERTICES[5851], cost=0 },}
+EDGES[VERTICES[3723]] = {{ vertex=VERTICES[3063], cost=0 },}
+EDGES[VERTICES[4084]] = {{ vertex=VERTICES[5424], cost=0 },}
+EDGES[VERTICES[2670]] = {{ vertex=VERTICES[3347], cost=0 },}
+EDGES[VERTICES[2489]] = {{ vertex=VERTICES[2436], cost=0 },}
+EDGES[VERTICES[739]] = {{ vertex=VERTICES[4688], cost=0 },}
+EDGES[VERTICES[4720]] = {{ vertex=VERTICES[5232], cost=0 },}
+EDGES[VERTICES[2894]] = {{ vertex=VERTICES[6175], cost=0 },}
+EDGES[VERTICES[144]] = {{ vertex=VERTICES[4855], cost=0 },}
+EDGES[VERTICES[3941]] = {{ vertex=VERTICES[1355], cost=0 },}
+EDGES[VERTICES[5411]] = {{ vertex=VERTICES[2312], cost=0 },}
+EDGES[VERTICES[6018]] = {{ vertex=VERTICES[1966], cost=0 },}
+EDGES[VERTICES[3661]] = {{ vertex=VERTICES[1550], cost=0 },}
+EDGES[VERTICES[1745]] = {{ vertex=VERTICES[5264], cost=0 },}
+EDGES[VERTICES[5665]] = {{ vertex=VERTICES[4652], cost=0 },}
+EDGES[VERTICES[3068]] = {{ vertex=VERTICES[2022], cost=0 },}
+EDGES[VERTICES[3441]] = {{ vertex=VERTICES[3450], cost=0 },}
+EDGES[VERTICES[4492]] = {{ vertex=VERTICES[2297], cost=0 },}
+EDGES[VERTICES[3163]] = {{ vertex=VERTICES[973], cost=0 },}
+EDGES[VERTICES[1306]] = {{ vertex=VERTICES[3885], cost=0 },}
+EDGES[VERTICES[2811]] = {{ vertex=VERTICES[971], cost=0 },}
+EDGES[VERTICES[6354]] = {{ vertex=VERTICES[3377], cost=0 },}
+EDGES[VERTICES[5569]] = {{ vertex=VERTICES[3474], cost=0 },}
+EDGES[VERTICES[1840]] = {{ vertex=VERTICES[748], cost=0 },}
+EDGES[VERTICES[30]] = {{ vertex=VERTICES[3477], cost=0 },}
+EDGES[VERTICES[964]] = {{ vertex=VERTICES[1048], cost=0 },}
+EDGES[VERTICES[2654]] = {{ vertex=VERTICES[4526], cost=0 },}
+EDGES[VERTICES[2275]] = {{ vertex=VERTICES[495], cost=0 },}
+EDGES[VERTICES[4291]] = {{ vertex=VERTICES[4043], cost=0 },}
+EDGES[VERTICES[367]] = {{ vertex=VERTICES[1274], cost=0 },}
+EDGES[VERTICES[2626]] = {{ vertex=VERTICES[4205], cost=0 },}
+EDGES[VERTICES[2316]] = {{ vertex=VERTICES[3424], cost=0 },}
+EDGES[VERTICES[4206]] = {{ vertex=VERTICES[1362], cost=0 },}
+EDGES[VERTICES[3076]] = {{ vertex=VERTICES[2009], cost=0 },}
+EDGES[VERTICES[5918]] = {{ vertex=VERTICES[3281], cost=0 },}
+EDGES[VERTICES[4729]] = {{ vertex=VERTICES[5732], cost=0 },}
+EDGES[VERTICES[1145]] = {{ vertex=VERTICES[5709], cost=0 },}
+EDGES[VERTICES[169]] = {{ vertex=VERTICES[3132], cost=0 },}
+EDGES[VERTICES[1686]] = {{ vertex=VERTICES[2892], cost=0 },}
+EDGES[VERTICES[4793]] = {{ vertex=VERTICES[2762], cost=0 },}
+EDGES[VERTICES[4736]] = {{ vertex=VERTICES[3333], cost=0 },}
+EDGES[VERTICES[1006]] = {{ vertex=VERTICES[3255], cost=0 },}
+EDGES[VERTICES[2781]] = {{ vertex=VERTICES[3791], cost=0 },}
+EDGES[VERTICES[320]] = {{ vertex=VERTICES[6223], cost=0 },}
+EDGES[VERTICES[2374]] = {{ vertex=VERTICES[3609], cost=0 },}
+EDGES[VERTICES[4972]] = {{ vertex=VERTICES[2190], cost=0 },}
+EDGES[VERTICES[2531]] = {{ vertex=VERTICES[3622], cost=0 },}
+EDGES[VERTICES[3352]] = {{ vertex=VERTICES[2763], cost=0 },}
+EDGES[VERTICES[969]] = {{ vertex=VERTICES[1146], cost=0 },}
+EDGES[VERTICES[2876]] = {{ vertex=VERTICES[2928], cost=0 },}
+EDGES[VERTICES[5887]] = {{ vertex=VERTICES[1124], cost=0 },}
+EDGES[VERTICES[576]] = {{ vertex=VERTICES[4144], cost=0 },}
+EDGES[VERTICES[2690]] = {{ vertex=VERTICES[1913], cost=0 },}
+EDGES[VERTICES[2344]] = {{ vertex=VERTICES[4807], cost=0 },}
+EDGES[VERTICES[5568]] = {{ vertex=VERTICES[4961], cost=0 },}
+EDGES[VERTICES[5243]] = {{ vertex=VERTICES[810], cost=0 },}
+EDGES[VERTICES[4634]] = {{ vertex=VERTICES[1973], cost=0 },}
+EDGES[VERTICES[2137]] = {{ vertex=VERTICES[2596], cost=0 },}
+EDGES[VERTICES[5259]] = {{ vertex=VERTICES[4655], cost=0 },}
+EDGES[VERTICES[1269]] = {{ vertex=VERTICES[1861], cost=0 },}
+EDGES[VERTICES[5718]] = {{ vertex=VERTICES[891], cost=0 },}
+EDGES[VERTICES[4653]] = {{ vertex=VERTICES[2968], cost=0 },}
+EDGES[VERTICES[3268]] = {{ vertex=VERTICES[6232], cost=0 },}
+EDGES[VERTICES[6361]] = {{ vertex=VERTICES[2456], cost=0 },}
+EDGES[VERTICES[1427]] = {{ vertex=VERTICES[5703], cost=0 },}
+EDGES[VERTICES[5929]] = {{ vertex=VERTICES[4050], cost=0 },}
+EDGES[VERTICES[3989]] = {{ vertex=VERTICES[2280], cost=0 },}
+EDGES[VERTICES[2454]] = {{ vertex=VERTICES[5793], cost=0 },}
+EDGES[VERTICES[2438]] = {{ vertex=VERTICES[1629], cost=0 },}
+EDGES[VERTICES[980]] = {{ vertex=VERTICES[811], cost=0 },}
+EDGES[VERTICES[1071]] = {{ vertex=VERTICES[5071], cost=0 },}
+EDGES[VERTICES[5573]] = {{ vertex=VERTICES[2335], cost=0 },}
+EDGES[VERTICES[892]] = {{ vertex=VERTICES[6171], cost=0 },}
+EDGES[VERTICES[1130]] = {{ vertex=VERTICES[983], cost=0 },}
+EDGES[VERTICES[5706]] = {{ vertex=VERTICES[5213], cost=0 },}
+EDGES[VERTICES[1450]] = {{ vertex=VERTICES[808], cost=0 },}
+EDGES[VERTICES[2166]] = {{ vertex=VERTICES[3814], cost=0 },}
+EDGES[VERTICES[450]] = {{ vertex=VERTICES[1705], cost=0 },}
+EDGES[VERTICES[3935]] = {{ vertex=VERTICES[4494], cost=0 },{ vertex=VERTICES[3267], cost=0 },{ vertex=VERTICES[1281], cost=0 },{ vertex=VERTICES[4479], cost=0 },}
+EDGES[VERTICES[5278]] = {{ vertex=VERTICES[4179], cost=0 },}
+EDGES[VERTICES[2914]] = {{ vertex=VERTICES[5109], cost=0 },}
+EDGES[VERTICES[2331]] = {{ vertex=VERTICES[600], cost=0 },}
+EDGES[VERTICES[3954]] = {{ vertex=VERTICES[2923], cost=0 },}
+EDGES[VERTICES[4626]] = {{ vertex=VERTICES[3521], cost=0 },{ vertex=VERTICES[5372], cost=0 },{ vertex=VERTICES[2619], cost=0 },{ vertex=VERTICES[6104], cost=0 },}
+EDGES[VERTICES[4359]] = {{ vertex=VERTICES[6210], cost=0 },}
+EDGES[VERTICES[1644]] = {{ vertex=VERTICES[1442], cost=0 },}
+EDGES[VERTICES[1093]] = {{ vertex=VERTICES[831], cost=0 },}
+EDGES[VERTICES[2841]] = {{ vertex=VERTICES[4525], cost=0 },}
+EDGES[VERTICES[3970]] = {{ vertex=VERTICES[6365], cost=0 },}
+EDGES[VERTICES[5816]] = {{ vertex=VERTICES[5177], cost=0 },}
+EDGES[VERTICES[3476]] = {{ vertex=VERTICES[178], cost=0 },}
+EDGES[VERTICES[3322]] = {{ vertex=VERTICES[544], cost=0 },}
+EDGES[VERTICES[2583]] = {{ vertex=VERTICES[5164], cost=0 },}
+EDGES[VERTICES[13]] = {{ vertex=VERTICES[909], cost=0 },}
+EDGES[VERTICES[2911]] = {{ vertex=VERTICES[1633], cost=0 },}
+EDGES[VERTICES[1978]] = {{ vertex=VERTICES[5643], cost=0 },}
+EDGES[VERTICES[5199]] = {{ vertex=VERTICES[1602], cost=0 },}
+EDGES[VERTICES[2182]] = {{ vertex=VERTICES[618], cost=0 },}
+EDGES[VERTICES[5305]] = {{ vertex=VERTICES[6339], cost=0 },}
+EDGES[VERTICES[5151]] = {{ vertex=VERTICES[3089], cost=0 },}
+EDGES[VERTICES[2364]] = {{ vertex=VERTICES[1248], cost=0 },}
+EDGES[VERTICES[2419]] = {{ vertex=VERTICES[1044], cost=0 },}
+EDGES[VERTICES[3086]] = {{ vertex=VERTICES[3530], cost=0 },}
+EDGES[VERTICES[1221]] = {{ vertex=VERTICES[4983], cost=0 },}
+EDGES[VERTICES[2453]] = {{ vertex=VERTICES[3664], cost=0 },{ vertex=VERTICES[4457], cost=0 },{ vertex=VERTICES[2769], cost=0 },}
+EDGES[VERTICES[3526]] = {{ vertex=VERTICES[4228], cost=0 },}
+EDGES[VERTICES[2352]] = {{ vertex=VERTICES[5175], cost=0 },}
+EDGES[VERTICES[5035]] = {{ vertex=VERTICES[3454], cost=0 },}
+EDGES[VERTICES[5876]] = {{ vertex=VERTICES[2782], cost=0 },}
+EDGES[VERTICES[2174]] = {{ vertex=VERTICES[4707], cost=0 },}
+EDGES[VERTICES[3705]] = {{ vertex=VERTICES[989], cost=0 },}
+EDGES[VERTICES[2041]] = {{ vertex=VERTICES[2194], cost=0 },}
+EDGES[VERTICES[4126]] = {{ vertex=VERTICES[3301], cost=0 },}
+EDGES[VERTICES[2147]] = {{ vertex=VERTICES[3363], cost=0 },}
+EDGES[VERTICES[4495]] = {{ vertex=VERTICES[4802], cost=0 },}
+EDGES[VERTICES[5358]] = {{ vertex=VERTICES[5591], cost=0 },}
+EDGES[VERTICES[2667]] = {{ vertex=VERTICES[2724], cost=0 },}
+EDGES[VERTICES[1645]] = {{ vertex=VERTICES[3985], cost=0 },}
+EDGES[VERTICES[6091]] = {{ vertex=VERTICES[1504], cost=0 },}
+EDGES[VERTICES[5686]] = {{ vertex=VERTICES[6061], cost=0 },}
+EDGES[VERTICES[1228]] = {{ vertex=VERTICES[2887], cost=0 },}
+EDGES[VERTICES[1732]] = {{ vertex=VERTICES[3817], cost=0 },}
+EDGES[VERTICES[4227]] = {{ vertex=VERTICES[426], cost=0 },}
+EDGES[VERTICES[5814]] = {{ vertex=VERTICES[6185], cost=0 },}
+EDGES[VERTICES[359]] = {{ vertex=VERTICES[4169], cost=0 },}
+EDGES[VERTICES[558]] = {{ vertex=VERTICES[927], cost=0 },}
+EDGES[VERTICES[939]] = {{ vertex=VERTICES[2490], cost=0 },}
+EDGES[VERTICES[4299]] = {{ vertex=VERTICES[3713], cost=0 },}
+EDGES[VERTICES[5983]] = {{ vertex=VERTICES[2481], cost=0 },}
+EDGES[VERTICES[4636]] = {{ vertex=VERTICES[959], cost=0 },}
+EDGES[VERTICES[1621]] = {{ vertex=VERTICES[4570], cost=0 },}
+EDGES[VERTICES[5242]] = {{ vertex=VERTICES[5053], cost=0 },}
+EDGES[VERTICES[5701]] = {{ vertex=VERTICES[55], cost=0 },}
+EDGES[VERTICES[2278]] = {{ vertex=VERTICES[6168], cost=0 },}
+EDGES[VERTICES[5758]] = {{ vertex=VERTICES[1247], cost=0 },}
+EDGES[VERTICES[3743]] = {{ vertex=VERTICES[2978], cost=0 },}
+EDGES[VERTICES[458]] = {{ vertex=VERTICES[2254], cost=0 },}
+EDGES[VERTICES[1671]] = {{ vertex=VERTICES[4332], cost=0 },}
+EDGES[VERTICES[5610]] = {{ vertex=VERTICES[3316], cost=0 },}
+EDGES[VERTICES[5470]] = {{ vertex=VERTICES[5394], cost=0 },}
+EDGES[VERTICES[2491]] = {{ vertex=VERTICES[4241], cost=0 },}
+EDGES[VERTICES[3213]] = {{ vertex=VERTICES[4881], cost=0 },}
+EDGES[VERTICES[2127]] = {{ vertex=VERTICES[3458], cost=0 },}
+EDGES[VERTICES[3389]] = {{ vertex=VERTICES[2080], cost=0 },}
+EDGES[VERTICES[3223]] = {{ vertex=VERTICES[1197], cost=0 },}
+EDGES[VERTICES[1489]] = {{ vertex=VERTICES[2642], cost=0 },}
+EDGES[VERTICES[6300]] = {{ vertex=VERTICES[5297], cost=0 },}
+EDGES[VERTICES[1291]] = {{ vertex=VERTICES[2931], cost=0 },}
+EDGES[VERTICES[1648]] = {{ vertex=VERTICES[259], cost=0 },}
+EDGES[VERTICES[3794]] = {{ vertex=VERTICES[5336], cost=0 },}
+EDGES[VERTICES[201]] = {{ vertex=VERTICES[2461], cost=0 },}
+EDGES[VERTICES[6397]] = {{ vertex=VERTICES[5457], cost=0 },}
+EDGES[VERTICES[697]] = {{ vertex=VERTICES[1184], cost=0 },}
+EDGES[VERTICES[2223]] = {{ vertex=VERTICES[1414], cost=0 },}
+EDGES[VERTICES[5084]] = {{ vertex=VERTICES[5587], cost=0 },}
+EDGES[VERTICES[1106]] = {{ vertex=VERTICES[2339], cost=0 },}
+EDGES[VERTICES[5304]] = {{ vertex=VERTICES[4740], cost=0 },}
+EDGES[VERTICES[4502]] = {{ vertex=VERTICES[1581], cost=0 },}
+EDGES[VERTICES[2969]] = {{ vertex=VERTICES[370], cost=0 },}
+EDGES[VERTICES[2701]] = {{ vertex=VERTICES[3099], cost=0 },}
+EDGES[VERTICES[1878]] = {{ vertex=VERTICES[447], cost=0 },}
+EDGES[VERTICES[4721]] = {{ vertex=VERTICES[5368], cost=0 },}
+EDGES[VERTICES[6238]] = {{ vertex=VERTICES[5676], cost=0 },}
+EDGES[VERTICES[3473]] = {{ vertex=VERTICES[4890], cost=0 },}
+EDGES[VERTICES[4214]] = {{ vertex=VERTICES[4680], cost=0 },}
+EDGES[VERTICES[5090]] = {{ vertex=VERTICES[5104], cost=0 },}
+EDGES[VERTICES[5116]] = {{ vertex=VERTICES[1940], cost=0 },}
+EDGES[VERTICES[2119]] = {{ vertex=VERTICES[2056], cost=0 },}
+EDGES[VERTICES[852]] = {{ vertex=VERTICES[1548], cost=0 },}
+EDGES[VERTICES[4038]] = {{ vertex=VERTICES[5080], cost=0 },}
+EDGES[VERTICES[1182]] = {{ vertex=VERTICES[6015], cost=0 },}
+EDGES[VERTICES[5685]] = {{ vertex=VERTICES[2909], cost=0 },}
+EDGES[VERTICES[4264]] = {{ vertex=VERTICES[3851], cost=0 },}
+EDGES[VERTICES[2198]] = {{ vertex=VERTICES[1652], cost=0 },}
+EDGES[VERTICES[6099]] = {{ vertex=VERTICES[3829], cost=0 },}
+EDGES[VERTICES[3937]] = {{ vertex=VERTICES[5519], cost=0 },}
+EDGES[VERTICES[4021]] = {{ vertex=VERTICES[510], cost=0 },}
+EDGES[VERTICES[4249]] = {{ vertex=VERTICES[3206], cost=0 },}
+EDGES[VERTICES[1569]] = {{ vertex=VERTICES[1019], cost=0 },}
+EDGES[VERTICES[6172]] = {{ vertex=VERTICES[3280], cost=0 },}
+EDGES[VERTICES[308]] = {{ vertex=VERTICES[3357], cost=0 },}
+EDGES[VERTICES[5435]] = {{ vertex=VERTICES[4698], cost=0 },}
+EDGES[VERTICES[5958]] = {{ vertex=VERTICES[1053], cost=0 },}
+EDGES[VERTICES[1677]] = {{ vertex=VERTICES[514], cost=0 },}
+EDGES[VERTICES[4709]] = {{ vertex=VERTICES[3312], cost=0 },}
+EDGES[VERTICES[5157]] = {{ vertex=VERTICES[1917], cost=0 },{ vertex=VERTICES[6360], cost=0 },{ vertex=VERTICES[4674], cost=0 },{ vertex=VERTICES[309], cost=0 },}
+EDGES[VERTICES[635]] = {{ vertex=VERTICES[4632], cost=0 },}
+EDGES[VERTICES[5132]] = {{ vertex=VERTICES[2664], cost=0 },}
+EDGES[VERTICES[5241]] = {{ vertex=VERTICES[4725], cost=0 },}
+EDGES[VERTICES[3805]] = {{ vertex=VERTICES[5614], cost=0 },}
+EDGES[VERTICES[2313]] = {{ vertex=VERTICES[1008], cost=0 },}
+EDGES[VERTICES[5281]] = {{ vertex=VERTICES[4198], cost=0 },}
+EDGES[VERTICES[6346]] = {{ vertex=VERTICES[5600], cost=0 },{ vertex=VERTICES[727], cost=0 },{ vertex=VERTICES[6074], cost=0 },}
+EDGES[VERTICES[4281]] = {{ vertex=VERTICES[7], cost=0 },}
+EDGES[VERTICES[1785]] = {{ vertex=VERTICES[4711], cost=0 },}
+EDGES[VERTICES[3895]] = {{ vertex=VERTICES[3110], cost=0 },}
+EDGES[VERTICES[2746]] = {{ vertex=VERTICES[5936], cost=0 },}
+EDGES[VERTICES[2545]] = {{ vertex=VERTICES[4081], cost=0 },}
+EDGES[VERTICES[209]] = {{ vertex=VERTICES[3187], cost=0 },}
+EDGES[VERTICES[2406]] = {{ vertex=VERTICES[1582], cost=0 },}
+EDGES[VERTICES[3356]] = {{ vertex=VERTICES[3226], cost=0 },}
+EDGES[VERTICES[3667]] = {{ vertex=VERTICES[702], cost=0 },}
+EDGES[VERTICES[2785]] = {{ vertex=VERTICES[4882], cost=0 },}
+EDGES[VERTICES[2031]] = {{ vertex=VERTICES[6037], cost=0 },}
+EDGES[VERTICES[2308]] = {{ vertex=VERTICES[3651], cost=0 },}
+EDGES[VERTICES[3961]] = {{ vertex=VERTICES[4194], cost=0 },}
+EDGES[VERTICES[4334]] = {{ vertex=VERTICES[709], cost=0 },}
+EDGES[VERTICES[6226]] = {{ vertex=VERTICES[4800], cost=0 },}
+EDGES[VERTICES[3550]] = {{ vertex=VERTICES[2802], cost=0 },}
+EDGES[VERTICES[2124]] = {{ vertex=VERTICES[6241], cost=0 },}
+EDGES[VERTICES[1194]] = {{ vertex=VERTICES[2980], cost=0 },{ vertex=VERTICES[418], cost=0 },{ vertex=VERTICES[4606], cost=0 },}
+EDGES[VERTICES[1632]] = {{ vertex=VERTICES[4268], cost=0 },}
+EDGES[VERTICES[549]] = {{ vertex=VERTICES[4838], cost=0 },}
+EDGES[VERTICES[5421]] = {{ vertex=VERTICES[1816], cost=0 },}
+EDGES[VERTICES[610]] = {{ vertex=VERTICES[416], cost=0 },}
+EDGES[VERTICES[3272]] = {{ vertex=VERTICES[4986], cost=0 },}
+EDGES[VERTICES[2087]] = {{ vertex=VERTICES[4181], cost=0 },}
+EDGES[VERTICES[5005]] = {{ vertex=VERTICES[4123], cost=0 },}
+EDGES[VERTICES[2797]] = {{ vertex=VERTICES[3813], cost=0 },}
+EDGES[VERTICES[4748]] = {{ vertex=VERTICES[54], cost=0 },}
+EDGES[VERTICES[4798]] = {{ vertex=VERTICES[3343], cost=0 },}
+EDGES[VERTICES[2839]] = {{ vertex=VERTICES[198], cost=0 },}
+EDGES[VERTICES[2425]] = {{ vertex=VERTICES[5855], cost=0 },}
+EDGES[VERTICES[3339]] = {{ vertex=VERTICES[532], cost=0 },}
+EDGES[VERTICES[1353]] = {{ vertex=VERTICES[5328], cost=0 },}
+EDGES[VERTICES[4703]] = {{ vertex=VERTICES[1681], cost=0 },}
+EDGES[VERTICES[2183]] = {{ vertex=VERTICES[5186], cost=0 },}
+EDGES[VERTICES[6166]] = {{ vertex=VERTICES[2067], cost=0 },}
+EDGES[VERTICES[5728]] = {{ vertex=VERTICES[445], cost=0 },}
+EDGES[VERTICES[1313]] = {{ vertex=VERTICES[4069], cost=0 },}
+EDGES[VERTICES[5809]] = {{ vertex=VERTICES[1444], cost=0 },}
+EDGES[VERTICES[4201]] = {{ vertex=VERTICES[1577], cost=0 },}
+EDGES[VERTICES[3082]] = {{ vertex=VERTICES[3502], cost=0 },}
+EDGES[VERTICES[6343]] = {{ vertex=VERTICES[5244], cost=0 },}
+EDGES[VERTICES[3360]] = {{ vertex=VERTICES[2059], cost=0 },}
+EDGES[VERTICES[2710]] = {{ vertex=VERTICES[2078], cost=0 },}
+EDGES[VERTICES[4967]] = {{ vertex=VERTICES[4482], cost=0 },}
+EDGES[VERTICES[6358]] = {{ vertex=VERTICES[4804], cost=0 },}
+EDGES[VERTICES[3287]] = {{ vertex=VERTICES[2040], cost=0 },}
+EDGES[VERTICES[5971]] = {{ vertex=VERTICES[2874], cost=0 },}
+EDGES[VERTICES[4167]] = {{ vertex=VERTICES[1322], cost=0 },{ vertex=VERTICES[6228], cost=0 },{ vertex=VERTICES[1928], cost=0 },}
+EDGES[VERTICES[1869]] = {{ vertex=VERTICES[4532], cost=0 },}
+EDGES[VERTICES[160]] = {{ vertex=VERTICES[6234], cost=0 },}
+EDGES[VERTICES[2228]] = {{ vertex=VERTICES[3105], cost=0 },}
+EDGES[VERTICES[5586]] = {{ vertex=VERTICES[2758], cost=0 },}
+EDGES[VERTICES[1309]] = {{ vertex=VERTICES[4229], cost=0 },{ vertex=VERTICES[4052], cost=0 },{ vertex=VERTICES[2633], cost=0 },{ vertex=VERTICES[116], cost=0 },}
+EDGES[VERTICES[5183]] = {{ vertex=VERTICES[740], cost=0 },}
+EDGES[VERTICES[5634]] = {{ vertex=VERTICES[5557], cost=0 },}
+EDGES[VERTICES[3120]] = {{ vertex=VERTICES[3766], cost=0 },}
+EDGES[VERTICES[6278]] = {{ vertex=VERTICES[4733], cost=0 },}
+EDGES[VERTICES[3633]] = {{ vertex=VERTICES[122], cost=0 },}
+EDGES[VERTICES[4262]] = {{ vertex=VERTICES[4801], cost=0 },}
+EDGES[VERTICES[3503]] = {{ vertex=VERTICES[5191], cost=0 },}
+EDGES[VERTICES[4536]] = {{ vertex=VERTICES[4509], cost=0 },}
+EDGES[VERTICES[1711]] = {{ vertex=VERTICES[2426], cost=0 },}
+EDGES[VERTICES[5877]] = {{ vertex=VERTICES[507], cost=0 },}
+EDGES[VERTICES[4042]] = {{ vertex=VERTICES[4378], cost=0 },}
+EDGES[VERTICES[4207]] = {{ vertex=VERTICES[1551], cost=0 },}
+EDGES[VERTICES[2576]] = {{ vertex=VERTICES[3822], cost=0 },}
+EDGES[VERTICES[2533]] = {{ vertex=VERTICES[5562], cost=0 },}
+EDGES[VERTICES[938]] = {{ vertex=VERTICES[944], cost=0 },}
+EDGES[VERTICES[3165]] = {{ vertex=VERTICES[6374], cost=0 },}
+EDGES[VERTICES[415]] = {{ vertex=VERTICES[1860], cost=0 },}
+EDGES[VERTICES[3401]] = {{ vertex=VERTICES[2483], cost=0 },}
+EDGES[VERTICES[2787]] = {{ vertex=VERTICES[260], cost=0 },}
+EDGES[VERTICES[2912]] = {{ vertex=VERTICES[1799], cost=0 },}
+EDGES[VERTICES[2395]] = {{ vertex=VERTICES[5702], cost=0 },}
+EDGES[VERTICES[4419]] = {{ vertex=VERTICES[4747], cost=0 },}
+EDGES[VERTICES[1938]] = {{ vertex=VERTICES[3542], cost=0 },}
+EDGES[VERTICES[3586]] = {{ vertex=VERTICES[3456], cost=0 },}
+EDGES[VERTICES[5026]] = {{ vertex=VERTICES[2821], cost=0 },}
+EDGES[VERTICES[3438]] = {{ vertex=VERTICES[812], cost=0 },}
+EDGES[VERTICES[4875]] = {{ vertex=VERTICES[6378], cost=0 },}
+EDGES[VERTICES[4039]] = {{ vertex=VERTICES[642], cost=0 },}
+EDGES[VERTICES[1115]] = {{ vertex=VERTICES[1918], cost=0 },}
+EDGES[VERTICES[4979]] = {{ vertex=VERTICES[143], cost=0 },}
+EDGES[VERTICES[1012]] = {{ vertex=VERTICES[1067], cost=0 },}
+EDGES[VERTICES[3042]] = {{ vertex=VERTICES[547], cost=0 },}
+EDGES[VERTICES[3136]] = {{ vertex=VERTICES[4523], cost=0 },{ vertex=VERTICES[5972], cost=0 },{ vertex=VERTICES[1454], cost=0 },{ vertex=VERTICES[2140], cost=0 },}
+EDGES[VERTICES[815]] = {{ vertex=VERTICES[5101], cost=0 },}
+EDGES[VERTICES[247]] = {{ vertex=VERTICES[1340], cost=0 },}
+EDGES[VERTICES[928]] = {{ vertex=VERTICES[3854], cost=0 },}
+EDGES[VERTICES[1317]] = {{ vertex=VERTICES[5131], cost=0 },{ vertex=VERTICES[889], cost=0 },{ vertex=VERTICES[5957], cost=0 },{ vertex=VERTICES[104], cost=0 },}
+EDGES[VERTICES[5786]] = {{ vertex=VERTICES[2129], cost=0 },}
+EDGES[VERTICES[991]] = {{ vertex=VERTICES[2799], cost=0 },}
+EDGES[VERTICES[2253]] = {{ vertex=VERTICES[3288], cost=0 },}
+EDGES[VERTICES[3009]] = {{ vertex=VERTICES[1771], cost=0 },}
+EDGES[VERTICES[4125]] = {{ vertex=VERTICES[3397], cost=0 },}
+EDGES[VERTICES[2371]] = {{ vertex=VERTICES[5632], cost=0 },}
+EDGES[VERTICES[1884]] = {{ vertex=VERTICES[2743], cost=0 },}
+EDGES[VERTICES[469]] = {{ vertex=VERTICES[2732], cost=0 },}
+EDGES[VERTICES[5009]] = {{ vertex=VERTICES[2800], cost=0 },}
+EDGES[VERTICES[5885]] = {{ vertex=VERTICES[4886], cost=0 },}
+EDGES[VERTICES[5]] = {{ vertex=VERTICES[3839], cost=0 },}
+EDGES[VERTICES[1330]] = {{ vertex=VERTICES[5039], cost=0 },}
+EDGES[VERTICES[5313]] = {{ vertex=VERTICES[2795], cost=0 },}
+EDGES[VERTICES[1566]] = {{ vertex=VERTICES[1337], cost=0 },{ vertex=VERTICES[4892], cost=0 },}
+EDGES[VERTICES[5266]] = {{ vertex=VERTICES[2288], cost=0 },}
+EDGES[VERTICES[1571]] = {{ vertex=VERTICES[142], cost=0 },}
+EDGES[VERTICES[4276]] = {{ vertex=VERTICES[5744], cost=0 },}
+EDGES[VERTICES[5693]] = {{ vertex=VERTICES[3724], cost=0 },}
+EDGES[VERTICES[2925]] = {{ vertex=VERTICES[5087], cost=0 },}
+EDGES[VERTICES[1601]] = {{ vertex=VERTICES[6092], cost=0 },}
+EDGES[VERTICES[400]] = {{ vertex=VERTICES[1055], cost=0 },}
+EDGES[VERTICES[1102]] = {{ vertex=VERTICES[2021], cost=0 },{ vertex=VERTICES[1047], cost=0 },{ vertex=VERTICES[3841], cost=0 },}
+EDGES[VERTICES[3730]] = {{ vertex=VERTICES[3471], cost=0 },}
+EDGES[VERTICES[1234]] = {{ vertex=VERTICES[2014], cost=0 },}
+EDGES[VERTICES[3629]] = {{ vertex=VERTICES[3201], cost=0 },}
+EDGES[VERTICES[2807]] = {{ vertex=VERTICES[5828], cost=0 },}
+EDGES[VERTICES[5154]] = {{ vertex=VERTICES[4083], cost=0 },}
+EDGES[VERTICES[2050]] = {{ vertex=VERTICES[439], cost=0 },}
+EDGES[VERTICES[2694]] = {{ vertex=VERTICES[5660], cost=0 },}
+EDGES[VERTICES[1798]] = {{ vertex=VERTICES[1954], cost=0 },}
+EDGES[VERTICES[3830]] = {{ vertex=VERTICES[5745], cost=0 },}
+EDGES[VERTICES[3436]] = {{ vertex=VERTICES[2693], cost=0 },}
+EDGES[VERTICES[912]] = {{ vertex=VERTICES[5862], cost=0 },}
+EDGES[VERTICES[5085]] = {{ vertex=VERTICES[461], cost=0 },}
+EDGES[VERTICES[1440]] = {{ vertex=VERTICES[956], cost=0 },}
+EDGES[VERTICES[4696]] = {{ vertex=VERTICES[1310], cost=0 },}
+EDGES[VERTICES[394]] = {{ vertex=VERTICES[3701], cost=0 },}
+EDGES[VERTICES[1972]] = {{ vertex=VERTICES[1919], cost=0 },}
+EDGES[VERTICES[377]] = {{ vertex=VERTICES[4654], cost=0 },}
+EDGES[VERTICES[2269]] = {{ vertex=VERTICES[6344], cost=0 },}
+EDGES[VERTICES[287]] = {{ vertex=VERTICES[5331], cost=0 },}
+EDGES[VERTICES[3831]] = {{ vertex=VERTICES[1457], cost=0 },}
+EDGES[VERTICES[941]] = {{ vertex=VERTICES[1766], cost=0 },}
+EDGES[VERTICES[2941]] = {{ vertex=VERTICES[3027], cost=0 },}
+EDGES[VERTICES[646]] = {{ vertex=VERTICES[3858], cost=0 },}
+EDGES[VERTICES[3409]] = {{ vertex=VERTICES[4584], cost=0 },}
+EDGES[VERTICES[1094]] = {{ vertex=VERTICES[6359], cost=0 },}
+EDGES[VERTICES[2397]] = {{ vertex=VERTICES[1448], cost=0 },}
+EDGES[VERTICES[4578]] = {{ vertex=VERTICES[1486], cost=0 },}
+EDGES[VERTICES[3736]] = {{ vertex=VERTICES[864], cost=0 },}
+EDGES[VERTICES[3371]] = {{ vertex=VERTICES[625], cost=0 },}
+EDGES[VERTICES[2420]] = {{ vertex=VERTICES[4373], cost=0 },}
+EDGES[VERTICES[52]] = {{ vertex=VERTICES[707], cost=0 },}
+EDGES[VERTICES[1661]] = {{ vertex=VERTICES[3843], cost=0 },}
+EDGES[VERTICES[2052]] = {{ vertex=VERTICES[4024], cost=0 },}
+EDGES[VERTICES[213]] = {{ vertex=VERTICES[3515], cost=0 },}
+EDGES[VERTICES[4070]] = {{ vertex=VERTICES[3904], cost=0 },}
+EDGES[VERTICES[5570]] = {{ vertex=VERTICES[4792], cost=0 },}
+EDGES[VERTICES[4648]] = {{ vertex=VERTICES[1708], cost=0 },}
+EDGES[VERTICES[3411]] = {{ vertex=VERTICES[1150], cost=0 },}
+EDGES[VERTICES[6214]] = {{ vertex=VERTICES[4428], cost=0 },}
+EDGES[VERTICES[4368]] = {{ vertex=VERTICES[4327], cost=0 },}
+EDGES[VERTICES[6267]] = {{ vertex=VERTICES[5739], cost=0 },}
+EDGES[VERTICES[5415]] = {{ vertex=VERTICES[1867], cost=0 },}
+EDGES[VERTICES[2175]] = {{ vertex=VERTICES[4342], cost=0 },}
+EDGES[VERTICES[6147]] = {{ vertex=VERTICES[3958], cost=0 },}
+EDGES[VERTICES[1733]] = {{ vertex=VERTICES[3673], cost=0 },}
+EDGES[VERTICES[1687]] = {{ vertex=VERTICES[4893], cost=0 },}
+EDGES[VERTICES[315]] = {{ vertex=VERTICES[3111], cost=0 },}
+EDGES[VERTICES[2607]] = {{ vertex=VERTICES[1277], cost=0 },}
+EDGES[VERTICES[5322]] = {{ vertex=VERTICES[3703], cost=0 },}
+EDGES[VERTICES[3899]] = {{ vertex=VERTICES[1877], cost=0 },}
+EDGES[VERTICES[1716]] = {{ vertex=VERTICES[4973], cost=0 },}
+EDGES[VERTICES[4290]] = {{ vertex=VERTICES[4473], cost=0 },}
+EDGES[VERTICES[2334]] = {{ vertex=VERTICES[5920], cost=0 },}
+EDGES[VERTICES[6112]] = {{ vertex=VERTICES[2187], cost=0 },}
+EDGES[VERTICES[3821]] = {{ vertex=VERTICES[4022], cost=0 },}
+EDGES[VERTICES[3592]] = {{ vertex=VERTICES[127], cost=0 },}
+EDGES[VERTICES[4460]] = {{ vertex=VERTICES[32], cost=0 },}
+EDGES[VERTICES[2025]] = {{ vertex=VERTICES[565], cost=0 },}
+EDGES[VERTICES[383]] = {{ vertex=VERTICES[1777], cost=0 },}
+EDGES[VERTICES[3648]] = {{ vertex=VERTICES[2518], cost=0 },}
+EDGES[VERTICES[3100]] = {{ vertex=VERTICES[1650], cost=0 },}
+EDGES[VERTICES[5801]] = {{ vertex=VERTICES[2981], cost=0 },}
+EDGES[VERTICES[1754]] = {{ vertex=VERTICES[2227], cost=0 },}
+EDGES[VERTICES[2817]] = {{ vertex=VERTICES[4351], cost=0 },}
+EDGES[VERTICES[652]] = {{ vertex=VERTICES[1169], cost=0 },}
+EDGES[VERTICES[5103]] = {{ vertex=VERTICES[5713], cost=0 },}
+EDGES[VERTICES[62]] = {{ vertex=VERTICES[521], cost=0 },}
+EDGES[VERTICES[2427]] = {{ vertex=VERTICES[66], cost=0 },}
+EDGES[VERTICES[1627]] = {{ vertex=VERTICES[1499], cost=0 },}
+EDGES[VERTICES[813]] = {{ vertex=VERTICES[6137], cost=0 },}
+EDGES[VERTICES[750]] = {{ vertex=VERTICES[2296], cost=0 },}
+EDGES[VERTICES[2496]] = {{ vertex=VERTICES[5106], cost=0 },}
+EDGES[VERTICES[581]] = {{ vertex=VERTICES[931], cost=0 },}
+EDGES[VERTICES[1199]] = {{ vertex=VERTICES[4921], cost=0 },}
+EDGES[VERTICES[405]] = {{ vertex=VERTICES[5690], cost=0 },}
+EDGES[VERTICES[3714]] = {{ vertex=VERTICES[888], cost=0 },}
+EDGES[VERTICES[882]] = {{ vertex=VERTICES[1859], cost=0 },}
+EDGES[VERTICES[3005]] = {{ vertex=VERTICES[159], cost=0 },}
+EDGES[VERTICES[1477]] = {{ vertex=VERTICES[5272], cost=0 },}
+EDGES[VERTICES[1714]] = {{ vertex=VERTICES[5471], cost=0 },}
+EDGES[VERTICES[4164]] = {{ vertex=VERTICES[1910], cost=0 },}
+EDGES[VERTICES[2523]] = {{ vertex=VERTICES[1430], cost=0 },}
+EDGES[VERTICES[982]] = {{ vertex=VERTICES[2215], cost=0 },}
+EDGES[VERTICES[5594]] = {{ vertex=VERTICES[3394], cost=0 },}
+EDGES[VERTICES[4303]] = {{ vertex=VERTICES[75], cost=0 },}
+EDGES[VERTICES[176]] = {{ vertex=VERTICES[3148], cost=0 },}
+EDGES[VERTICES[1655]] = {{ vertex=VERTICES[2302], cost=0 },}
+EDGES[VERTICES[3324]] = {{ vertex=VERTICES[1406], cost=0 },}
+EDGES[VERTICES[2678]] = {{ vertex=VERTICES[5505], cost=0 },}
+EDGES[VERTICES[2303]] = {{ vertex=VERTICES[1780], cost=0 },}
+EDGES[VERTICES[494]] = {{ vertex=VERTICES[4130], cost=0 },}
+EDGES[VERTICES[4587]] = {{ vertex=VERTICES[2622], cost=0 },}
+EDGES[VERTICES[313]] = {{ vertex=VERTICES[4094], cost=0 },}
+EDGES[VERTICES[3788]] = {{ vertex=VERTICES[2653], cost=0 },}
+EDGES[VERTICES[293]] = {{ vertex=VERTICES[5510], cost=0 },}
+EDGES[VERTICES[2827]] = {{ vertex=VERTICES[5741], cost=0 },}
+EDGES[VERTICES[5414]] = {{ vertex=VERTICES[3071], cost=0 },}
+EDGES[VERTICES[4028]] = {{ vertex=VERTICES[4575], cost=0 },}
+EDGES[VERTICES[3679]] = {{ vertex=VERTICES[1058], cost=0 },}
+EDGES[VERTICES[324]] = {{ vertex=VERTICES[1901], cost=0 },}
+EDGES[VERTICES[6027]] = {{ vertex=VERTICES[6193], cost=0 },}
+EDGES[VERTICES[1057]] = {{ vertex=VERTICES[1846], cost=0 },}
+EDGES[VERTICES[1149]] = {{ vertex=VERTICES[2698], cost=0 },}
+EDGES[VERTICES[5043]] = {{ vertex=VERTICES[2486], cost=0 },}
+EDGES[VERTICES[3485]] = {{ vertex=VERTICES[97], cost=0 },}
+EDGES[VERTICES[3863]] = {{ vertex=VERTICES[5684], cost=0 },{ vertex=VERTICES[540], cost=0 },{ vertex=VERTICES[14], cost=0 },{ vertex=VERTICES[3425], cost=0 },}
+EDGES[VERTICES[6401]] = {{ vertex=VERTICES[3717], cost=0 },}
+EDGES[VERTICES[670]] = {{ vertex=VERTICES[3980], cost=0 },}
+EDGES[VERTICES[2586]] = {{ vertex=VERTICES[3742], cost=0 },}
+EDGES[VERTICES[1838]] = {{ vertex=VERTICES[833], cost=0 },}
+EDGES[VERTICES[2421]] = {{ vertex=VERTICES[318], cost=0 },}
+EDGES[VERTICES[4643]] = {{ vertex=VERTICES[6373], cost=0 },}
+EDGES[VERTICES[5276]] = {{ vertex=VERTICES[1409], cost=0 },}
+EDGES[VERTICES[2517]] = {{ vertex=VERTICES[2081], cost=0 },}
+EDGES[VERTICES[3992]] = {{ vertex=VERTICES[5001], cost=0 },}
+EDGES[VERTICES[1052]] = {{ vertex=VERTICES[3003], cost=0 },}
+EDGES[VERTICES[4539]] = {{ vertex=VERTICES[3694], cost=0 },}
+EDGES[VERTICES[2008]] = {{ vertex=VERTICES[4933], cost=0 },}
+EDGES[VERTICES[511]] = {{ vertex=VERTICES[3412], cost=0 },}
+EDGES[VERTICES[2135]] = {{ vertex=VERTICES[594], cost=0 },}
+EDGES[VERTICES[206]] = {{ vertex=VERTICES[3233], cost=0 },}
+EDGES[VERTICES[5700]] = {{ vertex=VERTICES[3345], cost=0 },}
+EDGES[VERTICES[5916]] = {{ vertex=VERTICES[4246], cost=0 },}
+EDGES[VERTICES[5023]] = {{ vertex=VERTICES[5723], cost=0 },}
+EDGES[VERTICES[3236]] = {{ vertex=VERTICES[5340], cost=0 },}
+EDGES[VERTICES[5364]] = {{ vertex=VERTICES[2890], cost=0 },}
+EDGES[VERTICES[1109]] = {{ vertex=VERTICES[3092], cost=0 },}
+EDGES[VERTICES[4180]] = {{ vertex=VERTICES[4151], cost=0 },{ vertex=VERTICES[4233], cost=0 },{ vertex=VERTICES[3990], cost=0 },{ vertex=VERTICES[167], cost=0 },}
+EDGES[VERTICES[257]] = {{ vertex=VERTICES[764], cost=0 },}
+EDGES[VERTICES[984]] = {{ vertex=VERTICES[950], cost=0 },}
+EDGES[VERTICES[1668]] = {{ vertex=VERTICES[4174], cost=0 },}
+EDGES[VERTICES[2759]] = {{ vertex=VERTICES[4287], cost=0 },}
+EDGES[VERTICES[5524]] = {{ vertex=VERTICES[3058], cost=0 },}
+EDGES[VERTICES[731]] = {{ vertex=VERTICES[4694], cost=0 },}
+EDGES[VERTICES[1643]] = {{ vertex=VERTICES[2111], cost=0 },}
+EDGES[VERTICES[2237]] = {{ vertex=VERTICES[5117], cost=0 },}
+EDGES[VERTICES[2246]] = {{ vertex=VERTICES[5989], cost=0 },}
+EDGES[VERTICES[2543]] = {{ vertex=VERTICES[6305], cost=0 },}
+EDGES[VERTICES[3310]] = {{ vertex=VERTICES[1863], cost=0 },}
+EDGES[VERTICES[1350]] = {{ vertex=VERTICES[3], cost=0 },}
+EDGES[VERTICES[650]] = {{ vertex=VERTICES[5050], cost=0 },}
+EDGES[VERTICES[3998]] = {{ vertex=VERTICES[4903], cost=0 },}
+EDGES[VERTICES[1874]] = {{ vertex=VERTICES[2256], cost=0 },}
+EDGES[VERTICES[3816]] = {{ vertex=VERTICES[4279], cost=0 },}
+EDGES[VERTICES[1190]] = {{ vertex=VERTICES[879], cost=0 },}
+EDGES[VERTICES[472]] = {{ vertex=VERTICES[5098], cost=0 },}
+EDGES[VERTICES[3647]] = {{ vertex=VERTICES[4029], cost=0 },}
+EDGES[VERTICES[4826]] = {{ vertex=VERTICES[2380], cost=0 },}
+EDGES[VERTICES[1059]] = {{ vertex=VERTICES[3741], cost=0 },}
+EDGES[VERTICES[1969]] = {{ vertex=VERTICES[4863], cost=0 },}
+EDGES[VERTICES[1038]] = {{ vertex=VERTICES[798], cost=0 },}
+EDGES[VERTICES[1412]] = {{ vertex=VERTICES[1971], cost=0 },}
+EDGES[VERTICES[130]] = {{ vertex=VERTICES[1211], cost=0 },{ vertex=VERTICES[2445], cost=0 },{ vertex=VERTICES[4220], cost=0 },{ vertex=VERTICES[613], cost=0 },}
+EDGES[VERTICES[601]] = {{ vertex=VERTICES[1862], cost=0 },}
+EDGES[VERTICES[6319]] = {{ vertex=VERTICES[344], cost=0 },}
+EDGES[VERTICES[4816]] = {{ vertex=VERTICES[4602], cost=0 },}
+EDGES[VERTICES[1296]] = {{ vertex=VERTICES[5088], cost=0 },}
+EDGES[VERTICES[874]] = {{ vertex=VERTICES[4406], cost=0 },}
+EDGES[VERTICES[5507]] = {{ vertex=VERTICES[712], cost=0 },}
+EDGES[VERTICES[5110]] = {{ vertex=VERTICES[4883], cost=0 },}
+EDGES[VERTICES[397]] = {{ vertex=VERTICES[2255], cost=0 },}
+EDGES[VERTICES[2736]] = {{ vertex=VERTICES[4234], cost=0 },}
+EDGES[VERTICES[4261]] = {{ vertex=VERTICES[5359], cost=0 },}
+EDGES[VERTICES[2592]] = {{ vertex=VERTICES[5282], cost=0 },}
+EDGES[VERTICES[3254]] = {{ vertex=VERTICES[4738], cost=0 },}
+EDGES[VERTICES[2082]] = {{ vertex=VERTICES[5056], cost=0 },}
+EDGES[VERTICES[583]] = {{ vertex=VERTICES[1020], cost=0 },}
+EDGES[VERTICES[4894]] = {{ vertex=VERTICES[5589], cost=0 },}
+EDGES[VERTICES[115]] = {{ vertex=VERTICES[3877], cost=0 },}
+EDGES[VERTICES[949]] = {{ vertex=VERTICES[476], cost=0 },}
+EDGES[VERTICES[5715]] = {{ vertex=VERTICES[4647], cost=0 },}
+EDGES[VERTICES[981]] = {{ vertex=VERTICES[4208], cost=0 },}
+EDGES[VERTICES[2556]] = {{ vertex=VERTICES[1200], cost=0 },}
+EDGES[VERTICES[6081]] = {{ vertex=VERTICES[5418], cost=0 },}
+EDGES[VERTICES[4266]] = {{ vertex=VERTICES[5426], cost=0 },}
+EDGES[VERTICES[2152]] = {{ vertex=VERTICES[6311], cost=0 },}
+EDGES[VERTICES[4338]] = {{ vertex=VERTICES[2089], cost=0 },}
+EDGES[VERTICES[3955]] = {{ vertex=VERTICES[2179], cost=0 },}
+EDGES[VERTICES[5593]] = {{ vertex=VERTICES[1360], cost=0 },}
+EDGES[VERTICES[2634]] = {{ vertex=VERTICES[4317], cost=0 },}
+EDGES[VERTICES[2711]] = {{ vertex=VERTICES[4001], cost=0 },}
+EDGES[VERTICES[1982]] = {{ vertex=VERTICES[5890], cost=0 },}
+EDGES[VERTICES[6326]] = {{ vertex=VERTICES[4774], cost=0 },}
+EDGES[VERTICES[1400]] = {{ vertex=VERTICES[3689], cost=0 },}
+EDGES[VERTICES[4388]] = {{ vertex=VERTICES[4884], cost=0 },}
+EDGES[VERTICES[545]] = {{ vertex=VERTICES[3463], cost=0 },}
+EDGES[VERTICES[443]] = {{ vertex=VERTICES[5759], cost=0 },}
+EDGES[VERTICES[535]] = {{ vertex=VERTICES[4265], cost=0 },}
+EDGES[VERTICES[4467]] = {{ vertex=VERTICES[3501], cost=0 },}
+EDGES[VERTICES[5360]] = {{ vertex=VERTICES[3064], cost=0 },}
+EDGES[VERTICES[2018]] = {{ vertex=VERTICES[1542], cost=0 },}
+EDGES[VERTICES[2553]] = {{ vertex=VERTICES[6310], cost=0 },}
+EDGES[VERTICES[5714]] = {{ vertex=VERTICES[6317], cost=0 },}
+EDGES[VERTICES[958]] = {{ vertex=VERTICES[2224], cost=0 },}
+EDGES[VERTICES[186]] = {{ vertex=VERTICES[634], cost=0 },}
+EDGES[VERTICES[1399]] = {{ vertex=VERTICES[4901], cost=0 },}
+EDGES[VERTICES[3607]] = {{ vertex=VERTICES[6065], cost=0 },}
+EDGES[VERTICES[4030]] = {{ vertex=VERTICES[5299], cost=0 },}
+EDGES[VERTICES[1905]] = {{ vertex=VERTICES[4226], cost=0 },}
+EDGES[VERTICES[3715]] = {{ vertex=VERTICES[2677], cost=0 },}
+EDGES[VERTICES[4120]] = {{ vertex=VERTICES[5275], cost=0 },}
+EDGES[VERTICES[5548]] = {{ vertex=VERTICES[1307], cost=0 },}
+EDGES[VERTICES[2974]] = {{ vertex=VERTICES[829], cost=0 },}
+EDGES[VERTICES[5815]] = {{ vertex=VERTICES[1378], cost=0 },}
+EDGES[VERTICES[5650]] = {{ vertex=VERTICES[6292], cost=0 },}
+EDGES[VERTICES[4708]] = {{ vertex=VERTICES[2773], cost=0 },}
+EDGES[VERTICES[901]] = {{ vertex=VERTICES[5603], cost=0 },}
+EDGES[VERTICES[3619]] = {{ vertex=VERTICES[1426], cost=0 },}
+EDGES[VERTICES[4058]] = {{ vertex=VERTICES[6126], cost=0 },}
+EDGES[VERTICES[3404]] = {{ vertex=VERTICES[5444], cost=0 },}
+EDGES[VERTICES[2123]] = {{ vertex=VERTICES[5225], cost=0 },}
+EDGES[VERTICES[2610]] = {{ vertex=VERTICES[103], cost=0 },}
+EDGES[VERTICES[591]] = {{ vertex=VERTICES[3905], cost=0 },}
+EDGES[VERTICES[5531]] = {{ vertex=VERTICES[595], cost=0 },}
+EDGES[VERTICES[1696]] = {{ vertex=VERTICES[2884], cost=0 },}
+EDGES[VERTICES[502]] = {{ vertex=VERTICES[4301], cost=0 },}
+EDGES[VERTICES[3096]] = {{ vertex=VERTICES[4936], cost=0 },}
+EDGES[VERTICES[5102]] = {{ vertex=VERTICES[5588], cost=0 },}
+EDGES[VERTICES[841]] = {{ vertex=VERTICES[2262], cost=0 },}
+EDGES[VERTICES[6102]] = {{ vertex=VERTICES[496], cost=0 },}
+EDGES[VERTICES[35]] = {{ vertex=VERTICES[4510], cost=0 },}
+EDGES[VERTICES[5516]] = {{ vertex=VERTICES[361], cost=0 },}
+EDGES[VERTICES[4867]] = {{ vertex=VERTICES[2740], cost=0 },}
+EDGES[VERTICES[5917]] = {{ vertex=VERTICES[3968], cost=0 },}
+EDGES[VERTICES[4007]] = {{ vertex=VERTICES[2819], cost=0 },}
+EDGES[VERTICES[3692]] = {{ vertex=VERTICES[1823], cost=0 },}
+EDGES[VERTICES[3334]] = {{ vertex=VERTICES[3902], cost=0 },}
+EDGES[VERTICES[5646]] = {{ vertex=VERTICES[4044], cost=0 },}
+EDGES[VERTICES[4200]] = {{ vertex=VERTICES[5141], cost=0 },}
+EDGES[VERTICES[5582]] = {{ vertex=VERTICES[5205], cost=0 },}
+EDGES[VERTICES[1937]] = {{ vertex=VERTICES[3306], cost=0 },}
+EDGES[VERTICES[3737]] = {{ vertex=VERTICES[3582], cost=0 },}
+EDGES[VERTICES[1600]] = {{ vertex=VERTICES[4149], cost=0 },}
+EDGES[VERTICES[3374]] = {{ vertex=VERTICES[1699], cost=0 },}
+EDGES[VERTICES[5791]] = {{ vertex=VERTICES[3867], cost=0 },}
+EDGES[VERTICES[2685]] = {{ vertex=VERTICES[6348], cost=0 },}
+EDGES[VERTICES[5671]] = {{ vertex=VERTICES[81], cost=0 },}
+EDGES[VERTICES[5875]] = {{ vertex=VERTICES[2410], cost=0 },}
+EDGES[VERTICES[4384]] = {{ vertex=VERTICES[4689], cost=0 },}
+EDGES[VERTICES[5247]] = {{ vertex=VERTICES[3036], cost=0 },}
+EDGES[VERTICES[4989]] = {{ vertex=VERTICES[5347], cost=0 },}
+EDGES[VERTICES[6089]] = {{ vertex=VERTICES[4891], cost=0 },}
+EDGES[VERTICES[5273]] = {{ vertex=VERTICES[4731], cost=0 },}
+EDGES[VERTICES[4486]] = {{ vertex=VERTICES[3399], cost=0 },}
+EDGES[VERTICES[2338]] = {{ vertex=VERTICES[399], cost=0 },}
+EDGES[VERTICES[2612]] = {{ vertex=VERTICES[6107], cost=0 },}
+EDGES[VERTICES[6162]] = {{ vertex=VERTICES[2585], cost=0 },}
+EDGES[VERTICES[3342]] = {{ vertex=VERTICES[3291], cost=0 },}
+EDGES[VERTICES[3197]] = {{ vertex=VERTICES[6036], cost=0 },}
+EDGES[VERTICES[4911]] = {{ vertex=VERTICES[539], cost=0 },}
+EDGES[VERTICES[3017]] = {{ vertex=VERTICES[1185], cost=0 },}
+EDGES[VERTICES[1541]] = {{ vertex=VERTICES[2204], cost=0 },}
+EDGES[VERTICES[6390]] = {{ vertex=VERTICES[6295], cost=0 },}
+EDGES[VERTICES[2028]] = {{ vertex=VERTICES[2720], cost=0 },}
+EDGES[VERTICES[5100]] = {{ vertex=VERTICES[3028], cost=0 },}
+EDGES[VERTICES[2326]] = {{ vertex=VERTICES[4398], cost=0 },}
+EDGES[VERTICES[3183]] = {{ vertex=VERTICES[4715], cost=0 },}
+EDGES[VERTICES[1624]] = {{ vertex=VERTICES[4625], cost=0 },}
+EDGES[VERTICES[4514]] = {{ vertex=VERTICES[3090], cost=0 },}
+EDGES[VERTICES[5329]] = {{ vertex=VERTICES[1079], cost=0 },}
+EDGES[VERTICES[6297]] = {{ vertex=VERTICES[6028], cost=0 },}
+EDGES[VERTICES[5679]] = {{ vertex=VERTICES[1762], cost=0 },}
+EDGES[VERTICES[564]] = {{ vertex=VERTICES[4960], cost=0 },}
+EDGES[VERTICES[5932]] = {{ vertex=VERTICES[2376], cost=0 },}
+EDGES[VERTICES[5681]] = {{ vertex=VERTICES[776], cost=0 },}
+EDGES[VERTICES[2413]] = {{ vertex=VERTICES[3865], cost=0 },}
+EDGES[VERTICES[1841]] = {{ vertex=VERTICES[3665], cost=0 },}
+EDGES[VERTICES[3697]] = {{ vertex=VERTICES[1461], cost=0 },}
+EDGES[VERTICES[6079]] = {{ vertex=VERTICES[4640], cost=0 },}
+EDGES[VERTICES[1958]] = {{ vertex=VERTICES[2888], cost=0 },}
+EDGES[VERTICES[5683]] = {{ vertex=VERTICES[6109], cost=0 },}
+EDGES[VERTICES[2650]] = {{ vertex=VERTICES[2756], cost=0 },}
+EDGES[VERTICES[2105]] = {{ vertex=VERTICES[2741], cost=0 },}
+EDGES[VERTICES[2532]] = {{ vertex=VERTICES[890], cost=0 },}
+EDGES[VERTICES[1604]] = {{ vertex=VERTICES[191], cost=0 },}
+EDGES[VERTICES[4454]] = {{ vertex=VERTICES[3614], cost=0 },}
+EDGES[VERTICES[1049]] = {{ vertex=VERTICES[161], cost=0 },}
+EDGES[VERTICES[5673]] = {{ vertex=VERTICES[3706], cost=0 },}
+EDGES[VERTICES[2322]] = {{ vertex=VERTICES[1456], cost=0 },}
+EDGES[VERTICES[4121]] = {{ vertex=VERTICES[2191], cost=0 },}
+EDGES[VERTICES[4404]] = {{ vertex=VERTICES[4823], cost=0 },}
+EDGES[VERTICES[3388]] = {{ vertex=VERTICES[4734], cost=0 },}
+EDGES[VERTICES[2478]] = {{ vertex=VERTICES[6149], cost=0 },}
+EDGES[VERTICES[2940]] = {{ vertex=VERTICES[4461], cost=0 },}
+EDGES[VERTICES[3368]] = {{ vertex=VERTICES[2332], cost=0 },}
+EDGES[VERTICES[4277]] = {{ vertex=VERTICES[2342], cost=0 },}
+EDGES[VERTICES[2705]] = {{ vertex=VERTICES[3536], cost=0 },}
+EDGES[VERTICES[6132]] = {{ vertex=VERTICES[541], cost=0 },}
+EDGES[VERTICES[164]] = {{ vertex=VERTICES[1320], cost=0 },}
+EDGES[VERTICES[5612]] = {{ vertex=VERTICES[3464], cost=0 },}
+EDGES[VERTICES[5780]] = {{ vertex=VERTICES[5147], cost=0 },}
+EDGES[VERTICES[1]] = {{ vertex=VERTICES[2588], cost=0 },}
+EDGES[VERTICES[5906]] = {{ vertex=VERTICES[3415], cost=0 },}
+EDGES[VERTICES[1657]] = {{ vertex=VERTICES[5303], cost=0 },}
+EDGES[VERTICES[1297]] = {{ vertex=VERTICES[6011], cost=0 },}
+EDGES[VERTICES[3685]] = {{ vertex=VERTICES[3049], cost=0 },}
+EDGES[VERTICES[2165]] = {{ vertex=VERTICES[4872], cost=0 },}
+EDGES[VERTICES[2939]] = {{ vertex=VERTICES[6284], cost=0 },}
+EDGES[VERTICES[1443]] = {{ vertex=VERTICES[5546], cost=0 },}
+EDGES[VERTICES[6157]] = {{ vertex=VERTICES[2442], cost=0 },}
+EDGES[VERTICES[2019]] = {{ vertex=VERTICES[880], cost=0 },}
+EDGES[VERTICES[5964]] = {{ vertex=VERTICES[3439], cost=0 },}
+EDGES[VERTICES[65]] = {{ vertex=VERTICES[2695], cost=0 },}
+EDGES[VERTICES[5884]] = {{ vertex=VERTICES[3827], cost=0 },}
+EDGES[VERTICES[577]] = {{ vertex=VERTICES[3819], cost=0 },}
+EDGES[VERTICES[5137]] = {{ vertex=VERTICES[74], cost=0 },}
+EDGES[VERTICES[2447]] = {{ vertex=VERTICES[391], cost=0 },}
+EDGES[VERTICES[200]] = {{ vertex=VERTICES[6181], cost=0 },}
+EDGES[VERTICES[1631]] = {{ vertex=VERTICES[2632], cost=0 },}
+EDGES[VERTICES[1953]] = {{ vertex=VERTICES[2163], cost=0 },}
+EDGES[VERTICES[5472]] = {{ vertex=VERTICES[2286], cost=0 },}
+EDGES[VERTICES[2950]] = {{ vertex=VERTICES[1170], cost=0 },}
+EDGES[VERTICES[10]] = {{ vertex=VERTICES[1748], cost=0 },}
+EDGES[VERTICES[6]] = {{ vertex=VERTICES[4503], cost=0 },}
+EDGES[VERTICES[3314]] = {{ vertex=VERTICES[1710], cost=0 },}
+EDGES[VERTICES[1439]] = {{ vertex=VERTICES[2159], cost=0 },}
+EDGES[VERTICES[669]] = {{ vertex=VERTICES[4439], cost=0 },}
+EDGES[VERTICES[6170]] = {{ vertex=VERTICES[2858], cost=0 },}
+EDGES[VERTICES[146]] = {{ vertex=VERTICES[4127], cost=0 },}
+EDGES[VERTICES[4751]] = {{ vertex=VERTICES[4905], cost=0 },}
+EDGES[VERTICES[1087]] = {{ vertex=VERTICES[4225], cost=0 },}
+EDGES[VERTICES[5960]] = {{ vertex=VERTICES[1959], cost=0 },}
+EDGES[VERTICES[839]] = {{ vertex=VERTICES[5145], cost=0 },}
+EDGES[VERTICES[1275]] = {{ vertex=VERTICES[2122], cost=0 },}
+EDGES[VERTICES[5075]] = {{ vertex=VERTICES[1736], cost=0 },}
+EDGES[VERTICES[2958]] = {{ vertex=VERTICES[6123], cost=0 },}
+EDGES[VERTICES[2229]] = {{ vertex=VERTICES[6204], cost=0 },}
+EDGES[VERTICES[673]] = {{ vertex=VERTICES[5845], cost=0 },}
+EDGES[VERTICES[1424]] = {{ vertex=VERTICES[790], cost=0 },}
+EDGES[VERTICES[3392]] = {{ vertex=VERTICES[3554], cost=0 },}
+EDGES[VERTICES[3326]] = {{ vertex=VERTICES[4518], cost=0 },}
+EDGES[VERTICES[4841]] = {{ vertex=VERTICES[1183], cost=0 },}
+EDGES[VERTICES[4204]] = {{ vertex=VERTICES[4512], cost=0 },}
+EDGES[VERTICES[1525]] = {{ vertex=VERTICES[4939], cost=0 },}
+EDGES[VERTICES[4453]] = {{ vertex=VERTICES[1616], cost=0 },}
+EDGES[VERTICES[5583]] = {{ vertex=VERTICES[1023], cost=0 },}
+EDGES[VERTICES[4593]] = {{ vertex=VERTICES[4853], cost=0 },}
+EDGES[VERTICES[5125]] = {{ vertex=VERTICES[1765], cost=0 },}
+EDGES[VERTICES[5306]] = {{ vertex=VERTICES[1470], cost=0 },}
+EDGES[VERTICES[473]] = {{ vertex=VERTICES[5644], cost=0 },}
+EDGES[VERTICES[37]] = {{ vertex=VERTICES[3158], cost=0 },}
+EDGES[VERTICES[3842]] = {{ vertex=VERTICES[4668], cost=0 },}
+EDGES[VERTICES[5889]] = {{ vertex=VERTICES[2144], cost=0 },}
+EDGES[VERTICES[1097]] = {{ vertex=VERTICES[3250], cost=0 },}
+EDGES[VERTICES[4082]] = {{ vertex=VERTICES[3212], cost=0 },}
+EDGES[VERTICES[2643]] = {{ vertex=VERTICES[2301], cost=0 },}
+EDGES[VERTICES[2378]] = {{ vertex=VERTICES[2396], cost=0 },}
+EDGES[VERTICES[5286]] = {{ vertex=VERTICES[5309], cost=0 },}
+EDGES[VERTICES[5631]] = {{ vertex=VERTICES[5469], cost=0 },}
+EDGES[VERTICES[3460]] = {{ vertex=VERTICES[1673], cost=0 },}
+EDGES[VERTICES[6076]] = {{ vertex=VERTICES[4790], cost=0 },}
+EDGES[VERTICES[4326]] = {{ vertex=VERTICES[6048], cost=0 },}
+EDGES[VERTICES[1085]] = {{ vertex=VERTICES[1694], cost=0 },}
+EDGES[VERTICES[934]] = {{ vertex=VERTICES[4976], cost=0 },}
+EDGES[VERTICES[5915]] = {{ vertex=VERTICES[1993], cost=0 },}
+EDGES[VERTICES[4186]] = {{ vertex=VERTICES[3483], cost=0 },}
+EDGES[VERTICES[5467]] = {{ vertex=VERTICES[4552], cost=0 },}
+EDGES[VERTICES[3094]] = {{ vertex=VERTICES[449], cost=0 },}
+EDGES[VERTICES[4562]] = {{ vertex=VERTICES[1134], cost=0 },}
+EDGES[VERTICES[4175]] = {{ vertex=VERTICES[3179], cost=0 },}
+EDGES[VERTICES[4064]] = {{ vertex=VERTICES[3052], cost=0 },}
+EDGES[VERTICES[6386]] = {{ vertex=VERTICES[1333], cost=0 },}
+EDGES[VERTICES[5869]] = {{ vertex=VERTICES[2880], cost=0 },}
+EDGES[VERTICES[61]] = {{ vertex=VERTICES[3243], cost=0 },}
+EDGES[VERTICES[3428]] = {{ vertex=VERTICES[3403], cost=0 },}
+EDGES[VERTICES[2823]] = {{ vertex=VERTICES[4046], cost=0 },}
+EDGES[VERTICES[2108]] = {{ vertex=VERTICES[2579], cost=0 },}
+EDGES[VERTICES[4558]] = {{ vertex=VERTICES[3124], cost=0 },}
+EDGES[VERTICES[4964]] = {{ vertex=VERTICES[844], cost=0 },}
+EDGES[VERTICES[1407]] = {{ vertex=VERTICES[3874], cost=0 },}
+EDGES[VERTICES[3576]] = {{ vertex=VERTICES[4275], cost=0 },}
+EDGES[VERTICES[1546]] = {{ vertex=VERTICES[1618], cost=0 },}
+EDGES[VERTICES[4031]] = {{ vertex=VERTICES[1689], cost=0 },}
+EDGES[VERTICES[2715]] = {{ vertex=VERTICES[5948], cost=0 },}
+EDGES[VERTICES[6236]] = {{ vertex=VERTICES[95], cost=0 },{ vertex=VERTICES[2675], cost=0 },{ vertex=VERTICES[1209], cost=0 },{ vertex=VERTICES[2290], cost=0 },}
+EDGES[VERTICES[2838]] = {{ vertex=VERTICES[4011], cost=0 },}
+EDGES[VERTICES[1479]] = {{ vertex=VERTICES[2683], cost=0 },}
+EDGES[VERTICES[1587]] = {{ vertex=VERTICES[1625], cost=0 },}
+EDGES[VERTICES[3690]] = {{ vertex=VERTICES[2373], cost=0 },}
+EDGES[VERTICES[4476]] = {{ vertex=VERTICES[1179], cost=0 },}
+EDGES[VERTICES[5863]] = {{ vertex=VERTICES[3259], cost=0 },}
+EDGES[VERTICES[692]] = {{ vertex=VERTICES[1062], cost=0 },}
+EDGES[VERTICES[4902]] = {{ vertex=VERTICES[587], cost=0 },}
+EDGES[VERTICES[1323]] = {{ vertex=VERTICES[1554], cost=0 },}
+EDGES[VERTICES[5082]] = {{ vertex=VERTICES[3182], cost=0 },}
+EDGES[VERTICES[3263]] = {{ vertex=VERTICES[593], cost=0 },}
+EDGES[VERTICES[3591]] = {{ vertex=VERTICES[1070], cost=0 },}
+EDGES[VERTICES[2047]] = {{ vertex=VERTICES[2803], cost=0 },}
+EDGES[VERTICES[3932]] = {{ vertex=VERTICES[4377], cost=0 },}
+EDGES[VERTICES[5556]] = {{ vertex=VERTICES[2867], cost=0 },}
+EDGES[VERTICES[5193]] = {{ vertex=VERTICES[2525], cost=0 },}
+EDGES[VERTICES[3478]] = {{ vertex=VERTICES[5803], cost=0 },}
+EDGES[VERTICES[5687]] = {{ vertex=VERTICES[4929], cost=0 },}
+EDGES[VERTICES[1695]] = {{ vertex=VERTICES[1855], cost=0 },}
+EDGES[VERTICES[4851]] = {{ vertex=VERTICES[3896], cost=0 },}
+EDGES[VERTICES[6158]] = {{ vertex=VERTICES[2027], cost=0 },}
+EDGES[VERTICES[2451]] = {{ vertex=VERTICES[280], cost=0 },}
+EDGES[VERTICES[921]] = {{ vertex=VERTICES[4980], cost=0 },}
+EDGES[VERTICES[1107]] = {{ vertex=VERTICES[3083], cost=0 },}
+EDGES[VERTICES[499]] = {{ vertex=VERTICES[5726], cost=0 },}
+EDGES[VERTICES[561]] = {{ vertex=VERTICES[655], cost=0 },}
+EDGES[VERTICES[6195]] = {{ vertex=VERTICES[4147], cost=0 },}
+EDGES[VERTICES[3561]] = {{ vertex=VERTICES[3123], cost=0 },}
+EDGES[VERTICES[2033]] = {{ vertex=VERTICES[3509], cost=0 },}
+EDGES[VERTICES[5584]] = {{ vertex=VERTICES[589], cost=0 },}
+EDGES[VERTICES[4910]] = {{ vertex=VERTICES[3365], cost=0 },}
+EDGES[VERTICES[1158]] = {{ vertex=VERTICES[2828], cost=0 },}
+EDGES[VERTICES[1308]] = {{ vertex=VERTICES[3228], cost=0 },}
+EDGES[VERTICES[2993]] = {{ vertex=VERTICES[2972], cost=0 },}
+EDGES[VERTICES[3728]] = {{ vertex=VERTICES[3512], cost=0 },}
+EDGES[VERTICES[4109]] = {{ vertex=VERTICES[5377], cost=0 },}
+EDGES[VERTICES[6216]] = {{ vertex=VERTICES[2318], cost=0 },}
+EDGES[VERTICES[5473]] = {{ vertex=VERTICES[5429], cost=0 },}
+EDGES[VERTICES[2778]] = {{ vertex=VERTICES[6368], cost=0 },}
+EDGES[VERTICES[4564]] = {{ vertex=VERTICES[271], cost=0 },}
+EDGES[VERTICES[5618]] = {{ vertex=VERTICES[2488], cost=0 },}
+EDGES[VERTICES[1950]] = {{ vertex=VERTICES[525], cost=0 },}
+EDGES[VERTICES[147]] = {{ vertex=VERTICES[2238], cost=0 },}
+EDGES[VERTICES[1575]] = {{ vertex=VERTICES[6002], cost=0 },}
+EDGES[VERTICES[780]] = {{ vertex=VERTICES[4541], cost=0 },}
+EDGES[VERTICES[3387]] = {{ vertex=VERTICES[3330], cost=0 },}
+EDGES[VERTICES[5597]] = {{ vertex=VERTICES[897], cost=0 },}
+EDGES[VERTICES[1390]] = {{ vertex=VERTICES[5492], cost=0 },}
+EDGES[VERTICES[3235]] = {{ vertex=VERTICES[5746], cost=0 },}
+EDGES[VERTICES[5013]] = {{ vertex=VERTICES[5206], cost=0 },}
+EDGES[VERTICES[5539]] = {{ vertex=VERTICES[529], cost=0 },}
+EDGES[VERTICES[3726]] = {{ vertex=VERTICES[3567], cost=0 },}
+EDGES[VERTICES[3328]] = {{ vertex=VERTICES[1022], cost=0 },}
+EDGES[VERTICES[4364]] = {{ vertex=VERTICES[4621], cost=0 },}
+EDGES[VERTICES[5248]] = {{ vertex=VERTICES[6287], cost=0 },}
+EDGES[VERTICES[4746]] = {{ vertex=VERTICES[5547], cost=0 },}
+EDGES[VERTICES[5812]] = {{ vertex=VERTICES[2620], cost=0 },}
+EDGES[VERTICES[2011]] = {{ vertex=VERTICES[4637], cost=0 },}
+EDGES[VERTICES[5481]] = {{ vertex=VERTICES[2733], cost=0 },}
+EDGES[VERTICES[4757]] = {{ vertex=VERTICES[1790], cost=0 },}
+EDGES[VERTICES[2960]] = {{ vertex=VERTICES[193], cost=0 },}
+EDGES[VERTICES[4735]] = {{ vertex=VERTICES[1000], cost=0 },}
+EDGES[VERTICES[1224]] = {{ vertex=VERTICES[795], cost=0 },}
+EDGES[VERTICES[6291]] = {{ vertex=VERTICES[2094], cost=0 },}
+EDGES[VERTICES[582]] = {{ vertex=VERTICES[1398], cost=0 },}
+EDGES[VERTICES[5819]] = {{ vertex=VERTICES[5620], cost=0 },}
+EDGES[VERTICES[1446]] = {{ vertex=VERTICES[1010], cost=0 },}
+EDGES[VERTICES[3933]] = {{ vertex=VERTICES[3732], cost=0 },}
+EDGES[VERTICES[1403]] = {{ vertex=VERTICES[4487], cost=0 },}
+EDGES[VERTICES[2279]] = {{ vertex=VERTICES[2048], cost=0 },}
+EDGES[VERTICES[706]] = {{ vertex=VERTICES[4462], cost=0 },}
+EDGES[VERTICES[5514]] = {{ vertex=VERTICES[3171], cost=0 },}
+EDGES[VERTICES[5856]] = {{ vertex=VERTICES[3292], cost=0 },}
+EDGES[VERTICES[5482]] = {{ vertex=VERTICES[1663], cost=0 },}
+EDGES[VERTICES[6262]] = {{ vertex=VERTICES[1374], cost=0 },}
+EDGES[VERTICES[2808]] = {{ vertex=VERTICES[4594], cost=0 },}
+EDGES[VERTICES[3369]] = {{ vertex=VERTICES[5027], cost=0 },}
+EDGES[VERTICES[2193]] = {{ vertex=VERTICES[3569], cost=0 },}
+EDGES[VERTICES[6298]] = {{ vertex=VERTICES[3962], cost=0 },}
+EDGES[VERTICES[542]] = {{ vertex=VERTICES[859], cost=0 },}
+EDGES[VERTICES[627]] = {{ vertex=VERTICES[5004], cost=0 },}
+EDGES[VERTICES[2522]] = {{ vertex=VERTICES[1921], cost=0 },}
+EDGES[VERTICES[1458]] = {{ vertex=VERTICES[2220], cost=0 },}
+EDGES[VERTICES[3738]] = {{ vertex=VERTICES[2751], cost=0 },}
+EDGES[VERTICES[5252]] = {{ vertex=VERTICES[288], cost=0 },}
+EDGES[VERTICES[5927]] = {{ vertex=VERTICES[6383], cost=0 },}
+EDGES[VERTICES[1815]] = {{ vertex=VERTICES[2696], cost=0 },}
+EDGES[VERTICES[3579]] = {{ vertex=VERTICES[1730], cost=0 },}
+EDGES[VERTICES[2860]] = {{ vertex=VERTICES[2370], cost=0 },}
+EDGES[VERTICES[2507]] = {{ vertex=VERTICES[2235], cost=0 },}
+EDGES[VERTICES[2000]] = {{ vertex=VERTICES[3321], cost=0 },}
+EDGES[VERTICES[3215]] = {{ vertex=VERTICES[2225], cost=0 },}
+EDGES[VERTICES[1026]] = {{ vertex=VERTICES[2101], cost=0 },}
+EDGES[VERTICES[3043]] = {{ vertex=VERTICES[3177], cost=0 },}
+EDGES[VERTICES[6017]] = {{ vertex=VERTICES[1704], cost=0 },}
+EDGES[VERTICES[6207]] = {{ vertex=VERTICES[1883], cost=0 },}
+EDGES[VERTICES[1527]] = {{ vertex=VERTICES[3511], cost=0 },}
+EDGES[VERTICES[1757]] = {{ vertex=VERTICES[4531], cost=0 },}
+EDGES[VERTICES[4657]] = {{ vertex=VERTICES[5222], cost=0 },}
+EDGES[VERTICES[1942]] = {{ vertex=VERTICES[1050], cost=0 },}
+EDGES[VERTICES[4842]] = {{ vertex=VERTICES[5682], cost=0 },}
+EDGES[VERTICES[1667]] = {{ vertex=VERTICES[2065], cost=0 },}
+EDGES[VERTICES[3443]] = {{ vertex=VERTICES[2306], cost=0 },}
+EDGES[VERTICES[6249]] = {{ vertex=VERTICES[4568], cost=0 },}
+EDGES[VERTICES[5689]] = {{ vertex=VERTICES[4617], cost=0 },}
+EDGES[VERTICES[5480]] = {{ vertex=VERTICES[819], cost=0 },}
+EDGES[VERTICES[1485]] = {{ vertex=VERTICES[3246], cost=0 },}
+EDGES[VERTICES[3059]] = {{ vertex=VERTICES[4040], cost=0 },}
+EDGES[VERTICES[4829]] = {{ vertex=VERTICES[5842], cost=0 },}
+EDGES[VERTICES[2995]] = {{ vertex=VERTICES[4099], cost=0 },}
+EDGES[VERTICES[5794]] = {{ vertex=VERTICES[5509], cost=0 },}
+EDGES[VERTICES[2199]] = {{ vertex=VERTICES[2402], cost=0 },}
+EDGES[VERTICES[5502]] = {{ vertex=VERTICES[5351], cost=0 },}
+EDGES[VERTICES[125]] = {{ vertex=VERTICES[769], cost=0 },}
+EDGES[VERTICES[5240]] = {{ vertex=VERTICES[4586], cost=0 },}
+EDGES[VERTICES[1002]] = {{ vertex=VERTICES[3588], cost=0 },}
+EDGES[VERTICES[3348]] = {{ vertex=VERTICES[1212], cost=0 },}
+EDGES[VERTICES[3558]] = {{ vertex=VERTICES[1475], cost=0 },}
+EDGES[VERTICES[1220]] = {{ vertex=VERTICES[4950], cost=0 },}
+EDGES[VERTICES[3160]] = {{ vertex=VERTICES[5375], cost=0 },}
+EDGES[VERTICES[5011]] = {{ vertex=VERTICES[4913], cost=0 },}
+EDGES[VERTICES[3266]] = {{ vertex=VERTICES[1719], cost=0 },}
+EDGES[VERTICES[2221]] = {{ vertex=VERTICES[5742], cost=0 },}
+EDGES[VERTICES[2621]] = {{ vertex=VERTICES[1609], cost=0 },}
+EDGES[VERTICES[5020]] = {{ vertex=VERTICES[5179], cost=0 },}
+EDGES[VERTICES[2574]] = {{ vertex=VERTICES[192], cost=0 },}
+EDGES[VERTICES[1366]] = {{ vertex=VERTICES[4490], cost=0 },}
+EDGES[VERTICES[2443]] = {{ vertex=VERTICES[5579], cost=0 },}
+EDGES[VERTICES[1764]] = {{ vertex=VERTICES[597], cost=0 },}
+EDGES[VERTICES[4629]] = {{ vertex=VERTICES[331], cost=0 },}
+EDGES[VERTICES[622]] = {{ vertex=VERTICES[3652], cost=0 },}
+EDGES[VERTICES[1659]] = {{ vertex=VERTICES[867], cost=0 },}
+EDGES[VERTICES[1039]] = {{ vertex=VERTICES[3956], cost=0 },}
+EDGES[VERTICES[6303]] = {{ vertex=VERTICES[6094], cost=0 },}
+EDGES[VERTICES[6254]] = {{ vertex=VERTICES[3800], cost=0 },}
+EDGES[VERTICES[4513]] = {{ vertex=VERTICES[3832], cost=0 },}
+EDGES[VERTICES[2833]] = {{ vertex=VERTICES[6032], cost=0 },}
+EDGES[VERTICES[312]] = {{ vertex=VERTICES[4633], cost=0 },}
+EDGES[VERTICES[917]] = {{ vertex=VERTICES[5866], cost=0 },}
+EDGES[VERTICES[4107]] = {{ vertex=VERTICES[1147], cost=0 },}
+EDGES[VERTICES[3420]] = {{ vertex=VERTICES[2575], cost=0 },}
+EDGES[VERTICES[5354]] = {{ vertex=VERTICES[667], cost=0 },}
+EDGES[VERTICES[6117]] = {{ vertex=VERTICES[865], cost=0 },}
+EDGES[VERTICES[857]] = {{ vertex=VERTICES[5881], cost=0 },}
+EDGES[VERTICES[5773]] = {{ vertex=VERTICES[1428], cost=0 },}
+EDGES[VERTICES[1899]] = {{ vertex=VERTICES[208], cost=0 },}
+EDGES[VERTICES[1731]] = {{ vertex=VERTICES[1361], cost=0 },}
+EDGES[VERTICES[2849]] = {{ vertex=VERTICES[4365], cost=0 },}
+EDGES[VERTICES[5047]] = {{ vertex=VERTICES[1232], cost=0 },}
+EDGES[VERTICES[1898]] = {{ vertex=VERTICES[3181], cost=0 },}
+EDGES[VERTICES[2289]] = {{ vertex=VERTICES[5626], cost=0 },}
+EDGES[VERTICES[6039]] = {{ vertex=VERTICES[3372], cost=0 },}
+EDGES[VERTICES[1586]] = {{ vertex=VERTICES[215], cost=0 },}
+EDGES[VERTICES[2655]] = {{ vertex=VERTICES[5783], cost=0 },}
+EDGES[VERTICES[5837]] = {{ vertex=VERTICES[4432], cost=0 },}
+EDGES[VERTICES[1033]] = {{ vertex=VERTICES[4957], cost=0 },}
+EDGES[VERTICES[6121]] = {{ vertex=VERTICES[2502], cost=0 },}
+EDGES[VERTICES[5167]] = {{ vertex=VERTICES[4324], cost=0 },}
+EDGES[VERTICES[5734]] = {{ vertex=VERTICES[2266], cost=0 },}
+EDGES[VERTICES[2816]] = {{ vertex=VERTICES[1685], cost=0 },}
+EDGES[VERTICES[2706]] = {{ vertex=VERTICES[4369], cost=0 },}
+EDGES[VERTICES[5487]] = {{ vertex=VERTICES[1294], cost=0 },}
+EDGES[VERTICES[4756]] = {{ vertex=VERTICES[3823], cost=0 },}
+EDGES[VERTICES[4718]] = {{ vertex=VERTICES[3948], cost=0 },}
+EDGES[VERTICES[3067]] = {{ vertex=VERTICES[1086], cost=0 },}
+EDGES[VERTICES[2258]] = {{ vertex=VERTICES[4390], cost=0 },}
+EDGES[VERTICES[157]] = {{ vertex=VERTICES[5440], cost=0 },}
+EDGES[VERTICES[281]] = {{ vertex=VERTICES[3275], cost=0 },}
+EDGES[VERTICES[1916]] = {{ vertex=VERTICES[6145], cost=0 },}
+EDGES[VERTICES[5159]] = {{ vertex=VERTICES[6067], cost=0 },}
+EDGES[VERTICES[5542]] = {{ vertex=VERTICES[3545], cost=0 },}
+EDGES[VERTICES[3849]] = {{ vertex=VERTICES[5456], cost=0 },}
+EDGES[VERTICES[3135]] = {{ vertex=VERTICES[1524], cost=0 },}
+EDGES[VERTICES[4505]] = {{ vertex=VERTICES[2084], cost=0 },}
+EDGES[VERTICES[516]] = {{ vertex=VERTICES[5493], cost=0 },}
+EDGES[VERTICES[4122]] = {{ vertex=VERTICES[603], cost=0 },}
+EDGES[VERTICES[5564]] = {{ vertex=VERTICES[297], cost=0 },}
+EDGES[VERTICES[1946]] = {{ vertex=VERTICES[5387], cost=0 },}
+EDGES[VERTICES[4868]] = {{ vertex=VERTICES[2615], cost=0 },}
+EDGES[VERTICES[6379]] = {{ vertex=VERTICES[4015], cost=0 },}
+EDGES[VERTICES[3393]] = {{ vertex=VERTICES[1192], cost=0 },}
+EDGES[VERTICES[5333]] = {{ vertex=VERTICES[637], cost=0 },}
+EDGES[VERTICES[3780]] = {{ vertex=VERTICES[6272], cost=0 },}
+EDGES[VERTICES[5092]] = {{ vertex=VERTICES[784], cost=0 },}
+EDGES[VERTICES[3121]] = {{ vertex=VERTICES[1724], cost=0 },}
+EDGES[VERTICES[527]] = {{ vertex=VERTICES[2363], cost=0 },}
+EDGES[VERTICES[3488]] = {{ vertex=VERTICES[2734], cost=0 },}
+EDGES[VERTICES[3767]] = {{ vertex=VERTICES[3640], cost=0 },}
+EDGES[VERTICES[4257]] = {{ vertex=VERTICES[2885], cost=0 },}
+EDGES[VERTICES[5136]] = {{ vertex=VERTICES[1592], cost=0 },}
+EDGES[VERTICES[4686]] = {{ vertex=VERTICES[3091], cost=0 },}
+EDGES[VERTICES[1272]] = {{ vertex=VERTICES[1449], cost=0 },}
+EDGES[VERTICES[343]] = {{ vertex=VERTICES[2886], cost=0 },}
+EDGES[VERTICES[283]] = {{ vertex=VERTICES[2948], cost=0 },}
+EDGES[VERTICES[5066]] = {{ vertex=VERTICES[3433], cost=0 },}
+EDGES[VERTICES[246]] = {{ vertex=VERTICES[102], cost=0 },}
+EDGES[VERTICES[4348]] = {{ vertex=VERTICES[5891], cost=0 },}
+EDGES[VERTICES[2121]] = {{ vertex=VERTICES[4389], cost=0 },}
+EDGES[VERTICES[5934]] = {{ vertex=VERTICES[6049], cost=0 },}
+EDGES[VERTICES[3184]] = {{ vertex=VERTICES[3211], cost=0 },}
+EDGES[VERTICES[2428]] = {{ vertex=VERTICES[5924], cost=0 },}
+EDGES[VERTICES[6183]] = {{ vertex=VERTICES[2230], cost=0 },}
+EDGES[VERTICES[1772]] = {{ vertex=VERTICES[5563], cost=0 },}
+EDGES[VERTICES[3798]] = {{ vertex=VERTICES[5068], cost=0 },}
+EDGES[VERTICES[3491]] = {{ vertex=VERTICES[2521], cost=0 },}
+EDGES[VERTICES[1722]] = {{ vertex=VERTICES[1734], cost=0 },}
+EDGES[VERTICES[3248]] = {{ vertex=VERTICES[5666], cost=0 },}
+EDGES[VERTICES[2692]] = {{ vertex=VERTICES[5017], cost=0 },}
+EDGES[VERTICES[2103]] = {{ vertex=VERTICES[3758], cost=0 },}
+EDGES[VERTICES[972]] = {{ vertex=VERTICES[3719], cost=0 },}
+EDGES[VERTICES[3468]] = {{ vertex=VERTICES[5438], cost=0 },}
+EDGES[VERTICES[5804]] = {{ vertex=VERTICES[1649], cost=0 },}
+EDGES[VERTICES[291]] = {{ vertex=VERTICES[2691], cost=0 },}
+EDGES[VERTICES[4810]] = {{ vertex=VERTICES[3828], cost=0 },}
+EDGES[VERTICES[2298]] = {{ vertex=VERTICES[1032], cost=0 },}
+EDGES[VERTICES[3844]] = {{ vertex=VERTICES[453], cost=0 },}
+EDGES[VERTICES[590]] = {{ vertex=VERTICES[2792], cost=0 },}
+EDGES[VERTICES[4845]] = {{ vertex=VERTICES[329], cost=0 },}
+EDGES[VERTICES[5403]] = {{ vertex=VERTICES[6356], cost=0 },}
+EDGES[VERTICES[3224]] = {{ vertex=VERTICES[4397], cost=0 },}
+EDGES[VERTICES[1929]] = {{ vertex=VERTICES[4750], cost=0 },}
+EDGES[VERTICES[4196]] = {{ vertex=VERTICES[223], cost=0 },}
+EDGES[VERTICES[5045]] = {{ vertex=VERTICES[6215], cost=0 },}
+EDGES[VERTICES[4481]] = {{ vertex=VERTICES[792], cost=0 },}
+EDGES[VERTICES[5898]] = {{ vertex=VERTICES[616], cost=0 },}
+EDGES[VERTICES[1191]] = {{ vertex=VERTICES[221], cost=0 },}
+EDGES[VERTICES[3644]] = {{ vertex=VERTICES[5307], cost=0 },}
+EDGES[VERTICES[4678]] = {{ vertex=VERTICES[429], cost=0 },}
+EDGES[VERTICES[5165]] = {{ vertex=VERTICES[4430], cost=0 },}
+EDGES[VERTICES[1608]] = {{ vertex=VERTICES[3916], cost=0 },}
+EDGES[VERTICES[747]] = {{ vertex=VERTICES[6355], cost=0 },}
+EDGES[VERTICES[3589]] = {{ vertex=VERTICES[5258], cost=0 },}
+EDGES[VERTICES[3782]] = {{ vertex=VERTICES[1839], cost=0 },}
+EDGES[VERTICES[5580]] = {{ vertex=VERTICES[4861], cost=0 },}
+EDGES[VERTICES[1345]] = {{ vertex=VERTICES[3676], cost=0 },}
+EDGES[VERTICES[5751]] = {{ vertex=VERTICES[3016], cost=0 },}
+EDGES[VERTICES[4995]] = {{ vertex=VERTICES[117], cost=0 },}
+EDGES[VERTICES[48]] = {{ vertex=VERTICES[2305], cost=0 },}
+EDGES[VERTICES[4545]] = {{ vertex=VERTICES[3889], cost=0 },{ vertex=VERTICES[5454], cost=0 },{ vertex=VERTICES[1209], cost=0 },{ vertex=VERTICES[1286], cost=0 },}
+EDGES[VERTICES[4722]] = {{ vertex=VERTICES[4529], cost=0 },}
+EDGES[VERTICES[5677]] = {{ vertex=VERTICES[5691], cost=0 },}
+EDGES[VERTICES[1981]] = {{ vertex=VERTICES[5919], cost=0 },}
+EDGES[VERTICES[5529]] = {{ vertex=VERTICES[2635], cost=0 },}
+EDGES[VERTICES[5970]] = {{ vertex=VERTICES[886], cost=0 },}
+EDGES[VERTICES[1536]] = {{ vertex=VERTICES[1216], cost=0 },}
+EDGES[VERTICES[5535]] = {{ vertex=VERTICES[2872], cost=0 },}
+EDGES[VERTICES[4148]] = {{ vertex=VERTICES[3168], cost=0 },}
+EDGES[VERTICES[5037]] = {{ vertex=VERTICES[2955], cost=0 },}
+EDGES[VERTICES[5190]] = {{ vertex=VERTICES[243], cost=0 },}
+EDGES[VERTICES[5218]] = {{ vertex=VERTICES[376], cost=0 },}
+EDGES[VERTICES[3880]] = {{ vertex=VERTICES[2440], cost=0 },}
+EDGES[VERTICES[5903]] = {{ vertex=VERTICES[6068], cost=0 },}
+EDGES[VERTICES[6233]] = {{ vertex=VERTICES[2434], cost=0 },}
+EDGES[VERTICES[1463]] = {{ vertex=VERTICES[647], cost=0 },}
+EDGES[VERTICES[249]] = {{ vertex=VERTICES[1031], cost=0 },}
+EDGES[VERTICES[232]] = {{ vertex=VERTICES[417], cost=0 },}
+EDGES[VERTICES[5982]] = {{ vertex=VERTICES[1941], cost=0 },}
+EDGES[VERTICES[3810]] = {{ vertex=VERTICES[310], cost=0 },}
+EDGES[VERTICES[919]] = {{ vertex=VERTICES[2614], cost=0 },}
+EDGES[VERTICES[4846]] = {{ vertex=VERTICES[3979], cost=0 },}
+EDGES[VERTICES[2835]] = {{ vertex=VERTICES[1923], cost=0 },}
+EDGES[VERTICES[2487]] = {{ vertex=VERTICES[5708], cost=0 },}
+EDGES[VERTICES[2535]] = {{ vertex=VERTICES[1432], cost=0 },}
+EDGES[VERTICES[5044]] = {{ vertex=VERTICES[1572], cost=0 },}
+EDGES[VERTICES[1271]] = {{ vertex=VERTICES[6212], cost=0 },}
+EDGES[VERTICES[4942]] = {{ vertex=VERTICES[3208], cost=0 },}
+EDGES[VERTICES[3878]] = {{ vertex=VERTICES[3349], cost=0 },}
+EDGES[VERTICES[2944]] = {{ vertex=VERTICES[4555], cost=0 },}
+EDGES[VERTICES[4170]] = {{ vertex=VERTICES[5802], cost=0 },}
+EDGES[VERTICES[2584]] = {{ vertex=VERTICES[2713], cost=0 },}
+EDGES[VERTICES[3838]] = {{ vertex=VERTICES[5406], cost=0 },}
+EDGES[VERTICES[1656]] = {{ vertex=VERTICES[2657], cost=0 },}
+EDGES[VERTICES[4628]] = {{ vertex=VERTICES[5379], cost=0 },}
+EDGES[VERTICES[3262]] = {{ vertex=VERTICES[4856], cost=0 },}
+EDGES[VERTICES[3761]] = {{ vertex=VERTICES[5203], cost=0 },}
+EDGES[VERTICES[498]] = {{ vertex=VERTICES[107], cost=0 },}
+EDGES[VERTICES[5156]] = {{ vertex=VERTICES[216], cost=0 },}
+EDGES[VERTICES[1168]] = {{ vertex=VERTICES[3386], cost=0 },}
+EDGES[VERTICES[2495]] = {{ vertex=VERTICES[3594], cost=0 },}
+EDGES[VERTICES[1636]] = {{ vertex=VERTICES[6396], cost=0 },}
+EDGES[VERTICES[513]] = {{ vertex=VERTICES[1853], cost=0 },}
+EDGES[VERTICES[1939]] = {{ vertex=VERTICES[4343], cost=0 },}
+EDGES[VERTICES[1364]] = {{ vertex=VERTICES[2611], cost=0 },}
+EDGES[VERTICES[3498]] = {{ vertex=VERTICES[5913], cost=0 },}
+EDGES[VERTICES[4152]] = {{ vertex=VERTICES[1491], cost=0 },}
+EDGES[VERTICES[979]] = {{ vertex=VERTICES[2071], cost=0 },}
+EDGES[VERTICES[251]] = {{ vertex=VERTICES[3296], cost=0 },}
+EDGES[VERTICES[1099]] = {{ vertex=VERTICES[4298], cost=0 },}
+EDGES[VERTICES[3230]] = {{ vertex=VERTICES[1128], cost=0 },}
+EDGES[VERTICES[677]] = {{ vertex=VERTICES[2243], cost=0 },}
+EDGES[VERTICES[876]] = {{ vertex=VERTICES[29], cost=0 },}
+EDGES[VERTICES[3928]] = {{ vertex=VERTICES[486], cost=0 },}
+EDGES[VERTICES[2263]] = {{ vertex=VERTICES[505], cost=0 },}
+EDGES[VERTICES[3390]] = {{ vertex=VERTICES[6276], cost=0 },}
+EDGES[VERTICES[4739]] = {{ vertex=VERTICES[1628], cost=0 },}
+EDGES[VERTICES[2929]] = {{ vertex=VERTICES[617], cost=0 },}
+EDGES[VERTICES[1394]] = {{ vertex=VERTICES[3627], cost=0 },}
+EDGES[VERTICES[5052]] = {{ vertex=VERTICES[1915], cost=0 },}
+EDGES[VERTICES[5827]] = {{ vertex=VERTICES[4673], cost=0 },}
+EDGES[VERTICES[108]] = {{ vertex=VERTICES[2259], cost=0 },}
+EDGES[VERTICES[5941]] = {{ vertex=VERTICES[3946], cost=0 },}
+EDGES[VERTICES[4765]] = {{ vertex=VERTICES[4293], cost=0 },}
+EDGES[VERTICES[5617]] = {{ vertex=VERTICES[3453], cost=0 },}
+EDGES[VERTICES[3769]] = {{ vertex=VERTICES[5984], cost=0 },}
+EDGES[VERTICES[1842]] = {{ vertex=VERTICES[427], cost=0 },}
+EDGES[VERTICES[3317]] = {{ vertex=VERTICES[2463], cost=0 },}
+EDGES[VERTICES[5323]] = {{ vertex=VERTICES[3346], cost=0 },}
+EDGES[VERTICES[4347]] = {{ vertex=VERTICES[2700], cost=0 },}
+EDGES[VERTICES[3217]] = {{ vertex=VERTICES[5998], cost=0 },}
+EDGES[VERTICES[2883]] = {{ vertex=VERTICES[5805], cost=0 },}
+EDGES[VERTICES[2529]] = {{ vertex=VERTICES[1410], cost=0 },}
+EDGES[VERTICES[1563]] = {{ vertex=VERTICES[3601], cost=0 },}
+EDGES[VERTICES[4160]] = {{ vertex=VERTICES[4612], cost=0 },}
+EDGES[VERTICES[4385]] = {{ vertex=VERTICES[5107], cost=0 },}
+EDGES[VERTICES[5036]] = {{ vertex=VERTICES[1151], cost=0 },}
+EDGES[VERTICES[4088]] = {{ vertex=VERTICES[1327], cost=0 },}
+EDGES[VERTICES[277]] = {{ vertex=VERTICES[1264], cost=0 },}
+EDGES[VERTICES[6143]] = {{ vertex=VERTICES[3139], cost=0 },}
+EDGES[VERTICES[3659]] = {{ vertex=VERTICES[2017], cost=0 },}
+EDGES[VERTICES[4371]] = {{ vertex=VERTICES[2300], cost=0 },}
+EDGES[VERTICES[4799]] = {{ vertex=VERTICES[5105], cost=0 },}
+EDGES[VERTICES[5432]] = {{ vertex=VERTICES[4202], cost=0 },}
+EDGES[VERTICES[4535]] = {{ vertex=VERTICES[2232], cost=0 },}
+EDGES[VERTICES[1945]] = {{ vertex=VERTICES[752], cost=0 },}
+EDGES[VERTICES[4425]] = {{ vertex=VERTICES[3518], cost=0 },{ vertex=VERTICES[2932], cost=0 },{ vertex=VERTICES[2651], cost=0 },{ vertex=VERTICES[1574], cost=0 },}
+EDGES[VERTICES[2168]] = {{ vertex=VERTICES[4585], cost=0 },}
+EDGES[VERTICES[5280]] = {{ vertex=VERTICES[2924], cost=0 },}
+EDGES[VERTICES[477]] = {{ vertex=VERTICES[1255], cost=0 },}
+EDGES[VERTICES[778]] = {{ vertex=VERTICES[2534], cost=0 },}
+EDGES[VERTICES[4319]] = {{ vertex=VERTICES[5212], cost=0 },}
+EDGES[VERTICES[2095]] = {{ vertex=VERTICES[5485], cost=0 },}
+EDGES[VERTICES[5571]] = {{ vertex=VERTICES[1829], cost=0 },}
+EDGES[VERTICES[6199]] = {{ vertex=VERTICES[5427], cost=0 },}
+EDGES[VERTICES[3353]] = {{ vertex=VERTICES[3104], cost=0 },}
+EDGES[VERTICES[1610]] = {{ vertex=VERTICES[2547], cost=0 },}
+EDGES[VERTICES[109]] = {{ vertex=VERTICES[1295], cost=0 },}
+EDGES[VERTICES[2393]] = {{ vertex=VERTICES[1873], cost=0 },}
+EDGES[VERTICES[2671]] = {{ vertex=VERTICES[2134], cost=0 },}
+EDGES[VERTICES[4280]] = {{ vertex=VERTICES[2875], cost=0 },}
+EDGES[VERTICES[4821]] = {{ vertex=VERTICES[5114], cost=0 },}
+EDGES[VERTICES[5097]] = {{ vertex=VERTICES[152], cost=0 },}
+EDGES[VERTICES[4968]] = {{ vertex=VERTICES[2786], cost=0 },}
+EDGES[VERTICES[5202]] = {{ vertex=VERTICES[4468], cost=0 },}
+EDGES[VERTICES[1259]] = {{ vertex=VERTICES[6282], cost=0 },}
+EDGES[VERTICES[2737]] = {{ vertex=VERTICES[5450], cost=0 },}
+EDGES[VERTICES[3716]] = {{ vertex=VERTICES[1268], cost=0 },}
+EDGES[VERTICES[4521]] = {{ vertex=VERTICES[4376], cost=0 },}
+EDGES[VERTICES[3176]] = {{ vertex=VERTICES[661], cost=0 },}
+EDGES[VERTICES[2379]] = {{ vertex=VERTICES[2982], cost=0 },}
+EDGES[VERTICES[1595]] = {{ vertex=VERTICES[3881], cost=0 },}
+EDGES[VERTICES[4077]] = {{ vertex=VERTICES[433], cost=0 },}
+EDGES[VERTICES[1832]] = {{ vertex=VERTICES[1066], cost=0 },}
+EDGES[VERTICES[224]] = {{ vertex=VERTICES[1552], cost=0 },}
+EDGES[VERTICES[4813]] = {{ vertex=VERTICES[3820], cost=0 },}
+EDGES[VERTICES[155]] = {{ vertex=VERTICES[4940], cost=0 },}
+EDGES[VERTICES[645]] = {{ vertex=VERTICES[5892], cost=0 },}
+EDGES[VERTICES[2760]] = {{ vertex=VERTICES[4712], cost=0 },}
+EDGES[VERTICES[2934]] = {{ vertex=VERTICES[2570], cost=0 },}
+EDGES[VERTICES[5672]] = {{ vertex=VERTICES[219], cost=0 },}
+EDGES[VERTICES[3366]] = {{ vertex=VERTICES[3514], cost=0 },}
+EDGES[VERTICES[2128]] = {{ vertex=VERTICES[835], cost=0 },}
+EDGES[VERTICES[2211]] = {{ vertex=VERTICES[6174], cost=0 },}
+EDGES[VERTICES[767]] = {{ vertex=VERTICES[1922], cost=0 },}
+EDGES[VERTICES[2984]] = {{ vertex=VERTICES[4155], cost=0 },}
+EDGES[VERTICES[3199]] = {{ vertex=VERTICES[3210], cost=0 },}
+EDGES[VERTICES[11]] = {{ vertex=VERTICES[2192], cost=0 },}
+EDGES[VERTICES[4336]] = {{ vertex=VERTICES[5187], cost=0 },}
+EDGES[VERTICES[204]] = {{ vertex=VERTICES[345], cost=0 },}
+EDGES[VERTICES[3465]] = {{ vertex=VERTICES[932], cost=0 },}
+EDGES[VERTICES[556]] = {{ vertex=VERTICES[1035], cost=0 },}
+EDGES[VERTICES[2184]] = {{ vertex=VERTICES[2735], cost=0 },}
+EDGES[VERTICES[3497]] = {{ vertex=VERTICES[5538], cost=0 },}
+EDGES[VERTICES[5496]] = {{ vertex=VERTICES[2231], cost=0 },}
+EDGES[VERTICES[301]] = {{ vertex=VERTICES[1811], cost=0 },}
+EDGES[VERTICES[6127]] = {{ vertex=VERTICES[5408], cost=0 },}
+EDGES[VERTICES[845]] = {{ vertex=VERTICES[3025], cost=0 },}
+EDGES[VERTICES[6240]] = {{ vertex=VERTICES[4470], cost=0 },}
+EDGES[VERTICES[3240]] = {{ vertex=VERTICES[5024], cost=0 },}
+EDGES[VERTICES[915]] = {{ vertex=VERTICES[366], cost=0 },}
+EDGES[VERTICES[4189]] = {{ vertex=VERTICES[1222], cost=0 },}
+EDGES[VERTICES[4213]] = {{ vertex=VERTICES[6187], cost=0 },}
+EDGES[VERTICES[5963]] = {{ vertex=VERTICES[2975], cost=0 },}
+EDGES[VERTICES[3095]] = {{ vertex=VERTICES[664], cost=0 },}
+EDGES[VERTICES[6372]] = {{ vertex=VERTICES[4692], cost=0 },}
+EDGES[VERTICES[4676]] = {{ vertex=VERTICES[3126], cost=0 },}
+EDGES[VERTICES[5598]] = {{ vertex=VERTICES[3429], cost=0 },}
+EDGES[VERTICES[4659]] = {{ vertex=VERTICES[1505], cost=0 },}
+EDGES[VERTICES[1335]] = {{ vertex=VERTICES[1348], cost=0 },}
+EDGES[VERTICES[6273]] = {{ vertex=VERTICES[4104], cost=0 },}
+EDGES[VERTICES[4931]] = {{ vertex=VERTICES[5463], cost=0 },}
+EDGES[VERTICES[614]] = {{ vertex=VERTICES[4402], cost=0 },}
+EDGES[VERTICES[442]] = {{ vertex=VERTICES[758], cost=0 },}
+EDGES[VERTICES[153]] = {{ vertex=VERTICES[1763], cost=0 },}
+EDGES[VERTICES[5094]] = {{ vertex=VERTICES[211], cost=0 },}
+EDGES[VERTICES[3056]] = {{ vertex=VERTICES[4313], cost=0 },}
+EDGES[VERTICES[2015]] = {{ vertex=VERTICES[1253], cost=0 },}
+EDGES[VERTICES[1728]] = {{ vertex=VERTICES[1852], cost=0 },}
+EDGES[VERTICES[6029]] = {{ vertex=VERTICES[735], cost=0 },}
+EDGES[VERTICES[4288]] = {{ vertex=VERTICES[5231], cost=0 },}
+EDGES[VERTICES[4517]] = {{ vertex=VERTICES[2160], cost=0 },}
+EDGES[VERTICES[2644]] = {{ vertex=VERTICES[3602], cost=0 },}
+EDGES[VERTICES[871]] = {{ vertex=VERTICES[1118], cost=0 },}
+EDGES[VERTICES[6209]] = {{ vertex=VERTICES[6062], cost=0 },}
+EDGES[VERTICES[1836]] = {{ vertex=VERTICES[4992], cost=0 },}
+EDGES[VERTICES[1515]] = {{ vertex=VERTICES[791], cost=0 },}
+EDGES[VERTICES[4154]] = {{ vertex=VERTICES[2294], cost=0 },}
+EDGES[VERTICES[5729]] = {{ vertex=VERTICES[1433], cost=0 },}
+EDGES[VERTICES[3856]] = {{ vertex=VERTICES[4089], cost=0 },}
+EDGES[VERTICES[2809]] = {{ vertex=VERTICES[2987], cost=0 },}
+EDGES[VERTICES[4034]] = {{ vertex=VERTICES[6251], cost=0 },}
+EDGES[VERTICES[1831]] = {{ vertex=VERTICES[1397], cost=0 },}
+EDGES[VERTICES[4111]] = {{ vertex=VERTICES[1285], cost=0 },}
+EDGES[VERTICES[1078]] = {{ vertex=VERTICES[4540], cost=0 },}
+EDGES[VERTICES[710]] = {{ vertex=VERTICES[2854], cost=0 },}
+EDGES[VERTICES[4571]] = {{ vertex=VERTICES[1920], cost=0 },}
+EDGES[VERTICES[455]] = {{ vertex=VERTICES[2918], cost=0 },}
+EDGES[VERTICES[2917]] = {{ vertex=VERTICES[258], cost=0 },}
+EDGES[VERTICES[4128]] = {{ vertex=VERTICES[2564], cost=0 },}
+EDGES[VERTICES[766]] = {{ vertex=VERTICES[5565], cost=0 },}
+EDGES[VERTICES[6135]] = {{ vertex=VERTICES[5627], cost=0 },}
+EDGES[VERTICES[2469]] = {{ vertex=VERTICES[1795], cost=0 },}
+EDGES[VERTICES[4549]] = {{ vertex=VERTICES[1438], cost=0 },}
+EDGES[VERTICES[5575]] = {{ vertex=VERTICES[2687], cost=0 },}
+EDGES[VERTICES[5416]] = {{ vertex=VERTICES[2063], cost=0 },}
+EDGES[VERTICES[446]] = {{ vertex=VERTICES[2568], cost=0 },}
+EDGES[VERTICES[2992]] = {{ vertex=VERTICES[2738], cost=0 },}
+EDGES[VERTICES[2842]] = {{ vertex=VERTICES[4441], cost=0 },}
+EDGES[VERTICES[4449]] = {{ vertex=VERTICES[3882], cost=0 },}
+EDGES[VERTICES[5870]] = {{ vertex=VERTICES[3557], cost=0 },}
+EDGES[VERTICES[1174]] = {{ vertex=VERTICES[1712], cost=0 },}
+EDGES[VERTICES[6131]] = {{ vertex=VERTICES[5285], cost=0 },}
+EDGES[VERTICES[1858]] = {{ vertex=VERTICES[1252], cost=0 },}
+EDGES[VERTICES[3018]] = {{ vertex=VERTICES[4642], cost=0 },}
+EDGES[VERTICES[2937]] = {{ vertex=VERTICES[68], cost=0 },}
+EDGES[VERTICES[5832]] = {{ vertex=VERTICES[3298], cost=0 },}
+EDGES[VERTICES[3373]] = {{ vertex=VERTICES[2441], cost=0 },}
+EDGES[VERTICES[4691]] = {{ vertex=VERTICES[2409], cost=0 },}
+EDGES[VERTICES[5852]] = {{ vertex=VERTICES[393], cost=0 },}
+EDGES[VERTICES[3834]] = {{ vertex=VERTICES[5494], cost=0 },}
+EDGES[VERTICES[1578]] = {{ vertex=VERTICES[4598], cost=0 },}
+EDGES[VERTICES[3237]] = {{ vertex=VERTICES[6404], cost=0 },}
+EDGES[VERTICES[5670]] = {{ vertex=VERTICES[2508], cost=0 },}
+EDGES[VERTICES[1132]] = {{ vertex=VERTICES[6265], cost=0 },}
+EDGES[VERTICES[2805]] = {{ vertex=VERTICES[3553], cost=0 },}
+EDGES[VERTICES[5038]] = {{ vertex=VERTICES[3540], cost=0 },}
+EDGES[VERTICES[4550]] = {{ vertex=VERTICES[1287], cost=0 },}
+EDGES[VERTICES[3704]] = {{ vertex=VERTICES[2624], cost=0 },}
+EDGES[VERTICES[4699]] = {{ vertex=VERTICES[2936], cost=0 },}
+EDGES[VERTICES[4954]] = {{ vertex=VERTICES[3642], cost=0 },}
+EDGES[VERTICES[3269]] = {{ vertex=VERTICES[1992], cost=0 },}
+EDGES[VERTICES[4033]] = {{ vertex=VERTICES[5029], cost=0 },}
+EDGES[VERTICES[5695]] = {{ vertex=VERTICES[2511], cost=0 },}
+EDGES[VERTICES[4524]] = {{ vertex=VERTICES[5373], cost=0 },}
+EDGES[VERTICES[4588]] = {{ vertex=VERTICES[4458], cost=0 },}
+EDGES[VERTICES[586]] = {{ vertex=VERTICES[4783], cost=0 },}
+EDGES[VERTICES[1382]] = {{ vertex=VERTICES[2916], cost=0 },}
+EDGES[VERTICES[4166]] = {{ vertex=VERTICES[573], cost=0 },}
+EDGES[VERTICES[5922]] = {{ vertex=VERTICES[2581], cost=0 },}
+EDGES[VERTICES[363]] = {{ vertex=VERTICES[3570], cost=0 },}
+EDGES[VERTICES[5441]] = {{ vertex=VERTICES[6030], cost=0 },}
+EDGES[VERTICES[3309]] = {{ vertex=VERTICES[800], cost=0 },}
+EDGES[VERTICES[4938]] = {{ vertex=VERTICES[3708], cost=0 },}
+EDGES[VERTICES[3413]] = {{ vertex=VERTICES[3130], cost=0 },}
+EDGES[VERTICES[78]] = {{ vertex=VERTICES[6235], cost=0 },}
+EDGES[VERTICES[1365]] = {{ vertex=VERTICES[1490], cost=0 },}
+EDGES[VERTICES[3252]] = {{ vertex=VERTICES[3510], cost=0 },}
+EDGES[VERTICES[803]] = {{ vertex=VERTICES[2783], cost=0 },}
+EDGES[VERTICES[1386]] = {{ vertex=VERTICES[3976], cost=0 },}
+EDGES[VERTICES[2164]] = {{ vertex=VERTICES[797], cost=0 },}
+EDGES[VERTICES[6257]] = {{ vertex=VERTICES[846], cost=0 },}
+EDGES[VERTICES[1684]] = {{ vertex=VERTICES[3155], cost=0 },}
+EDGES[VERTICES[4557]] = {{ vertex=VERTICES[76], cost=0 },}
+EDGES[VERTICES[3529]] = {{ vertex=VERTICES[5491], cost=0 },}
+EDGES[VERTICES[266]] = {{ vertex=VERTICES[1293], cost=0 },}
+EDGES[VERTICES[5526]] = {{ vertex=VERTICES[955], cost=0 },}
+EDGES[VERTICES[508]] = {{ vertex=VERTICES[5873], cost=0 },}
+EDGES[VERTICES[1850]] = {{ vertex=VERTICES[4420], cost=0 },}
+EDGES[VERTICES[985]] = {{ vertex=VERTICES[5000], cost=0 },}
+EDGES[VERTICES[654]] = {{ vertex=VERTICES[2154], cost=0 },}
+EDGES[VERTICES[4005]] = {{ vertex=VERTICES[1669], cost=0 },}
+EDGES[VERTICES[4438]] = {{ vertex=VERTICES[4506], cost=0 },}
+EDGES[VERTICES[1408]] = {{ vertex=VERTICES[5124], cost=0 },}
+EDGES[VERTICES[3041]] = {{ vertex=VERTICES[276], cost=0 },}
+EDGES[VERTICES[765]] = {{ vertex=VERTICES[5433], cost=0 },}
+EDGES[VERTICES[2897]] = {{ vertex=VERTICES[56], cost=0 },}
+EDGES[VERTICES[4344]] = {{ vertex=VERTICES[2796], cost=0 },}
+EDGES[VERTICES[3430]] = {{ vertex=VERTICES[1962], cost=0 },}
+EDGES[VERTICES[5129]] = {{ vertex=VERTICES[5342], cost=0 },}
+EDGES[VERTICES[2728]] = {{ vertex=VERTICES[2878], cost=0 },}
+EDGES[VERTICES[2686]] = {{ vertex=VERTICES[4895], cost=0 },}
+EDGES[VERTICES[596]] = {{ vertex=VERTICES[1809], cost=0 },}
+EDGES[VERTICES[6218]] = {{ vertex=VERTICES[6106], cost=0 },}
+EDGES[VERTICES[6253]] = {{ vertex=VERTICES[925], cost=0 },}
+EDGES[VERTICES[4444]] = {{ vertex=VERTICES[1376], cost=0 },}
+EDGES[VERTICES[3055]] = {{ vertex=VERTICES[1787], cost=0 },}
+EDGES[VERTICES[5551]] = {{ vertex=VERTICES[6160], cost=0 },}
+EDGES[VERTICES[2730]] = {{ vertex=VERTICES[1691], cost=0 },}
+EDGES[VERTICES[2388]] = {{ vertex=VERTICES[194], cost=0 },}
+EDGES[VERTICES[4944]] = {{ vertex=VERTICES[2716], cost=0 },}
+EDGES[VERTICES[3327]] = {{ vertex=VERTICES[3103], cost=0 },}
+EDGES[VERTICES[174]] = {{ vertex=VERTICES[5256], cost=0 },}
+EDGES[VERTICES[899]] = {{ vertex=VERTICES[2405], cost=0 },}
+EDGES[VERTICES[2131]] = {{ vertex=VERTICES[675], cost=0 },}
+EDGES[VERTICES[5567]] = {{ vertex=VERTICES[2492], cost=0 },}
+EDGES[VERTICES[4260]] = {{ vertex=VERTICES[4928], cost=0 },}
+EDGES[VERTICES[6003]] = {{ vertex=VERTICES[1683], cost=0 },}
+EDGES[VERTICES[6142]] = {{ vertex=VERTICES[4491], cost=0 },}
+EDGES[VERTICES[5663]] = {{ vertex=VERTICES[5642], cost=0 },}
+EDGES[VERTICES[2983]] = {{ vertex=VERTICES[5515], cost=0 },}
+EDGES[VERTICES[5012]] = {{ vertex=VERTICES[1336], cost=0 },}
+EDGES[VERTICES[5370]] = {{ vertex=VERTICES[506], cost=0 },}
+EDGES[VERTICES[45]] = {{ vertex=VERTICES[4471], cost=0 },}
+EDGES[VERTICES[5425]] = {{ vertex=VERTICES[2577], cost=0 },}
+EDGES[VERTICES[6274]] = {{ vertex=VERTICES[4159], cost=0 },}
+EDGES[VERTICES[5152]] = {{ vertex=VERTICES[4705], cost=0 },}
+EDGES[VERTICES[1290]] = {{ vertex=VERTICES[1676], cost=0 },}
+EDGES[VERTICES[305]] = {{ vertex=VERTICES[4741], cost=0 },}
+EDGES[VERTICES[3227]] = {{ vertex=VERTICES[1857], cost=0 },}
+EDGES[VERTICES[5279]] = {{ vertex=VERTICES[5608], cost=0 },}
+EDGES[VERTICES[2970]] = {{ vertex=VERTICES[1567], cost=0 },}
+EDGES[VERTICES[5638]] = {{ vertex=VERTICES[5792], cost=0 },}
+EDGES[VERTICES[1452]] = {{ vertex=VERTICES[524], cost=0 },}
+EDGES[VERTICES[3289]] = {{ vertex=VERTICES[3818], cost=0 },}
+EDGES[VERTICES[5902]] = {{ vertex=VERTICES[5840], cost=0 },}
+EDGES[VERTICES[2474]] = {{ vertex=VERTICES[4534], cost=0 },}
+EDGES[VERTICES[2359]] = {{ vertex=VERTICES[5431], cost=0 },}
+EDGES[VERTICES[3157]] = {{ vertex=VERTICES[3319], cost=0 },}
+EDGES[VERTICES[3030]] = {{ vertex=VERTICES[674], cost=0 },}
+EDGES[VERTICES[6269]] = {{ vertex=VERTICES[2647], cost=0 },}
+EDGES[VERTICES[2793]] = {{ vertex=VERTICES[2241], cost=0 },}
+EDGES[VERTICES[2195]] = {{ vertex=VERTICES[659], cost=0 },}
+EDGES[VERTICES[1119]] = {{ vertex=VERTICES[3944], cost=0 },}
+EDGES[VERTICES[6290]] = {{ vertex=VERTICES[4997], cost=0 },}
+EDGES[VERTICES[5239]] = {{ vertex=VERTICES[2599], cost=0 },}
+EDGES[VERTICES[5290]] = {{ vertex=VERTICES[306], cost=0 },}
+EDGES[VERTICES[3931]] = {{ vertex=VERTICES[1092], cost=0 },}
+EDGES[VERTICES[2212]] = {{ vertex=VERTICES[3150], cost=0 },}
+EDGES[VERTICES[1416]] = {{ vertex=VERTICES[2656], cost=0 },}
+EDGES[VERTICES[3069]] = {{ vertex=VERTICES[512], cost=0 },}
+EDGES[VERTICES[4305]] = {{ vertex=VERTICES[1231], cost=0 },}
+EDGES[VERTICES[374]] = {{ vertex=VERTICES[5639], cost=0 },}
+EDGES[VERTICES[705]] = {{ vertex=VERTICES[3173], cost=0 },}
+EDGES[VERTICES[296]] = {{ vertex=VERTICES[1024], cost=0 },}
+EDGES[VERTICES[6009]] = {{ vertex=VERTICES[182], cost=0 },}
+EDGES[VERTICES[6263]] = {{ vertex=VERTICES[6120], cost=0 },}
+EDGES[VERTICES[6402]] = {{ vertex=VERTICES[3663], cost=0 },}
+EDGES[VERTICES[2053]] = {{ vertex=VERTICES[1935], cost=0 },}
+EDGES[VERTICES[3038]] = {{ vertex=VERTICES[602], cost=0 },}
+EDGES[VERTICES[1289]] = {{ vertex=VERTICES[2613], cost=0 },}
+EDGES[VERTICES[295]] = {{ vertex=VERTICES[5830], cost=0 },}
+EDGES[VERTICES[5826]] = {{ vertex=VERTICES[5338], cost=0 },}
+EDGES[VERTICES[3991]] = {{ vertex=VERTICES[1370], cost=0 },}
+EDGES[VERTICES[4360]] = {{ vertex=VERTICES[4010], cost=0 },}
+EDGES[VERTICES[4572]] = {{ vertex=VERTICES[2096], cost=0 },}
+EDGES[VERTICES[1988]] = {{ vertex=VERTICES[1821], cost=0 },}
+EDGES[VERTICES[3325]] = {{ vertex=VERTICES[129], cost=0 },}
+EDGES[VERTICES[5537]] = {{ vertex=VERTICES[1897], cost=0 },}
+EDGES[VERTICES[2097]] = {{ vertex=VERTICES[4272], cost=0 },}
+EDGES[VERTICES[1385]] = {{ vertex=VERTICES[4815], cost=0 },}
+EDGES[VERTICES[6069]] = {{ vertex=VERTICES[1332], cost=0 },}
+EDGES[VERTICES[3965]] = {{ vertex=VERTICES[2815], cost=0 },}
+EDGES[VERTICES[8]] = {{ vertex=VERTICES[1626], cost=0 },}
+EDGES[VERTICES[5353]] = {{ vertex=VERTICES[3771], cost=0 },}
+EDGES[VERTICES[2054]] = {{ vertex=VERTICES[2233], cost=0 },}
+EDGES[VERTICES[3674]] = {{ vertex=VERTICES[2186], cost=0 },}
+EDGES[VERTICES[2541]] = {{ vertex=VERTICES[2093], cost=0 },}
+EDGES[VERTICES[933]] = {{ vertex=VERTICES[4114], cost=0 },}
+EDGES[VERTICES[267]] = {{ vertex=VERTICES[1136], cost=0 },}
+EDGES[VERTICES[3846]] = {{ vertex=VERTICES[500], cost=0 },}
+EDGES[VERTICES[5943]] = {{ vertex=VERTICES[794], cost=0 },}
+EDGES[VERTICES[111]] = {{ vertex=VERTICES[5233], cost=0 },}
+EDGES[VERTICES[6169]] = {{ vertex=VERTICES[19], cost=0 },}
+EDGES[VERTICES[4749]] = {{ vertex=VERTICES[4753], cost=0 },}
+EDGES[VERTICES[4754]] = {{ vertex=VERTICES[3147], cost=0 },}
+EDGES[VERTICES[6275]] = {{ vertex=VERTICES[3238], cost=0 },}
+EDGES[VERTICES[5246]] = {{ vertex=VERTICES[3680], cost=0 },}
+EDGES[VERTICES[3065]] = {{ vertex=VERTICES[4349], cost=0 },}
+EDGES[VERTICES[5630]] = {{ vertex=VERTICES[3770], cost=0 },}
+EDGES[VERTICES[24]] = {{ vertex=VERTICES[5010], cost=0 },}
+EDGES[VERTICES[2264]] = {{ vertex=VERTICES[2145], cost=0 },}
+EDGES[VERTICES[203]] = {{ vertex=VERTICES[326], cost=0 },}
+EDGES[VERTICES[4096]] = {{ vertex=VERTICES[441], cost=0 },}
+EDGES[VERTICES[4379]] = {{ vertex=VERTICES[3022], cost=0 },}
+EDGES[VERTICES[4814]] = {{ vertex=VERTICES[3777], cost=0 },}
+EDGES[VERTICES[3646]] = {{ vertex=VERTICES[5263], cost=0 },}
+EDGES[VERTICES[3029]] = {{ vertex=VERTICES[1063], cost=0 },}
+EDGES[VERTICES[3113]] = {{ vertex=VERTICES[3565], cost=0 },}
+EDGES[VERTICES[4599]] = {{ vertex=VERTICES[112], cost=0 },}
+EDGES[VERTICES[3031]] = {{ vertex=VERTICES[1500], cost=0 },}
+EDGES[VERTICES[3613]] = {{ vertex=VERTICES[1979], cost=0 },}
+EDGES[VERTICES[2907]] = {{ vertex=VERTICES[2801], cost=0 },}
+EDGES[VERTICES[3486]] = {{ vertex=VERTICES[503], cost=0 },}
+EDGES[VERTICES[4768]] = {{ vertex=VERTICES[1723], cost=0 },}
+EDGES[VERTICES[920]] = {{ vertex=VERTICES[3909], cost=0 },}
+EDGES[VERTICES[584]] = {{ vertex=VERTICES[3969], cost=0 },}
+EDGES[VERTICES[4690]] = {{ vertex=VERTICES[2606], cost=0 },}
+EDGES[VERTICES[957]] = {{ vertex=VERTICES[2295], cost=0 },}
+EDGES[VERTICES[4820]] = {{ vertex=VERTICES[4427], cost=0 },}
+EDGES[VERTICES[5479]] = {{ vertex=VERTICES[2493], cost=0 },}
+EDGES[VERTICES[6148]] = {{ vertex=VERTICES[5150], cost=0 },}
+EDGES[VERTICES[27]] = {{ vertex=VERTICES[5637], cost=0 },}
+EDGES[VERTICES[3892]] = {{ vertex=VERTICES[3494], cost=0 },}
+EDGES[VERTICES[4812]] = {{ vertex=VERTICES[2967], cost=0 },}
+EDGES[VERTICES[175]] = {{ vertex=VERTICES[4662], cost=0 },}
+EDGES[VERTICES[4834]] = {{ vertex=VERTICES[3419], cost=0 },}
+EDGES[VERTICES[3548]] = {{ vertex=VERTICES[6159], cost=0 },}
+EDGES[VERTICES[4556]] = {{ vertex=VERTICES[1466], cost=0 },}
+EDGES[VERTICES[5461]] = {{ vertex=VERTICES[1662], cost=0 },}
+EDGES[VERTICES[5399]] = {{ vertex=VERTICES[1051], cost=0 },}
+EDGES[VERTICES[101]] = {{ vertex=VERTICES[6229], cost=0 },}
+EDGES[VERTICES[1127]] = {{ vertex=VERTICES[5649], cost=0 },}
+EDGES[VERTICES[451]] = {{ vertex=VERTICES[2721], cost=0 },}
+EDGES[VERTICES[3142]] = {{ vertex=VERTICES[4142], cost=0 },}
+EDGES[VERTICES[1095]] = {{ vertex=VERTICES[5501], cost=0 },}
+EDGES[VERTICES[5992]] = {{ vertex=VERTICES[5096], cost=0 },}
+EDGES[VERTICES[5552]] = {{ vertex=VERTICES[272], cost=0 },}
+EDGES[VERTICES[5310]] = {{ vertex=VERTICES[751], cost=0 },}
+EDGES[VERTICES[5362]] = {{ vertex=VERTICES[5678], cost=0 },}
+EDGES[VERTICES[5464]] = {{ vertex=VERTICES[5374], cost=0 },}
+EDGES[VERTICES[4446]] = {{ vertex=VERTICES[3180], cost=0 },}
+EDGES[VERTICES[4590]] = {{ vertex=VERTICES[1911], cost=0 },}
+EDGES[VERTICES[5667]] = {{ vertex=VERTICES[2646], cost=0 },}
+EDGES[VERTICES[633]] = {{ vertex=VERTICES[5990], cost=0 },}
+EDGES[VERTICES[1152]] = {{ vertex=VERTICES[5640], cost=0 },}
+EDGES[VERTICES[3802]] = {{ vertex=VERTICES[3754], cost=0 },}
+EDGES[VERTICES[2178]] = {{ vertex=VERTICES[195], cost=0 },}
+EDGES[VERTICES[5171]] = {{ vertex=VERTICES[2744], cost=0 },}
+EDGES[VERTICES[4302]] = {{ vertex=VERTICES[4356], cost=0 },}
+EDGES[VERTICES[1498]] = {{ vertex=VERTICES[905], cost=0 },}
+EDGES[VERTICES[2057]] = {{ vertex=VERTICES[1265], cost=0 },}
+EDGES[VERTICES[6012]] = {{ vertex=VERTICES[188], cost=0 },}
+EDGES[VERTICES[2333]] = {{ vertex=VERTICES[5944], cost=0 },}
+EDGES[VERTICES[4073]] = {{ vertex=VERTICES[1720], cost=0 },}
+EDGES[VERTICES[3203]] = {{ vertex=VERTICES[530], cost=0 },}
+EDGES[VERTICES[2188]] = {{ vertex=VERTICES[3711], cost=0 },}
+EDGES[VERTICES[1908]] = {{ vertex=VERTICES[3535], cost=0 },}
+EDGES[VERTICES[2102]] = {{ vertex=VERTICES[402], cost=0 },}
+EDGES[VERTICES[1356]] = {{ vertex=VERTICES[4145], cost=0 },}
+EDGES[VERTICES[2768]] = {{ vertex=VERTICES[3481], cost=0 },}
+EDGES[VERTICES[4483]] = {{ vertex=VERTICES[1872], cost=0 },}
+EDGES[VERTICES[4519]] = {{ vertex=VERTICES[2361], cost=0 },}
+EDGES[VERTICES[746]] = {{ vertex=VERTICES[1808], cost=0 },}
+EDGES[VERTICES[463]] = {{ vertex=VERTICES[2148], cost=0 },}
+EDGES[VERTICES[3900]] = {{ vertex=VERTICES[4407], cost=0 },}
+EDGES[VERTICES[657]] = {{ vertex=VERTICES[4185], cost=0 },}
+EDGES[VERTICES[1280]] = {{ vertex=VERTICES[3774], cost=0 },}
+EDGES[VERTICES[5181]] = {{ vertex=VERTICES[1700], cost=0 },}
+EDGES[VERTICES[1244]] = {{ vertex=VERTICES[631], cost=0 },}
+EDGES[VERTICES[559]] = {{ vertex=VERTICES[5737], cost=0 },}
+EDGES[VERTICES[2005]] = {{ vertex=VERTICES[4974], cost=0 },}
+EDGES[VERTICES[1305]] = {{ vertex=VERTICES[2449], cost=0 },}
+EDGES[VERTICES[5536]] = {{ vertex=VERTICES[775], cost=0 },}
+EDGES[VERTICES[3654]] = {{ vertex=VERTICES[2206], cost=0 },}
+EDGES[VERTICES[270]] = {{ vertex=VERTICES[5925], cost=0 },}
+EDGES[VERTICES[2697]] = {{ vertex=VERTICES[3144], cost=0 },}
+EDGES[VERTICES[1521]] = {{ vertex=VERTICES[1620], cost=0 },}
+EDGES[VERTICES[4235]] = {{ vertex=VERTICES[902], cost=0 },}
+EDGES[VERTICES[2608]] = {{ vertex=VERTICES[5657], cost=0 },}
+EDGES[VERTICES[761]] = {{ vertex=VERTICES[3200], cost=0 },}
+EDGES[VERTICES[3112]] = {{ vertex=VERTICES[2431], cost=0 },}
+EDGES[VERTICES[3116]] = {{ vertex=VERTICES[519], cost=0 },}
+EDGES[VERTICES[686]] = {{ vertex=VERTICES[1944], cost=0 },}
+EDGES[VERTICES[5413]] = {{ vertex=VERTICES[1110], cost=0 },}
+EDGES[VERTICES[49]] = {{ vertex=VERTICES[4631], cost=0 },}
+EDGES[VERTICES[929]] = {{ vertex=VERTICES[2471], cost=0 },}
+EDGES[VERTICES[1845]] = {{ vertex=VERTICES[5127], cost=0 },}
+EDGES[VERTICES[6044]] = {{ vertex=VERTICES[6299], cost=0 },}
+EDGES[VERTICES[2077]] = {{ vertex=VERTICES[1292], cost=0 },}
+EDGES[VERTICES[4971]] = {{ vertex=VERTICES[3923], cost=0 },}
+EDGES[VERTICES[4311]] = {{ vertex=VERTICES[6196], cost=0 },}
+EDGES[VERTICES[5578]] = {{ vertex=VERTICES[3637], cost=0 },}
+EDGES[VERTICES[4100]] = {{ vertex=VERTICES[168], cost=0 },}
+EDGES[VERTICES[138]] = {{ vertex=VERTICES[4146], cost=0 },}
+EDGES[VERTICES[5091]] = {{ vertex=VERTICES[2866], cost=0 },}
+EDGES[VERTICES[689]] = {{ vertex=VERTICES[1990], cost=0 },}
+EDGES[VERTICES[5860]] = {{ vertex=VERTICES[330], cost=0 },}
+EDGES[VERTICES[4508]] = {{ vertex=VERTICES[5733], cost=0 },}
+EDGES[VERTICES[4137]] = {{ vertex=VERTICES[3537], cost=0 },}
+EDGES[VERTICES[6248]] = {{ vertex=VERTICES[2962], cost=0 },}
+EDGES[VERTICES[1528]] = {{ vertex=VERTICES[3924], cost=0 },}
+EDGES[VERTICES[5836]] = {{ vertex=VERTICES[3364], cost=0 },}
+EDGES[VERTICES[5997]] = {{ vertex=VERTICES[2252], cost=0 },}
+EDGES[VERTICES[5369]] = {{ vertex=VERTICES[773], cost=0 },}
+EDGES[VERTICES[2365]] = {{ vertex=VERTICES[1471], cost=0 },}
+EDGES[VERTICES[2682]] = {{ vertex=VERTICES[5499], cost=0 },}
+EDGES[VERTICES[4769]] = {{ vertex=VERTICES[4255], cost=0 },}
+EDGES[VERTICES[196]] = {{ vertex=VERTICES[150], cost=0 },}
+EDGES[VERTICES[733]] = {{ vertex=VERTICES[6144], cost=0 },}
+EDGES[VERTICES[1478]] = {{ vertex=VERTICES[3037], cost=0 },}
+EDGES[VERTICES[5977]] = {{ vertex=VERTICES[2629], cost=0 },}
+EDGES[VERTICES[4472]] = {{ vertex=VERTICES[1139], cost=0 },}
+EDGES[VERTICES[2369]] = {{ vertex=VERTICES[5497], cost=0 },}
+EDGES[VERTICES[807]] = {{ vertex=VERTICES[2176], cost=0 },}
+EDGES[VERTICES[1341]] = {{ vertex=VERTICES[4993], cost=0 },}
+EDGES[VERTICES[5204]] = {{ vertex=VERTICES[1238], cost=0 },}
+EDGES[VERTICES[4392]] = {{ vertex=VERTICES[1540], cost=0 },}
+EDGES[VERTICES[2668]] = {{ vertex=VERTICES[2637], cost=0 },}
+EDGES[VERTICES[4488]] = {{ vertex=VERTICES[4078], cost=0 },}
+EDGES[VERTICES[796]] = {{ vertex=VERTICES[4337], cost=0 },}
+EDGES[VERTICES[4817]] = {{ vertex=VERTICES[998], cost=0 },}
+EDGES[VERTICES[5227]] = {{ vertex=VERTICES[996], cost=0 },}
+EDGES[VERTICES[2484]] = {{ vertex=VERTICES[5402], cost=0 },}
+EDGES[VERTICES[5585]] = {{ vertex=VERTICES[69], cost=0 },}
+EDGES[VERTICES[3249]] = {{ vertex=VERTICES[772], cost=0 },}
+EDGES[VERTICES[1005]] = {{ vertex=VERTICES[1321], cost=0 },}
+EDGES[VERTICES[1383]] = {{ vertex=VERTICES[5508], cost=0 },}
+EDGES[VERTICES[3196]] = {{ vertex=VERTICES[2514], cost=0 },}
+EDGES[VERTICES[5790]] = {{ vertex=VERTICES[598], cost=0 },}
+EDGES[VERTICES[1030]] = {{ vertex=VERTICES[5775], cost=0 },}
+EDGES[VERTICES[2703]] = {{ vertex=VERTICES[4412], cost=0 },}
+EDGES[VERTICES[1781]] = {{ vertex=VERTICES[233], cost=0 },}
+EDGES[VERTICES[6191]] = {{ vertex=VERTICES[873], cost=0 },}
+EDGES[VERTICES[1903]] = {{ vertex=VERTICES[5605], cost=0 },}
+EDGES[VERTICES[4858]] = {{ vertex=VERTICES[5799], cost=0 },}
+EDGES[VERTICES[4788]] = {{ vertex=VERTICES[5349], cost=0 },}
+EDGES[VERTICES[5407]] = {{ vertex=VERTICES[1789], cost=0 },}
+EDGES[VERTICES[4395]] = {{ vertex=VERTICES[4171], cost=0 },}
+EDGES[VERTICES[4352]] = {{ vertex=VERTICES[3598], cost=0 },}
+EDGES[VERTICES[6306]] = {{ vertex=VERTICES[3143], cost=0 },}
+EDGES[VERTICES[2391]] = {{ vertex=VERTICES[6021], cost=0 },}
+EDGES[VERTICES[3638]] = {{ vertex=VERTICES[4074], cost=0 },}
+EDGES[VERTICES[4809]] = {{ vertex=VERTICES[789], cost=0 },}
+EDGES[VERTICES[6329]] = {{ vertex=VERTICES[3868], cost=0 },}
+EDGES[VERTICES[2284]] = {{ vertex=VERTICES[3257], cost=0 },}
+EDGES[VERTICES[4003]] = {{ vertex=VERTICES[2752], cost=0 },}
+EDGES[VERTICES[5401]] = {{ vertex=VERTICES[5534], cost=0 },}
+EDGES[VERTICES[352]] = {{ vertex=VERTICES[5308], cost=0 },}
+EDGES[VERTICES[3966]] = {{ vertex=VERTICES[3416], cost=0 },}
+EDGES[VERTICES[1312]] = {{ vertex=VERTICES[5170], cost=0 },}
+EDGES[VERTICES[3811]] = {{ vertex=VERTICES[1758], cost=0 },}
+EDGES[VERTICES[4306]] = {{ vertex=VERTICES[5046], cost=0 },}
+EDGES[VERTICES[3547]] = {{ vertex=VERTICES[3912], cost=0 },}
+EDGES[VERTICES[2457]] = {{ vertex=VERTICES[2088], cost=0 },}
+EDGES[VERTICES[1301]] = {{ vertex=VERTICES[1665], cost=0 },}
+EDGES[VERTICES[5831]] = {{ vertex=VERTICES[1519], cost=0 },}
+EDGES[VERTICES[2784]] = {{ vertex=VERTICES[5540], cost=0 },}
+EDGES[VERTICES[5217]] = {{ vertex=VERTICES[5808], cost=0 },}
+EDGES[VERTICES[497]] = {{ vertex=VERTICES[2798], cost=0 },}
+EDGES[VERTICES[482]] = {{ vertex=VERTICES[1021], cost=0 },}
+EDGES[VERTICES[4212]] = {{ vertex=VERTICES[4242], cost=0 },}
+EDGES[VERTICES[4061]] = {{ vertex=VERTICES[611], cost=0 },}
+EDGES[VERTICES[5378]] = {{ vertex=VERTICES[241], cost=0 },}
+EDGES[VERTICES[5077]] = {{ vertex=VERTICES[5065], cost=0 },}
+EDGES[VERTICES[2708]] = {{ vertex=VERTICES[2055], cost=0 },}
+EDGES[VERTICES[382]] = {{ vertex=VERTICES[2389], cost=0 },}
+EDGES[VERTICES[3332]] = {{ vertex=VERTICES[4862], cost=0 },}
+EDGES[VERTICES[278]] = {{ vertex=VERTICES[1338], cost=0 },}
+EDGES[VERTICES[3432]] = {{ vertex=VERTICES[6313], cost=0 },}
+EDGES[VERTICES[4744]] = {{ vertex=VERTICES[4248], cost=0 },}
+EDGES[VERTICES[1591]] = {{ vertex=VERTICES[4032], cost=0 },}
+EDGES[VERTICES[4153]] = {{ vertex=VERTICES[2197], cost=0 },}
+EDGES[VERTICES[1749]] = {{ vertex=VERTICES[3318], cost=0 },}
+EDGES[VERTICES[2930]] = {{ vertex=VERTICES[5806], cost=0 },}
+EDGES[VERTICES[5871]] = {{ vertex=VERTICES[2367], cost=0 },}
+EDGES[VERTICES[715]] = {{ vertex=VERTICES[4459], cost=0 },}
+EDGES[VERTICES[1304]] = {{ vertex=VERTICES[4156], cost=0 },}
+EDGES[VERTICES[785]] = {{ vertex=VERTICES[742], cost=0 },}
+EDGES[VERTICES[2818]] = {{ vertex=VERTICES[4566], cost=0 },}
+EDGES[VERTICES[4849]] = {{ vertex=VERTICES[4727], cost=0 },}
+EDGES[VERTICES[4310]] = {{ vertex=VERTICES[5486], cost=0 },}
+EDGES[VERTICES[123]] = {{ vertex=VERTICES[1994], cost=0 },}
+EDGES[VERTICES[537]] = {{ vertex=VERTICES[5949], cost=0 },}
+EDGES[VERTICES[5857]] = {{ vertex=VERTICES[1800], cost=0 },}
+EDGES[VERTICES[231]] = {{ vertex=VERTICES[5506], cost=0 },}
+EDGES[VERTICES[5755]] = {{ vertex=VERTICES[1751], cost=0 },}
+EDGES[VERTICES[1976]] = {{ vertex=VERTICES[2336], cost=0 },}
+EDGES[VERTICES[4576]] = {{ vertex=VERTICES[1083], cost=0 },}
+EDGES[VERTICES[3050]] = {{ vertex=VERTICES[4934], cost=0 },}
+EDGES[VERTICES[1639]] = {{ vertex=VERTICES[3930], cost=0 },}
+EDGES[VERTICES[6146]] = {{ vertex=VERTICES[1759], cost=0 },}
+EDGES[VERTICES[2249]] = {{ vertex=VERTICES[1203], cost=0 },}
+EDGES[VERTICES[4493]] = {{ vertex=VERTICES[700], cost=0 },}
+EDGES[VERTICES[1441]] = {{ vertex=VERTICES[6366], cost=0 },}
+EDGES[VERTICES[4888]] = {{ vertex=VERTICES[1367], cost=0 },}
+EDGES[VERTICES[5846]] = {{ vertex=VERTICES[3061], cost=0 },}
+EDGES[VERTICES[2966]] = {{ vertex=VERTICES[5168], cost=0 },}
+EDGES[VERTICES[2450]] = {{ vertex=VERTICES[1833], cost=0 },}
+EDGES[VERTICES[3551]] = {{ vertex=VERTICES[6316], cost=0 },}
+EDGES[VERTICES[988]] = {{ vertex=VERTICES[5760], cost=0 },}
+EDGES[VERTICES[4080]] = {{ vertex=VERTICES[3921], cost=0 },}
+EDGES[VERTICES[2516]] = {{ vertex=VERTICES[1064], cost=0 },}
+EDGES[VERTICES[3650]] = {{ vertex=VERTICES[4844], cost=0 },}
+EDGES[VERTICES[5961]] = {{ vertex=VERTICES[3562], cost=0 },}
+EDGES[VERTICES[5325]] = {{ vertex=VERTICES[1114], cost=0 },}
+EDGES[VERTICES[1492]] = {{ vertex=VERTICES[3355], cost=0 },}
+EDGES[VERTICES[568]] = {{ vertex=VERTICES[1303], cost=0 },}
+EDGES[VERTICES[3492]] = {{ vertex=VERTICES[2826], cost=0 },}
+EDGES[VERTICES[4465]] = {{ vertex=VERTICES[72], cost=0 },}
+EDGES[VERTICES[6340]] = {{ vertex=VERTICES[5067], cost=0 },}
+EDGES[VERTICES[1262]] = {{ vertex=VERTICES[4245], cost=0 },}
+EDGES[VERTICES[1638]] = {{ vertex=VERTICES[6208], cost=0 },}
+EDGES[VERTICES[3746]] = {{ vertex=VERTICES[872], cost=0 },}
+EDGES[VERTICES[3106]] = {{ vertex=VERTICES[5261], cost=0 },}
+EDGES[VERTICES[5844]] = {{ vertex=VERTICES[5014], cost=0 },}
+EDGES[VERTICES[935]] = {{ vertex=VERTICES[5465], cost=0 },}
+EDGES[VERTICES[4035]] = {{ vertex=VERTICES[2304], cost=0 },}
+EDGES[VERTICES[5194]] = {{ vertex=VERTICES[861], cost=0 },}
+EDGES[VERTICES[3285]] = {{ vertex=VERTICES[668], cost=0 },}
+EDGES[VERTICES[4105]] = {{ vertex=VERTICES[5048], cost=0 },}
+EDGES[VERTICES[141]] = {{ vertex=VERTICES[2209], cost=0 },}
+EDGES[VERTICES[6258]] = {{ vertex=VERTICES[842], cost=0 },}
+EDGES[VERTICES[4501]] = {{ vertex=VERTICES[1004], cost=0 },}
+EDGES[VERTICES[421]] = {{ vertex=VERTICES[5335], cost=0 },}
+EDGES[VERTICES[3721]] = {{ vertex=VERTICES[6202], cost=0 },}
+EDGES[VERTICES[2548]] = {{ vertex=VERTICES[43], cost=0 },}
+EDGES[VERTICES[1599]] = {{ vertex=VERTICES[5060], cost=0 },}
+EDGES[VERTICES[6403]] = {{ vertex=VERTICES[4683], cost=0 },}
+EDGES[VERTICES[896]] = {{ vertex=VERTICES[2520], cost=0 },}
+EDGES[VERTICES[5848]] = {{ vertex=VERTICES[2151], cost=0 },}
+EDGES[VERTICES[720]] = {{ vertex=VERTICES[172], cost=0 },}
+EDGES[VERTICES[2283]] = {{ vertex=VERTICES[1208], cost=0 },}
+EDGES[VERTICES[1068]] = {{ vertex=VERTICES[5833], cost=0 },}
+EDGES[VERTICES[4403]] = {{ vertex=VERTICES[6389], cost=0 },}
+EDGES[VERTICES[1709]] = {{ vertex=VERTICES[4684], cost=0 },}
+EDGES[VERTICES[2996]] = {{ vertex=VERTICES[4009], cost=0 },}
+EDGES[VERTICES[2834]] = {{ vertex=VERTICES[5371], cost=0 },}
+EDGES[VERTICES[4771]] = {{ vertex=VERTICES[4854], cost=0 },}
+EDGES[VERTICES[2580]] = {{ vertex=VERTICES[1418], cost=0 },}
+EDGES[VERTICES[2311]] = {{ vertex=VERTICES[2561], cost=0 },}
+EDGES[VERTICES[620]] = {{ vertex=VERTICES[1144], cost=0 },}
+EDGES[VERTICES[4068]] = {{ vertex=VERTICES[2557], cost=0 },}
+EDGES[VERTICES[3914]] = {{ vertex=VERTICES[676], cost=0 },}
+EDGES[VERTICES[660]] = {{ vertex=VERTICES[1970], cost=0 },}
+EDGES[VERTICES[3014]] = {{ vertex=VERTICES[924], cost=0 },}
+EDGES[VERTICES[2307]] = {{ vertex=VERTICES[1890], cost=0 },}
+EDGES[VERTICES[1429]] = {{ vertex=VERTICES[4292], cost=0 },}
+EDGES[VERTICES[1413]] = {{ vertex=VERTICES[5389], cost=0 },}
+EDGES[VERTICES[4499]] = {{ vertex=VERTICES[4915], cost=0 },}
+EDGES[VERTICES[1105]] = {{ vertex=VERTICES[1564], cost=0 },}
+EDGES[VERTICES[3361]] = {{ vertex=VERTICES[4375], cost=0 },}
+EDGES[VERTICES[2528]] = {{ vertex=VERTICES[6331], cost=0 },}
+EDGES[VERTICES[5811]] = {{ vertex=VERTICES[5810], cost=0 },}
+EDGES[VERTICES[2722]] = {{ vertex=VERTICES[148], cost=0 },}
+EDGES[VERTICES[5120]] = {{ vertex=VERTICES[4784], cost=0 },}
+EDGES[VERTICES[3898]] = {{ vertex=VERTICES[5093], cost=0 },}
+EDGES[VERTICES[6155]] = {{ vertex=VERTICES[3599], cost=0 },}
+EDGES[VERTICES[3778]] = {{ vertex=VERTICES[2362], cost=0 },}
+EDGES[VERTICES[6394]] = {{ vertex=VERTICES[17], cost=0 },}
+EDGES[VERTICES[6042]] = {{ vertex=VERTICES[358], cost=0 },}
+EDGES[VERTICES[4615]] = {{ vertex=VERTICES[5645], cost=0 },}
+EDGES[VERTICES[768]] = {{ vertex=VERTICES[3336], cost=0 },}
+EDGES[VERTICES[2566]] = {{ vertex=VERTICES[114], cost=0 },}
+EDGES[VERTICES[1952]] = {{ vertex=VERTICES[5149], cost=0 },}
+EDGES[VERTICES[5420]] = {{ vertex=VERTICES[411], cost=0 },}
+EDGES[VERTICES[1153]] = {{ vertex=VERTICES[1539], cost=0 },}
+EDGES[VERTICES[4019]] = {{ vertex=VERTICES[6070], cost=0 },}
+EDGES[VERTICES[4603]] = {{ vertex=VERTICES[4431], cost=0 },}
+EDGES[VERTICES[184]] = {{ vertex=VERTICES[6324], cost=0 },}
+EDGES[VERTICES[2630]] = {{ vertex=VERTICES[3128], cost=0 },}
+EDGES[VERTICES[5251]] = {{ vertex=VERTICES[1160], cost=0 },}
+EDGES[VERTICES[3734]] = {{ vertex=VERTICES[136], cost=0 },}
+EDGES[VERTICES[4321]] = {{ vertex=VERTICES[4681], cost=0 },}
+EDGES[VERTICES[3779]] = {{ vertex=VERTICES[2597], cost=0 },}
+EDGES[VERTICES[5813]] = {{ vertex=VERTICES[3747], cost=0 },}
+EDGES[VERTICES[1131]] = {{ vertex=VERTICES[1534], cost=0 },}
+EDGES[VERTICES[5216]] = {{ vertex=VERTICES[4685], cost=0 },}
+EDGES[VERTICES[1680]] = {{ vertex=VERTICES[5449], cost=0 },}
+EDGES[VERTICES[1156]] = {{ vertex=VERTICES[4289], cost=0 },}
+EDGES[VERTICES[2748]] = {{ vertex=VERTICES[2201], cost=0 },}
+EDGES[VERTICES[4658]] = {{ vertex=VERTICES[3495], cost=0 },}
+EDGES[VERTICES[3608]] = {{ vertex=VERTICES[1040], cost=0 },}
+EDGES[VERTICES[372]] = {{ vertex=VERTICES[3973], cost=0 },}
+EDGES[VERTICES[5743]] = {{ vertex=VERTICES[462], cost=0 },}
+EDGES[VERTICES[2072]] = {{ vertex=VERTICES[1713], cost=0 },}
+EDGES[VERTICES[1343]] = {{ vertex=VERTICES[816], cost=0 },}
+EDGES[VERTICES[5635]] = {{ vertex=VERTICES[3164], cost=0 },}
+EDGES[VERTICES[3797]] = {{ vertex=VERTICES[2416], cost=0 },}
+EDGES[VERTICES[838]] = {{ vertex=VERTICES[2631], cost=0 },}
+EDGES[VERTICES[1043]] = {{ vertex=VERTICES[2853], cost=0 },}
+EDGES[VERTICES[1276]] = {{ vertex=VERTICES[4095], cost=0 },}
+EDGES[VERTICES[1679]] = {{ vertex=VERTICES[3395], cost=0 },}
+EDGES[VERTICES[834]] = {{ vertex=VERTICES[4850], cost=0 },}
+EDGES[VERTICES[3593]] = {{ vertex=VERTICES[663], cost=0 },}
+EDGES[VERTICES[1207]] = {{ vertex=VERTICES[869], cost=0 },}
+EDGES[VERTICES[1447]] = {{ vertex=VERTICES[2172], cost=0 },}
+EDGES[VERTICES[3712]] = {{ vertex=VERTICES[5074], cost=0 },}
+EDGES[VERTICES[2829]] = {{ vertex=VERTICES[5028], cost=0 },}
+EDGES[VERTICES[5981]] = {{ vertex=VERTICES[3783], cost=0 },}
+EDGES[VERTICES[3426]] = {{ vertex=VERTICES[2636], cost=0 },}
+EDGES[VERTICES[913]] = {{ vertex=VERTICES[355], cost=0 },}
+EDGES[VERTICES[6334]] = {{ vertex=VERTICES[5776], cost=0 },}
+EDGES[VERTICES[3801]] = {{ vertex=VERTICES[4429], cost=0 },}
+EDGES[VERTICES[5451]] = {{ vertex=VERTICES[227], cost=0 },}
+EDGES[VERTICES[3546]] = {{ vertex=VERTICES[744], cost=0 },}
+EDGES[VERTICES[1373]] = {{ vertex=VERTICES[5143], cost=0 },}
+EDGES[VERTICES[4797]] = {{ vertex=VERTICES[5581], cost=0 },}
+EDGES[VERTICES[6022]] = {{ vertex=VERTICES[3054], cost=0 },}
+EDGES[VERTICES[88]] = {{ vertex=VERTICES[2016], cost=0 },}
+EDGES[VERTICES[4962]] = {{ vertex=VERTICES[1126], cost=0 },}
+EDGES[VERTICES[2476]] = {{ vertex=VERTICES[2276], cost=0 },}
+EDGES[VERTICES[943]] = {{ vertex=VERTICES[3699], cost=0 },}
+EDGES[VERTICES[3669]] = {{ vertex=VERTICES[4772], cost=0 },}
+EDGES[VERTICES[2455]] = {{ vertex=VERTICES[2774], cost=0 },}
+EDGES[VERTICES[821]] = {{ vertex=VERTICES[4025], cost=0 },}
+EDGES[VERTICES[5908]] = {{ vertex=VERTICES[6114], cost=0 },}
+EDGES[VERTICES[1469]] = {{ vertex=VERTICES[5727], cost=0 },}
+EDGES[VERTICES[2882]] = {{ vertex=VERTICES[6205], cost=0 },}
+EDGES[VERTICES[3251]] = {{ vertex=VERTICES[2775], cost=0 },}
+EDGES[VERTICES[316]] = {{ vertex=VERTICES[704], cost=0 },}
+EDGES[VERTICES[325]] = {{ vertex=VERTICES[4601], cost=0 },}
+EDGES[VERTICES[4322]] = {{ vertex=VERTICES[2855], cost=0 },}
+EDGES[VERTICES[4086]] = {{ vertex=VERTICES[974], cost=0 },}
+EDGES[VERTICES[922]] = {{ vertex=VERTICES[6315], cost=0 },}
+EDGES[VERTICES[4191]] = {{ vertex=VERTICES[4062], cost=0 },}
+EDGES[VERTICES[5015]] = {{ vertex=VERTICES[5533], cost=0 },}
+EDGES[VERTICES[951]] = {{ vertex=VERTICES[4965], cost=0 },}
+EDGES[VERTICES[1263]] = {{ vertex=VERTICES[1573], cost=0 },}
+EDGES[VERTICES[779]] = {{ vertex=VERTICES[2843], cost=0 },}
+EDGES[VERTICES[5397]] = {{ vertex=VERTICES[5174], cost=0 },}
+EDGES[VERTICES[4497]] = {{ vertex=VERTICES[166], cost=0 },}
+EDGES[VERTICES[4573]] = {{ vertex=VERTICES[6098], cost=0 },}
+EDGES[VERTICES[1339]] = {{ vertex=VERTICES[4904], cost=0 },}
+EDGES[VERTICES[459]] = {{ vertex=VERTICES[5821], cost=0 },}
+EDGES[VERTICES[782]] = {{ vertex=VERTICES[4897], cost=0 },}
+EDGES[VERTICES[5196]] = {{ vertex=VERTICES[139], cost=0 },}
+EDGES[VERTICES[1091]] = {{ vertex=VERTICES[2349], cost=0 },}
+EDGES[VERTICES[3057]] = {{ vertex=VERTICES[4475], cost=0 },}
+EDGES[VERTICES[2024]] = {{ vertex=VERTICES[4251], cost=0 },}
+EDGES[VERTICES[5938]] = {{ vertex=VERTICES[1369], cost=0 },}
+EDGES[VERTICES[5409]] = {{ vertex=VERTICES[1481], cost=0 },}
+EDGES[VERTICES[638]] = {{ vertex=VERTICES[1755], cost=0 },}
+EDGES[VERTICES[2889]] = {{ vertex=VERTICES[3574], cost=0 },}
+EDGES[VERTICES[5764]] = {{ vertex=VERTICES[2157], cost=0 },}
+EDGES[VERTICES[6353]] = {{ vertex=VERTICES[5434], cost=0 },}
+EDGES[VERTICES[4969]] = {{ vertex=VERTICES[548], cost=0 },}
+EDGES[VERTICES[2702]] = {{ vertex=VERTICES[285], cost=0 },}
+EDGES[VERTICES[3552]] = {{ vertex=VERTICES[1964], cost=0 },}
+EDGES[VERTICES[1963]] = {{ vertex=VERTICES[2903], cost=0 },}
+EDGES[VERTICES[1774]] = {{ vertex=VERTICES[2587], cost=0 },}
+EDGES[VERTICES[5365]] = {{ vertex=VERTICES[5923], cost=0 },}
+EDGES[VERTICES[2688]] = {{ vertex=VERTICES[4440], cost=0 },}
+EDGES[VERTICES[2831]] = {{ vertex=VERTICES[2943], cost=0 },}
+EDGES[VERTICES[2061]] = {{ vertex=VERTICES[716], cost=0 },}
+EDGES[VERTICES[4320]] = {{ vertex=VERTICES[721], cost=0 },}
+EDGES[VERTICES[2977]] = {{ vertex=VERTICES[6115], cost=0 },}
+EDGES[VERTICES[4580]] = {{ vertex=VERTICES[390], cost=0 },}
+EDGES[VERTICES[1849]] = {{ vertex=VERTICES[5215], cost=0 },}
+EDGES[VERTICES[410]] = {{ vertex=VERTICES[1387], cost=0 },}
+EDGES[VERTICES[3383]] = {{ vertex=VERTICES[3499], cost=0 },}
+EDGES[VERTICES[5284]] = {{ vertex=VERTICES[4238], cost=0 },}
+EDGES[VERTICES[6105]] = {{ vertex=VERTICES[3922], cost=0 },}
+EDGES[VERTICES[999]] = {{ vertex=VERTICES[1975], cost=0 },}
+EDGES[VERTICES[592]] = {{ vertex=VERTICES[4076], cost=0 },}
+EDGES[VERTICES[2864]] = {{ vertex=VERTICES[154], cost=0 },}
+EDGES[VERTICES[4619]] = {{ vertex=VERTICES[339], cost=0 },}
+EDGES[VERTICES[3455]] = {{ vertex=VERTICES[820], cost=0 },}
+EDGES[VERTICES[6045]] = {{ vertex=VERTICES[4873], cost=0 },}
+EDGES[VERTICES[802]] = {{ vertex=VERTICES[3256], cost=0 },}
+EDGES[VERTICES[585]] = {{ vertex=VERTICES[2604], cost=0 },}
+EDGES[VERTICES[2468]] = {{ vertex=VERTICES[2069], cost=0 },}
+EDGES[VERTICES[2994]] = {{ vertex=VERTICES[4646], cost=0 },}
+EDGES[VERTICES[349]] = {{ vertex=VERTICES[2954], cost=0 },}
+EDGES[VERTICES[2770]] = {{ vertex=VERTICES[5883], cost=0 },}
+EDGES[VERTICES[6014]] = {{ vertex=VERTICES[1056], cost=0 },}
+EDGES[VERTICES[6243]] = {{ vertex=VERTICES[6369], cost=0 },}
+EDGES[VERTICES[1998]] = {{ vertex=VERTICES[531], cost=0 },}
+EDGES[VERTICES[713]] = {{ vertex=VERTICES[3951], cost=0 },}
+EDGES[VERTICES[77]] = {{ vertex=VERTICES[6087], cost=0 },}
+EDGES[VERTICES[3517]] = {{ vertex=VERTICES[5298], cost=0 },}
+EDGES[VERTICES[434]] = {{ vertex=VERTICES[1084], cost=0 },}
+EDGES[VERTICES[1108]] = {{ vertex=VERTICES[717], cost=0 },}
+EDGES[VERTICES[6357]] = {{ vertex=VERTICES[3643], cost=0 },}
+EDGES[VERTICES[4963]] = {{ vertex=VERTICES[5761], cost=0 },}
+EDGES[VERTICES[5939]] = {{ vertex=VERTICES[5422], cost=0 },}
+EDGES[VERTICES[1882]] = {{ vertex=VERTICES[6151], cost=0 },}
+EDGES[VERTICES[3543]] = {{ vertex=VERTICES[2202], cost=0 },}
+EDGES[VERTICES[5979]] = {{ vertex=VERTICES[5148], cost=0 },}
+EDGES[VERTICES[945]] = {{ vertex=VERTICES[4608], cost=0 },}
+EDGES[VERTICES[3573]] = {{ vertex=VERTICES[2946], cost=0 },}
+EDGES[VERTICES[322]] = {{ vertex=VERTICES[5162], cost=0 },}
+EDGES[VERTICES[2806]] = {{ vertex=VERTICES[1775], cost=0 },}
+EDGES[VERTICES[179]] = {{ vertex=VERTICES[3513], cost=0 },}
+EDGES[VERTICES[3469]] = {{ vertex=VERTICES[823], cost=0 },}
+EDGES[VERTICES[3578]] = {{ vertex=VERTICES[4119], cost=0 },}
+EDGES[VERTICES[2513]] = {{ vertex=VERTICES[900], cost=0 },}
+EDGES[VERTICES[2560]] = {{ vertex=VERTICES[3115], cost=0 },}
+EDGES[VERTICES[3888]] = {{ vertex=VERTICES[4478], cost=0 },}
+EDGES[VERTICES[212]] = {{ vertex=VERTICES[2589], cost=0 },}
+EDGES[VERTICES[1445]] = {{ vertex=VERTICES[1140], cost=0 },}
+EDGES[VERTICES[3787]] = {{ vertex=VERTICES[4984], cost=0 },}
+EDGES[VERTICES[4611]] = {{ vertex=VERTICES[2236], cost=0 },}
+EDGES[VERTICES[3850]] = {{ vertex=VERTICES[2418], cost=0 },}
+EDGES[VERTICES[6279]] = {{ vertex=VERTICES[5543], cost=0 },}
+EDGES[VERTICES[3631]] = {{ vertex=VERTICES[5674], cost=0 },}
+EDGES[VERTICES[3172]] = {{ vertex=VERTICES[1880], cost=0 },}
+EDGES[VERTICES[3623]] = {{ vertex=VERTICES[3903], cost=0 },}
+EDGES[VERTICES[5008]] = {{ vertex=VERTICES[2824], cost=0 },}
+EDGES[VERTICES[261]] = {{ vertex=VERTICES[2314], cost=0 },}
+EDGES[VERTICES[3735]] = {{ vertex=VERTICES[1162], cost=0 },}
+EDGES[VERTICES[5382]] = {{ vertex=VERTICES[5711], cost=0 },}
+EDGES[VERTICES[1737]] = {{ vertex=VERTICES[1876], cost=0 },}
+EDGES[VERTICES[4990]] = {{ vertex=VERTICES[3532], cost=0 },}
+EDGES[VERTICES[5652]] = {{ vertex=VERTICES[612], cost=0 },}
+EDGES[VERTICES[5458]] = {{ vertex=VERTICES[5886], cost=0 },}
+EDGES[VERTICES[5249]] = {{ vertex=VERTICES[3971], cost=0 },}
+EDGES[VERTICES[1983]] = {{ vertex=VERTICES[3109], cost=0 },}
+EDGES[VERTICES[5946]] = {{ vertex=VERTICES[327], cost=0 },}
+EDGES[VERTICES[5730]] = {{ vertex=VERTICES[3341], cost=0 },}
+EDGES[VERTICES[5818]] = {{ vertex=VERTICES[5376], cost=0 },}
+EDGES[VERTICES[3920]] = {{ vertex=VERTICES[2550], cost=0 },}
+EDGES[VERTICES[560]] = {{ vertex=VERTICES[5611], cost=0 },}
+EDGES[VERTICES[387]] = {{ vertex=VERTICES[1393], cost=0 },}
+EDGES[VERTICES[2458]] = {{ vertex=VERTICES[3277], cost=0 },}
+EDGES[VERTICES[3133]] = {{ vertex=VERTICES[4803], cost=0 },}
+EDGES[VERTICES[569]] = {{ vertex=VERTICES[3159], cost=0 },}
+EDGES[VERTICES[3162]] = {{ vertex=VERTICES[736], cost=0 },}
+EDGES[VERTICES[4244]] = {{ vertex=VERTICES[1196], cost=0 },}
+EDGES[VERTICES[1927]] = {{ vertex=VERTICES[64], cost=0 },}
+EDGES[VERTICES[5462]] = {{ vertex=VERTICES[2073], cost=0 },}
+EDGES[VERTICES[2115]] = {{ vertex=VERTICES[1824], cost=0 },}
+EDGES[VERTICES[1588]] = {{ vertex=VERTICES[1223], cost=0 },}
+EDGES[VERTICES[6082]] = {{ vertex=VERTICES[3075], cost=0 },}
+EDGES[VERTICES[3170]] = {{ vertex=VERTICES[6167], cost=0 },}
+EDGES[VERTICES[5049]] = {{ vertex=VERTICES[1819], cost=0 },}
+EDGES[VERTICES[4906]] = {{ vertex=VERTICES[1188], cost=0 },}
+EDGES[VERTICES[490]] = {{ vertex=VERTICES[307], cost=0 },}
+EDGES[VERTICES[3472]] = {{ vertex=VERTICES[4485], cost=0 },}
+EDGES[VERTICES[4618]] = {{ vertex=VERTICES[4981], cost=0 },}
+EDGES[VERTICES[1435]] = {{ vertex=VERTICES[3188], cost=0 },}
+EDGES[VERTICES[1069]] = {{ vertex=VERTICES[5025], cost=0 },}
+EDGES[VERTICES[2138]] = {{ vertex=VERTICES[3606], cost=0 },}
+EDGES[VERTICES[2013]] = {{ vertex=VERTICES[2480], cost=0 },}
+EDGES[VERTICES[2779]] = {{ vertex=VERTICES[3006], cost=0 },}
+EDGES[VERTICES[3986]] = {{ vertex=VERTICES[3338], cost=0 },}
+EDGES[VERTICES[2865]] = {{ vertex=VERTICES[4423], cost=0 },}
+EDGES[VERTICES[4172]] = {{ vertex=VERTICES[6395], cost=0 },}
+EDGES[VERTICES[1331]] = {{ vertex=VERTICES[754], cost=0 },}
+EDGES[VERTICES[4391]] = {{ vertex=VERTICES[3628], cost=0 },}
+EDGES[VERTICES[1237]] = {{ vertex=VERTICES[1658], cost=0 },}
+EDGES[VERTICES[5384]] = {{ vertex=VERTICES[2789], cost=0 },}
+EDGES[VERTICES[3138]] = {{ vertex=VERTICES[4421], cost=0 },}
+EDGES[VERTICES[6176]] = {{ vertex=VERTICES[2340], cost=0 },}
+EDGES[VERTICES[3221]] = {{ vertex=VERTICES[2893], cost=0 },}
+EDGES[VERTICES[2942]] = {{ vertex=VERTICES[5717], cost=0 },}
+EDGES[VERTICES[3963]] = {{ vertex=VERTICES[2320], cost=0 },}
+EDGES[VERTICES[3241]] = {{ vertex=VERTICES[575], cost=0 },}
+EDGES[VERTICES[908]] = {{ vertex=VERTICES[2260], cost=0 },}
+EDGES[VERTICES[6072]] = {{ vertex=VERTICES[118], cost=0 },}
+EDGES[VERTICES[1081]] = {{ vertex=VERTICES[4537], cost=0 },}
+EDGES[VERTICES[3444]] = {{ vertex=VERTICES[2109], cost=0 },}
+EDGES[VERTICES[4357]] = {{ vertex=VERTICES[1533], cost=0 },}
+EDGES[VERTICES[6293]] = {{ vertex=VERTICES[4758], cost=0 },}
+EDGES[VERTICES[2386]] = {{ vertex=VERTICES[2727], cost=0 },}
+EDGES[VERTICES[4896]] = {{ vertex=VERTICES[4195], cost=0 },}
+EDGES[VERTICES[4435]] = {{ vertex=VERTICES[698], cost=0 },}
+EDGES[VERTICES[3632]] = {{ vertex=VERTICES[5255], cost=0 },}
+EDGES[VERTICES[4899]] = {{ vertex=VERTICES[337], cost=0 },}
+EDGES[VERTICES[3141]] = {{ vertex=VERTICES[563], cost=0 },}
+EDGES[VERTICES[1142]] = {{ vertex=VERTICES[1138], cost=0 },}
+EDGES[VERTICES[3384]] = {{ vertex=VERTICES[1703], cost=0 },}
+EDGES[VERTICES[3522]] = {{ vertex=VERTICES[1817], cost=0 },}
+EDGES[VERTICES[220]] = {{ vertex=VERTICES[3467], cost=0 },}
+EDGES[VERTICES[5180]] = {{ vertex=VERTICES[528], cost=0 },}
+EDGES[VERTICES[4543]] = {{ vertex=VERTICES[1793], cost=0 },}
+EDGES[VERTICES[3538]] = {{ vertex=VERTICES[1932], cost=0 },}
+EDGES[VERTICES[2509]] = {{ vertex=VERTICES[3484], cost=0 },}
+EDGES[VERTICES[3273]] = {{ vertex=VERTICES[1072], cost=0 },}
+EDGES[VERTICES[2116]] = {{ vertex=VERTICES[347], cost=0 },}
+EDGES[VERTICES[290]] = {{ vertex=VERTICES[1213], cost=0 },}
+EDGES[VERTICES[5398]] = {{ vertex=VERTICES[6078], cost=0 },}
+EDGES[VERTICES[1623]] = {{ vertex=VERTICES[5083], cost=0 },}
+EDGES[VERTICES[2366]] = {{ vertex=VERTICES[4520], cost=0 },}
+EDGES[VERTICES[5214]] = {{ vertex=VERTICES[3835], cost=0 },}
+EDGES[VERTICES[6255]] = {{ vertex=VERTICES[5550], cost=0 },}
+EDGES[VERTICES[2645]] = {{ vertex=VERTICES[6271], cost=0 },}
+EDGES[VERTICES[5868]] = {{ vertex=VERTICES[2203], cost=0 },}
+EDGES[VERTICES[1583]] = {{ vertex=VERTICES[5841], cost=0 },}
+EDGES[VERTICES[2006]] = {{ vertex=VERTICES[1476], cost=0 },}
+EDGES[VERTICES[2085]] = {{ vertex=VERTICES[1556], cost=0 },}
+EDGES[VERTICES[2922]] = {{ vertex=VERTICES[517], cost=0 },}
+EDGES[VERTICES[368]] = {{ vertex=VERTICES[3114], cost=0 },}
+EDGES[VERTICES[3566]] = {{ vertex=VERTICES[3161], cost=0 },}
+EDGES[VERTICES[2938]] = {{ vertex=VERTICES[5894], cost=0 },}
+EDGES[VERTICES[4162]] = {{ vertex=VERTICES[1249], cost=0 },}
+EDGES[VERTICES[5795]] = {{ vertex=VERTICES[1768], cost=0 },}
+EDGES[VERTICES[836]] = {{ vertex=VERTICES[5952], cost=0 },}
+EDGES[VERTICES[3125]] = {{ vertex=VERTICES[1565], cost=0 },}
+EDGES[VERTICES[1042]] = {{ vertex=VERTICES[1395], cost=0 },}
+EDGES[VERTICES[1598]] = {{ vertex=VERTICES[3893], cost=0 },}
+EDGES[VERTICES[3675]] = {{ vertex=VERTICES[4023], cost=0 },}
+EDGES[VERTICES[3756]] = {{ vertex=VERTICES[4436], cost=0 },}
+EDGES[VERTICES[2411]] = {{ vertex=VERTICES[2593], cost=0 },}
+EDGES[VERTICES[1176]] = {{ vertex=VERTICES[3466], cost=0 },{ vertex=VERTICES[95], cost=0 },{ vertex=VERTICES[5905], cost=0 },{ vertex=VERTICES[67], cost=0 },}
+EDGES[VERTICES[1013]] = {{ vertex=VERTICES[4822], cost=0 },}
+EDGES[VERTICES[6307]] = {{ vertex=VERTICES[3011], cost=0 },}
+EDGES[VERTICES[1164]] = {{ vertex=VERTICES[2717], cost=0 },}
+EDGES[VERTICES[2381]] = {{ vertex=VERTICES[5210], cost=0 },}
+EDGES[VERTICES[5880]] = {{ vertex=VERTICES[4677], cost=0 },}
+EDGES[VERTICES[4924]] = {{ vertex=VERTICES[3987], cost=0 },}
+EDGES[VERTICES[1380]] = {{ vertex=VERTICES[2076], cost=0 },}
+EDGES[VERTICES[1926]] = {{ vertex=VERTICES[1907], cost=0 },}
+EDGES[VERTICES[392]] = {{ vertex=VERTICES[1579], cost=0 },}
+EDGES[VERTICES[4408]] = {{ vertex=VERTICES[1654], cost=0 },}
+EDGES[VERTICES[3671]] = {{ vertex=VERTICES[4328], cost=0 },}
+EDGES[VERTICES[92]] = {{ vertex=VERTICES[4876], cost=0 },}
+EDGES[VERTICES[5230]] = {{ vertex=VERTICES[1173], cost=0 },}
+EDGES[VERTICES[151]] = {{ vertex=VERTICES[2603], cost=0 },}
+EDGES[VERTICES[1459]] = {{ vertex=VERTICES[2719], cost=0 },}
+EDGES[VERTICES[5041]] = {{ vertex=VERTICES[2323], cost=0 },}
+EDGES[VERTICES[5410]] = {{ vertex=VERTICES[2857], cost=0 },}
+EDGES[VERTICES[3508]] = {{ vertex=VERTICES[2038], cost=0 },}
+EDGES[VERTICES[4063]] = {{ vertex=VERTICES[4874], cost=0 },}
+EDGES[VERTICES[4258]] = {{ vertex=VERTICES[4409], cost=0 },}
+EDGES[VERTICES[1065]] = {{ vertex=VERTICES[756], cost=0 },}
+EDGES[VERTICES[4763]] = {{ vertex=VERTICES[5289], cost=0 },}
+EDGES[VERTICES[3225]] = {{ vertex=VERTICES[1931], cost=0 },}
+EDGES[VERTICES[1229]] = {{ vertex=VERTICES[3408], cost=0 },}
+EDGES[VERTICES[4794]] = {{ vertex=VERTICES[2226], cost=0 },}
+EDGES[VERTICES[218]] = {{ vertex=VERTICES[1346], cost=0 },}
+EDGES[VERTICES[3611]] = {{ vertex=VERTICES[4635], cost=0 },}
+EDGES[VERTICES[2524]] = {{ vertex=VERTICES[1568], cost=0 },}
+EDGES[VERTICES[4825]] = {{ vertex=VERTICES[2639], cost=0 },}
+EDGES[VERTICES[6033]] = {{ vertex=VERTICES[3427], cost=0 },}
+EDGES[VERTICES[180]] = {{ vertex=VERTICES[4354], cost=0 },}
+EDGES[VERTICES[2464]] = {{ vertex=VERTICES[5366], cost=0 },}
+EDGES[VERTICES[3655]] = {{ vertex=VERTICES[777], cost=0 },}
+EDGES[VERTICES[3657]] = {{ vertex=VERTICES[3744], cost=0 },}
+EDGES[VERTICES[953]] = {{ vertex=VERTICES[6152], cost=0 },}
+EDGES[VERTICES[1482]] = {{ vertex=VERTICES[5383], cost=0 },}
+EDGES[VERTICES[515]] = {{ vertex=VERTICES[2110], cost=0 },}
+EDGES[VERTICES[3693]] = {{ vertex=VERTICES[2355], cost=0 },}
+EDGES[VERTICES[2915]] = {{ vertex=VERTICES[2357], cost=0 },}
+EDGES[VERTICES[5931]] = {{ vertex=VERTICES[478], cost=0 },}
+EDGES[VERTICES[2658]] = {{ vertex=VERTICES[623], cost=0 },}
+EDGES[VERTICES[6138]] = {{ vertex=VERTICES[4914], cost=0 },}
+EDGES[VERTICES[5474]] = {{ vertex=VERTICES[5144], cost=0 },}
+EDGES[VERTICES[4477]] = {{ vertex=VERTICES[5476], cost=0 },}
+EDGES[VERTICES[4710]] = {{ vertex=VERTICES[5784], cost=0 },}
+EDGES[VERTICES[3493]] = {{ vertex=VERTICES[2010], cost=0 },}
+EDGES[VERTICES[3370]] = {{ vertex=VERTICES[332], cost=0 },}
+EDGES[VERTICES[4806]] = {{ vertex=VERTICES[4106], cost=0 },}
+EDGES[VERTICES[1480]] = {{ vertex=VERTICES[2058], cost=0 },}
+EDGES[VERTICES[384]] = {{ vertex=VERTICES[5625], cost=0 },}
+EDGES[VERTICES[4932]] = {{ vertex=VERTICES[5864], cost=0 },}
+EDGES[VERTICES[4253]] = {{ vertex=VERTICES[4340], cost=0 },}
+EDGES[VERTICES[1488]] = {{ vertex=VERTICES[4370], cost=0 },}
+EDGES[VERTICES[4224]] = {{ vertex=VERTICES[4644], cost=0 },}
+EDGES[VERTICES[2356]] = {{ vertex=VERTICES[4285], cost=0 },}
+EDGES[VERTICES[2729]] = {{ vertex=VERTICES[5135], cost=0 },}
+EDGES[VERTICES[1796]] = {{ vertex=VERTICES[5315], cost=0 },}
+EDGES[VERTICES[466]] = {{ vertex=VERTICES[113], cost=0 },}
+EDGES[VERTICES[4953]] = {{ vertex=VERTICES[4716], cost=0 },}
+EDGES[VERTICES[2074]] = {{ vertex=VERTICES[4656], cost=0 },}
+EDGES[VERTICES[2863]] = {{ vertex=VERTICES[4952], cost=0 },}
+EDGES[VERTICES[1517]] = {{ vertex=VERTICES[4271], cost=0 },}
+EDGES[VERTICES[5314]] = {{ vertex=VERTICES[5523], cost=0 },}
+EDGES[VERTICES[6376]] = {{ vertex=VERTICES[214], cost=0 },}
+EDGES[VERTICES[3156]] = {{ vertex=VERTICES[3118], cost=0 },}
+EDGES[VERTICES[3940]] = {{ vertex=VERTICES[4393], cost=0 },}
+EDGES[VERTICES[5121]] = {{ vertex=VERTICES[242], cost=0 },}
+EDGES[VERTICES[5498]] = {{ vertex=VERTICES[5822], cost=0 },}
+EDGES[VERTICES[252]] = {{ vertex=VERTICES[2118], cost=0 },}
+EDGES[VERTICES[2910]] = {{ vertex=VERTICES[2384], cost=0 },}
+EDGES[VERTICES[724]] = {{ vertex=VERTICES[3793], cost=0 },}
+EDGES[VERTICES[881]] = {{ vertex=VERTICES[1279], cost=0 },}
+EDGES[VERTICES[4498]] = {{ vertex=VERTICES[5769], cost=0 },}
+EDGES[VERTICES[6118]] = {{ vertex=VERTICES[1773], cost=0 },}
+EDGES[VERTICES[6038]] = {{ vertex=VERTICES[6247], cost=0 },}
+EDGES[VERTICES[6289]] = {{ vertex=VERTICES[119], cost=0 },}
+EDGES[VERTICES[4161]] = {{ vertex=VERTICES[6322], cost=0 },}
+EDGES[VERTICES[2790]] = {{ vertex=VERTICES[5590], cost=0 },}
+EDGES[VERTICES[1467]] = {{ vertex=VERTICES[4977], cost=0 },}
+EDGES[VERTICES[5504]] = {{ vertex=VERTICES[244], cost=0 },}
+EDGES[VERTICES[1826]] = {{ vertex=VERTICES[3879], cost=0 },}
+EDGES[VERTICES[6006]] = {{ vertex=VERTICES[2414], cost=0 },}
+EDGES[VERTICES[4610]] = {{ vertex=VERTICES[6370], cost=0 },}
+EDGES[VERTICES[342]] = {{ vertex=VERTICES[2350], cost=0 },}
+EDGES[VERTICES[4864]] = {{ vertex=VERTICES[4987], cost=0 },}
+EDGES[VERTICES[4930]] = {{ vertex=VERTICES[6140], cost=0 },}
+EDGES[VERTICES[2991]] = {{ vertex=VERTICES[1593], cost=0 },}
+EDGES[VERTICES[2429]] = {{ vertex=VERTICES[1143], cost=0 },}
+EDGES[VERTICES[732]] = {{ vertex=VERTICES[9], cost=0 },}
+EDGES[VERTICES[1096]] = {{ vertex=VERTICES[4216], cost=0 },}
+EDGES[VERTICES[3759]] = {{ vertex=VERTICES[1318], cost=0 },}
+EDGES[VERTICES[5872]] = {{ vertex=VERTICES[2605], cost=0 },}
+EDGES[VERTICES[5134]] = {{ vertex=VERTICES[2114], cost=0 },}
+EDGES[VERTICES[6219]] = {{ vertex=VERTICES[4918], cost=0 },}
+EDGES[VERTICES[1792]] = {{ vertex=VERTICES[5189], cost=0 },}
+EDGES[VERTICES[1121]] = {{ vertex=VERTICES[3396], cost=0 },}
+EDGES[VERTICES[4210]] = {{ vertex=VERTICES[4837], cost=0 },}
+EDGES[VERTICES[3305]] = {{ vertex=VERTICES[1924], cost=0 },}
+EDGES[VERTICES[4702]] = {{ vertex=VERTICES[4133], cost=0 },}
+EDGES[VERTICES[4]] = {{ vertex=VERTICES[4766], cost=0 },}
+EDGES[VERTICES[4087]] = {{ vertex=VERTICES[254], cost=0 },}
+EDGES[VERTICES[121]] = {{ vertex=VERTICES[2185], cost=0 },}
+EDGES[VERTICES[2360]] = {{ vertex=VERTICES[5787], cost=0 },}
+EDGES[VERTICES[5058]] = {{ vertex=VERTICES[4745], cost=0 },}
+EDGES[VERTICES[783]] = {{ vertex=VERTICES[4589], cost=0 },}
+EDGES[VERTICES[2319]] = {{ vertex=VERTICES[4775], cost=0 },}
+EDGES[VERTICES[2343]] = {{ vertex=VERTICES[1501], cost=0 },}
+EDGES[VERTICES[3012]] = {{ vertex=VERTICES[33], cost=0 },}
+EDGES[VERTICES[5566]] = {{ vertex=VERTICES[678], cost=0 },}
+EDGES[VERTICES[3001]] = {{ vertex=VERTICES[3950], cost=0 },}
+EDGES[VERTICES[1315]] = {{ vertex=VERTICES[2020], cost=0 },}
+EDGES[VERTICES[1288]] = {{ vertex=VERTICES[1741], cost=0 },}
+EDGES[VERTICES[409]] = {{ vertex=VERTICES[6059], cost=0 },}
+EDGES[VERTICES[6178]] = {{ vertex=VERTICES[5975], cost=0 },}
+EDGES[VERTICES[5270]] = {{ vertex=VERTICES[3145], cost=0 },}
+EDGES[VERTICES[480]] = {{ vertex=VERTICES[856], cost=0 },}
+EDGES[VERTICES[2844]] = {{ vertex=VERTICES[6097], cost=0 },}
+EDGES[VERTICES[3448]] = {{ vertex=VERTICES[4706], cost=0 },}
+EDGES[VERTICES[648]] = {{ vertex=VERTICES[5747], cost=0 },}
+EDGES[VERTICES[6325]] = {{ vertex=VERTICES[3504], cost=0 },}
+EDGES[VERTICES[3072]] = {{ vertex=VERTICES[3435], cost=0 },}
+EDGES[VERTICES[3195]] = {{ vertex=VERTICES[4300], cost=0 },}
+EDGES[VERTICES[3983]] = {{ vertex=VERTICES[1740], cost=0 },}
+EDGES[VERTICES[643]] = {{ vertex=VERTICES[2282], cost=0 },}
+EDGES[VERTICES[2868]] = {{ vertex=VERTICES[3253], cost=0 },}
+EDGES[VERTICES[5223]] = {{ vertex=VERTICES[2375], cost=0 },}
+EDGES[VERTICES[5771]] = {{ vertex=VERTICES[2064], cost=0 },}
+EDGES[VERTICES[2552]] = {{ vertex=VERTICES[31], cost=0 },}
+EDGES[VERTICES[253]] = {{ vertex=VERTICES[1706], cost=0 },}
+EDGES[VERTICES[5659]] = {{ vertex=VERTICES[1580], cost=0 },}
+EDGES[VERTICES[3218]] = {{ vertex=VERTICES[2120], cost=0 },}
+EDGES[VERTICES[2836]] = {{ vertex=VERTICES[3918], cost=0 },}
+EDGES[VERTICES[5853]] = {{ vertex=VERTICES[314], cost=0 },}
+EDGES[VERTICES[1744]] = {{ vertex=VERTICES[1914], cost=0 },}
+EDGES[VERTICES[840]] = {{ vertex=VERTICES[1117], cost=0 },}
+EDGES[VERTICES[572]] = {{ vertex=VERTICES[5770], cost=0 },}
+EDGES[VERTICES[4630]] = {{ vertex=VERTICES[1233], cost=0 },}
+EDGES[VERTICES[2130]] = {{ vertex=VERTICES[3496], cost=0 },}
+EDGES[VERTICES[629]] = {{ vertex=VERTICES[5388], cost=0 },}
+EDGES[VERTICES[1300]] = {{ vertex=VERTICES[4669], cost=0 },}
+EDGES[VERTICES[5381]] = {{ vertex=VERTICES[2271], cost=0 },}
+EDGES[VERTICES[2551]] = {{ vertex=VERTICES[149], cost=0 },}
+EDGES[VERTICES[57]] = {{ vertex=VERTICES[2239], cost=0 },}
+EDGES[VERTICES[5953]] = {{ vertex=VERTICES[930], cost=0 },}
+EDGES[VERTICES[5765]] = {{ vertex=VERTICES[3219], cost=0 },}
+EDGES[VERTICES[3152]] = {{ vertex=VERTICES[3568], cost=0 },}
+EDGES[VERTICES[3871]] = {{ vertex=VERTICES[4926], cost=0 },}
+EDGES[VERTICES[4988]] = {{ vertex=VERTICES[729], cost=0 },}
+EDGES[VERTICES[1082]] = {{ vertex=VERTICES[428], cost=0 },}
+EDGES[VERTICES[4663]] = {{ vertex=VERTICES[534], cost=0 },}
+EDGES[VERTICES[1653]] = {{ vertex=VERTICES[2126], cost=0 },}
+EDGES[VERTICES[2117]] = {{ vertex=VERTICES[3175], cost=0 },}
+EDGES[VERTICES[588]] = {{ vertex=VERTICES[3214], cost=0 },}
+EDGES[VERTICES[4286]] = {{ vertex=VERTICES[3826], cost=0 },}
+EDGES[VERTICES[4700]] = {{ vertex=VERTICES[4382], cost=0 },}
+EDGES[VERTICES[1135]] = {{ vertex=VERTICES[3283], cost=0 },}
+EDGES[VERTICES[3635]] = {{ vertex=VERTICES[105], cost=0 },}
+EDGES[VERTICES[5437]] = {{ vertex=VERTICES[5692], cost=0 },}
+EDGES[VERTICES[2240]] = {{ vertex=VERTICES[1885], cost=0 },}
+EDGES[VERTICES[3883]] = {{ vertex=VERTICES[3107], cost=0 },}
+EDGES[VERTICES[4828]] = {{ vertex=VERTICES[3015], cost=0 },}
+EDGES[VERTICES[680]] = {{ vertex=VERTICES[4314], cost=0 },}
+EDGES[VERTICES[304]] = {{ vertex=VERTICES[4742], cost=0 },}
+EDGES[VERTICES[5006]] = {{ vertex=VERTICES[5236], cost=0 },}
+EDGES[VERTICES[651]] = {{ vertex=VERTICES[5513], cost=0 },}
+EDGES[VERTICES[6211]] = {{ vertex=VERTICES[5559], cost=0 },}
+EDGES[VERTICES[878]] = {{ vertex=VERTICES[1464], cost=0 },}
+EDGES[VERTICES[3682]] = {{ vertex=VERTICES[5636], cost=0 },}
+EDGES[VERTICES[2083]] = {{ vertex=VERTICES[2674], cost=0 },}
+EDGES[VERTICES[2927]] = {{ vertex=VERTICES[3002], cost=0 },}
+EDGES[VERTICES[3997]] = {{ vertex=VERTICES[2591], cost=0 },}
+EDGES[VERTICES[4998]] = {{ vertex=VERTICES[1769], cost=0 },}
+EDGES[VERTICES[4274]] = {{ vertex=VERTICES[4066], cost=0 },}
+EDGES[VERTICES[1180]] = {{ vertex=VERTICES[5753], cost=0 },}
+EDGES[VERTICES[4060]] = {{ vertex=VERTICES[3957], cost=0 },}
+EDGES[VERTICES[5525]] = {{ vertex=VERTICES[2949], cost=0 },}
+EDGES[VERTICES[641]] = {{ vertex=VERTICES[4090], cost=0 },}
+EDGES[VERTICES[5395]] = {{ vertex=VERTICES[3315], cost=0 },}
+EDGES[VERTICES[2042]] = {{ vertex=VERTICES[4613], cost=0 },}
+EDGES[VERTICES[2325]] = {{ vertex=VERTICES[2444], cost=0 },}
+EDGES[VERTICES[3939]] = {{ vertex=VERTICES[2399], cost=0 },}
+EDGES[VERTICES[1900]] = {{ vertex=VERTICES[5357], cost=0 },}
+EDGES[VERTICES[4140]] = {{ vertex=VERTICES[234], cost=0 },}
+EDGES[VERTICES[4067]] = {{ vertex=VERTICES[3035], cost=0 },}
+EDGES[VERTICES[562]] = {{ vertex=VERTICES[6405], cost=0 },}
+EDGES[VERTICES[468]] = {{ vertex=VERTICES[574], cost=0 },}
+EDGES[VERTICES[2840]] = {{ vertex=VERTICES[1637], cost=0 },}
+EDGES[VERTICES[2945]] = {{ vertex=VERTICES[1187], cost=0 },}
+EDGES[VERTICES[2415]] = {{ vertex=VERTICES[173], cost=0 },}
+EDGES[VERTICES[4789]] = {{ vertex=VERTICES[2104], cost=0 },}
+EDGES[VERTICES[3860]] = {{ vertex=VERTICES[4869], cost=0 },}
+EDGES[VERTICES[5197]] = {{ vertex=VERTICES[4008], cost=0 },}
+EDGES[VERTICES[1856]] = {{ vertex=VERTICES[975], cost=0 },}
+EDGES[VERTICES[1605]] = {{ vertex=VERTICES[6153], cost=0 },}
+EDGES[VERTICES[4304]] = {{ vertex=VERTICES[2791], cost=0 },}
+EDGES[VERTICES[5772]] = {{ vertex=VERTICES[3276], cost=0 },}
+EDGES[VERTICES[1235]] = {{ vertex=VERTICES[2177], cost=0 },}
+EDGES[VERTICES[5390]] = {{ vertex=VERTICES[2247], cost=0 },}
+EDGES[VERTICES[4805]] = {{ vertex=VERTICES[6035], cost=0 },}
+EDGES[VERTICES[6103]] = {{ vertex=VERTICES[4283], cost=0 },}
+EDGES[VERTICES[3406]] = {{ vertex=VERTICES[42], cost=0 },}
+EDGES[VERTICES[3205]] = {{ vertex=VERTICES[3222], cost=0 },}
+EDGES[VERTICES[71]] = {{ vertex=VERTICES[5178], cost=0 },}
+EDGES[VERTICES[3760]] = {{ vertex=VERTICES[5300], cost=0 },}
+EDGES[VERTICES[5724]] = {{ vertex=VERTICES[4713], cost=0 },}
+EDGES[VERTICES[5912]] = {{ vertex=VERTICES[2422], cost=0 },}
+EDGES[VERTICES[2424]] = {{ vertex=VERTICES[255], cost=0 },}
+EDGES[VERTICES[1820]] = {{ vertex=VERTICES[5604], cost=0 },}
+EDGES[VERTICES[4916]] = {{ vertex=VERTICES[185], cost=0 },}
+EDGES[VERTICES[2562]] = {{ vertex=VERTICES[133], cost=0 },}
+EDGES[VERTICES[884]] = {{ vertex=VERTICES[1113], cost=0 },}
+EDGES[VERTICES[5817]] = {{ vertex=VERTICES[1674], cost=0 },}
+EDGES[VERTICES[1956]] = {{ vertex=VERTICES[6084], cost=0 },}
+EDGES[VERTICES[4199]] = {{ vertex=VERTICES[3323], cost=0 },}
+EDGES[VERTICES[4620]] = {{ vertex=VERTICES[379], cost=0 },}
+EDGES[VERTICES[3776]] = {{ vertex=VERTICES[967], cost=0 },}
+EDGES[VERTICES[3683]] = {{ vertex=VERTICES[5710], cost=0 },}
+EDGES[VERTICES[2125]] = {{ vertex=VERTICES[1702], cost=0 },}
+EDGES[VERTICES[3876]] = {{ vertex=VERTICES[1804], cost=0 },}
+EDGES[VERTICES[378]] = {{ vertex=VERTICES[1997], cost=0 },}
+EDGES[VERTICES[649]] = {{ vertex=VERTICES[2765], cost=0 },}
+EDGES[VERTICES[420]] = {{ vertex=VERTICES[5348], cost=0 },}
+EDGES[VERTICES[3677]] = {{ vertex=VERTICES[1218], cost=0 },}
+EDGES[VERTICES[1651]] = {{ vertex=VERTICES[5022], cost=0 },}
+EDGES[VERTICES[1692]] = {{ vertex=VERTICES[5782], cost=0 },}
+EDGES[VERTICES[2156]] = {{ vertex=VERTICES[3335], cost=0 },}
+EDGES[VERTICES[2546]] = {{ vertex=VERTICES[5138], cost=0 },}
+EDGES[VERTICES[848]] = {{ vertex=VERTICES[6288], cost=0 },}
+EDGES[VERTICES[2766]] = {{ vertex=VERTICES[4433], cost=0 },}
+EDGES[VERTICES[6064]] = {{ vertex=VERTICES[5140], cost=0 },}
+EDGES[VERTICES[6260]] = {{ vertex=VERTICES[3799], cost=0 },}
+EDGES[VERTICES[5778]] = {{ vertex=VERTICES[604], cost=0 },}
+EDGES[VERTICES[5166]] = {{ vertex=VERTICES[3786], cost=0 },}
+EDGES[VERTICES[3847]] = {{ vertex=VERTICES[2392], cost=0 },}
+EDGES[VERTICES[264]] = {{ vertex=VERTICES[4294], cost=0 },}
+EDGES[VERTICES[1753]] = {{ vertex=VERTICES[3559], cost=0 },}
+EDGES[VERTICES[1417]] = {{ vertex=VERTICES[2861], cost=0 },}
+EDGES[VERTICES[4697]] = {{ vertex=VERTICES[2510], cost=0 },}
+EDGES[VERTICES[2851]] = {{ vertex=VERTICES[6338], cost=0 },}
+EDGES[VERTICES[5445]] = {{ vertex=VERTICES[5511], cost=0 },}
+EDGES[VERTICES[5200]] = {{ vertex=VERTICES[3837], cost=0 },}
+EDGES[VERTICES[5283]] = {{ vertex=VERTICES[1803], cost=0 },}
+EDGES[VERTICES[2501]] = {{ vertex=VERTICES[1986], cost=0 },}
+EDGES[VERTICES[1484]] = {{ vertex=VERTICES[6075], cost=0 },}
+EDGES[VERTICES[1451]] = {{ vertex=VERTICES[3506], cost=0 },}
+EDGES[VERTICES[4232]] = {{ vertex=VERTICES[608], cost=0 },}
+EDGES[VERTICES[1514]] = {{ vertex=VERTICES[5721], cost=0 },}
+EDGES[VERTICES[6349]] = {{ vertex=VERTICES[6095], cost=0 },}
+EDGES[VERTICES[3070]] = {{ vertex=VERTICES[6239], cost=0 },}
+EDGES[VERTICES[1431]] = {{ vertex=VERTICES[1314], cost=0 },}
+EDGES[VERTICES[6203]] = {{ vertex=VERTICES[22], cost=0 },}
+EDGES[VERTICES[3872]] = {{ vertex=VERTICES[2814], cost=0 },}
+EDGES[VERTICES[6242]] = {{ vertex=VERTICES[3313], cost=0 },}
+EDGES[VERTICES[5254]] = {{ vertex=VERTICES[4649], cost=0 },}
+EDGES[VERTICES[91]] = {{ vertex=VERTICES[5483], cost=0 },}
+EDGES[VERTICES[228]] = {{ vertex=VERTICES[3857], cost=0 },}
+EDGES[VERTICES[5909]] = {{ vertex=VERTICES[4484], cost=0 },}
+EDGES[VERTICES[599]] = {{ vertex=VERTICES[788], cost=0 },}
+EDGES[VERTICES[4361]] = {{ vertex=VERTICES[4533], cost=0 },}
+EDGES[VERTICES[1635]] = {{ vertex=VERTICES[5553], cost=0 },}
+EDGES[VERTICES[5987]] = {{ vertex=VERTICES[1100], cost=0 },}
+EDGES[VERTICES[1018]] = {{ vertex=VERTICES[3996], cost=0 },}
+EDGES[VERTICES[2400]] = {{ vertex=VERTICES[4755], cost=0 },}
+EDGES[VERTICES[5935]] = {{ vertex=VERTICES[1788], cost=0 },}
+EDGES[VERTICES[1267]] = {{ vertex=VERTICES[4136], cost=0 },}
+EDGES[VERTICES[3590]] = {{ vertex=VERTICES[183], cost=0 },}
+EDGES[VERTICES[3926]] = {{ vertex=VERTICES[607], cost=0 },}
+EDGES[VERTICES[5271]] = {{ vertex=VERTICES[298], cost=0 },}
+EDGES[VERTICES[2037]] = {{ vertex=VERTICES[4358], cost=0 },}
+EDGES[VERTICES[2676]] = {{ vertex=VERTICES[3884], cost=0 },}
+EDGES[VERTICES[2846]] = {{ vertex=VERTICES[4396], cost=0 },}
+EDGES[VERTICES[4496]] = {{ vertex=VERTICES[3329], cost=0 },}
+EDGES[VERTICES[3127]] = {{ vertex=VERTICES[5985], cost=0 },}
+EDGES[VERTICES[3610]] = {{ vertex=VERTICES[1483], cost=0 },}
+EDGES[VERTICES[6013]] = {{ vertex=VERTICES[6088], cost=0 },}
+EDGES[VERTICES[814]] = {{ vertex=VERTICES[6164], cost=0 },}
+EDGES[VERTICES[4544]] = {{ vertex=VERTICES[6217], cost=0 },}
+EDGES[VERTICES[2112]] = {{ vertex=VERTICES[5363], cost=0 },}
+EDGES[VERTICES[5051]] = {{ vertex=VERTICES[2500], cost=0 },}
+EDGES[VERTICES[518]] = {{ vertex=VERTICES[690], cost=0 },}
+EDGES[VERTICES[6197]] = {{ vertex=VERTICES[6320], cost=0 },}
+EDGES[VERTICES[5419]] = {{ vertex=VERTICES[1157], cost=0 },}
+EDGES[VERTICES[5613]] = {{ vertex=VERTICES[4522], cost=0 },}
+EDGES[VERTICES[6024]] = {{ vertex=VERTICES[683], cost=0 },}
+EDGES[VERTICES[1240]] = {{ vertex=VERTICES[79], cost=0 },}
+EDGES[VERTICES[2036]] = {{ vertex=VERTICES[1391], cost=0 },}
+EDGES[VERTICES[4887]] = {{ vertex=VERTICES[99], cost=0 },}
+EDGES[VERTICES[3824]] = {{ vertex=VERTICES[4764], cost=0 },}
+EDGES[VERTICES[1640]] = {{ vertex=VERTICES[2757], cost=0 },}
+EDGES[VERTICES[3790]] = {{ vertex=VERTICES[2459], cost=0 },}
+EDGES[VERTICES[5858]] = {{ vertex=VERTICES[6125], cost=0 },}
+EDGES[VERTICES[2113]] = {{ vertex=VERTICES[26], cost=0 },}
+EDGES[VERTICES[5007]] = {{ vertex=VERTICES[2933], cost=0 },}
+EDGES[VERTICES[5577]] = {{ vertex=VERTICES[5835], cost=0 },}
+EDGES[VERTICES[3999]] = {{ vertex=VERTICES[311], cost=0 },}
+EDGES[VERTICES[1494]] = {{ vertex=VERTICES[824], cost=0 },}
+EDGES[VERTICES[4480]] = {{ vertex=VERTICES[210], cost=0 },}
+EDGES[VERTICES[1955]] = {{ vertex=VERTICES[509], cost=0 },}
+EDGES[VERTICES[3702]] = {{ vertex=VERTICES[6129], cost=0 },}
+EDGES[VERTICES[551]] = {{ vertex=VERTICES[6173], cost=0 },}
+EDGES[VERTICES[1434]] = {{ vertex=VERTICES[292], cost=0 },}
+EDGES[VERTICES[5520]] = {{ vertex=VERTICES[1074], cost=0 },}
+EDGES[VERTICES[319]] = {{ vertex=VERTICES[5228], cost=0 },}
+EDGES[VERTICES[5694]] = {{ vertex=VERTICES[2904], cost=0 },}
+EDGES[VERTICES[1468]] = {{ vertex=VERTICES[1549], cost=0 },}
+EDGES[VERTICES[5380]] = {{ vertex=VERTICES[5452], cost=0 },}
+EDGES[VERTICES[1261]] = {{ vertex=VERTICES[2034], cost=0 },}
+EDGES[VERTICES[5945]] = {{ vertex=VERTICES[474], cost=0 },}
+EDGES[VERTICES[3229]] = {{ vertex=VERTICES[3891], cost=0 },}
+EDGES[VERTICES[299]] = {{ vertex=VERTICES[2404], cost=0 },}
+EDGES[VERTICES[3026]] = {{ vertex=VERTICES[2268], cost=0 },}
+EDGES[VERTICES[4250]] = {{ vertex=VERTICES[3859], cost=0 },}
+EDGES[VERTICES[1904]] = {{ vertex=VERTICES[4908], cost=0 },}
+EDGES[VERTICES[1547]] = {{ vertex=VERTICES[4819], cost=0 },}
+EDGES[VERTICES[961]] = {{ vertex=VERTICES[2542], cost=0 },}
+EDGES[VERTICES[5859]] = {{ vertex=VERTICES[2460], cost=0 },}
+EDGES[VERTICES[5648]] = {{ vertex=VERTICES[4116], cost=0 },}
+EDGES[VERTICES[1666]] = {{ vertex=VERTICES[1642], cost=0 },}
+EDGES[VERTICES[3596]] = {{ vertex=VERTICES[1201], cost=0 },}
+EDGES[VERTICES[4687]] = {{ vertex=VERTICES[2707], cost=0 },}
+EDGES[VERTICES[4565]] = {{ vertex=VERTICES[1384], cost=0 },}
+EDGES[VERTICES[1545]] = {{ vertex=VERTICES[5560], cost=0 },}
+EDGES[VERTICES[6100]] = {{ vertex=VERTICES[1974], cost=0 },}
+EDGES[VERTICES[3869]] = {{ vertex=VERTICES[4762], cost=0 },}
+EDGES[VERTICES[303]] = {{ vertex=VERTICES[5385], cost=0 },}
+EDGES[VERTICES[4027]] = {{ vertex=VERTICES[4581], cost=0 },}
+EDGES[VERTICES[6250]] = {{ vertex=VERTICES[6055], cost=0 },}
+EDGES[VERTICES[1073]] = {{ vertex=VERTICES[1825], cost=0 },}
+EDGES[VERTICES[4542]] = {{ vertex=VERTICES[1782], cost=0 },}
+EDGES[VERTICES[4832]] = {{ vertex=VERTICES[6071], cost=0 },}
+EDGES[VERTICES[4386]] = {{ vertex=VERTICES[4240], cost=0 },}
+EDGES[VERTICES[3461]] = {{ vertex=VERTICES[2506], cost=0 },}
+EDGES[VERTICES[1465]] = {{ vertex=VERTICES[6066], cost=0 },}
+EDGES[VERTICES[1875]] = {{ vertex=VERTICES[4247], cost=0 },}
+EDGES[VERTICES[357]] = {{ vertex=VERTICES[3207], cost=0 },}
+EDGES[VERTICES[3166]] = {{ vertex=VERTICES[2985], cost=0 },}
+EDGES[VERTICES[1155]] = {{ vertex=VERTICES[2920], cost=0 },}
+EDGES[VERTICES[1562]] = {{ vertex=VERTICES[3284], cost=0 },}
+EDGES[VERTICES[1892]] = {{ vertex=VERTICES[1807], cost=0 },}
+EDGES[VERTICES[5785]] = {{ vertex=VERTICES[914], cost=0 },}
+EDGES[VERTICES[5111]] = {{ vertex=VERTICES[6281], cost=0 },}
+EDGES[VERTICES[3434]] = {{ vertex=VERTICES[1909], cost=0 },}
+EDGES[VERTICES[1933]] = {{ vertex=VERTICES[4666], cost=0 },}
+EDGES[VERTICES[5707]] = {{ vertex=VERTICES[338], cost=0 },}
+EDGES[VERTICES[2309]] = {{ vertex=VERTICES[1141], cost=0 },}
+EDGES[VERTICES[245]] = {{ vertex=VERTICES[907], cost=0 },}
+EDGES[VERTICES[5907]] = {{ vertex=VERTICES[1727], cost=0 },}
+EDGES[VERTICES[4948]] = {{ vertex=VERTICES[3151], cost=0 },}
+EDGES[VERTICES[552]] = {{ vertex=VERTICES[4110], cost=0 },}
+EDGES[VERTICES[3658]] = {{ vertex=VERTICES[2964], cost=0 },}
+EDGES[VERTICES[128]] = {{ vertex=VERTICES[4197], cost=0 },}
+EDGES[VERTICES[207]] = {{ vertex=VERTICES[2673], cost=0 },}
+EDGES[VERTICES[5118]] = {{ vertex=VERTICES[475], cost=0 },}
+EDGES[VERTICES[954]] = {{ vertex=VERTICES[6245], cost=0 },}
+EDGES[VERTICES[6090]] = {{ vertex=VERTICES[6350], cost=0 },}
+EDGES[VERTICES[887]] = {{ vertex=VERTICES[4049], cost=0 },}
+EDGES[VERTICES[4717]] = {{ vertex=VERTICES[850], cost=0 },}
+EDGES[VERTICES[4641]] = {{ vertex=VERTICES[4827], cost=0 },}
+EDGES[VERTICES[1017]] = {{ vertex=VERTICES[5768], cost=0 },}
+EDGES[VERTICES[2905]] = {{ vertex=VERTICES[2988], cost=0 },}
+EDGES[VERTICES[2881]] = {{ vertex=VERTICES[5704], cost=0 },}
+EDGES[VERTICES[1871]] = {{ vertex=VERTICES[2714], cost=0 },}
+EDGES[VERTICES[4173]] = {{ vertex=VERTICES[5825], cost=0 },}
+EDGES[VERTICES[696]] = {{ vertex=VERTICES[6364], cost=0 },}
+EDGES[VERTICES[1930]] = {{ vertex=VERTICES[1189], cost=0 },}
+EDGES[VERTICES[3789]] = {{ vertex=VERTICES[4193], cost=0 },}
+EDGES[VERTICES[5595]] = {{ vertex=VERTICES[5412], cost=0 },}
+EDGES[VERTICES[3762]] = {{ vertex=VERTICES[3621], cost=0 },}
+EDGES[VERTICES[6016]] = {{ vertex=VERTICES[6052], cost=0 },}
+EDGES[VERTICES[885]] = {{ vertex=VERTICES[1178], cost=0 },}
+EDGES[VERTICES[3304]] = {{ vertex=VERTICES[1837], cost=0 },}
+EDGES[VERTICES[1137]] = {{ vertex=VERTICES[5798], cost=0 },}
+EDGES[VERTICES[6246]] = {{ vertex=VERTICES[4639], cost=0 },}
+EDGES[VERTICES[5664]] = {{ vertex=VERTICES[4215], cost=0 },}
+EDGES[VERTICES[2285]] = {{ vertex=VERTICES[5528], cost=0 },}
+EDGES[VERTICES[5361]] = {{ vertex=VERTICES[5332], cost=0 },}
+EDGES[VERTICES[993]] = {{ vertex=VERTICES[728], cost=0 },}
+EDGES[VERTICES[5057]] = {{ vertex=VERTICES[5521], cost=0 },}
+EDGES[VERTICES[3700]] = {{ vertex=VERTICES[5443], cost=0 },}
+EDGES[VERTICES[2565]] = {{ vertex=VERTICES[4824], cost=0 },}
+EDGES[VERTICES[6296]] = {{ vertex=VERTICES[3773], cost=0 },}
+EDGES[VERTICES[1181]] = {{ vertex=VERTICES[5031], cost=0 },}
+EDGES[VERTICES[197]] = {{ vertex=VERTICES[2921], cost=0 },}
+EDGES[VERTICES[1835]] = {{ vertex=VERTICES[5489], cost=0 },}
+EDGES[VERTICES[4426]] = {{ vertex=VERTICES[2180], cost=0 },}
+EDGES[VERTICES[4848]] = {{ vertex=VERTICES[3775], cost=0 },}
+EDGES[VERTICES[3740]] = {{ vertex=VERTICES[6224], cost=0 },}
+EDGES[VERTICES[653]] = {{ vertex=VERTICES[1531], cost=0 },}
+EDGES[VERTICES[396]] = {{ vertex=VERTICES[5405], cost=0 },}
+EDGES[VERTICES[6086]] = {{ vertex=VERTICES[5312], cost=0 },}
+EDGES[VERTICES[5089]] = {{ vertex=VERTICES[5959], cost=0 },}
+EDGES[VERTICES[3603]] = {{ vertex=VERTICES[5624], cost=0 },}
+EDGES[VERTICES[456]] = {{ vertex=VERTICES[5847], cost=0 },}
+EDGES[VERTICES[1543]] = {{ vertex=VERTICES[2035], cost=0 },}
+EDGES[VERTICES[3174]] = {{ vertex=VERTICES[217], cost=0 },}
+EDGES[VERTICES[4515]] = {{ vertex=VERTICES[6077], cost=0 },}
+EDGES[VERTICES[2926]] = {{ vertex=VERTICES[5345], cost=0 },}
+EDGES[VERTICES[4985]] = {{ vertex=VERTICES[1526], cost=0 },}
+EDGES[VERTICES[4355]] = {{ vertex=VERTICES[4163], cost=0 },}
+EDGES[VERTICES[6189]] = {{ vertex=VERTICES[3927], cost=0 },}
+EDGES[VERTICES[5341]] = {{ vertex=VERTICES[2689], cost=0 },}
+EDGES[VERTICES[5633]] = {{ vertex=VERTICES[2718], cost=0 },}
+EDGES[VERTICES[2530]] = {{ vertex=VERTICES[5081], cost=0 },}
+EDGES[VERTICES[6252]] = {{ vertex=VERTICES[5417], cost=0 },}
+EDGES[VERTICES[3853]] = {{ vertex=VERTICES[1936], cost=0 },}
+EDGES[VERTICES[741]] = {{ vertex=VERTICES[5018], cost=0 },}
+EDGES[VERTICES[3959]] = {{ vertex=VERTICES[749], cost=0 },}
+EDGES[VERTICES[1634]] = {{ vertex=VERTICES[4182], cost=0 },}
+EDGES[VERTICES[6005]] = {{ vertex=VERTICES[3636], cost=0 },}
+EDGES[VERTICES[4591]] = {{ vertex=VERTICES[5628], cost=0 },}
+EDGES[VERTICES[1045]] = {{ vertex=VERTICES[3915], cost=0 },}
+EDGES[VERTICES[2558]] = {{ vertex=VERTICES[4996], cost=0 },}
+EDGES[VERTICES[489]] = {{ vertex=VERTICES[2470], cost=0 },}
+EDGES[VERTICES[5895]] = {{ vertex=VERTICES[6001], cost=0 },}
+EDGES[VERTICES[5503]] = {{ vertex=VERTICES[3331], cost=0 },{ vertex=VERTICES[95], cost=0 },{ vertex=VERTICES[1209], cost=0 },{ vertex=VERTICES[6182], cost=0 },}
+EDGES[VERTICES[4614]] = {{ vertex=VERTICES[2432], cost=0 },}
+EDGES[VERTICES[6047]] = {{ vertex=VERTICES[2862], cost=0 },}
+EDGES[VERTICES[3407]] = {{ vertex=VERTICES[3539], cost=0 },}
+EDGES[VERTICES[1594]] = {{ vertex=VERTICES[4315], cost=0 },}
+EDGES[VERTICES[4945]] = {{ vertex=VERTICES[3840], cost=0 },}
+EDGES[VERTICES[4474]] = {{ vertex=VERTICES[6264], cost=0 },}
+EDGES[VERTICES[2390]] = {{ vertex=VERTICES[4177], cost=0 },}
+EDGES[VERTICES[487]] = {{ vertex=VERTICES[51], cost=0 },}
+EDGES[VERTICES[5446]] = {{ vertex=VERTICES[3186], cost=0 },}
+EDGES[VERTICES[1584]] = {{ vertex=VERTICES[6220], cost=0 },}
+EDGES[VERTICES[1949]] = {{ vertex=VERTICES[2640], cost=0 },}
+EDGES[VERTICES[3167]] = {{ vertex=VERTICES[6382], cost=0 },}
+EDGES[VERTICES[4761]] = {{ vertex=VERTICES[385], cost=0 },}
+EDGES[VERTICES[2902]] = {{ vertex=VERTICES[3549], cost=0 },}
+EDGES[VERTICES[3451]] = {{ vertex=VERTICES[3140], cost=0 },}
+EDGES[VERTICES[1016]] = {{ vertex=VERTICES[1111], cost=0 },}
+EDGES[VERTICES[5326]] = {{ vertex=VERTICES[2012], cost=0 },}
+EDGES[VERTICES[4415]] = {{ vertex=VERTICES[2852], cost=0 },}
+EDGES[VERTICES[2618]] = {{ vertex=VERTICES[2822], cost=0 },}
+EDGES[VERTICES[4778]] = {{ vertex=VERTICES[2348], cost=0 },}
+EDGES[VERTICES[1357]] = {{ vertex=VERTICES[2382], cost=0 },}
+EDGES[VERTICES[2859]] = {{ vertex=VERTICES[6133], cost=0 },}
+EDGES[VERTICES[5274]] = {{ vertex=VERTICES[1957], cost=0 },}
+EDGES[VERTICES[190]] = {{ vertex=VERTICES[3270], cost=0 },}
+EDGES[VERTICES[1947]] = {{ vertex=VERTICES[2075], cost=0 },}
+EDGES[VERTICES[3421]] = {{ vertex=VERTICES[5705], cost=0 },}
+EDGES[VERTICES[2572]] = {{ vertex=VERTICES[918], cost=0 },}
+EDGES[VERTICES[1011]] = {{ vertex=VERTICES[4383], cost=0 },}
+EDGES[VERTICES[4743]] = {{ vertex=VERTICES[6031], cost=0 },}
+EDGES[VERTICES[5477]] = {{ vertex=VERTICES[5032], cost=0 },}
+EDGES[VERTICES[2609]] = {{ vertex=VERTICES[3244], cost=0 },}
+EDGES[VERTICES[6046]] = {{ vertex=VERTICES[3204], cost=0 },}
+EDGES[VERTICES[5629]] = {{ vertex=VERTICES[1210], cost=0 },}
+EDGES[VERTICES[3337]] = {{ vertex=VERTICES[1401], cost=0 },}
+EDGES[VERTICES[2845]] = {{ vertex=VERTICES[3362], cost=0 },}
+EDGES[VERTICES[626]] = {{ vertex=VERTICES[847], cost=0 },}
+EDGES[VERTICES[5763]] = {{ vertex=VERTICES[4701], cost=0 },}
+EDGES[VERTICES[4661]] = {{ vertex=VERTICES[3274], cost=0 },}
+EDGES[VERTICES[423]] = {{ vertex=VERTICES[5843], cost=0 },}
+EDGES[VERTICES[381]] = {{ vertex=VERTICES[6406], cost=0 },}
+EDGES[VERTICES[3666]] = {{ vertex=VERTICES[1664], cost=0 },}
+EDGES[VERTICES[4464]] = {{ vertex=VERTICES[408], cost=0 },}
+EDGES[VERTICES[3809]] = {{ vertex=VERTICES[786], cost=0 },}
+EDGES[VERTICES[5522]] = {{ vertex=VERTICES[1887], cost=0 },}
+EDGES[VERTICES[3507]] = {{ vertex=VERTICES[4672], cost=0 },}
+EDGES[VERTICES[936]] = {{ vertex=VERTICES[2023], cost=0 },}
+EDGES[VERTICES[757]] = {{ vertex=VERTICES[2328], cost=0 },}
+EDGES[VERTICES[4041]] = {{ vertex=VERTICES[2771], cost=0 },}
+EDGES[VERTICES[3480]] = {{ vertex=VERTICES[1902], cost=0 },}
+EDGES[VERTICES[1925]] = {{ vertex=VERTICES[2660], cost=0 },}
+EDGES[VERTICES[4947]] = {{ vertex=VERTICES[2091], cost=0 },}
+EDGES[VERTICES[2337]] = {{ vertex=VERTICES[6222], cost=0 },}
+EDGES[VERTICES[2472]] = {{ vertex=VERTICES[2848], cost=0 },}
+EDGES[VERTICES[822]] = {{ vertex=VERTICES[1507], cost=0 },}
+EDGES[VERTICES[5019]] = {{ vertex=VERTICES[6063], cost=0 },}
+EDGES[VERTICES[5317]] = {{ vertex=VERTICES[2292], cost=0 },}
+EDGES[VERTICES[4071]] = {{ vertex=VERTICES[5599], cost=0 },}
+EDGES[VERTICES[1415]] = {{ vertex=VERTICES[6337], cost=0 },}
+EDGES[VERTICES[1848]] = {{ vertex=VERTICES[5995], cost=0 },}
+EDGES[VERTICES[5849]] = {{ vertex=VERTICES[6301], cost=0 },}
+EDGES[VERTICES[4795]] = {{ vertex=VERTICES[862], cost=0 },}
+EDGES[VERTICES[492]] = {{ vertex=VERTICES[1375], cost=0 },}
+EDGES[VERTICES[229]] = {{ vertex=VERTICES[5518], cost=0 },}
+EDGES[VERTICES[2398]] = {{ vertex=VERTICES[5163], cost=0 },}
+EDGES[VERTICES[2394]] = {{ vertex=VERTICES[5040], cost=0 },}
+EDGES[VERTICES[273]] = {{ vertex=VERTICES[1041], cost=0 },}
+EDGES[VERTICES[4217]] = {{ vertex=VERTICES[3815], cost=0 },}
+EDGES[VERTICES[1436]] = {{ vertex=VERTICES[448], cost=0 },}
+EDGES[VERTICES[3757]] = {{ vertex=VERTICES[39], cost=0 },}
+EDGES[VERTICES[5201]] = {{ vertex=VERTICES[171], cost=0 },}
+EDGES[VERTICES[2310]] = {{ vertex=VERTICES[1225], cost=0 },}
+EDGES[VERTICES[5879]] = {{ vertex=VERTICES[407], cost=0 },}
+EDGES[VERTICES[883]] = {{ vertex=VERTICES[2475], cost=0 },}
+EDGES[VERTICES[3490]] = {{ vertex=VERTICES[853], cost=0 },}
+EDGES[VERTICES[5301]] = {{ vertex=VERTICES[2132], cost=0 },}
+EDGES[VERTICES[4026]] = {{ vertex=VERTICES[6080], cost=0 },}
+EDGES[VERTICES[2498]] = {{ vertex=VERTICES[5899], cost=0 },}
+EDGES[VERTICES[2250]] = {{ vertex=VERTICES[632], cost=0 },}
+EDGES[VERTICES[3967]] = {{ vertex=VERTICES[4991], cost=0 },}
+EDGES[VERTICES[1622]] = {{ vertex=VERTICES[5386], cost=0 },}
+EDGES[VERTICES[6277]] = {{ vertex=VERTICES[1827], cost=0 },}
+EDGES[VERTICES[639]] = {{ vertex=VERTICES[3108], cost=0 },}
+EDGES[VERTICES[5955]] = {{ vertex=VERTICES[753], cost=0 },}
+EDGES[VERTICES[3678]] = {{ vertex=VERTICES[6192], cost=0 },}
+EDGES[VERTICES[2899]] = {{ vertex=VERTICES[5740], cost=0 },}
+EDGES[VERTICES[1611]] = {{ vertex=VERTICES[2046], cost=0 },}
+EDGES[VERTICES[4975]] = {{ vertex=VERTICES[4309], cost=0 },}
+EDGES[VERTICES[4203]] = {{ vertex=VERTICES[2291], cost=0 },}
+EDGES[VERTICES[4959]] = {{ vertex=VERTICES[3803], cost=0 },}
+EDGES[VERTICES[23]] = {{ vertex=VERTICES[4808], cost=0 },}
+EDGES[VERTICES[6362]] = {{ vertex=VERTICES[5003], cost=0 },}
+EDGES[VERTICES[1660]] = {{ vertex=VERTICES[4346], cost=0 },}
+EDGES[VERTICES[5541]] = {{ vertex=VERTICES[156], cost=0 },}
+EDGES[VERTICES[2726]] = {{ vertex=VERTICES[4898], cost=0 },}
+EDGES[VERTICES[2383]] = {{ vertex=VERTICES[1329], cost=0 },}
+EDGES[VERTICES[2499]] = {{ vertex=VERTICES[4278], cost=0 },}
+EDGES[VERTICES[1801]] = {{ vertex=VERTICES[4284], cost=0 },}
+EDGES[VERTICES[3625]] = {{ vertex=VERTICES[5267], cost=0 },}
+EDGES[VERTICES[2665]] = {{ vertex=VERTICES[1613], cost=0 },}
+EDGES[VERTICES[3964]] = {{ vertex=VERTICES[1278], cost=0 },}
+EDGES[VERTICES[4256]] = {{ vertex=VERTICES[3046], cost=0 },}
+EDGES[VERTICES[5250]] = {{ vertex=VERTICES[5330], cost=0 },}
+EDGES[VERTICES[4724]] = {{ vertex=VERTICES[2965], cost=0 },}
+EDGES[VERTICES[2704]] = {{ vertex=VERTICES[875], cost=0 },}
+EDGES[VERTICES[1612]] = {{ vertex=VERTICES[4141], cost=0 },}
+EDGES[VERTICES[6194]] = {{ vertex=VERTICES[5122], cost=0 },}
+EDGES[VERTICES[5130]] = {{ vertex=VERTICES[5356], cost=0 },}
+EDGES[VERTICES[4877]] = {{ vertex=VERTICES[3768], cost=0 },}
+EDGES[VERTICES[5016]] = {{ vertex=VERTICES[3691], cost=0 },}
+EDGES[VERTICES[966]] = {{ vertex=VERTICES[5976], cost=0 },}
+EDGES[VERTICES[6128]] = {{ vertex=VERTICES[2963], cost=0 },}
+EDGES[VERTICES[158]] = {{ vertex=VERTICES[4115], cost=0 },}
+EDGES[VERTICES[2847]] = {{ vertex=VERTICES[5999], cost=0 },}
+EDGES[VERTICES[4504]] = {{ vertex=VERTICES[1576], cost=0 },}
+EDGES[VERTICES[3021]] = {{ vertex=VERTICES[2652], cost=0 },}
+EDGES[VERTICES[2315]] = {{ vertex=VERTICES[5988], cost=0 },}
+EDGES[VERTICES[1254]] = {{ vertex=VERTICES[923], cost=0 },}
+EDGES[VERTICES[5834]] = {{ vertex=VERTICES[2680], cost=0 },}
+EDGES[VERTICES[362]] = {{ vertex=VERTICES[5656], cost=0 },}
+EDGES[VERTICES[1034]] = {{ vertex=VERTICES[5545], cost=0 },}
+EDGES[VERTICES[987]] = {{ vertex=VERTICES[4269], cost=0 },}
+EDGES[VERTICES[1888]] = {{ vertex=VERTICES[1615], cost=0 },}
+EDGES[VERTICES[1453]] = {{ vertex=VERTICES[832], cost=0 },}
+EDGES[VERTICES[3391]] = {{ vertex=VERTICES[6375], cost=0 },}
+EDGES[VERTICES[2358]] = {{ vertex=VERTICES[3620], cost=0 },}
+EDGES[VERTICES[5621]] = {{ vertex=VERTICES[1670], cost=0 },}
+EDGES[VERTICES[4138]] = {{ vertex=VERTICES[89], cost=0 },}
+EDGES[VERTICES[3080]] = {{ vertex=VERTICES[3615], cost=0 },}
+EDGES[VERTICES[6110]] = {{ vertex=VERTICES[2170], cost=0 },}
+EDGES[VERTICES[1060]] = {{ vertex=VERTICES[4331], cost=0 },}
+EDGES[VERTICES[6041]] = {{ vertex=VERTICES[3695], cost=0 },}
+EDGES[VERTICES[5185]] = {{ vertex=VERTICES[5572], cost=0 },}
+EDGES[VERTICES[1570]] = {{ vertex=VERTICES[6161], cost=0 },}
+EDGES[VERTICES[4880]] = {{ vertex=VERTICES[5453], cost=0 },}
+EDGES[VERTICES[100]] = {{ vertex=VERTICES[5442], cost=0 },}
+EDGES[VERTICES[6385]] = {{ vertex=VERTICES[6391], cost=0 },}
+EDGES[VERTICES[5490]] = {{ vertex=VERTICES[4400], cost=0 },}
+EDGES[VERTICES[2181]] = {{ vertex=VERTICES[3913], cost=0 },}
+EDGES[VERTICES[2895]] = {{ vertex=VERTICES[2213], cost=0 },}
+EDGES[VERTICES[743]] = {{ vertex=VERTICES[2171], cost=0 },}
+EDGES[VERTICES[5647]] = {{ vertex=VERTICES[89], cost=0 },}
+EDGES[VERTICES[6083]] = {{ vertex=VERTICES[5108], cost=0 },}
+EDGES[VERTICES[644]] = {{ vertex=VERTICES[3534], cost=0 },}
+EDGES[VERTICES[1474]] = {{ vertex=VERTICES[4830], cost=0 },}
+EDGES[VERTICES[5777]] = {{ vertex=VERTICES[5293], cost=0 },}
+EDGES[VERTICES[3279]] = {{ vertex=VERTICES[4219], cost=0 },}
+EDGES[VERTICES[63]] = {{ vertex=VERTICES[1770], cost=0 },}
+EDGES[VERTICES[2354]] = {{ vertex=VERTICES[4885], cost=0 },}
+EDGES[VERTICES[1325]] = {{ vertex=VERTICES[333], cost=0 },}
+EDGES[VERTICES[578]] = {{ vertex=VERTICES[484], cost=0 },}
+EDGES[VERTICES[911]] = {{ vertex=VERTICES[3698], cost=0 },}
+EDGES[VERTICES[5616]] = {{ vertex=VERTICES[3039], cost=0 },}
+EDGES[VERTICES[12]] = {{ vertex=VERTICES[2452], cost=0 },}
+EDGES[VERTICES[5115]] = {{ vertex=VERTICES[4785], cost=0 },}
+EDGES[VERTICES[5921]] = {{ vertex=VERTICES[1522], cost=0 },}
+EDGES[VERTICES[5675]] = {{ vertex=VERTICES[2086], cost=0 },}
+EDGES[VERTICES[4574]] = {{ vertex=VERTICES[2959], cost=0 },}
+EDGES[VERTICES[4399]] = {{ vertex=VERTICES[1646], cost=0 },}
+EDGES[VERTICES[2812]] = {{ vertex=VERTICES[18], cost=0 },}
+EDGES[VERTICES[3634]] = {{ vertex=VERTICES[1523], cost=0 },}
+EDGES[VERTICES[6206]] = {{ vertex=VERTICES[1206], cost=0 },}
+EDGES[VERTICES[2207]] = {{ vertex=VERTICES[4925], cost=0 },}
+EDGES[VERTICES[2]] = {{ vertex=VERTICES[851], cost=0 },}
+EDGES[VERTICES[1419]] = {{ vertex=VERTICES[1001], cost=0 },}
+EDGES[VERTICES[6314]] = {{ vertex=VERTICES[536], cost=0 },}
 EDGES[VERTICES[5055]] = {{ vertex=VERTICES[2681], cost=0 },}
-EDGES[VERTICES[4202]] = {{ vertex=VERTICES[4256], cost=0 },}
-EDGES[VERTICES[1458]] = {{ vertex=VERTICES[884], cost=0 },}
-EDGES[VERTICES[2008]] = {{ vertex=VERTICES[1234], cost=0 },}
-EDGES[VERTICES[5881]] = {{ vertex=VERTICES[178], cost=0 },}
-EDGES[VERTICES[2280]] = {{ vertex=VERTICES[5816], cost=0 },}
-EDGES[VERTICES[3982]] = {{ vertex=VERTICES[1675], cost=0 },}
-EDGES[VERTICES[3129]] = {{ vertex=VERTICES[515], cost=0 },}
-EDGES[VERTICES[2137]] = {{ vertex=VERTICES[3629], cost=0 },}
-EDGES[VERTICES[1863]] = {{ vertex=VERTICES[3455], cost=0 },}
-EDGES[VERTICES[2052]] = {{ vertex=VERTICES[391], cost=0 },}
-EDGES[VERTICES[1318]] = {{ vertex=VERTICES[4054], cost=0 },}
-EDGES[VERTICES[2704]] = {{ vertex=VERTICES[3403], cost=0 },}
-EDGES[VERTICES[4379]] = {{ vertex=VERTICES[1827], cost=0 },}
-EDGES[VERTICES[4414]] = {{ vertex=VERTICES[2308], cost=0 },}
-EDGES[VERTICES[727]] = {{ vertex=VERTICES[1763], cost=0 },}
-EDGES[VERTICES[449]] = {{ vertex=VERTICES[2097], cost=0 },}
-EDGES[VERTICES[3812]] = {{ vertex=VERTICES[4307], cost=0 },}
-EDGES[VERTICES[639]] = {{ vertex=VERTICES[4090], cost=0 },}
-EDGES[VERTICES[1249]] = {{ vertex=VERTICES[3691], cost=0 },}
-EDGES[VERTICES[5065]] = {{ vertex=VERTICES[1656], cost=0 },}
-EDGES[VERTICES[1214]] = {{ vertex=VERTICES[614], cost=0 },}
-EDGES[VERTICES[543]] = {{ vertex=VERTICES[5610], cost=0 },}
-EDGES[VERTICES[1958]] = {{ vertex=VERTICES[4861], cost=0 },}
-EDGES[VERTICES[1272]] = {{ vertex=VERTICES[2394], cost=0 },}
-EDGES[VERTICES[5414]] = {{ vertex=VERTICES[756], cost=0 },}
-EDGES[VERTICES[3573]] = {{ vertex=VERTICES[2155], cost=0 },}
-EDGES[VERTICES[260]] = {{ vertex=VERTICES[5797], cost=0 },}
-EDGES[VERTICES[2634]] = {{ vertex=VERTICES[3070], cost=0 },}
-EDGES[VERTICES[1480]] = {{ vertex=VERTICES[1576], cost=0 },}
-EDGES[VERTICES[4136]] = {{ vertex=VERTICES[881], cost=0 },}
-EDGES[VERTICES[2550]] = {{ vertex=VERTICES[5531], cost=0 },}
-EDGES[VERTICES[742]] = {{ vertex=VERTICES[3126], cost=0 },}
-EDGES[VERTICES[3039]] = {{ vertex=VERTICES[2377], cost=0 },}
-EDGES[VERTICES[3043]] = {{ vertex=VERTICES[504], cost=0 },}
-EDGES[VERTICES[668]] = {{ vertex=VERTICES[1897], cost=0 },}
-EDGES[VERTICES[5295]] = {{ vertex=VERTICES[1085], cost=0 },}
-EDGES[VERTICES[48]] = {{ vertex=VERTICES[4522], cost=0 },}
-EDGES[VERTICES[907]] = {{ vertex=VERTICES[2414], cost=0 },}
-EDGES[VERTICES[1800]] = {{ vertex=VERTICES[5013], cost=0 },}
-EDGES[VERTICES[5913]] = {{ vertex=VERTICES[6160], cost=0 },}
-EDGES[VERTICES[2027]] = {{ vertex=VERTICES[1259], cost=0 },}
-EDGES[VERTICES[4858]] = {{ vertex=VERTICES[3835], cost=0 },}
-EDGES[VERTICES[4211]] = {{ vertex=VERTICES[6059], cost=0 },}
-EDGES[VERTICES[5454]] = {{ vertex=VERTICES[3556], cost=0 },}
-EDGES[VERTICES[4009]] = {{ vertex=VERTICES[159], cost=0 },}
-EDGES[VERTICES[130]] = {{ vertex=VERTICES[4055], cost=0 },}
-EDGES[VERTICES[4977]] = {{ vertex=VERTICES[2801], cost=0 },}
-EDGES[VERTICES[671]] = {{ vertex=VERTICES[1943], cost=0 },}
-EDGES[VERTICES[5733]] = {{ vertex=VERTICES[319], cost=0 },}
-EDGES[VERTICES[4403]] = {{ vertex=VERTICES[5606], cost=0 },}
-EDGES[VERTICES[4046]] = {{ vertex=VERTICES[3457], cost=0 },}
-EDGES[VERTICES[6109]] = {{ vertex=VERTICES[2894], cost=0 },}
-EDGES[VERTICES[1487]] = {{ vertex=VERTICES[3836], cost=0 },}
-EDGES[VERTICES[5709]] = {{ vertex=VERTICES[3288], cost=0 },}
-EDGES[VERTICES[5867]] = {{ vertex=VERTICES[2201], cost=0 },}
-EDGES[VERTICES[5252]] = {{ vertex=VERTICES[754], cost=0 },}
-EDGES[VERTICES[2312]] = {{ vertex=VERTICES[1431], cost=0 },}
-EDGES[VERTICES[2619]] = {{ vertex=VERTICES[5379], cost=0 },}
-EDGES[VERTICES[4659]] = {{ vertex=VERTICES[4155], cost=0 },}
-EDGES[VERTICES[186]] = {{ vertex=VERTICES[142], cost=0 },}
-EDGES[VERTICES[714]] = {{ vertex=VERTICES[6008], cost=0 },}
-EDGES[VERTICES[1438]] = {{ vertex=VERTICES[2967], cost=0 },}
-EDGES[VERTICES[5847]] = {{ vertex=VERTICES[2570], cost=0 },}
-EDGES[VERTICES[4369]] = {{ vertex=VERTICES[1114], cost=0 },}
-EDGES[VERTICES[2316]] = {{ vertex=VERTICES[5377], cost=0 },}
-EDGES[VERTICES[788]] = {{ vertex=VERTICES[2125], cost=0 },}
-EDGES[VERTICES[1304]] = {{ vertex=VERTICES[4880], cost=0 },}
-EDGES[VERTICES[5088]] = {{ vertex=VERTICES[1208], cost=0 },}
-EDGES[VERTICES[4292]] = {{ vertex=VERTICES[1498], cost=0 },}
-EDGES[VERTICES[2606]] = {{ vertex=VERTICES[2577], cost=0 },}
-EDGES[VERTICES[4384]] = {{ vertex=VERTICES[3987], cost=0 },}
-EDGES[VERTICES[777]] = {{ vertex=VERTICES[4237], cost=0 },}
-EDGES[VERTICES[4707]] = {{ vertex=VERTICES[976], cost=0 },}
-EDGES[VERTICES[5110]] = {{ vertex=VERTICES[974], cost=0 },}
-EDGES[VERTICES[2427]] = {{ vertex=VERTICES[5284], cost=0 },}
-EDGES[VERTICES[5461]] = {{ vertex=VERTICES[66], cost=0 },}
-EDGES[VERTICES[3175]] = {{ vertex=VERTICES[753], cost=0 },}
-EDGES[VERTICES[983]] = {{ vertex=VERTICES[1286], cost=0 },}
-EDGES[VERTICES[1345]] = {{ vertex=VERTICES[5387], cost=0 },}
-EDGES[VERTICES[3122]] = {{ vertex=VERTICES[2457], cost=0 },}
-EDGES[VERTICES[5663]] = {{ vertex=VERTICES[582], cost=0 },}
-EDGES[VERTICES[1007]] = {{ vertex=VERTICES[5648], cost=0 },}
-EDGES[VERTICES[2640]] = {{ vertex=VERTICES[4312], cost=0 },}
-EDGES[VERTICES[1736]] = {{ vertex=VERTICES[223], cost=0 },}
-EDGES[VERTICES[6054]] = {{ vertex=VERTICES[853], cost=0 },}
-EDGES[VERTICES[1858]] = {{ vertex=VERTICES[5480], cost=0 },}
-EDGES[VERTICES[4748]] = {{ vertex=VERTICES[5672], cost=0 },}
-EDGES[VERTICES[4678]] = {{ vertex=VERTICES[5232], cost=0 },}
-EDGES[VERTICES[5289]] = {{ vertex=VERTICES[1744], cost=0 },}
-EDGES[VERTICES[4295]] = {{ vertex=VERTICES[4077], cost=0 },}
-EDGES[VERTICES[4252]] = {{ vertex=VERTICES[3518], cost=0 },}
-EDGES[VERTICES[6167]] = {{ vertex=VERTICES[3069], cost=0 },}
-EDGES[VERTICES[2338]] = {{ vertex=VERTICES[5890], cost=0 },}
-EDGES[VERTICES[3557]] = {{ vertex=VERTICES[3983], cost=0 },}
-EDGES[VERTICES[4699]] = {{ vertex=VERTICES[770], cost=0 },}
-EDGES[VERTICES[6190]] = {{ vertex=VERTICES[3782], cost=0 },}
-EDGES[VERTICES[2232]] = {{ vertex=VERTICES[3183], cost=0 },}
-EDGES[VERTICES[3913]] = {{ vertex=VERTICES[2689], cost=0 },}
-EDGES[VERTICES[5283]] = {{ vertex=VERTICES[5412], cost=0 },}
-EDGES[VERTICES[341]] = {{ vertex=VERTICES[5191], cost=0 },}
-EDGES[VERTICES[3877]] = {{ vertex=VERTICES[3340], cost=0 },}
-EDGES[VERTICES[1278]] = {{ vertex=VERTICES[5054], cost=0 },}
-EDGES[VERTICES[3727]] = {{ vertex=VERTICES[1713], cost=0 },}
-EDGES[VERTICES[4206]] = {{ vertex=VERTICES[4933], cost=0 },}
-EDGES[VERTICES[3467]] = {{ vertex=VERTICES[3824], cost=0 },}
-EDGES[VERTICES[2401]] = {{ vertex=VERTICES[2038], cost=0 },}
-EDGES[VERTICES[1268]] = {{ vertex=VERTICES[1621], cost=0 },}
-EDGES[VERTICES[5704]] = {{ vertex=VERTICES[1478], cost=0 },}
-EDGES[VERTICES[2719]] = {{ vertex=VERTICES[5418], cost=0 },}
-EDGES[VERTICES[5101]] = {{ vertex=VERTICES[5681], cost=0 },}
-EDGES[VERTICES[482]] = {{ vertex=VERTICES[2733], cost=0 },}
-EDGES[VERTICES[467]] = {{ vertex=VERTICES[999], cost=0 },}
-EDGES[VERTICES[4117]] = {{ vertex=VERTICES[4142], cost=0 },}
-EDGES[VERTICES[3970]] = {{ vertex=VERTICES[595], cost=0 },}
-EDGES[VERTICES[5260]] = {{ vertex=VERTICES[231], cost=0 },}
-EDGES[VERTICES[4963]] = {{ vertex=VERTICES[4952], cost=0 },}
-EDGES[VERTICES[2645]] = {{ vertex=VERTICES[2006], cost=0 },}
-EDGES[VERTICES[371]] = {{ vertex=VERTICES[2336], cost=0 },}
-EDGES[VERTICES[3256]] = {{ vertex=VERTICES[4752], cost=0 },}
-EDGES[VERTICES[268]] = {{ vertex=VERTICES[1301], cost=0 },}
-EDGES[VERTICES[3355]] = {{ vertex=VERTICES[6174], cost=0 },}
-EDGES[VERTICES[4634]] = {{ vertex=VERTICES[4148], cost=0 },}
-EDGES[VERTICES[1547]] = {{ vertex=VERTICES[3942], cost=0 },}
-EDGES[VERTICES[4061]] = {{ vertex=VERTICES[2146], cost=0 },}
-EDGES[VERTICES[1704]] = {{ vertex=VERTICES[3243], cost=0 },}
-EDGES[VERTICES[2863]] = {{ vertex=VERTICES[5679], cost=0 },}
-EDGES[VERTICES[5744]] = {{ vertex=VERTICES[2314], cost=0 },}
-EDGES[VERTICES[697]] = {{ vertex=VERTICES[4356], cost=0 },}
-EDGES[VERTICES[1271]] = {{ vertex=VERTICES[4064], cost=0 },}
-EDGES[VERTICES[766]] = {{ vertex=VERTICES[723], cost=0 },}
-EDGES[VERTICES[2753]] = {{ vertex=VERTICES[4459], cost=0 },}
-EDGES[VERTICES[4739]] = {{ vertex=VERTICES[4617], cost=0 },}
-EDGES[VERTICES[4210]] = {{ vertex=VERTICES[5366], cost=0 },}
-EDGES[VERTICES[116]] = {{ vertex=VERTICES[1947], cost=0 },}
-EDGES[VERTICES[522]] = {{ vertex=VERTICES[5821], cost=0 },}
-EDGES[VERTICES[5730]] = {{ vertex=VERTICES[1755], cost=0 },}
-EDGES[VERTICES[221]] = {{ vertex=VERTICES[5385], cost=0 },}
-EDGES[VERTICES[5628]] = {{ vertex=VERTICES[1706], cost=0 },}
-EDGES[VERTICES[1929]] = {{ vertex=VERTICES[2283], cost=0 },}
-EDGES[VERTICES[4469]] = {{ vertex=VERTICES[1059], cost=0 },}
-EDGES[VERTICES[2980]] = {{ vertex=VERTICES[4821], cost=0 },}
-EDGES[VERTICES[1595]] = {{ vertex=VERTICES[3842], cost=0 },}
-EDGES[VERTICES[6010]] = {{ vertex=VERTICES[1714], cost=0 },}
-EDGES[VERTICES[2198]] = {{ vertex=VERTICES[1175], cost=0 },}
-EDGES[VERTICES[4389]] = {{ vertex=VERTICES[682], cost=0 },}
-EDGES[VERTICES[1402]] = {{ vertex=VERTICES[6225], cost=0 },}
-EDGES[VERTICES[4778]] = {{ vertex=VERTICES[1329], cost=0 },}
-EDGES[VERTICES[5719]] = {{ vertex=VERTICES[2991], cost=0 },}
-EDGES[VERTICES[2898]] = {{ vertex=VERTICES[5052], cost=0 },}
-EDGES[VERTICES[2395]] = {{ vertex=VERTICES[1788], cost=0 },}
-EDGES[VERTICES[3471]] = {{ vertex=VERTICES[6177], cost=0 },}
-EDGES[VERTICES[966]] = {{ vertex=VERTICES[5633], cost=0 },}
-EDGES[VERTICES[3989]] = {{ vertex=VERTICES[3833], cost=0 },}
-EDGES[VERTICES[2459]] = {{ vertex=VERTICES[1040], cost=0 },}
-EDGES[VERTICES[3569]] = {{ vertex=VERTICES[4734], cost=0 },}
-EDGES[VERTICES[5832]] = {{ vertex=VERTICES[3482], cost=0 },}
-EDGES[VERTICES[5208]] = {{ vertex=VERTICES[1089], cost=0 },}
-EDGES[VERTICES[1452]] = {{ vertex=VERTICES[3279], cost=0 },}
-EDGES[VERTICES[552]] = {{ vertex=VERTICES[1270], cost=0 },}
-EDGES[VERTICES[3414]] = {{ vertex=VERTICES[2761], cost=0 },}
-EDGES[VERTICES[4362]] = {{ vertex=VERTICES[69], cost=0 },}
-EDGES[VERTICES[6201]] = {{ vertex=VERTICES[4954], cost=0 },}
-EDGES[VERTICES[1231]] = {{ vertex=VERTICES[4145], cost=0 },}
-EDGES[VERTICES[1594]] = {{ vertex=VERTICES[6071], cost=0 },}
-EDGES[VERTICES[3663]] = {{ vertex=VERTICES[852], cost=0 },}
-EDGES[VERTICES[3033]] = {{ vertex=VERTICES[5144], cost=0 },}
-EDGES[VERTICES[5717]] = {{ vertex=VERTICES[4901], cost=0 },}
-EDGES[VERTICES[913]] = {{ vertex=VERTICES[5345], cost=0 },}
-EDGES[VERTICES[3945]] = {{ vertex=VERTICES[2251], cost=0 },}
-EDGES[VERTICES[5078]] = {{ vertex=VERTICES[841], cost=0 },}
-EDGES[VERTICES[3210]] = {{ vertex=VERTICES[650], cost=0 },}
-EDGES[VERTICES[4014]] = {{ vertex=VERTICES[4935], cost=0 },}
-EDGES[VERTICES[133]] = {{ vertex=VERTICES[2158], cost=0 },}
-EDGES[VERTICES[6119]] = {{ vertex=VERTICES[823], cost=0 },}
-EDGES[VERTICES[4396]] = {{ vertex=VERTICES[982], cost=0 },}
-EDGES[VERTICES[408]] = {{ vertex=VERTICES[5218], cost=0 },}
-EDGES[VERTICES[3638]] = {{ vertex=VERTICES[6065], cost=0 },}
-EDGES[VERTICES[2490]] = {{ vertex=VERTICES[42], cost=0 },}
-EDGES[VERTICES[1555]] = {{ vertex=VERTICES[4947], cost=0 },}
-EDGES[VERTICES[6261]] = {{ vertex=VERTICES[4573], cost=0 },}
-EDGES[VERTICES[875]] = {{ vertex=VERTICES[2463], cost=0 },}
-EDGES[VERTICES[5721]] = {{ vertex=VERTICES[2100], cost=0 },}
-EDGES[VERTICES[702]] = {{ vertex=VERTICES[162], cost=0 },}
-EDGES[VERTICES[2231]] = {{ vertex=VERTICES[1180], cost=0 },}
-EDGES[VERTICES[1044]] = {{ vertex=VERTICES[5706], cost=0 },}
-EDGES[VERTICES[4303]] = {{ vertex=VERTICES[6248], cost=0 },}
-EDGES[VERTICES[1664]] = {{ vertex=VERTICES[4574], cost=0 },}
-EDGES[VERTICES[2927]] = {{ vertex=VERTICES[3919], cost=0 },}
-EDGES[VERTICES[2769]] = {{ vertex=VERTICES[5254], cost=0 },}
-EDGES[VERTICES[4661]] = {{ vertex=VERTICES[4744], cost=0 },}
-EDGES[VERTICES[2522]] = {{ vertex=VERTICES[1379], cost=0 },}
-EDGES[VERTICES[2258]] = {{ vertex=VERTICES[2503], cost=0 },}
-EDGES[VERTICES[603]] = {{ vertex=VERTICES[1119], cost=0 },}
-EDGES[VERTICES[3977]] = {{ vertex=VERTICES[2499], cost=0 },}
-EDGES[VERTICES[3826]] = {{ vertex=VERTICES[658], cost=0 },}
-EDGES[VERTICES[642]] = {{ vertex=VERTICES[1923], cost=0 },}
-EDGES[VERTICES[2944]] = {{ vertex=VERTICES[902], cost=0 },}
-EDGES[VERTICES[2254]] = {{ vertex=VERTICES[1845], cost=0 },}
-EDGES[VERTICES[1390]] = {{ vertex=VERTICES[4192], cost=0 },}
-EDGES[VERTICES[1374]] = {{ vertex=VERTICES[5271], cost=0 },}
-EDGES[VERTICES[4394]] = {{ vertex=VERTICES[4804], cost=0 },}
-EDGES[VERTICES[1080]] = {{ vertex=VERTICES[1522], cost=0 },}
-EDGES[VERTICES[3285]] = {{ vertex=VERTICES[4275], cost=0 },}
-EDGES[VERTICES[2471]] = {{ vertex=VERTICES[6192], cost=0 },}
-EDGES[VERTICES[5684]] = {{ vertex=VERTICES[5683], cost=0 },}
-EDGES[VERTICES[2659]] = {{ vertex=VERTICES[140], cost=0 },}
-EDGES[VERTICES[5006]] = {{ vertex=VERTICES[4674], cost=0 },}
-EDGES[VERTICES[3810]] = {{ vertex=VERTICES[4979], cost=0 },}
-EDGES[VERTICES[6019]] = {{ vertex=VERTICES[3519], cost=0 },}
-EDGES[VERTICES[3695]] = {{ vertex=VERTICES[2309], cost=0 },}
-EDGES[VERTICES[6253]] = {{ vertex=VERTICES[16], cost=0 },}
-EDGES[VERTICES[5911]] = {{ vertex=VERTICES[347], cost=0 },}
-EDGES[VERTICES[4507]] = {{ vertex=VERTICES[5519], cost=0 },}
-EDGES[VERTICES[749]] = {{ vertex=VERTICES[3260], cost=0 },}
-EDGES[VERTICES[2508]] = {{ vertex=VERTICES[108], cost=0 },}
-EDGES[VERTICES[1905]] = {{ vertex=VERTICES[5034], cost=0 },}
-EDGES[VERTICES[5302]] = {{ vertex=VERTICES[399], cost=0 },}
-EDGES[VERTICES[1128]] = {{ vertex=VERTICES[1497], cost=0 },}
-EDGES[VERTICES[3929]] = {{ vertex=VERTICES[5937], cost=0 },}
-EDGES[VERTICES[4496]] = {{ vertex=VERTICES[4329], cost=0 },}
-EDGES[VERTICES[174]] = {{ vertex=VERTICES[6185], cost=0 },}
-EDGES[VERTICES[2571]] = {{ vertex=VERTICES[3055], cost=0 },}
-EDGES[VERTICES[5134]] = {{ vertex=VERTICES[1135], cost=0 },}
-EDGES[VERTICES[3651]] = {{ vertex=VERTICES[128], cost=0 },}
-EDGES[VERTICES[4221]] = {{ vertex=VERTICES[4571], cost=0 },}
-EDGES[VERTICES[3696]] = {{ vertex=VERTICES[2539], cost=0 },}
-EDGES[VERTICES[5686]] = {{ vertex=VERTICES[3664], cost=0 },}
-EDGES[VERTICES[1106]] = {{ vertex=VERTICES[1492], cost=0 },}
-EDGES[VERTICES[5100]] = {{ vertex=VERTICES[4575], cost=0 },}
-EDGES[VERTICES[1636]] = {{ vertex=VERTICES[5330], cost=0 },}
-EDGES[VERTICES[1131]] = {{ vertex=VERTICES[4189], cost=0 },}
-EDGES[VERTICES[2685]] = {{ vertex=VERTICES[2150], cost=0 },}
-EDGES[VERTICES[4549]] = {{ vertex=VERTICES[3417], cost=0 },}
-EDGES[VERTICES[3528]] = {{ vertex=VERTICES[1017], cost=0 },}
-EDGES[VERTICES[361]] = {{ vertex=VERTICES[3884], cost=0 },}
-EDGES[VERTICES[5616]] = {{ vertex=VERTICES[448], cost=0 },}
-EDGES[VERTICES[2022]] = {{ vertex=VERTICES[1668], cost=0 },}
-EDGES[VERTICES[1306]] = {{ vertex=VERTICES[797], cost=0 },}
-EDGES[VERTICES[5509]] = {{ vertex=VERTICES[3090], cost=0 },}
-EDGES[VERTICES[3713]] = {{ vertex=VERTICES[2362], cost=0 },}
-EDGES[VERTICES[819]] = {{ vertex=VERTICES[2572], cost=0 },}
-EDGES[VERTICES[1020]] = {{ vertex=VERTICES[2788], cost=0 },}
-EDGES[VERTICES[1245]] = {{ vertex=VERTICES[4004], cost=0 },}
-EDGES[VERTICES[1635]] = {{ vertex=VERTICES[3319], cost=0 },}
-EDGES[VERTICES[815]] = {{ vertex=VERTICES[4740], cost=0 },}
-EDGES[VERTICES[3513]] = {{ vertex=VERTICES[645], cost=0 },}
-EDGES[VERTICES[1179]] = {{ vertex=VERTICES[849], cost=0 },}
-EDGES[VERTICES[1408]] = {{ vertex=VERTICES[2121], cost=0 },}
-EDGES[VERTICES[3630]] = {{ vertex=VERTICES[4960], cost=0 },}
-EDGES[VERTICES[2764]] = {{ vertex=VERTICES[4915], cost=0 },}
-EDGES[VERTICES[5851]] = {{ vertex=VERTICES[3700], cost=0 },}
-EDGES[VERTICES[3349]] = {{ vertex=VERTICES[2576], cost=0 },}
-EDGES[VERTICES[892]] = {{ vertex=VERTICES[344], cost=0 },}
-EDGES[VERTICES[6195]] = {{ vertex=VERTICES[5649], cost=0 },}
-EDGES[VERTICES[3717]] = {{ vertex=VERTICES[4327], cost=0 },}
-EDGES[VERTICES[5332]] = {{ vertex=VERTICES[217], cost=0 },}
-EDGES[VERTICES[3466]] = {{ vertex=VERTICES[725], cost=0 },}
-EDGES[VERTICES[1335]] = {{ vertex=VERTICES[5028], cost=0 },}
-EDGES[VERTICES[4687]] = {{ vertex=VERTICES[5457], cost=0 },}
-EDGES[VERTICES[5891]] = {{ vertex=VERTICES[2984], cost=0 },}
-EDGES[VERTICES[84]] = {{ vertex=VERTICES[1968], cost=0 },}
-EDGES[VERTICES[4849]] = {{ vertex=VERTICES[1101], cost=0 },}
-EDGES[VERTICES[2419]] = {{ vertex=VERTICES[2224], cost=0 },}
-EDGES[VERTICES[921]] = {{ vertex=VERTICES[3617], cost=0 },}
-EDGES[VERTICES[3587]] = {{ vertex=VERTICES[4662], cost=0 },}
-EDGES[VERTICES[2399]] = {{ vertex=VERTICES[2709], cost=0 },}
-EDGES[VERTICES[802]] = {{ vertex=VERTICES[3935], cost=0 },}
-EDGES[VERTICES[5780]] = {{ vertex=VERTICES[5979], cost=0 },}
-EDGES[VERTICES[1429]] = {{ vertex=VERTICES[5600], cost=0 },}
-EDGES[VERTICES[2817]] = {{ vertex=VERTICES[6068], cost=0 },}
-EDGES[VERTICES[3177]] = {{ vertex=VERTICES[2710], cost=0 },}
-EDGES[VERTICES[305]] = {{ vertex=VERTICES[686], cost=0 },}
-EDGES[VERTICES[314]] = {{ vertex=VERTICES[4494], cost=0 },}
-EDGES[VERTICES[4222]] = {{ vertex=VERTICES[2790], cost=0 },}
-EDGES[VERTICES[3995]] = {{ vertex=VERTICES[952], cost=0 },}
-EDGES[VERTICES[900]] = {{ vertex=VERTICES[6176], cost=0 },}
-EDGES[VERTICES[4096]] = {{ vertex=VERTICES[3971], cost=0 },}
-EDGES[VERTICES[4902]] = {{ vertex=VERTICES[5411], cost=0 },}
-EDGES[VERTICES[929]] = {{ vertex=VERTICES[4852], cost=0 },}
-EDGES[VERTICES[1232]] = {{ vertex=VERTICES[1530], cost=0 },}
-EDGES[VERTICES[760]] = {{ vertex=VERTICES[2778], cost=0 },}
-EDGES[VERTICES[5279]] = {{ vertex=VERTICES[5058], cost=0 },}
-EDGES[VERTICES[4392]] = {{ vertex=VERTICES[158], cost=0 },}
-EDGES[VERTICES[4466]] = {{ vertex=VERTICES[5964], cost=0 },}
-EDGES[VERTICES[1302]] = {{ vertex=VERTICES[4793], cost=0 },}
-EDGES[VERTICES[445]] = {{ vertex=VERTICES[5694], cost=0 },}
-EDGES[VERTICES[763]] = {{ vertex=VERTICES[4786], cost=0 },}
-EDGES[VERTICES[5080]] = {{ vertex=VERTICES[131], cost=0 },}
-EDGES[VERTICES[1067]] = {{ vertex=VERTICES[2296], cost=0 },}
-EDGES[VERTICES[2987]] = {{ vertex=VERTICES[4372], cost=0 },}
-EDGES[VERTICES[1975]] = {{ vertex=VERTICES[4151], cost=0 },}
-EDGES[VERTICES[5810]] = {{ vertex=VERTICES[1331], cost=0 },}
-EDGES[VERTICES[5291]] = {{ vertex=VERTICES[1441], cost=0 },}
-EDGES[VERTICES[621]] = {{ vertex=VERTICES[1710], cost=0 },}
-EDGES[VERTICES[2824]] = {{ vertex=VERTICES[3494], cost=0 },}
-EDGES[VERTICES[5637]] = {{ vertex=VERTICES[2106], cost=0 },}
-EDGES[VERTICES[6213]] = {{ vertex=VERTICES[5315], cost=0 },}
-EDGES[VERTICES[4856]] = {{ vertex=VERTICES[532], cost=0 },}
-EDGES[VERTICES[2639]] = {{ vertex=VERTICES[275], cost=0 },}
-EDGES[VERTICES[3472]] = {{ vertex=VERTICES[1917], cost=0 },}
-EDGES[VERTICES[1916]] = {{ vertex=VERTICES[2837], cost=0 },}
-EDGES[VERTICES[1729]] = {{ vertex=VERTICES[2529], cost=0 },}
-EDGES[VERTICES[5248]] = {{ vertex=VERTICES[5795], cost=0 },}
-EDGES[VERTICES[2625]] = {{ vertex=VERTICES[4338], cost=0 },}
-EDGES[VERTICES[2766]] = {{ vertex=VERTICES[2875], cost=0 },}
-EDGES[VERTICES[2012]] = {{ vertex=VERTICES[698], cost=0 },}
-EDGES[VERTICES[4220]] = {{ vertex=VERTICES[703], cost=0 },}
-EDGES[VERTICES[2910]] = {{ vertex=VERTICES[5980], cost=0 },}
-EDGES[VERTICES[4473]] = {{ vertex=VERTICES[379], cost=0 },}
-EDGES[VERTICES[1804]] = {{ vertex=VERTICES[5099], cost=0 },}
-EDGES[VERTICES[398]] = {{ vertex=VERTICES[1349], cost=0 },}
-EDGES[VERTICES[3307]] = {{ vertex=VERTICES[3421], cost=0 },}
-EDGES[VERTICES[5167]] = {{ vertex=VERTICES[4138], cost=0 },}
-EDGES[VERTICES[5970]] = {{ vertex=VERTICES[3834], cost=0 },}
-EDGES[VERTICES[977]] = {{ vertex=VERTICES[1928], cost=0 },}
-EDGES[VERTICES[576]] = {{ vertex=VERTICES[3985], cost=0 },}
-EDGES[VERTICES[2799]] = {{ vertex=VERTICES[146], cost=0 },}
-EDGES[VERTICES[4511]] = {{ vertex=VERTICES[328], cost=0 },}
-EDGES[VERTICES[3378]] = {{ vertex=VERTICES[801], cost=0 },}
-EDGES[VERTICES[5915]] = {{ vertex=VERTICES[4763], cost=0 },}
-EDGES[VERTICES[783]] = {{ vertex=VERTICES[3182], cost=0 },}
-EDGES[VERTICES[569]] = {{ vertex=VERTICES[2546], cost=0 },}
-EDGES[VERTICES[2411]] = {{ vertex=VERTICES[2019], cost=0 },}
-EDGES[VERTICES[2925]] = {{ vertex=VERTICES[4537], cost=0 },}
-EDGES[VERTICES[338]] = {{ vertex=VERTICES[2886], cost=0 },}
-EDGES[VERTICES[2705]] = {{ vertex=VERTICES[5756], cost=0 },}
-EDGES[VERTICES[5883]] = {{ vertex=VERTICES[1032], cost=0 },}
-EDGES[VERTICES[6104]] = {{ vertex=VERTICES[6228], cost=0 },}
-EDGES[VERTICES[1951]] = {{ vertex=VERTICES[516], cost=0 },}
-EDGES[VERTICES[695]] = {{ vertex=VERTICES[3862], cost=0 },}
-EDGES[VERTICES[74]] = {{ vertex=VERTICES[5953], cost=0 },}
-EDGES[VERTICES[3439]] = {{ vertex=VERTICES[5181], cost=0 },}
-EDGES[VERTICES[421]] = {{ vertex=VERTICES[1060], cost=0 },}
-EDGES[VERTICES[1083]] = {{ vertex=VERTICES[699], cost=0 },}
-EDGES[VERTICES[6217]] = {{ vertex=VERTICES[3562], cost=0 },}
-EDGES[VERTICES[4850]] = {{ vertex=VERTICES[5634], cost=0 },}
-EDGES[VERTICES[5811]] = {{ vertex=VERTICES[5304], cost=0 },}
-EDGES[VERTICES[1837]] = {{ vertex=VERTICES[6015], cost=0 },}
-EDGES[VERTICES[3463]] = {{ vertex=VERTICES[2151], cost=0 },}
-EDGES[VERTICES[5849]] = {{ vertex=VERTICES[5033], cost=0 },}
-EDGES[VERTICES[923]] = {{ vertex=VERTICES[4500], cost=0 },}
-EDGES[VERTICES[3493]] = {{ vertex=VERTICES[2878], cost=0 },}
-EDGES[VERTICES[311]] = {{ vertex=VERTICES[5046], cost=0 },}
-EDGES[VERTICES[2741]] = {{ vertex=VERTICES[1730], cost=0 },}
-EDGES[VERTICES[169]] = {{ vertex=VERTICES[3435], cost=0 },}
-EDGES[VERTICES[3391]] = {{ vertex=VERTICES[804], cost=0 },}
-EDGES[VERTICES[3498]] = {{ vertex=VERTICES[4028], cost=0 },}
-EDGES[VERTICES[2456]] = {{ vertex=VERTICES[879], cost=0 },}
-EDGES[VERTICES[2502]] = {{ vertex=VERTICES[3042], cost=0 },}
-EDGES[VERTICES[3801]] = {{ vertex=VERTICES[4375], cost=0 },}
-EDGES[VERTICES[202]] = {{ vertex=VERTICES[2531], cost=0 },}
-EDGES[VERTICES[1406]] = {{ vertex=VERTICES[1115], cost=0 },}
-EDGES[VERTICES[3704]] = {{ vertex=VERTICES[4871], cost=0 },}
-EDGES[VERTICES[4503]] = {{ vertex=VERTICES[2185], cost=0 },}
-EDGES[VERTICES[3765]] = {{ vertex=VERTICES[2364], cost=0 },}
-EDGES[VERTICES[6140]] = {{ vertex=VERTICES[5421], cost=0 },}
-EDGES[VERTICES[3550]] = {{ vertex=VERTICES[5548], cost=0 },}
-EDGES[VERTICES[3098]] = {{ vertex=VERTICES[1835], cost=0 },}
-EDGES[VERTICES[3542]] = {{ vertex=VERTICES[3815], cost=0 },}
-EDGES[VERTICES[4895]] = {{ vertex=VERTICES[2759], cost=0 },}
-EDGES[VERTICES[251]] = {{ vertex=VERTICES[2261], cost=0 },}
-EDGES[VERTICES[3652]] = {{ vertex=VERTICES[1137], cost=0 },}
-EDGES[VERTICES[5264]] = {{ vertex=VERTICES[5584], cost=0 },}
-EDGES[VERTICES[1692]] = {{ vertex=VERTICES[1831], cost=0 },}
-EDGES[VERTICES[4877]] = {{ vertex=VERTICES[3452], cost=0 },}
-EDGES[VERTICES[5526]] = {{ vertex=VERTICES[596], cost=0 },}
-EDGES[VERTICES[5338]] = {{ vertex=VERTICES[5759], cost=0 },}
-EDGES[VERTICES[5132]] = {{ vertex=VERTICES[3882], cost=0 },}
-EDGES[VERTICES[1936]] = {{ vertex=VERTICES[3036], cost=0 },}
-EDGES[VERTICES[5818]] = {{ vertex=VERTICES[316], cost=0 },}
-EDGES[VERTICES[5603]] = {{ vertex=VERTICES[3265], cost=0 },}
-EDGES[VERTICES[5691]] = {{ vertex=VERTICES[5258], cost=0 },}
-EDGES[VERTICES[3832]] = {{ vertex=VERTICES[2492], cost=0 },}
-EDGES[VERTICES[544]] = {{ vertex=VERTICES[5486], cost=0 },}
-EDGES[VERTICES[376]] = {{ vertex=VERTICES[1355], cost=0 },}
-EDGES[VERTICES[2402]] = {{ vertex=VERTICES[3202], cost=0 },}
-EDGES[VERTICES[3060]] = {{ vertex=VERTICES[4693], cost=0 },}
-EDGES[VERTICES[553]] = {{ vertex=VERTICES[3085], cost=0 },}
-EDGES[VERTICES[3088]] = {{ vertex=VERTICES[717], cost=0 },}
-EDGES[VERTICES[4144]] = {{ vertex=VERTICES[1168], cost=0 },}
-EDGES[VERTICES[1881]] = {{ vertex=VERTICES[62], cost=0 },}
-EDGES[VERTICES[5342]] = {{ vertex=VERTICES[2023], cost=0 },}
-EDGES[VERTICES[2065]] = {{ vertex=VERTICES[1779], cost=0 },}
-EDGES[VERTICES[1544]] = {{ vertex=VERTICES[1193], cost=0 },}
-EDGES[VERTICES[5948]] = {{ vertex=VERTICES[3005], cost=0 },}
-EDGES[VERTICES[3096]] = {{ vertex=VERTICES[6031], cost=0 },}
-EDGES[VERTICES[4936]] = {{ vertex=VERTICES[1774], cost=0 },}
-EDGES[VERTICES[4795]] = {{ vertex=VERTICES[1162], cost=0 },}
-EDGES[VERTICES[475]] = {{ vertex=VERTICES[297], cost=0 },}
-EDGES[VERTICES[3394]] = {{ vertex=VERTICES[4381], cost=0 },}
-EDGES[VERTICES[4510]] = {{ vertex=VERTICES[4868], cost=0 },}
-EDGES[VERTICES[1396]] = {{ vertex=VERTICES[3114], cost=0 },}
-EDGES[VERTICES[1045]] = {{ vertex=VERTICES[4912], cost=0 },}
-EDGES[VERTICES[2088]] = {{ vertex=VERTICES[3526], cost=0 },}
-EDGES[VERTICES[1965]] = {{ vertex=VERTICES[2423], cost=0 },}
-EDGES[VERTICES[2714]] = {{ vertex=VERTICES[2937], cost=0 },}
-EDGES[VERTICES[3897]] = {{ vertex=VERTICES[3262], cost=0 },}
-EDGES[VERTICES[2800]] = {{ vertex=VERTICES[4323], cost=0 },}
-EDGES[VERTICES[4078]] = {{ vertex=VERTICES[6254], cost=0 },}
-EDGES[VERTICES[1295]] = {{ vertex=VERTICES[735], cost=0 },}
-EDGES[VERTICES[4291]] = {{ vertex=VERTICES[3547], cost=0 },}
-EDGES[VERTICES[1207]] = {{ vertex=VERTICES[1614], cost=0 },}
-EDGES[VERTICES[5266]] = {{ vertex=VERTICES[2724], cost=0 },}
-EDGES[VERTICES[3064]] = {{ vertex=VERTICES[4321], cost=0 },}
-EDGES[VERTICES[6040]] = {{ vertex=VERTICES[2287], cost=0 },}
-EDGES[VERTICES[3147]] = {{ vertex=VERTICES[2828], cost=0 },}
-EDGES[VERTICES[2874]] = {{ vertex=VERTICES[5590], cost=0 },}
-EDGES[VERTICES[3874]] = {{ vertex=VERTICES[2267], cost=0 },}
-EDGES[VERTICES[3167]] = {{ vertex=VERTICES[559], cost=0 },}
-EDGES[VERTICES[887]] = {{ vertex=VERTICES[2209], cost=0 },}
-EDGES[VERTICES[5939]] = {{ vertex=VERTICES[111], cost=0 },}
-EDGES[VERTICES[1057]] = {{ vertex=VERTICES[4431], cost=0 },}
-EDGES[VERTICES[3367]] = {{ vertex=VERTICES[2059], cost=0 },}
-EDGES[VERTICES[4257]] = {{ vertex=VERTICES[1491], cost=0 },}
-EDGES[VERTICES[6154]] = {{ vertex=VERTICES[4648], cost=0 },}
-EDGES[VERTICES[2333]] = {{ vertex=VERTICES[2664], cost=0 },}
-EDGES[VERTICES[4785]] = {{ vertex=VERTICES[4100], cost=0 },}
-EDGES[VERTICES[4333]] = {{ vertex=VERTICES[680], cost=0 },}
-EDGES[VERTICES[3551]] = {{ vertex=VERTICES[5138], cost=0 },}
-EDGES[VERTICES[4788]] = {{ vertex=VERTICES[326], cost=0 },}
-EDGES[VERTICES[3067]] = {{ vertex=VERTICES[547], cost=0 },}
-EDGES[VERTICES[1117]] = {{ vertex=VERTICES[1113], cost=0 },}
-EDGES[VERTICES[3308]] = {{ vertex=VERTICES[1659], cost=0 },}
-EDGES[VERTICES[3442]] = {{ vertex=VERTICES[1772], cost=0 },}
-EDGES[VERTICES[210]] = {{ vertex=VERTICES[3389], cost=0 },}
-EDGES[VERTICES[5064]] = {{ vertex=VERTICES[513], cost=0 },}
-EDGES[VERTICES[4437]] = {{ vertex=VERTICES[1748], cost=0 },}
-EDGES[VERTICES[3458]] = {{ vertex=VERTICES[1885], cost=0 },}
-EDGES[VERTICES[2452]] = {{ vertex=VERTICES[3406], cost=0 },}
-EDGES[VERTICES[3198]] = {{ vertex=VERTICES[1048], cost=0 },}
-EDGES[VERTICES[2066]] = {{ vertex=VERTICES[336], cost=0 },}
-EDGES[VERTICES[280]] = {{ vertex=VERTICES[1183], cost=0 },}
-EDGES[VERTICES[5280]] = {{ vertex=VERTICES[5944], cost=0 },}
-EDGES[VERTICES[1579]] = {{ vertex=VERTICES[4969], cost=0 },}
-EDGES[VERTICES[2313]] = {{ vertex=VERTICES[4415], cost=0 },}
-EDGES[VERTICES[5098]] = {{ vertex=VERTICES[3751], cost=0 },}
-EDGES[VERTICES[6116]] = {{ vertex=VERTICES[5427], cost=0 },}
-EDGES[VERTICES[2585]] = {{ vertex=VERTICES[6132], cost=0 },}
-EDGES[VERTICES[5741]] = {{ vertex=VERTICES[2152], cost=0 },}
-EDGES[VERTICES[1539]] = {{ vertex=VERTICES[5714], cost=0 },}
-EDGES[VERTICES[1959]] = {{ vertex=VERTICES[1436], cost=0 },}
-EDGES[VERTICES[2035]] = {{ vertex=VERTICES[1514], cost=0 },}
-EDGES[VERTICES[2855]] = {{ vertex=VERTICES[502], cost=0 },}
-EDGES[VERTICES[357]] = {{ vertex=VERTICES[3041], cost=0 },}
-EDGES[VERTICES[3486]] = {{ vertex=VERTICES[3087], cost=0 },}
-EDGES[VERTICES[2870]] = {{ vertex=VERTICES[5767], cost=0 },}
-EDGES[VERTICES[4070]] = {{ vertex=VERTICES[1219], cost=0 },}
-EDGES[VERTICES[5668]] = {{ vertex=VERTICES[1723], cost=0 },}
-EDGES[VERTICES[817]] = {{ vertex=VERTICES[5824], cost=0 },}
-EDGES[VERTICES[3052]] = {{ vertex=VERTICES[1523], cost=0 },}
-EDGES[VERTICES[1019]] = {{ vertex=VERTICES[1357], cost=0 },}
-EDGES[VERTICES[1554]] = {{ vertex=VERTICES[3805], cost=0 },}
-EDGES[VERTICES[3593]] = {{ vertex=VERTICES[3933], cost=0 },}
-EDGES[VERTICES[3673]] = {{ vertex=VERTICES[4334], cost=0 },}
-EDGES[VERTICES[2358]] = {{ vertex=VERTICES[2535], cost=0 },}
-EDGES[VERTICES[991]] = {{ vertex=VERTICES[4712], cost=0 },}
-EDGES[VERTICES[6168]] = {{ vertex=VERTICES[2941], cost=0 },}
-EDGES[VERTICES[1139]] = {{ vertex=VERTICES[2654], cost=0 },}
-EDGES[VERTICES[2328]] = {{ vertex=VERTICES[5094], cost=0 },}
-EDGES[VERTICES[5753]] = {{ vertex=VERTICES[4567], cost=0 },}
-EDGES[VERTICES[4813]] = {{ vertex=VERTICES[3898], cost=0 },}
-EDGES[VERTICES[1342]] = {{ vertex=VERTICES[2026], cost=0 },}
-EDGES[VERTICES[1880]] = {{ vertex=VERTICES[1862], cost=0 },}
-EDGES[VERTICES[381]] = {{ vertex=VERTICES[1535], cost=0 },}
-EDGES[VERTICES[4308]] = {{ vertex=VERTICES[1610], cost=0 },}
-EDGES[VERTICES[3589]] = {{ vertex=VERTICES[4228], cost=0 },}
-EDGES[VERTICES[88]] = {{ vertex=VERTICES[4766], cost=0 },}
-EDGES[VERTICES[5113]] = {{ vertex=VERTICES[1148], cost=0 },}
-EDGES[VERTICES[143]] = {{ vertex=VERTICES[2545], cost=0 },}
-EDGES[VERTICES[1419]] = {{ vertex=VERTICES[2656], cost=0 },}
-EDGES[VERTICES[4928]] = {{ vertex=VERTICES[2270], cost=0 },}
-EDGES[VERTICES[5292]] = {{ vertex=VERTICES[2792], cost=0 },}
-EDGES[VERTICES[3430]] = {{ vertex=VERTICES[1989], cost=0 },}
-EDGES[VERTICES[3972]] = {{ vertex=VERTICES[4764], cost=0 },}
-EDGES[VERTICES[4158]] = {{ vertex=VERTICES[4309], cost=0 },}
-EDGES[VERTICES[1041]] = {{ vertex=VERTICES[737], cost=0 },}
-EDGES[VERTICES[4653]] = {{ vertex=VERTICES[5172], cost=0 },}
-EDGES[VERTICES[3151]] = {{ vertex=VERTICES[1884], cost=0 },}
-EDGES[VERTICES[1199]] = {{ vertex=VERTICES[3332], cost=0 },}
-EDGES[VERTICES[4684]] = {{ vertex=VERTICES[2175], cost=0 },}
-EDGES[VERTICES[208]] = {{ vertex=VERTICES[1309], cost=0 },}
-EDGES[VERTICES[3531]] = {{ vertex=VERTICES[4526], cost=0 },}
-EDGES[VERTICES[2467]] = {{ vertex=VERTICES[1525], cost=0 },}
-EDGES[VERTICES[4715]] = {{ vertex=VERTICES[2579], cost=0 },}
-EDGES[VERTICES[5902]] = {{ vertex=VERTICES[3350], cost=0 },}
-EDGES[VERTICES[170]] = {{ vertex=VERTICES[4254], cost=0 },}
-EDGES[VERTICES[2408]] = {{ vertex=VERTICES[5249], cost=0 },}
-EDGES[VERTICES[3574]] = {{ vertex=VERTICES[758], cost=0 },}
-EDGES[VERTICES[3576]] = {{ vertex=VERTICES[3661], cost=0 },}
-EDGES[VERTICES[931]] = {{ vertex=VERTICES[6016], cost=0 },}
-EDGES[VERTICES[1442]] = {{ vertex=VERTICES[5265], cost=0 },}
-EDGES[VERTICES[500]] = {{ vertex=VERTICES[2060], cost=0 },}
-EDGES[VERTICES[3611]] = {{ vertex=VERTICES[2302], cost=0 },}
-EDGES[VERTICES[2848]] = {{ vertex=VERTICES[2304], cost=0 },}
-EDGES[VERTICES[5803]] = {{ vertex=VERTICES[463], cost=0 },}
-EDGES[VERTICES[2596]] = {{ vertex=VERTICES[606], cost=0 },}
-EDGES[VERTICES[6002]] = {{ vertex=VERTICES[4803], cost=0 },}
-EDGES[VERTICES[5354]] = {{ vertex=VERTICES[5029], cost=0 },}
-EDGES[VERTICES[4374]] = {{ vertex=VERTICES[5356], cost=0 },}
-EDGES[VERTICES[4600]] = {{ vertex=VERTICES[5657], cost=0 },}
-EDGES[VERTICES[3415]] = {{ vertex=VERTICES[1962], cost=0 },}
-EDGES[VERTICES[3294]] = {{ vertex=VERTICES[321], cost=0 },}
-EDGES[VERTICES[4696]] = {{ vertex=VERTICES[4015], cost=0 },}
-EDGES[VERTICES[1440]] = {{ vertex=VERTICES[2009], cost=0 },}
-EDGES[VERTICES[373]] = {{ vertex=VERTICES[5499], cost=0 },}
-EDGES[VERTICES[4820]] = {{ vertex=VERTICES[5737], cost=0 },}
-EDGES[VERTICES[4153]] = {{ vertex=VERTICES[4240], cost=0 },}
-EDGES[VERTICES[1448]] = {{ vertex=VERTICES[4270], cost=0 },}
-EDGES[VERTICES[4127]] = {{ vertex=VERTICES[4535], cost=0 },}
-EDGES[VERTICES[2303]] = {{ vertex=VERTICES[4185], cost=0 },}
-EDGES[VERTICES[2666]] = {{ vertex=VERTICES[5020], cost=0 },}
-EDGES[VERTICES[1751]] = {{ vertex=VERTICES[5198], cost=0 },}
-EDGES[VERTICES[451]] = {{ vertex=VERTICES[107], cost=0 },}
-EDGES[VERTICES[4840]] = {{ vertex=VERTICES[4606], cost=0 },}
-EDGES[VERTICES[2024]] = {{ vertex=VERTICES[4547], cost=0 },}
-EDGES[VERTICES[2798]] = {{ vertex=VERTICES[4839], cost=0 },}
-EDGES[VERTICES[1476]] = {{ vertex=VERTICES[4171], cost=0 },}
-EDGES[VERTICES[5197]] = {{ vertex=VERTICES[5402], cost=0 },}
-EDGES[VERTICES[6235]] = {{ vertex=VERTICES[204], cost=0 },}
-EDGES[VERTICES[3082]] = {{ vertex=VERTICES[3045], cost=0 },}
-EDGES[VERTICES[3851]] = {{ vertex=VERTICES[4293], cost=0 },}
-EDGES[VERTICES[5007]] = {{ vertex=VERTICES[232], cost=0 },}
-EDGES[VERTICES[5378]] = {{ vertex=VERTICES[5695], cost=0 },}
-EDGES[VERTICES[242]] = {{ vertex=VERTICES[2068], cost=0 },}
-EDGES[VERTICES[2843]] = {{ vertex=VERTICES[2331], cost=0 },}
-EDGES[VERTICES[706]] = {{ vertex=VERTICES[3710], cost=0 },}
-EDGES[VERTICES[861]] = {{ vertex=VERTICES[1248], cost=0 },}
-EDGES[VERTICES[4393]] = {{ vertex=VERTICES[5642], cost=0 },}
-EDGES[VERTICES[5983]] = {{ vertex=VERTICES[1728], cost=0 },}
-EDGES[VERTICES[5907]] = {{ vertex=VERTICES[6108], cost=0 },}
-EDGES[VERTICES[6150]] = {{ vertex=VERTICES[112], cost=0 },}
-EDGES[VERTICES[4069]] = {{ vertex=VERTICES[6183], cost=0 },}
-EDGES[VERTICES[2725]] = {{ vertex=VERTICES[5466], cost=0 },}
-EDGES[VERTICES[1427]] = {{ vertex=VERTICES[4864], cost=0 },}
-EDGES[VERTICES[5383]] = {{ vertex=VERTICES[234], cost=0 },}
-EDGES[VERTICES[1781]] = {{ vertex=VERTICES[3793], cost=0 },}
-EDGES[VERTICES[5876]] = {{ vertex=VERTICES[2360], cost=0 },}
-EDGES[VERTICES[4502]] = {{ vertex=VERTICES[6229], cost=0 },}
-EDGES[VERTICES[331]] = {{ vertex=VERTICES[2297], cost=0 },}
-EDGES[VERTICES[4754]] = {{ vertex=VERTICES[4874], cost=0 },}
-EDGES[VERTICES[4818]] = {{ vertex=VERTICES[6004], cost=0 },}
-EDGES[VERTICES[2922]] = {{ vertex=VERTICES[1549], cost=0 },}
-EDGES[VERTICES[2375]] = {{ vertex=VERTICES[1118], cost=0 },}
-EDGES[VERTICES[713]] = {{ vertex=VERTICES[9], cost=0 },}
-EDGES[VERTICES[1072]] = {{ vertex=VERTICES[4121], cost=0 },}
-EDGES[VERTICES[3676]] = {{ vertex=VERTICES[1283], cost=0 },}
-EDGES[VERTICES[5745]] = {{ vertex=VERTICES[2547], cost=0 },}
-EDGES[VERTICES[5019]] = {{ vertex=VERTICES[2064], cost=0 },}
-EDGES[VERTICES[6082]] = {{ vertex=VERTICES[4807], cost=0 },}
-EDGES[VERTICES[1747]] = {{ vertex=VERTICES[5073], cost=0 },}
-EDGES[VERTICES[1096]] = {{ vertex=VERTICES[3320], cost=0 },}
-EDGES[VERTICES[4115]] = {{ vertex=VERTICES[4727], cost=0 },}
-EDGES[VERTICES[3230]] = {{ vertex=VERTICES[1878], cost=0 },}
-EDGES[VERTICES[4592]] = {{ vertex=VERTICES[4042], cost=0 },}
-EDGES[VERTICES[4]] = {{ vertex=VERTICES[4656], cost=0 },}
-EDGES[VERTICES[3996]] = {{ vertex=VERTICES[244], cost=0 },}
-EDGES[VERTICES[114]] = {{ vertex=VERTICES[2134], cost=0 },}
-EDGES[VERTICES[2307]] = {{ vertex=VERTICES[5660], cost=0 },}
-EDGES[VERTICES[4945]] = {{ vertex=VERTICES[4635], cost=0 },}
-EDGES[VERTICES[764]] = {{ vertex=VERTICES[4482], cost=0 },}
-EDGES[VERTICES[2266]] = {{ vertex=VERTICES[4665], cost=0 },}
-EDGES[VERTICES[2290]] = {{ vertex=VERTICES[1461], cost=0 },}
-EDGES[VERTICES[2942]] = {{ vertex=VERTICES[32], cost=0 },}
-EDGES[VERTICES[5443]] = {{ vertex=VERTICES[660], cost=0 },}
-EDGES[VERTICES[2932]] = {{ vertex=VERTICES[3861], cost=0 },}
-EDGES[VERTICES[1281]] = {{ vertex=VERTICES[1972], cost=0 },}
-EDGES[VERTICES[1255]] = {{ vertex=VERTICES[1696], cost=0 },}
-EDGES[VERTICES[397]] = {{ vertex=VERTICES[5926], cost=0 },}
-EDGES[VERTICES[6042]] = {{ vertex=VERTICES[5845], cost=0 },}
-EDGES[VERTICES[5153]] = {{ vertex=VERTICES[3071], cost=0 },}
-EDGES[VERTICES[465]] = {{ vertex=VERTICES[836], cost=0 },}
-EDGES[VERTICES[2779]] = {{ vertex=VERTICES[5963], cost=0 },}
-EDGES[VERTICES[3371]] = {{ vertex=VERTICES[4596], cost=0 },}
-EDGES[VERTICES[631]] = {{ vertex=VERTICES[5620], cost=0 },}
-EDGES[VERTICES[6186]] = {{ vertex=VERTICES[3426], cost=0 },}
-EDGES[VERTICES[3002]] = {{ vertex=VERTICES[3358], cost=0 },}
-EDGES[VERTICES[3121]] = {{ vertex=VERTICES[4200], cost=0 },}
-EDGES[VERTICES[3894]] = {{ vertex=VERTICES[1695], cost=0 },}
-EDGES[VERTICES[626]] = {{ vertex=VERTICES[2230], cost=0 },}
-EDGES[VERTICES[2803]] = {{ vertex=VERTICES[3179], cost=0 },}
-EDGES[VERTICES[5107]] = {{ vertex=VERTICES[2322], cost=0 },}
-EDGES[VERTICES[5644]] = {{ vertex=VERTICES[2014], cost=0 },}
-EDGES[VERTICES[2494]] = {{ vertex=VERTICES[30], cost=0 },}
-EDGES[VERTICES[243]] = {{ vertex=VERTICES[1661], cost=0 },}
-EDGES[VERTICES[5533]] = {{ vertex=VERTICES[1536], cost=0 },}
-EDGES[VERTICES[3144]] = {{ vertex=VERTICES[2070], cost=0 },}
-EDGES[VERTICES[2771]] = {{ vertex=VERTICES[3830], cost=0 },}
-EDGES[VERTICES[5726]] = {{ vertex=VERTICES[303], cost=0 },}
-EDGES[VERTICES[1699]] = {{ vertex=VERTICES[1869], cost=0 },}
-EDGES[VERTICES[821]] = {{ vertex=VERTICES[1092], cost=0 },}
-EDGES[VERTICES[556]] = {{ vertex=VERTICES[5643], cost=0 },}
-EDGES[VERTICES[4521]] = {{ vertex=VERTICES[1203], cost=0 },}
-EDGES[VERTICES[2080]] = {{ vertex=VERTICES[3418], cost=0 },}
-EDGES[VERTICES[612]] = {{ vertex=VERTICES[5270], cost=0 },}
-EDGES[VERTICES[1267]] = {{ vertex=VERTICES[4560], cost=0 },}
-EDGES[VERTICES[5263]] = {{ vertex=VERTICES[2220], cost=0 },}
-EDGES[VERTICES[2493]] = {{ vertex=VERTICES[141], cost=0 },}
-EDGES[VERTICES[55]] = {{ vertex=VERTICES[2188], cost=0 },}
-EDGES[VERTICES[5825]] = {{ vertex=VERTICES[908], cost=0 },}
-EDGES[VERTICES[5638]] = {{ vertex=VERTICES[3145], cost=0 },}
-EDGES[VERTICES[3078]] = {{ vertex=VERTICES[3488], cost=0 },}
-EDGES[VERTICES[3785]] = {{ vertex=VERTICES[4815], cost=0 },}
-EDGES[VERTICES[4875]] = {{ vertex=VERTICES[710], cost=0 },}
-EDGES[VERTICES[1058]] = {{ vertex=VERTICES[415], cost=0 },}
-EDGES[VERTICES[4554]] = {{ vertex=VERTICES[519], cost=0 },}
-EDGES[VERTICES[1609]] = {{ vertex=VERTICES[2076], cost=0 },}
-EDGES[VERTICES[2067]] = {{ vertex=VERTICES[3101], cost=0 },}
-EDGES[VERTICES[572]] = {{ vertex=VERTICES[3140], cost=0 },}
-EDGES[VERTICES[4186]] = {{ vertex=VERTICES[3742], cost=0 },}
-EDGES[VERTICES[4590]] = {{ vertex=VERTICES[4282], cost=0 },}
-EDGES[VERTICES[1110]] = {{ vertex=VERTICES[3208], cost=0 },}
-EDGES[VERTICES[3554]] = {{ vertex=VERTICES[99], cost=0 },}
-EDGES[VERTICES[5318]] = {{ vertex=VERTICES[5565], cost=0 },}
-EDGES[VERTICES[2189]] = {{ vertex=VERTICES[1840], cost=0 },}
-EDGES[VERTICES[3797]] = {{ vertex=VERTICES[3034], cost=0 },}
-EDGES[VERTICES[4718]] = {{ vertex=VERTICES[2945], cost=0 },}
-EDGES[VERTICES[662]] = {{ vertex=VERTICES[4214], cost=0 },}
-EDGES[VERTICES[294]] = {{ vertex=VERTICES[4633], cost=0 },}
-EDGES[VERTICES[4893]] = {{ vertex=VERTICES[5119], cost=0 },}
-EDGES[VERTICES[633]] = {{ vertex=VERTICES[5392], cost=0 },}
-EDGES[VERTICES[6074]] = {{ vertex=VERTICES[5436], cost=0 },}
-EDGES[VERTICES[858]] = {{ vertex=VERTICES[1424], cost=0 },}
-EDGES[VERTICES[3600]] = {{ vertex=VERTICES[5510], cost=0 },}
-EDGES[VERTICES[2033]] = {{ vertex=VERTICES[2612], cost=0 },}
-EDGES[VERTICES[2860]] = {{ vertex=VERTICES[2933], cost=0 },}
-EDGES[VERTICES[3907]] = {{ vertex=VERTICES[2533], cost=0 },}
-EDGES[VERTICES[4885]] = {{ vertex=VERTICES[1724], cost=0 },}
-EDGES[VERTICES[4174]] = {{ vertex=VERTICES[3975], cost=0 },}
-EDGES[VERTICES[1154]] = {{ vertex=VERTICES[5626], cost=0 },}
-EDGES[VERTICES[3969]] = {{ vertex=VERTICES[3868], cost=0 },}
-EDGES[VERTICES[5404]] = {{ vertex=VERTICES[2881], cost=0 },}
-EDGES[VERTICES[624]] = {{ vertex=VERTICES[3999], cost=0 },}
-EDGES[VERTICES[5277]] = {{ vertex=VERTICES[3240], cost=0 },}
-EDGES[VERTICES[1993]] = {{ vertex=VERTICES[4505], cost=0 },}
-EDGES[VERTICES[2272]] = {{ vertex=VERTICES[2390], cost=0 },}
-EDGES[VERTICES[3850]] = {{ vertex=VERTICES[2346], cost=0 },}
-EDGES[VERTICES[1855]] = {{ vertex=VERTICES[5240], cost=0 },}
-EDGES[VERTICES[4049]] = {{ vertex=VERTICES[224], cost=0 },}
-EDGES[VERTICES[3976]] = {{ vertex=VERTICES[2965], cost=0 },}
-EDGES[VERTICES[546]] = {{ vertex=VERTICES[6263], cost=0 },}
-EDGES[VERTICES[453]] = {{ vertex=VERTICES[558], cost=0 },}
-EDGES[VERTICES[2775]] = {{ vertex=VERTICES[1593], cost=0 },}
-EDGES[VERTICES[2877]] = {{ vertex=VERTICES[1161], cost=0 },}
-EDGES[VERTICES[2361]] = {{ vertex=VERTICES[163], cost=0 },}
-EDGES[VERTICES[4679]] = {{ vertex=VERTICES[2054], cost=0 },}
-EDGES[VERTICES[3775]] = {{ vertex=VERTICES[4759], cost=0 },}
-EDGES[VERTICES[5081]] = {{ vertex=VERTICES[3918], cost=0 },}
-EDGES[VERTICES[1811]] = {{ vertex=VERTICES[953], cost=0 },}
-EDGES[VERTICES[1561]] = {{ vertex=VERTICES[6017], cost=0 },}
-EDGES[VERTICES[4204]] = {{ vertex=VERTICES[2726], cost=0 },}
-EDGES[VERTICES[5645]] = {{ vertex=VERTICES[3201], cost=0 },}
-EDGES[VERTICES[1205]] = {{ vertex=VERTICES[2126], cost=0 },}
-EDGES[VERTICES[5272]] = {{ vertex=VERTICES[2196], cost=0 },}
-EDGES[VERTICES[4695]] = {{ vertex=VERTICES[5904], cost=0 },}
-EDGES[VERTICES[5969]] = {{ vertex=VERTICES[4183], cost=0 },}
-EDGES[VERTICES[3330]] = {{ vertex=VERTICES[41], cost=0 },}
-EDGES[VERTICES[3131]] = {{ vertex=VERTICES[3148], cost=0 },}
-EDGES[VERTICES[68]] = {{ vertex=VERTICES[5062], cost=0 },}
-EDGES[VERTICES[3677]] = {{ vertex=VERTICES[5183], cost=0 },}
-EDGES[VERTICES[5597]] = {{ vertex=VERTICES[4603], cost=0 },}
-EDGES[VERTICES[5784]] = {{ vertex=VERTICES[2368], cost=0 },}
-EDGES[VERTICES[2370]] = {{ vertex=VERTICES[245], cost=0 },}
-EDGES[VERTICES[1775]] = {{ vertex=VERTICES[5479], cost=0 },}
-EDGES[VERTICES[4805]] = {{ vertex=VERTICES[175], cost=0 },}
-EDGES[VERTICES[2504]] = {{ vertex=VERTICES[125], cost=0 },}
-EDGES[VERTICES[864]] = {{ vertex=VERTICES[1088], cost=0 },}
-EDGES[VERTICES[5690]] = {{ vertex=VERTICES[1630], cost=0 },}
-EDGES[VERTICES[1909]] = {{ vertex=VERTICES[5950], cost=0 },}
-EDGES[VERTICES[4104]] = {{ vertex=VERTICES[3248], cost=0 },}
-EDGES[VERTICES[4512]] = {{ vertex=VERTICES[368], cost=0 },}
-EDGES[VERTICES[3693]] = {{ vertex=VERTICES[945], cost=0 },}
-EDGES[VERTICES[3601]] = {{ vertex=VERTICES[5583], cost=0 },}
-EDGES[VERTICES[2075]] = {{ vertex=VERTICES[1658], cost=0 },}
-EDGES[VERTICES[3790]] = {{ vertex=VERTICES[1759], cost=0 },}
-EDGES[VERTICES[367]] = {{ vertex=VERTICES[1950], cost=0 },}
-EDGES[VERTICES[407]] = {{ vertex=VERTICES[5231], cost=0 },}
-EDGES[VERTICES[3595]] = {{ vertex=VERTICES[1188], cost=0 },}
-EDGES[VERTICES[1607]] = {{ vertex=VERTICES[4909], cost=0 },}
-EDGES[VERTICES[1648]] = {{ vertex=VERTICES[5655], cost=0 },}
-EDGES[VERTICES[2105]] = {{ vertex=VERTICES[3259], cost=0 },}
-EDGES[VERTICES[2488]] = {{ vertex=VERTICES[5023], cost=0 },}
-EDGES[VERTICES[828]] = {{ vertex=VERTICES[6149], cost=0 },}
-EDGES[VERTICES[2702]] = {{ vertex=VERTICES[4331], cost=0 },}
-EDGES[VERTICES[5931]] = {{ vertex=VERTICES[5025], cost=0 },}
-EDGES[VERTICES[6121]] = {{ vertex=VERTICES[3715], cost=0 },}
-EDGES[VERTICES[5651]] = {{ vertex=VERTICES[588], cost=0 },}
-EDGES[VERTICES[5050]] = {{ vertex=VERTICES[3703], cost=0 },}
-EDGES[VERTICES[3762]] = {{ vertex=VERTICES[2339], cost=0 },}
-EDGES[VERTICES[254]] = {{ vertex=VERTICES[4194], cost=0 },}
-EDGES[VERTICES[1708]] = {{ vertex=VERTICES[3479], cost=0 },}
-EDGES[VERTICES[1378]] = {{ vertex=VERTICES[2796], cost=0 },}
-EDGES[VERTICES[4587]] = {{ vertex=VERTICES[2453], cost=0 },}
-EDGES[VERTICES[2786]] = {{ vertex=VERTICES[6199], cost=0 },}
-EDGES[VERTICES[5326]] = {{ vertex=VERTICES[5390], cost=0 },}
-EDGES[VERTICES[5084]] = {{ vertex=VERTICES[3753], cost=0 },}
-EDGES[VERTICES[5166]] = {{ vertex=VERTICES[1758], cost=0 },}
-EDGES[VERTICES[2444]] = {{ vertex=VERTICES[1939], cost=0 },}
-EDGES[VERTICES[1444]] = {{ vertex=VERTICES[5941], cost=0 },}
-EDGES[VERTICES[1412]] = {{ vertex=VERTICES[3428], cost=0 },}
-EDGES[VERTICES[4134]] = {{ vertex=VERTICES[592], cost=0 },}
-EDGES[VERTICES[1473]] = {{ vertex=VERTICES[5594], cost=0 },}
-EDGES[VERTICES[6209]] = {{ vertex=VERTICES[5961], cost=0 },}
-EDGES[VERTICES[3000]] = {{ vertex=VERTICES[6100], cost=0 },}
-EDGES[VERTICES[1392]] = {{ vertex=VERTICES[1280], cost=0 },}
-EDGES[VERTICES[6066]] = {{ vertex=VERTICES[21], cost=0 },}
-EDGES[VERTICES[3786]] = {{ vertex=VERTICES[2749], cost=0 },}
-EDGES[VERTICES[6103]] = {{ vertex=VERTICES[3238], cost=0 },}
-EDGES[VERTICES[5137]] = {{ vertex=VERTICES[4540], cost=0 },}
-EDGES[VERTICES[87]] = {{ vertex=VERTICES[5363], cost=0 },}
-EDGES[VERTICES[218]] = {{ vertex=VERTICES[3772], cost=0 },}
-EDGES[VERTICES[5781]] = {{ vertex=VERTICES[4380], cost=0 },}
-EDGES[VERTICES[583]] = {{ vertex=VERTICES[769], cost=0 },}
-EDGES[VERTICES[4261]] = {{ vertex=VERTICES[4427], cost=0 },}
-EDGES[VERTICES[1591]] = {{ vertex=VERTICES[5430], cost=0 },}
-EDGES[VERTICES[5857]] = {{ vertex=VERTICES[1076], cost=0 },}
-EDGES[VERTICES[996]] = {{ vertex=VERTICES[3906], cost=0 },}
-EDGES[VERTICES[2347]] = {{ vertex=VERTICES[4645], cost=0 },}
-EDGES[VERTICES[5807]] = {{ vertex=VERTICES[1743], cost=0 },}
-EDGES[VERTICES[1236]] = {{ vertex=VERTICES[4045], cost=0 },}
-EDGES[VERTICES[3510]] = {{ vertex=VERTICES[173], cost=0 },}
-EDGES[VERTICES[3838]] = {{ vertex=VERTICES[591], cost=0 },}
-EDGES[VERTICES[5154]] = {{ vertex=VERTICES[288], cost=0 },}
-EDGES[VERTICES[1988]] = {{ vertex=VERTICES[4258], cost=0 },}
-EDGES[VERTICES[2613]] = {{ vertex=VERTICES[3798], cost=0 },}
-EDGES[VERTICES[2781]] = {{ vertex=VERTICES[4296], cost=0 },}
-EDGES[VERTICES[4391]] = {{ vertex=VERTICES[3254], cost=0 },}
-EDGES[VERTICES[3054]] = {{ vertex=VERTICES[5855], cost=0 },}
-EDGES[VERTICES[3530]] = {{ vertex=VERTICES[1443], cost=0 },}
-EDGES[VERTICES[5882]] = {{ vertex=VERTICES[5954], cost=0 },}
-EDGES[VERTICES[795]] = {{ vertex=VERTICES[6028], cost=0 },}
-EDGES[VERTICES[4438]] = {{ vertex=VERTICES[6080], cost=0 },}
-EDGES[VERTICES[2062]] = {{ vertex=VERTICES[5246], cost=0 },}
-EDGES[VERTICES[4938]] = {{ vertex=VERTICES[2443], cost=0 },}
-EDGES[VERTICES[503]] = {{ vertex=VERTICES[672], cost=0 },}
-EDGES[VERTICES[6060]] = {{ vertex=VERTICES[6181], cost=0 },}
-EDGES[VERTICES[5301]] = {{ vertex=VERTICES[1132], cost=0 },}
-EDGES[VERTICES[5488]] = {{ vertex=VERTICES[4417], cost=0 },}
-EDGES[VERTICES[5893]] = {{ vertex=VERTICES[665], cost=0 },}
-EDGES[VERTICES[1210]] = {{ vertex=VERTICES[76], cost=0 },}
-EDGES[VERTICES[1987]] = {{ vertex=VERTICES[1353], cost=0 },}
-EDGES[VERTICES[4777]] = {{ vertex=VERTICES[94], cost=0 },}
-EDGES[VERTICES[3740]] = {{ vertex=VERTICES[4654], cost=0 },}
-EDGES[VERTICES[1596]] = {{ vertex=VERTICES[2694], cost=0 },}
-EDGES[VERTICES[3707]] = {{ vertex=VERTICES[2403], cost=0 },}
-EDGES[VERTICES[5731]] = {{ vertex=VERTICES[5990], cost=0 },}
-EDGES[VERTICES[2063]] = {{ vertex=VERTICES[25], cost=0 },}
-EDGES[VERTICES[4894]] = {{ vertex=VERTICES[2865], cost=0 },}
-EDGES[VERTICES[5453]] = {{ vertex=VERTICES[5708], cost=0 },}
-EDGES[VERTICES[3909]] = {{ vertex=VERTICES[300], cost=0 },}
-EDGES[VERTICES[1454]] = {{ vertex=VERTICES[805], cost=0 },}
-EDGES[VERTICES[4376]] = {{ vertex=VERTICES[200], cost=0 },}
-EDGES[VERTICES[1908]] = {{ vertex=VERTICES[494], cost=0 },}
-EDGES[VERTICES[3620]] = {{ vertex=VERTICES[5994], cost=0 },}
-EDGES[VERTICES[535]] = {{ vertex=VERTICES[6037], cost=0 },}
-EDGES[VERTICES[1395]] = {{ vertex=VERTICES[282], cost=0 },}
-EDGES[VERTICES[5399]] = {{ vertex=VERTICES[1050], cost=0 },}
-EDGES[VERTICES[308]] = {{ vertex=VERTICES[5111], cost=0 },}
-EDGES[VERTICES[5567]] = {{ vertex=VERTICES[2838], cost=0 },}
-EDGES[VERTICES[1428]] = {{ vertex=VERTICES[1507], cost=0 },}
-EDGES[VERTICES[5262]] = {{ vertex=VERTICES[5333], cost=0 },}
-EDGES[VERTICES[1230]] = {{ vertex=VERTICES[1985], cost=0 },}
-EDGES[VERTICES[5817]] = {{ vertex=VERTICES[459], cost=0 },}
-EDGES[VERTICES[3155]] = {{ vertex=VERTICES[3803], cost=0 },}
-EDGES[VERTICES[289]] = {{ vertex=VERTICES[2351], cost=0 },}
-EDGES[VERTICES[2956]] = {{ vertex=VERTICES[2217], cost=0 },}
-EDGES[VERTICES[4150]] = {{ vertex=VERTICES[3774], cost=0 },}
-EDGES[VERTICES[1859]] = {{ vertex=VERTICES[4797], cost=0 },}
-EDGES[VERTICES[1505]] = {{ vertex=VERTICES[4709], cost=0 },}
-EDGES[VERTICES[939]] = {{ vertex=VERTICES[2484], cost=0 },}
-EDGES[VERTICES[5732]] = {{ vertex=VERTICES[2404], cost=0 },}
-EDGES[VERTICES[5522]] = {{ vertex=VERTICES[4025], cost=0 },}
-EDGES[VERTICES[1622]] = {{ vertex=VERTICES[1598], cost=0 },}
-EDGES[VERTICES[3516]] = {{ vertex=VERTICES[1173], cost=0 },}
-EDGES[VERTICES[4577]] = {{ vertex=VERTICES[2644], cost=0 },}
-EDGES[VERTICES[4458]] = {{ vertex=VERTICES[1346], cost=0 },}
-EDGES[VERTICES[1503]] = {{ vertex=VERTICES[5437], cost=0 },}
-EDGES[VERTICES[5966]] = {{ vertex=VERTICES[1927], cost=0 },}
-EDGES[VERTICES[3783]] = {{ vertex=VERTICES[4652], cost=0 },}
-EDGES[VERTICES[293]] = {{ vertex=VERTICES[5267], cost=0 },}
-EDGES[VERTICES[3937]] = {{ vertex=VERTICES[4474], cost=0 },}
-EDGES[VERTICES[6111]] = {{ vertex=VERTICES[5923], cost=0 },}
-EDGES[VERTICES[1049]] = {{ vertex=VERTICES[1780], cost=0 },}
-EDGES[VERTICES[4436]] = {{ vertex=VERTICES[1737], cost=0 },}
-EDGES[VERTICES[4722]] = {{ vertex=VERTICES[5938], cost=0 },}
-EDGES[VERTICES[4286]] = {{ vertex=VERTICES[4140], cost=0 },}
-EDGES[VERTICES[3384]] = {{ vertex=VERTICES[2449], cost=0 },}
-EDGES[VERTICES[1425]] = {{ vertex=VERTICES[5933], cost=0 },}
-EDGES[VERTICES[1830]] = {{ vertex=VERTICES[4147], cost=0 },}
-EDGES[VERTICES[346]] = {{ vertex=VERTICES[3133], cost=0 },}
-EDGES[VERTICES[3092]] = {{ vertex=VERTICES[2916], cost=0 },}
-EDGES[VERTICES[1130]] = {{ vertex=VERTICES[2853], cost=0 },}
-EDGES[VERTICES[1520]] = {{ vertex=VERTICES[3209], cost=0 },}
-EDGES[VERTICES[1847]] = {{ vertex=VERTICES[1762], cost=0 },}
-EDGES[VERTICES[5658]] = {{ vertex=VERTICES[893], cost=0 },}
-EDGES[VERTICES[4997]] = {{ vertex=VERTICES[6142], cost=0 },}
-EDGES[VERTICES[3357]] = {{ vertex=VERTICES[1864], cost=0 },}
-EDGES[VERTICES[1886]] = {{ vertex=VERTICES[4557], cost=0 },}
-EDGES[VERTICES[5580]] = {{ vertex=VERTICES[327], cost=0 },}
-EDGES[VERTICES[2256]] = {{ vertex=VERTICES[1116], cost=0 },}
-EDGES[VERTICES[235]] = {{ vertex=VERTICES[886], cost=0 },}
-EDGES[VERTICES[5779]] = {{ vertex=VERTICES[1682], cost=0 },}
-EDGES[VERTICES[4835]] = {{ vertex=VERTICES[3077], cost=0 },}
-EDGES[VERTICES[536]] = {{ vertex=VERTICES[4019], cost=0 },}
-EDGES[VERTICES[3577]] = {{ vertex=VERTICES[2896], cost=0 },}
-EDGES[VERTICES[121]] = {{ vertex=VERTICES[4102], cost=0 },}
-EDGES[VERTICES[197]] = {{ vertex=VERTICES[2611], cost=0 },}
-EDGES[VERTICES[5004]] = {{ vertex=VERTICES[460], cost=0 },}
-EDGES[VERTICES[932]] = {{ vertex=VERTICES[6106], cost=0 },}
-EDGES[VERTICES[5956]] = {{ vertex=VERTICES[6210], cost=0 },}
-EDGES[VERTICES[867]] = {{ vertex=VERTICES[3959], cost=0 },}
-EDGES[VERTICES[4607]] = {{ vertex=VERTICES[830], cost=0 },}
-EDGES[VERTICES[4532]] = {{ vertex=VERTICES[4717], cost=0 },}
-EDGES[VERTICES[995]] = {{ vertex=VERTICES[5641], cost=0 },}
-EDGES[VERTICES[2839]] = {{ vertex=VERTICES[2919], cost=0 },}
-EDGES[VERTICES[2816]] = {{ vertex=VERTICES[5577], cost=0 },}
-EDGES[VERTICES[1826]] = {{ vertex=VERTICES[2651], cost=0 },}
-EDGES[VERTICES[4079]] = {{ vertex=VERTICES[5698], cost=0 },}
-EDGES[VERTICES[678]] = {{ vertex=VERTICES[6223], cost=0 },}
-EDGES[VERTICES[1883]] = {{ vertex=VERTICES[1163], cost=0 },}
-EDGES[VERTICES[3706]] = {{ vertex=VERTICES[4098], cost=0 },}
-EDGES[VERTICES[5471]] = {{ vertex=VERTICES[5294], cost=0 },}
-EDGES[VERTICES[3679]] = {{ vertex=VERTICES[3540], cost=0 },}
-EDGES[VERTICES[5885]] = {{ vertex=VERTICES[5921], cost=0 },}
-EDGES[VERTICES[865]] = {{ vertex=VERTICES[1152], cost=0 },}
-EDGES[VERTICES[3229]] = {{ vertex=VERTICES[1792], cost=0 },}
-EDGES[VERTICES[1112]] = {{ vertex=VERTICES[5671], cost=0 },}
-EDGES[VERTICES[6107]] = {{ vertex=VERTICES[4530], cost=0 },}
-EDGES[VERTICES[5538]] = {{ vertex=VERTICES[4120], cost=0 },}
-EDGES[VERTICES[2233]] = {{ vertex=VERTICES[5407], cost=0 },}
-EDGES[VERTICES[5244]] = {{ vertex=VERTICES[5215], cost=0 },}
-EDGES[VERTICES[971]] = {{ vertex=VERTICES[709], cost=0 },}
-EDGES[VERTICES[4944]] = {{ vertex=VERTICES[5400], cost=0 },}
-EDGES[VERTICES[3618]] = {{ vertex=VERTICES[5324], cost=0 },}
-EDGES[VERTICES[2507]] = {{ vertex=VERTICES[4714], cost=0 },}
-EDGES[VERTICES[6157]] = {{ vertex=VERTICES[3690], cost=0 },}
-EDGES[VERTICES[1155]] = {{ vertex=VERTICES[4918], cost=0 },}
-EDGES[VERTICES[187]] = {{ vertex=VERTICES[2854], cost=0 },}
-EDGES[VERTICES[1790]] = {{ vertex=VERTICES[5369], cost=0 },}
-EDGES[VERTICES[4324]] = {{ vertex=VERTICES[2129], cost=0 },}
-EDGES[VERTICES[4738]] = {{ vertex=VERTICES[3692], cost=0 },}
-EDGES[VERTICES[3657]] = {{ vertex=VERTICES[6087], cost=0 },}
-EDGES[VERTICES[635]] = {{ vertex=VERTICES[1489], cost=0 },}
-EDGES[VERTICES[385]] = {{ vertex=VERTICES[5287], cost=0 },}
-EDGES[VERTICES[5952]] = {{ vertex=VERTICES[5195], cost=0 },}
-EDGES[VERTICES[4975]] = {{ vertex=VERTICES[5830], cost=0 },}
-EDGES[VERTICES[3523]] = {{ vertex=VERTICES[5498], cost=0 },}
-EDGES[VERTICES[442]] = {{ vertex=VERTICES[5720], cost=0 },}
-EDGES[VERTICES[1501]] = {{ vertex=VERTICES[1986], cost=0 },}
-EDGES[VERTICES[3100]] = {{ vertex=VERTICES[207], cost=0 },}
-EDGES[VERTICES[4410]] = {{ vertex=VERTICES[5943], cost=0 },}
-EDGES[VERTICES[2859]] = {{ vertex=VERTICES[5228], cost=0 },}
-EDGES[VERTICES[4872]] = {{ vertex=VERTICES[1485], cost=0 },}
-EDGES[VERTICES[4255]] = {{ vertex=VERTICES[4071], cost=0 },}
-EDGES[VERTICES[6052]] = {{ vertex=VERTICES[3839], cost=0 },}
-EDGES[VERTICES[5224]] = {{ vertex=VERTICES[2626], cost=0 },}
-EDGES[VERTICES[5507]] = {{ vertex=VERTICES[2655], cost=0 },}
-EDGES[VERTICES[2473]] = {{ vertex=VERTICES[4967], cost=0 },}
-EDGES[VERTICES[6113]] = {{ vertex=VERTICES[5299], cost=0 },}
-EDGES[VERTICES[3768]] = {{ vertex=VERTICES[1889], cost=0 },}
-EDGES[VERTICES[722]] = {{ vertex=VERTICES[4905], cost=0 },}
-EDGES[VERTICES[3870]] = {{ vertex=VERTICES[730], cost=0 },}
-EDGES[VERTICES[1590]] = {{ vertex=VERTICES[4087], cost=0 },}
-EDGES[VERTICES[5875]] = {{ vertex=VERTICES[3555], cost=0 },}
-EDGES[VERTICES[4484]] = {{ vertex=VERTICES[5502], cost=0 },}
-EDGES[VERTICES[1022]] = {{ vertex=VERTICES[3827], cost=0 },}
-EDGES[VERTICES[2500]] = {{ vertex=VERTICES[4883], cost=0 },}
-EDGES[VERTICES[474]] = {{ vertex=VERTICES[2413], cost=0 },}
-EDGES[VERTICES[5768]] = {{ vertex=VERTICES[5871], cost=0 },}
-EDGES[VERTICES[4506]] = {{ vertex=VERTICES[2378], cost=0 },}
-EDGES[VERTICES[5916]] = {{ vertex=VERTICES[2797], cost=0 },}
-EDGES[VERTICES[3331]] = {{ vertex=VERTICES[3459], cost=0 },}
-EDGES[VERTICES[1550]] = {{ vertex=VERTICES[4215], cost=0 },}
-EDGES[VERTICES[4832]] = {{ vertex=VERTICES[3756], cost=0 },}
-EDGES[VERTICES[4371]] = {{ vertex=VERTICES[6125], cost=0 },}
-EDGES[VERTICES[2337]] = {{ vertex=VERTICES[4083], cost=0 },}
-EDGES[VERTICES[472]] = {{ vertex=VERTICES[49], cost=0 },}
-EDGES[VERTICES[5327]] = {{ vertex=VERTICES[3112], cost=0 },}
-EDGES[VERTICES[1540]] = {{ vertex=VERTICES[6083], cost=0 },}
-EDGES[VERTICES[1902]] = {{ vertex=VERTICES[2580], cost=0 },}
-EDGES[VERTICES[3093]] = {{ vertex=VERTICES[6241], cost=0 },}
-EDGES[VERTICES[4651]] = {{ vertex=VERTICES[374], cost=0 },}
-EDGES[VERTICES[2836]] = {{ vertex=VERTICES[3469], cost=0 },}
-EDGES[VERTICES[3374]] = {{ vertex=VERTICES[3066], cost=0 },}
-EDGES[VERTICES[994]] = {{ vertex=VERTICES[1086], cost=0 },}
-EDGES[VERTICES[5209]] = {{ vertex=VERTICES[1964], cost=0 },}
-EDGES[VERTICES[4315]] = {{ vertex=VERTICES[2787], cost=0 },}
-EDGES[VERTICES[2560]] = {{ vertex=VERTICES[2757], cost=0 },}
-EDGES[VERTICES[4668]] = {{ vertex=VERTICES[2295], cost=0 },}
-EDGES[VERTICES[1319]] = {{ vertex=VERTICES[2329], cost=0 },}
-EDGES[VERTICES[2794]] = {{ vertex=VERTICES[5997], cost=0 },}
-EDGES[VERTICES[5157]] = {{ vertex=VERTICES[1910], cost=0 },}
-EDGES[VERTICES[180]] = {{ vertex=VERTICES[3195], cost=0 },}
-EDGES[VERTICES[1900]] = {{ vertex=VERTICES[2025], cost=0 },}
-EDGES[VERTICES[3345]] = {{ vertex=VERTICES[5578], cost=0 },}
-EDGES[VERTICES[2514]] = {{ vertex=VERTICES[896], cost=0 },}
-EDGES[VERTICES[989]] = {{ vertex=VERTICES[4283], cost=0 },}
-EDGES[VERTICES[4629]] = {{ vertex=VERTICES[5900], cost=0 },}
-EDGES[VERTICES[5357]] = {{ vertex=VERTICES[4919], cost=0 },}
-EDGES[VERTICES[2551]] = {{ vertex=VERTICES[3170], cost=0 },}
-EDGES[VERTICES[5914]] = {{ vertex=VERTICES[3130], cost=0 },}
-EDGES[VERTICES[5503]] = {{ vertex=VERTICES[1181], cost=0 },}
-EDGES[VERTICES[3261]] = {{ vertex=VERTICES[1362], cost=0 },}
-EDGES[VERTICES[2780]] = {{ vertex=VERTICES[3286], cost=0 },}
-EDGES[VERTICES[609]] = {{ vertex=VERTICES[827], cost=0 },}
-EDGES[VERTICES[5636]] = {{ vertex=VERTICES[4591], cost=0 },}
-EDGES[VERTICES[4552]] = {{ vertex=VERTICES[3199], cost=0 },}
-EDGES[VERTICES[410]] = {{ vertex=VERTICES[5716], cost=0 },}
-EDGES[VERTICES[370]] = {{ vertex=VERTICES[6264], cost=0 },}
-EDGES[VERTICES[3584]] = {{ vertex=VERTICES[1620], cost=0 },}
-EDGES[VERTICES[4361]] = {{ vertex=VERTICES[396], cost=0 },}
-EDGES[VERTICES[3725]] = {{ vertex=VERTICES[767], cost=0 },}
-EDGES[VERTICES[5401]] = {{ vertex=VERTICES[1842], cost=0 },}
-EDGES[VERTICES[3429]] = {{ vertex=VERTICES[4563], cost=0 },}
-EDGES[VERTICES[914]] = {{ vertex=VERTICES[1974], cost=0 },}
-EDGES[VERTICES[738]] = {{ vertex=VERTICES[2275], cost=0 },}
-EDGES[VERTICES[3951]] = {{ vertex=VERTICES[2706], cost=0 },}
-EDGES[VERTICES[3402]] = {{ vertex=VERTICES[1857], cost=0 },}
-EDGES[VERTICES[1879]] = {{ vertex=VERTICES[2598], cost=0 },}
-EDGES[VERTICES[4834]] = {{ vertex=VERTICES[2041], cost=0 },}
-EDGES[VERTICES[2284]] = {{ vertex=VERTICES[6085], cost=0 },}
-EDGES[VERTICES[2415]] = {{ vertex=VERTICES[2783], cost=0 },}
-EDGES[VERTICES[803]] = {{ vertex=VERTICES[1467], cost=0 },}
-EDGES[VERTICES[4906]] = {{ vertex=VERTICES[5930], cost=0 },}
-EDGES[VERTICES[5200]] = {{ vertex=VERTICES[2239], cost=0 },}
-EDGES[VERTICES[3980]] = {{ vertex=VERTICES[5475], cost=0 },}
-EDGES[VERTICES[1376]] = {{ vertex=VERTICES[6198], cost=0 },}
-EDGES[VERTICES[1803]] = {{ vertex=VERTICES[5865], cost=0 },}
-EDGES[VERTICES[5722]] = {{ vertex=VERTICES[6162], cost=0 },}
-EDGES[VERTICES[4685]] = {{ vertex=VERTICES[842], cost=0 },}
-EDGES[VERTICES[477]] = {{ vertex=VERTICES[1337], cost=0 },}
-EDGES[VERTICES[219]] = {{ vertex=VERTICES[5397], cost=0 },}
-EDGES[VERTICES[2345]] = {{ vertex=VERTICES[5047], cost=0 },}
-EDGES[VERTICES[2341]] = {{ vertex=VERTICES[4927], cost=0 },}
-EDGES[VERTICES[263]] = {{ vertex=VERTICES[1018], cost=0 },}
-EDGES[VERTICES[4122]] = {{ vertex=VERTICES[3731], cost=0 },}
-EDGES[VERTICES[1397]] = {{ vertex=VERTICES[435], cost=0 },}
-EDGES[VERTICES[3674]] = {{ vertex=VERTICES[38], cost=0 },}
-EDGES[VERTICES[5085]] = {{ vertex=VERTICES[161], cost=0 },}
-EDGES[VERTICES[2257]] = {{ vertex=VERTICES[1195], cost=0 },}
-EDGES[VERTICES[5752]] = {{ vertex=VERTICES[395], cost=0 },}
-EDGES[VERTICES[863]] = {{ vertex=VERTICES[2418], cost=0 },}
-EDGES[VERTICES[3412]] = {{ vertex=VERTICES[833], cost=0 },}
-EDGES[VERTICES[5184]] = {{ vertex=VERTICES[2082], cost=0 },}
-EDGES[VERTICES[3936]] = {{ vertex=VERTICES[5946], cost=0 },}
-EDGES[VERTICES[2441]] = {{ vertex=VERTICES[5772], cost=0 },}
-EDGES[VERTICES[2199]] = {{ vertex=VERTICES[615], cost=0 },}
-EDGES[VERTICES[3878]] = {{ vertex=VERTICES[4878], cost=0 },}
-EDGES[VERTICES[1578]] = {{ vertex=VERTICES[5268], cost=0 },}
-EDGES[VERTICES[6138]] = {{ vertex=VERTICES[1782], cost=0 },}
-EDGES[VERTICES[622]] = {{ vertex=VERTICES[3035], cost=0 },}
-EDGES[VERTICES[5827]] = {{ vertex=VERTICES[734], cost=0 },}
-EDGES[VERTICES[3596]] = {{ vertex=VERTICES[6055], cost=0 },}
-EDGES[VERTICES[2833]] = {{ vertex=VERTICES[5613], cost=0 },}
-EDGES[VERTICES[1567]] = {{ vertex=VERTICES[1997], cost=0 },}
-EDGES[VERTICES[4862]] = {{ vertex=VERTICES[4209], cost=0 },}
-EDGES[VERTICES[4108]] = {{ vertex=VERTICES[2238], cost=0 },}
-EDGES[VERTICES[4846]] = {{ vertex=VERTICES[3719], cost=0 },}
-EDGES[VERTICES[22]] = {{ vertex=VERTICES[4698], cost=0 },}
-EDGES[VERTICES[6221]] = {{ vertex=VERTICES[4890], cost=0 },}
-EDGES[VERTICES[1616]] = {{ vertex=VERTICES[4246], cost=0 },}
-EDGES[VERTICES[5419]] = {{ vertex=VERTICES[148], cost=0 },}
-EDGES[VERTICES[2663]] = {{ vertex=VERTICES[4787], cost=0 },}
-EDGES[VERTICES[2330]] = {{ vertex=VERTICES[1293], cost=0 },}
-EDGES[VERTICES[2442]] = {{ vertex=VERTICES[4178], cost=0 },}
-EDGES[VERTICES[1756]] = {{ vertex=VERTICES[4184], cost=0 },}
-EDGES[VERTICES[3544]] = {{ vertex=VERTICES[5150], cost=0 },}
-EDGES[VERTICES[2603]] = {{ vertex=VERTICES[1569], cost=0 },}
-EDGES[VERTICES[3875]] = {{ vertex=VERTICES[1247], cost=0 },}
-EDGES[VERTICES[4156]] = {{ vertex=VERTICES[2976], cost=0 },}
-EDGES[VERTICES[5133]] = {{ vertex=VERTICES[5213], cost=0 },}
-EDGES[VERTICES[4614]] = {{ vertex=VERTICES[2897], cost=0 },}
-EDGES[VERTICES[2641]] = {{ vertex=VERTICES[855], cost=0 },}
-EDGES[VERTICES[1568]] = {{ vertex=VERTICES[4050], cost=0 },}
-EDGES[VERTICES[6057]] = {{ vertex=VERTICES[5008], cost=0 },}
-EDGES[VERTICES[5016]] = {{ vertex=VERTICES[5239], cost=0 },}
-EDGES[VERTICES[4767]] = {{ vertex=VERTICES[3685], cost=0 },}
-EDGES[VERTICES[4903]] = {{ vertex=VERTICES[3609], cost=0 },}
-EDGES[VERTICES[944]] = {{ vertex=VERTICES[5846], cost=0 },}
-EDGES[VERTICES[5993]] = {{ vertex=VERTICES[2895], cost=0 },}
-EDGES[VERTICES[150]] = {{ vertex=VERTICES[4024], cost=0 },}
-EDGES[VERTICES[2782]] = {{ vertex=VERTICES[5869], cost=0 },}
-EDGES[VERTICES[4399]] = {{ vertex=VERTICES[1532], cost=0 },}
-EDGES[VERTICES[2951]] = {{ vertex=VERTICES[2590], cost=0 },}
-EDGES[VERTICES[2262]] = {{ vertex=VERTICES[5858], cost=0 },}
-EDGES[VERTICES[1224]] = {{ vertex=VERTICES[901], cost=0 },}
-EDGES[VERTICES[5707]] = {{ vertex=VERTICES[2617], cost=0 },}
-EDGES[VERTICES[351]] = {{ vertex=VERTICES[5530], cost=0 },}
-EDGES[VERTICES[1011]] = {{ vertex=VERTICES[5423], cost=0 },}
-EDGES[VERTICES[965]] = {{ vertex=VERTICES[4169], cost=0 },}
-EDGES[VERTICES[1843]] = {{ vertex=VERTICES[1571], cost=0 },}
-EDGES[VERTICES[1414]] = {{ vertex=VERTICES[813], cost=0 },}
-EDGES[VERTICES[3315]] = {{ vertex=VERTICES[6234], cost=0 },}
-EDGES[VERTICES[2305]] = {{ vertex=VERTICES[3539], cost=0 },}
-EDGES[VERTICES[5496]] = {{ vertex=VERTICES[1626], cost=0 },}
-EDGES[VERTICES[4047]] = {{ vertex=VERTICES[85], cost=0 },}
-EDGES[VERTICES[3008]] = {{ vertex=VERTICES[3535], cost=0 },}
-EDGES[VERTICES[5975]] = {{ vertex=VERTICES[2119], cost=0 },}
-EDGES[VERTICES[1036]] = {{ vertex=VERTICES[4231], cost=0 },}
-EDGES[VERTICES[5910]] = {{ vertex=VERTICES[3613], cost=0 },}
-EDGES[VERTICES[5069]] = {{ vertex=VERTICES[5449], cost=0 },}
-EDGES[VERTICES[1527]] = {{ vertex=VERTICES[6025], cost=0 },}
-EDGES[VERTICES[4770]] = {{ vertex=VERTICES[5334], cost=0 },}
-EDGES[VERTICES[95]] = {{ vertex=VERTICES[5323], cost=0 },}
-EDGES[VERTICES[6244]] = {{ vertex=VERTICES[6250], cost=0 },}
-EDGES[VERTICES[5370]] = {{ vertex=VERTICES[4300], cost=0 },}
-EDGES[VERTICES[2130]] = {{ vertex=VERTICES[3825], cost=0 },}
-EDGES[VERTICES[2830]] = {{ vertex=VERTICES[2162], cost=0 },}
-EDGES[VERTICES[724]] = {{ vertex=VERTICES[2120], cost=0 },}
-EDGES[VERTICES[5521]] = {{ vertex=VERTICES[85], cost=0 },}
-EDGES[VERTICES[5949]] = {{ vertex=VERTICES[4994], cost=0 },}
-EDGES[VERTICES[627]] = {{ vertex=VERTICES[3454], cost=0 },}
-EDGES[VERTICES[1434]] = {{ vertex=VERTICES[4720], cost=0 },}
-EDGES[VERTICES[5650]] = {{ vertex=VERTICES[5176], cost=0 },}
-EDGES[VERTICES[3204]] = {{ vertex=VERTICES[4124], cost=0 },}
-EDGES[VERTICES[61]] = {{ vertex=VERTICES[1725], cost=0 },}
-EDGES[VERTICES[2301]] = {{ vertex=VERTICES[4775], cost=0 },}
-EDGES[VERTICES[1289]] = {{ vertex=VERTICES[322], cost=0 },}
-EDGES[VERTICES[562]] = {{ vertex=VERTICES[469], cost=0 },}
-EDGES[VERTICES[890]] = {{ vertex=VERTICES[3616], cost=0 },}
-EDGES[VERTICES[5491]] = {{ vertex=VERTICES[2969], cost=0 },}
-EDGES[VERTICES[12]] = {{ vertex=VERTICES[2397], cost=0 },}
-EDGES[VERTICES[5001]] = {{ vertex=VERTICES[4675], cost=0 },}
-EDGES[VERTICES[5793]] = {{ vertex=VERTICES[1481], cost=0 },}
-EDGES[VERTICES[5549]] = {{ vertex=VERTICES[2036], cost=0 },}
-EDGES[VERTICES[4467]] = {{ vertex=VERTICES[2891], cost=0 },}
-EDGES[VERTICES[4299]] = {{ vertex=VERTICES[1602], cost=0 },}
-EDGES[VERTICES[2747]] = {{ vertex=VERTICES[17], cost=0 },}
-EDGES[VERTICES[3553]] = {{ vertex=VERTICES[1482], cost=0 },}
-EDGES[VERTICES[6069]] = {{ vertex=VERTICES[1178], cost=0 },}
-EDGES[VERTICES[2156]] = {{ vertex=VERTICES[4814], cost=0 },}
-EDGES[VERTICES[2]] = {{ vertex=VERTICES[831], cost=0 },}
-EDGES[VERTICES[1380]] = {{ vertex=VERTICES[979], cost=0 },}
-EDGES[VERTICES[6175]] = {{ vertex=VERTICES[521], cost=0 },}
-EDGES[VERTICES[4942]] = {{ vertex=VERTICES[2618], cost=0 },}
-EDGES[VERTICES[5874]] = {{ vertex=VERTICES[780], cost=0 },}
-EDGES[VERTICES[6236]] = {{ vertex=VERTICES[4335], cost=0 },}
-EDGES[VERTICES[5481]] = {{ vertex=VERTICES[1553], cost=0 },}
-EDGES[VERTICES[2496]] = {{ vertex=VERTICES[3225], cost=0 },}
-EDGES[VERTICES[2042]] = {{ vertex=VERTICES[3354], cost=0 },}
-EDGES[VERTICES[5654]] = {{ vertex=VERTICES[4508], cost=0 },}
-EDGES[VERTICES[2682]] = {{ vertex=VERTICES[3560], cost=0 },}
-EDGES[VERTICES[1284]] = {{ vertex=VERTICES[5542], cost=0 },}
-EDGES[VERTICES[5335]] = {{ vertex=VERTICES[1673], cost=0 },}
-EDGES[VERTICES[2145]] = {{ vertex=VERTICES[4317], cost=0 },}
-EDGES[VERTICES[4406]] = {{ vertex=VERTICES[3117], cost=0 },}
-EDGES[VERTICES[2812]] = {{ vertex=VERTICES[2962], cost=0 },}
-EDGES[VERTICES[1739]] = {{ vertex=VERTICES[2520], cost=0 },}
-EDGES[VERTICES[1644]] = {{ vertex=VERTICES[3813], cost=0 },}
-EDGES[VERTICES[1266]] = {{ vertex=VERTICES[3326], cost=0 },}
-EDGES[VERTICES[4708]] = {{ vertex=VERTICES[5207], cost=0 },}
-EDGES[VERTICES[2983]] = {{ vertex=VERTICES[786], cost=0 },}
-EDGES[VERTICES[840]] = {{ vertex=VERTICES[1955], cost=0 },}
-EDGES[VERTICES[1981]] = {{ vertex=VERTICES[2893], cost=0 },}
-EDGES[VERTICES[6043]] = {{ vertex=VERTICES[2814], cost=0 },}
-EDGES[VERTICES[4460]] = {{ vertex=VERTICES[86], cost=0 },}
-EDGES[VERTICES[3604]] = {{ vertex=VERTICES[272], cost=0 },}
-EDGES[VERTICES[129]] = {{ vertex=VERTICES[3369], cost=0 },}
-EDGES[VERTICES[1515]] = {{ vertex=VERTICES[3224], cost=0 },}
-EDGES[VERTICES[2002]] = {{ vertex=VERTICES[5798], cost=0 },}
-EDGES[VERTICES[3650]] = {{ vertex=VERTICES[1462], cost=0 },}
-EDGES[VERTICES[676]] = {{ vertex=VERTICES[5171], cost=0 },}
-EDGES[VERTICES[6173]] = {{ vertex=VERTICES[3443], cost=0 },}
-EDGES[VERTICES[3500]] = {{ vertex=VERTICES[258], cost=0 },}
-EDGES[VERTICES[4725]] = {{ vertex=VERTICES[3338], cost=0 },}
-EDGES[VERTICES[3222]] = {{ vertex=VERTICES[227], cost=0 },}
-EDGES[VERTICES[4518]] = {{ vertex=VERTICES[2099], cost=0 },}
-EDGES[VERTICES[1783]] = {{ vertex=VERTICES[648], cost=0 },}
-EDGES[VERTICES[5482]] = {{ vertex=VERTICES[1731], cost=0 },}
-EDGES[VERTICES[5693]] = {{ vertex=VERTICES[5924], cost=0 },}
-EDGES[VERTICES[1676]] = {{ vertex=VERTICES[5903], cost=0 },}
-EDGES[VERTICES[667]] = {{ vertex=VERTICES[4908], cost=0 },}
-EDGES[VERTICES[1701]] = {{ vertex=VERTICES[4620], cost=0 },}
-EDGES[VERTICES[2729]] = {{ vertex=VERTICES[468], cost=0 },}
-EDGES[VERTICES[1734]] = {{ vertex=VERTICES[1265], cost=0 },}
-EDGES[VERTICES[6117]] = {{ vertex=VERTICES[940], cost=0 },}
-EDGES[VERTICES[4917]] = {{ vertex=VERTICES[1129], cost=0 },}
-EDGES[VERTICES[1670]] = {{ vertex=VERTICES[2191], cost=0 },}
-EDGES[VERTICES[4551]] = {{ vertex=VERTICES[5527], cost=0 },}
-EDGES[VERTICES[1798]] = {{ vertex=VERTICES[157], cost=0 },}
-EDGES[VERTICES[1292]] = {{ vertex=VERTICES[40], cost=0 },}
-EDGES[VERTICES[1197]] = {{ vertex=VERTICES[5920], cost=0 },}
-EDGES[VERTICES[3003]] = {{ vertex=VERTICES[5833], cost=0 },}
-EDGES[VERTICES[3385]] = {{ vertex=VERTICES[1957], cost=0 },}
-EDGES[VERTICES[3303]] = {{ vertex=VERTICES[2537], cost=0 },}
-EDGES[VERTICES[3515]] = {{ vertex=VERTICES[2315], cost=0 },}
-EDGES[VERTICES[3160]] = {{ vertex=VERTICES[5178], cost=0 },}
-EDGES[VERTICES[3157]] = {{ vertex=VERTICES[5082], cost=0 },}
-EDGES[VERTICES[4493]] = {{ vertex=VERTICES[409], cost=0 },}
-EDGES[VERTICES[364]] = {{ vertex=VERTICES[5589], cost=0 },}
-EDGES[VERTICES[5339]] = {{ vertex=VERTICES[838], cost=0 },}
-EDGES[VERTICES[3831]] = {{ vertex=VERTICES[787], cost=0 },}
-EDGES[VERTICES[3029]] = {{ vertex=VERTICES[3837], cost=0 },}
-EDGES[VERTICES[3128]] = {{ vertex=VERTICES[846], cost=0 },}
-EDGES[VERTICES[2276]] = {{ vertex=VERTICES[1896], cost=0 },}
-EDGES[VERTICES[3480]] = {{ vertex=VERTICES[1187], cost=0 },}
-EDGES[VERTICES[751]] = {{ vertex=VERTICES[705], cost=0 },}
-EDGES[VERTICES[2885]] = {{ vertex=VERTICES[1918], cost=0 },}
-EDGES[VERTICES[1305]] = {{ vertex=VERTICES[1738], cost=0 },}
-EDGES[VERTICES[4170]] = {{ vertex=VERTICES[3625], cost=0 },}
-EDGES[VERTICES[4441]] = {{ vertex=VERTICES[3015], cost=0 },}
-EDGES[VERTICES[1432]] = {{ vertex=VERTICES[4154], cost=0 },}
-EDGES[VERTICES[5976]] = {{ vertex=VERTICES[4561], cost=0 },}
-EDGES[VERTICES[4948]] = {{ vertex=VERTICES[3888], cost=0 },}
-EDGES[VERTICES[6049]] = {{ vertex=VERTICES[417], cost=0 },}
-EDGES[VERTICES[5174]] = {{ vertex=VERTICES[4287], cost=0 },}
-EDGES[VERTICES[638]] = {{ vertex=VERTICES[2138], cost=0 },}
-EDGES[VERTICES[5152]] = {{ vertex=VERTICES[3004], cost=0 },}
-EDGES[VERTICES[5627]] = {{ vertex=VERTICES[292], cost=0 },}
-EDGES[VERTICES[192]] = {{ vertex=VERTICES[35], cost=0 },}
-EDGES[VERTICES[5723]] = {{ vertex=VERTICES[1994], cost=0 },}
-EDGES[VERTICES[1064]] = {{ vertex=VERTICES[2767], cost=0 },}
-EDGES[VERTICES[3173]] = {{ vertex=VERTICES[3524], cost=0 },}
-EDGES[VERTICES[1142]] = {{ vertex=VERTICES[4723], cost=0 },}
-EDGES[VERTICES[829]] = {{ vertex=VERTICES[848], cost=0 },}
-EDGES[VERTICES[1913]] = {{ vertex=VERTICES[1545], cost=0 },}
-EDGES[VERTICES[400]] = {{ vertex=VERTICES[342], cost=0 },}
-EDGES[VERTICES[3669]] = {{ vertex=VERTICES[1741], cost=0 },}
-EDGES[VERTICES[5987]] = {{ vertex=VERTICES[1789], cost=0 },}
-EDGES[VERTICES[5311]] = {{ vertex=VERTICES[1930], cost=0 },}
-EDGES[VERTICES[2970]] = {{ vertex=VERTICES[1921], cost=0 },}
-EDGES[VERTICES[1211]] = {{ vertex=VERTICES[2165], cost=0 },}
-EDGES[VERTICES[5406]] = {{ vertex=VERTICES[1184], cost=0 },}
-EDGES[VERTICES[4747]] = {{ vertex=VERTICES[335], cost=0 },}
-EDGES[VERTICES[3346]] = {{ vertex=VERTICES[790], cost=0 },}
-EDGES[VERTICES[3203]] = {{ vertex=VERTICES[1252], cost=0 },}
-EDGES[VERTICES[5472]] = {{ vertex=VERTICES[2486], cost=0 },}
-EDGES[VERTICES[3322]] = {{ vertex=VERTICES[3820], cost=0 },}
-EDGES[VERTICES[1366]] = {{ vertex=VERTICES[284], cost=0 },}
-EDGES[VERTICES[4267]] = {{ vertex=VERTICES[711], cost=0 },}
-EDGES[VERTICES[5839]] = {{ vertex=VERTICES[3448], cost=0 },}
-EDGES[VERTICES[6188]] = {{ vertex=VERTICES[5535], cost=0 },}
-EDGES[VERTICES[1351]] = {{ vertex=VERTICES[5812], cost=0 },}
-EDGES[VERTICES[2808]] = {{ vertex=VERTICES[1242], cost=0 },}
-EDGES[VERTICES[4801]] = {{ vertex=VERTICES[119], cost=0 },}
-EDGES[VERTICES[3120]] = {{ vertex=VERTICES[4345], cost=0 },}
-EDGES[VERTICES[2905]] = {{ vertex=VERTICES[1037], cost=0 },}
-EDGES[VERTICES[3165]] = {{ vertex=VERTICES[2524], cost=0 },}
-EDGES[VERTICES[5925]] = {{ vertex=VERTICES[3497], cost=0 },}
-EDGES[VERTICES[6246]] = {{ vertex=VERTICES[5755], cost=0 },}
-EDGES[VERTICES[5346]] = {{ vertex=VERTICES[4114], cost=0 },}
-EDGES[VERTICES[4026]] = {{ vertex=VERTICES[640], cost=0 },}
-EDGES[VERTICES[644]] = {{ vertex=VERTICES[1350], cost=0 },}
-EDGES[VERTICES[564]] = {{ vertex=VERTICES[1799], cost=0 },}
-EDGES[VERTICES[5348]] = {{ vertex=VERTICES[5761], cost=0 },}
-EDGES[VERTICES[5060]] = {{ vertex=VERTICES[1949], cost=0 },}
-EDGES[VERTICES[3447]] = {{ vertex=VERTICES[2410], cost=0 },}
-EDGES[VERTICES[5072]] = {{ vertex=VERTICES[3245], cost=0 },}
-EDGES[VERTICES[3818]] = {{ vertex=VERTICES[438], cost=0 },}
-EDGES[VERTICES[3666]] = {{ vertex=VERTICES[1479], cost=0 },}
-EDGES[VERTICES[3575]] = {{ vertex=VERTICES[2440], cost=0 },}
-EDGES[VERTICES[306]] = {{ vertex=VERTICES[3028], cost=0 },}
-EDGES[VERTICES[2183]] = {{ vertex=VERTICES[37], cost=0 },}
-EDGES[VERTICES[312]] = {{ vertex=VERTICES[1680], cost=0 },}
-EDGES[VERTICES[1948]] = {{ vertex=VERTICES[6163], cost=0 },}
-EDGES[VERTICES[2363]] = {{ vertex=VERTICES[2930], cost=0 },}
-EDGES[VERTICES[3883]] = {{ vertex=VERTICES[1471], cost=0 },}
-EDGES[VERTICES[4657]] = {{ vertex=VERTICES[4828], cost=0 },}
-EDGES[VERTICES[362]] = {{ vertex=VERTICES[741], cost=0 },}
-EDGES[VERTICES[4833]] = {{ vertex=VERTICES[3829], cost=0 },}
-EDGES[VERTICES[946]] = {{ vertex=VERTICES[2293], cost=0 },}
-EDGES[VERTICES[3341]] = {{ vertex=VERTICES[5118], cost=0 },}
-EDGES[VERTICES[5515]] = {{ vertex=VERTICES[4348], cost=0 },}
-EDGES[VERTICES[5185]] = {{ vertex=VERTICES[3849], cost=0 },}
-EDGES[VERTICES[3215]] = {{ vertex=VERTICES[3302], cost=0 },}
-EDGES[VERTICES[4672]] = {{ vertex=VERTICES[4845], cost=0 },}
-EDGES[VERTICES[4440]] = {{ vertex=VERTICES[4730], cost=0 },}
-EDGES[VERTICES[3644]] = {{ vertex=VERTICES[2692], cost=0 },}
-EDGES[VERTICES[1074]] = {{ vertex=VERTICES[2409], cost=0 },}
-EDGES[VERTICES[5145]] = {{ vertex=VERTICES[2469], cost=0 },}
-EDGES[VERTICES[226]] = {{ vertex=VERTICES[384], cost=0 },}
-EDGES[VERTICES[2157]] = {{ vertex=VERTICES[2917], cost=0 },}
-EDGES[VERTICES[2246]] = {{ vertex=VERTICES[4143], cost=0 },}
-EDGES[VERTICES[5203]] = {{ vertex=VERTICES[3636], cost=0 },}
-EDGES[VERTICES[2118]] = {{ vertex=VERTICES[987], cost=0 },}
-EDGES[VERTICES[2056]] = {{ vertex=VERTICES[2446], cost=0 },}
-EDGES[VERTICES[3914]] = {{ vertex=VERTICES[4843], cost=0 },}
-EDGES[VERTICES[3184]] = {{ vertex=VERTICES[4779], cost=0 },}
-EDGES[VERTICES[2221]] = {{ vertex=VERTICES[89], cost=0 },}
-EDGES[VERTICES[5286]] = {{ vertex=VERTICES[2621], cost=0 },}
-EDGES[VERTICES[1216]] = {{ vertex=VERTICES[6207], cost=0 },}
-EDGES[VERTICES[981]] = {{ vertex=VERTICES[378], cost=0 },}
-EDGES[VERTICES[486]] = {{ vertex=VERTICES[537], cost=0 },}
-EDGES[VERTICES[5328]] = {{ vertex=VERTICES[1453], cost=0 },}
-EDGES[VERTICES[669]] = {{ vertex=VERTICES[3668], cost=0 },}
-EDGES[VERTICES[228]] = {{ vertex=VERTICES[4958], cost=0 },}
-EDGES[VERTICES[5786]] = {{ vertex=VERTICES[798], cost=0 },}
-EDGES[VERTICES[113]] = {{ vertex=VERTICES[2332], cost=0 },}
-EDGES[VERTICES[5391]] = {{ vertex=VERTICES[2447], cost=0 },}
-EDGES[VERTICES[5984]] = {{ vertex=VERTICES[4555], cost=0 },}
-EDGES[VERTICES[2092]] = {{ vertex=VERTICES[5355], cost=0 },}
-EDGES[VERTICES[5727]] = {{ vertex=VERTICES[6179], cost=0 },}
-EDGES[VERTICES[2406]] = {{ vertex=VERTICES[3196], cost=0 },}
-EDGES[VERTICES[2000]] = {{ vertex=VERTICES[4322], cost=0 },}
-EDGES[VERTICES[3981]] = {{ vertex=VERTICES[4125], cost=0 },}
-EDGES[VERTICES[1422]] = {{ vertex=VERTICES[4452], cost=0 },}
-EDGES[VERTICES[4182]] = {{ vertex=VERTICES[269], cost=0 },}
-EDGES[VERTICES[1013]] = {{ vertex=VERTICES[4012], cost=0 },}
-EDGES[VERTICES[4385]] = {{ vertex=VERTICES[2698], cost=0 },}
-EDGES[VERTICES[811]] = {{ vertex=VERTICES[2482], cost=0 },}
-EDGES[VERTICES[6226]] = {{ vertex=VERTICES[4838], cost=0 },}
-EDGES[VERTICES[2049]] = {{ vertex=VERTICES[1079], cost=0 },}
-EDGES[VERTICES[3079]] = {{ vertex=VERTICES[4972], cost=0 },}
-EDGES[VERTICES[3520]] = {{ vertex=VERTICES[2458], cost=0 },}
-EDGES[VERTICES[4073]] = {{ vertex=VERTICES[5108], cost=0 },}
-EDGES[VERTICES[393]] = {{ vertex=VERTICES[4663], cost=0 },}
-EDGES[VERTICES[4010]] = {{ vertex=VERTICES[5621], cost=0 },}
-EDGES[VERTICES[2420]] = {{ vertex=VERTICES[5850], cost=0 },}
-EDGES[VERTICES[1490]] = {{ vertex=VERTICES[2616], cost=0 },}
-EDGES[VERTICES[874]] = {{ vertex=VERTICES[5233], cost=0 },}
-EDGES[VERTICES[1386]] = {{ vertex=VERTICES[6131], cost=0 },}
-EDGES[VERTICES[1672]] = {{ vertex=VERTICES[613], cost=0 },}
-EDGES[VERTICES[5543]] = {{ vertex=VERTICES[661], cost=0 },}
-EDGES[VERTICES[3095]] = {{ vertex=VERTICES[835], cost=0 },}
-EDGES[VERTICES[3146]] = {{ vertex=VERTICES[4274], cost=0 },}
-EDGES[VERTICES[1821]] = {{ vertex=VERTICES[4444], cost=0 },}
-EDGES[VERTICES[4671]] = {{ vertex=VERTICES[598], cost=0 },}
-EDGES[VERTICES[3860]] = {{ vertex=VERTICES[2018], cost=0 },}
-EDGES[VERTICES[4627]] = {{ vertex=VERTICES[4340], cost=0 },}
-EDGES[VERTICES[2568]] = {{ vertex=VERTICES[2597], cost=0 },}
-EDGES[VERTICES[3568]] = {{ vertex=VERTICES[3264], cost=0 },}
-EDGES[VERTICES[5056]] = {{ vertex=VERTICES[511], cost=0 },}
-EDGES[VERTICES[2739]] = {{ vertex=VERTICES[3232], cost=0 },}
-EDGES[VERTICES[5009]] = {{ vertex=VERTICES[2884], cost=0 },}
-EDGES[VERTICES[5024]] = {{ vertex=VERTICES[4089], cost=0 },}
-EDGES[VERTICES[3662]] = {{ vertex=VERTICES[440], cost=0 },}
-EDGES[VERTICES[4137]] = {{ vertex=VERTICES[1707], cost=0 },}
-EDGES[VERTICES[970]] = {{ vertex=VERTICES[4760], cost=0 },}
-EDGES[VERTICES[51]] = {{ vertex=VERTICES[5769], cost=0 },}
-EDGES[VERTICES[1716]] = {{ vertex=VERTICES[4022], cost=0 },}
-EDGES[VERTICES[1229]] = {{ vertex=VERTICES[3218], cost=0 },}
-EDGES[VERTICES[1657]] = {{ vertex=VERTICES[4981], cost=0 },}
-EDGES[VERTICES[3186]] = {{ vertex=VERTICES[360], cost=0 },}
-EDGES[VERTICES[4812]] = {{ vertex=VERTICES[4666], cost=0 },}
-EDGES[VERTICES[6193]] = {{ vertex=VERTICES[3347], cost=0 },}
-EDGES[VERTICES[3698]] = {{ vertex=VERTICES[6098], cost=0 },}
-EDGES[VERTICES[1942]] = {{ vertex=VERTICES[3923], cost=0 },}
-EDGES[VERTICES[3124]] = {{ vertex=VERTICES[4332], cost=0 },}
-EDGES[VERTICES[4761]] = {{ vertex=VERTICES[5476], cost=0 },}
-EDGES[VERTICES[5431]] = {{ vertex=VERTICES[4569], cost=0 },}
-EDGES[VERTICES[1354]] = {{ vertex=VERTICES[3233], cost=0 },}
-EDGES[VERTICES[666]] = {{ vertex=VERTICES[189], cost=0 },}
-EDGES[VERTICES[2292]] = {{ vertex=VERTICES[1415], cost=0 },}
-EDGES[VERTICES[6247]] = {{ vertex=VERTICES[2903], cost=0 },}
-EDGES[VERTICES[1475]] = {{ vertex=VERTICES[2889], cost=0 },}
-EDGES[VERTICES[2171]] = {{ vertex=VERTICES[3770], cost=0 },}
-EDGES[VERTICES[2711]] = {{ vertex=VERTICES[3171], cost=0 },}
-EDGES[VERTICES[1954]] = {{ vertex=VERTICES[137], cost=0 },}
-EDGES[VERTICES[4798]] = {{ vertex=VERTICES[1861], cost=0 },}
-EDGES[VERTICES[2949]] = {{ vertex=VERTICES[4208], cost=0 },}
-EDGES[VERTICES[1541]] = {{ vertex=VERTICES[5809], cost=0 },}
-EDGES[VERTICES[3776]] = {{ vertex=VERTICES[5068], cost=0 },}
-EDGES[VERTICES[3965]] = {{ vertex=VERTICES[993], cost=0 },}
-EDGES[VERTICES[5038]] = {{ vertex=VERTICES[1684], cost=0 },}
-EDGES[VERTICES[3211]] = {{ vertex=VERTICES[850], cost=0 },}
-EDGES[VERTICES[3628]] = {{ vertex=VERTICES[24], cost=0 },}
-EDGES[VERTICES[5250]] = {{ vertex=VERTICES[3910], cost=0 },}
-EDGES[VERTICES[1760]] = {{ vertex=VERTICES[5647], cost=0 },}
-EDGES[VERTICES[2425]] = {{ vertex=VERTICES[4432], cost=0 },}
-EDGES[VERTICES[673]] = {{ vertex=VERTICES[2566], cost=0 },}
-EDGES[VERTICES[3822]] = {{ vertex=VERTICES[4476], cost=0 },}
-EDGES[VERTICES[2684]] = {{ vertex=VERTICES[4038], cost=0 },}
-EDGES[VERTICES[5117]] = {{ vertex=VERTICES[5229], cost=0 },}
-EDGES[VERTICES[3581]] = {{ vertex=VERTICES[4272], cost=0 },}
-EDGES[VERTICES[3572]] = {{ vertex=VERTICES[1850], cost=0 },}
-EDGES[VERTICES[425]] = {{ vertex=VERTICES[1802], cost=0 },}
-EDGES[VERTICES[3863]] = {{ vertex=VERTICES[1552], cost=0 },}
-EDGES[VERTICES[4245]] = {{ vertex=VERTICES[117], cost=0 },}
-EDGES[VERTICES[1251]] = {{ vertex=VERTICES[4489], cost=0 },}
-EDGES[VERTICES[4609]] = {{ vertex=VERTICES[685], cost=0 },}
-EDGES[VERTICES[3892]] = {{ vertex=VERTICES[4218], cost=0 },}
-EDGES[VERTICES[1496]] = {{ vertex=VERTICES[5848], cost=0 },}
-EDGES[VERTICES[126]] = {{ vertex=VERTICES[5571], cost=0 },}
-EDGES[VERTICES[2604]] = {{ vertex=VERTICES[4768], cost=0 },}
-EDGES[VERTICES[3104]] = {{ vertex=VERTICES[5623], cost=0 },}
-EDGES[VERTICES[1477]] = {{ vertex=VERTICES[681], cost=0 },}
-EDGES[VERTICES[5989]] = {{ vertex=VERTICES[3927], cost=0 },}
-EDGES[VERTICES[873]] = {{ vertex=VERTICES[523], cost=0 },}
-EDGES[VERTICES[3283]] = {{ vertex=VERTICES[5630], cost=0 },}
-EDGES[VERTICES[5175]] = {{ vertex=VERTICES[4065], cost=0 },}
-EDGES[VERTICES[2277]] = {{ vertex=VERTICES[2166], cost=0 },}
-EDGES[VERTICES[3763]] = {{ vertex=VERTICES[5494], cost=0 },}
-EDGES[VERTICES[3080]] = {{ vertex=VERTICES[5819], cost=0 },}
-EDGES[VERTICES[889]] = {{ vertex=VERTICES[915], cost=0 },}
-EDGES[VERTICES[675]] = {{ vertex=VERTICES[5800], cost=0 },}
-EDGES[VERTICES[4667]] = {{ vertex=VERTICES[1167], cost=0 },}
-EDGES[VERTICES[1570]] = {{ vertex=VERTICES[3672], cost=0 },}
-EDGES[VERTICES[2712]] = {{ vertex=VERTICES[4541], cost=0 },}
-EDGES[VERTICES[1468]] = {{ vertex=VERTICES[2935], cost=0 },}
-EDGES[VERTICES[534]] = {{ vertex=VERTICES[4686], cost=0 },}
-EDGES[VERTICES[1990]] = {{ vertex=VERTICES[6197], cost=0 },}
-EDGES[VERTICES[670]] = {{ vertex=VERTICES[2197], cost=0 },}
-EDGES[VERTICES[2804]] = {{ vertex=VERTICES[1761], cost=0 },}
-EDGES[VERTICES[2513]] = {{ vertex=VERTICES[2048], cost=0 },}
-EDGES[VERTICES[2050]] = {{ vertex=VERTICES[3760], cost=0 },}
-EDGES[VERTICES[3889]] = {{ vertex=VERTICES[4229], cost=0 },}
-EDGES[VERTICES[4280]] = {{ vertex=VERTICES[677], cost=0 },}
-EDGES[VERTICES[6020]] = {{ vertex=VERTICES[4529], cost=0 },}
-EDGES[VERTICES[1098]] = {{ vertex=VERTICES[5220], cost=0 },}
-EDGES[VERTICES[1339]] = {{ vertex=VERTICES[4225], cost=0 },}
-EDGES[VERTICES[3274]] = {{ vertex=VERTICES[4422], cost=0 },}
-EDGES[VERTICES[2883]] = {{ vertex=VERTICES[2543], cost=0 },}
-EDGES[VERTICES[2649]] = {{ vertex=VERTICES[808], cost=0 },}
-EDGES[VERTICES[14]] = {{ vertex=VERTICES[3885], cost=0 },}
-EDGES[VERTICES[4676]] = {{ vertex=VERTICES[2981], cost=0 },}
-EDGES[VERTICES[4857]] = {{ vertex=VERTICES[5569], cost=0 },}
-EDGES[VERTICES[2319]] = {{ vertex=VERTICES[1095], cost=0 },}
-EDGES[VERTICES[799]] = {{ vertex=VERTICES[4207], cost=0 },}
-EDGES[VERTICES[4341]] = {{ vertex=VERTICES[2990], cost=0 },}
-EDGES[VERTICES[5783]] = {{ vertex=VERTICES[5702], cost=0 },}
-EDGES[VERTICES[5962]] = {{ vertex=VERTICES[3461], cost=0 },}
-EDGES[VERTICES[5608]] = {{ vertex=VERTICES[3427], cost=0 },}
-EDGES[VERTICES[3363]] = {{ vertex=VERTICES[1956], cost=0 },}
-EDGES[VERTICES[1147]] = {{ vertex=VERTICES[3602], cost=0 },}
-EDGES[VERTICES[2542]] = {{ vertex=VERTICES[2422], cost=0 },}
-EDGES[VERTICES[3778]] = {{ vertex=VERTICES[5364], cost=0 },}
-EDGES[VERTICES[33]] = {{ vertex=VERTICES[56], cost=0 },}
-EDGES[VERTICES[5105]] = {{ vertex=VERTICES[402], cost=0 },}
-EDGES[VERTICES[1189]] = {{ vertex=VERTICES[1715], cost=0 },}
-EDGES[VERTICES[4515]] = {{ vertex=VERTICES[3063], cost=0 },}
-EDGES[VERTICES[6014]] = {{ vertex=VERTICES[2599], cost=0 },}
-EDGES[VERTICES[1382]] = {{ vertex=VERTICES[3886], cost=0 },}
-EDGES[VERTICES[253]] = {{ vertex=VERTICES[611], cost=0 },}
-EDGES[VERTICES[5121]] = {{ vertex=VERTICES[4310], cost=0 },}
-EDGES[VERTICES[1104]] = {{ vertex=VERTICES[2391], cost=0 },}
-EDGES[VERTICES[6105]] = {{ vertex=VERTICES[4642], cost=0 },}
-EDGES[VERTICES[1809]] = {{ vertex=VERTICES[2610], cost=0 },}
-EDGES[VERTICES[4262]] = {{ vertex=VERTICES[4594], cost=0 },}
-EDGES[VERTICES[2163]] = {{ vertex=VERTICES[1952], cost=0 },}
-EDGES[VERTICES[955]] = {{ vertex=VERTICES[563], cost=0 },}
-EDGES[VERTICES[2578]] = {{ vertex=VERTICES[123], cost=0 },}
-EDGES[VERTICES[696]] = {{ vertex=VERTICES[4677], cost=0 },}
-EDGES[VERTICES[6141]] = {{ vertex=VERTICES[4920], cost=0 },}
-EDGES[VERTICES[2167]] = {{ vertex=VERTICES[6211], cost=0 },}
-EDGES[VERTICES[6212]] = {{ vertex=VERTICES[762], cost=0 },}
-EDGES[VERTICES[4824]] = {{ vertex=VERTICES[3614], cost=0 },}
-EDGES[VERTICES[740]] = {{ vertex=VERTICES[2920], cost=0 },}
-EDGES[VERTICES[6222]] = {{ vertex=VERTICES[1996], cost=0 },}
-EDGES[VERTICES[3780]] = {{ vertex=VERTICES[2470], cost=0 },}
-EDGES[VERTICES[1516]] = {{ vertex=VERTICES[3061], cost=0 },}
-EDGES[VERTICES[2369]] = {{ vertex=VERTICES[5477], cost=0 },}
-EDGES[VERTICES[3579]] = {{ vertex=VERTICES[1381], cost=0 },}
-EDGES[VERTICES[2943]] = {{ vertex=VERTICES[4949], cost=0 },}
-EDGES[VERTICES[5092]] = {{ vertex=VERTICES[2954], cost=0 },}
-EDGES[VERTICES[2646]] = {{ vertex=VERTICES[2950], cost=0 },}
-EDGES[VERTICES[3404]] = {{ vertex=VERTICES[5840], cost=0 },}
-EDGES[VERTICES[2428]] = {{ vertex=VERTICES[5160], cost=0 },}
-EDGES[VERTICES[2835]] = {{ vertex=VERTICES[1690], cost=0 },}
-EDGES[VERTICES[3507]] = {{ vertex=VERTICES[5095], cost=0 },}
-EDGES[VERTICES[392]] = {{ vertex=VERTICES[4669], cost=0 },}
-EDGES[VERTICES[2159]] = {{ vertex=VERTICES[4350], cost=0 },}
-EDGES[VERTICES[1269]] = {{ vertex=VERTICES[3749], cost=0 },}
-EDGES[VERTICES[5528]] = {{ vertex=VERTICES[375], cost=0 },}
-EDGES[VERTICES[1398]] = {{ vertex=VERTICES[3916], cost=0 },}
-EDGES[VERTICES[3681]] = {{ vertex=VERTICES[354], cost=0 },}
-EDGES[VERTICES[1777]] = {{ vertex=VERTICES[1006], cost=0 },}
-EDGES[VERTICES[5103]] = {{ vertex=VERTICES[2690], cost=0 },}
-EDGES[VERTICES[843]] = {{ vertex=VERTICES[1846], cost=0 },}
-EDGES[VERTICES[4196]] = {{ vertex=VERTICES[2240], cost=0 },}
-EDGES[VERTICES[1250]] = {{ vertex=VERTICES[992], cost=0 },}
-EDGES[VERTICES[2393]] = {{ vertex=VERTICES[6206], cost=0 },}
-EDGES[VERTICES[2057]] = {{ vertex=VERTICES[2607], cost=0 },}
-EDGES[VERTICES[1420]] = {{ vertex=VERTICES[155], cost=0 },}
-EDGES[VERTICES[4808]] = {{ vertex=VERTICES[1433], cost=0 },}
-EDGES[VERTICES[3627]] = {{ vertex=VERTICES[1138], cost=0 },}
-EDGES[VERTICES[5093]] = {{ vertex=VERTICES[1698], cost=0 },}
-EDGES[VERTICES[4006]] = {{ vertex=VERTICES[654], cost=0 },}
-EDGES[VERTICES[5497]] = {{ vertex=VERTICES[5927], cost=0 },}
-EDGES[VERTICES[3994]] = {{ vertex=VERTICES[968], cost=0 },}
-EDGES[VERTICES[3501]] = {{ vertex=VERTICES[2102], cost=0 },}
-EDGES[VERTICES[1603]] = {{ vertex=VERTICES[5640], cost=0 },}
-EDGES[VERTICES[5368]] = {{ vertex=VERTICES[229], cost=0 },}
-EDGES[VERTICES[2416]] = {{ vertex=VERTICES[2219], cost=0 },}
-EDGES[VERTICES[5805]] = {{ vertex=VERTICES[1901], cost=0 },}
-EDGES[VERTICES[3451]] = {{ vertex=VERTICES[2294], cost=0 },}
-EDGES[VERTICES[1767]] = {{ vertex=VERTICES[4305], cost=0 },}
-EDGES[VERTICES[1212]] = {{ vertex=VERTICES[4616], cost=0 },}
-EDGES[VERTICES[2544]] = {{ vertex=VERTICES[1087], cost=0 },}
-EDGES[VERTICES[2974]] = {{ vertex=VERTICES[80], cost=0 },}
-EDGES[VERTICES[1662]] = {{ vertex=VERTICES[3411], cost=0 },}
-EDGES[VERTICES[2200]] = {{ vertex=VERTICES[3504], cost=0 },}
-EDGES[VERTICES[104]] = {{ vertex=VERTICES[4163], cost=0 },}
-EDGES[VERTICES[3558]] = {{ vertex=VERTICES[2569], cost=0 },}
-EDGES[VERTICES[2911]] = {{ vertex=VERTICES[4316], cost=0 },}
-EDGES[VERTICES[1239]] = {{ vertex=VERTICES[6061], cost=0 },}
-EDGES[VERTICES[4650]] = {{ vertex=VERTICES[4173], cost=0 },}
-EDGES[VERTICES[2149]] = {{ vertex=VERTICES[5766], cost=0 },}
-EDGES[VERTICES[2715]] = {{ vertex=VERTICES[464], cost=0 },}
-EDGES[VERTICES[4235]] = {{ vertex=VERTICES[5151], cost=0 },}
-EDGES[VERTICES[2748]] = {{ vertex=VERTICES[5959], cost=0 },}
-EDGES[VERTICES[4059]] = {{ vertex=VERTICES[1150], cost=0 },}
-EDGES[VERTICES[5951]] = {{ vertex=VERTICES[2679], cost=0 },}
-EDGES[VERTICES[1914]] = {{ vertex=VERTICES[2154], cost=0 },}
-EDGES[VERTICES[4314]] = {{ vertex=VERTICES[3309], cost=0 },}
-EDGES[VERTICES[4726]] = {{ vertex=VERTICES[3590], cost=0 },}
-EDGES[VERTICES[369]] = {{ vertex=VERTICES[3491], cost=0 },}
-EDGES[VERTICES[954]] = {{ vertex=VERTICES[5774], cost=0 },}
-EDGES[VERTICES[4011]] = {{ vertex=VERTICES[1694], cost=0 },}
-EDGES[VERTICES[3483]] = {{ vertex=VERTICES[6252], cost=0 },}
-EDGES[VERTICES[5802]] = {{ vertex=VERTICES[3049], cost=0 },}
-EDGES[VERTICES[5409]] = {{ vertex=VERTICES[489], cost=0 },}
-EDGES[VERTICES[4366]] = {{ vertex=VERTICES[3392], cost=0 },}
-EDGES[VERTICES[2089]] = {{ vertex=VERTICES[2662], cost=0 },}
-EDGES[VERTICES[4139]] = {{ vertex=VERTICES[4395], cost=0 },}
-EDGES[VERTICES[4497]] = {{ vertex=VERTICES[265], cost=0 },}
-EDGES[VERTICES[340]] = {{ vertex=VERTICES[3190], cost=0 },}
-EDGES[VERTICES[5201]] = {{ vertex=VERTICES[1681], cost=0 },}
-EDGES[VERTICES[2455]] = {{ vertex=VERTICES[5128], cost=0 },}
-EDGES[VERTICES[5053]] = {{ vertex=VERTICES[2938], cost=0 },}
-EDGES[VERTICES[5199]] = {{ vertex=VERTICES[1051], cost=0 },}
-EDGES[VERTICES[5828]] = {{ vertex=VERTICES[6239], cost=0 },}
-EDGES[VERTICES[5380]] = {{ vertex=VERTICES[4159], cost=0 },}
-EDGES[VERTICES[2701]] = {{ vertex=VERTICES[5066], cost=0 },}
-EDGES[VERTICES[1140]] = {{ vertex=VERTICES[1288], cost=0 },}
-EDGES[VERTICES[274]] = {{ vertex=VERTICES[5770], cost=0 },}
-EDGES[VERTICES[1160]] = {{ vertex=VERTICES[2462], cost=0 },}
-EDGES[VERTICES[1944]] = {{ vertex=VERTICES[1749], cost=0 },}
-EDGES[VERTICES[4001]] = {{ vertex=VERTICES[2564], cost=0 },}
-EDGES[VERTICES[39]] = {{ vertex=VERTICES[4558], cost=0 },}
-EDGES[VERTICES[6029]] = {{ vertex=VERTICES[406], cost=0 },}
-EDGES[VERTICES[2707]] = {{ vertex=VERTICES[5981], cost=0 },}
-EDGES[VERTICES[2381]] = {{ vertex=VERTICES[4052], cost=0 },}
-EDGES[VERTICES[5696]] = {{ vertex=VERTICES[1372], cost=0 },}
-EDGES[VERTICES[4622]] = {{ vertex=VERTICES[1493], cost=0 },}
-EDGES[VERTICES[5340]] = {{ vertex=VERTICES[4613], cost=0 },}
-EDGES[VERTICES[5866]] = {{ vertex=VERTICES[602], cost=0 },}
-EDGES[VERTICES[3517]] = {{ vertex=VERTICES[5822], cost=0 },}
-EDGES[VERTICES[5438]] = {{ vertex=VERTICES[2210], cost=0 },}
-EDGES[VERTICES[4360]] = {{ vertex=VERTICES[5978], cost=0 },}
-EDGES[VERTICES[4007]] = {{ vertex=VERTICES[4123], cost=0 },}
-EDGES[VERTICES[6003]] = {{ vertex=VERTICES[1646], cost=0 },}
-EDGES[VERTICES[446]] = {{ vertex=VERTICES[4002], cost=0 },}
-EDGES[VERTICES[4889]] = {{ vertex=VERTICES[3380], cost=0 },}
-EDGES[VERTICES[6000]] = {{ vertex=VERTICES[920], cost=0 },}
-EDGES[VERTICES[2497]] = {{ vertex=VERTICES[2235], cost=0 },}
-EDGES[VERTICES[3712]] = {{ vertex=VERTICES[4830], cost=0 },}
-EDGES[VERTICES[4017]] = {{ vertex=VERTICES[3847], cost=0 },}
-EDGES[VERTICES[3974]] = {{ vertex=VERTICES[4021], cost=0 },}
-EDGES[VERTICES[664]] = {{ vertex=VERTICES[2978], cost=0 },}
-EDGES[VERTICES[3009]] = {{ vertex=VERTICES[4313], cost=0 },}
-EDGES[VERTICES[1573]] = {{ vertex=VERTICES[3075], cost=0 },}
-EDGES[VERTICES[5940]] = {{ vertex=VERTICES[647], cost=0 },}
-EDGES[VERTICES[4027]] = {{ vertex=VERTICES[2216], cost=0 },}
-EDGES[VERTICES[2660]] = {{ vertex=VERTICES[3905], cost=0 },}
-EDGES[VERTICES[5635]] = {{ vertex=VERTICES[1693], cost=0 },}
-EDGES[VERTICES[2928]] = {{ vertex=VERTICES[3702], cost=0 },}
-EDGES[VERTICES[1702]] = {{ vertex=VERTICES[5561], cost=0 },}
-EDGES[VERTICES[2826]] = {{ vertex=VERTICES[4250], cost=0 },}
-EDGES[VERTICES[2929]] = {{ vertex=VERTICES[3135], cost=0 },}
-EDGES[VERTICES[2765]] = {{ vertex=VERTICES[1065], cost=0 },}
-EDGES[VERTICES[964]] = {{ vertex=VERTICES[5532], cost=0 },}
-EDGES[VERTICES[1170]] = {{ vertex=VERTICES[3682], cost=0 },}
-EDGES[VERTICES[4536]] = {{ vertex=VERTICES[5202], cost=0 },}
-EDGES[VERTICES[401]] = {{ vertex=VERTICES[412], cost=0 },}
-EDGES[VERTICES[5076]] = {{ vertex=VERTICES[3806], cost=0 },}
-EDGES[VERTICES[2104]] = {{ vertex=VERTICES[1511], cost=0 },}
-EDGES[VERTICES[3532]] = {{ vertex=VERTICES[5136], cost=0 },}
-EDGES[VERTICES[3722]] = {{ vertex=VERTICES[1825], cost=0 },}
-EDGES[VERTICES[1469]] = {{ vertex=VERTICES[774], cost=0 },}
-EDGES[VERTICES[2601]] = {{ vertex=VERTICES[255], cost=0 },}
-EDGES[VERTICES[5112]] = {{ vertex=VERTICES[1151], cost=0 },}
-EDGES[VERTICES[3492]] = {{ vertex=VERTICES[2355], cost=0 },}
-EDGES[VERTICES[5598]] = {{ vertex=VERTICES[5275], cost=0 },}
-EDGES[VERTICES[2383]] = {{ vertex=VERTICES[15], cost=0 },}
-EDGES[VERTICES[1311]] = {{ vertex=VERTICES[4501], cost=0 },}
-EDGES[VERTICES[554]] = {{ vertex=VERTICES[3599], cost=0 },}
-EDGES[VERTICES[3777]] = {{ vertex=VERTICES[90], cost=0 },}
-EDGES[VERTICES[4881]] = {{ vertex=VERTICES[1030], cost=0 },}
-EDGES[VERTICES[5738]] = {{ vertex=VERTICES[5045], cost=0 },}
-EDGES[VERTICES[1177]] = {{ vertex=VERTICES[3646], cost=0 },}
-EDGES[VERTICES[5622]] = {{ vertex=VERTICES[3893], cost=0 },}
-EDGES[VERTICES[1141]] = {{ vertex=VERTICES[6203], cost=0 },}
-EDGES[VERTICES[2953]] = {{ vertex=VERTICES[718], cost=0 },}
-EDGES[VERTICES[3856]] = {{ vertex=VERTICES[264], cost=0 },}
-EDGES[VERTICES[3800]] = {{ vertex=VERTICES[1546], cost=0 },}
-EDGES[VERTICES[2772]] = {{ vertex=VERTICES[220], cost=0 },}
-EDGES[VERTICES[2703]] = {{ vertex=VERTICES[2379], cost=0 },}
-EDGES[VERTICES[1597]] = {{ vertex=VERTICES[2867], cost=0 },}
-EDGES[VERTICES[2168]] = {{ vertex=VERTICES[3503], cost=0 },}
-EDGES[VERTICES[4152]] = {{ vertex=VERTICES[4453], cost=0 },}
-EDGES[VERTICES[985]] = {{ vertex=VERTICES[3440], cost=0 },}
-EDGES[VERTICES[6189]] = {{ vertex=VERTICES[20], cost=0 },}
-EDGES[VERTICES[1851]] = {{ vertex=VERTICES[4475], cost=0 },}
-EDGES[VERTICES[246]] = {{ vertex=VERTICES[5451], cost=0 },}
-EDGES[VERTICES[2098]] = {{ vertex=VERTICES[5919], cost=0 },}
-EDGES[VERTICES[4951]] = {{ vertex=VERTICES[5673], cost=0 },}
-EDGES[VERTICES[81]] = {{ vertex=VERTICES[4092], cost=0 },}
-EDGES[VERTICES[3397]] = {{ vertex=VERTICES[310], cost=0 },}
-EDGES[VERTICES[1819]] = {{ vertex=VERTICES[424], cost=0 },}
-EDGES[VERTICES[2532]] = {{ vertex=VERTICES[2348], cost=0 },}
-EDGES[VERTICES[2083]] = {{ vertex=VERTICES[3784], cost=0 },}
-EDGES[VERTICES[4353]] = {{ vertex=VERTICES[3701], cost=0 },}
-EDGES[VERTICES[3549]] = {{ vertex=VERTICES[3670], cost=0 },}
-EDGES[VERTICES[1705]] = {{ vertex=VERTICES[5861], cost=0 },}
-EDGES[VERTICES[5697]] = {{ vertex=VERTICES[2755], cost=0 },}
-EDGES[VERTICES[5204]] = {{ vertex=VERTICES[807], cost=0 },}
-EDGES[VERTICES[3720]] = {{ vertex=VERTICES[45], cost=0 },}
-EDGES[VERTICES[2116]] = {{ vertex=VERTICES[1977], cost=0 },}
-EDGES[VERTICES[1330]] = {{ vertex=VERTICES[1078], cost=0 },}
-EDGES[VERTICES[1844]] = {{ vertex=VERTICES[3543], cost=0 },}
-EDGES[VERTICES[1457]] = {{ vertex=VERTICES[2107], cost=0 },}
-EDGES[VERTICES[1003]] = {{ vertex=VERTICES[904], cost=0 },}
-EDGES[VERTICES[3665]] = {{ vertex=VERTICES[752], cost=0 },}
-EDGES[VERTICES[3382]] = {{ vertex=VERTICES[3958], cost=0 },}
-EDGES[VERTICES[1887]] = {{ vertex=VERTICES[3930], cost=0 },}
-EDGES[VERTICES[154]] = {{ vertex=VERTICES[1215], cost=0 },}
-EDGES[VERTICES[330]] = {{ vertex=VERTICES[5711], cost=0 },}
-EDGES[VERTICES[538]] = {{ vertex=VERTICES[387], cost=0 },}
-EDGES[VERTICES[212]] = {{ vertex=VERTICES[1108], cost=0 },}
-EDGES[VERTICES[3409]] = {{ vertex=VERTICES[5309], cost=0 },}
-EDGES[VERTICES[3964]] = {{ vertex=VERTICES[1077], cost=0 },}
-EDGES[VERTICES[3441]] = {{ vertex=VERTICES[2785], cost=0 },}
-EDGES[VERTICES[818]] = {{ vertex=VERTICES[5843], cost=0 },}
-EDGES[VERTICES[1052]] = {{ vertex=VERTICES[5194], cost=0 },}
-EDGES[VERTICES[4729]] = {{ vertex=VERTICES[3438], cost=0 },}
-EDGES[VERTICES[4446]] = {{ vertex=VERTICES[2324], cost=0 },}
-EDGES[VERTICES[2090]] = {{ vertex=VERTICES[707], cost=0 },}
-EDGES[VERTICES[6240]] = {{ vertex=VERTICES[6076], cost=0 },}
-EDGES[VERTICES[5844]] = {{ vertex=VERTICES[4959], cost=0 },}
-EDGES[VERTICES[5572]] = {{ vertex=VERTICES[3365], cost=0 },}
-EDGES[VERTICES[3207]] = {{ vertex=VERTICES[2791], cost=0 },}
-EDGES[VERTICES[2011]] = {{ vertex=VERTICES[1575], cost=0 },}
-EDGES[VERTICES[3709]] = {{ vertex=VERTICES[5529], cost=0 },}
-EDGES[VERTICES[4349]] = {{ vertex=VERTICES[2879], cost=0 },}
-EDGES[VERTICES[6047]] = {{ vertex=VERTICES[2194], cost=0 },}
-EDGES[VERTICES[5005]] = {{ vertex=VERTICES[4462], cost=0 },}
-EDGES[VERTICES[1176]] = {{ vertex=VERTICES[132], cost=0 },}
-EDGES[VERTICES[1334]] = {{ vertex=VERTICES[323], cost=0 },}
-EDGES[VERTICES[5320]] = {{ vertex=VERTICES[3904], cost=0 },}
-EDGES[VERTICES[4346]] = {{ vertex=VERTICES[6041], cost=0 },}
-EDGES[VERTICES[5170]] = {{ vertex=VERTICES[4363], cost=0 },}
-EDGES[VERTICES[4965]] = {{ vertex=VERTICES[3962], cost=0 },}
-EDGES[VERTICES[1502]] = {{ vertex=VERTICES[550], cost=0 },}
-EDGES[VERTICES[4749]] = {{ vertex=VERTICES[2834], cost=0 },}
-EDGES[VERTICES[3606]] = {{ vertex=VERTICES[2511], cost=0 },}
-EDGES[VERTICES[4604]] = {{ vertex=VERTICES[337], cost=0 },}
-EDGES[VERTICES[3823]] = {{ vertex=VERTICES[2977], cost=0 },}
-EDGES[VERTICES[2350]] = {{ vertex=VERTICES[1316], cost=0 },}
-EDGES[VERTICES[5592]] = {{ vertex=VERTICES[3453], cost=0 },}
-EDGES[VERTICES[2636]] = {{ vertex=VERTICES[1638], cost=0 },}
-EDGES[VERTICES[3372]] = {{ vertex=VERTICES[704], cost=0 },}
-EDGES[VERTICES[3968]] = {{ vertex=VERTICES[1649], cost=0 },}
-EDGES[VERTICES[2540]] = {{ vertex=VERTICES[2723], cost=0 },}
-EDGES[VERTICES[5629]] = {{ vertex=VERTICES[2298], cost=0 },}
-EDGES[VERTICES[2940]] = {{ vertex=VERTICES[4572], cost=0 },}
-EDGES[VERTICES[2376]] = {{ vertex=VERTICES[1341], cost=0 },}
-EDGES[VERTICES[5040]] = {{ vertex=VERTICES[4999], cost=0 },}
-EDGES[VERTICES[216]] = {{ vertex=VERTICES[5836], cost=0 },}
-EDGES[VERTICES[4701]] = {{ vertex=VERTICES[4842], cost=0 },}
-EDGES[VERTICES[5468]] = {{ vertex=VERTICES[343], cost=0 },}
-EDGES[VERTICES[930]] = {{ vertex=VERTICES[3300], cost=0 },}
-EDGES[VERTICES[5863]] = {{ vertex=VERTICES[5018], cost=0 },}
-EDGES[VERTICES[3667]] = {{ vertex=VERTICES[3375], cost=0 },}
-EDGES[VERTICES[325]] = {{ vertex=VERTICES[5712], cost=0 },}
-EDGES[VERTICES[5889]] = {{ vertex=VERTICES[3219], cost=0 },}
-EDGES[VERTICES[3401]] = {{ vertex=VERTICES[167], cost=0 },}
-EDGES[VERTICES[3858]] = {{ vertex=VERTICES[2581], cost=0 },}
-EDGES[VERTICES[5278]] = {{ vertex=VERTICES[4088], cost=0 },}
-EDGES[VERTICES[2110]] = {{ vertex=VERTICES[3642], cost=0 },}
-EDGES[VERTICES[3220]] = {{ vertex=VERTICES[6120], cost=0 },}
-EDGES[VERTICES[456]] = {{ vertex=VERTICES[1023], cost=0 },}
-EDGES[VERTICES[3278]] = {{ vertex=VERTICES[1933], cost=0 },}
-EDGES[VERTICES[975]] = {{ vertex=VERTICES[693], cost=0 },}
-EDGES[VERTICES[3955]] = {{ vertex=VERTICES[2691], cost=0 },}
-EDGES[VERTICES[3864]] = {{ vertex=VERTICES[1559], cost=0 },}
-EDGES[VERTICES[259]] = {{ vertex=VERTICES[6092], cost=0 },}
-EDGES[VERTICES[4472]] = {{ vertex=VERTICES[3291], cost=0 },}
-EDGES[VERTICES[5661]] = {{ vertex=VERTICES[2222], cost=0 },}
-EDGES[VERTICES[872]] = {{ vertex=VERTICES[1733], cost=0 },}
-EDGES[VERTICES[6202]] = {{ vertex=VERTICES[5888], cost=0 },}
-EDGES[VERTICES[3689]] = {{ vertex=VERTICES[736], cost=0 },}
-EDGES[VERTICES[1495]] = {{ vertex=VERTICES[2931], cost=0 },}
-EDGES[VERTICES[3236]] = {{ vertex=VERTICES[4447], cost=0 },}
-EDGES[VERTICES[5140]] = {{ vertex=VERTICES[1867], cost=0 },}
-EDGES[VERTICES[5235]] = {{ vertex=VERTICES[5814], cost=0 },}
-EDGES[VERTICES[1834]] = {{ vertex=VERTICES[3299], cost=0 },}
-EDGES[VERTICES[2095]] = {{ vertex=VERTICES[2225], cost=0 },}
-EDGES[VERTICES[1343]] = {{ vertex=VERTICES[926], cost=0 },}
-EDGES[VERTICES[427]] = {{ vertex=VERTICES[4660], cost=0 },}
-EDGES[VERTICES[2668]] = {{ vertex=VERTICES[1134], cost=0 },}
-EDGES[VERTICES[508]] = {{ vertex=VERTICES[1220], cost=0 },}
-EDGES[VERTICES[3275]] = {{ vertex=VERTICES[5217], cost=0 },}
-EDGES[VERTICES[476]] = {{ vertex=VERTICES[2805], cost=0 },}
-EDGES[VERTICES[5777]] = {{ vertex=VERTICES[943], cost=0 },}
-EDGES[VERTICES[1014]] = {{ vertex=VERTICES[3984], cost=0 },}
-EDGES[VERTICES[4865]] = {{ vertex=VERTICES[5422], cost=0 },}
-EDGES[VERTICES[1653]] = {{ vertex=VERTICES[4456], cost=0 },}
-EDGES[VERTICES[1995]] = {{ vertex=VERTICES[4233], cost=0 },}
-EDGES[VERTICES[1314]] = {{ vertex=VERTICES[5670], cost=0 },}
-EDGES[VERTICES[2806]] = {{ vertex=VERTICES[3012], cost=0 },}
-EDGES[VERTICES[1235]] = {{ vertex=VERTICES[5012], cost=0 },}
-EDGES[VERTICES[4836]] = {{ vertex=VERTICES[1586], cost=0 },}
-EDGES[VERTICES[5554]] = {{ vertex=VERTICES[4789], cost=0 },}
-EDGES[VERTICES[2888]] = {{ vertex=VERTICES[470], cost=0 },}
-EDGES[VERTICES[377]] = {{ vertex=VERTICES[478], cost=0 },}
-EDGES[VERTICES[6053]] = {{ vertex=VERTICES[3268], cost=0 },}
-EDGES[VERTICES[3854]] = {{ vertex=VERTICES[663], cost=0 },}
-EDGES[VERTICES[4583]] = {{ vertex=VERTICES[5120], cost=0 },}
-EDGES[VERTICES[6129]] = {{ vertex=VERTICES[3723], cost=0 },}
-EDGES[VERTICES[1920]] = {{ vertex=VERTICES[1848], cost=0 },}
-EDGES[VERTICES[3046]] = {{ vertex=VERTICES[3304], cost=0 },}
+EDGES[VERTICES[6004]] = {{ vertex=VERTICES[799], cost=0 },}
+EDGES[VERTICES[6377]] = {{ vertex=VERTICES[4437], cost=0 },}
+EDGES[VERTICES[5606]] = {{ vertex=VERTICES[1597], cost=0 },}
+EDGES[VERTICES[2554]] = {{ vertex=VERTICES[3300], cost=0 },}
+EDGES[VERTICES[2092]] = {{ vertex=VERTICES[3431], cost=0 },}
+EDGES[VERTICES[5781]] = {{ vertex=VERTICES[4616], cost=0 },}
+EDGES[VERTICES[2745]] = {{ vertex=VERTICES[3641], cost=0 },}
+EDGES[VERTICES[1319]] = {{ vertex=VERTICES[5668], cost=0 },}
+EDGES[VERTICES[5455]] = {{ vertex=VERTICES[1718], cost=0 },}
+EDGES[VERTICES[2196]] = {{ vertex=VERTICES[4417], cost=0 },}
+EDGES[VERTICES[4511]] = {{ vertex=VERTICES[3191], cost=0 },}
+EDGES[VERTICES[2877]] = {{ vertex=VERTICES[3032], cost=0 },}
+EDGES[VERTICES[1784]] = {{ vertex=VERTICES[2578], cost=0 },}
+EDGES[VERTICES[1688]] = {{ vertex=VERTICES[3901], cost=0 },}
+EDGES[VERTICES[1299]] = {{ vertex=VERTICES[3402], cost=0 },}
+EDGES[VERTICES[4818]] = {{ vertex=VERTICES[5324], cost=0 },}
+EDGES[VERTICES[3053]] = {{ vertex=VERTICES[805], cost=0 },}
+EDGES[VERTICES[860]] = {{ vertex=VERTICES[2002], cost=0 },}
+EDGES[VERTICES[2030]] = {{ vertex=VERTICES[2961], cost=0 },}
+EDGES[VERTICES[6179]] = {{ vertex=VERTICES[2879], cost=0 },}
+EDGES[VERTICES[4567]] = {{ vertex=VERTICES[90], cost=0 },}
+EDGES[VERTICES[3686]] = {{ vertex=VERTICES[282], cost=0 },}
+EDGES[VERTICES[137]] = {{ vertex=VERTICES[3446], cost=0 },}
+EDGES[VERTICES[1557]] = {{ vertex=VERTICES[3299], cost=0 },}
+EDGES[VERTICES[2051]] = {{ vertex=VERTICES[5926], cost=0 },}
+EDGES[VERTICES[3733]] = {{ vertex=VERTICES[1502], cost=0 },}
+EDGES[VERTICES[694]] = {{ vertex=VERTICES[5288], cost=0 },}
+EDGES[VERTICES[6312]] = {{ vertex=VERTICES[3523], cost=0 },}
+EDGES[VERTICES[3580]] = {{ vertex=VERTICES[268], cost=0 },}
+EDGES[VERTICES[4835]] = {{ vertex=VERTICES[3414], cost=0 },}
+EDGES[VERTICES[3297]] = {{ vertex=VERTICES[237], cost=0 },}
+EDGES[VERTICES[4627]] = {{ vertex=VERTICES[2150], cost=0 },}
+EDGES[VERTICES[1828]] = {{ vertex=VERTICES[666], cost=0 },}
+EDGES[VERTICES[5607]] = {{ vertex=VERTICES[1776], cost=0 },}
+EDGES[VERTICES[5820]] = {{ vertex=VERTICES[6056], cost=0 },}
+EDGES[VERTICES[1721]] = {{ vertex=VERTICES[6034], cost=0 },}
+EDGES[VERTICES[685]] = {{ vertex=VERTICES[5021], cost=0 },}
+EDGES[VERTICES[1746]] = {{ vertex=VERTICES[4730], cost=0 },}
+EDGES[VERTICES[2794]] = {{ vertex=VERTICES[483], cost=0 },}
+EDGES[VERTICES[1779]] = {{ vertex=VERTICES[1298], cost=0 },}
+EDGES[VERTICES[6256]] = {{ vertex=VERTICES[962], cost=0 },}
+EDGES[VERTICES[5030]] = {{ vertex=VERTICES[1154], cost=0 },}
+EDGES[VERTICES[1715]] = {{ vertex=VERTICES[2242], cost=0 },}
+EDGES[VERTICES[4660]] = {{ vertex=VERTICES[5653], cost=0 },}
+EDGES[VERTICES[1843]] = {{ vertex=VERTICES[165], cost=0 },}
+EDGES[VERTICES[1328]] = {{ vertex=VERTICES[41], cost=0 },}
+EDGES[VERTICES[1227]] = {{ vertex=VERTICES[6051], cost=0 },}
+EDGES[VERTICES[3073]] = {{ vertex=VERTICES[5962], cost=0 },}
+EDGES[VERTICES[3462]] = {{ vertex=VERTICES[2004], cost=0 },}
+EDGES[VERTICES[3379]] = {{ vertex=VERTICES[2595], cost=0 },}
+EDGES[VERTICES[3595]] = {{ vertex=VERTICES[2368], cost=0 },}
+EDGES[VERTICES[3234]] = {{ vertex=VERTICES[5295], cost=0 },}
+EDGES[VERTICES[3231]] = {{ vertex=VERTICES[5198], cost=0 },}
+EDGES[VERTICES[4600]] = {{ vertex=VERTICES[422], cost=0 },}
+EDGES[VERTICES[375]] = {{ vertex=VERTICES[5716], cost=0 },}
+EDGES[VERTICES[5459]] = {{ vertex=VERTICES[858], cost=0 },}
+EDGES[VERTICES[3919]] = {{ vertex=VERTICES[806], cost=0 },}
+EDGES[VERTICES[3102]] = {{ vertex=VERTICES[3925], cost=0 },}
+EDGES[VERTICES[3202]] = {{ vertex=VERTICES[866], cost=0 },}
+EDGES[VERTICES[2329]] = {{ vertex=VERTICES[1943], cost=0 },}
+EDGES[VERTICES[3560]] = {{ vertex=VERTICES[1217], cost=0 },}
+EDGES[VERTICES[770]] = {{ vertex=VERTICES[723], cost=0 },}
+EDGES[VERTICES[2953]] = {{ vertex=VERTICES[1965], cost=0 },}
+EDGES[VERTICES[1342]] = {{ vertex=VERTICES[1783], cost=0 },}
+EDGES[VERTICES[4270]] = {{ vertex=VERTICES[3707], cost=0 },}
+EDGES[VERTICES[4548]] = {{ vertex=VERTICES[3087], cost=0 },}
+EDGES[VERTICES[1472]] = {{ vertex=VERTICES[4254], cost=0 },}
+EDGES[VERTICES[6111]] = {{ vertex=VERTICES[4670], cost=0 },}
+EDGES[VERTICES[5061]] = {{ vertex=VERTICES[3977], cost=0 },}
+EDGES[VERTICES[6186]] = {{ vertex=VERTICES[430], cost=0 },}
+EDGES[VERTICES[5291]] = {{ vertex=VERTICES[4387], cost=0 },}
+EDGES[VERTICES[656]] = {{ vertex=VERTICES[2189], cost=0 },}
+EDGES[VERTICES[5269]] = {{ vertex=VERTICES[3074], cost=0 },}
+EDGES[VERTICES[5754]] = {{ vertex=VERTICES[302], cost=0 },}
+EDGES[VERTICES[202]] = {{ vertex=VERTICES[36], cost=0 },}
+EDGES[VERTICES[5850]] = {{ vertex=VERTICES[2043], cost=0 },}
+EDGES[VERTICES[1088]] = {{ vertex=VERTICES[2832], cost=0 },}
+EDGES[VERTICES[3247]] = {{ vertex=VERTICES[3604], cost=0 },}
+EDGES[VERTICES[1167]] = {{ vertex=VERTICES[4833], cost=0 },}
+EDGES[VERTICES[849]] = {{ vertex=VERTICES[868], cost=0 },}
+EDGES[VERTICES[1960]] = {{ vertex=VERTICES[1589], cost=0 },}
+EDGES[VERTICES[412]] = {{ vertex=VERTICES[353], cost=0 },}
+EDGES[VERTICES[3752]] = {{ vertex=VERTICES[1786], cost=0 },}
+EDGES[VERTICES[6122]] = {{ vertex=VERTICES[1834], cost=0 },}
+EDGES[VERTICES[5430]] = {{ vertex=VERTICES[1977], cost=0 },}
+EDGES[VERTICES[3040]] = {{ vertex=VERTICES[1968], cost=0 },}
+EDGES[VERTICES[1241]] = {{ vertex=VERTICES[2216], cost=0 },}
+EDGES[VERTICES[5527]] = {{ vertex=VERTICES[1214], cost=0 },}
+EDGES[VERTICES[4857]] = {{ vertex=VERTICES[346], cost=0 },}
+EDGES[VERTICES[3422]] = {{ vertex=VERTICES[809], cost=0 },}
+EDGES[VERTICES[3278]] = {{ vertex=VERTICES[1284], cost=0 },}
+EDGES[VERTICES[5596]] = {{ vertex=VERTICES[2544], cost=0 },}
+EDGES[VERTICES[3398]] = {{ vertex=VERTICES[3908], cost=0 },}
+EDGES[VERTICES[1405]] = {{ vertex=VERTICES[294], cost=0 },}
+EDGES[VERTICES[4367]] = {{ vertex=VERTICES[730], cost=0 },}
+EDGES[VERTICES[5968]] = {{ vertex=VERTICES[3528], cost=0 },}
+EDGES[VERTICES[6327]] = {{ vertex=VERTICES[5661], cost=0 },}
+EDGES[VERTICES[1389]] = {{ vertex=VERTICES[5940], cost=0 },}
+EDGES[VERTICES[2873]] = {{ vertex=VERTICES[1273], cost=0 },}
+EDGES[VERTICES[4912]] = {{ vertex=VERTICES[126], cost=0 },}
+EDGES[VERTICES[3194]] = {{ vertex=VERTICES[4447], cost=0 },}
+EDGES[VERTICES[2973]] = {{ vertex=VERTICES[1061], cost=0 },}
+EDGES[VERTICES[3239]] = {{ vertex=VERTICES[2582], cost=0 },}
+EDGES[VERTICES[6057]] = {{ vertex=VERTICES[3577], cost=0 },}
+EDGES[VERTICES[6387]] = {{ vertex=VERTICES[5882], cost=0 },}
+EDGES[VERTICES[5466]] = {{ vertex=VERTICES[4209], cost=0 },}
+EDGES[VERTICES[4117]] = {{ vertex=VERTICES[658], cost=0 },}
+EDGES[VERTICES[662]] = {{ vertex=VERTICES[1388], cost=0 },}
+EDGES[VERTICES[580]] = {{ vertex=VERTICES[1844], cost=0 },}
+EDGES[VERTICES[5468]] = {{ vertex=VERTICES[5888], cost=0 },}
+EDGES[VERTICES[5176]] = {{ vertex=VERTICES[1996], cost=0 },}
+EDGES[VERTICES[3527]] = {{ vertex=VERTICES[2467], cost=0 },}
+EDGES[VERTICES[5188]] = {{ vertex=VERTICES[3320], cost=0 },}
+EDGES[VERTICES[3906]] = {{ vertex=VERTICES[452], cost=0 },}
+EDGES[VERTICES[3749]] = {{ vertex=VERTICES[1520], cost=0 },}
+EDGES[VERTICES[3656]] = {{ vertex=VERTICES[2497], cost=0 },}
+EDGES[VERTICES[317]] = {{ vertex=VERTICES[3101], cost=0 },}
+EDGES[VERTICES[2234]] = {{ vertex=VERTICES[38], cost=0 },}
+EDGES[VERTICES[323]] = {{ vertex=VERTICES[1725], cost=0 },}
+EDGES[VERTICES[1995]] = {{ vertex=VERTICES[6302], cost=0 },}
+EDGES[VERTICES[2417]] = {{ vertex=VERTICES[2999], cost=0 },}
+EDGES[VERTICES[3972]] = {{ vertex=VERTICES[1511], cost=0 },}
+EDGES[VERTICES[4767]] = {{ vertex=VERTICES[4941], cost=0 },}
+EDGES[VERTICES[373]] = {{ vertex=VERTICES[760], cost=0 },}
+EDGES[VERTICES[4946]] = {{ vertex=VERTICES[3917], cost=0 },}
+EDGES[VERTICES[968]] = {{ vertex=VERTICES[2346], cost=0 },}
+EDGES[VERTICES[3417]] = {{ vertex=VERTICES[5235], cost=0 },}
+EDGES[VERTICES[5641]] = {{ vertex=VERTICES[4450], cost=0 },}
+EDGES[VERTICES[5302]] = {{ vertex=VERTICES[3938], cost=0 },}
+EDGES[VERTICES[3290]] = {{ vertex=VERTICES[3378], cost=0 },}
+EDGES[VERTICES[4782]] = {{ vertex=VERTICES[4958], cost=0 },}
+EDGES[VERTICES[4547]] = {{ vertex=VERTICES[4840], cost=0 },}
+EDGES[VERTICES[3727]] = {{ vertex=VERTICES[2755], cost=0 },}
+EDGES[VERTICES[1098]] = {{ vertex=VERTICES[2465], cost=0 },}
+EDGES[VERTICES[5262]] = {{ vertex=VERTICES[2526], cost=0 },}
+EDGES[VERTICES[236]] = {{ vertex=VERTICES[395], cost=0 },}
+EDGES[VERTICES[2208]] = {{ vertex=VERTICES[2986], cost=0 },}
+EDGES[VERTICES[2299]] = {{ vertex=VERTICES[4243], cost=0 },}
+EDGES[VERTICES[5320]] = {{ vertex=VERTICES[3718], cost=0 },}
+EDGES[VERTICES[2169]] = {{ vertex=VERTICES[1009], cost=0 },}
+EDGES[VERTICES[2106]] = {{ vertex=VERTICES[2503], cost=0 },}
+EDGES[VERTICES[4004]] = {{ vertex=VERTICES[4956], cost=0 },}
+EDGES[VERTICES[3258]] = {{ vertex=VERTICES[4889], cost=0 },}
+EDGES[VERTICES[2273]] = {{ vertex=VERTICES[93], cost=0 },}
+EDGES[VERTICES[5404]] = {{ vertex=VERTICES[2684], cost=0 },}
+EDGES[VERTICES[1246]] = {{ vertex=VERTICES[6347], cost=0 },}
+EDGES[VERTICES[1003]] = {{ vertex=VERTICES[389], cost=0 },}
+EDGES[VERTICES[501]] = {{ vertex=VERTICES[553], cost=0 },}
+EDGES[VERTICES[5447]] = {{ vertex=VERTICES[1493], cost=0 },}
+EDGES[VERTICES[687]] = {{ vertex=VERTICES[3751], cost=0 },}
+EDGES[VERTICES[238]] = {{ vertex=VERTICES[5072], cost=0 },}
+EDGES[VERTICES[5914]] = {{ vertex=VERTICES[817], cost=0 },}
+EDGES[VERTICES[120]] = {{ vertex=VERTICES[2385], cost=0 },}
+EDGES[VERTICES[5512]] = {{ vertex=VERTICES[2504], cost=0 },}
+EDGES[VERTICES[6119]] = {{ vertex=VERTICES[4664], cost=0 },}
+EDGES[VERTICES[2143]] = {{ vertex=VERTICES[5475], cost=0 },}
+EDGES[VERTICES[5854]] = {{ vertex=VERTICES[6318], cost=0 },}
+EDGES[VERTICES[2462]] = {{ vertex=VERTICES[3271], cost=0 },}
+EDGES[VERTICES[2049]] = {{ vertex=VERTICES[4422], cost=0 },}
+EDGES[VERTICES[4072]] = {{ vertex=VERTICES[4222], cost=0 },}
+EDGES[VERTICES[1462]] = {{ vertex=VERTICES[4559], cost=0 },}
+EDGES[VERTICES[4282]] = {{ vertex=VERTICES[279], cost=0 },}
+EDGES[VERTICES[1036]] = {{ vertex=VERTICES[4103], cost=0 },}
+EDGES[VERTICES[4489]] = {{ vertex=VERTICES[2761], cost=0 },}
+EDGES[VERTICES[830]] = {{ vertex=VERTICES[2540], cost=0 },}
+EDGES[VERTICES[6367]] = {{ vertex=VERTICES[4951], cost=0 },}
+EDGES[VERTICES[2099]] = {{ vertex=VERTICES[1104], cost=0 },}
+EDGES[VERTICES[3153]] = {{ vertex=VERTICES[5086], cost=0 },}
+EDGES[VERTICES[3600]] = {{ vertex=VERTICES[2515], cost=0 },}
+EDGES[VERTICES[4165]] = {{ vertex=VERTICES[5224], cost=0 },}
+EDGES[VERTICES[404]] = {{ vertex=VERTICES[4773], cost=0 },}
+EDGES[VERTICES[4101]] = {{ vertex=VERTICES[5748], cost=0 },}
+EDGES[VERTICES[2477]] = {{ vertex=VERTICES[5980], cost=0 },}
+EDGES[VERTICES[1532]] = {{ vertex=VERTICES[2679], cost=0 },}
+EDGES[VERTICES[895]] = {{ vertex=VERTICES[5350], cost=0 },}
+EDGES[VERTICES[1425]] = {{ vertex=VERTICES[6270], cost=0 },}
+EDGES[VERTICES[1717]] = {{ vertex=VERTICES[630], cost=0 },}
+EDGES[VERTICES[5669]] = {{ vertex=VERTICES[679], cost=0 },}
+EDGES[VERTICES[3169]] = {{ vertex=VERTICES[855], cost=0 },}
+EDGES[VERTICES[3220]] = {{ vertex=VERTICES[4374], cost=0 },}
+EDGES[VERTICES[1866]] = {{ vertex=VERTICES[4551], cost=0 },}
+EDGES[VERTICES[4781]] = {{ vertex=VERTICES[615], cost=0 },}
+EDGES[VERTICES[3949]] = {{ vertex=VERTICES[2068], cost=0 },}
+EDGES[VERTICES[4737]] = {{ vertex=VERTICES[4442], cost=0 },}
+EDGES[VERTICES[2627]] = {{ vertex=VERTICES[2659], cost=0 },}
+EDGES[VERTICES[3649]] = {{ vertex=VERTICES[3340], cost=0 },}
+EDGES[VERTICES[5172]] = {{ vertex=VERTICES[526], cost=0 },}
+EDGES[VERTICES[2804]] = {{ vertex=VERTICES[3307], cost=0 },}
+EDGES[VERTICES[5123]] = {{ vertex=VERTICES[2952], cost=0 },}
+EDGES[VERTICES[5139]] = {{ vertex=VERTICES[4184], cost=0 },}
+EDGES[VERTICES[3745]] = {{ vertex=VERTICES[454], cost=0 },}
+EDGES[VERTICES[4236]] = {{ vertex=VERTICES[1752], cost=0 },}
+EDGES[VERTICES[992]] = {{ vertex=VERTICES[4870], cost=0 },}
+EDGES[VERTICES[53]] = {{ vertex=VERTICES[5896], cost=0 },}
+EDGES[VERTICES[1761]] = {{ vertex=VERTICES[4113], cost=0 },}
+EDGES[VERTICES[1260]] = {{ vertex=VERTICES[3293], cost=0 },}
+EDGES[VERTICES[1701]] = {{ vertex=VERTICES[5095], cost=0 },}
+EDGES[VERTICES[3260]] = {{ vertex=VERTICES[371], cost=0 },}
+EDGES[VERTICES[4923]] = {{ vertex=VERTICES[4776], cost=0 },}
+EDGES[VERTICES[6332]] = {{ vertex=VERTICES[3423], cost=0 },}
+EDGES[VERTICES[3781]] = {{ vertex=VERTICES[6237], cost=0 },}
+EDGES[VERTICES[1989]] = {{ vertex=VERTICES[4013], cost=0 },}
+EDGES[VERTICES[3198]] = {{ vertex=VERTICES[4434], cost=0 },}
+EDGES[VERTICES[4871]] = {{ vertex=VERTICES[5601], cost=0 },}
+EDGES[VERTICES[5554]] = {{ vertex=VERTICES[4679], cost=0 },}
+EDGES[VERTICES[1392]] = {{ vertex=VERTICES[3308], cost=0 },}
+EDGES[VERTICES[684]] = {{ vertex=VERTICES[199], cost=0 },}
+EDGES[VERTICES[2345]] = {{ vertex=VERTICES[1455], cost=0 },}
+EDGES[VERTICES[6388]] = {{ vertex=VERTICES[2971], cost=0 },}
+EDGES[VERTICES[1516]] = {{ vertex=VERTICES[2957], cost=0 },}
+EDGES[VERTICES[2222]] = {{ vertex=VERTICES[3855], cost=0 },}
+EDGES[VERTICES[2776]] = {{ vertex=VERTICES[3245], cost=0 },}
+EDGES[VERTICES[2001]] = {{ vertex=VERTICES[145], cost=0 },}
+EDGES[VERTICES[4909]] = {{ vertex=VERTICES[1906], cost=0 },}
+EDGES[VERTICES[3019]] = {{ vertex=VERTICES[4308], cost=0 },}
+EDGES[VERTICES[1585]] = {{ vertex=VERTICES[5937], cost=0 },}
+EDGES[VERTICES[3861]] = {{ vertex=VERTICES[5184], cost=0 },}
+EDGES[VERTICES[4056]] = {{ vertex=VERTICES[1015], cost=0 },}
+EDGES[VERTICES[5153]] = {{ vertex=VERTICES[1729], cost=0 },}
+EDGES[VERTICES[3286]] = {{ vertex=VERTICES[870], cost=0 },}
+EDGES[VERTICES[3710]] = {{ vertex=VERTICES[25], cost=0 },}
+EDGES[VERTICES[5367]] = {{ vertex=VERTICES[4000], cost=0 },}
+EDGES[VERTICES[1805]] = {{ vertex=VERTICES[5774], cost=0 },}
+EDGES[VERTICES[2482]] = {{ vertex=VERTICES[4538], cost=0 },}
+EDGES[VERTICES[691]] = {{ vertex=VERTICES[2625], cost=0 },}
+EDGES[VERTICES[3910]] = {{ vertex=VERTICES[4583], cost=0 },}
+EDGES[VERTICES[2747]] = {{ vertex=VERTICES[4129], cost=0 },}
+EDGES[VERTICES[5234]] = {{ vertex=VERTICES[5346], cost=0 },}
+EDGES[VERTICES[3662]] = {{ vertex=VERTICES[4372], cost=0 },}
+EDGES[VERTICES[3653]] = {{ vertex=VERTICES[1895], cost=0 },}
+EDGES[VERTICES[438]] = {{ vertex=VERTICES[1847], cost=0 },}
+EDGES[VERTICES[3952]] = {{ vertex=VERTICES[1596], cost=0 },}
+EDGES[VERTICES[4345]] = {{ vertex=VERTICES[124], cost=0 },}
+EDGES[VERTICES[1283]] = {{ vertex=VERTICES[4596], cost=0 },}
+EDGES[VERTICES[4719]] = {{ vertex=VERTICES[703], cost=0 },}
+EDGES[VERTICES[3981]] = {{ vertex=VERTICES[4318], cost=0 },}
+EDGES[VERTICES[1538]] = {{ vertex=VERTICES[5978], cost=0 },}
+EDGES[VERTICES[134]] = {{ vertex=VERTICES[5698], cost=0 },}
+EDGES[VERTICES[2666]] = {{ vertex=VERTICES[4878], cost=0 },}
+EDGES[VERTICES[3178]] = {{ vertex=VERTICES[5750], cost=0 },}
+EDGES[VERTICES[1518]] = {{ vertex=VERTICES[699], cost=0 },}
+EDGES[VERTICES[6124]] = {{ vertex=VERTICES[4017], cost=0 },}
+EDGES[VERTICES[894]] = {{ vertex=VERTICES[538], cost=0 },}
+EDGES[VERTICES[3359]] = {{ vertex=VERTICES[5757], cost=0 },}
+EDGES[VERTICES[5292]] = {{ vertex=VERTICES[4157], cost=0 },}
+EDGES[VERTICES[2330]] = {{ vertex=VERTICES[2217], cost=0 },}
+EDGES[VERTICES[3848]] = {{ vertex=VERTICES[5619], cost=0 },}
+EDGES[VERTICES[3154]] = {{ vertex=VERTICES[5947], cost=0 },}
+EDGES[VERTICES[910]] = {{ vertex=VERTICES[937], cost=0 },}
+EDGES[VERTICES[693]] = {{ vertex=VERTICES[5928], cost=0 },}
+EDGES[VERTICES[4777]] = {{ vertex=VERTICES[1195], cost=0 },}
+EDGES[VERTICES[1614]] = {{ vertex=VERTICES[3755], cost=0 },}
+EDGES[VERTICES[2777]] = {{ vertex=VERTICES[4650], cost=0 },}
+EDGES[VERTICES[1508]] = {{ vertex=VERTICES[3004], cost=0 },}
+EDGES[VERTICES[550]] = {{ vertex=VERTICES[4796], cost=0 },}
+EDGES[VERTICES[2039]] = {{ vertex=VERTICES[6336], cost=0 },}
+EDGES[VERTICES[688]] = {{ vertex=VERTICES[2248], cost=0 },}
+EDGES[VERTICES[2869]] = {{ vertex=VERTICES[1806], cost=0 },}
+EDGES[VERTICES[2571]] = {{ vertex=VERTICES[2098], cost=0 },}
+EDGES[VERTICES[2100]] = {{ vertex=VERTICES[3845], cost=0 },}
+EDGES[VERTICES[3978]] = {{ vertex=VERTICES[4329], cost=0 },}
+EDGES[VERTICES[4380]] = {{ vertex=VERTICES[695], cost=0 },}
+EDGES[VERTICES[6156]] = {{ vertex=VERTICES[4638], cost=0 },}
+EDGES[VERTICES[1123]] = {{ vertex=VERTICES[5337], cost=0 },}
+EDGES[VERTICES[1377]] = {{ vertex=VERTICES[4325], cost=0 },}
+EDGES[VERTICES[3350]] = {{ vertex=VERTICES[4528], cost=0 },}
+EDGES[VERTICES[2951]] = {{ vertex=VERTICES[2601], cost=0 },}
+EDGES[VERTICES[2712]] = {{ vertex=VERTICES[827], cost=0 },}
+EDGES[VERTICES[15]] = {{ vertex=VERTICES[3974], cost=0 },}
+EDGES[VERTICES[4786]] = {{ vertex=VERTICES[3051], cost=0 },}
+EDGES[VERTICES[4970]] = {{ vertex=VERTICES[5696], cost=0 },}
+EDGES[VERTICES[2372]] = {{ vertex=VERTICES[1120], cost=0 },}
+EDGES[VERTICES[818]] = {{ vertex=VERTICES[4307], cost=0 },}
+EDGES[VERTICES[4443]] = {{ vertex=VERTICES[3060], cost=0 },}
+EDGES[VERTICES[5911]] = {{ vertex=VERTICES[5829], cost=0 },}
+EDGES[VERTICES[6096]] = {{ vertex=VERTICES[3541], cost=0 },}
+EDGES[VERTICES[5735]] = {{ vertex=VERTICES[3505], cost=0 },}
+EDGES[VERTICES[3440]] = {{ vertex=VERTICES[2003], cost=0 },}
+EDGES[VERTICES[1172]] = {{ vertex=VERTICES[3684], cost=0 },}
+EDGES[VERTICES[2600]] = {{ vertex=VERTICES[2479], cost=0 },}
+EDGES[VERTICES[3864]] = {{ vertex=VERTICES[5484], cost=0 },}
+EDGES[VERTICES[34]] = {{ vertex=VERTICES[58], cost=0 },}
+EDGES[VERTICES[5221]] = {{ vertex=VERTICES[414], cost=0 },}
+EDGES[VERTICES[1219]] = {{ vertex=VERTICES[1760], cost=0 },}
+EDGES[VERTICES[4623]] = {{ vertex=VERTICES[3137], cost=0 },}
+EDGES[VERTICES[6150]] = {{ vertex=VERTICES[2661], cost=0 },}
+EDGES[VERTICES[1421]] = {{ vertex=VERTICES[3975], cost=0 },}
+EDGES[VERTICES[263]] = {{ vertex=VERTICES[628], cost=0 },}
+EDGES[VERTICES[5238]] = {{ vertex=VERTICES[4410], cost=0 },}
+EDGES[VERTICES[1129]] = {{ vertex=VERTICES[2446], cost=0 },}
+EDGES[VERTICES[6244]] = {{ vertex=VERTICES[4752], cost=0 },}
+EDGES[VERTICES[1854]] = {{ vertex=VERTICES[2672], cost=0 },}
+EDGES[VERTICES[4362]] = {{ vertex=VERTICES[4704], cost=0 },}
+EDGES[VERTICES[2214]] = {{ vertex=VERTICES[1999], cost=0 },}
+EDGES[VERTICES[977]] = {{ vertex=VERTICES[579], cost=0 },}
+EDGES[VERTICES[2638]] = {{ vertex=VERTICES[131], cost=0 },}
+EDGES[VERTICES[714]] = {{ vertex=VERTICES[4787], cost=0 },}
+EDGES[VERTICES[6280]] = {{ vertex=VERTICES[5033], cost=0 },}
+EDGES[VERTICES[2218]] = {{ vertex=VERTICES[6351], cost=0 },}
+EDGES[VERTICES[6352]] = {{ vertex=VERTICES[781], cost=0 },}
+EDGES[VERTICES[4937]] = {{ vertex=VERTICES[3696], cost=0 },}
+EDGES[VERTICES[759]] = {{ vertex=VERTICES[2989], cost=0 },}
+EDGES[VERTICES[6363]] = {{ vertex=VERTICES[2045], cost=0 },}
+EDGES[VERTICES[3866]] = {{ vertex=VERTICES[2527], cost=0 },}
+EDGES[VERTICES[1558]] = {{ vertex=VERTICES[3134], cost=0 },}
+EDGES[VERTICES[2423]] = {{ vertex=VERTICES[5602], cost=0 },}
+EDGES[VERTICES[3660]] = {{ vertex=VERTICES[1420], cost=0 },}
+EDGES[VERTICES[3013]] = {{ vertex=VERTICES[5062], cost=0 },}
+EDGES[VERTICES[5208]] = {{ vertex=VERTICES[3024], cost=0 },}
+EDGES[VERTICES[2709]] = {{ vertex=VERTICES[3020], cost=0 },}
+EDGES[VERTICES[3482]] = {{ vertex=VERTICES[5969], cost=0 },}
+EDGES[VERTICES[2485]] = {{ vertex=VERTICES[5277], cost=0 },}
+EDGES[VERTICES[2901]] = {{ vertex=VERTICES[1735], cost=0 },}
+EDGES[VERTICES[3587]] = {{ vertex=VERTICES[5211], cost=0 },}
+EDGES[VERTICES[403]] = {{ vertex=VERTICES[4779], cost=0 },}
+EDGES[VERTICES[2210]] = {{ vertex=VERTICES[4452], cost=0 },}
+EDGES[VERTICES[1302]] = {{ vertex=VERTICES[3833], cost=0 },}
+EDGES[VERTICES[5654]] = {{ vertex=VERTICES[386], cost=0 },}
+EDGES[VERTICES[1437]] = {{ vertex=VERTICES[4006], cost=0 },}
+EDGES[VERTICES[3764]] = {{ vertex=VERTICES[365], cost=0 },}
+EDGES[VERTICES[1822]] = {{ vertex=VERTICES[1029], cost=0 },}
+EDGES[VERTICES[5219]] = {{ vertex=VERTICES[2753], cost=0 },}
+EDGES[VERTICES[863]] = {{ vertex=VERTICES[1891], cost=0 },}
+EDGES[VERTICES[4296]] = {{ vertex=VERTICES[2293], cost=0 },}
+EDGES[VERTICES[1282]] = {{ vertex=VERTICES[1014], cost=0 },}
+EDGES[VERTICES[2448]] = {{ vertex=VERTICES[6345], cost=0 },}
+EDGES[VERTICES[2107]] = {{ vertex=VERTICES[2669], cost=0 },}
+EDGES[VERTICES[1460]] = {{ vertex=VERTICES[163], cost=0 },}
+EDGES[VERTICES[4919]] = {{ vertex=VERTICES[1473], cost=0 },}
+EDGES[VERTICES[3709]] = {{ vertex=VERTICES[1163], cost=0 },}
+EDGES[VERTICES[5209]] = {{ vertex=VERTICES[1743], cost=0 },}
+EDGES[VERTICES[4097]] = {{ vertex=VERTICES[672], cost=0 },}
+EDGES[VERTICES[5623]] = {{ vertex=VERTICES[6060], cost=0 },}
+EDGES[VERTICES[4085]] = {{ vertex=VERTICES[990], cost=0 },}
+EDGES[VERTICES[3581]] = {{ vertex=VERTICES[2153], cost=0 },}
+EDGES[VERTICES[1647]] = {{ vertex=VERTICES[5767], cost=0 },}
+EDGES[VERTICES[5488]] = {{ vertex=VERTICES[239], cost=0 },}
+EDGES[VERTICES[2473]] = {{ vertex=VERTICES[2270], cost=0 },}
+EDGES[VERTICES[5933]] = {{ vertex=VERTICES[1948], cost=0 },}
+EDGES[VERTICES[3531]] = {{ vertex=VERTICES[2347], cost=0 },}
+EDGES[VERTICES[1812]] = {{ vertex=VERTICES[4405], cost=0 },}
+EDGES[VERTICES[1242]] = {{ vertex=VERTICES[4726], cost=0 },}
+EDGES[VERTICES[2602]] = {{ vertex=VERTICES[1112], cost=0 },}
+EDGES[VERTICES[3044]] = {{ vertex=VERTICES[83], cost=0 },}
+EDGES[VERTICES[1707]] = {{ vertex=VERTICES[3489], cost=0 },}
+EDGES[VERTICES[2251]] = {{ vertex=VERTICES[3584], cost=0 },}
+EDGES[VERTICES[110]] = {{ vertex=VERTICES[4263], cost=0 },}
+EDGES[VERTICES[3639]] = {{ vertex=VERTICES[2628], cost=0 },}
+EDGES[VERTICES[2979]] = {{ vertex=VERTICES[4416], cost=0 },}
+EDGES[VERTICES[1270]] = {{ vertex=VERTICES[6198], cost=0 },}
+EDGES[VERTICES[4760]] = {{ vertex=VERTICES[4273], cost=0 },}
+EDGES[VERTICES[2200]] = {{ vertex=VERTICES[5893], cost=0 },}
+EDGES[VERTICES[2780]] = {{ vertex=VERTICES[479], cost=0 },}
+EDGES[VERTICES[4335]] = {{ vertex=VERTICES[5268], cost=0 },}
+EDGES[VERTICES[2813]] = {{ vertex=VERTICES[6093], cost=0 },}
+EDGES[VERTICES[4150]] = {{ vertex=VERTICES[1175], cost=0 },}
+EDGES[VERTICES[6085]] = {{ vertex=VERTICES[2742], cost=0 },}
+EDGES[VERTICES[4221]] = {{ vertex=VERTICES[1347], cost=0 },{ vertex=VERTICES[1193], cost=0 },{ vertex=VERTICES[843], cost=0 },{ vertex=VERTICES[2466], cost=0 },}
+EDGES[VERTICES[1961]] = {{ vertex=VERTICES[2205], cost=0 },}
+EDGES[VERTICES[4414]] = {{ vertex=VERTICES[3385], cost=0 },}
+EDGES[VERTICES[4836]] = {{ vertex=VERTICES[3672], cost=0 },}
+EDGES[VERTICES[380]] = {{ vertex=VERTICES[3571], cost=0 },}
+EDGES[VERTICES[976]] = {{ vertex=VERTICES[5901], cost=0 },}
+EDGES[VERTICES[4102]] = {{ vertex=VERTICES[1739], cost=0 },}
+EDGES[VERTICES[3563]] = {{ vertex=VERTICES[6393], cost=0 },}
+EDGES[VERTICES[5930]] = {{ vertex=VERTICES[3122], cost=0 },}
+EDGES[VERTICES[5530]] = {{ vertex=VERTICES[504], cost=0 },}
+EDGES[VERTICES[4469]] = {{ vertex=VERTICES[3470], cost=0 },}
+EDGES[VERTICES[2139]] = {{ vertex=VERTICES[2725], cost=0 },}
+EDGES[VERTICES[4239]] = {{ vertex=VERTICES[4500], cost=0 },}
+EDGES[VERTICES[4604]] = {{ vertex=VERTICES[275], cost=0 },}
+EDGES[VERTICES[351]] = {{ vertex=VERTICES[3264], cost=0 },}
+EDGES[VERTICES[5318]] = {{ vertex=VERTICES[1726], cost=0 },}
+EDGES[VERTICES[2512]] = {{ vertex=VERTICES[5245], cost=0 },}
+EDGES[VERTICES[5169]] = {{ vertex=VERTICES[3007], cost=0 },}
+EDGES[VERTICES[5316]] = {{ vertex=VERTICES[1075], cost=0 },}
+EDGES[VERTICES[5956]] = {{ vertex=VERTICES[6380], cost=0 },}
+EDGES[VERTICES[5500]] = {{ vertex=VERTICES[4259], cost=0 },}
+EDGES[VERTICES[2764]] = {{ vertex=VERTICES[5182], cost=0 },}
+EDGES[VERTICES[1165]] = {{ vertex=VERTICES[1324], cost=0 },}
+EDGES[VERTICES[284]] = {{ vertex=VERTICES[5897], cost=0 },}
+EDGES[VERTICES[1186]] = {{ vertex=VERTICES[2519], cost=0 },}
+EDGES[VERTICES[1991]] = {{ vertex=VERTICES[1794], cost=0 },}
+EDGES[VERTICES[4092]] = {{ vertex=VERTICES[2623], cost=0 },}
+EDGES[VERTICES[40]] = {{ vertex=VERTICES[4667], cost=0 },}
+EDGES[VERTICES[6165]] = {{ vertex=VERTICES[419], cost=0 },}
+EDGES[VERTICES[2772]] = {{ vertex=VERTICES[6116], cost=0 },}
+EDGES[VERTICES[2435]] = {{ vertex=VERTICES[4143], cost=0 },}
+EDGES[VERTICES[5823]] = {{ vertex=VERTICES[1411], cost=0 },}
+EDGES[VERTICES[4732]] = {{ vertex=VERTICES[1535], cost=0 },}
+EDGES[VERTICES[5460]] = {{ vertex=VERTICES[4723], cost=0 },}
+EDGES[VERTICES[5996]] = {{ vertex=VERTICES[619], cost=0 },}
+EDGES[VERTICES[3597]] = {{ vertex=VERTICES[5950], cost=0 },}
+EDGES[VERTICES[5561]] = {{ vertex=VERTICES[2261], cost=0 },}
+EDGES[VERTICES[4463]] = {{ vertex=VERTICES[6113], cost=0 },}
+EDGES[VERTICES[4098]] = {{ vertex=VERTICES[4218], cost=0 },}
+EDGES[VERTICES[6139]] = {{ vertex=VERTICES[1690], cost=0 },}
+EDGES[VERTICES[460]] = {{ vertex=VERTICES[4093], cost=0 },}
+EDGES[VERTICES[5002]] = {{ vertex=VERTICES[3457], cost=0 },}
+EDGES[VERTICES[6136]] = {{ vertex=VERTICES[942], cost=0 },}
+EDGES[VERTICES[2555]] = {{ vertex=VERTICES[2287], cost=0 },}
+EDGES[VERTICES[3796]] = {{ vertex=VERTICES[4943], cost=0 },}
+EDGES[VERTICES[4108]] = {{ vertex=VERTICES[3936], cost=0 },}
+EDGES[VERTICES[4065]] = {{ vertex=VERTICES[4112], cost=0 },}
+EDGES[VERTICES[682]] = {{ vertex=VERTICES[3048], cost=0 },}
+EDGES[VERTICES[3081]] = {{ vertex=VERTICES[4413], cost=0 },}
+EDGES[VERTICES[1617]] = {{ vertex=VERTICES[3149], cost=0 },}
+EDGES[VERTICES[6073]] = {{ vertex=VERTICES[665], cost=0 },}
+EDGES[VERTICES[4118]] = {{ vertex=VERTICES[2267], cost=0 },}
+EDGES[VERTICES[2723]] = {{ vertex=VERTICES[3995], cost=0 },}
+EDGES[VERTICES[5762]] = {{ vertex=VERTICES[1738], cost=0 },}
+EDGES[VERTICES[2997]] = {{ vertex=VERTICES[3785], cost=0 },}
+EDGES[VERTICES[1747]] = {{ vertex=VERTICES[5688], cost=0 },}
+EDGES[VERTICES[2891]] = {{ vertex=VERTICES[4350], cost=0 },}
+EDGES[VERTICES[2998]] = {{ vertex=VERTICES[3209], cost=0 },}
+EDGES[VERTICES[2830]] = {{ vertex=VERTICES[1089], cost=0 },}
+EDGES[VERTICES[986]] = {{ vertex=VERTICES[5658], cost=0 },}
+EDGES[VERTICES[1198]] = {{ vertex=VERTICES[3765], cost=0 },}
+EDGES[VERTICES[4645]] = {{ vertex=VERTICES[5319], cost=0 },}
+EDGES[VERTICES[413]] = {{ vertex=VERTICES[425], cost=0 },}
+EDGES[VERTICES[5192]] = {{ vertex=VERTICES[3894], cost=0 },}
+EDGES[VERTICES[2155]] = {{ vertex=VERTICES[1553], cost=0 },}
+EDGES[VERTICES[3612]] = {{ vertex=VERTICES[5253], cost=0 },}
+EDGES[VERTICES[3806]] = {{ vertex=VERTICES[1870], cost=0 },}
+EDGES[VERTICES[1509]] = {{ vertex=VERTICES[793], cost=0 },}
+EDGES[VERTICES[2663]] = {{ vertex=VERTICES[265], cost=0 },}
+EDGES[VERTICES[5229]] = {{ vertex=VERTICES[1177], cost=0 },}
+EDGES[VERTICES[3572]] = {{ vertex=VERTICES[2408], cost=0 },}
+EDGES[VERTICES[5725]] = {{ vertex=VERTICES[5393], cost=0 },}
+EDGES[VERTICES[2437]] = {{ vertex=VERTICES[16], cost=0 },}
+EDGES[VERTICES[1349]] = {{ vertex=VERTICES[4609], cost=0 },}
+EDGES[VERTICES[570]] = {{ vertex=VERTICES[3681], cost=0 },}
+EDGES[VERTICES[3862]] = {{ vertex=VERTICES[94], cost=0 },}
+EDGES[VERTICES[4994]] = {{ vertex=VERTICES[1054], cost=0 },}
+EDGES[VERTICES[5865]] = {{ vertex=VERTICES[5161], cost=0 },}
+EDGES[VERTICES[1205]] = {{ vertex=VERTICES[3729], cost=0 },}
+EDGES[VERTICES[5749]] = {{ vertex=VERTICES[3982], cost=0 },}
+EDGES[VERTICES[1166]] = {{ vertex=VERTICES[6342], cost=0 },}
+EDGES[VERTICES[3023]] = {{ vertex=VERTICES[737], cost=0 },}
+EDGES[VERTICES[3945]] = {{ vertex=VERTICES[274], cost=0 },}
+EDGES[VERTICES[3887]] = {{ vertex=VERTICES[1590], cost=0 },}
+EDGES[VERTICES[2837]] = {{ vertex=VERTICES[230], cost=0 },}
+EDGES[VERTICES[2767]] = {{ vertex=VERTICES[2433], cost=0 },}
+EDGES[VERTICES[1641]] = {{ vertex=VERTICES[2935], cost=0 },}
+EDGES[VERTICES[2219]] = {{ vertex=VERTICES[3583], cost=0 },}
+EDGES[VERTICES[4252]] = {{ vertex=VERTICES[4560], cost=0 },}
+EDGES[VERTICES[1007]] = {{ vertex=VERTICES[3519], cost=0 },}
+EDGES[VERTICES[6328]] = {{ vertex=VERTICES[21], cost=0 },}
+EDGES[VERTICES[1896]] = {{ vertex=VERTICES[4582], cost=0 },}
+EDGES[VERTICES[256]] = {{ vertex=VERTICES[5574], cost=0 },}
+EDGES[VERTICES[2149]] = {{ vertex=VERTICES[6050], cost=0 },}
+EDGES[VERTICES[5064]] = {{ vertex=VERTICES[5800], cost=0 },}
+EDGES[VERTICES[84]] = {{ vertex=VERTICES[4187], cost=0 },}
+EDGES[VERTICES[3475]] = {{ vertex=VERTICES[321], cost=0 },}
+EDGES[VERTICES[1864]] = {{ vertex=VERTICES[437], cost=0 },}
+EDGES[VERTICES[2590]] = {{ vertex=VERTICES[2401], cost=0 },}
+EDGES[VERTICES[2133]] = {{ vertex=VERTICES[3870], cost=0 },}
+EDGES[VERTICES[4455]] = {{ vertex=VERTICES[3784], cost=0 },}
+EDGES[VERTICES[3630]] = {{ vertex=VERTICES[3753], cost=0 },}
+EDGES[VERTICES[1750]] = {{ vertex=VERTICES[5991], cost=0 },}
+EDGES[VERTICES[5824]] = {{ vertex=VERTICES[2820], cost=0 },}
+EDGES[VERTICES[5321]] = {{ vertex=VERTICES[826], cost=0 },}
+EDGES[VERTICES[3804]] = {{ vertex=VERTICES[46], cost=0 },}
+EDGES[VERTICES[2167]] = {{ vertex=VERTICES[2026], cost=0 },}
+EDGES[VERTICES[1368]] = {{ vertex=VERTICES[1103], cost=0 },}
+EDGES[VERTICES[1889]] = {{ vertex=VERTICES[3624], cost=0 },}
+EDGES[VERTICES[3008]] = {{ vertex=VERTICES[4424], cost=0 },{ vertex=VERTICES[5070], cost=0 },{ vertex=VERTICES[4237], cost=0 },}
+EDGES[VERTICES[1497]] = {{ vertex=VERTICES[2158], cost=0 },}
+EDGES[VERTICES[1025]] = {{ vertex=VERTICES[926], cost=0 },}
+EDGES[VERTICES[3748]] = {{ vertex=VERTICES[771], cost=0 },}
+EDGES[VERTICES[3459]] = {{ vertex=VERTICES[4048], cost=0 },}
+EDGES[VERTICES[1934]] = {{ vertex=VERTICES[4020], cost=0 },}
+EDGES[VERTICES[162]] = {{ vertex=VERTICES[1245], cost=0 },}
+EDGES[VERTICES[341]] = {{ vertex=VERTICES[5838], cost=0 },}
+EDGES[VERTICES[554]] = {{ vertex=VERTICES[398], cost=0 },}
+EDGES[VERTICES[222]] = {{ vertex=VERTICES[1133], cost=0 },}
+EDGES[VERTICES[3487]] = {{ vertex=VERTICES[5428], cost=0 },}
+EDGES[VERTICES[4055]] = {{ vertex=VERTICES[1101], cost=0 },}
+EDGES[VERTICES[3520]] = {{ vertex=VERTICES[2850], cost=0 },}
+EDGES[VERTICES[837]] = {{ vertex=VERTICES[5973], cost=0 },}
+EDGES[VERTICES[1076]] = {{ vertex=VERTICES[5311], cost=0 },}
+EDGES[VERTICES[4839]] = {{ vertex=VERTICES[3516], cost=0 },}
+EDGES[VERTICES[4553]] = {{ vertex=VERTICES[2377], cost=0 },}
+EDGES[VERTICES[2141]] = {{ vertex=VERTICES[725], cost=0 },}
+EDGES[VERTICES[6381]] = {{ vertex=VERTICES[6213], cost=0 },}
+EDGES[VERTICES[5974]] = {{ vertex=VERTICES[5073], cost=0 },}
+EDGES[VERTICES[5699]] = {{ vertex=VERTICES[3442], cost=0 },}
+EDGES[VERTICES[3282]] = {{ vertex=VERTICES[2856], cost=0 },}
+EDGES[VERTICES[2060]] = {{ vertex=VERTICES[1619], cost=0 },}
+EDGES[VERTICES[3792]] = {{ vertex=VERTICES[5655], cost=0 },}
+EDGES[VERTICES[5423]] = {{ vertex=VERTICES[5622], cost=0 },{ vertex=VERTICES[1512], cost=0 },{ vertex=VERTICES[6007], cost=0 },{ vertex=VERTICES[6400], cost=0 },}
+EDGES[VERTICES[4451]] = {{ vertex=VERTICES[2947], cost=0 },}
+EDGES[VERTICES[6184]] = {{ vertex=VERTICES[2245], cost=0 },}
+EDGES[VERTICES[5119]] = {{ vertex=VERTICES[4569], cost=0 },}
+EDGES[VERTICES[1204]] = {{ vertex=VERTICES[140], cost=0 },}
+EDGES[VERTICES[1372]] = {{ vertex=VERTICES[334], cost=0 },}
+EDGES[VERTICES[5439]] = {{ vertex=VERTICES[3994], cost=0 },}
+EDGES[VERTICES[4448]] = {{ vertex=VERTICES[6177], cost=0 },}
+EDGES[VERTICES[6058]] = {{ vertex=VERTICES[1027], cost=0 },{ vertex=VERTICES[1396], cost=0 },{ vertex=VERTICES[3795], cost=0 },}
+EDGES[VERTICES[5287]] = {{ vertex=VERTICES[4466], cost=0 },}
+EDGES[VERTICES[5079]] = {{ vertex=VERTICES[4053], cost=0 },}
+EDGES[VERTICES[1544]] = {{ vertex=VERTICES[566], cost=0 },}
+EDGES[VERTICES[4859]] = {{ vertex=VERTICES[2900], cost=0 },}
+EDGES[VERTICES[3688]] = {{ vertex=VERTICES[2569], cost=0 },}
+EDGES[VERTICES[4714]] = {{ vertex=VERTICES[348], cost=0 },}
+EDGES[VERTICES[3911]] = {{ vertex=VERTICES[3047], cost=0 },}
+EDGES[VERTICES[2403]] = {{ vertex=VERTICES[1354], cost=0 },}
+EDGES[VERTICES[5719]] = {{ vertex=VERTICES[3533], cost=0 },}
+EDGES[VERTICES[2699]] = {{ vertex=VERTICES[1682], cost=0 },}
+EDGES[VERTICES[3449]] = {{ vertex=VERTICES[722], cost=0 },}
+EDGES[VERTICES[4059]] = {{ vertex=VERTICES[1693], cost=0 },}
+EDGES[VERTICES[2598]] = {{ vertex=VERTICES[2788], cost=0 },}
+EDGES[VERTICES[5756]] = {{ vertex=VERTICES[2351], cost=0 },}
+EDGES[VERTICES[3010]] = {{ vertex=VERTICES[4682], cost=0 },}
+EDGES[VERTICES[2430]] = {{ vertex=VERTICES[1379], cost=0 },}
+EDGES[VERTICES[5155]] = {{ vertex=VERTICES[5113], cost=0 },}
+EDGES[VERTICES[226]] = {{ vertex=VERTICES[5965], cost=0 },}
+EDGES[VERTICES[4811]] = {{ vertex=VERTICES[4955], cost=0 },}
+EDGES[VERTICES[5592]] = {{ vertex=VERTICES[354], cost=0 },}
+EDGES[VERTICES[952]] = {{ vertex=VERTICES[3376], cost=0 },}
+EDGES[VERTICES[5993]] = {{ vertex=VERTICES[5133], cost=0 },}
+EDGES[VERTICES[3750]] = {{ vertex=VERTICES[3452], cost=0 },}
+EDGES[VERTICES[336]] = {{ vertex=VERTICES[5839], cost=0 },}
+EDGES[VERTICES[6020]] = {{ vertex=VERTICES[3294], cost=0 },}
+EDGES[VERTICES[3479]] = {{ vertex=VERTICES[177], cost=0 },}
+EDGES[VERTICES[1529]] = {{ vertex=VERTICES[916], cost=0 },{ vertex=VERTICES[465], cost=0 },{ vertex=VERTICES[4927], cost=0 },{ vertex=VERTICES[3093], cost=0 },}
+EDGES[VERTICES[3947]] = {{ vertex=VERTICES[2641], cost=0 },}
+EDGES[VERTICES[5396]] = {{ vertex=VERTICES[4183], cost=0 },}
+EDGES[VERTICES[2161]] = {{ vertex=VERTICES[3725], cost=0 },}
+EDGES[VERTICES[3295]] = {{ vertex=VERTICES[6259], cost=0 },}
+EDGES[VERTICES[471]] = {{ vertex=VERTICES[1046], cost=0 },}
+EDGES[VERTICES[3354]] = {{ vertex=VERTICES[1980], cost=0 },}
+EDGES[VERTICES[997]] = {{ vertex=VERTICES[711], cost=0 },}
+EDGES[VERTICES[4045]] = {{ vertex=VERTICES[2754], cost=0 },}
+EDGES[VERTICES[3953]] = {{ vertex=VERTICES[1603], cost=0 },}
+EDGES[VERTICES[269]] = {{ vertex=VERTICES[6230], cost=0 },}
+EDGES[VERTICES[4579]] = {{ vertex=VERTICES[3367], cost=0 },}
+EDGES[VERTICES[5788]] = {{ vertex=VERTICES[2274], cost=0 },}
+EDGES[VERTICES[893]] = {{ vertex=VERTICES[1778], cost=0 },}
+EDGES[VERTICES[6341]] = {{ vertex=VERTICES[6019], cost=0 },}
+EDGES[VERTICES[3772]] = {{ vertex=VERTICES[755], cost=0 },}
+EDGES[VERTICES[1537]] = {{ vertex=VERTICES[3000], cost=0 },}
+EDGES[VERTICES[3311]] = {{ vertex=VERTICES[4554], cost=0 },}
+EDGES[VERTICES[5257]] = {{ vertex=VERTICES[1912], cost=0 },}
+EDGES[VERTICES[5352]] = {{ vertex=VERTICES[5942], cost=0 },}
+EDGES[VERTICES[1879]] = {{ vertex=VERTICES[3375], cost=0 },}
+EDGES[VERTICES[2146]] = {{ vertex=VERTICES[2277], cost=0 },}
+EDGES[VERTICES[1381]] = {{ vertex=VERTICES[948], cost=0 },}
+EDGES[VERTICES[440]] = {{ vertex=VERTICES[4770], cost=0 },}
+EDGES[VERTICES[2731]] = {{ vertex=VERTICES[1159], cost=0 },}
+EDGES[VERTICES[523]] = {{ vertex=VERTICES[1250], cost=0 },}
+EDGES[VERTICES[3351]] = {{ vertex=VERTICES[5334], cost=0 },}
+EDGES[VERTICES[491]] = {{ vertex=VERTICES[2870], cost=0 },}
+EDGES[VERTICES[5904]] = {{ vertex=VERTICES[965], cost=0 },}
+EDGES[VERTICES[1037]] = {{ vertex=VERTICES[4075], cost=0 },}
+EDGES[VERTICES[4978]] = {{ vertex=VERTICES[5544], cost=0 },}
+EDGES[VERTICES[1697]] = {{ vertex=VERTICES[4563], cost=0 },}
+EDGES[VERTICES[2044]] = {{ vertex=VERTICES[4333], cost=0 },}
+EDGES[VERTICES[1352]] = {{ vertex=VERTICES[5797], cost=0 },}
+EDGES[VERTICES[2871]] = {{ vertex=VERTICES[3084], cost=0 },}
+EDGES[VERTICES[1266]] = {{ vertex=VERTICES[5126], cost=0 },}
+EDGES[VERTICES[4949]] = {{ vertex=VERTICES[1630], cost=0 },}
+EDGES[VERTICES[5680]] = {{ vertex=VERTICES[4900], cost=0 },}
+EDGES[VERTICES[2956]] = {{ vertex=VERTICES[485], cost=0 },}
+EDGES[VERTICES[388]] = {{ vertex=VERTICES[493], cost=0 },}
+EDGES[VERTICES[6190]] = {{ vertex=VERTICES[3344], cost=0 },}
+EDGES[VERTICES[3943]] = {{ vertex=VERTICES[681], cost=0 },}
+EDGES[VERTICES[4693]] = {{ vertex=VERTICES[5237], cost=0 },}
+EDGES[VERTICES[6268]] = {{ vertex=VERTICES[3807], cost=0 },}
+EDGES[VERTICES[1967]] = {{ vertex=VERTICES[1893], cost=0 },}
+EDGES[VERTICES[3119]] = {{ vertex=VERTICES[3380], cost=0 },}
 
 
 global CELL_CLUSTERS: {T.CellCluster} = {
-    {cellIds={"Ahemmusa Camp, Ashkhan's Yurt", }, entryExitVertices={VERTICES[2530], VERTICES[985], }},
-    {cellIds={"Balmora, Dralcea Arethi's House", }, entryExitVertices={VERTICES[529], VERTICES[4297], }},
-    {cellIds={"Vivec, Redoran Waistworks", "Vivec, Redoran Prison Cells", "Vivec, Redoran Smith", "Vivec, Redoran Underworks", "Vivec, Redoran Scout & Drillmaster", "Vivec, Redoran Canalworks", "Vivec, The Flowers of Gold", "Vivec, Redoran Plaza", "Vivec, Redoran Treasury", "Vivec, Dralor Manor", "Vivec, Saren Manor", "Vivec, Redoran Temple Shrine", "Vivec, Redoran Ancestral Vaults", "Vivec, Redoran Vaults", "Vivec, Redoran Records", "Vivec, Redoran Trader", }, entryExitVertices={VERTICES[3585], VERTICES[3280], VERTICES[2255], VERTICES[2353], VERTICES[4508], VERTICES[2720], VERTICES[199], VERTICES[2814], VERTICES[3326], VERTICES[2683], VERTICES[2893], VERTICES[5207], VERTICES[1178], VERTICES[1982], VERTICES[3807], VERTICES[3560], VERTICES[86], VERTICES[1955], VERTICES[1482], VERTICES[2487], }},
-    {cellIds={"Sargon", }, entryExitVertices={VERTICES[3089], VERTICES[1884], }},
-    {cellIds={"Erabenimsun Camp, Ainab's Yurt", }, entryExitVertices={VERTICES[5553], VERTICES[1812], }},
-    {cellIds={"Ald-ruhn, Malpenix Blonia: Trader", "Ald-ruhn, Tuveso Beleth: Smith", "Ald-ruhn, Venim Manor Entrance", "Ald-ruhn, Llethri Private Quarters", "Ald-ruhn, Boldrisa Andrano's House", "Ald-ruhn, Practice Room", "Ald-ruhn, Goras Andrelo's House", "Ald-ruhn, Venim Manor Bedrooms", "Ald-ruhn, Arobar Guard Quarters", "Ald-ruhn, Llethri Manor Bedrooms", "Ald-ruhn, Sarethi Manor", "Ald-ruhn, Venim Manor Private Quarters", "Ald-ruhn, Bivale Teneran: Clothier", "Ald-ruhn, Ramoran Private Quarters", "Ald-ruhn, Llether Vari: Enchanter", "Ald-ruhn, Arobar Private Quarters", "Ald-ruhn, Manor District", "Ald-ruhn, Redoran Council Entrance", "Ald-ruhn, Morag Tong Guildhall", "Ald-ruhn, Sarethi Guard Quarters", "Ald-ruhn, Council Hostel", "Ald-ruhn, Redoran Council Hall", "Ald-ruhn, Morvayn Quarters", "Ald-ruhn, Arobar Manor Bedrooms", "Ald-ruhn, Llethri Guard Quarters", "Ald-ruhn, Ramoran Manor", "Ald-ruhn, Galsa Gindu's House", "Ald-ruhn, Venim Manor Right Wing", "Ald-ruhn, Llethri Manor Entrance", "Ald-ruhn, Venim Manor Guard Quarters", "Ald-ruhn, Arobar Manor Entrance", "Ald-ruhn, Cienne Sintieve: Alchemist", "Ald-ruhn, Guls Llervu's House", }, entryExitVertices={VERTICES[1221], VERTICES[3431], }},
-    {cellIds={"Vivec, Arena Pit", "Vivec, Arena Storage", "Vivec, Arena Underworks", "Vivec, Arena Holding Cells", "Vivec, Arena Fighters Quarters", "Vivec, Arena Fighters Training", "Vivec, Arena Canalworks", "Vivec, Arena Waistworks", "Vivec, Arena Hidden Area", }, entryExitVertices={VERTICES[5829], VERTICES[618], VERTICES[4599], VERTICES[3133], VERTICES[3209], VERTICES[298], VERTICES[6036], VERTICES[893], VERTICES[1526], VERTICES[5267], VERTICES[1762], VERTICES[2916], VERTICES[1737], VERTICES[5017], VERTICES[5316], VERTICES[4652], VERTICES[1633], VERTICES[2853], }},
-    {cellIds={"Berandas, Keep, Bottom Level", "Berandas, Underground", "Berandas, Keep, Top Level", }, entryExitVertices={VERTICES[2192], VERTICES[5826], }},
-    {cellIds={"Ihinipalit, Shrine", "Vivec, St. Delyn Plaza", "Vivec, The Abbey of St. Delyn the Wise", "Vivec, Mevel Fererus: Trader", "Vivec, Lucretinaus Olcinius: Trader", "Vivec, St. Delyn Storage", "Vivec, St. Delyn Waistworks", "Vivec, Tervur Braven: Trader", "Vivec, St. Delyn Glassworker's Hall", "Vivec, St. Delyn Underworks", "Vivec, St. Delyn Canalworks", "Vivec, St. Delyn Potter's Hall", }, entryExitVertices={VERTICES[3149], VERTICES[4130], VERTICES[1994], VERTICES[1187], VERTICES[4527], VERTICES[5350], VERTICES[838], VERTICES[1545], VERTICES[35], VERTICES[542], VERTICES[3313], VERTICES[848], VERTICES[3524], VERTICES[2434], VERTICES[3139], VERTICES[1577], VERTICES[787], VERTICES[4723], VERTICES[705], VERTICES[348], VERTICES[5631], VERTICES[1918], }},
-    {cellIds={"Ashurnibibi, Shrine", }, entryExitVertices={VERTICES[5336], VERTICES[1312], }},
-    {cellIds={"Ald-ruhn, Bevene Releth: Clothier", }, entryExitVertices={VERTICES[2852], VERTICES[5917], }},
-    {cellIds={"Hla Oad, Fatleg's Drop Off", }, entryExitVertices={VERTICES[1827], VERTICES[3403], VERTICES[196], VERTICES[5573], }},
-    {cellIds={"Sud", }, entryExitVertices={VERTICES[4824], VERTICES[4656], }},
-    {cellIds={"Ald Daedroth, Left Wing", "Ald Daedroth, Inner Shrine", "Ald Daedroth, Antechamber", "Ald Daedroth, Outer Shrine", "Ald Daedroth, Right Wing", }, entryExitVertices={VERTICES[2793], VERTICES[2532], }},
-    {cellIds={"Druscashti, Lower Level", "Druscashti, Upper Level", }, entryExitVertices={VERTICES[3227], VERTICES[2451], VERTICES[924], }},
-    {cellIds={"Vivec, Hlaalu Ancestral Vaults", "Vivec, Hlaalu Waistworks", "Vivec, Hlaalu Edryno Arethi's House", "Vivec, Hlaalu Plaza", "Vivec, No Name Club", "Vivec, Curio Manor", "Vivec, Hlaalu Records", "Vivec, Hlaalu Canalworks", "Vivec, Hlaalu General Goods", "Vivec, Hlaalu Vaults", "Vivec, Hlaalu Weaponsmith", "Vivec, Hlaalu Alchemist", "Vivec, Hlaalu Prison Cells", "Vivec, Hlaalu Temple", "Vivec, Elven Nations Cornerclub", "Vivec, Hlaalu Treasury", "Vivec, Hlaalu Underworks", "Vivec, Hlaalu Pawnbroker", }, entryExitVertices={VERTICES[3035], VERTICES[5124], VERTICES[5397], VERTICES[6055], VERTICES[2418], VERTICES[5164], VERTICES[4181], VERTICES[5613], VERTICES[5268], VERTICES[1740], VERTICES[1315], VERTICES[3721], VERTICES[1782], VERTICES[4593], VERTICES[734], VERTICES[2260], VERTICES[3263], VERTICES[1337], }},
-    {cellIds={"Ghostgate, Tower of Dusk", "Ghostgate, Tower of Dawn Lower Level", "Ghostgate, Temple", "Ghostgate, Tower of Dusk Lower Level", "Ghostgate, Tower of Dawn", }, entryExitVertices={VERTICES[1111], VERTICES[6105], VERTICES[2182], VERTICES[1809], }},
-    {cellIds={"Dagon Fel, Andre Maul's Tower", }, entryExitVertices={VERTICES[369], VERTICES[5071], }},
-    {cellIds={"Sinamusa Egg Mine", }, entryExitVertices={VERTICES[4874], VERTICES[2383], }},
-    {cellIds={"Vivec, St. Olms Plaza", "Vivec, St. Olms Haunted Manor", "Vivec, St. Olms Temple", "Vivec, St. Olms Yngling Manor Basement", "Vivec, St. Olms Upper North-Two", "Vivec, St. Olms Yngling Manor", "Vivec, St. Olms Upper South-One", "Vivec, St. Olms Upper North-One", }, entryExitVertices={VERTICES[5002], VERTICES[4976], VERTICES[640], VERTICES[4114], }},
-    {cellIds={"Dagon Fel, Hurg's House", }, entryExitVertices={VERTICES[4911], VERTICES[4059], }},
-    {cellIds={"Molag Mar, The Pilgrim's Rest", "Molag Mar, Canalworks", "Molag Mar, Waistworks", "Molag Mar, Armigers Stronghold", "Molag Mar, Underworks", "Molag Mar, Vasesius Viciulus: Trader", "Molag Mar, Saetring the Nord: Smith", }, entryExitVertices={VERTICES[2742], VERTICES[1204], VERTICES[140], VERTICES[5937], VERTICES[5149], VERTICES[3647], VERTICES[3260], VERTICES[399], VERTICES[2858], VERTICES[3548], VERTICES[4329], VERTICES[1557], VERTICES[389], VERTICES[108], VERTICES[6185], VERTICES[4674], }},
-    {cellIds={"Sadrith Mora, Tel Naga Great Hall", "Sadrith Mora, Tel Naga Upper Hall", "Sadrith Mora, Tel Naga General Quarters", "Sadrith Mora, Tel Naga Upper Tower", }, entryExitVertices={VERTICES[559], VERTICES[111], VERTICES[5777], VERTICES[2888], VERTICES[5554], VERTICES[2828], VERTICES[377], VERTICES[4431], }},
-    {cellIds={"Ahemmusa Camp, Dutadalk's Yurt", }, entryExitVertices={VERTICES[5186], VERTICES[6189], }},
-    {cellIds={"Gnaar Mok, Mush-Mere's Shack", }, entryExitVertices={VERTICES[4897], VERTICES[3819], }},
-    {cellIds={"Bal Ur, Shrine", "Bal Ur, Underground", }, entryExitVertices={VERTICES[496], VERTICES[2464], VERTICES[2085], VERTICES[1689], }},
-    {cellIds={"Kogoruhn, Bleeding Heart", "Kogoruhn, Hall of Phisto", "Kogoruhn, Hall of the Watchful Touch", "Kogoruhn, Vault of Aerode", "Kogoruhn, Nabith Waterway", "Kogoruhn, Charma's Breath", "Kogoruhn, Hall of Maki", }, entryExitVertices={VERTICES[5387], VERTICES[4515], VERTICES[853], VERTICES[2319], VERTICES[799], VERTICES[1744], }},
-    {cellIds={"Nelas Ancestral Tomb", }, entryExitVertices={VERTICES[3778], VERTICES[2710], }},
-    {cellIds={"Gnisis, Man-llu Hut", }, entryExitVertices={VERTICES[5511], VERTICES[1282], }},
-    {cellIds={"Ebonheart, East Empire South Warehouse", }, entryExitVertices={VERTICES[3887], VERTICES[781], VERTICES[3900], VERTICES[2398], VERTICES[778], VERTICES[5801], VERTICES[1105], VERTICES[1450], VERTICES[3626], VERTICES[3057], VERTICES[3432], VERTICES[1047], VERTICES[2718], VERTICES[871], VERTICES[5579], VERTICES[6097], VERTICES[1411], VERTICES[5450], }},
-    {cellIds={"Pelagiad, Fort Pelagiad", "Pelagiad, South Wall", "Pelagiad, North Wall", }, entryExitVertices={VERTICES[1349], VERTICES[3512], VERTICES[2549], VERTICES[2878], VERTICES[2124], VERTICES[2151], VERTICES[3737], VERTICES[5297], VERTICES[372], VERTICES[304], VERTICES[5205], VERTICES[1976], VERTICES[1928], VERTICES[6011], VERTICES[5181], VERTICES[4357], VERTICES[5304], VERTICES[1060], VERTICES[5953], VERTICES[3562], VERTICES[5977], VERTICES[1643], VERTICES[3862], VERTICES[6015], VERTICES[3985], VERTICES[5634], VERTICES[1688], }},
-    {cellIds={"Ebonheart, Hawkmoth Towers", }, entryExitVertices={VERTICES[1647], VERTICES[2321], VERTICES[2716], VERTICES[4859], VERTICES[6024], VERTICES[54], VERTICES[5591], VERTICES[2813], VERTICES[2474], VERTICES[1764], VERTICES[6220], VERTICES[184], VERTICES[5225], VERTICES[1338], VERTICES[4784], VERTICES[4683], VERTICES[5971], VERTICES[4626], VERTICES[1120], VERTICES[1742], VERTICES[2731], VERTICES[1915], VERTICES[4544], VERTICES[947], VERTICES[3193], VERTICES[903], VERTICES[984], VERTICES[3276], }},
-    {cellIds={"Pelagiad, Junal-lei's House", }, entryExitVertices={VERTICES[4763], VERTICES[3359], }},
-    {cellIds={"Vivec, St. Olms Storage", "Vivec, St. Olms Tailors and Dyers Hall", "Vivec, St. Olms Canalworks", "Vivec, St. Olms Tanners and Miners Hall", "Assernerairan, Shrine", "Vivec, St. Olms Underworks", "Vivec, St. Olms Brewers and Fishmongers Hall", "Vivec, St. Olms Waistworks", "Vivec, St. Olms Farmers and Laborers Hall", }, entryExitVertices={VERTICES[3028], VERTICES[1604], VERTICES[2692], VERTICES[2409], VERTICES[37], VERTICES[1258], VERTICES[4730], VERTICES[2917], VERTICES[2638], VERTICES[4397], VERTICES[191], VERTICES[3711], VERTICES[3395], VERTICES[384], VERTICES[4611], VERTICES[2469], }},
-    {cellIds={"Ald Velothi, Sathas Rivul's Shack", }, entryExitVertices={VERTICES[3084], VERTICES[3564], }},
-    {cellIds={"Tel Vos, Northeastern Tower", }, entryExitVertices={VERTICES[4183], VERTICES[5904], VERTICES[401], VERTICES[3492], }},
-    {cellIds={"Vivec, Telvanni Canalworks", "Vivec, Telvanni Enchanter", "Vivec, Telvanni Temple", "Vivec, Telvanni Waistworks", "Vivec, Telvanni Alchemist", "Vivec, The Lizard's Head", "Vivec, Telvanni Apothecary", "Vivec, Telvanni Sorcerer", "Vivec, Telvanni Mage", "Vivec, Telvanni Underworks", "Vivec, Telvanni Monster Lab", }, entryExitVertices={VERTICES[4981], VERTICES[2074], VERTICES[2132], VERTICES[3218], VERTICES[6030], VERTICES[835], VERTICES[5769], VERTICES[3872], VERTICES[4234], VERTICES[4760], VERTICES[3470], VERTICES[4022], VERTICES[6089], VERTICES[1707], }},
-    {cellIds={"Minabi, Bandit Lair", "Minabi", }, entryExitVertices={VERTICES[4430], VERTICES[4947], }},
-    {cellIds={"Caldera, Mining Company Office", }, entryExitVertices={VERTICES[5308], VERTICES[1722], VERTICES[4964], VERTICES[3031], }},
-    {cellIds={"Caldera, Slave Shack One", }, entryExitVertices={VERTICES[4365], VERTICES[5593], }},
-    {cellIds={"Balmora, Vorar Helas' House", }, entryExitVertices={VERTICES[6187], VERTICES[4746], VERTICES[5087], VERTICES[3866], }},
-    {cellIds={"Elf-Skerring, Upper Level", "Elf-Skerring, Lower Level", }, entryExitVertices={VERTICES[4368], VERTICES[3858], }},
-    {cellIds={"Salit Camp, Zelay's Yurt", }, entryExitVertices={VERTICES[2654], VERTICES[3720], }},
-    {cellIds={"Shallit", "Drethan Ancestral Tomb", }, entryExitVertices={VERTICES[5198], VERTICES[340], VERTICES[2387], VERTICES[4497], }},
-    {cellIds={"Gnaar Mok, Arenim Manor", }, entryExitVertices={VERTICES[4643], VERTICES[3142], VERTICES[973], VERTICES[3073], }},
-    {cellIds={"Balmora, Guild of Mages", }, entryExitVertices={VERTICES[2946], VERTICES[4598], VERTICES[110], VERTICES[2252], VERTICES[5789], VERTICES[3967], }},
-    {cellIds={"Arkngthand, Cells of Hollow Hand", "Arkngthand, Hall of Centrifuge", "Arkngthand, Deep Ore Passage", "Arkngthand, Weepingbell Hall", "Arkngthand, Land's Blood Gallery", "Arkngthand, Heaven's Gallery", }, entryExitVertices={VERTICES[182], VERTICES[2285], VERTICES[2554], }},
-    {cellIds={"Dubdilla, Uncharted Caverns", "Dubdilla, Uncharted Caverns, Lower", "Dubdilla", }, entryExitVertices={VERTICES[6126], VERTICES[4881], }},
-    {cellIds={"Vivec, Canon Quarters", "Vivec, Office of the Watch", "Vivec, Canon Offices", "Vivec, Justice Offices", "Vivec, High Fane", "Vivec, Milo's Quarters", "Vivec, Hall of Wisdom", "Vivec, Hall of Justice", "Vivec, Ordinator Barracks", "Vivec, Hall Underworks", "Vivec, Hall of Justice Secret Library", "Vivec, Library of Vivec", }, entryExitVertices={VERTICES[3170], VERTICES[1086], VERTICES[3459], VERTICES[4283], VERTICES[5687], VERTICES[3446], VERTICES[2797], VERTICES[6241], VERTICES[4922], VERTICES[2077], VERTICES[4119], VERTICES[4215], VERTICES[2299], VERTICES[6161], VERTICES[2131], VERTICES[5083], VERTICES[6264], VERTICES[5716], }},
-    {cellIds={"Sadrith Mora, Volmyni Dral's House", }, entryExitVertices={VERTICES[1048], VERTICES[456], }},
-    {cellIds={"Assarnatamat, Shrine", }, entryExitVertices={VERTICES[271], VERTICES[2034], }},
-    {cellIds={"Tel Vos, Jail", "Tel Vos, Dungeon", }, entryExitVertices={VERTICES[2126], VERTICES[6003], VERTICES[3532], VERTICES[2726], }},
-    {cellIds={"Abaesen-Pulu Egg Mine", }, entryExitVertices={VERTICES[4638], VERTICES[869], }},
-    {cellIds={"Vivec, Puzzle Canal, Level 5", }, entryExitVertices={VERTICES[5176], VERTICES[2311], VERTICES[4124], VERTICES[5749], VERTICES[4720], VERTICES[3454], }},
-    {cellIds={"Vivec, St. Delyn Waist North-Two", }, entryExitVertices={VERTICES[3888], VERTICES[5574], }},
-    {cellIds={"Ebonheart, Underground Caves", "Ebonheart, Imperial Guard Garrison", "Ebonheart, Imperial Commission", "Ebonheart, Grand Council Chambers", }, entryExitVertices={VERTICES[4035], VERTICES[3006], VERTICES[1639], VERTICES[4320], VERTICES[2291], VERTICES[933], VERTICES[1260], VERTICES[1238], VERTICES[2811], VERTICES[2087], VERTICES[5790], VERTICES[3081], VERTICES[5746], VERTICES[4525], VERTICES[73], VERTICES[826], }},
-    {cellIds={"Matus-Akin Egg Mine", "Matus-Akin Egg Mine, Queen's Lair", }, entryExitVertices={VERTICES[2251], VERTICES[632], }},
-    {cellIds={"Vos, Menus Felas's Farmhouse", }, entryExitVertices={VERTICES[850], VERTICES[2703], }},
-    {cellIds={"Tel Branora, Evos Goran's House", }, entryExitVertices={VERTICES[2188], VERTICES[5689], }},
-    {cellIds={"Thalas Ancestral Tomb", }, entryExitVertices={VERTICES[945], VERTICES[33], }},
-    {cellIds={"Gro-Bagrat Plantation", }, entryExitVertices={VERTICES[2202], VERTICES[2658], }},
-    {cellIds={"Erabenimsun Camp, Massarapal's Yurt", }, entryExitVertices={VERTICES[3109], VERTICES[3734], }},
-    {cellIds={"Punabi", }, entryExitVertices={VERTICES[2364], VERTICES[3266], }},
-    {cellIds={"Palansour", }, entryExitVertices={VERTICES[275], VERTICES[4041], VERTICES[1917], VERTICES[5375], }},
-    {cellIds={"Ald-ruhn, Drinar Varyon's House", }, entryExitVertices={VERTICES[1100], VERTICES[3169], }},
-    {cellIds={"Sadrith Mora, Gateway Inn: West Wing", "Sadrith Mora, Gateway Inn: North Wing", "Sadrith Mora, Gateway Inn: South Wing", "Sadrith Mora, Gateway Inn", }, entryExitVertices={VERTICES[4868], VERTICES[1774], VERTICES[325], VERTICES[5889], }},
-    {cellIds={"Vivec, Ralen Tilvur: Smith", "Vivec, Guild of Fighters", "Vivec, Guild of Mages", "Vivec, Alusaron: Smith", "Vivec, Foreign Quarter Plaza", }, entryExitVertices={VERTICES[152], VERTICES[5720], VERTICES[1824], VERTICES[1986], }},
-    {cellIds={"Ainab", "Ainab, Shrine", }, entryExitVertices={VERTICES[4196], VERTICES[3362], }},
-    {cellIds={"Suran, Ibarnadad Assirnarari: Apothecary", }, entryExitVertices={VERTICES[1696], VERTICES[2373], VERTICES[60], VERTICES[1972], VERTICES[5926], VERTICES[4989], }},
-    {cellIds={"Assarnud", }, entryExitVertices={VERTICES[5373], VERTICES[1227], VERTICES[1213], VERTICES[587], }},
-    {cellIds={"Vivec, Black Shalk Cornerclub", "Vivec, Jeanne: Trader", "Vivec, Jobasha's Rare Books", "Vivec, Agrippina Herennia: Clothier", "Vivec, Foreign Quarter Canalworks", "Vivec, Andilu Drothan: Alchemist", "Vivec, Simine Fralinie: Bookseller", "Vivec, Foreign Quarter Upper Waistworks", "Vivec, Aurane Frernis: Apothecary", "Vivec, Foreign Quarter Tomb", "Vivec, J'Rasha: Healer", "Vivec, Foreign Quarter Lower Waistworks", "Vivec, Foreign Quarter Underworks", "Vivec, Miun-Gei: Enchanter", "Ibishammus, Shrine", }, entryExitVertices={VERTICES[4854], VERTICES[1485], VERTICES[5682], VERTICES[5407], VERTICES[5324], VERTICES[4106], VERTICES[3284], VERTICES[4087], VERTICES[1279], VERTICES[6218], VERTICES[3212], VERTICES[6087], VERTICES[2647], VERTICES[4071], VERTICES[4905], VERTICES[2177], VERTICES[6204], VERTICES[5502], VERTICES[3555], VERTICES[3010], VERTICES[5842], VERTICES[1889], VERTICES[730], VERTICES[5462], VERTICES[5215], VERTICES[5601], VERTICES[5400], VERTICES[709], }},
-    {cellIds={"Subdun, Shrine", "Subdun", }, entryExitVertices={VERTICES[4727], VERTICES[744], }},
-    {cellIds={"Balmora, Hlaalu Council Manor", }, entryExitVertices={VERTICES[2622], VERTICES[1890], VERTICES[4876], VERTICES[1186], VERTICES[2575], VERTICES[866], }},
-    {cellIds={"Vivec, Hlaren Residence", "Vivec, Temporary Telvanni Housing", "Vivec, Telvanni Prison Cells", "Vivec, Telvanni Plaza", "Vivec, Telvanni Upper Storage", "Vivec, Telvanni Vault", "Vivec, Telvanni Tower", }, entryExitVertices={VERTICES[1588], VERTICES[4972], VERTICES[2458], VERTICES[533], }},
-    {cellIds={"Tel Vos, Services Tower", }, entryExitVertices={VERTICES[1170], VERTICES[2765], VERTICES[245], VERTICES[5183], VERTICES[5062], VERTICES[5112], }},
-    {cellIds={"Gnaar Mok, Anglalos's Shack", }, entryExitVertices={VERTICES[324], VERTICES[18], }},
-    {cellIds={"Arvel Manor", }, entryExitVertices={VERTICES[5754], VERTICES[4203], VERTICES[845], VERTICES[166], }},
-    {cellIds={"Urshilaku Camp, Shara's Yurt", }, entryExitVertices={VERTICES[4946], VERTICES[4045], }},
-    {cellIds={"Balmora, Nalcarya of White Haven: Fine Alchemist", }, entryExitVertices={VERTICES[5130], VERTICES[405], VERTICES[5545], VERTICES[1008], }},
-    {cellIds={"Nchardahrk", }, entryExitVertices={VERTICES[217], VERTICES[2974], }},
-    {cellIds={"Vivec, St. Delyn Waist South-One", }, entryExitVertices={VERTICES[5485], VERTICES[417], }},
-    {cellIds={"Buckmoth Legion Fort, Towers", "Buckmoth Legion Fort, Prison", "Buckmoth Legion Fort, Interior", }, entryExitVertices={VERTICES[3270], VERTICES[3545], VERTICES[3306], VERTICES[276], VERTICES[4737], VERTICES[5678], VERTICES[4564], VERTICES[2208], VERTICES[4167], VERTICES[2637], VERTICES[4956], VERTICES[4193], VERTICES[1371], VERTICES[450], VERTICES[2288], VERTICES[1206], VERTICES[3857], }},
-    {cellIds={"Telasero, Upper Level", "Telasero, Lower Level", }, entryExitVertices={VERTICES[5950], VERTICES[5470], }},
-    {cellIds={"Omaren Ancestral Tomb", "Forgotten Vaults of Anudnabia, Forge of Hilbongard", }, entryExitVertices={VERTICES[1710], VERTICES[3046], }},
-    {cellIds={"Ald Sotha, Shrine", "Ald Sotha, Lower Level", "Ald Sotha, Upper Level", }, entryExitVertices={VERTICES[771], VERTICES[5508], }},
-    {cellIds={"Nchuleftingth, Upper Levels", "Nchuleftingth, Lower Levels", "Nchuleftingth, Test of Pattern", }, entryExitVertices={VERTICES[5947], VERTICES[3617], }},
-    {cellIds={"Unknown Shipwreck, Lower Level", "Unknown Shipwreck, Upper Level", }, entryExitVertices={VERTICES[216], VERTICES[5363], }},
-    {cellIds={"Sandas Ancestral Tomb", }, entryExitVertices={VERTICES[4766], VERTICES[2460], }},
-    {cellIds={"Nammu", }, entryExitVertices={VERTICES[3777], VERTICES[4327], }},
-    {cellIds={"Urshilaku, Laterus Burial", "Urshilaku, Karma Burial", "Urshilaku, Juno Burial", "Urshilaku, Kakuna Burial", "Urshilaku, Kefka Burial", "Urshilaku, Fragile Burial", "Urshilaku, Astral Burial", }, entryExitVertices={VERTICES[4296], VERTICES[3648], }},
-    {cellIds={"Maar Gan, Garry's Hut", }, entryExitVertices={VERTICES[4752], VERTICES[3789], }},
-    {cellIds={"Gnisis, Yahaz Hut", }, entryExitVertices={VERTICES[5523], VERTICES[1823], }},
-    {cellIds={"Suran, Guard Tower", }, entryExitVertices={VERTICES[3861], VERTICES[3407], }},
-    {cellIds={"Telvayn Ancestral Tomb", }, entryExitVertices={VERTICES[368], VERTICES[5057], }},
-    {cellIds={"Tower of Tel Fyr, Onyx Hall", "Corprusarium", "Corprusarium Bowels", "Tower of Tel Fyr, Hall of Fyr", }, entryExitVertices={VERTICES[4346], VERTICES[4909], }},
-    {cellIds={"Vivec, Puzzle Canal, Center", "Vivec, Puzzle Canal, Level 3", }, entryExitVertices={VERTICES[4300], VERTICES[5323], VERTICES[6250], VERTICES[5334], VERTICES[1191], VERTICES[3623], }},
-    {cellIds={"Gnisis, Vabdas Hut", }, entryExitVertices={VERTICES[3495], VERTICES[6091], }},
-    {cellIds={"Bal Fell, Inner Shrine", "Bal Fell, Outer Shrine", "Bal Fell, East Wing", "Bal Fell, West Wing", }, entryExitVertices={VERTICES[1687], VERTICES[5918], }},
-    {cellIds={"Balmora, Eight Plates", }, entryExitVertices={VERTICES[4328], VERTICES[2552], VERTICES[416], VERTICES[3328], }},
-    {cellIds={"Tel Branora, Tower Dungeon", "Tel Branora, Lower Tower", "Tel Branora, Upper Tower", "Tel Branora, Upper Tower: Therana's Chamber", }, entryExitVertices={VERTICES[710], VERTICES[13], VERTICES[1840], VERTICES[2525], VERTICES[415], VERTICES[1069], }},
-    {cellIds={"Mzahnch", "Mzahnch Lower Level", }, entryExitVertices={VERTICES[4960], VERTICES[4688], }},
-    {cellIds={"Heleran Ancestral Tomb", "Caldera, Nedhelas' House", }, entryExitVertices={VERTICES[1226], VERTICES[1262], }},
-    {cellIds={"Sadrith Mora, Llaalam Madalas: Mage", }, entryExitVertices={VERTICES[2423], VERTICES[6053], }},
-    {cellIds={"Ginith Ancestral Tomb", }, entryExitVertices={VERTICES[5116], VERTICES[177], }},
-    {cellIds={"Gnisis, Barracks", }, entryExitVertices={VERTICES[1039], VERTICES[349], }},
-    {cellIds={"Andavel Ancestral Tomb", }, entryExitVertices={VERTICES[800], VERTICES[2608], }},
-    {cellIds={"Shulk Egg Mine", "Shulk Egg Mine, Queen's Lair", "Shulk Egg Mine, Mining Camp", }, entryExitVertices={VERTICES[2485], VERTICES[2331], }},
-    {cellIds={"Sulipund", }, entryExitVertices={VERTICES[2134], VERTICES[5557], }},
-    {cellIds={"Kaushtababi Camp, Adibael's Yurt", }, entryExitVertices={VERTICES[3552], VERTICES[2570], }},
-    {cellIds={"Marandus, Lower Level", "Marandus, Upper Level", }, entryExitVertices={VERTICES[69], VERTICES[4706], VERTICES[854], VERTICES[1089], }},
-    {cellIds={"Assumanu", }, entryExitVertices={VERTICES[3809], VERTICES[765], }},
-    {cellIds={"Maar Gan, Yeherradad's Hut", }, entryExitVertices={VERTICES[46], VERTICES[1947], }},
-    {cellIds={"Yasamsi", }, entryExitVertices={VERTICES[5630], VERTICES[3938], }},
-    {cellIds={"Molag Mar, St. Veloth's Hostel", }, entryExitVertices={VERTICES[4275], VERTICES[4176], }},
-    {cellIds={"Arano Plantation", }, entryExitVertices={VERTICES[750], VERTICES[1401], }},
-    {cellIds={"Nund", }, entryExitVertices={VERTICES[2096], VERTICES[3971], }},
-    {cellIds={"Sadrith Mora, Wolverine Hall: Mage's Guild", "Sadrith Mora, Wolverine Hall: Fighter's Guild", "Sadrith Mora, Wolverine Hall", "Sadrith Mora, Wolverine Hall: Imperial Shrine", }, entryExitVertices={VERTICES[1514], VERTICES[6132], VERTICES[2668], VERTICES[3933], VERTICES[3236], VERTICES[1436], VERTICES[5140], VERTICES[336], VERTICES[1834], VERTICES[5714], VERTICES[6202], VERTICES[1495], VERTICES[2152], VERTICES[4415], VERTICES[5944], VERTICES[5767], VERTICES[3689], VERTICES[259], VERTICES[5427], VERTICES[1343], VERTICES[5235], VERTICES[427], VERTICES[4472], VERTICES[1183], VERTICES[3087], VERTICES[3955], VERTICES[4969], VERTICES[3041], VERTICES[2095], VERTICES[3864], VERTICES[5661], }},
-    {cellIds={"Addamasartus", }, entryExitVertices={VERTICES[3952], VERTICES[2279], }},
-    {cellIds={"Ahanibi-Malmus Egg Mine", }, entryExitVertices={VERTICES[2578], VERTICES[3456], }},
-    {cellIds={"Seyda Neen, Fargoth's House", }, entryExitVertices={VERTICES[2845], VERTICES[321], }},
-    {cellIds={"Yakin", "Yakin, Shrine", }, entryExitVertices={VERTICES[4489], VERTICES[330], }},
-    {cellIds={"Caldera, Mining Bunkhouse", }, entryExitVertices={VERTICES[1384], VERTICES[3605], VERTICES[5096], VERTICES[1784], }},
-    {cellIds={"Ashalmawia, Shrine", "Ashalmawia, Shrine, Sunken Vaults", }, entryExitVertices={VERTICES[290], VERTICES[5500], }},
-    {cellIds={"Ilunibi, Blackened Heart", "Ilunibi, Tainted Marrow", "Ilunibi, Soul's Rattle", "Ilunibi, Marowak's Spine", "Ilunibi, Carcass of the Saint", }, entryExitVertices={VERTICES[6147], VERTICES[1259], }},
-    {cellIds={"Indoranyon, Propylon Chamber", }, entryExitVertices={VERTICES[2967], VERTICES[1176], }},
-    {cellIds={"Molag Mar, Temple", }, entryExitVertices={VERTICES[6192], VERTICES[1528], }},
-    {cellIds={"Sadrith Mora, Thervul Serethi: Healer", }, entryExitVertices={VERTICES[3389], VERTICES[930], }},
-    {cellIds={"Obscure Shipwreck, Upper Level", "Obscure Shipwreck, Lower Level", }, entryExitVertices={VERTICES[1530], VERTICES[6214], }},
-    {cellIds={"Seyda Neen, Indrele Rathryon's Shack", }, entryExitVertices={VERTICES[4866], VERTICES[5499], }},
-    {cellIds={"Sadrith Mora, Telvanni Council House", "Sadrith Mora, Telvanni Council House, Hermitage", "Sadrith Mora, Telvanni Council House, Entry", "Sadrith Mora, Telvanni Council House, Chambers", }, entryExitVertices={VERTICES[326], VERTICES[5278], }},
-    {cellIds={"Sanit, Shrine", "Sanit", }, entryExitVertices={VERTICES[2545], VERTICES[2089], }},
-    {cellIds={"Arrow, Lower Level", "Arrow, Upper Level", }, entryExitVertices={VERTICES[4314], VERTICES[649], }},
-    {cellIds={"Dagoth Ur, Facility Cavern", "Dagoth Ur, Outer Facility", "Akulakhan's Chamber", "Dagoth Ur, Inner Tower", "Dagoth Ur, Lower Facility", "Dagoth Ur, Inner Facility", }, entryExitVertices={VERTICES[3522], VERTICES[2163], }},
-    {cellIds={"Abinabi", }, entryExitVertices={VERTICES[3025], VERTICES[4624], }},
+    {cellIds={"Ahemmusa Camp, Ashkhan's Yurt", }, entryExitVertices={VERTICES[2588], VERTICES[1007], }},
+    {cellIds={"Balmora, Dralcea Arethi's House", }, entryExitVertices={VERTICES[545], VERTICES[4397], }},
+    {cellIds={"Vivec, Redoran Waistworks", "Vivec, Redoran Prison Cells", "Vivec, Redoran Smith", "Vivec, Redoran Underworks", "Vivec, Redoran Scout & Drillmaster", "Vivec, Redoran Canalworks", "Vivec, The Flowers of Gold", "Vivec, Redoran Plaza", "Vivec, Redoran Treasury", "Vivec, Dralor Manor", "Vivec, Saren Manor", "Vivec, Redoran Temple Shrine", "Vivec, Redoran Ancestral Vaults", "Vivec, Redoran Vaults", "Vivec, Redoran Records", "Vivec, Redoran Trader", }, entryExitVertices={VERTICES[3667], VERTICES[3356], VERTICES[2308], VERTICES[2406], VERTICES[4616], VERTICES[2785], VERTICES[209], VERTICES[2879], VERTICES[3402], VERTICES[2746], VERTICES[2961], VERTICES[5324], VERTICES[1206], VERTICES[2031], VERTICES[3895], VERTICES[3641], VERTICES[90], VERTICES[2002], VERTICES[1523], VERTICES[2545], }},
+    {cellIds={"Sargon", }, entryExitVertices={VERTICES[3163], VERTICES[1931], }},
+    {cellIds={"Erabenimsun Camp, Ainab's Yurt", }, entryExitVertices={VERTICES[5679], VERTICES[1857], }},
+    {cellIds={"Ald-ruhn, Malpenix Blonia: Trader", "Ald-ruhn, Tuveso Beleth: Smith", "Ald-ruhn, Venim Manor Entrance", "Ald-ruhn, Llethri Private Quarters", "Ald-ruhn, Boldrisa Andrano's House", "Ald-ruhn, Practice Room", "Ald-ruhn, Goras Andrelo's House", "Ald-ruhn, Venim Manor Bedrooms", "Ald-ruhn, Arobar Guard Quarters", "Ald-ruhn, Llethri Manor Bedrooms", "Ald-ruhn, Sarethi Manor", "Ald-ruhn, Venim Manor Private Quarters", "Ald-ruhn, Bivale Teneran: Clothier", "Ald-ruhn, Ramoran Private Quarters", "Ald-ruhn, Llether Vari: Enchanter", "Ald-ruhn, Arobar Private Quarters", "Ald-ruhn, Manor District", "Ald-ruhn, Redoran Council Entrance", "Ald-ruhn, Morag Tong Guildhall", "Ald-ruhn, Sarethi Guard Quarters", "Ald-ruhn, Council Hostel", "Ald-ruhn, Redoran Council Hall", "Ald-ruhn, Morvayn Quarters", "Ald-ruhn, Arobar Manor Bedrooms", "Ald-ruhn, Llethri Guard Quarters", "Ald-ruhn, Ramoran Manor", "Ald-ruhn, Galsa Gindu's House", "Ald-ruhn, Venim Manor Right Wing", "Ald-ruhn, Llethri Manor Entrance", "Ald-ruhn, Venim Manor Guard Quarters", "Ald-ruhn, Arobar Manor Entrance", "Ald-ruhn, Cienne Sintieve: Alchemist", "Ald-ruhn, Guls Llervu's House", }, entryExitVertices={VERTICES[1251], VERTICES[3509], }},
+    {cellIds={"Vivec, Arena Pit", "Vivec, Arena Storage", "Vivec, Arena Underworks", "Vivec, Arena Holding Cells", "Vivec, Arena Fighters Quarters", "Vivec, Arena Fighters Training", "Vivec, Arena Canalworks", "Vivec, Arena Waistworks", "Vivec, Arena Hidden Area", }, entryExitVertices={VERTICES[5958], VERTICES[635], VERTICES[4709], VERTICES[3207], VERTICES[3284], VERTICES[308], VERTICES[6172], VERTICES[914], VERTICES[1569], VERTICES[5385], VERTICES[1807], VERTICES[2985], VERTICES[1782], VERTICES[5132], VERTICES[5435], VERTICES[4762], VERTICES[1677], VERTICES[2920], }},
+    {cellIds={"Berandas, Keep, Bottom Level", "Berandas, Underground", "Berandas, Keep, Top Level", }, entryExitVertices={VERTICES[2243], VERTICES[5954], }},
+    {cellIds={"Ihinipalit, Shrine", "Vivec, St. Delyn Plaza", "Vivec, The Abbey of St. Delyn the Wise", "Vivec, Mevel Fererus: Trader", "Vivec, Lucretinaus Olcinius: Trader", "Vivec, St. Delyn Storage", "Vivec, St. Delyn Waistworks", "Vivec, Tervur Braven: Trader", "Vivec, St. Delyn Glassworker's Hall", "Vivec, St. Delyn Underworks", "Vivec, St. Delyn Canalworks", "Vivec, St. Delyn Potter's Hall", }, entryExitVertices={VERTICES[3223], VERTICES[4227], VERTICES[2043], VERTICES[1217], VERTICES[4636], VERTICES[5470], VERTICES[858], VERTICES[1589], VERTICES[36], VERTICES[558], VERTICES[3389], VERTICES[868], VERTICES[3604], VERTICES[2491], VERTICES[3213], VERTICES[1621], VERTICES[806], VERTICES[4833], VERTICES[723], VERTICES[359], VERTICES[5758], VERTICES[1965], }},
+    {cellIds={"Ashurnibibi, Shrine", }, entryExitVertices={VERTICES[5456], VERTICES[1350], }},
+    {cellIds={"Ald-ruhn, Bevene Releth: Clothier", }, entryExitVertices={VERTICES[2919], VERTICES[6048], }},
+    {cellIds={"Hla Oad, Fatleg's Drop Off", }, entryExitVertices={VERTICES[1872], VERTICES[3481], VERTICES[206], VERTICES[5700], }},
+    {cellIds={"Sud", }, entryExitVertices={VERTICES[4937], VERTICES[4766], }},
+    {cellIds={"Ald Daedroth, Left Wing", "Ald Daedroth, Inner Shrine", "Ald Daedroth, Antechamber", "Ald Daedroth, Outer Shrine", "Ald Daedroth, Right Wing", }, entryExitVertices={VERTICES[2858], VERTICES[2590], }},
+    {cellIds={"Druscashti, Lower Level", "Druscashti, Upper Level", }, entryExitVertices={VERTICES[3302], VERTICES[2508], VERTICES[946], }},
+    {cellIds={"Vivec, Hlaalu Ancestral Vaults", "Vivec, Hlaalu Waistworks", "Vivec, Hlaalu Edryno Arethi's House", "Vivec, Hlaalu Plaza", "Vivec, No Name Club", "Vivec, Curio Manor", "Vivec, Hlaalu Records", "Vivec, Hlaalu Canalworks", "Vivec, Hlaalu General Goods", "Vivec, Hlaalu Vaults", "Vivec, Hlaalu Weaponsmith", "Vivec, Hlaalu Alchemist", "Vivec, Hlaalu Prison Cells", "Vivec, Hlaalu Temple", "Vivec, Elven Nations Cornerclub", "Vivec, Hlaalu Treasury", "Vivec, Hlaalu Underworks", "Vivec, Hlaalu Pawnbroker", }, entryExitVertices={VERTICES[3108], VERTICES[5241], VERTICES[5518], VERTICES[6192], VERTICES[2475], VERTICES[5281], VERTICES[4281], VERTICES[5740], VERTICES[5386], VERTICES[1785], VERTICES[1353], VERTICES[3805], VERTICES[1827], VERTICES[4703], VERTICES[753], VERTICES[2313], VERTICES[3339], VERTICES[1375], }},
+    {cellIds={"Ghostgate, Tower of Dusk", "Ghostgate, Tower of Dawn Lower Level", "Ghostgate, Temple", "Ghostgate, Tower of Dusk Lower Level", "Ghostgate, Tower of Dawn", }, entryExitVertices={VERTICES[1136], VERTICES[6244], VERTICES[2233], VERTICES[1854], }},
+    {cellIds={"Dagon Fel, Andre Maul's Tower", }, entryExitVertices={VERTICES[380], VERTICES[5187], }},
+    {cellIds={"Sinamusa Egg Mine", }, entryExitVertices={VERTICES[4987], VERTICES[2437], }},
+    {cellIds={"Vivec, St. Olms Plaza", "Vivec, St. Olms Haunted Manor", "Vivec, St. Olms Temple", "Vivec, St. Olms Yngling Manor Basement", "Vivec, St. Olms Upper North-Two", "Vivec, St. Olms Yngling Manor", "Vivec, St. Olms Upper South-One", "Vivec, St. Olms Upper North-One", }, entryExitVertices={VERTICES[5116], VERTICES[5090], VERTICES[658], VERTICES[4209], }},
+    {cellIds={"Dagon Fel, Hurg's House", }, entryExitVertices={VERTICES[5024], VERTICES[4150], }},
+    {cellIds={"Molag Mar, The Pilgrim's Rest", "Molag Mar, Canalworks", "Molag Mar, Waistworks", "Molag Mar, Armigers Stronghold", "Molag Mar, Underworks", "Molag Mar, Vasesius Viciulus: Trader", "Molag Mar, Saetring the Nord: Smith", }, entryExitVertices={VERTICES[2807], VERTICES[1234], VERTICES[148], VERTICES[6070], VERTICES[5266], VERTICES[3730], VERTICES[3336], VERTICES[411], VERTICES[2925], VERTICES[3629], VERTICES[4431], VERTICES[1601], VERTICES[400], VERTICES[114], VERTICES[6324], VERTICES[4784], }},
+    {cellIds={"Sadrith Mora, Tel Naga Great Hall", "Sadrith Mora, Tel Naga Upper Hall", "Sadrith Mora, Tel Naga General Quarters", "Sadrith Mora, Tel Naga Upper Tower", }, entryExitVertices={VERTICES[575], VERTICES[118], VERTICES[5904], VERTICES[2956], VERTICES[5680], VERTICES[2893], VERTICES[388], VERTICES[4537], }},
+    {cellIds={"Ahemmusa Camp, Dutadalk's Yurt", }, entryExitVertices={VERTICES[5303], VERTICES[6328], }},
+    {cellIds={"Gnaar Mok, Mush-Mere's Shack", }, entryExitVertices={VERTICES[5010], VERTICES[3907], }},
+    {cellIds={"Bal Ur, Shrine", "Bal Ur, Underground", }, entryExitVertices={VERTICES[511], VERTICES[2521], VERTICES[2135], VERTICES[1734], }},
+    {cellIds={"Kogoruhn, Bleeding Heart", "Kogoruhn, Hall of Phisto", "Kogoruhn, Hall of the Watchful Touch", "Kogoruhn, Vault of Aerode", "Kogoruhn, Nabith Waterway", "Kogoruhn, Charma's Breath", "Kogoruhn, Hall of Maki", }, entryExitVertices={VERTICES[5508], VERTICES[4623], VERTICES[873], VERTICES[2372], VERTICES[818], VERTICES[1789], }},
+    {cellIds={"Nelas Ancestral Tomb", }, entryExitVertices={VERTICES[3864], VERTICES[2775], }},
+    {cellIds={"Gnisis, Man-llu Hut", }, entryExitVertices={VERTICES[5637], VERTICES[1316], }},
+    {cellIds={"Ebonheart, East Empire South Warehouse", }, entryExitVertices={VERTICES[3976], VERTICES[800], VERTICES[3989], VERTICES[2454], VERTICES[797], VERTICES[5929], VERTICES[1130], VERTICES[1490], VERTICES[3708], VERTICES[3130], VERTICES[3510], VERTICES[1071], VERTICES[2783], VERTICES[892], VERTICES[5706], VERTICES[6235], VERTICES[1450], VERTICES[5573], }},
+    {cellIds={"Pelagiad, Fort Pelagiad", "Pelagiad, South Wall", "Pelagiad, North Wall", }, entryExitVertices={VERTICES[1387], VERTICES[3592], VERTICES[2607], VERTICES[2946], VERTICES[2175], VERTICES[2202], VERTICES[3821], VERTICES[5415], VERTICES[383], VERTICES[315], VERTICES[5322], VERTICES[2025], VERTICES[1975], VERTICES[6147], VERTICES[5298], VERTICES[4460], VERTICES[5422], VERTICES[1084], VERTICES[6087], VERTICES[3643], VERTICES[6112], VERTICES[1687], VERTICES[3951], VERTICES[6151], VERTICES[4076], VERTICES[5761], VERTICES[1733], }},
+    {cellIds={"Ebonheart, Hawkmoth Towers", }, entryExitVertices={VERTICES[1691], VERTICES[2374], VERTICES[2781], VERTICES[4972], VERTICES[6160], VERTICES[56], VERTICES[5718], VERTICES[2878], VERTICES[2531], VERTICES[1809], VERTICES[6361], VERTICES[194], VERTICES[5342], VERTICES[1376], VERTICES[4895], VERTICES[4793], VERTICES[6106], VERTICES[4736], VERTICES[1145], VERTICES[1787], VERTICES[2796], VERTICES[1962], VERTICES[4653], VERTICES[969], VERTICES[3268], VERTICES[925], VERTICES[1006], VERTICES[3352], }},
+    {cellIds={"Pelagiad, Junal-lei's House", }, entryExitVertices={VERTICES[4873], VERTICES[3436], }},
+    {cellIds={"Vivec, St. Olms Storage", "Vivec, St. Olms Tailors and Dyers Hall", "Vivec, St. Olms Canalworks", "Vivec, St. Olms Tanners and Miners Hall", "Assernerairan, Shrine", "Vivec, St. Olms Underworks", "Vivec, St. Olms Brewers and Fishmongers Hall", "Vivec, St. Olms Waistworks", "Vivec, St. Olms Farmers and Laborers Hall", }, entryExitVertices={VERTICES[3101], VERTICES[1648], VERTICES[2755], VERTICES[2465], VERTICES[38], VERTICES[1291], VERTICES[4840], VERTICES[2986], VERTICES[2701], VERTICES[4502], VERTICES[201], VERTICES[3794], VERTICES[3473], VERTICES[395], VERTICES[4721], VERTICES[2526], }},
+    {cellIds={"Ald Velothi, Sathas Rivul's Shack", }, entryExitVertices={VERTICES[3158], VERTICES[3645], }},
+    {cellIds={"Tel Vos, Northeastern Tower", }, entryExitVertices={VERTICES[4283], VERTICES[6035], VERTICES[413], VERTICES[3572], }},
+    {cellIds={"Vivec, Telvanni Canalworks", "Vivec, Telvanni Enchanter", "Vivec, Telvanni Temple", "Vivec, Telvanni Waistworks", "Vivec, Telvanni Alchemist", "Vivec, The Lizard's Head", "Vivec, Telvanni Apothecary", "Vivec, Telvanni Sorcerer", "Vivec, Telvanni Mage", "Vivec, Telvanni Underworks", "Vivec, Telvanni Monster Lab", }, entryExitVertices={VERTICES[5095], VERTICES[2124], VERTICES[2183], VERTICES[3293], VERTICES[6166], VERTICES[855], VERTICES[5896], VERTICES[3961], VERTICES[4334], VERTICES[4870], VERTICES[3550], VERTICES[4113], VERTICES[6226], VERTICES[1752], }},
+    {cellIds={"Minabi, Bandit Lair", "Minabi", }, entryExitVertices={VERTICES[4536], VERTICES[5060], }},
+    {cellIds={"Caldera, Mining Company Office", }, entryExitVertices={VERTICES[5427], VERTICES[1767], VERTICES[5078], VERTICES[3104], }},
+    {cellIds={"Caldera, Slave Shack One", }, entryExitVertices={VERTICES[4468], VERTICES[5720], }},
+    {cellIds={"Balmora, Vorar Helas' House", }, entryExitVertices={VERTICES[6326], VERTICES[4856], VERTICES[5203], VERTICES[3955], }},
+    {cellIds={"Elf-Skerring, Upper Level", "Elf-Skerring, Lower Level", }, entryExitVertices={VERTICES[4471], VERTICES[3947], }},
+    {cellIds={"Salit Camp, Zelay's Yurt", }, entryExitVertices={VERTICES[2717], VERTICES[3804], }},
+    {cellIds={"Shallit", "Drethan Ancestral Tomb", }, entryExitVertices={VERTICES[5315], VERTICES[351], VERTICES[2441], VERTICES[4604], }},
+    {cellIds={"Gnaar Mok, Arenim Manor", }, entryExitVertices={VERTICES[4753], VERTICES[3216], VERTICES[995], VERTICES[3147], }},
+    {cellIds={"Caldera, Guild of Mages", "Balmora, Guild of Mages", "Vivec, Ralen Tilvur: Smith", "Ald-ruhn, Guild of Mages", "Sadrith Mora, Wolverine Hall: Imperial Shrine", "Vivec, Guild of Fighters", "Sadrith Mora, Wolverine Hall: Mage's Guild", "Vivec, Guild of Mages", "Sadrith Mora, Wolverine Hall: Fighter's Guild", "Sadrith Mora, Wolverine Hall", "Vivec, Alusaron: Smith", "Vivec, Foreign Quarter Plaza", }, entryExitVertices={VERTICES[1556], VERTICES[6271], VERTICES[2731], VERTICES[4023], VERTICES[3311], VERTICES[1476], VERTICES[4708], VERTICES[347], VERTICES[5257], VERTICES[1879], VERTICES[5917], VERTICES[4058], VERTICES[5841], VERTICES[6341], VERTICES[1537], VERTICES[2203], VERTICES[3114], VERTICES[3016], VERTICES[4520], VERTICES[6078], VERTICES[5894], VERTICES[3772], VERTICES[5847], VERTICES[269], VERTICES[5550], VERTICES[1381], VERTICES[5352], VERTICES[160], VERTICES[440], VERTICES[4037], VERTICES[4579], VERTICES[1213], VERTICES[117], VERTICES[3953], VERTICES[2305], VERTICES[3161], VERTICES[5400], VERTICES[4045], VERTICES[4011], VERTICES[752], VERTICES[2035], VERTICES[5083], VERTICES[2146], VERTICES[1869], VERTICES[5788], }},
+    {cellIds={"Arkngthand, Cells of Hollow Hand", "Arkngthand, Hall of Centrifuge", "Arkngthand, Deep Ore Passage", "Arkngthand, Weepingbell Hall", "Arkngthand, Land's Blood Gallery", "Arkngthand, Heaven's Gallery", }, entryExitVertices={VERTICES[192], VERTICES[2338], VERTICES[2612], }},
+    {cellIds={"Dubdilla, Uncharted Caverns", "Dubdilla, Uncharted Caverns, Lower", "Dubdilla", }, entryExitVertices={VERTICES[6265], VERTICES[4994], }},
+    {cellIds={"Vivec, Canon Quarters", "Vivec, Office of the Watch", "Vivec, Canon Offices", "Vivec, Justice Offices", "Vivec, High Fane", "Vivec, Milo's Quarters", "Vivec, Hall of Wisdom", "Vivec, Hall of Justice", "Vivec, Ordinator Barracks", "Vivec, Hall Underworks", "Vivec, Hall of Justice Secret Library", "Vivec, Library of Vivec", }, entryExitVertices={VERTICES[3244], VERTICES[1111], VERTICES[3539], VERTICES[4383], VERTICES[5814], VERTICES[3526], VERTICES[2862], VERTICES[6382], VERTICES[5035], VERTICES[2127], VERTICES[4214], VERTICES[4315], VERTICES[2352], VERTICES[6300], VERTICES[2182], VERTICES[5199], VERTICES[6406], VERTICES[5843], }},
+    {cellIds={"Sadrith Mora, Volmyni Dral's House", }, entryExitVertices={VERTICES[1072], VERTICES[471], }},
+    {cellIds={"Assarnatamat, Shrine", }, entryExitVertices={VERTICES[281], VERTICES[2084], }},
+    {cellIds={"Tel Vos, Jail", "Tel Vos, Dungeon", }, entryExitVertices={VERTICES[2177], VERTICES[6139], VERTICES[3612], VERTICES[2791], }},
+    {cellIds={"Abaesen-Pulu Egg Mine", }, entryExitVertices={VERTICES[4748], VERTICES[890], }},
+    {cellIds={"Vivec, Puzzle Canal, Level 5", }, entryExitVertices={VERTICES[5293], VERTICES[2364], VERTICES[4219], VERTICES[5876], VERTICES[4830], VERTICES[3534], }},
+    {cellIds={"Vivec, St. Delyn Waist North-Two", }, entryExitVertices={VERTICES[3977], VERTICES[5701], }},
+    {cellIds={"Ebonheart, Underground Caves", "Ebonheart, Imperial Guard Garrison", "Ebonheart, Imperial Commission", "Ebonheart, Grand Council Chambers", }, entryExitVertices={VERTICES[4126], VERTICES[3076], VERTICES[1683], VERTICES[4420], VERTICES[2344], VERTICES[955], VERTICES[1293], VERTICES[1269], VERTICES[2876], VERTICES[2137], VERTICES[5918], VERTICES[3155], VERTICES[5873], VERTICES[4634], VERTICES[76], VERTICES[846], }},
+    {cellIds={"Matus-Akin Egg Mine", "Matus-Akin Egg Mine, Queen's Lair", }, entryExitVertices={VERTICES[2304], VERTICES[650], }},
+    {cellIds={"Vos, Menus Felas's Farmhouse", }, entryExitVertices={VERTICES[870], VERTICES[2767], }},
+    {cellIds={"Tel Branora, Evos Goran's House", }, entryExitVertices={VERTICES[2239], VERTICES[5816], }},
+    {cellIds={"Thalas Ancestral Tomb", }, entryExitVertices={VERTICES[967], VERTICES[34], }},
+    {cellIds={"Gro-Bagrat Plantation", }, entryExitVertices={VERTICES[2253], VERTICES[2721], }},
+    {cellIds={"Erabenimsun Camp, Massarapal's Yurt", }, entryExitVertices={VERTICES[3183], VERTICES[3818], }},
+    {cellIds={"Punabi", }, entryExitVertices={VERTICES[2418], VERTICES[3342], }},
+    {cellIds={"Palansour", }, entryExitVertices={VERTICES[285], VERTICES[4132], VERTICES[1964], VERTICES[5495], }},
+    {cellIds={"Ald-ruhn, Drinar Varyon's House", }, entryExitVertices={VERTICES[1125], VERTICES[3243], }},
+    {cellIds={"Sadrith Mora, Gateway Inn: West Wing", "Sadrith Mora, Gateway Inn: North Wing", "Sadrith Mora, Gateway Inn: South Wing", "Sadrith Mora, Gateway Inn", }, entryExitVertices={VERTICES[4981], VERTICES[1819], VERTICES[336], VERTICES[6020], }},
+    {cellIds={"Ainab", "Ainab, Shrine", }, entryExitVertices={VERTICES[4296], VERTICES[3439], }},
+    {cellIds={"Suran, Ibarnadad Assirnarari: Apothecary", }, entryExitVertices={VERTICES[1741], VERTICES[2427], VERTICES[62], VERTICES[2020], VERTICES[6059], VERTICES[5103], }},
+    {cellIds={"Assarnud", }, entryExitVertices={VERTICES[5493], VERTICES[1258], VERTICES[1243], VERTICES[603], }},
+    {cellIds={"Vivec, Black Shalk Cornerclub", "Vivec, Jeanne: Trader", "Vivec, Jobasha's Rare Books", "Vivec, Agrippina Herennia: Clothier", "Vivec, Foreign Quarter Canalworks", "Vivec, Andilu Drothan: Alchemist", "Vivec, Simine Fralinie: Bookseller", "Vivec, Foreign Quarter Upper Waistworks", "Vivec, Aurane Frernis: Apothecary", "Vivec, Foreign Quarter Tomb", "Vivec, J'Rasha: Healer", "Vivec, Foreign Quarter Lower Waistworks", "Vivec, Foreign Quarter Underworks", "Vivec, Miun-Gei: Enchanter", "Ibishammus, Shrine", }, entryExitVertices={VERTICES[4967], VERTICES[1526], VERTICES[5809], VERTICES[5528], VERTICES[5443], VERTICES[4201], VERTICES[3360], VERTICES[4182], VERTICES[1313], VERTICES[6358], VERTICES[3287], VERTICES[6224], VERTICES[2710], VERTICES[4163], VERTICES[5018], VERTICES[2228], VERTICES[6343], VERTICES[5628], VERTICES[3636], VERTICES[3082], VERTICES[5971], VERTICES[1936], VERTICES[749], VERTICES[5586], VERTICES[5332], VERTICES[5728], VERTICES[5521], VERTICES[728], }},
+    {cellIds={"Subdun, Shrine", "Subdun", }, entryExitVertices={VERTICES[4837], VERTICES[763], }},
+    {cellIds={"Balmora, Hlaalu Council Manor", }, entryExitVertices={VERTICES[2685], VERTICES[1937], VERTICES[4989], VERTICES[1216], VERTICES[2635], VERTICES[886], }},
+    {cellIds={"Vivec, Hlaren Residence", "Vivec, Temporary Telvanni Housing", "Vivec, Telvanni Prison Cells", "Vivec, Telvanni Plaza", "Vivec, Telvanni Upper Storage", "Vivec, Telvanni Vault", "Vivec, Telvanni Tower", }, entryExitVertices={VERTICES[1632], VERTICES[5086], VERTICES[2515], VERTICES[549], }},
+    {cellIds={"Tel Vos, Services Tower", }, entryExitVertices={VERTICES[1198], VERTICES[2830], VERTICES[255], VERTICES[5300], VERTICES[5178], VERTICES[5229], }},
+    {cellIds={"Gnaar Mok, Anglalos's Shack", }, entryExitVertices={VERTICES[335], VERTICES[19], }},
+    {cellIds={"Arvel Manor", }, entryExitVertices={VERTICES[5881], VERTICES[4303], VERTICES[865], VERTICES[176], }},
+    {cellIds={"Urshilaku Camp, Shara's Yurt", }, entryExitVertices={VERTICES[5059], VERTICES[4136], }},
+    {cellIds={"Balmora, Nalcarya of White Haven: Fine Alchemist", }, entryExitVertices={VERTICES[5247], VERTICES[417], VERTICES[5671], VERTICES[1031], }},
+    {cellIds={"Nchardahrk", }, entryExitVertices={VERTICES[227], VERTICES[3044], }},
+    {cellIds={"Vivec, St. Delyn Waist South-One", }, entryExitVertices={VERTICES[5610], VERTICES[430], }},
+    {cellIds={"Buckmoth Legion Fort, Towers", "Buckmoth Legion Fort, Prison", "Buckmoth Legion Fort, Interior", }, entryExitVertices={VERTICES[3346], VERTICES[3626], VERTICES[3382], VERTICES[286], VERTICES[4847], VERTICES[5805], VERTICES[4673], VERTICES[2259], VERTICES[4267], VERTICES[2700], VERTICES[5069], VERTICES[4293], VERTICES[1410], VERTICES[464], VERTICES[2341], VERTICES[1236], VERTICES[3946], }},
+    {cellIds={"Telasero, Upper Level", "Telasero, Lower Level", }, entryExitVertices={VERTICES[6084], VERTICES[5594], }},
+    {cellIds={"Omaren Ancestral Tomb", "Forgotten Vaults of Anudnabia, Forge of Hilbongard", }, entryExitVertices={VERTICES[1755], VERTICES[3119], }},
+    {cellIds={"Ald Sotha, Shrine", "Ald Sotha, Lower Level", "Ald Sotha, Upper Level", }, entryExitVertices={VERTICES[790], VERTICES[5634], }},
+    {cellIds={"Nchuleftingth, Upper Levels", "Nchuleftingth, Lower Levels", "Nchuleftingth, Test of Pattern", }, entryExitVertices={VERTICES[6081], VERTICES[3699], }},
+    {cellIds={"Unknown Shipwreck, Lower Level", "Unknown Shipwreck, Upper Level", }, entryExitVertices={VERTICES[226], VERTICES[5483], }},
+    {cellIds={"Sandas Ancestral Tomb", }, entryExitVertices={VERTICES[4876], VERTICES[2517], }},
+    {cellIds={"Nammu", }, entryExitVertices={VERTICES[3862], VERTICES[4429], }},
+    {cellIds={"Urshilaku, Laterus Burial", "Urshilaku, Karma Burial", "Urshilaku, Juno Burial", "Urshilaku, Kakuna Burial", "Urshilaku, Kefka Burial", "Urshilaku, Fragile Burial", "Urshilaku, Astral Burial", }, entryExitVertices={VERTICES[4396], VERTICES[3731], }},
+    {cellIds={"Maar Gan, Garry's Hut", }, entryExitVertices={VERTICES[4862], VERTICES[3875], }},
+    {cellIds={"Gnisis, Yahaz Hut", }, entryExitVertices={VERTICES[5649], VERTICES[1868], }},
+    {cellIds={"Suran, Guard Tower", }, entryExitVertices={VERTICES[3950], VERTICES[3485], }},
+    {cellIds={"Telvayn Ancestral Tomb", }, entryExitVertices={VERTICES[379], VERTICES[5173], }},
+    {cellIds={"Tower of Tel Fyr, Onyx Hall", "Corprusarium", "Corprusarium Bowels", "Tower of Tel Fyr, Hall of Fyr", }, entryExitVertices={VERTICES[4448], VERTICES[5022], }},
+    {cellIds={"Vivec, Puzzle Canal, Center", "Vivec, Puzzle Canal, Level 3", }, entryExitVertices={VERTICES[4400], VERTICES[5442], VERTICES[6391], VERTICES[5453], VERTICES[1221], VERTICES[3705], }},
+    {cellIds={"Gnisis, Vabdas Hut", }, entryExitVertices={VERTICES[3575], VERTICES[6229], }},
+    {cellIds={"Bal Fell, Inner Shrine", "Bal Fell, Outer Shrine", "Bal Fell, East Wing", "Bal Fell, West Wing", }, entryExitVertices={VERTICES[1732], VERTICES[6049], }},
+    {cellIds={"Balmora, Eight Plates", }, entryExitVertices={VERTICES[4430], VERTICES[2610], VERTICES[429], VERTICES[3404], }},
+    {cellIds={"Tel Branora, Tower Dungeon", "Tel Branora, Lower Tower", "Tel Branora, Upper Tower", "Tel Branora, Upper Tower: Therana's Chamber", }, entryExitVertices={VERTICES[729], VERTICES[13], VERTICES[1885], VERTICES[2583], VERTICES[428], VERTICES[1093], }},
+    {cellIds={"Mzahnch", "Mzahnch Lower Level", }, entryExitVertices={VERTICES[5074], VERTICES[4798], }},
+    {cellIds={"Heleran Ancestral Tomb", "Caldera, Nedhelas' House", }, entryExitVertices={VERTICES[1256], VERTICES[1295], }},
+    {cellIds={"Sadrith Mora, Llaalam Madalas: Mage", }, entryExitVertices={VERTICES[2480], VERTICES[6190], }},
+    {cellIds={"Ginith Ancestral Tomb", }, entryExitVertices={VERTICES[5233], VERTICES[187], }},
+    {cellIds={"Gnisis, Barracks", }, entryExitVertices={VERTICES[1063], VERTICES[360], }},
+    {cellIds={"Andavel Ancestral Tomb", }, entryExitVertices={VERTICES[819], VERTICES[2670], }},
+    {cellIds={"Shulk Egg Mine", "Shulk Egg Mine, Queen's Lair", "Shulk Egg Mine, Mining Camp", }, entryExitVertices={VERTICES[2543], VERTICES[2384], }},
+    {cellIds={"Sulipund", }, entryExitVertices={VERTICES[2185], VERTICES[5683], }},
+    {cellIds={"Kaushtababi Camp, Adibael's Yurt", }, entryExitVertices={VERTICES[3633], VERTICES[2629], }},
+    {cellIds={"Marandus, Lower Level", "Marandus, Upper Level", }, entryExitVertices={VERTICES[72], VERTICES[4816], VERTICES[874], VERTICES[1114], }},
+    {cellIds={"Assumanu", }, entryExitVertices={VERTICES[3897], VERTICES[784], }},
+    {cellIds={"Maar Gan, Yeherradad's Hut", }, entryExitVertices={VERTICES[47], VERTICES[1994], }},
+    {cellIds={"Yasamsi", }, entryExitVertices={VERTICES[5757], VERTICES[4028], }},
+    {cellIds={"Molag Mar, St. Veloth's Hostel", }, entryExitVertices={VERTICES[4375], VERTICES[4276], }},
+    {cellIds={"Arano Plantation", }, entryExitVertices={VERTICES[769], VERTICES[1440], }},
+    {cellIds={"Nund", }, entryExitVertices={VERTICES[2147], VERTICES[4062], }},
+    {cellIds={"Addamasartus", }, entryExitVertices={VERTICES[4042], VERTICES[2332], }},
+    {cellIds={"Ahanibi-Malmus Egg Mine", }, entryExitVertices={VERTICES[2638], VERTICES[3536], }},
+    {cellIds={"Seyda Neen, Fargoth's House", }, entryExitVertices={VERTICES[2912], VERTICES[332], }},
+    {cellIds={"Yakin", "Yakin, Shrine", }, entryExitVertices={VERTICES[4596], VERTICES[341], }},
+    {cellIds={"Caldera, Mining Bunkhouse", }, entryExitVertices={VERTICES[1423], VERTICES[3687], VERTICES[5212], VERTICES[1829], }},
+    {cellIds={"Ashalmawia, Shrine", "Ashalmawia, Shrine, Sunken Vaults", }, entryExitVertices={VERTICES[300], VERTICES[5626], }},
+    {cellIds={"Ilunibi, Blackened Heart", "Ilunibi, Tainted Marrow", "Ilunibi, Soul's Rattle", "Ilunibi, Marowak's Spine", "Ilunibi, Carcass of the Saint", }, entryExitVertices={VERTICES[6286], VERTICES[1292], }},
+    {cellIds={"Indoranyon, Propylon Chamber", }, entryExitVertices={VERTICES[3037], VERTICES[1204], }},
+    {cellIds={"Molag Mar, Temple", }, entryExitVertices={VERTICES[6331], VERTICES[1571], }},
+    {cellIds={"Sadrith Mora, Thervul Serethi: Healer", }, entryExitVertices={VERTICES[3467], VERTICES[952], }},
+    {cellIds={"Obscure Shipwreck, Upper Level", "Obscure Shipwreck, Lower Level", }, entryExitVertices={VERTICES[1573], VERTICES[6354], }},
+    {cellIds={"Seyda Neen, Indrele Rathryon's Shack", }, entryExitVertices={VERTICES[4979], VERTICES[5625], }},
+    {cellIds={"Sadrith Mora, Telvanni Council House", "Sadrith Mora, Telvanni Council House, Hermitage", "Sadrith Mora, Telvanni Council House, Entry", "Sadrith Mora, Telvanni Council House, Chambers", }, entryExitVertices={VERTICES[337], VERTICES[5396], }},
+    {cellIds={"Sanit, Shrine", "Sanit", }, entryExitVertices={VERTICES[2603], VERTICES[2139], }},
+    {cellIds={"Arrow, Lower Level", "Arrow, Upper Level", }, entryExitVertices={VERTICES[4414], VERTICES[667], }},
+    {cellIds={"Dagoth Ur, Facility Cavern", "Dagoth Ur, Outer Facility", "Akulakhan's Chamber", "Dagoth Ur, Inner Tower", "Dagoth Ur, Lower Facility", "Dagoth Ur, Inner Facility", }, entryExitVertices={VERTICES[3602], VERTICES[2214], }},
+    {cellIds={"Abinabi", }, entryExitVertices={VERTICES[3098], VERTICES[4734], }},
     {cellIds={"Clutter Warehouse - Everything Must Go!", }, entryExitVertices={}},
-    {cellIds={"Big Head's Shack", }, entryExitVertices={VERTICES[2432], VERTICES[6137], }},
-    {cellIds={"Vivec, Palace of Vivec", }, entryExitVertices={VERTICES[356], VERTICES[6234], }},
-    {cellIds={"Ashirbadon", }, entryExitVertices={VERTICES[2605], VERTICES[5321], }},
-    {cellIds={"Suran, Desele's House of Earthly Delights", }, entryExitVertices={VERTICES[4635], VERTICES[862], VERTICES[2936], VERTICES[4482], }},
-    {cellIds={"Assemanu", "Assemanu, Shrine", }, entryExitVertices={VERTICES[4149], VERTICES[287], }},
-    {cellIds={"Abandoned Shipwreck, Upper Level", "Abandoned Shipwreck, Lower Level", }, entryExitVertices={VERTICES[3624], VERTICES[253], }},
-    {cellIds={"Cavern of the Incarnate", }, entryExitVertices={VERTICES[3795], VERTICES[1420], }},
-    {cellIds={"Aharnabi", }, entryExitVertices={VERTICES[1285], VERTICES[5], }},
-    {cellIds={"Mudan, Lost Dwemer Checkpoint", "Mudan Grotto", "Mudan, Central Vault", "Mudan, Right Tower", }, entryExitVertices={VERTICES[2362], VERTICES[5446], }},
-    {cellIds={"Nilera's Farmhouse", }, entryExitVertices={VERTICES[4034], VERTICES[4494], }},
-    {cellIds={"Ashalmimilkala, Shrine", }, entryExitVertices={VERTICES[5656], VERTICES[4382], }},
-    {cellIds={"Mallapi", }, entryExitVertices={VERTICES[682], VERTICES[2448], }},
-    {cellIds={"Gnisis, Shishara Hut", }, entryExitVertices={VERTICES[3056], VERTICES[4553], }},
-    {cellIds={"Elf-Skerring, Cabin", }, entryExitVertices={VERTICES[3401], VERTICES[5394], }},
-    {cellIds={"Tel Branora, Galen Berer: Armorer", }, entryExitVertices={VERTICES[3398], VERTICES[3488], }},
-    {cellIds={"Pinsun", }, entryExitVertices={VERTICES[3435], VERTICES[3964], }},
-    {cellIds={"Sennananit", }, entryExitVertices={VERTICES[948], VERTICES[4254], }},
-    {cellIds={"Falensarano, Upper Level", "Falensarano, Lower Level", }, entryExitVertices={VERTICES[3582], VERTICES[1140], VERTICES[274], VERTICES[586], }},
-    {cellIds={"Urshilaku Camp, Maeli's Yurt", }, entryExitVertices={VERTICES[4645], VERTICES[4985], }},
-    {cellIds={"Vivec, St. Olms Waist North-Two", }, entryExitVertices={VERTICES[5118], VERTICES[6099], }},
-    {cellIds={"Ald-ruhn, Guild of Fighters", }, entryExitVertices={VERTICES[1519], VERTICES[5820], }},
-    {cellIds={"Arys Ancestral Tomb", }, entryExitVertices={VERTICES[2263], VERTICES[1202], }},
-    {cellIds={"Mzanchend", }, entryExitVertices={VERTICES[5828], VERTICES[2576], }},
-    {cellIds={"Dagon Fel, The End of the World", "Dagon Fel, End of the World Renter Rooms", }, entryExitVertices={VERTICES[1465], VERTICES[3558], VERTICES[1012], VERTICES[1662], }},
-    {cellIds={"Maar Gan, Guard Tower 1", }, entryExitVertices={VERTICES[422], VERTICES[6174], VERTICES[1301], VERTICES[329], }},
-    {cellIds={"Hassour", "Hassour, Shrine", }, entryExitVertices={VERTICES[3671], VERTICES[652], }},
-    {cellIds={"Indarys Manor, Raram's House", }, entryExitVertices={VERTICES[142], VERTICES[4155], VERTICES[683], VERTICES[4822], }},
-    {cellIds={"Seyda Neen, Lighthouse", }, entryExitVertices={VERTICES[4240], VERTICES[5737], VERTICES[2774], VERTICES[2371], }},
-    {cellIds={"Gnaar Mok, Nadene Rotheran's Shack", }, entryExitVertices={VERTICES[315], VERTICES[2094], VERTICES[2016], VERTICES[1455], }},
-    {cellIds={"Dagon Fel, Anja Swift-Sailer's House", }, entryExitVertices={VERTICES[2748], VERTICES[334], }},
-    {cellIds={"Gnaar Mok, Druegh-jigger's Rest", }, entryExitVertices={VERTICES[1470], VERTICES[1785], VERTICES[3598], VERTICES[4249], }},
-    {cellIds={"Tel Mora, Kirsty's House", }, entryExitVertices={VERTICES[5436], VERTICES[5572], }},
-    {cellIds={"Andasreth, Propylon Chamber", }, entryExitVertices={VERTICES[2253], VERTICES[5027], }},
-    {cellIds={"Salothan Ancestral Tomb", }, entryExitVertices={VERTICES[2026], VERTICES[3368], }},
-    {cellIds={"Suran, Ralds Oril: Trader", }, entryExitVertices={VERTICES[5963], VERTICES[731], VERTICES[4596], VERTICES[634], }},
-    {cellIds={"Valenvaryon, Durz's Hut", }, entryExitVertices={VERTICES[3364], VERTICES[665], }},
-    {cellIds={"Sadrith Mora, Madran Ulvel's House", }, entryExitVertices={VERTICES[2937], VERTICES[3667], }},
-    {cellIds={"Pudai Egg Mine, Queen's Lair", "Pudai Egg Mine", }, entryExitVertices={VERTICES[2531], VERTICES[2943], }},
-    {cellIds={"Pelagiad, Halfway Tavern", }, entryExitVertices={VERTICES[801], VERTICES[6077], }},
-    {cellIds={"Seyda Neen, Vodunius Nuccius' House", }, entryExitVertices={VERTICES[4535], VERTICES[3506], }},
-    {cellIds={"Sanni", }, entryExitVertices={VERTICES[4889], VERTICES[4764], }},
-    {cellIds={"Sarimisun-Assa Egg Mine", "Sarimisun-Assa Egg Mine, Queen's Lair", }, entryExitVertices={VERTICES[539], VERTICES[3332], }},
-    {cellIds={"Chun-Ook, Upper Level", "Chun-Ook, Lower Level", }, entryExitVertices={VERTICES[2847], VERTICES[3736], }},
-    {cellIds={"Dushariran, Shrine", }, entryExitVertices={VERTICES[4294], VERTICES[4673], }},
-    {cellIds={"Balmora, Balyn Omarel's House", }, entryExitVertices={VERTICES[5319], VERTICES[1605], VERTICES[520], VERTICES[176], }},
-    {cellIds={"Piran", }, entryExitVertices={VERTICES[804], VERTICES[2534], }},
-    {cellIds={"Nerano Ancestral Tomb", }, entryExitVertices={VERTICES[686], VERTICES[4366], }},
-    {cellIds={"Vos, Maela Kaushad's Farmhouse", }, entryExitVertices={VERTICES[993], VERTICES[2772], }},
-    {cellIds={"Madas Grotto", }, entryExitVertices={VERTICES[5317], VERTICES[5385], }},
-    {cellIds={"Unchartered Shipwreck, Cabin", }, entryExitVertices={VERTICES[29], VERTICES[592], }},
-    {cellIds={"Tel Uvirith, Tower Lower", "Tel Uvirith, Tower Upper", "Tel Uvirith, Tower Dungeon", }, entryExitVertices={VERTICES[5240], VERTICES[1573], VERTICES[6263], VERTICES[3974], }},
-    {cellIds={"Gnisis, Eggmine", "Gnisis, Lower Eggmine", "Gnisis, Underground Stream", "Gnisis, Bethamez", }, entryExitVertices={VERTICES[1980], VERTICES[2736], VERTICES[83], VERTICES[1027], }},
-    {cellIds={"Dulo Ancestral Tomb", }, entryExitVertices={VERTICES[2454], VERTICES[5368], }},
-    {cellIds={"Randas Ancestral Tomb", }, entryExitVertices={VERTICES[972], VERTICES[3815], }},
-    {cellIds={"Lost Shipwreck, Upper Level", "Lost Shipwreck, Lower Level", }, entryExitVertices={VERTICES[595], VERTICES[2540], }},
-    {cellIds={"Assurdirapal, Shrine", "Assurdirapal, Inner Shrine", }, entryExitVertices={VERTICES[3559], VERTICES[3363], VERTICES[1147], VERTICES[2671], }},
-    {cellIds={"Shishi", }, entryExitVertices={VERTICES[5695], VERTICES[2206], }},
-    {cellIds={"Gnisis, Mantiti Cave Dwelling", }, entryExitVertices={VERTICES[3416], VERTICES[2908], }},
-    {cellIds={"Eluba-Addon Egg Mine", }, entryExitVertices={VERTICES[5484], VERTICES[4067], }},
-    {cellIds={"Seyda Neen, Erene Llenim's Shack", }, entryExitVertices={VERTICES[1962], VERTICES[4765], }},
-    {cellIds={"Dagon Fel, Fjorrod's House", }, entryExitVertices={VERTICES[5416], VERTICES[2911], }},
-    {cellIds={"Bensamsi", }, entryExitVertices={VERTICES[5785], VERTICES[2369], }},
-    {cellIds={"Shrine of Azura", }, entryExitVertices={VERTICES[1294], VERTICES[2068], }},
-    {cellIds={"Tel Aruhn, Aryne Telnim: Smith", }, entryExitVertices={VERTICES[4749], VERTICES[1661], }},
-    {cellIds={"Khuul, Thongar's Tradehouse", }, entryExitVertices={VERTICES[974], VERTICES[6018], }},
-    {cellIds={"Balmora, Drarayne Thelas' Storage", }, entryExitVertices={VERTICES[4364], VERTICES[6078], }},
-    {cellIds={"Ebernanit, Shrine", }, entryExitVertices={VERTICES[5608], VERTICES[2849], }},
-    {cellIds={"Uncharted Shipwreck, Lower Level", "Unchartered Shipwreck, Upper Level", }, entryExitVertices={VERTICES[1795], VERTICES[5961], }},
-    {cellIds={"Seyda Neen, Terurise Girvayne's House", }, entryExitVertices={VERTICES[2722], VERTICES[4270], }},
-    {cellIds={"Raviro Ancestral Tomb", }, entryExitVertices={VERTICES[454], VERTICES[2261], }},
-    {cellIds={"Ald-ruhn, Daynes Redothril: Pawnbroker", }, entryExitVertices={VERTICES[4132], VERTICES[1297], }},
-    {cellIds={"Tureynulal, Bladder of Clovis", "Tureynulal, Eye of Duggan", "Tureynulal, Eye of Thom Wye", "Tureynulal, Kagrenac's Library", }, entryExitVertices={VERTICES[2339], VERTICES[2835], }},
-    {cellIds={"Tel Vos, Central Tower", }, entryExitVertices={VERTICES[3918], VERTICES[1469], VERTICES[4759], VERTICES[2929], VERTICES[1702], VERTICES[964], VERTICES[953], VERTICES[2601], VERTICES[2054], VERTICES[6017], }},
-    {cellIds={"Hlormaren, Sewers", "Hlormaren, Keep, Bottom Level", "Hlormaren, Underground", "Hlormaren, Keep, Top Level", }, entryExitVertices={VERTICES[6249], VERTICES[5797], VERTICES[4861], VERTICES[1796], VERTICES[881], VERTICES[5555], }},
-    {cellIds={"Vos, Fanisea Irano's Farmhouse", }, entryExitVertices={VERTICES[5809], VERTICES[3856], }},
-    {cellIds={"Ancient Shipwreck, Lower Level", "Ancient Shipwreck, Upper Level", }, entryExitVertices={VERTICES[1838], VERTICES[5201], }},
-    {cellIds={"Caldera, Falanaamo: Clothier", }, entryExitVertices={VERTICES[1233], VERTICES[3476], }},
-    {cellIds={"Helan Ancestral Tomb", }, entryExitVertices={VERTICES[178], VERTICES[203], }},
-    {cellIds={"Tel Mora, The Covenant", }, entryExitVertices={VERTICES[4729], VERTICES[3975], }},
-    {cellIds={"Derelict Shipwreck, Cabin", }, entryExitVertices={VERTICES[4879], VERTICES[1298], }},
-    {cellIds={"Balmora, Caius Cosades' House", }, entryExitVertices={VERTICES[2574], VERTICES[2628], }},
-    {cellIds={"Vemynal, Hall of Torque", "Vemynal, Outer Fortress", }, entryExitVertices={VERTICES[4676], VERTICES[6037], }},
-    {cellIds={"Falvillo's Endeavor, Cabin", }, entryExitVertices={VERTICES[5703], VERTICES[1003], }},
-    {cellIds={"Vivec, Puzzle Canal, Level 2", }, entryExitVertices={VERTICES[6025], VERTICES[4231], VERTICES[3613], VERTICES[5449], VERTICES[3014], VERTICES[1992], }},
-    {cellIds={"Dagon Fel, Greidil Half-Troll's House", }, entryExitVertices={VERTICES[1766], VERTICES[2180], VERTICES[2715], }},
-    {cellIds={"Tel Mora, Berwen: Trader", }, entryExitVertices={VERTICES[2011], VERTICES[4633], }},
-    {cellIds={"Erabenimsun Camp, Addut-Lamanu's Yurt", }, entryExitVertices={VERTICES[4632], VERTICES[2273], }},
-    {cellIds={"Tel Aruhn, Underground", }, entryExitVertices={VERTICES[5592], VERTICES[5270], VERTICES[4560], VERTICES[3823], }},
-    {cellIds={"Sadrith Mora, Urtiso Faryon: Sorcerer", }, entryExitVertices={VERTICES[1885], VERTICES[2806], }},
-    {cellIds={"Omalen Ancestral Tomb", }, entryExitVertices={VERTICES[5962], VERTICES[4151], }},
-    {cellIds={"Arkngthunch-Sturdumz", }, entryExitVertices={VERTICES[6196], VERTICES[4524], }},
-    {cellIds={"Seyda Neen, Draren Thiralas' House", }, entryExitVertices={VERTICES[5356], VERTICES[1891], }},
-    {cellIds={"Alen Ancestral Tomb", }, entryExitVertices={VERTICES[2184], VERTICES[2481], }},
-    {cellIds={"Nchardumz", "Nchardumz Lower Level", }, entryExitVertices={VERTICES[247], VERTICES[725], }},
-    {cellIds={"Alof's Farmhouse", }, entryExitVertices={VERTICES[2367], VERTICES[2174], }},
-    {cellIds={"Lonely Shipwreck, Lower Level", "Lonely Shipwreck, Upper Level", }, entryExitVertices={VERTICES[2038], VERTICES[2947], }},
-    {cellIds={"Verelnim Ancestral Tomb", }, entryExitVertices={VERTICES[5111], VERTICES[3854], }},
-    {cellIds={"Ahemmusa Camp, Nummu's Yurt", }, entryExitVertices={VERTICES[3397], VERTICES[6145], }},
-    {cellIds={"Pelagiad, Uulernil : Armorer", }, entryExitVertices={VERTICES[5046], VERTICES[4190], }},
-    {cellIds={"Gnisis, Temple", }, entryExitVertices={VERTICES[6023], VERTICES[541], }},
-    {cellIds={"Mamaea, Shrine of Pitted Dreams", "Mamaea, Sanctum of Black Hope", "Mamaea, Sanctum of Awakening", }, entryExitVertices={VERTICES[2271], VERTICES[1329], }},
-    {cellIds={"Aidanat Camp, Abassel's Yurt", }, entryExitVertices={VERTICES[860], VERTICES[690], }},
-    {cellIds={"Indoranyon", }, entryExitVertices={VERTICES[1334], VERTICES[6008], }},
-    {cellIds={"Shushishi", }, entryExitVertices={VERTICES[720], VERTICES[2297], }},
-    {cellIds={"Assurnabitashpi, Shrine", }, entryExitVertices={VERTICES[124], VERTICES[4318], VERTICES[1410], VERTICES[2821], }},
-    {cellIds={"Mat", }, entryExitVertices={VERTICES[5345], VERTICES[466], }},
-    {cellIds={"Marandus, Propylon Chamber", }, entryExitVertices={VERTICES[6180], VERTICES[1270], }},
-    {cellIds={"Tel Aruhn, Maren Uvaren: Enchanter", }, entryExitVertices={VERTICES[3830], VERTICES[4604], }},
-    {cellIds={"Pelagiad, Madres Navur's House", }, entryExitVertices={VERTICES[2019], VERTICES[3335], }},
-    {cellIds={"Caldera, Ghorak Manor", }, entryExitVertices={VERTICES[1969], VERTICES[3044], VERTICES[6051], VERTICES[3065], VERTICES[2247], VERTICES[2029], }},
-    {cellIds={"Lleran Ancestral Tomb", }, entryExitVertices={VERTICES[891], VERTICES[5191], }},
-    {cellIds={"Sadrith Mora, Urtisa Romayn's House", }, entryExitVertices={VERTICES[1748], VERTICES[5468], }},
-    {cellIds={"Balmora, Karlirah's House", }, entryExitVertices={VERTICES[2887], VERTICES[1970], VERTICES[3094], VERTICES[5395], }},
-    {cellIds={"Ebonheart, East Empire Company Hall", }, entryExitVertices={VERTICES[2115], VERTICES[3490], VERTICES[2384], VERTICES[2523], }},
-    {cellIds={"Ald-ruhn, Guard Tower 1", }, entryExitVertices={VERTICES[4175], VERTICES[3788], VERTICES[3724], VERTICES[4562], }},
-    {cellIds={"Helas Ancestral Tomb", }, entryExitVertices={VERTICES[5816], VERTICES[3681], }},
-    {cellIds={"Vivec, St. Olms Waist South-Two", }, entryExitVertices={VERTICES[3849], VERTICES[2901], }},
-    {cellIds={"Prelude Shipwreck, Cabin", }, entryExitVertices={VERTICES[4028], VERTICES[5559], }},
-    {cellIds={"Moonmoth Legion Fort, Interior", "Moonmoth Legion Fort, Prison Towers", }, entryExitVertices={VERTICES[3417], VERTICES[4783], VERTICES[109], VERTICES[2498], VERTICES[1017], VERTICES[4189], VERTICES[2032], VERTICES[2539], VERTICES[927], VERTICES[5588], VERTICES[959], VERTICES[2150], VERTICES[3884], VERTICES[567], VERTICES[5330], }},
-    {cellIds={"Falasmaryon, Sewers", "Falasmaryon, Upper Level", "Falasmaryon, Lower Level", }, entryExitVertices={VERTICES[3099], VERTICES[1277], VERTICES[5870], VERTICES[296], }},
-    {cellIds={"Tin-Ahhe", }, entryExitVertices={VERTICES[5103], VERTICES[1950], }},
-    {cellIds={"Maar Gan, Assirari Zama-Rasour's Hut", }, entryExitVertices={VERTICES[4040], VERTICES[2336], }},
-    {cellIds={"Habinbaes", }, entryExitVertices={VERTICES[732], VERTICES[5528], }},
-    {cellIds={"Rethan Manor, Tures' House", }, entryExitVertices={VERTICES[1355], VERTICES[5403], }},
-    {cellIds={"Balmora, Nerano Manor", }, entryExitVertices={VERTICES[3654], VERTICES[299], VERTICES[1556], VERTICES[1894], }},
-    {cellIds={"Vos, Mandyn Ralas's Farmhouse", }, entryExitVertices={VERTICES[1684], VERTICES[2168], }},
-    {cellIds={"Dagon Fel, Watch Tower", }, entryExitVertices={VERTICES[4302], VERTICES[2200], }},
-    {cellIds={"Salvel Ancestral Tomb", }, entryExitVertices={VERTICES[1777], VERTICES[1535], }},
-    {cellIds={"Balmora, Guild of Fighters", }, entryExitVertices={VERTICES[1794], VERTICES[6215], VERTICES[5141], VERTICES[880], VERTICES[3023], VERTICES[4757], }},
-    {cellIds={"Urshilaku Camp, Shimsun's Yurt", }, entryExitVertices={VERTICES[173], VERTICES[883], }},
-    {cellIds={"Nallit", }, entryExitVertices={VERTICES[5649], VERTICES[538], }},
-    {cellIds={"Bthanchend", }, entryExitVertices={VERTICES[1584], VERTICES[1711], }},
-    {cellIds={"Endusal, Kagrenac's study", }, entryExitVertices={VERTICES[5105], VERTICES[1632], }},
-    {cellIds={"Mul Grotto", }, entryExitVertices={VERTICES[594], VERTICES[2121], }},
-    {cellIds={"Sarys Ancestral Tomb", }, entryExitVertices={VERTICES[4526], VERTICES[916], }},
-    {cellIds={"Gnisis, Dinadad Hut", }, entryExitVertices={VERTICES[1932], VERTICES[5432], }},
-    {cellIds={"Zainab Camp, Ashur-Dan's Yurt", }, entryExitVertices={VERTICES[5800], VERTICES[6029], }},
+    {cellIds={"Big Head's Shack", }, entryExitVertices={VERTICES[2489], VERTICES[6276], }},
+    {cellIds={"Vivec, Palace of Vivec", }, entryExitVertices={VERTICES[367], VERTICES[6375], }},
+    {cellIds={"Ashirbadon", }, entryExitVertices={VERTICES[2667], VERTICES[5440], }},
+    {cellIds={"Suran, Desele's House of Earthly Delights", }, entryExitVertices={VERTICES[4745], VERTICES[882], VERTICES[3005], VERTICES[4589], }},
+    {cellIds={"Assemanu", "Assemanu, Shrine", }, entryExitVertices={VERTICES[4249], VERTICES[297], }},
+    {cellIds={"Abandoned Shipwreck, Upper Level", "Abandoned Shipwreck, Lower Level", }, entryExitVertices={VERTICES[3706], VERTICES[263], }},
+    {cellIds={"Cavern of the Incarnate", }, entryExitVertices={VERTICES[3881], VERTICES[1460], }},
+    {cellIds={"Aharnabi", }, entryExitVertices={VERTICES[1320], VERTICES[5], }},
+    {cellIds={"Mudan, Lost Dwemer Checkpoint", "Mudan Grotto", "Mudan, Central Vault", "Mudan, Right Tower", }, entryExitVertices={VERTICES[2416], VERTICES[5569], }},
+    {cellIds={"Nilera's Farmhouse", }, entryExitVertices={VERTICES[4125], VERTICES[4601], }},
+    {cellIds={"Ashalmimilkala, Shrine", }, entryExitVertices={VERTICES[5783], VERTICES[4486], }},
+    {cellIds={"Mallapi", }, entryExitVertices={VERTICES[700], VERTICES[2505], }},
+    {cellIds={"Gnisis, Shishara Hut", }, entryExitVertices={VERTICES[3129], VERTICES[4662], }},
+    {cellIds={"Elf-Skerring, Cabin", }, entryExitVertices={VERTICES[3479], VERTICES[5515], }},
+    {cellIds={"Tel Branora, Galen Berer: Armorer", }, entryExitVertices={VERTICES[3476], VERTICES[3568], }},
+    {cellIds={"Pinsun", }, entryExitVertices={VERTICES[3513], VERTICES[4055], }},
+    {cellIds={"Sennananit", }, entryExitVertices={VERTICES[970], VERTICES[4354], }},
+    {cellIds={"Falensarano, Upper Level", "Falensarano, Lower Level", }, entryExitVertices={VERTICES[3663], VERTICES[1165], VERTICES[284], VERTICES[602], }},
+    {cellIds={"Urshilaku Camp, Maeli's Yurt", }, entryExitVertices={VERTICES[4755], VERTICES[5099], }},
+    {cellIds={"Vivec, St. Olms Waist North-Two", }, entryExitVertices={VERTICES[5235], VERTICES[6238], }},
+    {cellIds={"Ald-ruhn, Guild of Fighters", }, entryExitVertices={VERTICES[1561], VERTICES[5948], }},
+    {cellIds={"Arys Ancestral Tomb", }, entryExitVertices={VERTICES[2316], VERTICES[1232], }},
+    {cellIds={"Mzanchend", }, entryExitVertices={VERTICES[5956], VERTICES[2636], }},
+    {cellIds={"Dagon Fel, The End of the World", "Dagon Fel, End of the World Renter Rooms", }, entryExitVertices={VERTICES[1505], VERTICES[3639], VERTICES[1035], VERTICES[1707], }},
+    {cellIds={"Maar Gan, Guard Tower 1", }, entryExitVertices={VERTICES[435], VERTICES[6313], VERTICES[1338], VERTICES[340], }},
+    {cellIds={"Hassour", "Hassour, Shrine", }, entryExitVertices={VERTICES[3754], VERTICES[670], }},
+    {cellIds={"Indarys Manor, Raram's House", }, entryExitVertices={VERTICES[150], VERTICES[4255], VERTICES[701], VERTICES[4935], }},
+    {cellIds={"Seyda Neen, Lighthouse", }, entryExitVertices={VERTICES[4340], VERTICES[5864], VERTICES[2839], VERTICES[2425], }},
+    {cellIds={"Gnaar Mok, Nadene Rotheran's Shack", }, entryExitVertices={VERTICES[326], VERTICES[2145], VERTICES[2066], VERTICES[1495], }},
+    {cellIds={"Dagon Fel, Anja Swift-Sailer's House", }, entryExitVertices={VERTICES[2813], VERTICES[345], }},
+    {cellIds={"Gnaar Mok, Druegh-jigger's Rest", }, entryExitVertices={VERTICES[1510], VERTICES[1830], VERTICES[3680], VERTICES[4349], }},
+    {cellIds={"Tel Mora, Kirsty's House", }, entryExitVertices={VERTICES[5559], VERTICES[5699], }},
+    {cellIds={"Andasreth, Propylon Chamber", }, entryExitVertices={VERTICES[2306], VERTICES[5142], }},
+    {cellIds={"Salothan Ancestral Tomb", }, entryExitVertices={VERTICES[2076], VERTICES[3445], }},
+    {cellIds={"Suran, Ralds Oril: Trader", }, entryExitVertices={VERTICES[6097], VERTICES[750], VERTICES[4706], VERTICES[652], }},
+    {cellIds={"Valenvaryon, Durz's Hut", }, entryExitVertices={VERTICES[3441], VERTICES[683], }},
+    {cellIds={"Sadrith Mora, Madran Ulvel's House", }, entryExitVertices={VERTICES[3006], VERTICES[3750], }},
+    {cellIds={"Pudai Egg Mine, Queen's Lair", "Pudai Egg Mine", }, entryExitVertices={VERTICES[2589], VERTICES[3013], }},
+    {cellIds={"Pelagiad, Halfway Tavern", }, entryExitVertices={VERTICES[820], VERTICES[6214], }},
+    {cellIds={"Seyda Neen, Vodunius Nuccius' House", }, entryExitVertices={VERTICES[4644], VERTICES[3586], }},
+    {cellIds={"Sanni", }, entryExitVertices={VERTICES[5002], VERTICES[4874], }},
+    {cellIds={"Sarimisun-Assa Egg Mine", "Sarimisun-Assa Egg Mine, Queen's Lair", }, entryExitVertices={VERTICES[555], VERTICES[3408], }},
+    {cellIds={"Chun-Ook, Upper Level", "Chun-Ook, Lower Level", }, entryExitVertices={VERTICES[2914], VERTICES[3820], }},
+    {cellIds={"Dushariran, Shrine", }, entryExitVertices={VERTICES[4394], VERTICES[4783], }},
+    {cellIds={"Balmora, Balyn Omarel's House", }, entryExitVertices={VERTICES[5438], VERTICES[1649], VERTICES[535], VERTICES[186], }},
+    {cellIds={"Piran", }, entryExitVertices={VERTICES[823], VERTICES[2592], }},
+    {cellIds={"Nerano Ancestral Tomb", }, entryExitVertices={VERTICES[704], VERTICES[4469], }},
+    {cellIds={"Vos, Maela Kaushad's Farmhouse", }, entryExitVertices={VERTICES[1015], VERTICES[2837], }},
+    {cellIds={"Madas Grotto", }, entryExitVertices={VERTICES[5436], VERTICES[5506], }},
+    {cellIds={"Unchartered Shipwreck, Cabin", }, entryExitVertices={VERTICES[30], VERTICES[608], }},
+    {cellIds={"Tel Uvirith, Tower Lower", "Tel Uvirith, Tower Upper", "Tel Uvirith, Tower Dungeon", }, entryExitVertices={VERTICES[5357], VERTICES[1617], VERTICES[6405], VERTICES[4065], }},
+    {cellIds={"Gnisis, Eggmine", "Gnisis, Lower Eggmine", "Gnisis, Underground Stream", "Gnisis, Bethamez", }, entryExitVertices={VERTICES[2029], VERTICES[2801], VERTICES[86], VERTICES[1051], }},
+    {cellIds={"Dulo Ancestral Tomb", }, entryExitVertices={VERTICES[2511], VERTICES[5488], }},
+    {cellIds={"Randas Ancestral Tomb", }, entryExitVertices={VERTICES[994], VERTICES[3903], }},
+    {cellIds={"Lost Shipwreck, Upper Level", "Lost Shipwreck, Lower Level", }, entryExitVertices={VERTICES[611], VERTICES[2598], }},
+    {cellIds={"Assurdirapal, Shrine", "Assurdirapal, Inner Shrine", }, entryExitVertices={VERTICES[3640], VERTICES[3440], VERTICES[1172], VERTICES[2734], }},
+    {cellIds={"Shishi", }, entryExitVertices={VERTICES[5822], VERTICES[2257], }},
+    {cellIds={"Gnisis, Mantiti Cave Dwelling", }, entryExitVertices={VERTICES[3494], VERTICES[2976], }},
+    {cellIds={"Eluba-Addon Egg Mine", }, entryExitVertices={VERTICES[5609], VERTICES[4159], }},
+    {cellIds={"Seyda Neen, Erene Llenim's Shack", }, entryExitVertices={VERTICES[2010], VERTICES[4875], }},
+    {cellIds={"Dagon Fel, Fjorrod's House", }, entryExitVertices={VERTICES[5538], VERTICES[2979], }},
+    {cellIds={"Bensamsi", }, entryExitVertices={VERTICES[5913], VERTICES[2423], }},
+    {cellIds={"Shrine of Azura", }, entryExitVertices={VERTICES[1330], VERTICES[2118], }},
+    {cellIds={"Tel Aruhn, Aryne Telnim: Smith", }, entryExitVertices={VERTICES[4859], VERTICES[1706], }},
+    {cellIds={"Khuul, Thongar's Tradehouse", }, entryExitVertices={VERTICES[996], VERTICES[6154], }},
+    {cellIds={"Balmora, Drarayne Thelas' Storage", }, entryExitVertices={VERTICES[4467], VERTICES[6215], }},
+    {cellIds={"Ebernanit, Shrine", }, entryExitVertices={VERTICES[5735], VERTICES[2916], }},
+    {cellIds={"Uncharted Shipwreck, Lower Level", "Unchartered Shipwreck, Upper Level", }, entryExitVertices={VERTICES[1840], VERTICES[6095], }},
+    {cellIds={"Seyda Neen, Terurise Girvayne's House", }, entryExitVertices={VERTICES[2787], VERTICES[4370], }},
+    {cellIds={"Raviro Ancestral Tomb", }, entryExitVertices={VERTICES[469], VERTICES[2314], }},
+    {cellIds={"Ald-ruhn, Daynes Redothril: Pawnbroker", }, entryExitVertices={VERTICES[4230], VERTICES[1333], }},
+    {cellIds={"Tureynulal, Bladder of Clovis", "Tureynulal, Eye of Duggan", "Tureynulal, Eye of Thom Wye", "Tureynulal, Kagrenac's Library", }, entryExitVertices={VERTICES[2392], VERTICES[2901], }},
+    {cellIds={"Tel Vos, Central Tower", }, entryExitVertices={VERTICES[4008], VERTICES[1509], VERTICES[4869], VERTICES[2998], VERTICES[1747], VERTICES[986], VERTICES[975], VERTICES[2663], VERTICES[2104], VERTICES[6153], }},
+    {cellIds={"Hlormaren, Sewers", "Hlormaren, Keep, Bottom Level", "Hlormaren, Underground", "Hlormaren, Keep, Top Level", }, entryExitVertices={VERTICES[6390], VERTICES[5925], VERTICES[4974], VERTICES[1841], VERTICES[902], VERTICES[5681], }},
+    {cellIds={"Vos, Fanisea Irano's Farmhouse", }, entryExitVertices={VERTICES[5937], VERTICES[3945], }},
+    {cellIds={"Ancient Shipwreck, Lower Level", "Ancient Shipwreck, Upper Level", }, entryExitVertices={VERTICES[1883], VERTICES[5318], }},
+    {cellIds={"Caldera, Falanaamo: Clothier", }, entryExitVertices={VERTICES[1264], VERTICES[3556], }},
+    {cellIds={"Helan Ancestral Tomb", }, entryExitVertices={VERTICES[188], VERTICES[213], }},
+    {cellIds={"Tel Mora, The Covenant", }, entryExitVertices={VERTICES[4839], VERTICES[4066], }},
+    {cellIds={"Derelict Shipwreck, Cabin", }, entryExitVertices={VERTICES[4992], VERTICES[1334], }},
+    {cellIds={"Balmora, Caius Cosades' House", }, entryExitVertices={VERTICES[2634], VERTICES[2691], }},
+    {cellIds={"Vemynal, Hall of Torque", "Vemynal, Outer Fortress", }, entryExitVertices={VERTICES[4786], VERTICES[6173], }},
+    {cellIds={"Falvillo's Endeavor, Cabin", }, entryExitVertices={VERTICES[5830], VERTICES[1025], }},
+    {cellIds={"Vivec, Puzzle Canal, Level 2", }, entryExitVertices={VERTICES[6161], VERTICES[4331], VERTICES[3695], VERTICES[5572], VERTICES[3086], VERTICES[2041], }},
+    {cellIds={"Dagon Fel, Greidil Half-Troll's House", }, entryExitVertices={VERTICES[1811], VERTICES[2231], VERTICES[2780], }},
+    {cellIds={"Tel Mora, Berwen: Trader", }, entryExitVertices={VERTICES[2060], VERTICES[4742], }},
+    {cellIds={"Erabenimsun Camp, Addut-Lamanu's Yurt", }, entryExitVertices={VERTICES[4741], VERTICES[2326], }},
+    {cellIds={"Tel Aruhn, Underground", }, entryExitVertices={VERTICES[5719], VERTICES[5388], VERTICES[4669], VERTICES[3911], }},
+    {cellIds={"Sadrith Mora, Urtiso Faryon: Sorcerer", }, entryExitVertices={VERTICES[1932], VERTICES[2871], }},
+    {cellIds={"Omalen Ancestral Tomb", }, entryExitVertices={VERTICES[6096], VERTICES[4251], }},
+    {cellIds={"Arkngthunch-Sturdumz", }, entryExitVertices={VERTICES[6335], VERTICES[4633], }},
+    {cellIds={"Seyda Neen, Draren Thiralas' House", }, entryExitVertices={VERTICES[5476], VERTICES[1938], }},
+    {cellIds={"Alen Ancestral Tomb", }, entryExitVertices={VERTICES[2235], VERTICES[2538], }},
+    {cellIds={"Nchardumz", "Nchardumz Lower Level", }, entryExitVertices={VERTICES[257], VERTICES[744], }},
+    {cellIds={"Alof's Farmhouse", }, entryExitVertices={VERTICES[2421], VERTICES[2225], }},
+    {cellIds={"Lonely Shipwreck, Lower Level", "Lonely Shipwreck, Upper Level", }, entryExitVertices={VERTICES[2088], VERTICES[3017], }},
+    {cellIds={"Verelnim Ancestral Tomb", }, entryExitVertices={VERTICES[5228], VERTICES[3943], }},
+    {cellIds={"Ahemmusa Camp, Nummu's Yurt", }, entryExitVertices={VERTICES[3475], VERTICES[6284], }},
+    {cellIds={"Pelagiad, Uulernil : Armorer", }, entryExitVertices={VERTICES[5162], VERTICES[4290], }},
+    {cellIds={"Gnisis, Temple", }, entryExitVertices={VERTICES[6159], VERTICES[557], }},
+    {cellIds={"Mamaea, Shrine of Pitted Dreams", "Mamaea, Sanctum of Black Hope", "Mamaea, Sanctum of Awakening", }, entryExitVertices={VERTICES[2324], VERTICES[1367], }},
+    {cellIds={"Aidanat Camp, Abassel's Yurt", }, entryExitVertices={VERTICES[880], VERTICES[708], }},
+    {cellIds={"Indoranyon", }, entryExitVertices={VERTICES[1372], VERTICES[6144], }},
+    {cellIds={"Shushishi", }, entryExitVertices={VERTICES[739], VERTICES[2350], }},
+    {cellIds={"Assurnabitashpi, Shrine", }, entryExitVertices={VERTICES[132], VERTICES[4418], VERTICES[1449], VERTICES[2886], }},
+    {cellIds={"Mat", }, entryExitVertices={VERTICES[5465], VERTICES[481], }},
+    {cellIds={"Marandus, Propylon Chamber", }, entryExitVertices={VERTICES[6319], VERTICES[1303], }},
+    {cellIds={"Tel Aruhn, Maren Uvaren: Enchanter", }, entryExitVertices={VERTICES[3918], VERTICES[4714], }},
+    {cellIds={"Pelagiad, Madres Navur's House", }, entryExitVertices={VERTICES[2069], VERTICES[3411], }},
+    {cellIds={"Caldera, Ghorak Manor", }, entryExitVertices={VERTICES[2017], VERTICES[3117], VERTICES[6188], VERTICES[3139], VERTICES[2300], VERTICES[2079], }},
+    {cellIds={"Lleran Ancestral Tomb", }, entryExitVertices={VERTICES[912], VERTICES[5308], }},
+    {cellIds={"Sadrith Mora, Urtisa Romayn's House", }, entryExitVertices={VERTICES[1793], VERTICES[5592], }},
+    {cellIds={"Balmora, Karlirah's House", }, entryExitVertices={VERTICES[2955], VERTICES[2018], VERTICES[3168], VERTICES[5516], }},
+    {cellIds={"Ebonheart, East Empire Company Hall", }, entryExitVertices={VERTICES[2166], VERTICES[3570], VERTICES[2438], VERTICES[2581], }},
+    {cellIds={"Ald-ruhn, Guard Tower 1", }, entryExitVertices={VERTICES[4275], VERTICES[3874], VERTICES[3808], VERTICES[4671], }},
+    {cellIds={"Helas Ancestral Tomb", }, entryExitVertices={VERTICES[5944], VERTICES[3764], }},
+    {cellIds={"Vivec, St. Olms Waist South-Two", }, entryExitVertices={VERTICES[3938], VERTICES[2969], }},
+    {cellIds={"Prelude Shipwreck, Cabin", }, entryExitVertices={VERTICES[4119], VERTICES[5686], }},
+    {cellIds={"Moonmoth Legion Fort, Interior", "Moonmoth Legion Fort, Prison Towers", }, entryExitVertices={VERTICES[3495], VERTICES[4894], VERTICES[115], VERTICES[2556], VERTICES[1040], VERTICES[4289], VERTICES[2082], VERTICES[2597], VERTICES[949], VERTICES[5715], VERTICES[981], VERTICES[2201], VERTICES[3973], VERTICES[583], VERTICES[5449], }},
+    {cellIds={"Falasmaryon, Sewers", "Falasmaryon, Upper Level", "Falasmaryon, Lower Level", }, entryExitVertices={VERTICES[3173], VERTICES[1311], VERTICES[6000], VERTICES[306], }},
+    {cellIds={"Tin-Ahhe", }, entryExitVertices={VERTICES[5219], VERTICES[1997], }},
+    {cellIds={"Maar Gan, Assirari Zama-Rasour's Hut", }, entryExitVertices={VERTICES[4131], VERTICES[2389], }},
+    {cellIds={"Habinbaes", }, entryExitVertices={VERTICES[751], VERTICES[5654], }},
+    {cellIds={"Rethan Manor, Tures' House", }, entryExitVertices={VERTICES[1393], VERTICES[5524], }},
+    {cellIds={"Balmora, Nerano Manor", }, entryExitVertices={VERTICES[3737], VERTICES[310], VERTICES[1600], VERTICES[1941], }},
+    {cellIds={"Vos, Mandyn Ralas's Farmhouse", }, entryExitVertices={VERTICES[1729], VERTICES[2219], }},
+    {cellIds={"Dagon Fel, Watch Tower", }, entryExitVertices={VERTICES[4402], VERTICES[2251], }},
+    {cellIds={"Salvel Ancestral Tomb", }, entryExitVertices={VERTICES[1822], VERTICES[1579], }},
+    {cellIds={"Balmora, Guild of Fighters", }, entryExitVertices={VERTICES[1839], VERTICES[6355], VERTICES[5258], VERTICES[901], VERTICES[3096], VERTICES[4867], }},
+    {cellIds={"Urshilaku Camp, Shimsun's Yurt", }, entryExitVertices={VERTICES[183], VERTICES[904], }},
+    {cellIds={"Nallit", }, entryExitVertices={VERTICES[5776], VERTICES[554], }},
+    {cellIds={"Bthanchend", }, entryExitVertices={VERTICES[1628], VERTICES[1756], }},
+    {cellIds={"Endusal, Kagrenac's study", }, entryExitVertices={VERTICES[5221], VERTICES[1676], }},
+    {cellIds={"Mul Grotto", }, entryExitVertices={VERTICES[610], VERTICES[2172], }},
+    {cellIds={"Sarys Ancestral Tomb", }, entryExitVertices={VERTICES[4635], VERTICES[938], }},
+    {cellIds={"Gnisis, Dinadad Hut", }, entryExitVertices={VERTICES[1979], VERTICES[5555], }},
+    {cellIds={"Zainab Camp, Ashur-Dan's Yurt", }, entryExitVertices={VERTICES[5928], VERTICES[6165], }},
     {cellIds={"ToddTest", }, entryExitVertices={}},
-    {cellIds={"Mila-Nipal, Manat's Yurt", }, entryExitVertices={VERTICES[882], VERTICES[5218], }},
-    {cellIds={"Vos, Varo Tradehouse Storage", "Vos, Varo Tradehouse Entrance", "Vos, Varo Tradehouse", }, entryExitVertices={VERTICES[1330], VERTICES[1844], VERTICES[2566], VERTICES[5229], }},
-    {cellIds={"Punsabanit", }, entryExitVertices={VERTICES[2544], VERTICES[5548], }},
-    {cellIds={"Ahemmusa Camp, Mamaea's Yurt", }, entryExitVertices={VERTICES[4762], VERTICES[1819], }},
-    {cellIds={"Vos, Vos Chapel", }, entryExitVertices={VERTICES[1802], VERTICES[4152], }},
-    {cellIds={"Kora-Dur", }, entryExitVertices={VERTICES[3983], VERTICES[696], }},
-    {cellIds={"Pelagiad, Adanja's House", }, entryExitVertices={VERTICES[4338], VERTICES[2001], }},
-    {cellIds={"Balmora, Eastern Guard Tower", }, entryExitVertices={VERTICES[5190], VERTICES[430], }},
-    {cellIds={"Gnisis, Arvs-Drelen", }, entryExitVertices={VERTICES[5146], VERTICES[2992], }},
-    {cellIds={"Dren Plantation, Guardhouse", }, entryExitVertices={VERTICES[2510], VERTICES[1070], VERTICES[2344], VERTICES[2675], VERTICES[4339], VERTICES[919], }},
-    {cellIds={"Vivec, St. Olms Waist South-One", }, entryExitVertices={VERTICES[1833], VERTICES[4348], }},
-    {cellIds={"Maran-Adon", }, entryExitVertices={VERTICES[4734], VERTICES[2057], }},
-    {cellIds={"Serano Ancestral Tomb", }, entryExitVertices={VERTICES[758], VERTICES[4011], }},
-    {cellIds={"Dirara's Farmhouse", }, entryExitVertices={VERTICES[2851], VERTICES[1839], }},
-    {cellIds={"Sethan Ancestral Tomb", }, entryExitVertices={VERTICES[3661], VERTICES[4001], }},
-    {cellIds={"Gnisis, Lasamsi Cave Dwelling", }, entryExitVertices={VERTICES[3880], VERTICES[225], }},
-    {cellIds={"Odirniran, Tower", "Odirniran", }, entryExitVertices={VERTICES[5758], VERTICES[5694], }},
-    {cellIds={"Punammu", }, entryExitVertices={VERTICES[4971], VERTICES[5421], }},
-    {cellIds={"Hla Oad, Relien Rirne's House", }, entryExitVertices={VERTICES[3162], VERTICES[2097], }},
-    {cellIds={"Caldera, Elmussa Damori's House", }, entryExitVertices={VERTICES[1291], VERTICES[1097], }},
-    {cellIds={"Ald Velothi, Outpost", }, entryExitVertices={VERTICES[1430], VERTICES[5518], VERTICES[4212], VERTICES[1720], VERTICES[1472], VERTICES[3058], }},
-    {cellIds={"Sanabi", }, entryExitVertices={VERTICES[4228], VERTICES[1398], }},
-    {cellIds={"Arrow, Cabin", }, entryExitVertices={VERTICES[4726], VERTICES[5739], }},
-    {cellIds={"Caldera, Keel-Raniur's House", }, entryExitVertices={VERTICES[1225], VERTICES[2214], }},
-    {cellIds={"Suran, Oran Manor", }, entryExitVertices={VERTICES[3071], VERTICES[565], VERTICES[3632], VERTICES[1669], VERTICES[836], VERTICES[5845], }},
-    {cellIds={"Lost Shipwreck, Cabin", }, entryExitVertices={VERTICES[999], VERTICES[5629], }},
-    {cellIds={"Zenarbael", }, entryExitVertices={VERTICES[5220], VERTICES[554], }},
-    {cellIds={"Tel Mora, Tower Services", "Tel Mora, Lower Tower", }, entryExitVertices={VERTICES[5510], VERTICES[818], VERTICES[2612], VERTICES[1052], }},
-    {cellIds={"Tharys Ancestral Tomb", }, entryExitVertices={VERTICES[5583], VERTICES[4166], }},
-    {cellIds={"Ahemmusa Camp, Lanabi's Yurt", }, entryExitVertices={VERTICES[2979], VERTICES[246], }},
-    {cellIds={"Ald-ruhn, Temple", }, entryExitVertices={VERTICES[5864], VERTICES[4383], }},
-    {cellIds={"Beran Ancestral Tomb", }, entryExitVertices={VERTICES[2223], VERTICES[2021], }},
-    {cellIds={"Balmora, Hlaalo Manor", }, entryExitVertices={VERTICES[5791], VERTICES[5968], VERTICES[822], VERTICES[5564], }},
-    {cellIds={"Lonesome Shipwreck, Upper Level", "Lonesome Shipwreck, Lower Level", }, entryExitVertices={VERTICES[6047], VERTICES[5681], }},
-    {cellIds={"Balmora, Vori's House", }, entryExitVertices={VERTICES[101], VERTICES[5688], }},
-    {cellIds={"Balmora, Rithleen's House", }, entryExitVertices={VERTICES[1361], VERTICES[1529], }},
-    {cellIds={"Ald-ruhn, Hanarai Assutlanipal's House", }, entryExitVertices={VERTICES[1463], VERTICES[2320], }},
-    {cellIds={"Seyda Neen, Census and Excise Office", }, entryExitVertices={VERTICES[3091], VERTICES[237], VERTICES[4319], VERTICES[463], VERTICES[4913], VERTICES[2304], VERTICES[2302], VERTICES[606], VERTICES[3361], }},
-    {cellIds={"Ravel Ancestral Tomb", }, entryExitVertices={VERTICES[4433], VERTICES[2759], }},
-    {cellIds={"Nchuleft", }, entryExitVertices={VERTICES[2984], VERTICES[5409], }},
-    {cellIds={"Andrano Ancestral Tomb", }, entryExitVertices={VERTICES[3172], VERTICES[5750], }},
-    {cellIds={"Remote Shipwreck, Lower Level", "Remote Shipwreck, Upper Level", }, entryExitVertices={VERTICES[3931], VERTICES[3882], }},
-    {cellIds={"Balur's Farmhouse", }, entryExitVertices={VERTICES[1808], VERTICES[969], }},
-    {cellIds={"Ahallaraddon Egg Mine", }, entryExitVertices={VERTICES[383], VERTICES[2289], }},
-    {cellIds={"Seyda Neen, Arrille's Tradehouse", }, entryExitVertices={VERTICES[3325], VERTICES[2060], VERTICES[5265], VERTICES[990], }},
-    {cellIds={"Vos, Runethyne Andas's Farmhouse", }, entryExitVertices={VERTICES[24], VERTICES[5622], }},
-    {cellIds={"Vivec, St. Delyn Canal North-Two", }, entryExitVertices={VERTICES[4908], VERTICES[4199], }},
-    {cellIds={"Caldera, South Guard Towers", }, entryExitVertices={VERTICES[67], VERTICES[5331], VERTICES[4809], VERTICES[1237], }},
-    {cellIds={"Adanumuran", }, entryExitVertices={VERTICES[6259], VERTICES[6013], }},
-    {cellIds={"Milk", }, entryExitVertices={VERTICES[5734], VERTICES[6065], }},
-    {cellIds={"Abernanit", }, entryExitVertices={VERTICES[1631], VERTICES[4713], }},
-    {cellIds={"Molag Mar, Redoran Stronghold", }, entryExitVertices={VERTICES[5566], VERTICES[4804], }},
-    {cellIds={"Sadryon Ancestral Tomb", }, entryExitVertices={VERTICES[2110], VERTICES[4712], }},
-    {cellIds={"Vos, Trilam Drolnor's Farmhouse", }, entryExitVertices={VERTICES[5647], VERTICES[1177], }},
-    {cellIds={"Maar Gan, Guard Tower 3", }, entryExitVertices={VERTICES[4756], VERTICES[2146], VERTICES[3243], VERTICES[4499], }},
-    {cellIds={"Maba-Ilu", }, entryExitVertices={VERTICES[5821], VERTICES[4892], }},
-    {cellIds={"Saren Ancestral Tomb", }, entryExitVertices={VERTICES[737], VERTICES[4800], }},
-    {cellIds={"Tel Branora, Manos Vavyn's House", }, entryExitVertices={VERTICES[3247], VERTICES[3101], }},
-    {cellIds={"Rayna Drolan's Shack", }, entryExitVertices={VERTICES[5092], VERTICES[1137], }},
-    {cellIds={"Seyda Neen, Census and Excise Warehouse", }, entryExitVertices={VERTICES[5029], VERTICES[403], VERTICES[2972], VERTICES[4803], }},
-    {cellIds={"Falasmaryon, Propylon Chamber", }, entryExitVertices={VERTICES[497], VERTICES[5585], }},
-    {cellIds={"Zainab Camp, Tussi's Yurt", }, entryExitVertices={VERTICES[5340], VERTICES[4686], }},
-    {cellIds={"Balmora, Lucky Lockup", }, entryExitVertices={VERTICES[1015], VERTICES[1035], VERTICES[233], VERTICES[365], }},
-    {cellIds={"Vassir-Didanat Cave", }, entryExitVertices={VERTICES[2528], VERTICES[805], }},
-    {cellIds={"Massahanud Camp, Sargon's Yurt", }, entryExitVertices={VERTICES[852], VERTICES[212], }},
-    {cellIds={"Hlormaren, Dome", }, entryExitVertices={VERTICES[2359], VERTICES[5610], }},
-    {cellIds={"Rethan Manor, Gols' House", }, entryExitVertices={VERTICES[2195], VERTICES[5486], VERTICES[2492], VERTICES[2186], }},
-    {cellIds={"Tel Aruhn, Ferele Athram: Trader", }, entryExitVertices={VERTICES[1502], VERTICES[2070], }},
-    {cellIds={"Maar Gan, Huleen's Hut", }, entryExitVertices={VERTICES[5679], VERTICES[1937], }},
-    {cellIds={"Rothan Ancestral Tomb", }, entryExitVertices={VERTICES[3085], VERTICES[4869], }},
-    {cellIds={"Ahinipalit", }, entryExitVertices={VERTICES[3549], VERTICES[2388], }},
-    {cellIds={"Tel Aruhn, Tower Entry", "Tel Aruhn, Tower Living Quarters", }, entryExitVertices={VERTICES[1869], VERTICES[3372], VERTICES[4965], VERTICES[2636], VERTICES[5643], VERTICES[3418], }},
-    {cellIds={"Sterdecan's Farmhouse", }, entryExitVertices={VERTICES[4534], VERTICES[5159], VERTICES[1283], VERTICES[2547], }},
-    {cellIds={"Ainat", }, entryExitVertices={VERTICES[3735], VERTICES[3908], }},
-    {cellIds={"Assalkushalit, Shrine", }, entryExitVertices={VERTICES[1483], VERTICES[955], }},
-    {cellIds={"Caldera, Governor's Hall", }, entryExitVertices={VERTICES[3537], VERTICES[4991], VERTICES[6144], VERTICES[4107], VERTICES[1518], VERTICES[2181], }},
-    {cellIds={"Othrelas Ancestral Tomb", }, entryExitVertices={VERTICES[3047], VERTICES[532], }},
-    {cellIds={"Tel Branora, Seryne Relas's House", }, entryExitVertices={VERTICES[2844], VERTICES[3140], }},
-    {cellIds={"Assu", }, entryExitVertices={VERTICES[6133], VERTICES[1624], }},
-    {cellIds={"Balmora, Dorisa Darvel: Bookseller", }, entryExitVertices={VERTICES[2727], VERTICES[487], VERTICES[318], VERTICES[1652], }},
-    {cellIds={"Zaintirari", }, entryExitVertices={VERTICES[4353], VERTICES[1761], }},
-    {cellIds={"Balmora, The Razor Hole", }, entryExitVertices={VERTICES[4448], VERTICES[575], VERTICES[5675], VERTICES[5410], }},
-    {cellIds={"Yakaridan Camp, Kitbael's Yurt", }, entryExitVertices={VERTICES[2928], VERTICES[117], }},
-    {cellIds={"Vandus Ancestral Tomb", }, entryExitVertices={VERTICES[4161], VERTICES[2403], }},
-    {cellIds={"Unmarked Shipwreck, Lower Level", "Unmarked Shipwreck, Upper Level", }, entryExitVertices={VERTICES[769], VERTICES[58], }},
-    {cellIds={"Tel Branora, Giron Manas's Shack", }, entryExitVertices={VERTICES[4815], VERTICES[2278], }},
-    {cellIds={"Andasreth, Lower Level", "Andasreth, Upper Level", }, entryExitVertices={VERTICES[3846], VERTICES[2015], VERTICES[4509], VERTICES[3841], }},
-    {cellIds={"Ald-ruhn, Ald Skar Inn", }, entryExitVertices={VERTICES[418], VERTICES[2093], }},
-    {cellIds={"Strange Shipwreck, Cabin", }, entryExitVertices={VERTICES[6129], VERTICES[2064], }},
-    {cellIds={"Llovyn's Farmhouse", }, entryExitVertices={VERTICES[1713], VERTICES[5659], }},
-    {cellIds={"Maar Gan, Shilipuran Zama-Rasour's Hut", }, entryExitVertices={VERTICES[4585], VERTICES[723], }},
-    {cellIds={"Zainab Camp, Ababael Timsar-Dadisun's Yurt", }, entryExitVertices={VERTICES[5494], VERTICES[5866], }},
-    {cellIds={"Mawia", }, entryExitVertices={VERTICES[982], VERTICES[2732], }},
-    {cellIds={"Missir-Dadalit Egg Mine", }, entryExitVertices={VERTICES[2083], VERTICES[1119], }},
-    {cellIds={"Dren Plantation, Doves' Shack", }, entryExitVertices={VERTICES[1750], VERTICES[3295], }},
-    {cellIds={"Thelas Ancestral Tomb", }, entryExitVertices={VERTICES[1658], VERTICES[2518], }},
-    {cellIds={"Valenvaryon, Propylon Chamber", }, entryExitVertices={VERTICES[3580], VERTICES[4654], }},
-    {cellIds={"Akimaes Grotto", }, entryExitVertices={VERTICES[71], VERTICES[5965], }},
-    {cellIds={"Madas-Zebba Egg Mine", }, entryExitVertices={VERTICES[1269], VERTICES[1706], }},
-    {cellIds={"Hanud, Tower", "Hanud", }, entryExitVertices={VERTICES[3409], VERTICES[2586], }},
-    {cellIds={"Drulene Falen's Hut", }, entryExitVertices={VERTICES[5374], VERTICES[3926], }},
-    {cellIds={"Maar Gan, Ulisamsi Shaddarnuran's Hut", }, entryExitVertices={VERTICES[5366], VERTICES[79], }},
-    {cellIds={"Balmora, Tsiya's House", }, entryExitVertices={VERTICES[5288], VERTICES[2650], VERTICES[5587], VERTICES[5426], }},
-    {cellIds={"Urshilaku Camp, Ashkhan's Yurt", }, entryExitVertices={VERTICES[4000], VERTICES[1076], }},
-    {cellIds={"Panud Egg Mine", }, entryExitVertices={VERTICES[5795], VERTICES[4670], }},
-    {cellIds={"Ald Velothi, Vireveri Darethran's Shack", }, entryExitVertices={VERTICES[4559], VERTICES[5358], }},
-    {cellIds={"Tel Uvirith, Arelas' House", }, entryExitVertices={VERTICES[3009], VERTICES[3999], }},
-    {cellIds={"Seyda Neen, Fine-Mouth's Shack", }, entryExitVertices={VERTICES[4015], VERTICES[3949], }},
-    {cellIds={"Dren Plantation, Hlevala's Shack", }, entryExitVertices={VERTICES[1617], VERTICES[3477], }},
-    {cellIds={"Suran, Suran Tradehouse", }, entryExitVertices={VERTICES[2230], VERTICES[2439], VERTICES[1437], VERTICES[3179], }},
-    {cellIds={"Balmora, Council Club", }, entryExitVertices={VERTICES[1922], VERTICES[439], }},
-    {cellIds={"Suran, Ranosa Gilvayn: Outfitter", }, entryExitVertices={VERTICES[1709], VERTICES[2752], VERTICES[3426], VERTICES[5620], }},
-    {cellIds={"Deserted Shipwreck, Cabin", }, entryExitVertices={VERTICES[4164], VERTICES[3998], }},
-    {cellIds={"Tel Mora, Jolda: Apothecary", }, entryExitVertices={VERTICES[5392], VERTICES[4446], }},
-    {cellIds={"Hawia Egg Mine", }, entryExitVertices={VERTICES[1234], VERTICES[906], }},
-    {cellIds={"Dren Plantation, Rethan's Shack", }, entryExitVertices={VERTICES[1667], VERTICES[629], }},
-    {cellIds={"Ebonheart, Grand Council Chambers Tower", }, entryExitVertices={VERTICES[5126], VERTICES[4887], VERTICES[5445], VERTICES[2103], }},
-    {cellIds={"Vos, Ienasa Radas's Farmhouse", }, entryExitVertices={VERTICES[3800], VERTICES[5068], }},
-    {cellIds={"Hlaalu Ancestral Tomb", }, entryExitVertices={VERTICES[4090], VERTICES[2037], }},
-    {cellIds={"Balmora, Tyravel Manor", }, entryExitVertices={VERTICES[5664], VERTICES[5261], }},
-    {cellIds={"Fair Helas, Lower Level", "Fair Helas, Upper Level", }, entryExitVertices={VERTICES[4884], VERTICES[423], }},
-    {cellIds={"Unexplored Shipwreck, Upper Level", "Unexplored Shipwreck, Lower Level", }, entryExitVertices={VERTICES[21], VERTICES[366], }},
-    {cellIds={"Thiralas Ancestral Tomb", }, entryExitVertices={VERTICES[1759], VERTICES[5697], }},
-    {cellIds={"Balmora, Temple", }, entryExitVertices={VERTICES[3273], VERTICES[3258], }},
-    {cellIds={"Balmora, Meldor: Armorer", }, entryExitVertices={VERTICES[2386], VERTICES[2495], }},
-    {cellIds={"Dagon Fel, Sorkvild's Tower", }, entryExitVertices={VERTICES[3053], VERTICES[5199], }},
-    {cellIds={"Onnissiralis, Shrine", }, entryExitVertices={VERTICES[2106], VERTICES[1273], }},
-    {cellIds={"Andules Ancestral Tomb", }, entryExitVertices={VERTICES[5940], VERTICES[5715], }},
-    {cellIds={"Prelude Shipwreck, Upper Level", "Prelude Shipwreck, Lower Level", }, entryExitVertices={VERTICES[5957], VERTICES[3042], }},
-    {cellIds={"Khuul, Rivame Samandas's Shack", }, entryExitVertices={VERTICES[4237], VERTICES[345], }},
-    {cellIds={"Tel Vos, Barracks and Armory", }, entryExitVertices={VERTICES[1161], VERTICES[5076], VERTICES[163], VERTICES[3722], }},
-    {cellIds={"Rotheran, Communal Hut", }, entryExitVertices={VERTICES[4006], VERTICES[1168], }},
-    {cellIds={"Hla Oad, Shurkul gro-Sharga's House", }, entryExitVertices={VERTICES[4307], VERTICES[5788], }},
-    {cellIds={"Inanius Egg Mine", }, entryExitVertices={VERTICES[3979], VERTICES[3836], }},
-    {cellIds={"Zainsipilu", }, entryExitVertices={VERTICES[1925], VERTICES[2197], }},
-    {cellIds={"Ald-ruhn, Tiras Sadus: General Merchandise", }, entryExitVertices={VERTICES[4359], VERTICES[4411], }},
-    {cellIds={"Urshilaku Camp, Wise Woman's Yurt", }, entryExitVertices={VERTICES[591], VERTICES[452], }},
-    {cellIds={"Dren Plantation, Helvi's Shack", }, entryExitVertices={VERTICES[3796], VERTICES[50], }},
-    {cellIds={"Desolate Shipwreck, Upper Level", "Desolate Shipwreck, Lower Level", }, entryExitVertices={VERTICES[2789], VERTICES[302], }},
-    {cellIds={"Ald-ruhn, Tauryon's House", }, entryExitVertices={VERTICES[3649], VERTICES[3966], }},
-    {cellIds={"Sadrith Mora, Trendrus Dral's House", }, entryExitVertices={VERTICES[975], VERTICES[513], }},
-    {cellIds={"Nissintu", }, entryExitVertices={VERTICES[5386], VERTICES[952], }},
-    {cellIds={"Tel Uvirith, Seleth's House", }, entryExitVertices={VERTICES[4017], VERTICES[2390], }},
-    {cellIds={"Maar Gan, Mabrelle Geles's Hut", }, entryExitVertices={VERTICES[4356], VERTICES[19], }},
-    {cellIds={"Ashinabi", "Ashinabi, Smuggler Den", }, entryExitVertices={VERTICES[3903], VERTICES[4269], VERTICES[3739], VERTICES[6044], }},
-    {cellIds={"Ministry of Truth, Hall of Processing", "Ministry of Truth, Holding Cells", "Ministry of Truth, Prison Keep", }, entryExitVertices={VERTICES[162], VERTICES[5036], VERTICES[1180], VERTICES[2100], VERTICES[1931], VERTICES[5188], }},
-    {cellIds={"Tel Mora, Radras: Smith", }, entryExitVertices={VERTICES[1724], VERTICES[2090], }},
-    {cellIds={"Yakanalit", }, entryExitVertices={VERTICES[1552], VERTICES[832], }},
-    {cellIds={"Small Farmhouse", }, entryExitVertices={VERTICES[2318], VERTICES[9], }},
-    {cellIds={"Llervu Ancestral Tomb", }, entryExitVertices={VERTICES[3329], VERTICES[3340], }},
-    {cellIds={"Vos, Dreynos Elvul's Farmhouse", }, entryExitVertices={VERTICES[4208], VERTICES[2953], }},
-    {cellIds={"Mausur Caverns", }, entryExitVertices={VERTICES[14], VERTICES[823], }},
-    {cellIds={"Llirala's Shack", }, entryExitVertices={VERTICES[1382], VERTICES[5054], }},
-    {cellIds={"Ald-ruhn, Dandera Selaro: Smith", }, entryExitVertices={VERTICES[1333], VERTICES[2982], }},
-    {cellIds={"Zaintiraris, Shrine", }, entryExitVertices={VERTICES[5067], VERTICES[2048], }},
-    {cellIds={"Zalkin-Sul Egg Mine", }, entryExitVertices={VERTICES[4229], VERTICES[3483], }},
-    {cellIds={"Vivec, Puzzle Canal, Level 4", }, entryExitVertices={VERTICES[85], VERTICES[4994], VERTICES[2365], VERTICES[2162], VERTICES[2120], VERTICES[2123], }},
-    {cellIds={"Khuul, Endris Dilmyn's Shack", }, entryExitVertices={VERTICES[1208], VERTICES[5329], }},
-    {cellIds={"Hla Oad, Okur's House", }, entryExitVertices={VERTICES[4910], VERTICES[1763], }},
-    {cellIds={"Suran, Suran Temple", }, entryExitVertices={VERTICES[4072], VERTICES[1695], }},
-    {cellIds={"Ashanammu", }, entryExitVertices={VERTICES[4844], VERTICES[1654], }},
-    {cellIds={"Rissun", }, entryExitVertices={VERTICES[1601], VERTICES[4693], }},
-    {cellIds={"Sadrith Mora, Meluria Seleth's House", }, entryExitVertices={VERTICES[1995], VERTICES[3262], }},
-    {cellIds={"Salmantu, Shrine", "Salmantu", }, entryExitVertices={VERTICES[3566], VERTICES[5094], }},
-    {cellIds={"Falvilo's Endeavor, Upper Level", "Falvillo's Endeavor, Lower Level", }, entryExitVertices={VERTICES[1457], VERTICES[1332], }},
-    {cellIds={"Esutanamus, Shrine", }, entryExitVertices={VERTICES[656], VERTICES[5320], }},
-    {cellIds={"Ienith Ancestral Tomb", }, entryExitVertices={VERTICES[1085], VERTICES[2660], }},
-    {cellIds={"Tel Mora, Nona's House", }, entryExitVertices={VERTICES[5844], VERTICES[2533], }},
-    {cellIds={"Vassamsi Grotto", }, entryExitVertices={VERTICES[300], VERTICES[3968], }},
-    {cellIds={"Uveran Ancestral Tomb", }, entryExitVertices={VERTICES[918], VERTICES[4417], }},
-    {cellIds={"Ebonheart, Hawkmoth Legion Garrison", }, entryExitVertices={VERTICES[4111], VERTICES[1625], VERTICES[309], VERTICES[1388], VERTICES[160], VERTICES[1642], VERTICES[5010], VERTICES[266], VERTICES[4619], VERTICES[4401], VERTICES[5314], }},
-    {cellIds={"Balmora, Astius Hanotepelus' House", }, entryExitVertices={VERTICES[3637], VERTICES[3675], VERTICES[5469], VERTICES[2648], }},
-    {cellIds={"Asha-Ahhe Egg Mine", }, entryExitVertices={VERTICES[4281], VERTICES[3107], }},
-    {cellIds={"Kushtashpi, Shrine", }, entryExitVertices={VERTICES[2689], VERTICES[446], }},
-    {cellIds={"Drath Ancestral Tomb", }, entryExitVertices={VERTICES[5442], VERTICES[4266], }},
-    {cellIds={"Eluba-Addon Grotto", }, entryExitVertices={VERTICES[3665], VERTICES[4595], }},
-    {cellIds={"Maar Gan, Outpost", }, entryExitVertices={VERTICES[1066], VERTICES[4064], }},
-    {cellIds={"Ald-ruhn, Guild of Mages", }, entryExitVertices={VERTICES[3921], VERTICES[3947], }},
-    {cellIds={"Urshilaku Camp, Ahasour's Yurt", }, entryExitVertices={VERTICES[1563], VERTICES[5430], }},
-    {cellIds={"Bensiberib Camp, Odaishah's Yurt", }, entryExitVertices={VERTICES[1887], VERTICES[1451], }},
-    {cellIds={"Orethi Ancestral Tomb", }, entryExitVertices={VERTICES[6212], VERTICES[5315], }},
-    {cellIds={"Dren Plantation, Tower Shack", }, entryExitVertices={VERTICES[2003], VERTICES[4533], }},
-    {cellIds={"Ald-ruhn, Guard Tower 2", }, entryExitVertices={VERTICES[6122], VERTICES[2996], VERTICES[1645], VERTICES[1574], }},
-    {cellIds={"Caldera, Bashuk gra-Bat's House", }, entryExitVertices={VERTICES[4504], VERTICES[3444], }},
-    {cellIds={"Deserted Shipwreck, Upper Level", "Deserted Shipwreck, Lower Level", }, entryExitVertices={VERTICES[6112], VERTICES[2147], }},
-    {cellIds={"Derelict Shipwreck, Lower Level", "Derelict Shipwreck, Upper Level", }, entryExitVertices={VERTICES[2274], VERTICES[1394], }},
-    {cellIds={"Vivec, Puzzle Canal, Level 1", }, entryExitVertices={VERTICES[1626], VERTICES[85], VERTICES[3535], VERTICES[2119], VERTICES[2567], VERTICES[4191], }},
-    {cellIds={"Balmora, Western Guard Tower South", }, entryExitVertices={VERTICES[6255], VERTICES[4988], VERTICES[3514], VERTICES[5520], }},
-    {cellIds={"Andas Ancestral Tomb", }, entryExitVertices={VERTICES[1026], VERTICES[3382], }},
-    {cellIds={"Khuul, Brurid's Shack", }, entryExitVertices={VERTICES[6093], VERTICES[4880], VERTICES[4950], VERTICES[2125], }},
-    {cellIds={"Tel Mora, Upper Tower", }, entryExitVertices={VERTICES[3709], VERTICES[2881], VERTICES[3441], VERTICES[3868], }},
-    {cellIds={"Assurnabitashpi", }, entryExitVertices={VERTICES[3019], VERTICES[3525], }},
-    {cellIds={"Ebonheart, East Empire North Warehouse", }, entryExitVertices={VERTICES[5899], VERTICES[958], }},
-    {cellIds={"Sadrith Mora, Rolis Garvon's House", }, entryExitVertices={VERTICES[1014], VERTICES[2724], }},
-    {cellIds={"Chun-Ook, Cabin", }, entryExitVertices={VERTICES[420], VERTICES[5161], }},
-    {cellIds={"Neglected Shipwreck, Cabin", }, entryExitVertices={VERTICES[3935], VERTICES[4044], }},
-    {cellIds={"Manat's Farmhouse", }, entryExitVertices={VERTICES[3833], VERTICES[3705], }},
-    {cellIds={"Velas Ancestral Tomb", }, entryExitVertices={VERTICES[5039], VERTICES[200], }},
-    {cellIds={"Sudanit Mine", }, entryExitVertices={VERTICES[244], VERTICES[3274], }},
-    {cellIds={"Gnaar Mok, Rostlogi's Shack", }, entryExitVertices={VERTICES[428], VERTICES[6084], }},
-    {cellIds={"Andalor Ancestral Tomb", }, entryExitVertices={VERTICES[5204], VERTICES[5106], }},
-    {cellIds={"Fadathram Ancestral Tomb", }, entryExitVertices={VERTICES[2649], VERTICES[2587], }},
-    {cellIds={"Balmora, Fast Eddie's House", }, entryExitVertices={VERTICES[3828], VERTICES[2906], }},
-    {cellIds={"Shurdan-Raplay Egg Mine", }, entryExitVertices={VERTICES[1793], VERTICES[3793], }},
-    {cellIds={"Dagon Fel, Vacant Tower", }, entryExitVertices={VERTICES[1310], VERTICES[5951], }},
-    {cellIds={"Desolate Shipwreck, Cabin", }, entryExitVertices={VERTICES[1253], VERTICES[4480], }},
-    {cellIds={"Dagon Fel, Heifnir: Trader", }, entryExitVertices={VERTICES[5290], VERTICES[104], }},
-    {cellIds={"Tukushapal, Sepulcher", "Marvani Ancestral Tomb", "Tukushapal", }, entryExitVertices={VERTICES[1198], VERTICES[4145], }},
-    {cellIds={"Abebaal Egg Mine", }, entryExitVertices={VERTICES[2140], VERTICES[1156], }},
-    {cellIds={"Dralas Ancestral Tomb", }, entryExitVertices={VERTICES[2506], VERTICES[1250], }},
-    {cellIds={"Panat", }, entryExitVertices={VERTICES[479], VERTICES[2529], }},
-    {cellIds={"Dren Plantation, Verethi and Dralor", }, entryExitVertices={VERTICES[3223], VERTICES[2873], VERTICES[3653], VERTICES[65], }},
-    {cellIds={"Berandas, Propylon Chamber", }, entryExitVertices={VERTICES[4796], VERTICES[28], }},
-    {cellIds={"Ald-ruhn, Gildan's House", }, entryExitVertices={VERTICES[2521], VERTICES[6088], }},
-    {cellIds={"Zainab Camp, Ashibaal's Yurt", }, entryExitVertices={VERTICES[5819], VERTICES[2381], }},
-    {cellIds={"Ebonheart, Argonian Mission", }, entryExitVertices={VERTICES[560], VERTICES[557], }},
-    {cellIds={"Koal Cave", }, entryExitVertices={VERTICES[5435], VERTICES[5284], }},
-    {cellIds={"Tel Mora, Liette's House", }, entryExitVertices={VERTICES[1424], VERTICES[6240], }},
-    {cellIds={"Alas Ancestral Tomb", }, entryExitVertices={VERTICES[2112], VERTICES[1164], }},
-    {cellIds={"Shunned Shipwreck, Cabin", }, entryExitVertices={VERTICES[6064], VERTICES[6183], }},
-    {cellIds={"Yasammidan, Shrine", }, entryExitVertices={VERTICES[523], VERTICES[1313], }},
-    {cellIds={"Khuul, Nelmyne Andules's Shack", }, entryExitVertices={VERTICES[3987], VERTICES[2558], }},
-    {cellIds={"Sadrith Mora, Morag Tong Guild", }, entryExitVertices={VERTICES[6254], VERTICES[476], }},
-    {cellIds={"Zainab Camp, Ashkhan's Yurt", }, entryExitVertices={VERTICES[39], VERTICES[915], }},
-    {cellIds={"Mzuleft", }, entryExitVertices={VERTICES[344], VERTICES[3501], }},
-    {cellIds={"Dagon Fel, Itar the Gentle's House", }, entryExitVertices={VERTICES[1239], VERTICES[355], }},
-    {cellIds={"Gnisis, Fort Darius", }, entryExitVertices={VERTICES[555], VERTICES[1678], VERTICES[411], VERTICES[3821], }},
-    {cellIds={"Ald-ruhn, Braynas Hlervu's House", }, entryExitVertices={VERTICES[3405], VERTICES[3852], }},
-    {cellIds={"Balmora, Nine Toes' House", }, entryExitVertices={VERTICES[4288], VERTICES[2556], VERTICES[34], VERTICES[3890], }},
-    {cellIds={"Ahemmusa Camp, Kausi's Yurt", }, entryExitVertices={VERTICES[5880], VERTICES[81], }},
-    {cellIds={"Reloth Ancestral Tomb", }, entryExitVertices={VERTICES[1488], VERTICES[3452], }},
-    {cellIds={"Dagon Fel, Mette's House", }, entryExitVertices={VERTICES[2149], VERTICES[1192], }},
-    {cellIds={"Gnisis, Shand Hut", }, entryExitVertices={VERTICES[2899], VERTICES[5652], }},
-    {cellIds={"Norvayn Ancestral Tomb", }, entryExitVertices={VERTICES[1320], VERTICES[6176], }},
-    {cellIds={"Balmora, Drarayne Thelas' House", }, entryExitVertices={VERTICES[3527], VERTICES[213], }},
-    {cellIds={"Ilanipu Grotto", }, entryExitVertices={VERTICES[2414], VERTICES[3627], }},
-    {cellIds={"Ald Velothi, Ganus Lloryn's Shack", }, entryExitVertices={VERTICES[5895], VERTICES[4407], }},
-    {cellIds={"Dagon Fel, Onmi Hard-mouth's House", }, entryExitVertices={VERTICES[1914], VERTICES[6050], VERTICES[2907], VERTICES[4235], }},
-    {cellIds={"Ancient Shipwreck, Cabin", }, entryExitVertices={VERTICES[6000], VERTICES[3103], }},
-    {cellIds={"An Abandoned Shack", }, entryExitVertices={VERTICES[2051], VERTICES[2268], }},
-    {cellIds={"Mudan-Mul Egg Mine", }, entryExitVertices={VERTICES[4007], VERTICES[849], }},
-    {cellIds={"Mount Kand, Cavern", }, entryExitVertices={VERTICES[3090], VERTICES[962], }},
-    {cellIds={"Caldera, Verick Gemain: Trader", }, entryExitVertices={VERTICES[1123], VERTICES[2913], }},
-    {cellIds={"Setus Egg Mine", }, entryExitVertices={VERTICES[6016], VERTICES[1311], }},
-    {cellIds={"Balmora, Hecerinde's House", }, entryExitVertices={VERTICES[4423], VERTICES[1860], }},
-    {cellIds={"Hleran Ancestral Tomb", }, entryExitVertices={VERTICES[3691], VERTICES[5998], }},
-    {cellIds={"Ashunartes, Shrine", }, entryExitVertices={VERTICES[3465], VERTICES[386], VERTICES[5934], VERTICES[2673], }},
-    {cellIds={"Vivec, St. Olms Waist North-One", }, entryExitVertices={VERTICES[2293], VERTICES[4970], }},
-    {cellIds={"Obscure Shipwreck, Cabin", }, entryExitVertices={VERTICES[5411], VERTICES[2746], }},
-    {cellIds={"Mamshar-Disamus Camp, Maesat's Yurt", }, entryExitVertices={VERTICES[6014], VERTICES[5633], }},
-    {cellIds={"Surirulk", }, entryExitVertices={VERTICES[30], VERTICES[3994], }},
-    {cellIds={"Sarano Ancestral Tomb", }, entryExitVertices={VERTICES[3235], VERTICES[4309], }},
-    {cellIds={"Gimothran Ancestral Tomb", }, entryExitVertices={VERTICES[775], VERTICES[5380], }},
-    {cellIds={"Arethan Ancestral Tomb", }, entryExitVertices={VERTICES[3508], VERTICES[4996], }},
-    {cellIds={"Ebonheart, Skyrim Mission", }, entryExitVertices={VERTICES[5760], VERTICES[4816], }},
-    {cellIds={"Galom Daeus, Observatory", "Galom Daeus, Entry", }, entryExitVertices={VERTICES[954], VERTICES[1852], }},
-    {cellIds={"Dagon Fel, Fanar Fork-Beard's House", }, entryExitVertices={VERTICES[4650], VERTICES[2672], }},
-    {cellIds={"Urshilaku Camp, Kurapli's Yurt", }, entryExitVertices={VERTICES[3906], VERTICES[3924], }},
-    {cellIds={"Holamayan Monastery", }, entryExitVertices={VERTICES[2377], VERTICES[3732], }},
-    {cellIds={"Caldera, North Guard Towers", }, entryExitVertices={VERTICES[809], VERTICES[2084], VERTICES[4421], VERTICES[2810], }},
-    {cellIds={"Tel Branora, Sethan's Tradehouse", }, entryExitVertices={VERTICES[3742], VERTICES[1600], }},
-    {cellIds={"Rethan Manor", }, entryExitVertices={VERTICES[316], VERTICES[2696], }},
-    {cellIds={"Ansi", }, entryExitVertices={VERTICES[942], VERTICES[4008], }},
-    {cellIds={"Maelkashishi, Shrine, Forgotten Galleries", "Maelkashishi, Shrine", }, entryExitVertices={VERTICES[2676], VERTICES[2111], VERTICES[3842], VERTICES[2283], }},
-    {cellIds={"Caldera, Irgola: Pawnbroker", }, entryExitVertices={VERTICES[530], VERTICES[2857], }},
-    {cellIds={"Pelagiad, Murberius Harmevus' House", }, entryExitVertices={VERTICES[4539], VERTICES[516], }},
-    {cellIds={"Heran Ancestral Tomb", }, entryExitVertices={VERTICES[3597], VERTICES[515], }},
-    {cellIds={"Lonely Shipwreck, Cabin", }, entryExitVertices={VERTICES[1499], VERTICES[4933], }},
-    {cellIds={"Maar Gan, Shrine", }, entryExitVertices={VERTICES[4490], VERTICES[4459], }},
-    {cellIds={"Pelagiad, Ahnassi's House", }, entryExitVertices={VERTICES[703], VERTICES[1753], }},
-    {cellIds={"Nimawia Grotto", }, entryExitVertices={VERTICES[2790], VERTICES[4112], }},
-    {cellIds={"Ald Velothi, Ienas Arvel's Shack", }, entryExitVertices={VERTICES[5973], VERTICES[1513], VERTICES[1572], VERTICES[4826], }},
-    {cellIds={"Ashimanu Egg Mine", "Ashimanu Egg Mine, Queen's Lair", }, entryExitVertices={VERTICES[1363], VERTICES[2445], }},
-    {cellIds={"Pelagiad, Mebestien Ence: Trader", }, entryExitVertices={VERTICES[4268], VERTICES[5756], }},
-    {cellIds={"Erabenimsun Camp, Ranabi's Yurt", }, entryExitVertices={VERTICES[5713], VERTICES[5212], }},
-    {cellIds={"Vivec, St. Delyn Canal South-Two", }, entryExitVertices={VERTICES[1265], VERTICES[1627], }},
-    {cellIds={"Ashir-Dan", }, entryExitVertices={VERTICES[4290], VERTICES[5751], }},
-    {cellIds={"Odrosal, Tower", "Odrosal, Dwemer Training Academy", }, entryExitVertices={VERTICES[131], VERTICES[1516], }},
-    {cellIds={"Ald-ruhn, Aryni Orethi's House", }, entryExitVertices={VERTICES[4680], VERTICES[3946], }},
-    {cellIds={"Grytewake, Lower Level", "Grytewake, Upper Level", }, entryExitVertices={VERTICES[262], VERTICES[313], }},
-    {cellIds={"Sobitbael Camp, Mal's Yurt", }, entryExitVertices={VERTICES[4121], VERTICES[5005], }},
-    {cellIds={"Tel Vos, Southern Tower", }, entryExitVertices={VERTICES[5598], VERTICES[125], VERTICES[2826], VERTICES[5479], VERTICES[175], VERTICES[2104], }},
-    {cellIds={"Caldera, Shenk's Shovel", }, entryExitVertices={VERTICES[3024], VERTICES[144], VERTICES[3016], VERTICES[2721], }},
-    {cellIds={"Strange Shipwreck, Upper Level", "Strange Shipwreck, Lower Level", }, entryExitVertices={VERTICES[3320], VERTICES[4583], }},
-    {cellIds={"Dren Plantation, Storage Shack", }, entryExitVertices={VERTICES[1222], VERTICES[2366], }},
-    {cellIds={"Gnisis, Abelmawia Hut", }, entryExitVertices={VERTICES[1836], VERTICES[2952], }},
-    {cellIds={"Zanabi", }, entryExitVertices={VERTICES[5156], VERTICES[677], }},
-    {cellIds={"Tel Branora, Tower Guardpost", }, entryExitVertices={VERTICES[3208], VERTICES[2776], }},
-    {cellIds={"Caldera, Canodia Felannus' House", }, entryExitVertices={VERTICES[6258], VERTICES[4993], }},
-    {cellIds={"Sadrith Mora, Nirasa Aren's House", }, entryExitVertices={VERTICES[5863], VERTICES[3547], }},
-    {cellIds={"Khuul, Helga's Shack", }, entryExitVertices={VERTICES[3741], VERTICES[1498], }},
-    {cellIds={"Gnaar Mok, Caryarel's Shack", }, entryExitVertices={VERTICES[3164], VERTICES[806], }},
-    {cellIds={"Elith-Pal Mine", }, entryExitVertices={VERTICES[1767], VERTICES[2519], }},
-    {cellIds={"Samarys Ancestral Tomb", }, entryExitVertices={VERTICES[5196], VERTICES[1610], }},
-    {cellIds={"Abandoned Shipwreck, Cabin", }, entryExitVertices={VERTICES[3534], VERTICES[5121], }},
-    {cellIds={"Caldera, Hodlismod: Armorer", }, entryExitVertices={VERTICES[4478], VERTICES[590], }},
-    {cellIds={"Balmora, Western Guard Tower North", }, entryExitVertices={VERTICES[3310], VERTICES[4105], VERTICES[206], VERTICES[2073], }},
-    {cellIds={"Hairat-Vassamsi Egg Mine", "Hairat-Vassamsi Egg Mine, Queen's Lair", }, entryExitVertices={VERTICES[5552], VERTICES[4811], }},
-    {cellIds={"Aharasaplit Camp, Zallay's Yurt", }, entryExitVertices={VERTICES[526], VERTICES[2159], }},
-    {cellIds={"Vivec, St. Olms Canal North-Three", }, entryExitVertices={VERTICES[1930], VERTICES[679], }},
-    {cellIds={"Balmora, Dura gra-Bol's House", }, entryExitVertices={VERTICES[773], VERTICES[211], VERTICES[1373], VERTICES[4716], VERTICES[599], VERTICES[3610], }},
-    {cellIds={"Tel Aruhn, Bildren Areleth: Apothecary", }, entryExitVertices={VERTICES[5170], VERTICES[1536], }},
-    {cellIds={"Morvayn Manor", }, entryExitVertices={VERTICES[607], VERTICES[797], }},
-    {cellIds={"Kaushtarari, Shrine", }, entryExitVertices={VERTICES[1114], VERTICES[3220], }},
-    {cellIds={"Ald-ruhn, Ienas Sarandas's House", }, entryExitVertices={VERTICES[1153], VERTICES[3899], }},
-    {cellIds={"Odibaal", }, entryExitVertices={VERTICES[158], VERTICES[4962], }},
-    {cellIds={"Favel Ancestral Tomb", }, entryExitVertices={VERTICES[4139], VERTICES[2046], }},
-    {cellIds={"Sadrith Mora, Pierlette Rostorard: Apothecary", }, entryExitVertices={VERTICES[1614], VERTICES[3278], }},
-    {cellIds={"Valenvaryon, Gashna's Hut", }, entryExitVertices={VERTICES[4388], VERTICES[76], }},
-    {cellIds={"Vivec, St. Olms Canal South-One", }, entryExitVertices={VERTICES[2165], VERTICES[5187], }},
-    {cellIds={"Hlervu Ancestral Tomb", }, entryExitVertices={VERTICES[614], VERTICES[5296], }},
-    {cellIds={"Ashamanu Camp, Kausha's Yurt", }, entryExitVertices={VERTICES[4330], VERTICES[154], }},
-    {cellIds={"Sadrith Mora, Fara's Hole in the Wall", }, entryExitVertices={VERTICES[508], VERTICES[3005], }},
-    {cellIds={"Hla Oad, Murudius Flaeus's House", }, entryExitVertices={VERTICES[2308], VERTICES[5247], }},
-    {cellIds={"Caldera, Surane Leoriane's House", }, entryExitVertices={VERTICES[3586], VERTICES[4276], }},
-    {cellIds={"Caldera, Slave Shack Two", }, entryExitVertices={VERTICES[6143], VERTICES[3961], }},
-    {cellIds={"Dun-Ahhe", }, entryExitVertices={VERTICES[5255], VERTICES[4808], }},
-    {cellIds={"Arano Ancestral Tomb", }, entryExitVertices={VERTICES[5234], VERTICES[2592], }},
-    {cellIds={"Seran Ancestral Tomb", }, entryExitVertices={VERTICES[3013], VERTICES[5249], }},
-    {cellIds={"Balmora, South Wall Cornerclub", }, entryExitVertices={VERTICES[3633], VERTICES[3134], VERTICES[4029], VERTICES[6075], }},
-    {cellIds={"Ald Redaynia, Tower", }, entryExitVertices={VERTICES[2072], VERTICES[6182], }},
-    {cellIds={"Dren Plantation, Dren's Villa", }, entryExitVertices={VERTICES[3333], VERTICES[2013], VERTICES[4471], VERTICES[2624], VERTICES[1399], VERTICES[3747], }},
-    {cellIds={"Ald-ruhn, Gindrala Hleran's House", }, entryExitVertices={VERTICES[2122], VERTICES[3051], }},
-    {cellIds={"Ald-ruhn, Council Club", }, entryExitVertices={VERTICES[1109], VERTICES[3007], }},
-    {cellIds={"Sadrith Mora, Milara Vedran's House", }, entryExitVertices={VERTICES[4323], VERTICES[1653], }},
-    {cellIds={"Ules Manor", }, entryExitVertices={VERTICES[4586], VERTICES[3753], }},
-    {cellIds={"Odirnamat", }, entryExitVertices={VERTICES[5964], VERTICES[2455], }},
-    {cellIds={"Pelagiad, Erval's House", }, entryExitVertices={VERTICES[379], VERTICES[1671], }},
-    {cellIds={"Ahemmusa Camp, Addammus's Yurt", }, entryExitVertices={VERTICES[5032], VERTICES[1851], }},
-    {cellIds={"Sadrith Mora, Nevrila Areloth's House", }, entryExitVertices={VERTICES[4865], VERTICES[735], }},
-    {cellIds={"Dunirai Caverns", }, entryExitVertices={VERTICES[2646], VERTICES[4355], }},
-    {cellIds={"Halit Mine", }, entryExitVertices={VERTICES[1866], VERTICES[3404], }},
-    {cellIds={"Ald Velothi, Llerar Vinden's Shack", }, entryExitVertices={VERTICES[3360], VERTICES[4743], }},
-    {cellIds={"Tel Aruhn, Plot and Plaster", }, entryExitVertices={VERTICES[2350], VERTICES[303], }},
-    {cellIds={"Gnaar Mok, Jerian Dolbanitte's Shack", }, entryExitVertices={VERTICES[3687], VERTICES[4485], }},
-    {cellIds={"Shushan", }, entryExitVertices={VERTICES[6229], VERTICES[2497], }},
-    {cellIds={"Pulk", }, entryExitVertices={VERTICES[5635], VERTICES[2185], }},
-    {cellIds={"Baram Ancestral Tomb", }, entryExitVertices={VERTICES[4701], VERTICES[2553], }},
-    {cellIds={"Pelagiad, Guard Tower", }, entryExitVertices={VERTICES[2281], VERTICES[328], VERTICES[146], VERTICES[3811], }},
-    {cellIds={"Shunned Shipwreck, Upper Level", "Shunned Shipwreck, Lower Level", }, entryExitVertices={VERTICES[234], VERTICES[1628], }},
-    {cellIds={"Ald Velothi, Fevila Bethrano's Shack", }, entryExitVertices={VERTICES[1157], VERTICES[3342], }},
-    {cellIds={"Erabenimsun Camp, Han-Ammu's Yurt", }, entryExitVertices={VERTICES[509], VERTICES[1580], }},
-    {cellIds={"Zergonipal, Shrine", }, entryExitVertices={VERTICES[843], VERTICES[4225], }},
-    {cellIds={"Abanabi", }, entryExitVertices={VERTICES[2376], VERTICES[181], }},
-    {cellIds={"Maren Ancestral Tomb", }, entryExitVertices={VERTICES[5945], VERTICES[4954], }},
-    {cellIds={"Bthungthumz", }, entryExitVertices={VERTICES[3546], VERTICES[1325], }},
-    {cellIds={"Forgotten Shipwreck", }, entryExitVertices={VERTICES[82], VERTICES[1776], }},
-    {cellIds={"Valenvaryon, Umug's Hut", }, entryExitVertices={VERTICES[5539], VERTICES[2694], }},
-    {cellIds={"Ebonheart, Imperial Chapels", }, entryExitVertices={VERTICES[2653], VERTICES[5142], }},
-    {cellIds={"Arvel Manor, Slavemaster's Shack", }, entryExitVertices={VERTICES[3249], VERTICES[198], }},
-    {cellIds={"Zainab Camp, Minassour's Yurt", }, entryExitVertices={VERTICES[4541], VERTICES[5696], }},
-    {cellIds={"Vivec, St. Olms Canal North-Two", }, entryExitVertices={VERTICES[2172], VERTICES[1921], }},
-    {cellIds={"Falasmaryon, Missun Akin's Hut", }, entryExitVertices={VERTICES[6191], VERTICES[2594], }},
-    {cellIds={"Kudanat", }, entryExitVertices={VERTICES[770], VERTICES[2559], }},
-    {cellIds={"Shara", }, entryExitVertices={VERTICES[3579], VERTICES[4606], }},
-    {cellIds={"Ald Velothi, Lledsea Relas's Shack", }, entryExitVertices={VERTICES[708], VERTICES[1001], }},
-    {cellIds={"Dreloth Ancestral Tomb", }, entryExitVertices={VERTICES[5501], VERTICES[2940], }},
-    {cellIds={"Balmora, Ra'Virr: Trader", }, entryExitVertices={VERTICES[3538], VERTICES[3917], VERTICES[1877], VERTICES[5581], }},
-    {cellIds={"Balmora, Milie Hastien: Fine Clothier", }, entryExitVertices={VERTICES[5748], VERTICES[5935], VERTICES[2380], VERTICES[4284], }},
-    {cellIds={"Suran, Garothmuk gro-Muzgub: Smith", }, entryExitVertices={VERTICES[2466], VERTICES[1461], VERTICES[5674], VERTICES[4665], }},
-    {cellIds={"Rethan Manor, Berendas' House", }, entryExitVertices={VERTICES[712], VERTICES[3265], }},
-    {cellIds={"Yassu Mine", }, entryExitVertices={VERTICES[4065], VERTICES[4262], }},
-    {cellIds={"Malmus Grotto", }, entryExitVertices={VERTICES[6225], VERTICES[1603], }},
-    {cellIds={"Ahemmusa Camp, Wise Woman's Yurt", }, entryExitVertices={VERTICES[4951], VERTICES[5424], }},
-    {cellIds={"Seyda Neen, Eldafire's House", }, entryExitVertices={VERTICES[2342], VERTICES[5657], }},
-    {cellIds={"Shashurari Camp, Zennammu's Yurt", }, entryExitVertices={VERTICES[3615], VERTICES[204], }},
-    {cellIds={"Balmora, Morag Tong Guild", }, entryExitVertices={VERTICES[3298], VERTICES[630], }},
-    {cellIds={"Neglected Shipwreck, Lower Level", "Neglected Shipwreck, Upper Level", }, entryExitVertices={VERTICES[2588], VERTICES[5600], }},
-    {cellIds={"Dareleth Ancestral Tomb", }, entryExitVertices={VERTICES[1212], VERTICES[5929], }},
-    {cellIds={"Seyda Neen, Foryn Gilnith's Shack", }, entryExitVertices={VERTICES[1090], VERTICES[2009], }},
-    {cellIds={"Ulummusa", }, entryExitVertices={VERTICES[2250], VERTICES[5941], }},
-    {cellIds={"Sinsibadon", }, entryExitVertices={VERTICES[1549], VERTICES[6139], }},
-    {cellIds={"Mababi", }, entryExitVertices={VERTICES[1755], VERTICES[3180], }},
-    {cellIds={"Maar Gan, Guard Tower 2", }, entryExitVertices={VERTICES[5143], VERTICES[3942], VERTICES[4921], VERTICES[4148], }},
-    {cellIds={"Suran, Verara Rendo: Clothier", }, entryExitVertices={VERTICES[2014], VERTICES[794], VERTICES[2322], VERTICES[1583], }},
-    {cellIds={"Zainab Camp, Patababi's Yurt", }, entryExitVertices={VERTICES[2707], VERTICES[2935], }},
-    {cellIds={"Sarethi Ancestral Tomb", }, entryExitVertices={VERTICES[2393], VERTICES[5172], }},
-    {cellIds={"Shashpilamat", }, entryExitVertices={VERTICES[4171], VERTICES[1028], }},
-    {cellIds={"Yanemus Mine", }, entryExitVertices={VERTICES[681], VERTICES[2428], }},
-    {cellIds={"Zainab Camp, Kuda's Yurt", }, entryExitVertices={VERTICES[1167], VERTICES[3517], }},
-    {cellIds={"Indaren Ancestral Tomb", }, entryExitVertices={VERTICES[392], VERTICES[2201], }},
-    {cellIds={"Zainab Camp, Wise Woman's Yurt", }, entryExitVertices={VERTICES[6197], VERTICES[4622], }},
-    {cellIds={"Maar Gan, Kind Erushara's Hut", }, entryExitVertices={VERTICES[2314], VERTICES[4097], }},
-    {cellIds={"Vansunalit Egg Mine", }, entryExitVertices={VERTICES[5990], VERTICES[5447], }},
-    {cellIds={"Redas Ancestral Tomb", }, entryExitVertices={VERTICES[4162], VERTICES[5584], }},
-    {cellIds={"Omani Manor", }, entryExitVertices={VERTICES[4390], VERTICES[5241], VERTICES[1331], VERTICES[1441], }},
-    {cellIds={"Balmora, Clagius Clanler: Outfitter", }, entryExitVertices={VERTICES[1009], VERTICES[5243], VERTICES[3744], VERTICES[1360], }},
-    {cellIds={"Gnisis, Almu Cave Dwelling", }, entryExitVertices={VERTICES[3694], VERTICES[956], }},
-    {cellIds={"Caldera Mine", }, entryExitVertices={VERTICES[3521], VERTICES[2193], }},
-    {cellIds={"Khuul, Svadstar's Shack", }, entryExitVertices={VERTICES[6146], VERTICES[976], }},
-    {cellIds={"Caldera, Odairan Ashummi-Ammus' House", }, entryExitVertices={VERTICES[5000], VERTICES[1769], }},
-    {cellIds={"Savel Ancestral Tomb", }, entryExitVertices={VERTICES[2579], VERTICES[4896], }},
-    {cellIds={"Urshilaku Camp, Zabamund's Yurt", }, entryExitVertices={VERTICES[4733], VERTICES[288], }},
-    {cellIds={"Gnisis, Tansumiran Cave Dwelling", }, entryExitVertices={VERTICES[4998], VERTICES[3343], }},
-    {cellIds={"Sadrith Mora, Dirty Muriel's Cornerclub", }, entryExitVertices={VERTICES[872], VERTICES[1193], }},
-    {cellIds={"Maar Gan, Tashpi Ashibael's Hut", }, entryExitVertices={VERTICES[3118], VERTICES[4617], }},
-    {cellIds={"Ramimilk, Shrine", }, entryExitVertices={VERTICES[1835], VERTICES[136], }},
-    {cellIds={"Vivec, St. Olms Canal South-Two", }, entryExitVertices={VERTICES[335], VERTICES[1081], }},
-    {cellIds={"Caldera, Mining Guard Tower", }, entryExitVertices={VERTICES[2489], VERTICES[715], }},
-    {cellIds={"Zainab Camp, Kummu's Yurt", }, entryExitVertices={VERTICES[5438], VERTICES[3672], }},
-    {cellIds={"Sadrith Mora, Hleras Gidren's House", }, entryExitVertices={VERTICES[4836], VERTICES[3526], }},
-    {cellIds={"Valenvaryon, Lurog's Hut", }, entryExitVertices={VERTICES[2998], VERTICES[94], }},
-    {cellIds={"Andrethi Ancestral Tomb", }, entryExitVertices={VERTICES[5955], VERTICES[3950], }},
-    {cellIds={"Suran, Goldyn Belaram: Pawnbroker", }, entryExitVertices={VERTICES[3027], VERTICES[3567], VERTICES[32], VERTICES[660], }},
-    {cellIds={"Balmora, Tyermaillin's House", }, entryExitVertices={VERTICES[2595], VERTICES[1935], }},
-    {cellIds={"Suran, Suran Slave Market", }, entryExitVertices={VERTICES[3358], VERTICES[1171], VERTICES[4200], VERTICES[394], }},
-    {cellIds={"Sinarralit Egg Mine", }, entryExitVertices={VERTICES[6004], VERTICES[5738], }},
-    {cellIds={"Tel Uvirith, Omavel's House", }, entryExitVertices={VERTICES[4505], VERTICES[3712], }},
-    {cellIds={"Vivec, St. Delyn Canal North-Three", }, entryExitVertices={VERTICES[5903], VERTICES[917], }},
-    {cellIds={"Erabenimsun Camp, Assemmus' Yurt", }, entryExitVertices={VERTICES[5665], VERTICES[548], }},
-    {cellIds={"Arvel Manor, Storage Shack", }, entryExitVertices={VERTICES[1323], VERTICES[2615], }},
-    {cellIds={"Releth Ancestral Tomb", }, entryExitVertices={VERTICES[1666], VERTICES[1831], }},
-    {cellIds={"Masseranit", }, entryExitVertices={VERTICES[4901], VERTICES[3197], }},
-    {cellIds={"Rotheran, Propylon Chamber", }, entryExitVertices={VERTICES[5093], VERTICES[62], }},
-    {cellIds={"Vivec, St. Delyn Canal South-One", }, entryExitVertices={VERTICES[444], VERTICES[4620], }},
-    {cellIds={"Andalen Ancestral Tomb", }, entryExitVertices={VERTICES[4425], VERTICES[2101], }},
-    {cellIds={"Shashpilamat, Shrine", }, entryExitVertices={VERTICES[5402], VERTICES[3902], }},
-    {cellIds={"Ularradallaku, Shrine", }, entryExitVertices={VERTICES[1189], VERTICES[5390], }},
-    {cellIds={"Tel Mora, Elegnan: Clothier", }, entryExitVertices={VERTICES[5119], VERTICES[3207], }},
-    {cellIds={"Vas, Tower", "Vas, Entry Level", }, entryExitVertices={VERTICES[2542], VERTICES[25], }},
-    {cellIds={"Piernette's Farmhouse", }, entryExitVertices={VERTICES[1730], VERTICES[2939], }},
-    {cellIds={"Caldera, Guild of Mages", }, entryExitVertices={VERTICES[5282], VERTICES[733], }},
-    {cellIds={"Aralen Ancestral Tomb", }, entryExitVertices={VERTICES[5388], VERTICES[1944], }},
-    {cellIds={"Drinith Ancestral Tomb", }, entryExitVertices={VERTICES[382], VERTICES[6141], }},
-    {cellIds={"Caldera, Dro'Shavir's House", }, entryExitVertices={VERTICES[27], VERTICES[1126], }},
-    {cellIds={"Beshara", }, entryExitVertices={VERTICES[5303], VERTICES[490], }},
-    {cellIds={"Vivec, St. Delyn Canal North-One", }, entryExitVertices={VERTICES[5924], VERTICES[5125], }},
-    {cellIds={"Saturan", }, entryExitVertices={VERTICES[1525], VERTICES[1033], }},
-    {cellIds={"Maar Gan, Andus Tradehouse", }, entryExitVertices={VERTICES[3505], VERTICES[4952], }},
-    {cellIds={"Eretammus-Sennammu Egg Mine", }, entryExitVertices={VERTICES[3244], VERTICES[3948], }},
-    {cellIds={"Pelagiad, Farusea Salas' House", }, entryExitVertices={VERTICES[6128], VERTICES[5099], }},
-    {cellIds={"Marandus, Dome", }, entryExitVertices={VERTICES[1263], VERTICES[3482], }},
-    {cellIds={"Shal", }, entryExitVertices={VERTICES[5020], VERTICES[585], }},
-    {cellIds={"Fair Helas, Cabin", }, entryExitVertices={VERTICES[2190], VERTICES[4742], }},
-    {cellIds={"Maesa-Shammus Egg Mine", }, entryExitVertices={VERTICES[457], VERTICES[1175], }},
-    {cellIds={"Imperial Prison Ship", }, entryExitVertices={VERTICES[2894], VERTICES[796], }},
-    {cellIds={"Unknown Shipwreck, Cabin", }, entryExitVertices={VERTICES[3238], VERTICES[5040], }},
-    {cellIds={"Hlervi Ancestral Tomb", }, entryExitVertices={VERTICES[1656], VERTICES[1920], }},
-    {cellIds={"Sadrith Mora, Balen Vendu: Monk", }, entryExitVertices={VERTICES[1235], VERTICES[1779], }},
-    {cellIds={"Hla Oad, Fadila Balvel's House", }, entryExitVertices={VERTICES[3455], VERTICES[1084], }},
-    {cellIds={"Ebonheart, Six Fishes", }, entryExitVertices={VERTICES[2627], VERTICES[2435], }},
-    {cellIds={"Ashmelech", }, entryExitVertices={VERTICES[2167], VERTICES[6009], }},
-    {cellIds={"Urshilaku Camp, Sakiran's Yurt", }, entryExitVertices={VERTICES[3072], VERTICES[1743], }},
-    {cellIds={"Salothran Ancestral Tomb", }, entryExitVertices={VERTICES[1862], VERTICES[4230], }},
-    {cellIds={"Balmora, Dralosa Athren's House", }, entryExitVertices={VERTICES[3940], VERTICES[4640], }},
-    {cellIds={"Band Egg Mine", }, entryExitVertices={VERTICES[4243], VERTICES[4618], }},
-    {cellIds={"Falensarano, Propylon Chamber", }, entryExitVertices={VERTICES[5985], VERTICES[2701], }},
-    {cellIds={"Sandus Ancestral Tomb", }, entryExitVertices={VERTICES[1148], VERTICES[5805], }},
-    {cellIds={"Veloth Ancestral Tomb", }, entryExitVertices={VERTICES[494], VERTICES[3119], }},
-    {cellIds={"Almurbalarammi, Shrine", }, entryExitVertices={VERTICES[3425], VERTICES[3246], }},
-    {cellIds={"Panabanit-Nimawia Egg Mine", }, entryExitVertices={VERTICES[2883], VERTICES[2837], }},
-    {cellIds={"Ald-ruhn, Pellecia Aurrus's House", }, entryExitVertices={VERTICES[5887], VERTICES[5310], }},
-    {cellIds={"Balmora, Dralasa Nithryon: Pawnbroker", }, entryExitVertices={VERTICES[5458], VERTICES[6216], }},
-    {cellIds={"Bthuand", }, entryExitVertices={VERTICES[600], VERTICES[3507], }},
-    {cellIds={"Indalen Ancestral Tomb", }, entryExitVertices={VERTICES[3288], VERTICES[4610], }},
-    {cellIds={"Falas Ancestral Tomb", }, entryExitVertices={VERTICES[4033], VERTICES[2541], }},
-    {cellIds={"Arenim Ancestral Tomb", }, entryExitVertices={VERTICES[4238], VERTICES[4479], }},
-    {cellIds={"Valenvaryon, Lambug's Hut", }, entryExitVertices={VERTICES[1700], VERTICES[1353], }},
-    {cellIds={"Indarys Manor, Manor Services", }, entryExitVertices={VERTICES[3871], VERTICES[5379], }},
-    {cellIds={"Salit Camp, Zalit's Yurt", }, entryExitVertices={VERTICES[2941], VERTICES[2116], }},
-    {cellIds={"Ibar-Dad", }, entryExitVertices={VERTICES[4116], VERTICES[504], }},
-    {cellIds={"Urshilaku Camp, Zanummu's Yurt", }, entryExitVertices={VERTICES[4258], VERTICES[3168], }},
-    {cellIds={"Erabenimsun Camp, Ashkhan's Yurt", }, entryExitVertices={VERTICES[5483], VERTICES[1979], }},
-    {cellIds={"Ules Manor, Slave Shack", }, entryExitVertices={VERTICES[2762], VERTICES[1758], }},
-    {cellIds={"Aryon Ancestral Tomb", }, entryExitVertices={VERTICES[4265], VERTICES[6222], }},
-    {cellIds={"Hinnabi", }, entryExitVertices={VERTICES[2069], VERTICES[3629], }},
-    {cellIds={"Vivec, St. Delyn Waist South-Two", }, entryExitVertices={VERTICES[4287], VERTICES[2226], }},
-    {cellIds={"Sjorvar Horse-Mouth's House", }, entryExitVertices={VERTICES[1118], VERTICES[527], }},
-    {cellIds={"Sharapli", }, entryExitVertices={VERTICES[3780], VERTICES[4547], }},
-    {cellIds={"Tel Vos, Aryon's Chambers", }, entryExitVertices={VERTICES[1593], VERTICES[4536], }},
-    {cellIds={"Dren Plantation, Shipping House", }, entryExitVertices={VERTICES[5168], VERTICES[277], }},
-    {cellIds={"Zalkin Grotto", }, entryExitVertices={VERTICES[1829], VERTICES[3760], }},
-    {cellIds={"Sadrith Mora, Anis Seloth: Alchemist", }, entryExitVertices={VERTICES[3275], VERTICES[2023], }},
-    {cellIds={"Abaelun Mine", }, entryExitVertices={VERTICES[2829], VERTICES[2678], }},
-    {cellIds={"Rethan Manor, Drelas' House", }, entryExitVertices={VERTICES[5258], VERTICES[1599], }},
-    {cellIds={"Vos, Thilse Aralas's Farmhouse", }, entryExitVertices={VERTICES[1141], VERTICES[3910], }},
-    {cellIds={"Indarys Manor", }, entryExitVertices={VERTICES[754], VERTICES[4402], }},
-    {cellIds={"Caldera, Valvius Mevureius' House", }, entryExitVertices={VERTICES[643], VERTICES[3802], }},
-    {cellIds={"Tel Aruhn, Upper Tower", }, entryExitVertices={VERTICES[3606], VERTICES[2220], }},
-    {cellIds={"Tel Uvirith, Menas' House", }, entryExitVertices={VERTICES[3240], VERTICES[664], }},
-    {cellIds={"Odaishah", }, entryExitVertices={VERTICES[5058], VERTICES[1104], }},
-    {cellIds={"Llando Ancestral Tomb", }, entryExitVertices={VERTICES[5412], VERTICES[3993], }},
-    {cellIds={"Aran Ancestral Tomb", }, entryExitVertices={VERTICES[2349], VERTICES[2589], }},
-    {cellIds={"Telasero, Propylon Chamber", }, entryExitVertices={VERTICES[960], VERTICES[1630], }},
-    {cellIds={"Balmora, Rarayn Radarys' House", }, entryExitVertices={VERTICES[1393], VERTICES[936], }},
-    {cellIds={"Vivec, St. Olms Canal North-One", }, entryExitVertices={VERTICES[1789], VERTICES[6256], }},
-    {cellIds={"Elanius Camp, Yapal's Yurt", }, entryExitVertices={VERTICES[5516], VERTICES[4027], }},
-    {cellIds={"Ules Manor, Slavemaster's Shack", }, entryExitVertices={VERTICES[1939], VERTICES[283], }},
-    {cellIds={"Maelu Egg Mine", }, entryExitVertices={VERTICES[2416], VERTICES[1714], }},
-    {cellIds={"Remote Shipwreck, Cabin", }, entryExitVertices={VERTICES[596], VERTICES[3848], }},
-    {cellIds={"Venim Ancestral Tomb", }, entryExitVertices={VERTICES[1050], VERTICES[4360], }},
-    {cellIds={"Ald-ruhn, The Rat In The Pot", }, entryExitVertices={VERTICES[6230], VERTICES[1999], }},
-    {cellIds={"Vivec, St. Olms Canal South-Three", }, entryExitVertices={VERTICES[1449], VERTICES[1184], }},
-    {cellIds={"Kunirai", }, entryExitVertices={VERTICES[1124], VERTICES[3183], }},
-    {cellIds={"Balmora, Itan's House", }, entryExitVertices={VERTICES[5524], VERTICES[2807], }},
-    {cellIds={"Arvel Manor, Slave Shack", }, entryExitVertices={VERTICES[1611], VERTICES[1389], }},
-    {cellIds={"Aharunartus", }, entryExitVertices={VERTICES[2476], VERTICES[3387], }},
-    {cellIds={"Missamsi", }, entryExitVertices={VERTICES[3123], VERTICES[2503], }},
-    {cellIds={"Ald-ruhn, Galthragoth's House", }, entryExitVertices={VERTICES[3956], VERTICES[5293], }},
-    {cellIds={"Yesamsi", }, entryExitVertices={VERTICES[2166], VERTICES[1365], }},
-    {cellIds={"Sur Egg Mine", }, entryExitVertices={VERTICES[5660], VERTICES[3451], }},
-    {cellIds={"Sha-Adnius", }, entryExitVertices={VERTICES[4185], VERTICES[6063], }},
-    {cellIds={"Erabenimsun Camp, Wise Woman's Yurt", }, entryExitVertices={VERTICES[5312], VERTICES[4409], }},
-    {cellIds={"Indarys Manor, Berendas' House", }, entryExitVertices={VERTICES[1209], VERTICES[1431], }},
-    {cellIds={"Khuul, Aldi's Shack", }, entryExitVertices={VERTICES[100], VERTICES[5377], }},
-    {cellIds={"Hlormaren, Propylon Chamber", }, entryExitVertices={VERTICES[3070], VERTICES[5804], }},
-    {cellIds={"Pelagiad, Dralas Gilu's House", }, entryExitVertices={VERTICES[5980], VERTICES[2631], }},
-    {cellIds={"Kogoruhn, Dome of Pollock's Eve", }, entryExitVertices={VERTICES[4857], VERTICES[2457], }},
-    {cellIds={"Addadshashanammu, Shrine", }, entryExitVertices={VERTICES[4253], VERTICES[4358], }},
-    {cellIds={"Akimaes-Ilanipu Egg Mine", }, entryExitVertices={VERTICES[380], VERTICES[3640], }},
-    {cellIds={"Nchurdamz, Interior", }, entryExitVertices={VERTICES[4930], VERTICES[2709], }},
-    {cellIds={"Rethandus Ancestral Tomb", }, entryExitVertices={VERTICES[3202], VERTICES[1562], }},
-    {cellIds={"Maar Gan, Assi Serimilk's Hut", }, entryExitVertices={VERTICES[5490], VERTICES[2006], }},
-    {cellIds={"Erabenimsun Camp, Salattanat's Yurt", }, entryExitVertices={VERTICES[6158], VERTICES[4428], }},
-    {cellIds={"Shurinbaal", }, entryExitVertices={VERTICES[1005], VERTICES[2360], }},
-    {cellIds={"Mannammu", }, entryExitVertices={VERTICES[1040], VERTICES[3746], }},
-    {cellIds={"Vivec, St. Delyn Waist North-One", }, entryExitVertices={VERTICES[5853], VERTICES[4561], }},
-    {cellIds={"Vos, Ulvil Llothas's Farmhouse", }, entryExitVertices={VERTICES[1597], VERTICES[4432], }},
-    {cellIds={"Tel Branora, Fedar Davus's House", }, entryExitVertices={VERTICES[3145], VERTICES[3881], }},
-    {cellIds={"Sadrith Mora, Vaden Belas' House", }, entryExitVertices={VERTICES[1314], VERTICES[3406], }},
-    {cellIds={"Dissapla Mine", }, entryExitVertices={VERTICES[1160], VERTICES[248], }},
-    {cellIds={"Kogoruhn, Dome of Urso", }, entryExitVertices={VERTICES[582], VERTICES[5783], }},
-    {cellIds={"Tel Branora, Ervyna Hlervu's Shack", }, entryExitVertices={VERTICES[3865], VERTICES[141], }},
-    {cellIds={"Lonesome Shipwreck, Cabin", }, entryExitVertices={VERTICES[4349], VERTICES[1478], }},
-    {cellIds={"Tusenend, Shrine", }, entryExitVertices={VERTICES[6026], VERTICES[6199], }},
-    {cellIds={"Ald-ruhn, Ilmiril's House", }, entryExitVertices={VERTICES[1196], VERTICES[3185], }},
-    {cellIds={"Ald-ruhn, Dravasa Andrethi's House", }, entryExitVertices={VERTICES[2815], VERTICES[3305], }},
-    {cellIds={"Khuul, Miron Garer's Shack", }, entryExitVertices={VERTICES[2577], VERTICES[1307], }},
-    {cellIds={"Ahemmusa Camp, Assamma-Idan's Yurt", }, entryExitVertices={VERTICES[3339], VERTICES[2098], }},
-    {cellIds={"Tel Branora, Fadase Selvayn: Trader", }, entryExitVertices={VERTICES[4259], VERTICES[908], }},
-    {cellIds={"Ald-ruhn, Codus Callonus: Bookseller", }, entryExitVertices={VERTICES[4755], VERTICES[436], }},
-    {cellIds={"Yansirramus, Shrine", }, entryExitVertices={VERTICES[1705], VERTICES[3927], }},
-    {cellIds={"Vivec, St. Delyn Canal South-Three", }, entryExitVertices={VERTICES[468], VERTICES[3660], }},
-    {cellIds={"Senim Ancestral Tomb", }, entryExitVertices={VERTICES[3350], VERTICES[5053], }},
-    {cellIds={"Rotheran, Arena", }, entryExitVertices={VERTICES[717], VERTICES[5497], }},
-    {cellIds={"Aleft", }, entryExitVertices={VERTICES[1146], VERTICES[2317], }},
-    {cellIds={"Shashmanu Camp, Anit's Yurt", }, entryExitVertices={VERTICES[3445], VERTICES[4839], }},
-    {cellIds={"Zebabi", }, entryExitVertices={VERTICES[4529], VERTICES[1911], }},
-    {cellIds={"Kumarahaz", }, entryExitVertices={VERTICES[3782], VERTICES[5558], }},
-    {cellIds={"Gnisis, Madach Tradehouse", }, entryExitVertices={VERTICES[5035], VERTICES[2385], }},
-    {cellIds={"Grytewake, Cabin", }, entryExitVertices={VERTICES[4051], VERTICES[5896], }},
-    {cellIds={"Erabenimsun Camp, Ashu-Ahhe's Yurt", }, entryExitVertices={VERTICES[1524], VERTICES[4986], }},
-    {cellIds={"Shishara", }, entryExitVertices={VERTICES[740], VERTICES[3045], }},
-    {cellIds={"Kogoruhn, Temple of Fey", }, entryExitVertices={VERTICES[4341], VERTICES[3069], }},
-    {cellIds={"Unexplored Shipwreck, Cabin", }, entryExitVertices={VERTICES[2218], VERTICES[6100], }},
-    {cellIds={"Massama Cave", }, entryExitVertices={VERTICES[5802], VERTICES[5144], }},
+    {cellIds={"Mila-Nipal, Manat's Yurt", }, entryExitVertices={VERTICES[903], VERTICES[5335], }},
+    {cellIds={"Vos, Varo Tradehouse Storage", "Vos, Varo Tradehouse Entrance", "Vos, Varo Tradehouse", }, entryExitVertices={VERTICES[1368], VERTICES[1889], VERTICES[2625], VERTICES[5346], }},
+    {cellIds={"Punsabanit", }, entryExitVertices={VERTICES[2602], VERTICES[5674], }},
+    {cellIds={"Ahemmusa Camp, Mamaea's Yurt", }, entryExitVertices={VERTICES[4872], VERTICES[1864], }},
+    {cellIds={"Vos, Vos Chapel", }, entryExitVertices={VERTICES[1847], VERTICES[4252], }},
+    {cellIds={"Kora-Dur", }, entryExitVertices={VERTICES[4074], VERTICES[714], }},
+    {cellIds={"Pelagiad, Adanja's House", }, entryExitVertices={VERTICES[4440], VERTICES[2050], }},
+    {cellIds={"Balmora, Eastern Guard Tower", }, entryExitVertices={VERTICES[5307], VERTICES[443], }},
+    {cellIds={"Gnisis, Arvs-Drelen", }, entryExitVertices={VERTICES[5263], VERTICES[3062], }},
+    {cellIds={"Dren Plantation, Guardhouse", }, entryExitVertices={VERTICES[2568], VERTICES[1094], VERTICES[2397], VERTICES[2738], VERTICES[4441], VERTICES[941], }},
+    {cellIds={"Vivec, St. Olms Waist South-One", }, entryExitVertices={VERTICES[1878], VERTICES[4450], }},
+    {cellIds={"Maran-Adon", }, entryExitVertices={VERTICES[4844], VERTICES[2107], }},
+    {cellIds={"Serano Ancestral Tomb", }, entryExitVertices={VERTICES[777], VERTICES[4102], }},
+    {cellIds={"Dirara's Farmhouse", }, entryExitVertices={VERTICES[2918], VERTICES[1884], }},
+    {cellIds={"Sethan Ancestral Tomb", }, entryExitVertices={VERTICES[3744], VERTICES[4092], }},
+    {cellIds={"Gnisis, Lasamsi Cave Dwelling", }, entryExitVertices={VERTICES[3969], VERTICES[235], }},
+    {cellIds={"Odirniran, Tower", "Odirniran", }, entryExitVertices={VERTICES[5885], VERTICES[5821], }},
+    {cellIds={"Punammu", }, entryExitVertices={VERTICES[5085], VERTICES[5543], }},
+    {cellIds={"Hla Oad, Relien Rirne's House", }, entryExitVertices={VERTICES[3236], VERTICES[2148], }},
+    {cellIds={"Caldera, Elmussa Damori's House", }, entryExitVertices={VERTICES[1327], VERTICES[1122], }},
+    {cellIds={"Ald Velothi, Outpost", }, entryExitVertices={VERTICES[1470], VERTICES[5644], VERTICES[4312], VERTICES[1765], VERTICES[1513], VERTICES[3131], }},
+    {cellIds={"Sanabi", }, entryExitVertices={VERTICES[4328], VERTICES[1437], }},
+    {cellIds={"Arrow, Cabin", }, entryExitVertices={VERTICES[4836], VERTICES[5866], }},
+    {cellIds={"Caldera, Keel-Raniur's House", }, entryExitVertices={VERTICES[1255], VERTICES[2265], }},
+    {cellIds={"Suran, Oran Manor", }, entryExitVertices={VERTICES[3145], VERTICES[581], VERTICES[3714], VERTICES[1714], VERTICES[856], VERTICES[5975], }},
+    {cellIds={"Lost Shipwreck, Cabin", }, entryExitVertices={VERTICES[1021], VERTICES[5756], }},
+    {cellIds={"Zenarbael", }, entryExitVertices={VERTICES[5337], VERTICES[570], }},
+    {cellIds={"Tel Mora, Tower Services", "Tel Mora, Lower Tower", }, entryExitVertices={VERTICES[5636], VERTICES[837], VERTICES[2674], VERTICES[1076], }},
+    {cellIds={"Tharys Ancestral Tomb", }, entryExitVertices={VERTICES[5710], VERTICES[4266], }},
+    {cellIds={"Ahemmusa Camp, Lanabi's Yurt", }, entryExitVertices={VERTICES[3049], VERTICES[256], }},
+    {cellIds={"Ald-ruhn, Temple", }, entryExitVertices={VERTICES[5994], VERTICES[4487], }},
+    {cellIds={"Beran Ancestral Tomb", }, entryExitVertices={VERTICES[2275], VERTICES[2071], }},
+    {cellIds={"Balmora, Hlaalo Manor", }, entryExitVertices={VERTICES[5919], VERTICES[6102], VERTICES[841], VERTICES[5691], }},
+    {cellIds={"Lonesome Shipwreck, Upper Level", "Lonesome Shipwreck, Lower Level", }, entryExitVertices={VERTICES[6184], VERTICES[5808], }},
+    {cellIds={"Balmora, Vori's House", }, entryExitVertices={VERTICES[107], VERTICES[5815], }},
+    {cellIds={"Balmora, Rithleen's House", }, entryExitVertices={VERTICES[1400], VERTICES[1572], }},
+    {cellIds={"Ald-ruhn, Hanarai Assutlanipal's House", }, entryExitVertices={VERTICES[1503], VERTICES[2373], }},
+    {cellIds={"Seyda Neen, Census and Excise Office", }, entryExitVertices={VERTICES[3165], VERTICES[247], VERTICES[4419], VERTICES[478], VERTICES[5026], VERTICES[2357], VERTICES[2355], VERTICES[623], VERTICES[3438], }},
+    {cellIds={"Ravel Ancestral Tomb", }, entryExitVertices={VERTICES[4539], VERTICES[2824], }},
+    {cellIds={"Nchuleft", }, entryExitVertices={VERTICES[3054], VERTICES[5530], }},
+    {cellIds={"Andrano Ancestral Tomb", }, entryExitVertices={VERTICES[3246], VERTICES[5877], }},
+    {cellIds={"Remote Shipwreck, Lower Level", "Remote Shipwreck, Upper Level", }, entryExitVertices={VERTICES[4021], VERTICES[3971], }},
+    {cellIds={"Balur's Farmhouse", }, entryExitVertices={VERTICES[1853], VERTICES[991], }},
+    {cellIds={"Ahallaraddon Egg Mine", }, entryExitVertices={VERTICES[394], VERTICES[2342], }},
+    {cellIds={"Seyda Neen, Arrille's Tradehouse", }, entryExitVertices={VERTICES[3401], VERTICES[2110], VERTICES[5383], VERTICES[1012], }},
+    {cellIds={"Vos, Runethyne Andas's Farmhouse", }, entryExitVertices={VERTICES[25], VERTICES[5749], }},
+    {cellIds={"Vivec, St. Delyn Canal North-Two", }, entryExitVertices={VERTICES[5021], VERTICES[4299], }},
+    {cellIds={"Caldera, South Guard Towers", }, entryExitVertices={VERTICES[70], VERTICES[5450], VERTICES[4920], VERTICES[1268], }},
+    {cellIds={"Adanumuran", }, entryExitVertices={VERTICES[6401], VERTICES[6149], }},
+    {cellIds={"Milk", }, entryExitVertices={VERTICES[5861], VERTICES[6202], }},
+    {cellIds={"Abernanit", }, entryExitVertices={VERTICES[1675], VERTICES[4823], }},
+    {cellIds={"Molag Mar, Redoran Stronghold", }, entryExitVertices={VERTICES[5693], VERTICES[4915], }},
+    {cellIds={"Sadryon Ancestral Tomb", }, entryExitVertices={VERTICES[2161], VERTICES[4822], }},
+    {cellIds={"Vos, Trilam Drolnor's Farmhouse", }, entryExitVertices={VERTICES[5774], VERTICES[1205], }},
+    {cellIds={"Maar Gan, Guard Tower 3", }, entryExitVertices={VERTICES[4866], VERTICES[2197], VERTICES[3318], VERTICES[4607], }},
+    {cellIds={"Maba-Ilu", }, entryExitVertices={VERTICES[5949], VERTICES[5005], }},
+    {cellIds={"Saren Ancestral Tomb", }, entryExitVertices={VERTICES[756], VERTICES[4911], }},
+    {cellIds={"Tel Branora, Manos Vavyn's House", }, entryExitVertices={VERTICES[3322], VERTICES[3175], }},
+    {cellIds={"Rayna Drolan's Shack", }, entryExitVertices={VERTICES[5208], VERTICES[1162], }},
+    {cellIds={"Seyda Neen, Census and Excise Warehouse", }, entryExitVertices={VERTICES[5144], VERTICES[415], VERTICES[3042], VERTICES[4914], }},
+    {cellIds={"Falasmaryon, Propylon Chamber", }, entryExitVertices={VERTICES[512], VERTICES[5712], }},
+    {cellIds={"Zainab Camp, Tussi's Yurt", }, entryExitVertices={VERTICES[5460], VERTICES[4796], }},
+    {cellIds={"Balmora, Lucky Lockup", }, entryExitVertices={VERTICES[1038], VERTICES[1059], VERTICES[243], VERTICES[376], }},
+    {cellIds={"Vassir-Didanat Cave", }, entryExitVertices={VERTICES[2586], VERTICES[824], }},
+    {cellIds={"Massahanud Camp, Sargon's Yurt", }, entryExitVertices={VERTICES[872], VERTICES[222], }},
+    {cellIds={"Hlormaren, Dome", }, entryExitVertices={VERTICES[2413], VERTICES[5737], }},
+    {cellIds={"Rethan Manor, Gols' House", }, entryExitVertices={VERTICES[2246], VERTICES[5611], VERTICES[2550], VERTICES[2237], }},
+    {cellIds={"Tel Aruhn, Ferele Athram: Trader", }, entryExitVertices={VERTICES[1544], VERTICES[2120], }},
+    {cellIds={"Maar Gan, Huleen's Hut", }, entryExitVertices={VERTICES[5806], VERTICES[1984], }},
+    {cellIds={"Rothan Ancestral Tomb", }, entryExitVertices={VERTICES[3159], VERTICES[4982], }},
+    {cellIds={"Ahinipalit", }, entryExitVertices={VERTICES[3630], VERTICES[2442], }},
+    {cellIds={"Tel Aruhn, Tower Entry", "Tel Aruhn, Tower Living Quarters", }, entryExitVertices={VERTICES[1914], VERTICES[3449], VERTICES[5079], VERTICES[2699], VERTICES[5770], VERTICES[3496], }},
+    {cellIds={"Sterdecan's Farmhouse", }, entryExitVertices={VERTICES[4643], VERTICES[5276], VERTICES[1318], VERTICES[2605], }},
+    {cellIds={"Ainat", }, entryExitVertices={VERTICES[3819], VERTICES[3998], }},
+    {cellIds={"Assalkushalit, Shrine", }, entryExitVertices={VERTICES[1524], VERTICES[977], }},
+    {cellIds={"Caldera, Governor's Hall", }, entryExitVertices={VERTICES[3618], VERTICES[5105], VERTICES[6283], VERTICES[4202], VERTICES[1560], VERTICES[2232], }},
+    {cellIds={"Othrelas Ancestral Tomb", }, entryExitVertices={VERTICES[3120], VERTICES[548], }},
+    {cellIds={"Tel Branora, Seryne Relas's House", }, entryExitVertices={VERTICES[2911], VERTICES[3214], }},
+    {cellIds={"Assu", }, entryExitVertices={VERTICES[6272], VERTICES[1668], }},
+    {cellIds={"Balmora, Dorisa Darvel: Bookseller", }, entryExitVertices={VERTICES[2792], VERTICES[502], VERTICES[329], VERTICES[1696], }},
+    {cellIds={"Zaintirari", }, entryExitVertices={VERTICES[4455], VERTICES[1806], }},
+    {cellIds={"Balmora, The Razor Hole", }, entryExitVertices={VERTICES[4555], VERTICES[591], VERTICES[5802], VERTICES[5531], }},
+    {cellIds={"Yakaridan Camp, Kitbael's Yurt", }, entryExitVertices={VERTICES[2997], VERTICES[124], }},
+    {cellIds={"Vandus Ancestral Tomb", }, entryExitVertices={VERTICES[4261], VERTICES[2459], }},
+    {cellIds={"Unmarked Shipwreck, Lower Level", "Unmarked Shipwreck, Upper Level", }, entryExitVertices={VERTICES[788], VERTICES[60], }},
+    {cellIds={"Tel Branora, Giron Manas's Shack", }, entryExitVertices={VERTICES[4926], VERTICES[2331], }},
+    {cellIds={"Andasreth, Lower Level", "Andasreth, Upper Level", }, entryExitVertices={VERTICES[3934], VERTICES[2065], VERTICES[4617], VERTICES[3929], }},
+    {cellIds={"Ald-ruhn, Ald Skar Inn", }, entryExitVertices={VERTICES[431], VERTICES[2144], }},
+    {cellIds={"Strange Shipwreck, Cabin", }, entryExitVertices={VERTICES[6268], VERTICES[2114], }},
+    {cellIds={"Llovyn's Farmhouse", }, entryExitVertices={VERTICES[1758], VERTICES[5786], }},
+    {cellIds={"Maar Gan, Shilipuran Zama-Rasour's Hut", }, entryExitVertices={VERTICES[4695], VERTICES[742], }},
+    {cellIds={"Zainab Camp, Ababael Timsar-Dadisun's Yurt", }, entryExitVertices={VERTICES[5619], VERTICES[5996], }},
+    {cellIds={"Mawia", }, entryExitVertices={VERTICES[1004], VERTICES[2797], }},
+    {cellIds={"Missir-Dadalit Egg Mine", }, entryExitVertices={VERTICES[2133], VERTICES[1144], }},
+    {cellIds={"Dren Plantation, Doves' Shack", }, entryExitVertices={VERTICES[1795], VERTICES[3371], }},
+    {cellIds={"Thelas Ancestral Tomb", }, entryExitVertices={VERTICES[1702], VERTICES[2576], }},
+    {cellIds={"Valenvaryon, Propylon Chamber", }, entryExitVertices={VERTICES[3661], VERTICES[4764], }},
+    {cellIds={"Akimaes Grotto", }, entryExitVertices={VERTICES[74], VERTICES[6099], }},
+    {cellIds={"Madas-Zebba Egg Mine", }, entryExitVertices={VERTICES[1302], VERTICES[1751], }},
+    {cellIds={"Hanud, Tower", "Hanud", }, entryExitVertices={VERTICES[3487], VERTICES[2646], }},
+    {cellIds={"Drulene Falen's Hut", }, entryExitVertices={VERTICES[5494], VERTICES[4016], }},
+    {cellIds={"Maar Gan, Ulisamsi Shaddarnuran's Hut", }, entryExitVertices={VERTICES[5486], VERTICES[82], }},
+    {cellIds={"Balmora, Tsiya's House", }, entryExitVertices={VERTICES[5406], VERTICES[2713], VERTICES[5714], VERTICES[5548], }},
+    {cellIds={"Urshilaku Camp, Ashkhan's Yurt", }, entryExitVertices={VERTICES[4091], VERTICES[1100], }},
+    {cellIds={"Panud Egg Mine", }, entryExitVertices={VERTICES[5923], VERTICES[4780], }},
+    {cellIds={"Tel Uvirith, Arelas' House", }, entryExitVertices={VERTICES[3081], VERTICES[4090], }},
+    {cellIds={"Ald Velothi, Vireveri Darethran's Shack", }, entryExitVertices={VERTICES[4668], VERTICES[5478], }},
+    {cellIds={"Seyda Neen, Fine-Mouth's Shack", }, entryExitVertices={VERTICES[4106], VERTICES[4039], }},
+    {cellIds={"Dren Plantation, Hlevala's Shack", }, entryExitVertices={VERTICES[1661], VERTICES[3557], }},
+    {cellIds={"Suran, Suran Tradehouse", }, entryExitVertices={VERTICES[2282], VERTICES[2496], VERTICES[1477], VERTICES[3253], }},
+    {cellIds={"Balmora, Council Club", }, entryExitVertices={VERTICES[1969], VERTICES[453], }},
+    {cellIds={"Suran, Ranosa Gilvayn: Outfitter", }, entryExitVertices={VERTICES[1754], VERTICES[2817], VERTICES[3504], VERTICES[5747], }},
+    {cellIds={"Deserted Shipwreck, Cabin", }, entryExitVertices={VERTICES[4264], VERTICES[4089], }},
+    {cellIds={"Tel Mora, Jolda: Apothecary", }, entryExitVertices={VERTICES[5513], VERTICES[4553], }},
+    {cellIds={"Hawia Egg Mine", }, entryExitVertices={VERTICES[1265], VERTICES[928], }},
+    {cellIds={"Dren Plantation, Rethan's Shack", }, entryExitVertices={VERTICES[1712], VERTICES[646], }},
+    {cellIds={"Ebonheart, Grand Council Chambers Tower", }, entryExitVertices={VERTICES[5243], VERTICES[5000], VERTICES[5568], VERTICES[2154], }},
+    {cellIds={"Vos, Ienasa Radas's Farmhouse", }, entryExitVertices={VERTICES[3887], VERTICES[5184], }},
+    {cellIds={"Hlaalu Ancestral Tomb", }, entryExitVertices={VERTICES[4185], VERTICES[2087], }},
+    {cellIds={"Balmora, Tyravel Manor", }, entryExitVertices={VERTICES[5791], VERTICES[5379], }},
+    {cellIds={"Fair Helas, Lower Level", "Fair Helas, Upper Level", }, entryExitVertices={VERTICES[4997], VERTICES[436], }},
+    {cellIds={"Unexplored Shipwreck, Upper Level", "Unexplored Shipwreck, Lower Level", }, entryExitVertices={VERTICES[22], VERTICES[377], }},
+    {cellIds={"Thiralas Ancestral Tomb", }, entryExitVertices={VERTICES[1804], VERTICES[5824], }},
+    {cellIds={"Balmora, Temple", }, entryExitVertices={VERTICES[3349], VERTICES[3334], }},
+    {cellIds={"Balmora, Meldor: Armorer", }, entryExitVertices={VERTICES[2440], VERTICES[2553], }},
+    {cellIds={"Dagon Fel, Sorkvild's Tower", }, entryExitVertices={VERTICES[3126], VERTICES[5316], }},
+    {cellIds={"Onnissiralis, Shrine", }, entryExitVertices={VERTICES[2157], VERTICES[1306], }},
+    {cellIds={"Andules Ancestral Tomb", }, entryExitVertices={VERTICES[6073], VERTICES[5842], }},
+    {cellIds={"Prelude Shipwreck, Upper Level", "Prelude Shipwreck, Lower Level", }, entryExitVertices={VERTICES[6091], VERTICES[3115], }},
+    {cellIds={"Khuul, Rivame Samandas's Shack", }, entryExitVertices={VERTICES[4337], VERTICES[356], }},
+    {cellIds={"Tel Vos, Barracks and Armory", }, entryExitVertices={VERTICES[1187], VERTICES[5192], VERTICES[173], VERTICES[3806], }},
+    {cellIds={"Rotheran, Communal Hut", }, entryExitVertices={VERTICES[4097], VERTICES[1196], }},
+    {cellIds={"Hla Oad, Shurkul gro-Sharga's House", }, entryExitVertices={VERTICES[4407], VERTICES[5916], }},
+    {cellIds={"Inanius Egg Mine", }, entryExitVertices={VERTICES[4070], VERTICES[3924], }},
+    {cellIds={"Zainsipilu", }, entryExitVertices={VERTICES[1972], VERTICES[2248], }},
+    {cellIds={"Ald-ruhn, Tiras Sadus: General Merchandise", }, entryExitVertices={VERTICES[4462], VERTICES[4516], }},
+    {cellIds={"Urshilaku Camp, Wise Woman's Yurt", }, entryExitVertices={VERTICES[607], VERTICES[467], }},
+    {cellIds={"Dren Plantation, Helvi's Shack", }, entryExitVertices={VERTICES[3882], VERTICES[52], }},
+    {cellIds={"Desolate Shipwreck, Upper Level", "Desolate Shipwreck, Lower Level", }, entryExitVertices={VERTICES[2854], VERTICES[313], }},
+    {cellIds={"Ald-ruhn, Tauryon's House", }, entryExitVertices={VERTICES[3732], VERTICES[4057], }},
+    {cellIds={"Sadrith Mora, Trendrus Dral's House", }, entryExitVertices={VERTICES[997], VERTICES[528], }},
+    {cellIds={"Nissintu", }, entryExitVertices={VERTICES[5507], VERTICES[974], }},
+    {cellIds={"Tel Uvirith, Seleth's House", }, entryExitVertices={VERTICES[4108], VERTICES[2444], }},
+    {cellIds={"Maar Gan, Mabrelle Geles's Hut", }, entryExitVertices={VERTICES[4459], VERTICES[20], }},
+    {cellIds={"Ashinabi", "Ashinabi, Smuggler Den", }, entryExitVertices={VERTICES[3993], VERTICES[4369], VERTICES[3823], VERTICES[6180], }},
+    {cellIds={"Ministry of Truth, Hall of Processing", "Ministry of Truth, Holding Cells", "Ministry of Truth, Prison Keep", }, entryExitVertices={VERTICES[172], VERTICES[5151], VERTICES[1208], VERTICES[2151], VERTICES[1978], VERTICES[5305], }},
+    {cellIds={"Tel Mora, Radras: Smith", }, entryExitVertices={VERTICES[1769], VERTICES[2141], }},
+    {cellIds={"Yakanalit", }, entryExitVertices={VERTICES[1596], VERTICES[852], }},
+    {cellIds={"Small Farmhouse", }, entryExitVertices={VERTICES[2371], VERTICES[9], }},
+    {cellIds={"Llervu Ancestral Tomb", }, entryExitVertices={VERTICES[3405], VERTICES[3416], }},
+    {cellIds={"Vos, Dreynos Elvul's Farmhouse", }, entryExitVertices={VERTICES[4308], VERTICES[3023], }},
+    {cellIds={"Mausur Caverns", }, entryExitVertices={VERTICES[15], VERTICES[842], }},
+    {cellIds={"Llirala's Shack", }, entryExitVertices={VERTICES[1421], VERTICES[5170], }},
+    {cellIds={"Ald-ruhn, Dandera Selaro: Smith", }, entryExitVertices={VERTICES[1371], VERTICES[3052], }},
+    {cellIds={"Zaintiraris, Shrine", }, entryExitVertices={VERTICES[5183], VERTICES[2098], }},
+    {cellIds={"Zalkin-Sul Egg Mine", }, entryExitVertices={VERTICES[4329], VERTICES[3563], }},
+    {cellIds={"Vivec, Puzzle Canal, Level 4", }, entryExitVertices={VERTICES[89], VERTICES[5108], VERTICES[2419], VERTICES[2213], VERTICES[2171], VERTICES[2174], }},
+    {cellIds={"Khuul, Endris Dilmyn's Shack", }, entryExitVertices={VERTICES[1238], VERTICES[5448], }},
+    {cellIds={"Hla Oad, Okur's House", }, entryExitVertices={VERTICES[5023], VERTICES[1808], }},
+    {cellIds={"Suran, Suran Temple", }, entryExitVertices={VERTICES[4164], VERTICES[1740], }},
+    {cellIds={"Ashanammu", }, entryExitVertices={VERTICES[4957], VERTICES[1698], }},
+    {cellIds={"Rissun", }, entryExitVertices={VERTICES[1645], VERTICES[4803], }},
+    {cellIds={"Sadrith Mora, Meluria Seleth's House", }, entryExitVertices={VERTICES[2044], VERTICES[3338], }},
+    {cellIds={"Salmantu, Shrine", "Salmantu", }, entryExitVertices={VERTICES[3647], VERTICES[5210], }},
+    {cellIds={"Falvilo's Endeavor, Upper Level", "Falvillo's Endeavor, Lower Level", }, entryExitVertices={VERTICES[1497], VERTICES[1370], }},
+    {cellIds={"Esutanamus, Shrine", }, entryExitVertices={VERTICES[674], VERTICES[5439], }},
+    {cellIds={"Ienith Ancestral Tomb", }, entryExitVertices={VERTICES[1110], VERTICES[2723], }},
+    {cellIds={"Tel Mora, Nona's House", }, entryExitVertices={VERTICES[5974], VERTICES[2591], }},
+    {cellIds={"Vassamsi Grotto", }, entryExitVertices={VERTICES[311], VERTICES[4059], }},
+    {cellIds={"Uveran Ancestral Tomb", }, entryExitVertices={VERTICES[940], VERTICES[4522], }},
+    {cellIds={"Ebonheart, Hawkmoth Legion Garrison", }, entryExitVertices={VERTICES[4206], VERTICES[1669], VERTICES[320], VERTICES[1427], VERTICES[169], VERTICES[1686], VERTICES[5124], VERTICES[276], VERTICES[4729], VERTICES[4506], VERTICES[5433], }},
+    {cellIds={"Balmora, Astius Hanotepelus' House", }, entryExitVertices={VERTICES[3719], VERTICES[3758], VERTICES[5593], VERTICES[2711], }},
+    {cellIds={"Asha-Ahhe Egg Mine", }, entryExitVertices={VERTICES[4381], VERTICES[3181], }},
+    {cellIds={"Kushtashpi, Shrine", }, entryExitVertices={VERTICES[2752], VERTICES[460], }},
+    {cellIds={"Drath Ancestral Tomb", }, entryExitVertices={VERTICES[5565], VERTICES[4366], }},
+    {cellIds={"Eluba-Addon Grotto", }, entryExitVertices={VERTICES[3748], VERTICES[4705], }},
+    {cellIds={"Maar Gan, Outpost", }, entryExitVertices={VERTICES[1090], VERTICES[4156], }},
+    {cellIds={"Urshilaku Camp, Ahasour's Yurt", }, entryExitVertices={VERTICES[1607], VERTICES[5553], }},
+    {cellIds={"Bensiberib Camp, Odaishah's Yurt", }, entryExitVertices={VERTICES[1934], VERTICES[1491], }},
+    {cellIds={"Orethi Ancestral Tomb", }, entryExitVertices={VERTICES[6352], VERTICES[5434], }},
+    {cellIds={"Dren Plantation, Tower Shack", }, entryExitVertices={VERTICES[2052], VERTICES[4642], }},
+    {cellIds={"Ald-ruhn, Guard Tower 2", }, entryExitVertices={VERTICES[6261], VERTICES[3066], VERTICES[1689], VERTICES[1618], }},
+    {cellIds={"Caldera, Bashuk gra-Bat's House", }, entryExitVertices={VERTICES[4612], VERTICES[3524], }},
+    {cellIds={"Deserted Shipwreck, Upper Level", "Deserted Shipwreck, Lower Level", }, entryExitVertices={VERTICES[6251], VERTICES[2198], }},
+    {cellIds={"Derelict Shipwreck, Lower Level", "Derelict Shipwreck, Upper Level", }, entryExitVertices={VERTICES[2327], VERTICES[1433], }},
+    {cellIds={"Vivec, Puzzle Canal, Level 1", }, entryExitVertices={VERTICES[1670], VERTICES[89], VERTICES[3615], VERTICES[2170], VERTICES[2626], VERTICES[4291], }},
+    {cellIds={"Balmora, Western Guard Tower South", }, entryExitVertices={VERTICES[6396], VERTICES[5102], VERTICES[3594], VERTICES[5646], }},
+    {cellIds={"Andas Ancestral Tomb", }, entryExitVertices={VERTICES[1050], VERTICES[3459], }},
+    {cellIds={"Khuul, Brurid's Shack", }, entryExitVertices={VERTICES[6231], VERTICES[4993], VERTICES[5063], VERTICES[2176], }},
+    {cellIds={"Tel Mora, Upper Tower", }, entryExitVertices={VERTICES[3792], VERTICES[2949], VERTICES[3520], VERTICES[3957], }},
+    {cellIds={"Assurnabitashpi", }, entryExitVertices={VERTICES[3091], VERTICES[3605], }},
+    {cellIds={"Ebonheart, East Empire North Warehouse", }, entryExitVertices={VERTICES[6030], VERTICES[980], }},
+    {cellIds={"Sadrith Mora, Rolis Garvon's House", }, entryExitVertices={VERTICES[1037], VERTICES[2789], }},
+    {cellIds={"Chun-Ook, Cabin", }, entryExitVertices={VERTICES[433], VERTICES[5278], }},
+    {cellIds={"Neglected Shipwreck, Cabin", }, entryExitVertices={VERTICES[4025], VERTICES[4135], }},
+    {cellIds={"Manat's Farmhouse", }, entryExitVertices={VERTICES[3921], VERTICES[3788], }},
+    {cellIds={"Velas Ancestral Tomb", }, entryExitVertices={VERTICES[5154], VERTICES[210], }},
+    {cellIds={"Sudanit Mine", }, entryExitVertices={VERTICES[254], VERTICES[3350], }},
+    {cellIds={"Gnaar Mok, Rostlogi's Shack", }, entryExitVertices={VERTICES[441], VERTICES[6221], }},
+    {cellIds={"Andalor Ancestral Tomb", }, entryExitVertices={VERTICES[5321], VERTICES[5222], }},
+    {cellIds={"Fadathram Ancestral Tomb", }, entryExitVertices={VERTICES[2712], VERTICES[2647], }},
+    {cellIds={"Balmora, Fast Eddie's House", }, entryExitVertices={VERTICES[3916], VERTICES[2974], }},
+    {cellIds={"Shurdan-Raplay Egg Mine", }, entryExitVertices={VERTICES[1838], VERTICES[3879], }},
+    {cellIds={"Dagon Fel, Vacant Tower", }, entryExitVertices={VERTICES[1348], VERTICES[6085], }},
+    {cellIds={"Desolate Shipwreck, Cabin", }, entryExitVertices={VERTICES[1285], VERTICES[4587], }},
+    {cellIds={"Dagon Fel, Heifnir: Trader", }, entryExitVertices={VERTICES[5408], VERTICES[110], }},
+    {cellIds={"Tukushapal, Sepulcher", "Marvani Ancestral Tomb", "Tukushapal", }, entryExitVertices={VERTICES[1228], VERTICES[4245], }},
+    {cellIds={"Abebaal Egg Mine", }, entryExitVertices={VERTICES[2191], VERTICES[1182], }},
+    {cellIds={"Dralas Ancestral Tomb", }, entryExitVertices={VERTICES[2564], VERTICES[1282], }},
+    {cellIds={"Panat", }, entryExitVertices={VERTICES[494], VERTICES[2587], }},
+    {cellIds={"Dren Plantation, Verethi and Dralor", }, entryExitVertices={VERTICES[3298], VERTICES[2941], VERTICES[3736], VERTICES[68], }},
+    {cellIds={"Berandas, Propylon Chamber", }, entryExitVertices={VERTICES[4907], VERTICES[29], }},
+    {cellIds={"Ald-ruhn, Gildan's House", }, entryExitVertices={VERTICES[2579], VERTICES[6225], }},
+    {cellIds={"Zainab Camp, Ashibaal's Yurt", }, entryExitVertices={VERTICES[5947], VERTICES[2435], }},
+    {cellIds={"Ebonheart, Argonian Mission", }, entryExitVertices={VERTICES[576], VERTICES[573], }},
+    {cellIds={"Koal Cave", }, entryExitVertices={VERTICES[5558], VERTICES[5402], }},
+    {cellIds={"Tel Mora, Liette's House", }, entryExitVertices={VERTICES[1464], VERTICES[6381], }},
+    {cellIds={"Alas Ancestral Tomb", }, entryExitVertices={VERTICES[2163], VERTICES[1190], }},
+    {cellIds={"Shunned Shipwreck, Cabin", }, entryExitVertices={VERTICES[6201], VERTICES[6322], }},
+    {cellIds={"Yasammidan, Shrine", }, entryExitVertices={VERTICES[538], VERTICES[1351], }},
+    {cellIds={"Khuul, Nelmyne Andules's Shack", }, entryExitVertices={VERTICES[4078], VERTICES[2616], }},
+    {cellIds={"Sadrith Mora, Morag Tong Guild", }, entryExitVertices={VERTICES[6395], VERTICES[491], }},
+    {cellIds={"Zainab Camp, Ashkhan's Yurt", }, entryExitVertices={VERTICES[40], VERTICES[937], }},
+    {cellIds={"Mzuleft", }, entryExitVertices={VERTICES[355], VERTICES[3581], }},
+    {cellIds={"Dagon Fel, Itar the Gentle's House", }, entryExitVertices={VERTICES[1270], VERTICES[366], }},
+    {cellIds={"Gnisis, Fort Darius", }, entryExitVertices={VERTICES[571], VERTICES[1723], VERTICES[424], VERTICES[3909], }},
+    {cellIds={"Ald-ruhn, Braynas Hlervu's House", }, entryExitVertices={VERTICES[3483], VERTICES[3941], }},
+    {cellIds={"Balmora, Nine Toes' House", }, entryExitVertices={VERTICES[4388], VERTICES[2614], VERTICES[35], VERTICES[3979], }},
+    {cellIds={"Ahemmusa Camp, Kausi's Yurt", }, entryExitVertices={VERTICES[6011], VERTICES[84], }},
+    {cellIds={"Reloth Ancestral Tomb", }, entryExitVertices={VERTICES[1530], VERTICES[3532], }},
+    {cellIds={"Dagon Fel, Mette's House", }, entryExitVertices={VERTICES[2200], VERTICES[1222], }},
+    {cellIds={"Gnisis, Shand Hut", }, entryExitVertices={VERTICES[2967], VERTICES[5779], }},
+    {cellIds={"Norvayn Ancestral Tomb", }, entryExitVertices={VERTICES[1358], VERTICES[6315], }},
+    {cellIds={"Balmora, Drarayne Thelas' House", }, entryExitVertices={VERTICES[3607], VERTICES[223], }},
+    {cellIds={"Ilanipu Grotto", }, entryExitVertices={VERTICES[2471], VERTICES[3709], }},
+    {cellIds={"Ald Velothi, Ganus Lloryn's Shack", }, entryExitVertices={VERTICES[6026], VERTICES[4512], }},
+    {cellIds={"Dagon Fel, Onmi Hard-mouth's House", }, entryExitVertices={VERTICES[1961], VERTICES[6187], VERTICES[2975], VERTICES[4335], }},
+    {cellIds={"Ancient Shipwreck, Cabin", }, entryExitVertices={VERTICES[6136], VERTICES[3177], }},
+    {cellIds={"An Abandoned Shack", }, entryExitVertices={VERTICES[2101], VERTICES[2321], }},
+    {cellIds={"Mudan-Mul Egg Mine", }, entryExitVertices={VERTICES[4098], VERTICES[869], }},
+    {cellIds={"Mount Kand, Cavern", }, entryExitVertices={VERTICES[3164], VERTICES[984], }},
+    {cellIds={"Caldera, Verick Gemain: Trader", }, entryExitVertices={VERTICES[1148], VERTICES[2982], }},
+    {cellIds={"Setus Egg Mine", }, entryExitVertices={VERTICES[6152], VERTICES[1349], }},
+    {cellIds={"Balmora, Hecerinde's House", }, entryExitVertices={VERTICES[4529], VERTICES[1905], }},
+    {cellIds={"Hleran Ancestral Tomb", }, entryExitVertices={VERTICES[3774], VERTICES[6134], }},
+    {cellIds={"Ashunartes, Shrine", }, entryExitVertices={VERTICES[3545], VERTICES[397], VERTICES[6067], VERTICES[2736], }},
+    {cellIds={"Vivec, St. Olms Waist North-One", }, entryExitVertices={VERTICES[2346], VERTICES[5084], }},
+    {cellIds={"Obscure Shipwreck, Cabin", }, entryExitVertices={VERTICES[5533], VERTICES[2811], }},
+    {cellIds={"Mamshar-Disamus Camp, Maesat's Yurt", }, entryExitVertices={VERTICES[6150], VERTICES[5760], }},
+    {cellIds={"Surirulk", }, entryExitVertices={VERTICES[31], VERTICES[4085], }},
+    {cellIds={"Sarano Ancestral Tomb", }, entryExitVertices={VERTICES[3310], VERTICES[4409], }},
+    {cellIds={"Gimothran Ancestral Tomb", }, entryExitVertices={VERTICES[794], VERTICES[5500], }},
+    {cellIds={"Arethan Ancestral Tomb", }, entryExitVertices={VERTICES[3588], VERTICES[5110], }},
+    {cellIds={"Ebonheart, Skyrim Mission", }, entryExitVertices={VERTICES[5887], VERTICES[4928], }},
+    {cellIds={"Galom Daeus, Observatory", "Galom Daeus, Entry", }, entryExitVertices={VERTICES[976], VERTICES[1897], }},
+    {cellIds={"Dagon Fel, Fanar Fork-Beard's House", }, entryExitVertices={VERTICES[4760], VERTICES[2735], }},
+    {cellIds={"Urshilaku Camp, Kurapli's Yurt", }, entryExitVertices={VERTICES[3996], VERTICES[4014], }},
+    {cellIds={"Holamayan Monastery", }, entryExitVertices={VERTICES[2431], VERTICES[3816], }},
+    {cellIds={"Caldera, North Guard Towers", }, entryExitVertices={VERTICES[828], VERTICES[2134], VERTICES[4527], VERTICES[2875], }},
+    {cellIds={"Tel Branora, Sethan's Tradehouse", }, entryExitVertices={VERTICES[3826], VERTICES[1644], }},
+    {cellIds={"Rethan Manor", }, entryExitVertices={VERTICES[327], VERTICES[2759], }},
+    {cellIds={"Ansi", }, entryExitVertices={VERTICES[964], VERTICES[4099], }},
+    {cellIds={"Maelkashishi, Shrine, Forgotten Galleries", "Maelkashishi, Shrine", }, entryExitVertices={VERTICES[2739], VERTICES[2162], VERTICES[3930], VERTICES[2336], }},
+    {cellIds={"Caldera, Irgola: Pawnbroker", }, entryExitVertices={VERTICES[546], VERTICES[2924], }},
+    {cellIds={"Pelagiad, Murberius Harmevus' House", }, entryExitVertices={VERTICES[4648], VERTICES[531], }},
+    {cellIds={"Heran Ancestral Tomb", }, entryExitVertices={VERTICES[3679], VERTICES[530], }},
+    {cellIds={"Lonely Shipwreck, Cabin", }, entryExitVertices={VERTICES[1541], VERTICES[5046], }},
+    {cellIds={"Maar Gan, Shrine", }, entryExitVertices={VERTICES[4597], VERTICES[4566], }},
+    {cellIds={"Pelagiad, Ahnassi's House", }, entryExitVertices={VERTICES[721], VERTICES[1798], }},
+    {cellIds={"Nimawia Grotto", }, entryExitVertices={VERTICES[2855], VERTICES[4207], }},
+    {cellIds={"Ald Velothi, Ienas Arvel's Shack", }, entryExitVertices={VERTICES[6108], VERTICES[1555], VERTICES[1616], VERTICES[4939], }},
+    {cellIds={"Ashimanu Egg Mine", "Ashimanu Egg Mine, Queen's Lair", }, entryExitVertices={VERTICES[1402], VERTICES[2502], }},
+    {cellIds={"Pelagiad, Mebestien Ence: Trader", }, entryExitVertices={VERTICES[4368], VERTICES[5883], }},
+    {cellIds={"Erabenimsun Camp, Ranabi's Yurt", }, entryExitVertices={VERTICES[5840], VERTICES[5329], }},
+    {cellIds={"Vivec, St. Delyn Canal South-Two", }, entryExitVertices={VERTICES[1298], VERTICES[1671], }},
+    {cellIds={"Ashir-Dan", }, entryExitVertices={VERTICES[4390], VERTICES[5878], }},
+    {cellIds={"Odrosal, Tower", "Odrosal, Dwemer Training Academy", }, entryExitVertices={VERTICES[139], VERTICES[1558], }},
+    {cellIds={"Ald-ruhn, Aryni Orethi's House", }, entryExitVertices={VERTICES[4790], VERTICES[4036], }},
+    {cellIds={"Grytewake, Lower Level", "Grytewake, Upper Level", }, entryExitVertices={VERTICES[272], VERTICES[324], }},
+    {cellIds={"Sobitbael Camp, Mal's Yurt", }, entryExitVertices={VERTICES[4216], VERTICES[5119], }},
+    {cellIds={"Tel Vos, Southern Tower", }, entryExitVertices={VERTICES[5725], VERTICES[133], VERTICES[2891], VERTICES[5604], VERTICES[185], VERTICES[2155], }},
+    {cellIds={"Caldera, Shenk's Shovel", }, entryExitVertices={VERTICES[3097], VERTICES[152], VERTICES[3088], VERTICES[2786], }},
+    {cellIds={"Strange Shipwreck, Upper Level", "Strange Shipwreck, Lower Level", }, entryExitVertices={VERTICES[3396], VERTICES[4693], }},
+    {cellIds={"Dren Plantation, Storage Shack", }, entryExitVertices={VERTICES[1252], VERTICES[2420], }},
+    {cellIds={"Gnisis, Abelmawia Hut", }, entryExitVertices={VERTICES[1881], VERTICES[3022], }},
+    {cellIds={"Zanabi", }, entryExitVertices={VERTICES[5273], VERTICES[695], }},
+    {cellIds={"Tel Branora, Tower Guardpost", }, entryExitVertices={VERTICES[3283], VERTICES[2841], }},
+    {cellIds={"Caldera, Canodia Felannus' House", }, entryExitVertices={VERTICES[6399], VERTICES[5107], }},
+    {cellIds={"Sadrith Mora, Nirasa Aren's House", }, entryExitVertices={VERTICES[5993], VERTICES[3628], }},
+    {cellIds={"Khuul, Helga's Shack", }, entryExitVertices={VERTICES[3825], VERTICES[1540], }},
+    {cellIds={"Gnaar Mok, Caryarel's Shack", }, entryExitVertices={VERTICES[3238], VERTICES[825], }},
+    {cellIds={"Elith-Pal Mine", }, entryExitVertices={VERTICES[1812], VERTICES[2577], }},
+    {cellIds={"Samarys Ancestral Tomb", }, entryExitVertices={VERTICES[5313], VERTICES[1654], }},
+    {cellIds={"Abandoned Shipwreck, Cabin", }, entryExitVertices={VERTICES[3614], VERTICES[5238], }},
+    {cellIds={"Caldera, Hodlismod: Armorer", }, entryExitVertices={VERTICES[4585], VERTICES[606], }},
+    {cellIds={"Balmora, Western Guard Tower North", }, entryExitVertices={VERTICES[3386], VERTICES[4200], VERTICES[216], VERTICES[2123], }},
+    {cellIds={"Hairat-Vassamsi Egg Mine", "Hairat-Vassamsi Egg Mine, Queen's Lair", }, entryExitVertices={VERTICES[5678], VERTICES[4922], }},
+    {cellIds={"Aharasaplit Camp, Zallay's Yurt", }, entryExitVertices={VERTICES[541], VERTICES[2210], }},
+    {cellIds={"Vivec, St. Olms Canal North-Three", }, entryExitVertices={VERTICES[1977], VERTICES[697], }},
+    {cellIds={"Balmora, Dura gra-Bol's House", }, entryExitVertices={VERTICES[792], VERTICES[221], VERTICES[1412], VERTICES[4826], VERTICES[616], VERTICES[3692], }},
+    {cellIds={"Tel Aruhn, Bildren Areleth: Apothecary", }, entryExitVertices={VERTICES[5287], VERTICES[1580], }},
+    {cellIds={"Morvayn Manor", }, entryExitVertices={VERTICES[624], VERTICES[816], }},
+    {cellIds={"Kaushtarari, Shrine", }, entryExitVertices={VERTICES[1139], VERTICES[3295], }},
+    {cellIds={"Ald-ruhn, Ienas Sarandas's House", }, entryExitVertices={VERTICES[1179], VERTICES[3988], }},
+    {cellIds={"Odibaal", }, entryExitVertices={VERTICES[166], VERTICES[5076], }},
+    {cellIds={"Favel Ancestral Tomb", }, entryExitVertices={VERTICES[4239], VERTICES[2096], }},
+    {cellIds={"Sadrith Mora, Pierlette Rostorard: Apothecary", }, entryExitVertices={VERTICES[1658], VERTICES[3354], }},
+    {cellIds={"Valenvaryon, Gashna's Hut", }, entryExitVertices={VERTICES[4492], VERTICES[79], }},
+    {cellIds={"Vivec, St. Olms Canal South-One", }, entryExitVertices={VERTICES[2216], VERTICES[5304], }},
+    {cellIds={"Hlervu Ancestral Tomb", }, entryExitVertices={VERTICES[631], VERTICES[5414], }},
+    {cellIds={"Ashamanu Camp, Kausha's Yurt", }, entryExitVertices={VERTICES[4432], VERTICES[162], }},
+    {cellIds={"Sadrith Mora, Fara's Hole in the Wall", }, entryExitVertices={VERTICES[523], VERTICES[3075], }},
+    {cellIds={"Hla Oad, Murudius Flaeus's House", }, entryExitVertices={VERTICES[2361], VERTICES[5364], }},
+    {cellIds={"Caldera, Surane Leoriane's House", }, entryExitVertices={VERTICES[3668], VERTICES[4376], }},
+    {cellIds={"Caldera, Slave Shack Two", }, entryExitVertices={VERTICES[6282], VERTICES[4051], }},
+    {cellIds={"Dun-Ahhe", }, entryExitVertices={VERTICES[5373], VERTICES[4919], }},
+    {cellIds={"Arano Ancestral Tomb", }, entryExitVertices={VERTICES[5351], VERTICES[2654], }},
+    {cellIds={"Seran Ancestral Tomb", }, entryExitVertices={VERTICES[3085], VERTICES[5366], }},
+    {cellIds={"Balmora, South Wall Cornerclub", }, entryExitVertices={VERTICES[3715], VERTICES[3208], VERTICES[4120], VERTICES[6212], }},
+    {cellIds={"Ald Redaynia, Tower", }, entryExitVertices={VERTICES[2122], VERTICES[6321], }},
+    {cellIds={"Dren Plantation, Dren's Villa", }, entryExitVertices={VERTICES[3409], VERTICES[2063], VERTICES[4578], VERTICES[2687], VERTICES[1438], VERTICES[3831], }},
+    {cellIds={"Ald-ruhn, Gindrala Hleran's House", }, entryExitVertices={VERTICES[2173], VERTICES[3124], }},
+    {cellIds={"Ald-ruhn, Council Club", }, entryExitVertices={VERTICES[1134], VERTICES[3078], }},
+    {cellIds={"Sadrith Mora, Milara Vedran's House", }, entryExitVertices={VERTICES[4423], VERTICES[1697], }},
+    {cellIds={"Ules Manor", }, entryExitVertices={VERTICES[4696], VERTICES[3837], }},
+    {cellIds={"Odirnamat", }, entryExitVertices={VERTICES[6098], VERTICES[2512], }},
+    {cellIds={"Pelagiad, Erval's House", }, entryExitVertices={VERTICES[390], VERTICES[1716], }},
+    {cellIds={"Ahemmusa Camp, Addammus's Yurt", }, entryExitVertices={VERTICES[5147], VERTICES[1896], }},
+    {cellIds={"Sadrith Mora, Nevrila Areloth's House", }, entryExitVertices={VERTICES[4978], VERTICES[754], }},
+    {cellIds={"Dunirai Caverns", }, entryExitVertices={VERTICES[2709], VERTICES[4458], }},
+    {cellIds={"Halit Mine", }, entryExitVertices={VERTICES[1911], VERTICES[3482], }},
+    {cellIds={"Ald Velothi, Llerar Vinden's Shack", }, entryExitVertices={VERTICES[3437], VERTICES[4853], }},
+    {cellIds={"Tel Aruhn, Plot and Plaster", }, entryExitVertices={VERTICES[2403], VERTICES[314], }},
+    {cellIds={"Gnaar Mok, Jerian Dolbanitte's Shack", }, entryExitVertices={VERTICES[3770], VERTICES[4592], }},
+    {cellIds={"Shushan", }, entryExitVertices={VERTICES[6370], VERTICES[2555], }},
+    {cellIds={"Pulk", }, entryExitVertices={VERTICES[5762], VERTICES[2236], }},
+    {cellIds={"Baram Ancestral Tomb", }, entryExitVertices={VERTICES[4811], VERTICES[2611], }},
+    {cellIds={"Pelagiad, Guard Tower", }, entryExitVertices={VERTICES[2334], VERTICES[339], VERTICES[154], VERTICES[3899], }},
+    {cellIds={"Shunned Shipwreck, Upper Level", "Shunned Shipwreck, Lower Level", }, entryExitVertices={VERTICES[244], VERTICES[1672], }},
+    {cellIds={"Ald Velothi, Fevila Bethrano's Shack", }, entryExitVertices={VERTICES[1183], VERTICES[3418], }},
+    {cellIds={"Erabenimsun Camp, Han-Ammu's Yurt", }, entryExitVertices={VERTICES[524], VERTICES[1624], }},
+    {cellIds={"Zergonipal, Shrine", }, entryExitVertices={VERTICES[863], VERTICES[4325], }},
+    {cellIds={"Abanabi", }, entryExitVertices={VERTICES[2430], VERTICES[191], }},
+    {cellIds={"Maren Ancestral Tomb", }, entryExitVertices={VERTICES[6079], VERTICES[5067], }},
+    {cellIds={"Bthungthumz", }, entryExitVertices={VERTICES[3627], VERTICES[1363], }},
+    {cellIds={"Forgotten Shipwreck", }, entryExitVertices={VERTICES[85], VERTICES[1821], }},
+    {cellIds={"Valenvaryon, Umug's Hut", }, entryExitVertices={VERTICES[5665], VERTICES[2757], }},
+    {cellIds={"Ebonheart, Imperial Chapels", }, entryExitVertices={VERTICES[2716], VERTICES[5259], }},
+    {cellIds={"Arvel Manor, Slavemaster's Shack", }, entryExitVertices={VERTICES[3324], VERTICES[208], }},
+    {cellIds={"Zainab Camp, Minassour's Yurt", }, entryExitVertices={VERTICES[4650], VERTICES[5823], }},
+    {cellIds={"Vivec, St. Olms Canal North-Two", }, entryExitVertices={VERTICES[2223], VERTICES[1968], }},
+    {cellIds={"Falasmaryon, Missun Akin's Hut", }, entryExitVertices={VERTICES[6330], VERTICES[2656], }},
+    {cellIds={"Kudanat", }, entryExitVertices={VERTICES[789], VERTICES[2617], }},
+    {cellIds={"Shara", }, entryExitVertices={VERTICES[3660], VERTICES[4716], }},
+    {cellIds={"Ald Velothi, Lledsea Relas's Shack", }, entryExitVertices={VERTICES[726], VERTICES[1023], }},
+    {cellIds={"Dreloth Ancestral Tomb", }, entryExitVertices={VERTICES[5627], VERTICES[3010], }},
+    {cellIds={"Balmora, Ra'Virr: Trader", }, entryExitVertices={VERTICES[3619], VERTICES[4007], VERTICES[1923], VERTICES[5708], }},
+    {cellIds={"Balmora, Milie Hastien: Fine Clothier", }, entryExitVertices={VERTICES[5875], VERTICES[6068], VERTICES[2434], VERTICES[4384], }},
+    {cellIds={"Suran, Garothmuk gro-Muzgub: Smith", }, entryExitVertices={VERTICES[2523], VERTICES[1501], VERTICES[5801], VERTICES[4775], }},
+    {cellIds={"Rethan Manor, Berendas' House", }, entryExitVertices={VERTICES[731], VERTICES[3341], }},
+    {cellIds={"Yassu Mine", }, entryExitVertices={VERTICES[4157], VERTICES[4362], }},
+    {cellIds={"Malmus Grotto", }, entryExitVertices={VERTICES[6366], VERTICES[1647], }},
+    {cellIds={"Ahemmusa Camp, Wise Woman's Yurt", }, entryExitVertices={VERTICES[5064], VERTICES[5546], }},
+    {cellIds={"Seyda Neen, Eldafire's House", }, entryExitVertices={VERTICES[2395], VERTICES[5784], }},
+    {cellIds={"Shashurari Camp, Zennammu's Yurt", }, entryExitVertices={VERTICES[3697], VERTICES[214], }},
+    {cellIds={"Balmora, Morag Tong Guild", }, entryExitVertices={VERTICES[3374], VERTICES[647], }},
+    {cellIds={"Neglected Shipwreck, Lower Level", "Neglected Shipwreck, Upper Level", }, entryExitVertices={VERTICES[2648], VERTICES[5727], }},
+    {cellIds={"Dareleth Ancestral Tomb", }, entryExitVertices={VERTICES[1242], VERTICES[6062], }},
+    {cellIds={"Seyda Neen, Foryn Gilnith's Shack", }, entryExitVertices={VERTICES[1115], VERTICES[2058], }},
+    {cellIds={"Ulummusa", }, entryExitVertices={VERTICES[2303], VERTICES[6075], }},
+    {cellIds={"Sinsibadon", }, entryExitVertices={VERTICES[1593], VERTICES[6278], }},
+    {cellIds={"Mababi", }, entryExitVertices={VERTICES[1800], VERTICES[3254], }},
+    {cellIds={"Maar Gan, Guard Tower 2", }, entryExitVertices={VERTICES[5260], VERTICES[4032], VERTICES[5034], VERTICES[4248], }},
+    {cellIds={"Suran, Verara Rendo: Clothier", }, entryExitVertices={VERTICES[2064], VERTICES[813], VERTICES[2375], VERTICES[1627], }},
+    {cellIds={"Zainab Camp, Patababi's Yurt", }, entryExitVertices={VERTICES[2772], VERTICES[3004], }},
+    {cellIds={"Sarethi Ancestral Tomb", }, entryExitVertices={VERTICES[2448], VERTICES[5289], }},
+    {cellIds={"Shashpilamat", }, entryExitVertices={VERTICES[4271], VERTICES[1052], }},
+    {cellIds={"Yanemus Mine", }, entryExitVertices={VERTICES[699], VERTICES[2485], }},
+    {cellIds={"Zainab Camp, Kuda's Yurt", }, entryExitVertices={VERTICES[1195], VERTICES[3597], }},
+    {cellIds={"Indaren Ancestral Tomb", }, entryExitVertices={VERTICES[403], VERTICES[2252], }},
+    {cellIds={"Zainab Camp, Wise Woman's Yurt", }, entryExitVertices={VERTICES[6336], VERTICES[4732], }},
+    {cellIds={"Maar Gan, Kind Erushara's Hut", }, entryExitVertices={VERTICES[2367], VERTICES[4192], }},
+    {cellIds={"Vansunalit Egg Mine", }, entryExitVertices={VERTICES[6125], VERTICES[5570], }},
+    {cellIds={"Redas Ancestral Tomb", }, entryExitVertices={VERTICES[4262], VERTICES[5711], }},
+    {cellIds={"Omani Manor", }, entryExitVertices={VERTICES[4495], VERTICES[5358], VERTICES[1369], VERTICES[1481], }},
+    {cellIds={"Balmora, Clagius Clanler: Outfitter", }, entryExitVertices={VERTICES[1032], VERTICES[5360], VERTICES[3828], VERTICES[1399], }},
+    {cellIds={"Gnisis, Almu Cave Dwelling", }, entryExitVertices={VERTICES[3777], VERTICES[978], }},
+    {cellIds={"Caldera Mine", }, entryExitVertices={VERTICES[3601], VERTICES[2244], }},
+    {cellIds={"Khuul, Svadstar's Shack", }, entryExitVertices={VERTICES[6285], VERTICES[998], }},
+    {cellIds={"Caldera, Odairan Ashummi-Ammus' House", }, entryExitVertices={VERTICES[5114], VERTICES[1814], }},
+    {cellIds={"Savel Ancestral Tomb", }, entryExitVertices={VERTICES[2639], VERTICES[5009], }},
+    {cellIds={"Urshilaku Camp, Zabamund's Yurt", }, entryExitVertices={VERTICES[4843], VERTICES[298], }},
+    {cellIds={"Gnisis, Tansumiran Cave Dwelling", }, entryExitVertices={VERTICES[5112], VERTICES[3419], }},
+    {cellIds={"Sadrith Mora, Dirty Muriel's Cornerclub", }, entryExitVertices={VERTICES[893], VERTICES[1223], }},
+    {cellIds={"Maar Gan, Tashpi Ashibael's Hut", }, entryExitVertices={VERTICES[3192], VERTICES[4727], }},
+    {cellIds={"Ramimilk, Shrine", }, entryExitVertices={VERTICES[1880], VERTICES[144], }},
+    {cellIds={"Vivec, St. Olms Canal South-Two", }, entryExitVertices={VERTICES[346], VERTICES[1106], }},
+    {cellIds={"Caldera, Mining Guard Tower", }, entryExitVertices={VERTICES[2547], VERTICES[734], }},
+    {cellIds={"Zainab Camp, Kummu's Yurt", }, entryExitVertices={VERTICES[5561], VERTICES[3755], }},
+    {cellIds={"Sadrith Mora, Hleras Gidren's House", }, entryExitVertices={VERTICES[4949], VERTICES[3606], }},
+    {cellIds={"Valenvaryon, Lurog's Hut", }, entryExitVertices={VERTICES[3068], VERTICES[99], }},
+    {cellIds={"Andrethi Ancestral Tomb", }, entryExitVertices={VERTICES[6089], VERTICES[4040], }},
+    {cellIds={"Suran, Goldyn Belaram: Pawnbroker", }, entryExitVertices={VERTICES[3100], VERTICES[3648], VERTICES[33], VERTICES[678], }},
+    {cellIds={"Balmora, Tyermaillin's House", }, entryExitVertices={VERTICES[2657], VERTICES[1982], }},
+    {cellIds={"Suran, Suran Slave Market", }, entryExitVertices={VERTICES[3435], VERTICES[1199], VERTICES[4300], VERTICES[405], }},
+    {cellIds={"Sinarralit Egg Mine", }, entryExitVertices={VERTICES[6140], VERTICES[5865], }},
+    {cellIds={"Tel Uvirith, Omavel's House", }, entryExitVertices={VERTICES[4613], VERTICES[3796], }},
+    {cellIds={"Vivec, St. Delyn Canal North-Three", }, entryExitVertices={VERTICES[6034], VERTICES[939], }},
+    {cellIds={"Erabenimsun Camp, Assemmus' Yurt", }, entryExitVertices={VERTICES[5792], VERTICES[564], }},
+    {cellIds={"Arvel Manor, Storage Shack", }, entryExitVertices={VERTICES[1361], VERTICES[2678], }},
+    {cellIds={"Releth Ancestral Tomb", }, entryExitVertices={VERTICES[1711], VERTICES[1876], }},
+    {cellIds={"Masseranit", }, entryExitVertices={VERTICES[5014], VERTICES[3272], }},
+    {cellIds={"Rotheran, Propylon Chamber", }, entryExitVertices={VERTICES[5209], VERTICES[64], }},
+    {cellIds={"Vivec, St. Delyn Canal South-One", }, entryExitVertices={VERTICES[458], VERTICES[4730], }},
+    {cellIds={"Andalen Ancestral Tomb", }, entryExitVertices={VERTICES[4531], VERTICES[2152], }},
+    {cellIds={"Shashpilamat, Shrine", }, entryExitVertices={VERTICES[5523], VERTICES[3992], }},
+    {cellIds={"Ularradallaku, Shrine", }, entryExitVertices={VERTICES[1219], VERTICES[5511], }},
+    {cellIds={"Tel Mora, Elegnan: Clothier", }, entryExitVertices={VERTICES[5236], VERTICES[3282], }},
+    {cellIds={"Vas, Tower", "Vas, Entry Level", }, entryExitVertices={VERTICES[2600], VERTICES[26], }},
+    {cellIds={"Piernette's Farmhouse", }, entryExitVertices={VERTICES[1775], VERTICES[3009], }},
+    {cellIds={"Aralen Ancestral Tomb", }, entryExitVertices={VERTICES[5509], VERTICES[1991], }},
+    {cellIds={"Drinith Ancestral Tomb", }, entryExitVertices={VERTICES[393], VERTICES[6280], }},
+    {cellIds={"Caldera, Dro'Shavir's House", }, entryExitVertices={VERTICES[28], VERTICES[1151], }},
+    {cellIds={"Beshara", }, entryExitVertices={VERTICES[5421], VERTICES[505], }},
+    {cellIds={"Vivec, St. Delyn Canal North-One", }, entryExitVertices={VERTICES[6056], VERTICES[5242], }},
+    {cellIds={"Saturan", }, entryExitVertices={VERTICES[1568], VERTICES[1057], }},
+    {cellIds={"Maar Gan, Andus Tradehouse", }, entryExitVertices={VERTICES[3585], VERTICES[5065], }},
+    {cellIds={"Eretammus-Sennammu Egg Mine", }, entryExitVertices={VERTICES[3319], VERTICES[4038], }},
+    {cellIds={"Pelagiad, Farusea Salas' House", }, entryExitVertices={VERTICES[6267], VERTICES[5215], }},
+    {cellIds={"Marandus, Dome", }, entryExitVertices={VERTICES[1296], VERTICES[3562], }},
+    {cellIds={"Shal", }, entryExitVertices={VERTICES[5135], VERTICES[601], }},
+    {cellIds={"Fair Helas, Cabin", }, entryExitVertices={VERTICES[2241], VERTICES[4852], }},
+    {cellIds={"Maesa-Shammus Egg Mine", }, entryExitVertices={VERTICES[472], VERTICES[1203], }},
+    {cellIds={"Imperial Prison Ship", }, entryExitVertices={VERTICES[2962], VERTICES[815], }},
+    {cellIds={"Unknown Shipwreck, Cabin", }, entryExitVertices={VERTICES[3313], VERTICES[5155], }},
+    {cellIds={"Hlervi Ancestral Tomb", }, entryExitVertices={VERTICES[1700], VERTICES[1967], }},
+    {cellIds={"Sadrith Mora, Balen Vendu: Monk", }, entryExitVertices={VERTICES[1266], VERTICES[1824], }},
+    {cellIds={"Hla Oad, Fadila Balvel's House", }, entryExitVertices={VERTICES[3535], VERTICES[1109], }},
+    {cellIds={"Ebonheart, Six Fishes", }, entryExitVertices={VERTICES[2690], VERTICES[2492], }},
+    {cellIds={"Ashmelech", }, entryExitVertices={VERTICES[2218], VERTICES[6145], }},
+    {cellIds={"Urshilaku Camp, Sakiran's Yurt", }, entryExitVertices={VERTICES[3146], VERTICES[1788], }},
+    {cellIds={"Salothran Ancestral Tomb", }, entryExitVertices={VERTICES[1907], VERTICES[4330], }},
+    {cellIds={"Balmora, Dralosa Athren's House", }, entryExitVertices={VERTICES[4030], VERTICES[4750], }},
+    {cellIds={"Band Egg Mine", }, entryExitVertices={VERTICES[4343], VERTICES[4728], }},
+    {cellIds={"Falensarano, Propylon Chamber", }, entryExitVertices={VERTICES[6120], VERTICES[2764], }},
+    {cellIds={"Sandus Ancestral Tomb", }, entryExitVertices={VERTICES[1173], VERTICES[5933], }},
+    {cellIds={"Veloth Ancestral Tomb", }, entryExitVertices={VERTICES[509], VERTICES[3193], }},
+    {cellIds={"Almurbalarammi, Shrine", }, entryExitVertices={VERTICES[3503], VERTICES[3321], }},
+    {cellIds={"Panabanit-Nimawia Egg Mine", }, entryExitVertices={VERTICES[2951], VERTICES[2903], }},
+    {cellIds={"Ald-ruhn, Pellecia Aurrus's House", }, entryExitVertices={VERTICES[6018], VERTICES[5429], }},
+    {cellIds={"Balmora, Dralasa Nithryon: Pawnbroker", }, entryExitVertices={VERTICES[5582], VERTICES[6356], }},
+    {cellIds={"Bthuand", }, entryExitVertices={VERTICES[617], VERTICES[3587], }},
+    {cellIds={"Indalen Ancestral Tomb", }, entryExitVertices={VERTICES[3364], VERTICES[4720], }},
+    {cellIds={"Falas Ancestral Tomb", }, entryExitVertices={VERTICES[4124], VERTICES[2599], }},
+    {cellIds={"Arenim Ancestral Tomb", }, entryExitVertices={VERTICES[4338], VERTICES[4586], }},
+    {cellIds={"Valenvaryon, Lambug's Hut", }, entryExitVertices={VERTICES[1745], VERTICES[1391], }},
+    {cellIds={"Indarys Manor, Manor Services", }, entryExitVertices={VERTICES[3960], VERTICES[5499], }},
+    {cellIds={"Salit Camp, Zalit's Yurt", }, entryExitVertices={VERTICES[3011], VERTICES[2167], }},
+    {cellIds={"Ibar-Dad", }, entryExitVertices={VERTICES[4211], VERTICES[519], }},
+    {cellIds={"Urshilaku Camp, Zanummu's Yurt", }, entryExitVertices={VERTICES[4358], VERTICES[3242], }},
+    {cellIds={"Erabenimsun Camp, Ashkhan's Yurt", }, entryExitVertices={VERTICES[5608], VERTICES[2028], }},
+    {cellIds={"Ules Manor, Slave Shack", }, entryExitVertices={VERTICES[2827], VERTICES[1803], }},
+    {cellIds={"Aryon Ancestral Tomb", }, entryExitVertices={VERTICES[4365], VERTICES[6363], }},
+    {cellIds={"Hinnabi", }, entryExitVertices={VERTICES[2119], VERTICES[3711], }},
+    {cellIds={"Vivec, St. Delyn Waist South-Two", }, entryExitVertices={VERTICES[4387], VERTICES[2278], }},
+    {cellIds={"Sjorvar Horse-Mouth's House", }, entryExitVertices={VERTICES[1143], VERTICES[543], }},
+    {cellIds={"Sharapli", }, entryExitVertices={VERTICES[3866], VERTICES[4656], }},
+    {cellIds={"Tel Vos, Aryon's Chambers", }, entryExitVertices={VERTICES[1637], VERTICES[4645], }},
+    {cellIds={"Dren Plantation, Shipping House", }, entryExitVertices={VERTICES[5285], VERTICES[287], }},
+    {cellIds={"Zalkin Grotto", }, entryExitVertices={VERTICES[1874], VERTICES[3845], }},
+    {cellIds={"Sadrith Mora, Anis Seloth: Alchemist", }, entryExitVertices={VERTICES[3351], VERTICES[2073], }},
+    {cellIds={"Abaelun Mine", }, entryExitVertices={VERTICES[2894], VERTICES[2741], }},
+    {cellIds={"Rethan Manor, Drelas' House", }, entryExitVertices={VERTICES[5376], VERTICES[1643], }},
+    {cellIds={"Vos, Thilse Aralas's Farmhouse", }, entryExitVertices={VERTICES[1166], VERTICES[4000], }},
+    {cellIds={"Indarys Manor", }, entryExitVertices={VERTICES[773], VERTICES[4507], }},
+    {cellIds={"Caldera, Valvius Mevureius' House", }, entryExitVertices={VERTICES[661], VERTICES[3890], }},
+    {cellIds={"Tel Aruhn, Upper Tower", }, entryExitVertices={VERTICES[3688], VERTICES[2271], }},
+    {cellIds={"Tel Uvirith, Menas' House", }, entryExitVertices={VERTICES[3315], VERTICES[682], }},
+    {cellIds={"Odaishah", }, entryExitVertices={VERTICES[5174], VERTICES[1129], }},
+    {cellIds={"Llando Ancestral Tomb", }, entryExitVertices={VERTICES[5534], VERTICES[4084], }},
+    {cellIds={"Aran Ancestral Tomb", }, entryExitVertices={VERTICES[2402], VERTICES[2650], }},
+    {cellIds={"Telasero, Propylon Chamber", }, entryExitVertices={VERTICES[982], VERTICES[1674], }},
+    {cellIds={"Balmora, Rarayn Radarys' House", }, entryExitVertices={VERTICES[1432], VERTICES[958], }},
+    {cellIds={"Vivec, St. Olms Canal North-One", }, entryExitVertices={VERTICES[1834], VERTICES[6397], }},
+    {cellIds={"Elanius Camp, Yapal's Yurt", }, entryExitVertices={VERTICES[5642], VERTICES[4118], }},
+    {cellIds={"Ules Manor, Slavemaster's Shack", }, entryExitVertices={VERTICES[1986], VERTICES[293], }},
+    {cellIds={"Maelu Egg Mine", }, entryExitVertices={VERTICES[2473], VERTICES[1759], }},
+    {cellIds={"Remote Shipwreck, Cabin", }, entryExitVertices={VERTICES[612], VERTICES[3937], }},
+    {cellIds={"Venim Ancestral Tomb", }, entryExitVertices={VERTICES[1074], VERTICES[4463], }},
+    {cellIds={"Ald-ruhn, The Rat In The Pot", }, entryExitVertices={VERTICES[6371], VERTICES[2048], }},
+    {cellIds={"Vivec, St. Olms Canal South-Three", }, entryExitVertices={VERTICES[1489], VERTICES[1214], }},
+    {cellIds={"Kunirai", }, entryExitVertices={VERTICES[1149], VERTICES[3257], }},
+    {cellIds={"Balmora, Itan's House", }, entryExitVertices={VERTICES[5650], VERTICES[2872], }},
+    {cellIds={"Arvel Manor, Slave Shack", }, entryExitVertices={VERTICES[1655], VERTICES[1428], }},
+    {cellIds={"Aharunartus", }, entryExitVertices={VERTICES[2533], VERTICES[3464], }},
+    {cellIds={"Missamsi", }, entryExitVertices={VERTICES[3197], VERTICES[2561], }},
+    {cellIds={"Ald-ruhn, Galthragoth's House", }, entryExitVertices={VERTICES[4046], VERTICES[5411], }},
+    {cellIds={"Yesamsi", }, entryExitVertices={VERTICES[2217], VERTICES[1404], }},
+    {cellIds={"Sur Egg Mine", }, entryExitVertices={VERTICES[5787], VERTICES[3531], }},
+    {cellIds={"Sha-Adnius", }, entryExitVertices={VERTICES[4285], VERTICES[6200], }},
+    {cellIds={"Erabenimsun Camp, Wise Woman's Yurt", }, entryExitVertices={VERTICES[5431], VERTICES[4514], }},
+    {cellIds={"Indarys Manor, Berendas' House", }, entryExitVertices={VERTICES[1239], VERTICES[1471], }},
+    {cellIds={"Khuul, Aldi's Shack", }, entryExitVertices={VERTICES[106], VERTICES[5497], }},
+    {cellIds={"Hlormaren, Propylon Chamber", }, entryExitVertices={VERTICES[3144], VERTICES[5932], }},
+    {cellIds={"Pelagiad, Dralas Gilu's House", }, entryExitVertices={VERTICES[6115], VERTICES[2694], }},
+    {cellIds={"Kogoruhn, Dome of Pollock's Eve", }, entryExitVertices={VERTICES[4970], VERTICES[2514], }},
+    {cellIds={"Addadshashanammu, Shrine", }, entryExitVertices={VERTICES[4353], VERTICES[4461], }},
+    {cellIds={"Akimaes-Ilanipu Egg Mine", }, entryExitVertices={VERTICES[391], VERTICES[3723], }},
+    {cellIds={"Nchurdamz, Interior", }, entryExitVertices={VERTICES[5043], VERTICES[2774], }},
+    {cellIds={"Rethandus Ancestral Tomb", }, entryExitVertices={VERTICES[3277], VERTICES[1606], }},
+    {cellIds={"Maar Gan, Assi Serimilk's Hut", }, entryExitVertices={VERTICES[5615], VERTICES[2055], }},
+    {cellIds={"Erabenimsun Camp, Salattanat's Yurt", }, entryExitVertices={VERTICES[6297], VERTICES[4534], }},
+    {cellIds={"Shurinbaal", }, entryExitVertices={VERTICES[1028], VERTICES[2414], }},
+    {cellIds={"Mannammu", }, entryExitVertices={VERTICES[1064], VERTICES[3830], }},
+    {cellIds={"Vivec, St. Delyn Waist North-One", }, entryExitVertices={VERTICES[5983], VERTICES[4670], }},
+    {cellIds={"Vos, Ulvil Llothas's Farmhouse", }, entryExitVertices={VERTICES[1641], VERTICES[4538], }},
+    {cellIds={"Tel Branora, Fedar Davus's House", }, entryExitVertices={VERTICES[3219], VERTICES[3970], }},
+    {cellIds={"Sadrith Mora, Vaden Belas' House", }, entryExitVertices={VERTICES[1352], VERTICES[3484], }},
+    {cellIds={"Dissapla Mine", }, entryExitVertices={VERTICES[1186], VERTICES[258], }},
+    {cellIds={"Kogoruhn, Dome of Urso", }, entryExitVertices={VERTICES[598], VERTICES[5911], }},
+    {cellIds={"Tel Branora, Ervyna Hlervu's Shack", }, entryExitVertices={VERTICES[3954], VERTICES[149], }},
+    {cellIds={"Lonesome Shipwreck, Cabin", }, entryExitVertices={VERTICES[4451], VERTICES[1519], }},
+    {cellIds={"Tusenend, Shrine", }, entryExitVertices={VERTICES[6162], VERTICES[6338], }},
+    {cellIds={"Ald-ruhn, Ilmiril's House", }, entryExitVertices={VERTICES[1226], VERTICES[3259], }},
+    {cellIds={"Ald-ruhn, Dravasa Andrethi's House", }, entryExitVertices={VERTICES[2880], VERTICES[3381], }},
+    {cellIds={"Khuul, Miron Garer's Shack", }, entryExitVertices={VERTICES[2637], VERTICES[1344], }},
+    {cellIds={"Ahemmusa Camp, Assamma-Idan's Yurt", }, entryExitVertices={VERTICES[3415], VERTICES[2149], }},
+    {cellIds={"Tel Branora, Fadase Selvayn: Trader", }, entryExitVertices={VERTICES[4359], VERTICES[930], }},
+    {cellIds={"Ald-ruhn, Codus Callonus: Bookseller", }, entryExitVertices={VERTICES[4865], VERTICES[449], }},
+    {cellIds={"Yansirramus, Shrine", }, entryExitVertices={VERTICES[1750], VERTICES[4017], }},
+    {cellIds={"Vivec, St. Delyn Canal South-Three", }, entryExitVertices={VERTICES[483], VERTICES[3743], }},
+    {cellIds={"Senim Ancestral Tomb", }, entryExitVertices={VERTICES[3427], VERTICES[5169], }},
+    {cellIds={"Rotheran, Arena", }, entryExitVertices={VERTICES[736], VERTICES[5623], }},
+    {cellIds={"Aleft", }, entryExitVertices={VERTICES[1171], VERTICES[2370], }},
+    {cellIds={"Shashmanu Camp, Anit's Yurt", }, entryExitVertices={VERTICES[3525], VERTICES[4952], }},
+    {cellIds={"Zebabi", }, entryExitVertices={VERTICES[4638], VERTICES[1958], }},
+    {cellIds={"Kumarahaz", }, entryExitVertices={VERTICES[3868], VERTICES[5685], }},
+    {cellIds={"Gnisis, Madach Tradehouse", }, entryExitVertices={VERTICES[5150], VERTICES[2439], }},
+    {cellIds={"Grytewake, Cabin", }, entryExitVertices={VERTICES[4142], VERTICES[6027], }},
+    {cellIds={"Erabenimsun Camp, Ashu-Ahhe's Yurt", }, entryExitVertices={VERTICES[1567], VERTICES[5100], }},
+    {cellIds={"Shishara", }, entryExitVertices={VERTICES[759], VERTICES[3118], }},
+    {cellIds={"Kogoruhn, Temple of Fey", }, entryExitVertices={VERTICES[4443], VERTICES[3143], }},
+    {cellIds={"Unexplored Shipwreck, Cabin", }, entryExitVertices={VERTICES[2269], VERTICES[6239], }},
+    {cellIds={"Massama Cave", }, entryExitVertices={VERTICES[5930], VERTICES[5261], }},
 };
 
 global CELL_CLUSTER_MAP: {string:T.CellCluster} = {}
@@ -10415,7 +10624,18 @@ CELL_CLUSTER_MAP["Salit Camp, Zelay's Yurt"] = CELL_CLUSTERS[43]
 CELL_CLUSTER_MAP["Shallit"] = CELL_CLUSTERS[44]
 CELL_CLUSTER_MAP["Drethan Ancestral Tomb"] = CELL_CLUSTERS[44]
 CELL_CLUSTER_MAP["Gnaar Mok, Arenim Manor"] = CELL_CLUSTERS[45]
+CELL_CLUSTER_MAP["Caldera, Guild of Mages"] = CELL_CLUSTERS[46]
 CELL_CLUSTER_MAP["Balmora, Guild of Mages"] = CELL_CLUSTERS[46]
+CELL_CLUSTER_MAP["Vivec, Ralen Tilvur: Smith"] = CELL_CLUSTERS[46]
+CELL_CLUSTER_MAP["Ald-ruhn, Guild of Mages"] = CELL_CLUSTERS[46]
+CELL_CLUSTER_MAP["Sadrith Mora, Wolverine Hall: Imperial Shrine"] = CELL_CLUSTERS[46]
+CELL_CLUSTER_MAP["Vivec, Guild of Fighters"] = CELL_CLUSTERS[46]
+CELL_CLUSTER_MAP["Sadrith Mora, Wolverine Hall: Mage's Guild"] = CELL_CLUSTERS[46]
+CELL_CLUSTER_MAP["Vivec, Guild of Mages"] = CELL_CLUSTERS[46]
+CELL_CLUSTER_MAP["Sadrith Mora, Wolverine Hall: Fighter's Guild"] = CELL_CLUSTERS[46]
+CELL_CLUSTER_MAP["Sadrith Mora, Wolverine Hall"] = CELL_CLUSTERS[46]
+CELL_CLUSTER_MAP["Vivec, Alusaron: Smith"] = CELL_CLUSTERS[46]
+CELL_CLUSTER_MAP["Vivec, Foreign Quarter Plaza"] = CELL_CLUSTERS[46]
 CELL_CLUSTER_MAP["Arkngthand, Cells of Hollow Hand"] = CELL_CLUSTERS[47]
 CELL_CLUSTER_MAP["Arkngthand, Hall of Centrifuge"] = CELL_CLUSTERS[47]
 CELL_CLUSTER_MAP["Arkngthand, Deep Ore Passage"] = CELL_CLUSTERS[47]
@@ -10462,902 +10682,897 @@ CELL_CLUSTER_MAP["Sadrith Mora, Gateway Inn: West Wing"] = CELL_CLUSTERS[66]
 CELL_CLUSTER_MAP["Sadrith Mora, Gateway Inn: North Wing"] = CELL_CLUSTERS[66]
 CELL_CLUSTER_MAP["Sadrith Mora, Gateway Inn: South Wing"] = CELL_CLUSTERS[66]
 CELL_CLUSTER_MAP["Sadrith Mora, Gateway Inn"] = CELL_CLUSTERS[66]
-CELL_CLUSTER_MAP["Vivec, Ralen Tilvur: Smith"] = CELL_CLUSTERS[67]
-CELL_CLUSTER_MAP["Vivec, Guild of Fighters"] = CELL_CLUSTERS[67]
-CELL_CLUSTER_MAP["Vivec, Guild of Mages"] = CELL_CLUSTERS[67]
-CELL_CLUSTER_MAP["Vivec, Alusaron: Smith"] = CELL_CLUSTERS[67]
-CELL_CLUSTER_MAP["Vivec, Foreign Quarter Plaza"] = CELL_CLUSTERS[67]
-CELL_CLUSTER_MAP["Ainab"] = CELL_CLUSTERS[68]
-CELL_CLUSTER_MAP["Ainab, Shrine"] = CELL_CLUSTERS[68]
-CELL_CLUSTER_MAP["Suran, Ibarnadad Assirnarari: Apothecary"] = CELL_CLUSTERS[69]
-CELL_CLUSTER_MAP["Assarnud"] = CELL_CLUSTERS[70]
-CELL_CLUSTER_MAP["Vivec, Black Shalk Cornerclub"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Vivec, Jeanne: Trader"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Vivec, Jobasha's Rare Books"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Vivec, Agrippina Herennia: Clothier"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Vivec, Foreign Quarter Canalworks"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Vivec, Andilu Drothan: Alchemist"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Vivec, Simine Fralinie: Bookseller"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Vivec, Foreign Quarter Upper Waistworks"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Vivec, Aurane Frernis: Apothecary"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Vivec, Foreign Quarter Tomb"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Vivec, J'Rasha: Healer"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Vivec, Foreign Quarter Lower Waistworks"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Vivec, Foreign Quarter Underworks"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Vivec, Miun-Gei: Enchanter"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Ibishammus, Shrine"] = CELL_CLUSTERS[71]
-CELL_CLUSTER_MAP["Subdun, Shrine"] = CELL_CLUSTERS[72]
-CELL_CLUSTER_MAP["Subdun"] = CELL_CLUSTERS[72]
-CELL_CLUSTER_MAP["Balmora, Hlaalu Council Manor"] = CELL_CLUSTERS[73]
-CELL_CLUSTER_MAP["Vivec, Hlaren Residence"] = CELL_CLUSTERS[74]
-CELL_CLUSTER_MAP["Vivec, Temporary Telvanni Housing"] = CELL_CLUSTERS[74]
-CELL_CLUSTER_MAP["Vivec, Telvanni Prison Cells"] = CELL_CLUSTERS[74]
-CELL_CLUSTER_MAP["Vivec, Telvanni Plaza"] = CELL_CLUSTERS[74]
-CELL_CLUSTER_MAP["Vivec, Telvanni Upper Storage"] = CELL_CLUSTERS[74]
-CELL_CLUSTER_MAP["Vivec, Telvanni Vault"] = CELL_CLUSTERS[74]
-CELL_CLUSTER_MAP["Vivec, Telvanni Tower"] = CELL_CLUSTERS[74]
-CELL_CLUSTER_MAP["Tel Vos, Services Tower"] = CELL_CLUSTERS[75]
-CELL_CLUSTER_MAP["Gnaar Mok, Anglalos's Shack"] = CELL_CLUSTERS[76]
-CELL_CLUSTER_MAP["Arvel Manor"] = CELL_CLUSTERS[77]
-CELL_CLUSTER_MAP["Urshilaku Camp, Shara's Yurt"] = CELL_CLUSTERS[78]
-CELL_CLUSTER_MAP["Balmora, Nalcarya of White Haven: Fine Alchemist"] = CELL_CLUSTERS[79]
-CELL_CLUSTER_MAP["Nchardahrk"] = CELL_CLUSTERS[80]
-CELL_CLUSTER_MAP["Vivec, St. Delyn Waist South-One"] = CELL_CLUSTERS[81]
-CELL_CLUSTER_MAP["Buckmoth Legion Fort, Towers"] = CELL_CLUSTERS[82]
-CELL_CLUSTER_MAP["Buckmoth Legion Fort, Prison"] = CELL_CLUSTERS[82]
-CELL_CLUSTER_MAP["Buckmoth Legion Fort, Interior"] = CELL_CLUSTERS[82]
-CELL_CLUSTER_MAP["Telasero, Upper Level"] = CELL_CLUSTERS[83]
-CELL_CLUSTER_MAP["Telasero, Lower Level"] = CELL_CLUSTERS[83]
-CELL_CLUSTER_MAP["Omaren Ancestral Tomb"] = CELL_CLUSTERS[84]
-CELL_CLUSTER_MAP["Forgotten Vaults of Anudnabia, Forge of Hilbongard"] = CELL_CLUSTERS[84]
-CELL_CLUSTER_MAP["Ald Sotha, Shrine"] = CELL_CLUSTERS[85]
-CELL_CLUSTER_MAP["Ald Sotha, Lower Level"] = CELL_CLUSTERS[85]
-CELL_CLUSTER_MAP["Ald Sotha, Upper Level"] = CELL_CLUSTERS[85]
-CELL_CLUSTER_MAP["Nchuleftingth, Upper Levels"] = CELL_CLUSTERS[86]
-CELL_CLUSTER_MAP["Nchuleftingth, Lower Levels"] = CELL_CLUSTERS[86]
-CELL_CLUSTER_MAP["Nchuleftingth, Test of Pattern"] = CELL_CLUSTERS[86]
-CELL_CLUSTER_MAP["Unknown Shipwreck, Lower Level"] = CELL_CLUSTERS[87]
-CELL_CLUSTER_MAP["Unknown Shipwreck, Upper Level"] = CELL_CLUSTERS[87]
-CELL_CLUSTER_MAP["Sandas Ancestral Tomb"] = CELL_CLUSTERS[88]
-CELL_CLUSTER_MAP["Nammu"] = CELL_CLUSTERS[89]
-CELL_CLUSTER_MAP["Urshilaku, Laterus Burial"] = CELL_CLUSTERS[90]
-CELL_CLUSTER_MAP["Urshilaku, Karma Burial"] = CELL_CLUSTERS[90]
-CELL_CLUSTER_MAP["Urshilaku, Juno Burial"] = CELL_CLUSTERS[90]
-CELL_CLUSTER_MAP["Urshilaku, Kakuna Burial"] = CELL_CLUSTERS[90]
-CELL_CLUSTER_MAP["Urshilaku, Kefka Burial"] = CELL_CLUSTERS[90]
-CELL_CLUSTER_MAP["Urshilaku, Fragile Burial"] = CELL_CLUSTERS[90]
-CELL_CLUSTER_MAP["Urshilaku, Astral Burial"] = CELL_CLUSTERS[90]
-CELL_CLUSTER_MAP["Maar Gan, Garry's Hut"] = CELL_CLUSTERS[91]
-CELL_CLUSTER_MAP["Gnisis, Yahaz Hut"] = CELL_CLUSTERS[92]
-CELL_CLUSTER_MAP["Suran, Guard Tower"] = CELL_CLUSTERS[93]
-CELL_CLUSTER_MAP["Telvayn Ancestral Tomb"] = CELL_CLUSTERS[94]
-CELL_CLUSTER_MAP["Tower of Tel Fyr, Onyx Hall"] = CELL_CLUSTERS[95]
-CELL_CLUSTER_MAP["Corprusarium"] = CELL_CLUSTERS[95]
-CELL_CLUSTER_MAP["Corprusarium Bowels"] = CELL_CLUSTERS[95]
-CELL_CLUSTER_MAP["Tower of Tel Fyr, Hall of Fyr"] = CELL_CLUSTERS[95]
-CELL_CLUSTER_MAP["Vivec, Puzzle Canal, Center"] = CELL_CLUSTERS[96]
-CELL_CLUSTER_MAP["Vivec, Puzzle Canal, Level 3"] = CELL_CLUSTERS[96]
-CELL_CLUSTER_MAP["Gnisis, Vabdas Hut"] = CELL_CLUSTERS[97]
-CELL_CLUSTER_MAP["Bal Fell, Inner Shrine"] = CELL_CLUSTERS[98]
-CELL_CLUSTER_MAP["Bal Fell, Outer Shrine"] = CELL_CLUSTERS[98]
-CELL_CLUSTER_MAP["Bal Fell, East Wing"] = CELL_CLUSTERS[98]
-CELL_CLUSTER_MAP["Bal Fell, West Wing"] = CELL_CLUSTERS[98]
-CELL_CLUSTER_MAP["Balmora, Eight Plates"] = CELL_CLUSTERS[99]
-CELL_CLUSTER_MAP["Tel Branora, Tower Dungeon"] = CELL_CLUSTERS[100]
-CELL_CLUSTER_MAP["Tel Branora, Lower Tower"] = CELL_CLUSTERS[100]
-CELL_CLUSTER_MAP["Tel Branora, Upper Tower"] = CELL_CLUSTERS[100]
-CELL_CLUSTER_MAP["Tel Branora, Upper Tower: Therana's Chamber"] = CELL_CLUSTERS[100]
-CELL_CLUSTER_MAP["Mzahnch"] = CELL_CLUSTERS[101]
-CELL_CLUSTER_MAP["Mzahnch Lower Level"] = CELL_CLUSTERS[101]
-CELL_CLUSTER_MAP["Heleran Ancestral Tomb"] = CELL_CLUSTERS[102]
-CELL_CLUSTER_MAP["Caldera, Nedhelas' House"] = CELL_CLUSTERS[102]
-CELL_CLUSTER_MAP["Sadrith Mora, Llaalam Madalas: Mage"] = CELL_CLUSTERS[103]
-CELL_CLUSTER_MAP["Ginith Ancestral Tomb"] = CELL_CLUSTERS[104]
-CELL_CLUSTER_MAP["Gnisis, Barracks"] = CELL_CLUSTERS[105]
-CELL_CLUSTER_MAP["Andavel Ancestral Tomb"] = CELL_CLUSTERS[106]
-CELL_CLUSTER_MAP["Shulk Egg Mine"] = CELL_CLUSTERS[107]
-CELL_CLUSTER_MAP["Shulk Egg Mine, Queen's Lair"] = CELL_CLUSTERS[107]
-CELL_CLUSTER_MAP["Shulk Egg Mine, Mining Camp"] = CELL_CLUSTERS[107]
-CELL_CLUSTER_MAP["Sulipund"] = CELL_CLUSTERS[108]
-CELL_CLUSTER_MAP["Kaushtababi Camp, Adibael's Yurt"] = CELL_CLUSTERS[109]
-CELL_CLUSTER_MAP["Marandus, Lower Level"] = CELL_CLUSTERS[110]
-CELL_CLUSTER_MAP["Marandus, Upper Level"] = CELL_CLUSTERS[110]
-CELL_CLUSTER_MAP["Assumanu"] = CELL_CLUSTERS[111]
-CELL_CLUSTER_MAP["Maar Gan, Yeherradad's Hut"] = CELL_CLUSTERS[112]
-CELL_CLUSTER_MAP["Yasamsi"] = CELL_CLUSTERS[113]
-CELL_CLUSTER_MAP["Molag Mar, St. Veloth's Hostel"] = CELL_CLUSTERS[114]
-CELL_CLUSTER_MAP["Arano Plantation"] = CELL_CLUSTERS[115]
-CELL_CLUSTER_MAP["Nund"] = CELL_CLUSTERS[116]
-CELL_CLUSTER_MAP["Sadrith Mora, Wolverine Hall: Mage's Guild"] = CELL_CLUSTERS[117]
-CELL_CLUSTER_MAP["Sadrith Mora, Wolverine Hall: Fighter's Guild"] = CELL_CLUSTERS[117]
-CELL_CLUSTER_MAP["Sadrith Mora, Wolverine Hall"] = CELL_CLUSTERS[117]
-CELL_CLUSTER_MAP["Sadrith Mora, Wolverine Hall: Imperial Shrine"] = CELL_CLUSTERS[117]
-CELL_CLUSTER_MAP["Addamasartus"] = CELL_CLUSTERS[118]
-CELL_CLUSTER_MAP["Ahanibi-Malmus Egg Mine"] = CELL_CLUSTERS[119]
-CELL_CLUSTER_MAP["Seyda Neen, Fargoth's House"] = CELL_CLUSTERS[120]
-CELL_CLUSTER_MAP["Yakin"] = CELL_CLUSTERS[121]
-CELL_CLUSTER_MAP["Yakin, Shrine"] = CELL_CLUSTERS[121]
-CELL_CLUSTER_MAP["Caldera, Mining Bunkhouse"] = CELL_CLUSTERS[122]
-CELL_CLUSTER_MAP["Ashalmawia, Shrine"] = CELL_CLUSTERS[123]
-CELL_CLUSTER_MAP["Ashalmawia, Shrine, Sunken Vaults"] = CELL_CLUSTERS[123]
-CELL_CLUSTER_MAP["Ilunibi, Blackened Heart"] = CELL_CLUSTERS[124]
-CELL_CLUSTER_MAP["Ilunibi, Tainted Marrow"] = CELL_CLUSTERS[124]
-CELL_CLUSTER_MAP["Ilunibi, Soul's Rattle"] = CELL_CLUSTERS[124]
-CELL_CLUSTER_MAP["Ilunibi, Marowak's Spine"] = CELL_CLUSTERS[124]
-CELL_CLUSTER_MAP["Ilunibi, Carcass of the Saint"] = CELL_CLUSTERS[124]
-CELL_CLUSTER_MAP["Indoranyon, Propylon Chamber"] = CELL_CLUSTERS[125]
-CELL_CLUSTER_MAP["Molag Mar, Temple"] = CELL_CLUSTERS[126]
-CELL_CLUSTER_MAP["Sadrith Mora, Thervul Serethi: Healer"] = CELL_CLUSTERS[127]
-CELL_CLUSTER_MAP["Obscure Shipwreck, Upper Level"] = CELL_CLUSTERS[128]
-CELL_CLUSTER_MAP["Obscure Shipwreck, Lower Level"] = CELL_CLUSTERS[128]
-CELL_CLUSTER_MAP["Seyda Neen, Indrele Rathryon's Shack"] = CELL_CLUSTERS[129]
-CELL_CLUSTER_MAP["Sadrith Mora, Telvanni Council House"] = CELL_CLUSTERS[130]
-CELL_CLUSTER_MAP["Sadrith Mora, Telvanni Council House, Hermitage"] = CELL_CLUSTERS[130]
-CELL_CLUSTER_MAP["Sadrith Mora, Telvanni Council House, Entry"] = CELL_CLUSTERS[130]
-CELL_CLUSTER_MAP["Sadrith Mora, Telvanni Council House, Chambers"] = CELL_CLUSTERS[130]
-CELL_CLUSTER_MAP["Sanit, Shrine"] = CELL_CLUSTERS[131]
-CELL_CLUSTER_MAP["Sanit"] = CELL_CLUSTERS[131]
-CELL_CLUSTER_MAP["Arrow, Lower Level"] = CELL_CLUSTERS[132]
-CELL_CLUSTER_MAP["Arrow, Upper Level"] = CELL_CLUSTERS[132]
-CELL_CLUSTER_MAP["Dagoth Ur, Facility Cavern"] = CELL_CLUSTERS[133]
-CELL_CLUSTER_MAP["Dagoth Ur, Outer Facility"] = CELL_CLUSTERS[133]
-CELL_CLUSTER_MAP["Akulakhan's Chamber"] = CELL_CLUSTERS[133]
-CELL_CLUSTER_MAP["Dagoth Ur, Inner Tower"] = CELL_CLUSTERS[133]
-CELL_CLUSTER_MAP["Dagoth Ur, Lower Facility"] = CELL_CLUSTERS[133]
-CELL_CLUSTER_MAP["Dagoth Ur, Inner Facility"] = CELL_CLUSTERS[133]
-CELL_CLUSTER_MAP["Abinabi"] = CELL_CLUSTERS[134]
-CELL_CLUSTER_MAP["Clutter Warehouse - Everything Must Go!"] = CELL_CLUSTERS[135]
-CELL_CLUSTER_MAP["Big Head's Shack"] = CELL_CLUSTERS[136]
-CELL_CLUSTER_MAP["Vivec, Palace of Vivec"] = CELL_CLUSTERS[137]
-CELL_CLUSTER_MAP["Ashirbadon"] = CELL_CLUSTERS[138]
-CELL_CLUSTER_MAP["Suran, Desele's House of Earthly Delights"] = CELL_CLUSTERS[139]
-CELL_CLUSTER_MAP["Assemanu"] = CELL_CLUSTERS[140]
-CELL_CLUSTER_MAP["Assemanu, Shrine"] = CELL_CLUSTERS[140]
-CELL_CLUSTER_MAP["Abandoned Shipwreck, Upper Level"] = CELL_CLUSTERS[141]
-CELL_CLUSTER_MAP["Abandoned Shipwreck, Lower Level"] = CELL_CLUSTERS[141]
-CELL_CLUSTER_MAP["Cavern of the Incarnate"] = CELL_CLUSTERS[142]
-CELL_CLUSTER_MAP["Aharnabi"] = CELL_CLUSTERS[143]
-CELL_CLUSTER_MAP["Mudan, Lost Dwemer Checkpoint"] = CELL_CLUSTERS[144]
-CELL_CLUSTER_MAP["Mudan Grotto"] = CELL_CLUSTERS[144]
-CELL_CLUSTER_MAP["Mudan, Central Vault"] = CELL_CLUSTERS[144]
-CELL_CLUSTER_MAP["Mudan, Right Tower"] = CELL_CLUSTERS[144]
-CELL_CLUSTER_MAP["Nilera's Farmhouse"] = CELL_CLUSTERS[145]
-CELL_CLUSTER_MAP["Ashalmimilkala, Shrine"] = CELL_CLUSTERS[146]
-CELL_CLUSTER_MAP["Mallapi"] = CELL_CLUSTERS[147]
-CELL_CLUSTER_MAP["Gnisis, Shishara Hut"] = CELL_CLUSTERS[148]
-CELL_CLUSTER_MAP["Elf-Skerring, Cabin"] = CELL_CLUSTERS[149]
-CELL_CLUSTER_MAP["Tel Branora, Galen Berer: Armorer"] = CELL_CLUSTERS[150]
-CELL_CLUSTER_MAP["Pinsun"] = CELL_CLUSTERS[151]
-CELL_CLUSTER_MAP["Sennananit"] = CELL_CLUSTERS[152]
-CELL_CLUSTER_MAP["Falensarano, Upper Level"] = CELL_CLUSTERS[153]
-CELL_CLUSTER_MAP["Falensarano, Lower Level"] = CELL_CLUSTERS[153]
-CELL_CLUSTER_MAP["Urshilaku Camp, Maeli's Yurt"] = CELL_CLUSTERS[154]
-CELL_CLUSTER_MAP["Vivec, St. Olms Waist North-Two"] = CELL_CLUSTERS[155]
-CELL_CLUSTER_MAP["Ald-ruhn, Guild of Fighters"] = CELL_CLUSTERS[156]
-CELL_CLUSTER_MAP["Arys Ancestral Tomb"] = CELL_CLUSTERS[157]
-CELL_CLUSTER_MAP["Mzanchend"] = CELL_CLUSTERS[158]
-CELL_CLUSTER_MAP["Dagon Fel, The End of the World"] = CELL_CLUSTERS[159]
-CELL_CLUSTER_MAP["Dagon Fel, End of the World Renter Rooms"] = CELL_CLUSTERS[159]
-CELL_CLUSTER_MAP["Maar Gan, Guard Tower 1"] = CELL_CLUSTERS[160]
-CELL_CLUSTER_MAP["Hassour"] = CELL_CLUSTERS[161]
-CELL_CLUSTER_MAP["Hassour, Shrine"] = CELL_CLUSTERS[161]
-CELL_CLUSTER_MAP["Indarys Manor, Raram's House"] = CELL_CLUSTERS[162]
-CELL_CLUSTER_MAP["Seyda Neen, Lighthouse"] = CELL_CLUSTERS[163]
-CELL_CLUSTER_MAP["Gnaar Mok, Nadene Rotheran's Shack"] = CELL_CLUSTERS[164]
-CELL_CLUSTER_MAP["Dagon Fel, Anja Swift-Sailer's House"] = CELL_CLUSTERS[165]
-CELL_CLUSTER_MAP["Gnaar Mok, Druegh-jigger's Rest"] = CELL_CLUSTERS[166]
-CELL_CLUSTER_MAP["Tel Mora, Kirsty's House"] = CELL_CLUSTERS[167]
-CELL_CLUSTER_MAP["Andasreth, Propylon Chamber"] = CELL_CLUSTERS[168]
-CELL_CLUSTER_MAP["Salothan Ancestral Tomb"] = CELL_CLUSTERS[169]
-CELL_CLUSTER_MAP["Suran, Ralds Oril: Trader"] = CELL_CLUSTERS[170]
-CELL_CLUSTER_MAP["Valenvaryon, Durz's Hut"] = CELL_CLUSTERS[171]
-CELL_CLUSTER_MAP["Sadrith Mora, Madran Ulvel's House"] = CELL_CLUSTERS[172]
-CELL_CLUSTER_MAP["Pudai Egg Mine, Queen's Lair"] = CELL_CLUSTERS[173]
-CELL_CLUSTER_MAP["Pudai Egg Mine"] = CELL_CLUSTERS[173]
-CELL_CLUSTER_MAP["Pelagiad, Halfway Tavern"] = CELL_CLUSTERS[174]
-CELL_CLUSTER_MAP["Seyda Neen, Vodunius Nuccius' House"] = CELL_CLUSTERS[175]
-CELL_CLUSTER_MAP["Sanni"] = CELL_CLUSTERS[176]
-CELL_CLUSTER_MAP["Sarimisun-Assa Egg Mine"] = CELL_CLUSTERS[177]
-CELL_CLUSTER_MAP["Sarimisun-Assa Egg Mine, Queen's Lair"] = CELL_CLUSTERS[177]
-CELL_CLUSTER_MAP["Chun-Ook, Upper Level"] = CELL_CLUSTERS[178]
-CELL_CLUSTER_MAP["Chun-Ook, Lower Level"] = CELL_CLUSTERS[178]
-CELL_CLUSTER_MAP["Dushariran, Shrine"] = CELL_CLUSTERS[179]
-CELL_CLUSTER_MAP["Balmora, Balyn Omarel's House"] = CELL_CLUSTERS[180]
-CELL_CLUSTER_MAP["Piran"] = CELL_CLUSTERS[181]
-CELL_CLUSTER_MAP["Nerano Ancestral Tomb"] = CELL_CLUSTERS[182]
-CELL_CLUSTER_MAP["Vos, Maela Kaushad's Farmhouse"] = CELL_CLUSTERS[183]
-CELL_CLUSTER_MAP["Madas Grotto"] = CELL_CLUSTERS[184]
-CELL_CLUSTER_MAP["Unchartered Shipwreck, Cabin"] = CELL_CLUSTERS[185]
-CELL_CLUSTER_MAP["Tel Uvirith, Tower Lower"] = CELL_CLUSTERS[186]
-CELL_CLUSTER_MAP["Tel Uvirith, Tower Upper"] = CELL_CLUSTERS[186]
-CELL_CLUSTER_MAP["Tel Uvirith, Tower Dungeon"] = CELL_CLUSTERS[186]
-CELL_CLUSTER_MAP["Gnisis, Eggmine"] = CELL_CLUSTERS[187]
-CELL_CLUSTER_MAP["Gnisis, Lower Eggmine"] = CELL_CLUSTERS[187]
-CELL_CLUSTER_MAP["Gnisis, Underground Stream"] = CELL_CLUSTERS[187]
-CELL_CLUSTER_MAP["Gnisis, Bethamez"] = CELL_CLUSTERS[187]
-CELL_CLUSTER_MAP["Dulo Ancestral Tomb"] = CELL_CLUSTERS[188]
-CELL_CLUSTER_MAP["Randas Ancestral Tomb"] = CELL_CLUSTERS[189]
-CELL_CLUSTER_MAP["Lost Shipwreck, Upper Level"] = CELL_CLUSTERS[190]
-CELL_CLUSTER_MAP["Lost Shipwreck, Lower Level"] = CELL_CLUSTERS[190]
-CELL_CLUSTER_MAP["Assurdirapal, Shrine"] = CELL_CLUSTERS[191]
-CELL_CLUSTER_MAP["Assurdirapal, Inner Shrine"] = CELL_CLUSTERS[191]
-CELL_CLUSTER_MAP["Shishi"] = CELL_CLUSTERS[192]
-CELL_CLUSTER_MAP["Gnisis, Mantiti Cave Dwelling"] = CELL_CLUSTERS[193]
-CELL_CLUSTER_MAP["Eluba-Addon Egg Mine"] = CELL_CLUSTERS[194]
-CELL_CLUSTER_MAP["Seyda Neen, Erene Llenim's Shack"] = CELL_CLUSTERS[195]
-CELL_CLUSTER_MAP["Dagon Fel, Fjorrod's House"] = CELL_CLUSTERS[196]
-CELL_CLUSTER_MAP["Bensamsi"] = CELL_CLUSTERS[197]
-CELL_CLUSTER_MAP["Shrine of Azura"] = CELL_CLUSTERS[198]
-CELL_CLUSTER_MAP["Tel Aruhn, Aryne Telnim: Smith"] = CELL_CLUSTERS[199]
-CELL_CLUSTER_MAP["Khuul, Thongar's Tradehouse"] = CELL_CLUSTERS[200]
-CELL_CLUSTER_MAP["Balmora, Drarayne Thelas' Storage"] = CELL_CLUSTERS[201]
-CELL_CLUSTER_MAP["Ebernanit, Shrine"] = CELL_CLUSTERS[202]
-CELL_CLUSTER_MAP["Uncharted Shipwreck, Lower Level"] = CELL_CLUSTERS[203]
-CELL_CLUSTER_MAP["Unchartered Shipwreck, Upper Level"] = CELL_CLUSTERS[203]
-CELL_CLUSTER_MAP["Seyda Neen, Terurise Girvayne's House"] = CELL_CLUSTERS[204]
-CELL_CLUSTER_MAP["Raviro Ancestral Tomb"] = CELL_CLUSTERS[205]
-CELL_CLUSTER_MAP["Ald-ruhn, Daynes Redothril: Pawnbroker"] = CELL_CLUSTERS[206]
-CELL_CLUSTER_MAP["Tureynulal, Bladder of Clovis"] = CELL_CLUSTERS[207]
-CELL_CLUSTER_MAP["Tureynulal, Eye of Duggan"] = CELL_CLUSTERS[207]
-CELL_CLUSTER_MAP["Tureynulal, Eye of Thom Wye"] = CELL_CLUSTERS[207]
-CELL_CLUSTER_MAP["Tureynulal, Kagrenac's Library"] = CELL_CLUSTERS[207]
-CELL_CLUSTER_MAP["Tel Vos, Central Tower"] = CELL_CLUSTERS[208]
-CELL_CLUSTER_MAP["Hlormaren, Sewers"] = CELL_CLUSTERS[209]
-CELL_CLUSTER_MAP["Hlormaren, Keep, Bottom Level"] = CELL_CLUSTERS[209]
-CELL_CLUSTER_MAP["Hlormaren, Underground"] = CELL_CLUSTERS[209]
-CELL_CLUSTER_MAP["Hlormaren, Keep, Top Level"] = CELL_CLUSTERS[209]
-CELL_CLUSTER_MAP["Vos, Fanisea Irano's Farmhouse"] = CELL_CLUSTERS[210]
-CELL_CLUSTER_MAP["Ancient Shipwreck, Lower Level"] = CELL_CLUSTERS[211]
-CELL_CLUSTER_MAP["Ancient Shipwreck, Upper Level"] = CELL_CLUSTERS[211]
-CELL_CLUSTER_MAP["Caldera, Falanaamo: Clothier"] = CELL_CLUSTERS[212]
-CELL_CLUSTER_MAP["Helan Ancestral Tomb"] = CELL_CLUSTERS[213]
-CELL_CLUSTER_MAP["Tel Mora, The Covenant"] = CELL_CLUSTERS[214]
-CELL_CLUSTER_MAP["Derelict Shipwreck, Cabin"] = CELL_CLUSTERS[215]
-CELL_CLUSTER_MAP["Balmora, Caius Cosades' House"] = CELL_CLUSTERS[216]
-CELL_CLUSTER_MAP["Vemynal, Hall of Torque"] = CELL_CLUSTERS[217]
-CELL_CLUSTER_MAP["Vemynal, Outer Fortress"] = CELL_CLUSTERS[217]
-CELL_CLUSTER_MAP["Falvillo's Endeavor, Cabin"] = CELL_CLUSTERS[218]
-CELL_CLUSTER_MAP["Vivec, Puzzle Canal, Level 2"] = CELL_CLUSTERS[219]
-CELL_CLUSTER_MAP["Dagon Fel, Greidil Half-Troll's House"] = CELL_CLUSTERS[220]
-CELL_CLUSTER_MAP["Tel Mora, Berwen: Trader"] = CELL_CLUSTERS[221]
-CELL_CLUSTER_MAP["Erabenimsun Camp, Addut-Lamanu's Yurt"] = CELL_CLUSTERS[222]
-CELL_CLUSTER_MAP["Tel Aruhn, Underground"] = CELL_CLUSTERS[223]
-CELL_CLUSTER_MAP["Sadrith Mora, Urtiso Faryon: Sorcerer"] = CELL_CLUSTERS[224]
-CELL_CLUSTER_MAP["Omalen Ancestral Tomb"] = CELL_CLUSTERS[225]
-CELL_CLUSTER_MAP["Arkngthunch-Sturdumz"] = CELL_CLUSTERS[226]
-CELL_CLUSTER_MAP["Seyda Neen, Draren Thiralas' House"] = CELL_CLUSTERS[227]
-CELL_CLUSTER_MAP["Alen Ancestral Tomb"] = CELL_CLUSTERS[228]
-CELL_CLUSTER_MAP["Nchardumz"] = CELL_CLUSTERS[229]
-CELL_CLUSTER_MAP["Nchardumz Lower Level"] = CELL_CLUSTERS[229]
-CELL_CLUSTER_MAP["Alof's Farmhouse"] = CELL_CLUSTERS[230]
-CELL_CLUSTER_MAP["Lonely Shipwreck, Lower Level"] = CELL_CLUSTERS[231]
-CELL_CLUSTER_MAP["Lonely Shipwreck, Upper Level"] = CELL_CLUSTERS[231]
-CELL_CLUSTER_MAP["Verelnim Ancestral Tomb"] = CELL_CLUSTERS[232]
-CELL_CLUSTER_MAP["Ahemmusa Camp, Nummu's Yurt"] = CELL_CLUSTERS[233]
-CELL_CLUSTER_MAP["Pelagiad, Uulernil : Armorer"] = CELL_CLUSTERS[234]
-CELL_CLUSTER_MAP["Gnisis, Temple"] = CELL_CLUSTERS[235]
-CELL_CLUSTER_MAP["Mamaea, Shrine of Pitted Dreams"] = CELL_CLUSTERS[236]
-CELL_CLUSTER_MAP["Mamaea, Sanctum of Black Hope"] = CELL_CLUSTERS[236]
-CELL_CLUSTER_MAP["Mamaea, Sanctum of Awakening"] = CELL_CLUSTERS[236]
-CELL_CLUSTER_MAP["Aidanat Camp, Abassel's Yurt"] = CELL_CLUSTERS[237]
-CELL_CLUSTER_MAP["Indoranyon"] = CELL_CLUSTERS[238]
-CELL_CLUSTER_MAP["Shushishi"] = CELL_CLUSTERS[239]
-CELL_CLUSTER_MAP["Assurnabitashpi, Shrine"] = CELL_CLUSTERS[240]
-CELL_CLUSTER_MAP["Mat"] = CELL_CLUSTERS[241]
-CELL_CLUSTER_MAP["Marandus, Propylon Chamber"] = CELL_CLUSTERS[242]
-CELL_CLUSTER_MAP["Tel Aruhn, Maren Uvaren: Enchanter"] = CELL_CLUSTERS[243]
-CELL_CLUSTER_MAP["Pelagiad, Madres Navur's House"] = CELL_CLUSTERS[244]
-CELL_CLUSTER_MAP["Caldera, Ghorak Manor"] = CELL_CLUSTERS[245]
-CELL_CLUSTER_MAP["Lleran Ancestral Tomb"] = CELL_CLUSTERS[246]
-CELL_CLUSTER_MAP["Sadrith Mora, Urtisa Romayn's House"] = CELL_CLUSTERS[247]
-CELL_CLUSTER_MAP["Balmora, Karlirah's House"] = CELL_CLUSTERS[248]
-CELL_CLUSTER_MAP["Ebonheart, East Empire Company Hall"] = CELL_CLUSTERS[249]
-CELL_CLUSTER_MAP["Ald-ruhn, Guard Tower 1"] = CELL_CLUSTERS[250]
-CELL_CLUSTER_MAP["Helas Ancestral Tomb"] = CELL_CLUSTERS[251]
-CELL_CLUSTER_MAP["Vivec, St. Olms Waist South-Two"] = CELL_CLUSTERS[252]
-CELL_CLUSTER_MAP["Prelude Shipwreck, Cabin"] = CELL_CLUSTERS[253]
-CELL_CLUSTER_MAP["Moonmoth Legion Fort, Interior"] = CELL_CLUSTERS[254]
-CELL_CLUSTER_MAP["Moonmoth Legion Fort, Prison Towers"] = CELL_CLUSTERS[254]
-CELL_CLUSTER_MAP["Falasmaryon, Sewers"] = CELL_CLUSTERS[255]
-CELL_CLUSTER_MAP["Falasmaryon, Upper Level"] = CELL_CLUSTERS[255]
-CELL_CLUSTER_MAP["Falasmaryon, Lower Level"] = CELL_CLUSTERS[255]
-CELL_CLUSTER_MAP["Tin-Ahhe"] = CELL_CLUSTERS[256]
-CELL_CLUSTER_MAP["Maar Gan, Assirari Zama-Rasour's Hut"] = CELL_CLUSTERS[257]
-CELL_CLUSTER_MAP["Habinbaes"] = CELL_CLUSTERS[258]
-CELL_CLUSTER_MAP["Rethan Manor, Tures' House"] = CELL_CLUSTERS[259]
-CELL_CLUSTER_MAP["Balmora, Nerano Manor"] = CELL_CLUSTERS[260]
-CELL_CLUSTER_MAP["Vos, Mandyn Ralas's Farmhouse"] = CELL_CLUSTERS[261]
-CELL_CLUSTER_MAP["Dagon Fel, Watch Tower"] = CELL_CLUSTERS[262]
-CELL_CLUSTER_MAP["Salvel Ancestral Tomb"] = CELL_CLUSTERS[263]
-CELL_CLUSTER_MAP["Balmora, Guild of Fighters"] = CELL_CLUSTERS[264]
-CELL_CLUSTER_MAP["Urshilaku Camp, Shimsun's Yurt"] = CELL_CLUSTERS[265]
-CELL_CLUSTER_MAP["Nallit"] = CELL_CLUSTERS[266]
-CELL_CLUSTER_MAP["Bthanchend"] = CELL_CLUSTERS[267]
-CELL_CLUSTER_MAP["Endusal, Kagrenac's study"] = CELL_CLUSTERS[268]
-CELL_CLUSTER_MAP["Mul Grotto"] = CELL_CLUSTERS[269]
-CELL_CLUSTER_MAP["Sarys Ancestral Tomb"] = CELL_CLUSTERS[270]
-CELL_CLUSTER_MAP["Gnisis, Dinadad Hut"] = CELL_CLUSTERS[271]
-CELL_CLUSTER_MAP["Zainab Camp, Ashur-Dan's Yurt"] = CELL_CLUSTERS[272]
-CELL_CLUSTER_MAP["ToddTest"] = CELL_CLUSTERS[273]
-CELL_CLUSTER_MAP["Mila-Nipal, Manat's Yurt"] = CELL_CLUSTERS[274]
-CELL_CLUSTER_MAP["Vos, Varo Tradehouse Storage"] = CELL_CLUSTERS[275]
-CELL_CLUSTER_MAP["Vos, Varo Tradehouse Entrance"] = CELL_CLUSTERS[275]
-CELL_CLUSTER_MAP["Vos, Varo Tradehouse"] = CELL_CLUSTERS[275]
-CELL_CLUSTER_MAP["Punsabanit"] = CELL_CLUSTERS[276]
-CELL_CLUSTER_MAP["Ahemmusa Camp, Mamaea's Yurt"] = CELL_CLUSTERS[277]
-CELL_CLUSTER_MAP["Vos, Vos Chapel"] = CELL_CLUSTERS[278]
-CELL_CLUSTER_MAP["Kora-Dur"] = CELL_CLUSTERS[279]
-CELL_CLUSTER_MAP["Pelagiad, Adanja's House"] = CELL_CLUSTERS[280]
-CELL_CLUSTER_MAP["Balmora, Eastern Guard Tower"] = CELL_CLUSTERS[281]
-CELL_CLUSTER_MAP["Gnisis, Arvs-Drelen"] = CELL_CLUSTERS[282]
-CELL_CLUSTER_MAP["Dren Plantation, Guardhouse"] = CELL_CLUSTERS[283]
-CELL_CLUSTER_MAP["Vivec, St. Olms Waist South-One"] = CELL_CLUSTERS[284]
-CELL_CLUSTER_MAP["Maran-Adon"] = CELL_CLUSTERS[285]
-CELL_CLUSTER_MAP["Serano Ancestral Tomb"] = CELL_CLUSTERS[286]
-CELL_CLUSTER_MAP["Dirara's Farmhouse"] = CELL_CLUSTERS[287]
-CELL_CLUSTER_MAP["Sethan Ancestral Tomb"] = CELL_CLUSTERS[288]
-CELL_CLUSTER_MAP["Gnisis, Lasamsi Cave Dwelling"] = CELL_CLUSTERS[289]
-CELL_CLUSTER_MAP["Odirniran, Tower"] = CELL_CLUSTERS[290]
-CELL_CLUSTER_MAP["Odirniran"] = CELL_CLUSTERS[290]
-CELL_CLUSTER_MAP["Punammu"] = CELL_CLUSTERS[291]
-CELL_CLUSTER_MAP["Hla Oad, Relien Rirne's House"] = CELL_CLUSTERS[292]
-CELL_CLUSTER_MAP["Caldera, Elmussa Damori's House"] = CELL_CLUSTERS[293]
-CELL_CLUSTER_MAP["Ald Velothi, Outpost"] = CELL_CLUSTERS[294]
-CELL_CLUSTER_MAP["Sanabi"] = CELL_CLUSTERS[295]
-CELL_CLUSTER_MAP["Arrow, Cabin"] = CELL_CLUSTERS[296]
-CELL_CLUSTER_MAP["Caldera, Keel-Raniur's House"] = CELL_CLUSTERS[297]
-CELL_CLUSTER_MAP["Suran, Oran Manor"] = CELL_CLUSTERS[298]
-CELL_CLUSTER_MAP["Lost Shipwreck, Cabin"] = CELL_CLUSTERS[299]
-CELL_CLUSTER_MAP["Zenarbael"] = CELL_CLUSTERS[300]
-CELL_CLUSTER_MAP["Tel Mora, Tower Services"] = CELL_CLUSTERS[301]
-CELL_CLUSTER_MAP["Tel Mora, Lower Tower"] = CELL_CLUSTERS[301]
-CELL_CLUSTER_MAP["Tharys Ancestral Tomb"] = CELL_CLUSTERS[302]
-CELL_CLUSTER_MAP["Ahemmusa Camp, Lanabi's Yurt"] = CELL_CLUSTERS[303]
-CELL_CLUSTER_MAP["Ald-ruhn, Temple"] = CELL_CLUSTERS[304]
-CELL_CLUSTER_MAP["Beran Ancestral Tomb"] = CELL_CLUSTERS[305]
-CELL_CLUSTER_MAP["Balmora, Hlaalo Manor"] = CELL_CLUSTERS[306]
-CELL_CLUSTER_MAP["Lonesome Shipwreck, Upper Level"] = CELL_CLUSTERS[307]
-CELL_CLUSTER_MAP["Lonesome Shipwreck, Lower Level"] = CELL_CLUSTERS[307]
-CELL_CLUSTER_MAP["Balmora, Vori's House"] = CELL_CLUSTERS[308]
-CELL_CLUSTER_MAP["Balmora, Rithleen's House"] = CELL_CLUSTERS[309]
-CELL_CLUSTER_MAP["Ald-ruhn, Hanarai Assutlanipal's House"] = CELL_CLUSTERS[310]
-CELL_CLUSTER_MAP["Seyda Neen, Census and Excise Office"] = CELL_CLUSTERS[311]
-CELL_CLUSTER_MAP["Ravel Ancestral Tomb"] = CELL_CLUSTERS[312]
-CELL_CLUSTER_MAP["Nchuleft"] = CELL_CLUSTERS[313]
-CELL_CLUSTER_MAP["Andrano Ancestral Tomb"] = CELL_CLUSTERS[314]
-CELL_CLUSTER_MAP["Remote Shipwreck, Lower Level"] = CELL_CLUSTERS[315]
-CELL_CLUSTER_MAP["Remote Shipwreck, Upper Level"] = CELL_CLUSTERS[315]
-CELL_CLUSTER_MAP["Balur's Farmhouse"] = CELL_CLUSTERS[316]
-CELL_CLUSTER_MAP["Ahallaraddon Egg Mine"] = CELL_CLUSTERS[317]
-CELL_CLUSTER_MAP["Seyda Neen, Arrille's Tradehouse"] = CELL_CLUSTERS[318]
-CELL_CLUSTER_MAP["Vos, Runethyne Andas's Farmhouse"] = CELL_CLUSTERS[319]
-CELL_CLUSTER_MAP["Vivec, St. Delyn Canal North-Two"] = CELL_CLUSTERS[320]
-CELL_CLUSTER_MAP["Caldera, South Guard Towers"] = CELL_CLUSTERS[321]
-CELL_CLUSTER_MAP["Adanumuran"] = CELL_CLUSTERS[322]
-CELL_CLUSTER_MAP["Milk"] = CELL_CLUSTERS[323]
-CELL_CLUSTER_MAP["Abernanit"] = CELL_CLUSTERS[324]
-CELL_CLUSTER_MAP["Molag Mar, Redoran Stronghold"] = CELL_CLUSTERS[325]
-CELL_CLUSTER_MAP["Sadryon Ancestral Tomb"] = CELL_CLUSTERS[326]
-CELL_CLUSTER_MAP["Vos, Trilam Drolnor's Farmhouse"] = CELL_CLUSTERS[327]
-CELL_CLUSTER_MAP["Maar Gan, Guard Tower 3"] = CELL_CLUSTERS[328]
-CELL_CLUSTER_MAP["Maba-Ilu"] = CELL_CLUSTERS[329]
-CELL_CLUSTER_MAP["Saren Ancestral Tomb"] = CELL_CLUSTERS[330]
-CELL_CLUSTER_MAP["Tel Branora, Manos Vavyn's House"] = CELL_CLUSTERS[331]
-CELL_CLUSTER_MAP["Rayna Drolan's Shack"] = CELL_CLUSTERS[332]
-CELL_CLUSTER_MAP["Seyda Neen, Census and Excise Warehouse"] = CELL_CLUSTERS[333]
-CELL_CLUSTER_MAP["Falasmaryon, Propylon Chamber"] = CELL_CLUSTERS[334]
-CELL_CLUSTER_MAP["Zainab Camp, Tussi's Yurt"] = CELL_CLUSTERS[335]
-CELL_CLUSTER_MAP["Balmora, Lucky Lockup"] = CELL_CLUSTERS[336]
-CELL_CLUSTER_MAP["Vassir-Didanat Cave"] = CELL_CLUSTERS[337]
-CELL_CLUSTER_MAP["Massahanud Camp, Sargon's Yurt"] = CELL_CLUSTERS[338]
-CELL_CLUSTER_MAP["Hlormaren, Dome"] = CELL_CLUSTERS[339]
-CELL_CLUSTER_MAP["Rethan Manor, Gols' House"] = CELL_CLUSTERS[340]
-CELL_CLUSTER_MAP["Tel Aruhn, Ferele Athram: Trader"] = CELL_CLUSTERS[341]
-CELL_CLUSTER_MAP["Maar Gan, Huleen's Hut"] = CELL_CLUSTERS[342]
-CELL_CLUSTER_MAP["Rothan Ancestral Tomb"] = CELL_CLUSTERS[343]
-CELL_CLUSTER_MAP["Ahinipalit"] = CELL_CLUSTERS[344]
-CELL_CLUSTER_MAP["Tel Aruhn, Tower Entry"] = CELL_CLUSTERS[345]
-CELL_CLUSTER_MAP["Tel Aruhn, Tower Living Quarters"] = CELL_CLUSTERS[345]
-CELL_CLUSTER_MAP["Sterdecan's Farmhouse"] = CELL_CLUSTERS[346]
-CELL_CLUSTER_MAP["Ainat"] = CELL_CLUSTERS[347]
-CELL_CLUSTER_MAP["Assalkushalit, Shrine"] = CELL_CLUSTERS[348]
-CELL_CLUSTER_MAP["Caldera, Governor's Hall"] = CELL_CLUSTERS[349]
-CELL_CLUSTER_MAP["Othrelas Ancestral Tomb"] = CELL_CLUSTERS[350]
-CELL_CLUSTER_MAP["Tel Branora, Seryne Relas's House"] = CELL_CLUSTERS[351]
-CELL_CLUSTER_MAP["Assu"] = CELL_CLUSTERS[352]
-CELL_CLUSTER_MAP["Balmora, Dorisa Darvel: Bookseller"] = CELL_CLUSTERS[353]
-CELL_CLUSTER_MAP["Zaintirari"] = CELL_CLUSTERS[354]
-CELL_CLUSTER_MAP["Balmora, The Razor Hole"] = CELL_CLUSTERS[355]
-CELL_CLUSTER_MAP["Yakaridan Camp, Kitbael's Yurt"] = CELL_CLUSTERS[356]
-CELL_CLUSTER_MAP["Vandus Ancestral Tomb"] = CELL_CLUSTERS[357]
-CELL_CLUSTER_MAP["Unmarked Shipwreck, Lower Level"] = CELL_CLUSTERS[358]
-CELL_CLUSTER_MAP["Unmarked Shipwreck, Upper Level"] = CELL_CLUSTERS[358]
-CELL_CLUSTER_MAP["Tel Branora, Giron Manas's Shack"] = CELL_CLUSTERS[359]
-CELL_CLUSTER_MAP["Andasreth, Lower Level"] = CELL_CLUSTERS[360]
-CELL_CLUSTER_MAP["Andasreth, Upper Level"] = CELL_CLUSTERS[360]
-CELL_CLUSTER_MAP["Ald-ruhn, Ald Skar Inn"] = CELL_CLUSTERS[361]
-CELL_CLUSTER_MAP["Strange Shipwreck, Cabin"] = CELL_CLUSTERS[362]
-CELL_CLUSTER_MAP["Llovyn's Farmhouse"] = CELL_CLUSTERS[363]
-CELL_CLUSTER_MAP["Maar Gan, Shilipuran Zama-Rasour's Hut"] = CELL_CLUSTERS[364]
-CELL_CLUSTER_MAP["Zainab Camp, Ababael Timsar-Dadisun's Yurt"] = CELL_CLUSTERS[365]
-CELL_CLUSTER_MAP["Mawia"] = CELL_CLUSTERS[366]
-CELL_CLUSTER_MAP["Missir-Dadalit Egg Mine"] = CELL_CLUSTERS[367]
-CELL_CLUSTER_MAP["Dren Plantation, Doves' Shack"] = CELL_CLUSTERS[368]
-CELL_CLUSTER_MAP["Thelas Ancestral Tomb"] = CELL_CLUSTERS[369]
-CELL_CLUSTER_MAP["Valenvaryon, Propylon Chamber"] = CELL_CLUSTERS[370]
-CELL_CLUSTER_MAP["Akimaes Grotto"] = CELL_CLUSTERS[371]
-CELL_CLUSTER_MAP["Madas-Zebba Egg Mine"] = CELL_CLUSTERS[372]
-CELL_CLUSTER_MAP["Hanud, Tower"] = CELL_CLUSTERS[373]
-CELL_CLUSTER_MAP["Hanud"] = CELL_CLUSTERS[373]
-CELL_CLUSTER_MAP["Drulene Falen's Hut"] = CELL_CLUSTERS[374]
-CELL_CLUSTER_MAP["Maar Gan, Ulisamsi Shaddarnuran's Hut"] = CELL_CLUSTERS[375]
-CELL_CLUSTER_MAP["Balmora, Tsiya's House"] = CELL_CLUSTERS[376]
-CELL_CLUSTER_MAP["Urshilaku Camp, Ashkhan's Yurt"] = CELL_CLUSTERS[377]
-CELL_CLUSTER_MAP["Panud Egg Mine"] = CELL_CLUSTERS[378]
-CELL_CLUSTER_MAP["Ald Velothi, Vireveri Darethran's Shack"] = CELL_CLUSTERS[379]
-CELL_CLUSTER_MAP["Tel Uvirith, Arelas' House"] = CELL_CLUSTERS[380]
-CELL_CLUSTER_MAP["Seyda Neen, Fine-Mouth's Shack"] = CELL_CLUSTERS[381]
-CELL_CLUSTER_MAP["Dren Plantation, Hlevala's Shack"] = CELL_CLUSTERS[382]
-CELL_CLUSTER_MAP["Suran, Suran Tradehouse"] = CELL_CLUSTERS[383]
-CELL_CLUSTER_MAP["Balmora, Council Club"] = CELL_CLUSTERS[384]
-CELL_CLUSTER_MAP["Suran, Ranosa Gilvayn: Outfitter"] = CELL_CLUSTERS[385]
-CELL_CLUSTER_MAP["Deserted Shipwreck, Cabin"] = CELL_CLUSTERS[386]
-CELL_CLUSTER_MAP["Tel Mora, Jolda: Apothecary"] = CELL_CLUSTERS[387]
-CELL_CLUSTER_MAP["Hawia Egg Mine"] = CELL_CLUSTERS[388]
-CELL_CLUSTER_MAP["Dren Plantation, Rethan's Shack"] = CELL_CLUSTERS[389]
-CELL_CLUSTER_MAP["Ebonheart, Grand Council Chambers Tower"] = CELL_CLUSTERS[390]
-CELL_CLUSTER_MAP["Vos, Ienasa Radas's Farmhouse"] = CELL_CLUSTERS[391]
-CELL_CLUSTER_MAP["Hlaalu Ancestral Tomb"] = CELL_CLUSTERS[392]
-CELL_CLUSTER_MAP["Balmora, Tyravel Manor"] = CELL_CLUSTERS[393]
-CELL_CLUSTER_MAP["Fair Helas, Lower Level"] = CELL_CLUSTERS[394]
-CELL_CLUSTER_MAP["Fair Helas, Upper Level"] = CELL_CLUSTERS[394]
-CELL_CLUSTER_MAP["Unexplored Shipwreck, Upper Level"] = CELL_CLUSTERS[395]
-CELL_CLUSTER_MAP["Unexplored Shipwreck, Lower Level"] = CELL_CLUSTERS[395]
-CELL_CLUSTER_MAP["Thiralas Ancestral Tomb"] = CELL_CLUSTERS[396]
-CELL_CLUSTER_MAP["Balmora, Temple"] = CELL_CLUSTERS[397]
-CELL_CLUSTER_MAP["Balmora, Meldor: Armorer"] = CELL_CLUSTERS[398]
-CELL_CLUSTER_MAP["Dagon Fel, Sorkvild's Tower"] = CELL_CLUSTERS[399]
-CELL_CLUSTER_MAP["Onnissiralis, Shrine"] = CELL_CLUSTERS[400]
-CELL_CLUSTER_MAP["Andules Ancestral Tomb"] = CELL_CLUSTERS[401]
-CELL_CLUSTER_MAP["Prelude Shipwreck, Upper Level"] = CELL_CLUSTERS[402]
-CELL_CLUSTER_MAP["Prelude Shipwreck, Lower Level"] = CELL_CLUSTERS[402]
-CELL_CLUSTER_MAP["Khuul, Rivame Samandas's Shack"] = CELL_CLUSTERS[403]
-CELL_CLUSTER_MAP["Tel Vos, Barracks and Armory"] = CELL_CLUSTERS[404]
-CELL_CLUSTER_MAP["Rotheran, Communal Hut"] = CELL_CLUSTERS[405]
-CELL_CLUSTER_MAP["Hla Oad, Shurkul gro-Sharga's House"] = CELL_CLUSTERS[406]
-CELL_CLUSTER_MAP["Inanius Egg Mine"] = CELL_CLUSTERS[407]
-CELL_CLUSTER_MAP["Zainsipilu"] = CELL_CLUSTERS[408]
-CELL_CLUSTER_MAP["Ald-ruhn, Tiras Sadus: General Merchandise"] = CELL_CLUSTERS[409]
-CELL_CLUSTER_MAP["Urshilaku Camp, Wise Woman's Yurt"] = CELL_CLUSTERS[410]
-CELL_CLUSTER_MAP["Dren Plantation, Helvi's Shack"] = CELL_CLUSTERS[411]
-CELL_CLUSTER_MAP["Desolate Shipwreck, Upper Level"] = CELL_CLUSTERS[412]
-CELL_CLUSTER_MAP["Desolate Shipwreck, Lower Level"] = CELL_CLUSTERS[412]
-CELL_CLUSTER_MAP["Ald-ruhn, Tauryon's House"] = CELL_CLUSTERS[413]
-CELL_CLUSTER_MAP["Sadrith Mora, Trendrus Dral's House"] = CELL_CLUSTERS[414]
-CELL_CLUSTER_MAP["Nissintu"] = CELL_CLUSTERS[415]
-CELL_CLUSTER_MAP["Tel Uvirith, Seleth's House"] = CELL_CLUSTERS[416]
-CELL_CLUSTER_MAP["Maar Gan, Mabrelle Geles's Hut"] = CELL_CLUSTERS[417]
-CELL_CLUSTER_MAP["Ashinabi"] = CELL_CLUSTERS[418]
-CELL_CLUSTER_MAP["Ashinabi, Smuggler Den"] = CELL_CLUSTERS[418]
-CELL_CLUSTER_MAP["Ministry of Truth, Hall of Processing"] = CELL_CLUSTERS[419]
-CELL_CLUSTER_MAP["Ministry of Truth, Holding Cells"] = CELL_CLUSTERS[419]
-CELL_CLUSTER_MAP["Ministry of Truth, Prison Keep"] = CELL_CLUSTERS[419]
-CELL_CLUSTER_MAP["Tel Mora, Radras: Smith"] = CELL_CLUSTERS[420]
-CELL_CLUSTER_MAP["Yakanalit"] = CELL_CLUSTERS[421]
-CELL_CLUSTER_MAP["Small Farmhouse"] = CELL_CLUSTERS[422]
-CELL_CLUSTER_MAP["Llervu Ancestral Tomb"] = CELL_CLUSTERS[423]
-CELL_CLUSTER_MAP["Vos, Dreynos Elvul's Farmhouse"] = CELL_CLUSTERS[424]
-CELL_CLUSTER_MAP["Mausur Caverns"] = CELL_CLUSTERS[425]
-CELL_CLUSTER_MAP["Llirala's Shack"] = CELL_CLUSTERS[426]
-CELL_CLUSTER_MAP["Ald-ruhn, Dandera Selaro: Smith"] = CELL_CLUSTERS[427]
-CELL_CLUSTER_MAP["Zaintiraris, Shrine"] = CELL_CLUSTERS[428]
-CELL_CLUSTER_MAP["Zalkin-Sul Egg Mine"] = CELL_CLUSTERS[429]
-CELL_CLUSTER_MAP["Vivec, Puzzle Canal, Level 4"] = CELL_CLUSTERS[430]
-CELL_CLUSTER_MAP["Khuul, Endris Dilmyn's Shack"] = CELL_CLUSTERS[431]
-CELL_CLUSTER_MAP["Hla Oad, Okur's House"] = CELL_CLUSTERS[432]
-CELL_CLUSTER_MAP["Suran, Suran Temple"] = CELL_CLUSTERS[433]
-CELL_CLUSTER_MAP["Ashanammu"] = CELL_CLUSTERS[434]
-CELL_CLUSTER_MAP["Rissun"] = CELL_CLUSTERS[435]
-CELL_CLUSTER_MAP["Sadrith Mora, Meluria Seleth's House"] = CELL_CLUSTERS[436]
-CELL_CLUSTER_MAP["Salmantu, Shrine"] = CELL_CLUSTERS[437]
-CELL_CLUSTER_MAP["Salmantu"] = CELL_CLUSTERS[437]
-CELL_CLUSTER_MAP["Falvilo's Endeavor, Upper Level"] = CELL_CLUSTERS[438]
-CELL_CLUSTER_MAP["Falvillo's Endeavor, Lower Level"] = CELL_CLUSTERS[438]
-CELL_CLUSTER_MAP["Esutanamus, Shrine"] = CELL_CLUSTERS[439]
-CELL_CLUSTER_MAP["Ienith Ancestral Tomb"] = CELL_CLUSTERS[440]
-CELL_CLUSTER_MAP["Tel Mora, Nona's House"] = CELL_CLUSTERS[441]
-CELL_CLUSTER_MAP["Vassamsi Grotto"] = CELL_CLUSTERS[442]
-CELL_CLUSTER_MAP["Uveran Ancestral Tomb"] = CELL_CLUSTERS[443]
-CELL_CLUSTER_MAP["Ebonheart, Hawkmoth Legion Garrison"] = CELL_CLUSTERS[444]
-CELL_CLUSTER_MAP["Balmora, Astius Hanotepelus' House"] = CELL_CLUSTERS[445]
-CELL_CLUSTER_MAP["Asha-Ahhe Egg Mine"] = CELL_CLUSTERS[446]
-CELL_CLUSTER_MAP["Kushtashpi, Shrine"] = CELL_CLUSTERS[447]
-CELL_CLUSTER_MAP["Drath Ancestral Tomb"] = CELL_CLUSTERS[448]
-CELL_CLUSTER_MAP["Eluba-Addon Grotto"] = CELL_CLUSTERS[449]
-CELL_CLUSTER_MAP["Maar Gan, Outpost"] = CELL_CLUSTERS[450]
-CELL_CLUSTER_MAP["Ald-ruhn, Guild of Mages"] = CELL_CLUSTERS[451]
-CELL_CLUSTER_MAP["Urshilaku Camp, Ahasour's Yurt"] = CELL_CLUSTERS[452]
-CELL_CLUSTER_MAP["Bensiberib Camp, Odaishah's Yurt"] = CELL_CLUSTERS[453]
-CELL_CLUSTER_MAP["Orethi Ancestral Tomb"] = CELL_CLUSTERS[454]
-CELL_CLUSTER_MAP["Dren Plantation, Tower Shack"] = CELL_CLUSTERS[455]
-CELL_CLUSTER_MAP["Ald-ruhn, Guard Tower 2"] = CELL_CLUSTERS[456]
-CELL_CLUSTER_MAP["Caldera, Bashuk gra-Bat's House"] = CELL_CLUSTERS[457]
-CELL_CLUSTER_MAP["Deserted Shipwreck, Upper Level"] = CELL_CLUSTERS[458]
-CELL_CLUSTER_MAP["Deserted Shipwreck, Lower Level"] = CELL_CLUSTERS[458]
-CELL_CLUSTER_MAP["Derelict Shipwreck, Lower Level"] = CELL_CLUSTERS[459]
-CELL_CLUSTER_MAP["Derelict Shipwreck, Upper Level"] = CELL_CLUSTERS[459]
-CELL_CLUSTER_MAP["Vivec, Puzzle Canal, Level 1"] = CELL_CLUSTERS[460]
-CELL_CLUSTER_MAP["Balmora, Western Guard Tower South"] = CELL_CLUSTERS[461]
-CELL_CLUSTER_MAP["Andas Ancestral Tomb"] = CELL_CLUSTERS[462]
-CELL_CLUSTER_MAP["Khuul, Brurid's Shack"] = CELL_CLUSTERS[463]
-CELL_CLUSTER_MAP["Tel Mora, Upper Tower"] = CELL_CLUSTERS[464]
-CELL_CLUSTER_MAP["Assurnabitashpi"] = CELL_CLUSTERS[465]
-CELL_CLUSTER_MAP["Ebonheart, East Empire North Warehouse"] = CELL_CLUSTERS[466]
-CELL_CLUSTER_MAP["Sadrith Mora, Rolis Garvon's House"] = CELL_CLUSTERS[467]
-CELL_CLUSTER_MAP["Chun-Ook, Cabin"] = CELL_CLUSTERS[468]
-CELL_CLUSTER_MAP["Neglected Shipwreck, Cabin"] = CELL_CLUSTERS[469]
-CELL_CLUSTER_MAP["Manat's Farmhouse"] = CELL_CLUSTERS[470]
-CELL_CLUSTER_MAP["Velas Ancestral Tomb"] = CELL_CLUSTERS[471]
-CELL_CLUSTER_MAP["Sudanit Mine"] = CELL_CLUSTERS[472]
-CELL_CLUSTER_MAP["Gnaar Mok, Rostlogi's Shack"] = CELL_CLUSTERS[473]
-CELL_CLUSTER_MAP["Andalor Ancestral Tomb"] = CELL_CLUSTERS[474]
-CELL_CLUSTER_MAP["Fadathram Ancestral Tomb"] = CELL_CLUSTERS[475]
-CELL_CLUSTER_MAP["Balmora, Fast Eddie's House"] = CELL_CLUSTERS[476]
-CELL_CLUSTER_MAP["Shurdan-Raplay Egg Mine"] = CELL_CLUSTERS[477]
-CELL_CLUSTER_MAP["Dagon Fel, Vacant Tower"] = CELL_CLUSTERS[478]
-CELL_CLUSTER_MAP["Desolate Shipwreck, Cabin"] = CELL_CLUSTERS[479]
-CELL_CLUSTER_MAP["Dagon Fel, Heifnir: Trader"] = CELL_CLUSTERS[480]
-CELL_CLUSTER_MAP["Tukushapal, Sepulcher"] = CELL_CLUSTERS[481]
-CELL_CLUSTER_MAP["Marvani Ancestral Tomb"] = CELL_CLUSTERS[481]
-CELL_CLUSTER_MAP["Tukushapal"] = CELL_CLUSTERS[481]
-CELL_CLUSTER_MAP["Abebaal Egg Mine"] = CELL_CLUSTERS[482]
-CELL_CLUSTER_MAP["Dralas Ancestral Tomb"] = CELL_CLUSTERS[483]
-CELL_CLUSTER_MAP["Panat"] = CELL_CLUSTERS[484]
-CELL_CLUSTER_MAP["Dren Plantation, Verethi and Dralor"] = CELL_CLUSTERS[485]
-CELL_CLUSTER_MAP["Berandas, Propylon Chamber"] = CELL_CLUSTERS[486]
-CELL_CLUSTER_MAP["Ald-ruhn, Gildan's House"] = CELL_CLUSTERS[487]
-CELL_CLUSTER_MAP["Zainab Camp, Ashibaal's Yurt"] = CELL_CLUSTERS[488]
-CELL_CLUSTER_MAP["Ebonheart, Argonian Mission"] = CELL_CLUSTERS[489]
-CELL_CLUSTER_MAP["Koal Cave"] = CELL_CLUSTERS[490]
-CELL_CLUSTER_MAP["Tel Mora, Liette's House"] = CELL_CLUSTERS[491]
-CELL_CLUSTER_MAP["Alas Ancestral Tomb"] = CELL_CLUSTERS[492]
-CELL_CLUSTER_MAP["Shunned Shipwreck, Cabin"] = CELL_CLUSTERS[493]
-CELL_CLUSTER_MAP["Yasammidan, Shrine"] = CELL_CLUSTERS[494]
-CELL_CLUSTER_MAP["Khuul, Nelmyne Andules's Shack"] = CELL_CLUSTERS[495]
-CELL_CLUSTER_MAP["Sadrith Mora, Morag Tong Guild"] = CELL_CLUSTERS[496]
-CELL_CLUSTER_MAP["Zainab Camp, Ashkhan's Yurt"] = CELL_CLUSTERS[497]
-CELL_CLUSTER_MAP["Mzuleft"] = CELL_CLUSTERS[498]
-CELL_CLUSTER_MAP["Dagon Fel, Itar the Gentle's House"] = CELL_CLUSTERS[499]
-CELL_CLUSTER_MAP["Gnisis, Fort Darius"] = CELL_CLUSTERS[500]
-CELL_CLUSTER_MAP["Ald-ruhn, Braynas Hlervu's House"] = CELL_CLUSTERS[501]
-CELL_CLUSTER_MAP["Balmora, Nine Toes' House"] = CELL_CLUSTERS[502]
-CELL_CLUSTER_MAP["Ahemmusa Camp, Kausi's Yurt"] = CELL_CLUSTERS[503]
-CELL_CLUSTER_MAP["Reloth Ancestral Tomb"] = CELL_CLUSTERS[504]
-CELL_CLUSTER_MAP["Dagon Fel, Mette's House"] = CELL_CLUSTERS[505]
-CELL_CLUSTER_MAP["Gnisis, Shand Hut"] = CELL_CLUSTERS[506]
-CELL_CLUSTER_MAP["Norvayn Ancestral Tomb"] = CELL_CLUSTERS[507]
-CELL_CLUSTER_MAP["Balmora, Drarayne Thelas' House"] = CELL_CLUSTERS[508]
-CELL_CLUSTER_MAP["Ilanipu Grotto"] = CELL_CLUSTERS[509]
-CELL_CLUSTER_MAP["Ald Velothi, Ganus Lloryn's Shack"] = CELL_CLUSTERS[510]
-CELL_CLUSTER_MAP["Dagon Fel, Onmi Hard-mouth's House"] = CELL_CLUSTERS[511]
-CELL_CLUSTER_MAP["Ancient Shipwreck, Cabin"] = CELL_CLUSTERS[512]
-CELL_CLUSTER_MAP["An Abandoned Shack"] = CELL_CLUSTERS[513]
-CELL_CLUSTER_MAP["Mudan-Mul Egg Mine"] = CELL_CLUSTERS[514]
-CELL_CLUSTER_MAP["Mount Kand, Cavern"] = CELL_CLUSTERS[515]
-CELL_CLUSTER_MAP["Caldera, Verick Gemain: Trader"] = CELL_CLUSTERS[516]
-CELL_CLUSTER_MAP["Setus Egg Mine"] = CELL_CLUSTERS[517]
-CELL_CLUSTER_MAP["Balmora, Hecerinde's House"] = CELL_CLUSTERS[518]
-CELL_CLUSTER_MAP["Hleran Ancestral Tomb"] = CELL_CLUSTERS[519]
-CELL_CLUSTER_MAP["Ashunartes, Shrine"] = CELL_CLUSTERS[520]
-CELL_CLUSTER_MAP["Vivec, St. Olms Waist North-One"] = CELL_CLUSTERS[521]
-CELL_CLUSTER_MAP["Obscure Shipwreck, Cabin"] = CELL_CLUSTERS[522]
-CELL_CLUSTER_MAP["Mamshar-Disamus Camp, Maesat's Yurt"] = CELL_CLUSTERS[523]
-CELL_CLUSTER_MAP["Surirulk"] = CELL_CLUSTERS[524]
-CELL_CLUSTER_MAP["Sarano Ancestral Tomb"] = CELL_CLUSTERS[525]
-CELL_CLUSTER_MAP["Gimothran Ancestral Tomb"] = CELL_CLUSTERS[526]
-CELL_CLUSTER_MAP["Arethan Ancestral Tomb"] = CELL_CLUSTERS[527]
-CELL_CLUSTER_MAP["Ebonheart, Skyrim Mission"] = CELL_CLUSTERS[528]
-CELL_CLUSTER_MAP["Galom Daeus, Observatory"] = CELL_CLUSTERS[529]
-CELL_CLUSTER_MAP["Galom Daeus, Entry"] = CELL_CLUSTERS[529]
-CELL_CLUSTER_MAP["Dagon Fel, Fanar Fork-Beard's House"] = CELL_CLUSTERS[530]
-CELL_CLUSTER_MAP["Urshilaku Camp, Kurapli's Yurt"] = CELL_CLUSTERS[531]
-CELL_CLUSTER_MAP["Holamayan Monastery"] = CELL_CLUSTERS[532]
-CELL_CLUSTER_MAP["Caldera, North Guard Towers"] = CELL_CLUSTERS[533]
-CELL_CLUSTER_MAP["Tel Branora, Sethan's Tradehouse"] = CELL_CLUSTERS[534]
-CELL_CLUSTER_MAP["Rethan Manor"] = CELL_CLUSTERS[535]
-CELL_CLUSTER_MAP["Ansi"] = CELL_CLUSTERS[536]
-CELL_CLUSTER_MAP["Maelkashishi, Shrine, Forgotten Galleries"] = CELL_CLUSTERS[537]
-CELL_CLUSTER_MAP["Maelkashishi, Shrine"] = CELL_CLUSTERS[537]
-CELL_CLUSTER_MAP["Caldera, Irgola: Pawnbroker"] = CELL_CLUSTERS[538]
-CELL_CLUSTER_MAP["Pelagiad, Murberius Harmevus' House"] = CELL_CLUSTERS[539]
-CELL_CLUSTER_MAP["Heran Ancestral Tomb"] = CELL_CLUSTERS[540]
-CELL_CLUSTER_MAP["Lonely Shipwreck, Cabin"] = CELL_CLUSTERS[541]
-CELL_CLUSTER_MAP["Maar Gan, Shrine"] = CELL_CLUSTERS[542]
-CELL_CLUSTER_MAP["Pelagiad, Ahnassi's House"] = CELL_CLUSTERS[543]
-CELL_CLUSTER_MAP["Nimawia Grotto"] = CELL_CLUSTERS[544]
-CELL_CLUSTER_MAP["Ald Velothi, Ienas Arvel's Shack"] = CELL_CLUSTERS[545]
-CELL_CLUSTER_MAP["Ashimanu Egg Mine"] = CELL_CLUSTERS[546]
-CELL_CLUSTER_MAP["Ashimanu Egg Mine, Queen's Lair"] = CELL_CLUSTERS[546]
-CELL_CLUSTER_MAP["Pelagiad, Mebestien Ence: Trader"] = CELL_CLUSTERS[547]
-CELL_CLUSTER_MAP["Erabenimsun Camp, Ranabi's Yurt"] = CELL_CLUSTERS[548]
-CELL_CLUSTER_MAP["Vivec, St. Delyn Canal South-Two"] = CELL_CLUSTERS[549]
-CELL_CLUSTER_MAP["Ashir-Dan"] = CELL_CLUSTERS[550]
-CELL_CLUSTER_MAP["Odrosal, Tower"] = CELL_CLUSTERS[551]
-CELL_CLUSTER_MAP["Odrosal, Dwemer Training Academy"] = CELL_CLUSTERS[551]
-CELL_CLUSTER_MAP["Ald-ruhn, Aryni Orethi's House"] = CELL_CLUSTERS[552]
-CELL_CLUSTER_MAP["Grytewake, Lower Level"] = CELL_CLUSTERS[553]
-CELL_CLUSTER_MAP["Grytewake, Upper Level"] = CELL_CLUSTERS[553]
-CELL_CLUSTER_MAP["Sobitbael Camp, Mal's Yurt"] = CELL_CLUSTERS[554]
-CELL_CLUSTER_MAP["Tel Vos, Southern Tower"] = CELL_CLUSTERS[555]
-CELL_CLUSTER_MAP["Caldera, Shenk's Shovel"] = CELL_CLUSTERS[556]
-CELL_CLUSTER_MAP["Strange Shipwreck, Upper Level"] = CELL_CLUSTERS[557]
-CELL_CLUSTER_MAP["Strange Shipwreck, Lower Level"] = CELL_CLUSTERS[557]
-CELL_CLUSTER_MAP["Dren Plantation, Storage Shack"] = CELL_CLUSTERS[558]
-CELL_CLUSTER_MAP["Gnisis, Abelmawia Hut"] = CELL_CLUSTERS[559]
-CELL_CLUSTER_MAP["Zanabi"] = CELL_CLUSTERS[560]
-CELL_CLUSTER_MAP["Tel Branora, Tower Guardpost"] = CELL_CLUSTERS[561]
-CELL_CLUSTER_MAP["Caldera, Canodia Felannus' House"] = CELL_CLUSTERS[562]
-CELL_CLUSTER_MAP["Sadrith Mora, Nirasa Aren's House"] = CELL_CLUSTERS[563]
-CELL_CLUSTER_MAP["Khuul, Helga's Shack"] = CELL_CLUSTERS[564]
-CELL_CLUSTER_MAP["Gnaar Mok, Caryarel's Shack"] = CELL_CLUSTERS[565]
-CELL_CLUSTER_MAP["Elith-Pal Mine"] = CELL_CLUSTERS[566]
-CELL_CLUSTER_MAP["Samarys Ancestral Tomb"] = CELL_CLUSTERS[567]
-CELL_CLUSTER_MAP["Abandoned Shipwreck, Cabin"] = CELL_CLUSTERS[568]
-CELL_CLUSTER_MAP["Caldera, Hodlismod: Armorer"] = CELL_CLUSTERS[569]
-CELL_CLUSTER_MAP["Balmora, Western Guard Tower North"] = CELL_CLUSTERS[570]
-CELL_CLUSTER_MAP["Hairat-Vassamsi Egg Mine"] = CELL_CLUSTERS[571]
-CELL_CLUSTER_MAP["Hairat-Vassamsi Egg Mine, Queen's Lair"] = CELL_CLUSTERS[571]
-CELL_CLUSTER_MAP["Aharasaplit Camp, Zallay's Yurt"] = CELL_CLUSTERS[572]
-CELL_CLUSTER_MAP["Vivec, St. Olms Canal North-Three"] = CELL_CLUSTERS[573]
-CELL_CLUSTER_MAP["Balmora, Dura gra-Bol's House"] = CELL_CLUSTERS[574]
-CELL_CLUSTER_MAP["Tel Aruhn, Bildren Areleth: Apothecary"] = CELL_CLUSTERS[575]
-CELL_CLUSTER_MAP["Morvayn Manor"] = CELL_CLUSTERS[576]
-CELL_CLUSTER_MAP["Kaushtarari, Shrine"] = CELL_CLUSTERS[577]
-CELL_CLUSTER_MAP["Ald-ruhn, Ienas Sarandas's House"] = CELL_CLUSTERS[578]
-CELL_CLUSTER_MAP["Odibaal"] = CELL_CLUSTERS[579]
-CELL_CLUSTER_MAP["Favel Ancestral Tomb"] = CELL_CLUSTERS[580]
-CELL_CLUSTER_MAP["Sadrith Mora, Pierlette Rostorard: Apothecary"] = CELL_CLUSTERS[581]
-CELL_CLUSTER_MAP["Valenvaryon, Gashna's Hut"] = CELL_CLUSTERS[582]
-CELL_CLUSTER_MAP["Vivec, St. Olms Canal South-One"] = CELL_CLUSTERS[583]
-CELL_CLUSTER_MAP["Hlervu Ancestral Tomb"] = CELL_CLUSTERS[584]
-CELL_CLUSTER_MAP["Ashamanu Camp, Kausha's Yurt"] = CELL_CLUSTERS[585]
-CELL_CLUSTER_MAP["Sadrith Mora, Fara's Hole in the Wall"] = CELL_CLUSTERS[586]
-CELL_CLUSTER_MAP["Hla Oad, Murudius Flaeus's House"] = CELL_CLUSTERS[587]
-CELL_CLUSTER_MAP["Caldera, Surane Leoriane's House"] = CELL_CLUSTERS[588]
-CELL_CLUSTER_MAP["Caldera, Slave Shack Two"] = CELL_CLUSTERS[589]
-CELL_CLUSTER_MAP["Dun-Ahhe"] = CELL_CLUSTERS[590]
-CELL_CLUSTER_MAP["Arano Ancestral Tomb"] = CELL_CLUSTERS[591]
-CELL_CLUSTER_MAP["Seran Ancestral Tomb"] = CELL_CLUSTERS[592]
-CELL_CLUSTER_MAP["Balmora, South Wall Cornerclub"] = CELL_CLUSTERS[593]
-CELL_CLUSTER_MAP["Ald Redaynia, Tower"] = CELL_CLUSTERS[594]
-CELL_CLUSTER_MAP["Dren Plantation, Dren's Villa"] = CELL_CLUSTERS[595]
-CELL_CLUSTER_MAP["Ald-ruhn, Gindrala Hleran's House"] = CELL_CLUSTERS[596]
-CELL_CLUSTER_MAP["Ald-ruhn, Council Club"] = CELL_CLUSTERS[597]
-CELL_CLUSTER_MAP["Sadrith Mora, Milara Vedran's House"] = CELL_CLUSTERS[598]
-CELL_CLUSTER_MAP["Ules Manor"] = CELL_CLUSTERS[599]
-CELL_CLUSTER_MAP["Odirnamat"] = CELL_CLUSTERS[600]
-CELL_CLUSTER_MAP["Pelagiad, Erval's House"] = CELL_CLUSTERS[601]
-CELL_CLUSTER_MAP["Ahemmusa Camp, Addammus's Yurt"] = CELL_CLUSTERS[602]
-CELL_CLUSTER_MAP["Sadrith Mora, Nevrila Areloth's House"] = CELL_CLUSTERS[603]
-CELL_CLUSTER_MAP["Dunirai Caverns"] = CELL_CLUSTERS[604]
-CELL_CLUSTER_MAP["Halit Mine"] = CELL_CLUSTERS[605]
-CELL_CLUSTER_MAP["Ald Velothi, Llerar Vinden's Shack"] = CELL_CLUSTERS[606]
-CELL_CLUSTER_MAP["Tel Aruhn, Plot and Plaster"] = CELL_CLUSTERS[607]
-CELL_CLUSTER_MAP["Gnaar Mok, Jerian Dolbanitte's Shack"] = CELL_CLUSTERS[608]
-CELL_CLUSTER_MAP["Shushan"] = CELL_CLUSTERS[609]
-CELL_CLUSTER_MAP["Pulk"] = CELL_CLUSTERS[610]
-CELL_CLUSTER_MAP["Baram Ancestral Tomb"] = CELL_CLUSTERS[611]
-CELL_CLUSTER_MAP["Pelagiad, Guard Tower"] = CELL_CLUSTERS[612]
-CELL_CLUSTER_MAP["Shunned Shipwreck, Upper Level"] = CELL_CLUSTERS[613]
-CELL_CLUSTER_MAP["Shunned Shipwreck, Lower Level"] = CELL_CLUSTERS[613]
-CELL_CLUSTER_MAP["Ald Velothi, Fevila Bethrano's Shack"] = CELL_CLUSTERS[614]
-CELL_CLUSTER_MAP["Erabenimsun Camp, Han-Ammu's Yurt"] = CELL_CLUSTERS[615]
-CELL_CLUSTER_MAP["Zergonipal, Shrine"] = CELL_CLUSTERS[616]
-CELL_CLUSTER_MAP["Abanabi"] = CELL_CLUSTERS[617]
-CELL_CLUSTER_MAP["Maren Ancestral Tomb"] = CELL_CLUSTERS[618]
-CELL_CLUSTER_MAP["Bthungthumz"] = CELL_CLUSTERS[619]
-CELL_CLUSTER_MAP["Forgotten Shipwreck"] = CELL_CLUSTERS[620]
-CELL_CLUSTER_MAP["Valenvaryon, Umug's Hut"] = CELL_CLUSTERS[621]
-CELL_CLUSTER_MAP["Ebonheart, Imperial Chapels"] = CELL_CLUSTERS[622]
-CELL_CLUSTER_MAP["Arvel Manor, Slavemaster's Shack"] = CELL_CLUSTERS[623]
-CELL_CLUSTER_MAP["Zainab Camp, Minassour's Yurt"] = CELL_CLUSTERS[624]
-CELL_CLUSTER_MAP["Vivec, St. Olms Canal North-Two"] = CELL_CLUSTERS[625]
-CELL_CLUSTER_MAP["Falasmaryon, Missun Akin's Hut"] = CELL_CLUSTERS[626]
-CELL_CLUSTER_MAP["Kudanat"] = CELL_CLUSTERS[627]
-CELL_CLUSTER_MAP["Shara"] = CELL_CLUSTERS[628]
-CELL_CLUSTER_MAP["Ald Velothi, Lledsea Relas's Shack"] = CELL_CLUSTERS[629]
-CELL_CLUSTER_MAP["Dreloth Ancestral Tomb"] = CELL_CLUSTERS[630]
-CELL_CLUSTER_MAP["Balmora, Ra'Virr: Trader"] = CELL_CLUSTERS[631]
-CELL_CLUSTER_MAP["Balmora, Milie Hastien: Fine Clothier"] = CELL_CLUSTERS[632]
-CELL_CLUSTER_MAP["Suran, Garothmuk gro-Muzgub: Smith"] = CELL_CLUSTERS[633]
-CELL_CLUSTER_MAP["Rethan Manor, Berendas' House"] = CELL_CLUSTERS[634]
-CELL_CLUSTER_MAP["Yassu Mine"] = CELL_CLUSTERS[635]
-CELL_CLUSTER_MAP["Malmus Grotto"] = CELL_CLUSTERS[636]
-CELL_CLUSTER_MAP["Ahemmusa Camp, Wise Woman's Yurt"] = CELL_CLUSTERS[637]
-CELL_CLUSTER_MAP["Seyda Neen, Eldafire's House"] = CELL_CLUSTERS[638]
-CELL_CLUSTER_MAP["Shashurari Camp, Zennammu's Yurt"] = CELL_CLUSTERS[639]
-CELL_CLUSTER_MAP["Balmora, Morag Tong Guild"] = CELL_CLUSTERS[640]
-CELL_CLUSTER_MAP["Neglected Shipwreck, Lower Level"] = CELL_CLUSTERS[641]
-CELL_CLUSTER_MAP["Neglected Shipwreck, Upper Level"] = CELL_CLUSTERS[641]
-CELL_CLUSTER_MAP["Dareleth Ancestral Tomb"] = CELL_CLUSTERS[642]
-CELL_CLUSTER_MAP["Seyda Neen, Foryn Gilnith's Shack"] = CELL_CLUSTERS[643]
-CELL_CLUSTER_MAP["Ulummusa"] = CELL_CLUSTERS[644]
-CELL_CLUSTER_MAP["Sinsibadon"] = CELL_CLUSTERS[645]
-CELL_CLUSTER_MAP["Mababi"] = CELL_CLUSTERS[646]
-CELL_CLUSTER_MAP["Maar Gan, Guard Tower 2"] = CELL_CLUSTERS[647]
-CELL_CLUSTER_MAP["Suran, Verara Rendo: Clothier"] = CELL_CLUSTERS[648]
-CELL_CLUSTER_MAP["Zainab Camp, Patababi's Yurt"] = CELL_CLUSTERS[649]
-CELL_CLUSTER_MAP["Sarethi Ancestral Tomb"] = CELL_CLUSTERS[650]
-CELL_CLUSTER_MAP["Shashpilamat"] = CELL_CLUSTERS[651]
-CELL_CLUSTER_MAP["Yanemus Mine"] = CELL_CLUSTERS[652]
-CELL_CLUSTER_MAP["Zainab Camp, Kuda's Yurt"] = CELL_CLUSTERS[653]
-CELL_CLUSTER_MAP["Indaren Ancestral Tomb"] = CELL_CLUSTERS[654]
-CELL_CLUSTER_MAP["Zainab Camp, Wise Woman's Yurt"] = CELL_CLUSTERS[655]
-CELL_CLUSTER_MAP["Maar Gan, Kind Erushara's Hut"] = CELL_CLUSTERS[656]
-CELL_CLUSTER_MAP["Vansunalit Egg Mine"] = CELL_CLUSTERS[657]
-CELL_CLUSTER_MAP["Redas Ancestral Tomb"] = CELL_CLUSTERS[658]
-CELL_CLUSTER_MAP["Omani Manor"] = CELL_CLUSTERS[659]
-CELL_CLUSTER_MAP["Balmora, Clagius Clanler: Outfitter"] = CELL_CLUSTERS[660]
-CELL_CLUSTER_MAP["Gnisis, Almu Cave Dwelling"] = CELL_CLUSTERS[661]
-CELL_CLUSTER_MAP["Caldera Mine"] = CELL_CLUSTERS[662]
-CELL_CLUSTER_MAP["Khuul, Svadstar's Shack"] = CELL_CLUSTERS[663]
-CELL_CLUSTER_MAP["Caldera, Odairan Ashummi-Ammus' House"] = CELL_CLUSTERS[664]
-CELL_CLUSTER_MAP["Savel Ancestral Tomb"] = CELL_CLUSTERS[665]
-CELL_CLUSTER_MAP["Urshilaku Camp, Zabamund's Yurt"] = CELL_CLUSTERS[666]
-CELL_CLUSTER_MAP["Gnisis, Tansumiran Cave Dwelling"] = CELL_CLUSTERS[667]
-CELL_CLUSTER_MAP["Sadrith Mora, Dirty Muriel's Cornerclub"] = CELL_CLUSTERS[668]
-CELL_CLUSTER_MAP["Maar Gan, Tashpi Ashibael's Hut"] = CELL_CLUSTERS[669]
-CELL_CLUSTER_MAP["Ramimilk, Shrine"] = CELL_CLUSTERS[670]
-CELL_CLUSTER_MAP["Vivec, St. Olms Canal South-Two"] = CELL_CLUSTERS[671]
-CELL_CLUSTER_MAP["Caldera, Mining Guard Tower"] = CELL_CLUSTERS[672]
-CELL_CLUSTER_MAP["Zainab Camp, Kummu's Yurt"] = CELL_CLUSTERS[673]
-CELL_CLUSTER_MAP["Sadrith Mora, Hleras Gidren's House"] = CELL_CLUSTERS[674]
-CELL_CLUSTER_MAP["Valenvaryon, Lurog's Hut"] = CELL_CLUSTERS[675]
-CELL_CLUSTER_MAP["Andrethi Ancestral Tomb"] = CELL_CLUSTERS[676]
-CELL_CLUSTER_MAP["Suran, Goldyn Belaram: Pawnbroker"] = CELL_CLUSTERS[677]
-CELL_CLUSTER_MAP["Balmora, Tyermaillin's House"] = CELL_CLUSTERS[678]
-CELL_CLUSTER_MAP["Suran, Suran Slave Market"] = CELL_CLUSTERS[679]
-CELL_CLUSTER_MAP["Sinarralit Egg Mine"] = CELL_CLUSTERS[680]
-CELL_CLUSTER_MAP["Tel Uvirith, Omavel's House"] = CELL_CLUSTERS[681]
-CELL_CLUSTER_MAP["Vivec, St. Delyn Canal North-Three"] = CELL_CLUSTERS[682]
-CELL_CLUSTER_MAP["Erabenimsun Camp, Assemmus' Yurt"] = CELL_CLUSTERS[683]
-CELL_CLUSTER_MAP["Arvel Manor, Storage Shack"] = CELL_CLUSTERS[684]
-CELL_CLUSTER_MAP["Releth Ancestral Tomb"] = CELL_CLUSTERS[685]
-CELL_CLUSTER_MAP["Masseranit"] = CELL_CLUSTERS[686]
-CELL_CLUSTER_MAP["Rotheran, Propylon Chamber"] = CELL_CLUSTERS[687]
-CELL_CLUSTER_MAP["Vivec, St. Delyn Canal South-One"] = CELL_CLUSTERS[688]
-CELL_CLUSTER_MAP["Andalen Ancestral Tomb"] = CELL_CLUSTERS[689]
-CELL_CLUSTER_MAP["Shashpilamat, Shrine"] = CELL_CLUSTERS[690]
-CELL_CLUSTER_MAP["Ularradallaku, Shrine"] = CELL_CLUSTERS[691]
-CELL_CLUSTER_MAP["Tel Mora, Elegnan: Clothier"] = CELL_CLUSTERS[692]
-CELL_CLUSTER_MAP["Vas, Tower"] = CELL_CLUSTERS[693]
-CELL_CLUSTER_MAP["Vas, Entry Level"] = CELL_CLUSTERS[693]
-CELL_CLUSTER_MAP["Piernette's Farmhouse"] = CELL_CLUSTERS[694]
-CELL_CLUSTER_MAP["Caldera, Guild of Mages"] = CELL_CLUSTERS[695]
-CELL_CLUSTER_MAP["Aralen Ancestral Tomb"] = CELL_CLUSTERS[696]
-CELL_CLUSTER_MAP["Drinith Ancestral Tomb"] = CELL_CLUSTERS[697]
-CELL_CLUSTER_MAP["Caldera, Dro'Shavir's House"] = CELL_CLUSTERS[698]
-CELL_CLUSTER_MAP["Beshara"] = CELL_CLUSTERS[699]
-CELL_CLUSTER_MAP["Vivec, St. Delyn Canal North-One"] = CELL_CLUSTERS[700]
-CELL_CLUSTER_MAP["Saturan"] = CELL_CLUSTERS[701]
-CELL_CLUSTER_MAP["Maar Gan, Andus Tradehouse"] = CELL_CLUSTERS[702]
-CELL_CLUSTER_MAP["Eretammus-Sennammu Egg Mine"] = CELL_CLUSTERS[703]
-CELL_CLUSTER_MAP["Pelagiad, Farusea Salas' House"] = CELL_CLUSTERS[704]
-CELL_CLUSTER_MAP["Marandus, Dome"] = CELL_CLUSTERS[705]
-CELL_CLUSTER_MAP["Shal"] = CELL_CLUSTERS[706]
-CELL_CLUSTER_MAP["Fair Helas, Cabin"] = CELL_CLUSTERS[707]
-CELL_CLUSTER_MAP["Maesa-Shammus Egg Mine"] = CELL_CLUSTERS[708]
-CELL_CLUSTER_MAP["Imperial Prison Ship"] = CELL_CLUSTERS[709]
-CELL_CLUSTER_MAP["Unknown Shipwreck, Cabin"] = CELL_CLUSTERS[710]
-CELL_CLUSTER_MAP["Hlervi Ancestral Tomb"] = CELL_CLUSTERS[711]
-CELL_CLUSTER_MAP["Sadrith Mora, Balen Vendu: Monk"] = CELL_CLUSTERS[712]
-CELL_CLUSTER_MAP["Hla Oad, Fadila Balvel's House"] = CELL_CLUSTERS[713]
-CELL_CLUSTER_MAP["Ebonheart, Six Fishes"] = CELL_CLUSTERS[714]
-CELL_CLUSTER_MAP["Ashmelech"] = CELL_CLUSTERS[715]
-CELL_CLUSTER_MAP["Urshilaku Camp, Sakiran's Yurt"] = CELL_CLUSTERS[716]
-CELL_CLUSTER_MAP["Salothran Ancestral Tomb"] = CELL_CLUSTERS[717]
-CELL_CLUSTER_MAP["Balmora, Dralosa Athren's House"] = CELL_CLUSTERS[718]
-CELL_CLUSTER_MAP["Band Egg Mine"] = CELL_CLUSTERS[719]
-CELL_CLUSTER_MAP["Falensarano, Propylon Chamber"] = CELL_CLUSTERS[720]
-CELL_CLUSTER_MAP["Sandus Ancestral Tomb"] = CELL_CLUSTERS[721]
-CELL_CLUSTER_MAP["Veloth Ancestral Tomb"] = CELL_CLUSTERS[722]
-CELL_CLUSTER_MAP["Almurbalarammi, Shrine"] = CELL_CLUSTERS[723]
-CELL_CLUSTER_MAP["Panabanit-Nimawia Egg Mine"] = CELL_CLUSTERS[724]
-CELL_CLUSTER_MAP["Ald-ruhn, Pellecia Aurrus's House"] = CELL_CLUSTERS[725]
-CELL_CLUSTER_MAP["Balmora, Dralasa Nithryon: Pawnbroker"] = CELL_CLUSTERS[726]
-CELL_CLUSTER_MAP["Bthuand"] = CELL_CLUSTERS[727]
-CELL_CLUSTER_MAP["Indalen Ancestral Tomb"] = CELL_CLUSTERS[728]
-CELL_CLUSTER_MAP["Falas Ancestral Tomb"] = CELL_CLUSTERS[729]
-CELL_CLUSTER_MAP["Arenim Ancestral Tomb"] = CELL_CLUSTERS[730]
-CELL_CLUSTER_MAP["Valenvaryon, Lambug's Hut"] = CELL_CLUSTERS[731]
-CELL_CLUSTER_MAP["Indarys Manor, Manor Services"] = CELL_CLUSTERS[732]
-CELL_CLUSTER_MAP["Salit Camp, Zalit's Yurt"] = CELL_CLUSTERS[733]
-CELL_CLUSTER_MAP["Ibar-Dad"] = CELL_CLUSTERS[734]
-CELL_CLUSTER_MAP["Urshilaku Camp, Zanummu's Yurt"] = CELL_CLUSTERS[735]
-CELL_CLUSTER_MAP["Erabenimsun Camp, Ashkhan's Yurt"] = CELL_CLUSTERS[736]
-CELL_CLUSTER_MAP["Ules Manor, Slave Shack"] = CELL_CLUSTERS[737]
-CELL_CLUSTER_MAP["Aryon Ancestral Tomb"] = CELL_CLUSTERS[738]
-CELL_CLUSTER_MAP["Hinnabi"] = CELL_CLUSTERS[739]
-CELL_CLUSTER_MAP["Vivec, St. Delyn Waist South-Two"] = CELL_CLUSTERS[740]
-CELL_CLUSTER_MAP["Sjorvar Horse-Mouth's House"] = CELL_CLUSTERS[741]
-CELL_CLUSTER_MAP["Sharapli"] = CELL_CLUSTERS[742]
-CELL_CLUSTER_MAP["Tel Vos, Aryon's Chambers"] = CELL_CLUSTERS[743]
-CELL_CLUSTER_MAP["Dren Plantation, Shipping House"] = CELL_CLUSTERS[744]
-CELL_CLUSTER_MAP["Zalkin Grotto"] = CELL_CLUSTERS[745]
-CELL_CLUSTER_MAP["Sadrith Mora, Anis Seloth: Alchemist"] = CELL_CLUSTERS[746]
-CELL_CLUSTER_MAP["Abaelun Mine"] = CELL_CLUSTERS[747]
-CELL_CLUSTER_MAP["Rethan Manor, Drelas' House"] = CELL_CLUSTERS[748]
-CELL_CLUSTER_MAP["Vos, Thilse Aralas's Farmhouse"] = CELL_CLUSTERS[749]
-CELL_CLUSTER_MAP["Indarys Manor"] = CELL_CLUSTERS[750]
-CELL_CLUSTER_MAP["Caldera, Valvius Mevureius' House"] = CELL_CLUSTERS[751]
-CELL_CLUSTER_MAP["Tel Aruhn, Upper Tower"] = CELL_CLUSTERS[752]
-CELL_CLUSTER_MAP["Tel Uvirith, Menas' House"] = CELL_CLUSTERS[753]
-CELL_CLUSTER_MAP["Odaishah"] = CELL_CLUSTERS[754]
-CELL_CLUSTER_MAP["Llando Ancestral Tomb"] = CELL_CLUSTERS[755]
-CELL_CLUSTER_MAP["Aran Ancestral Tomb"] = CELL_CLUSTERS[756]
-CELL_CLUSTER_MAP["Telasero, Propylon Chamber"] = CELL_CLUSTERS[757]
-CELL_CLUSTER_MAP["Balmora, Rarayn Radarys' House"] = CELL_CLUSTERS[758]
-CELL_CLUSTER_MAP["Vivec, St. Olms Canal North-One"] = CELL_CLUSTERS[759]
-CELL_CLUSTER_MAP["Elanius Camp, Yapal's Yurt"] = CELL_CLUSTERS[760]
-CELL_CLUSTER_MAP["Ules Manor, Slavemaster's Shack"] = CELL_CLUSTERS[761]
-CELL_CLUSTER_MAP["Maelu Egg Mine"] = CELL_CLUSTERS[762]
-CELL_CLUSTER_MAP["Remote Shipwreck, Cabin"] = CELL_CLUSTERS[763]
-CELL_CLUSTER_MAP["Venim Ancestral Tomb"] = CELL_CLUSTERS[764]
-CELL_CLUSTER_MAP["Ald-ruhn, The Rat In The Pot"] = CELL_CLUSTERS[765]
-CELL_CLUSTER_MAP["Vivec, St. Olms Canal South-Three"] = CELL_CLUSTERS[766]
-CELL_CLUSTER_MAP["Kunirai"] = CELL_CLUSTERS[767]
-CELL_CLUSTER_MAP["Balmora, Itan's House"] = CELL_CLUSTERS[768]
-CELL_CLUSTER_MAP["Arvel Manor, Slave Shack"] = CELL_CLUSTERS[769]
-CELL_CLUSTER_MAP["Aharunartus"] = CELL_CLUSTERS[770]
-CELL_CLUSTER_MAP["Missamsi"] = CELL_CLUSTERS[771]
-CELL_CLUSTER_MAP["Ald-ruhn, Galthragoth's House"] = CELL_CLUSTERS[772]
-CELL_CLUSTER_MAP["Yesamsi"] = CELL_CLUSTERS[773]
-CELL_CLUSTER_MAP["Sur Egg Mine"] = CELL_CLUSTERS[774]
-CELL_CLUSTER_MAP["Sha-Adnius"] = CELL_CLUSTERS[775]
-CELL_CLUSTER_MAP["Erabenimsun Camp, Wise Woman's Yurt"] = CELL_CLUSTERS[776]
-CELL_CLUSTER_MAP["Indarys Manor, Berendas' House"] = CELL_CLUSTERS[777]
-CELL_CLUSTER_MAP["Khuul, Aldi's Shack"] = CELL_CLUSTERS[778]
-CELL_CLUSTER_MAP["Hlormaren, Propylon Chamber"] = CELL_CLUSTERS[779]
-CELL_CLUSTER_MAP["Pelagiad, Dralas Gilu's House"] = CELL_CLUSTERS[780]
-CELL_CLUSTER_MAP["Kogoruhn, Dome of Pollock's Eve"] = CELL_CLUSTERS[781]
-CELL_CLUSTER_MAP["Addadshashanammu, Shrine"] = CELL_CLUSTERS[782]
-CELL_CLUSTER_MAP["Akimaes-Ilanipu Egg Mine"] = CELL_CLUSTERS[783]
-CELL_CLUSTER_MAP["Nchurdamz, Interior"] = CELL_CLUSTERS[784]
-CELL_CLUSTER_MAP["Rethandus Ancestral Tomb"] = CELL_CLUSTERS[785]
-CELL_CLUSTER_MAP["Maar Gan, Assi Serimilk's Hut"] = CELL_CLUSTERS[786]
-CELL_CLUSTER_MAP["Erabenimsun Camp, Salattanat's Yurt"] = CELL_CLUSTERS[787]
-CELL_CLUSTER_MAP["Shurinbaal"] = CELL_CLUSTERS[788]
-CELL_CLUSTER_MAP["Mannammu"] = CELL_CLUSTERS[789]
-CELL_CLUSTER_MAP["Vivec, St. Delyn Waist North-One"] = CELL_CLUSTERS[790]
-CELL_CLUSTER_MAP["Vos, Ulvil Llothas's Farmhouse"] = CELL_CLUSTERS[791]
-CELL_CLUSTER_MAP["Tel Branora, Fedar Davus's House"] = CELL_CLUSTERS[792]
-CELL_CLUSTER_MAP["Sadrith Mora, Vaden Belas' House"] = CELL_CLUSTERS[793]
-CELL_CLUSTER_MAP["Dissapla Mine"] = CELL_CLUSTERS[794]
-CELL_CLUSTER_MAP["Kogoruhn, Dome of Urso"] = CELL_CLUSTERS[795]
-CELL_CLUSTER_MAP["Tel Branora, Ervyna Hlervu's Shack"] = CELL_CLUSTERS[796]
-CELL_CLUSTER_MAP["Lonesome Shipwreck, Cabin"] = CELL_CLUSTERS[797]
-CELL_CLUSTER_MAP["Tusenend, Shrine"] = CELL_CLUSTERS[798]
-CELL_CLUSTER_MAP["Ald-ruhn, Ilmiril's House"] = CELL_CLUSTERS[799]
-CELL_CLUSTER_MAP["Ald-ruhn, Dravasa Andrethi's House"] = CELL_CLUSTERS[800]
-CELL_CLUSTER_MAP["Khuul, Miron Garer's Shack"] = CELL_CLUSTERS[801]
-CELL_CLUSTER_MAP["Ahemmusa Camp, Assamma-Idan's Yurt"] = CELL_CLUSTERS[802]
-CELL_CLUSTER_MAP["Tel Branora, Fadase Selvayn: Trader"] = CELL_CLUSTERS[803]
-CELL_CLUSTER_MAP["Ald-ruhn, Codus Callonus: Bookseller"] = CELL_CLUSTERS[804]
-CELL_CLUSTER_MAP["Yansirramus, Shrine"] = CELL_CLUSTERS[805]
-CELL_CLUSTER_MAP["Vivec, St. Delyn Canal South-Three"] = CELL_CLUSTERS[806]
-CELL_CLUSTER_MAP["Senim Ancestral Tomb"] = CELL_CLUSTERS[807]
-CELL_CLUSTER_MAP["Rotheran, Arena"] = CELL_CLUSTERS[808]
-CELL_CLUSTER_MAP["Aleft"] = CELL_CLUSTERS[809]
-CELL_CLUSTER_MAP["Shashmanu Camp, Anit's Yurt"] = CELL_CLUSTERS[810]
-CELL_CLUSTER_MAP["Zebabi"] = CELL_CLUSTERS[811]
-CELL_CLUSTER_MAP["Kumarahaz"] = CELL_CLUSTERS[812]
-CELL_CLUSTER_MAP["Gnisis, Madach Tradehouse"] = CELL_CLUSTERS[813]
-CELL_CLUSTER_MAP["Grytewake, Cabin"] = CELL_CLUSTERS[814]
-CELL_CLUSTER_MAP["Erabenimsun Camp, Ashu-Ahhe's Yurt"] = CELL_CLUSTERS[815]
-CELL_CLUSTER_MAP["Shishara"] = CELL_CLUSTERS[816]
-CELL_CLUSTER_MAP["Kogoruhn, Temple of Fey"] = CELL_CLUSTERS[817]
-CELL_CLUSTER_MAP["Unexplored Shipwreck, Cabin"] = CELL_CLUSTERS[818]
-CELL_CLUSTER_MAP["Massama Cave"] = CELL_CLUSTERS[819]
+CELL_CLUSTER_MAP["Ainab"] = CELL_CLUSTERS[67]
+CELL_CLUSTER_MAP["Ainab, Shrine"] = CELL_CLUSTERS[67]
+CELL_CLUSTER_MAP["Suran, Ibarnadad Assirnarari: Apothecary"] = CELL_CLUSTERS[68]
+CELL_CLUSTER_MAP["Assarnud"] = CELL_CLUSTERS[69]
+CELL_CLUSTER_MAP["Vivec, Black Shalk Cornerclub"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Vivec, Jeanne: Trader"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Vivec, Jobasha's Rare Books"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Vivec, Agrippina Herennia: Clothier"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Vivec, Foreign Quarter Canalworks"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Vivec, Andilu Drothan: Alchemist"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Vivec, Simine Fralinie: Bookseller"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Vivec, Foreign Quarter Upper Waistworks"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Vivec, Aurane Frernis: Apothecary"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Vivec, Foreign Quarter Tomb"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Vivec, J'Rasha: Healer"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Vivec, Foreign Quarter Lower Waistworks"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Vivec, Foreign Quarter Underworks"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Vivec, Miun-Gei: Enchanter"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Ibishammus, Shrine"] = CELL_CLUSTERS[70]
+CELL_CLUSTER_MAP["Subdun, Shrine"] = CELL_CLUSTERS[71]
+CELL_CLUSTER_MAP["Subdun"] = CELL_CLUSTERS[71]
+CELL_CLUSTER_MAP["Balmora, Hlaalu Council Manor"] = CELL_CLUSTERS[72]
+CELL_CLUSTER_MAP["Vivec, Hlaren Residence"] = CELL_CLUSTERS[73]
+CELL_CLUSTER_MAP["Vivec, Temporary Telvanni Housing"] = CELL_CLUSTERS[73]
+CELL_CLUSTER_MAP["Vivec, Telvanni Prison Cells"] = CELL_CLUSTERS[73]
+CELL_CLUSTER_MAP["Vivec, Telvanni Plaza"] = CELL_CLUSTERS[73]
+CELL_CLUSTER_MAP["Vivec, Telvanni Upper Storage"] = CELL_CLUSTERS[73]
+CELL_CLUSTER_MAP["Vivec, Telvanni Vault"] = CELL_CLUSTERS[73]
+CELL_CLUSTER_MAP["Vivec, Telvanni Tower"] = CELL_CLUSTERS[73]
+CELL_CLUSTER_MAP["Tel Vos, Services Tower"] = CELL_CLUSTERS[74]
+CELL_CLUSTER_MAP["Gnaar Mok, Anglalos's Shack"] = CELL_CLUSTERS[75]
+CELL_CLUSTER_MAP["Arvel Manor"] = CELL_CLUSTERS[76]
+CELL_CLUSTER_MAP["Urshilaku Camp, Shara's Yurt"] = CELL_CLUSTERS[77]
+CELL_CLUSTER_MAP["Balmora, Nalcarya of White Haven: Fine Alchemist"] = CELL_CLUSTERS[78]
+CELL_CLUSTER_MAP["Nchardahrk"] = CELL_CLUSTERS[79]
+CELL_CLUSTER_MAP["Vivec, St. Delyn Waist South-One"] = CELL_CLUSTERS[80]
+CELL_CLUSTER_MAP["Buckmoth Legion Fort, Towers"] = CELL_CLUSTERS[81]
+CELL_CLUSTER_MAP["Buckmoth Legion Fort, Prison"] = CELL_CLUSTERS[81]
+CELL_CLUSTER_MAP["Buckmoth Legion Fort, Interior"] = CELL_CLUSTERS[81]
+CELL_CLUSTER_MAP["Telasero, Upper Level"] = CELL_CLUSTERS[82]
+CELL_CLUSTER_MAP["Telasero, Lower Level"] = CELL_CLUSTERS[82]
+CELL_CLUSTER_MAP["Omaren Ancestral Tomb"] = CELL_CLUSTERS[83]
+CELL_CLUSTER_MAP["Forgotten Vaults of Anudnabia, Forge of Hilbongard"] = CELL_CLUSTERS[83]
+CELL_CLUSTER_MAP["Ald Sotha, Shrine"] = CELL_CLUSTERS[84]
+CELL_CLUSTER_MAP["Ald Sotha, Lower Level"] = CELL_CLUSTERS[84]
+CELL_CLUSTER_MAP["Ald Sotha, Upper Level"] = CELL_CLUSTERS[84]
+CELL_CLUSTER_MAP["Nchuleftingth, Upper Levels"] = CELL_CLUSTERS[85]
+CELL_CLUSTER_MAP["Nchuleftingth, Lower Levels"] = CELL_CLUSTERS[85]
+CELL_CLUSTER_MAP["Nchuleftingth, Test of Pattern"] = CELL_CLUSTERS[85]
+CELL_CLUSTER_MAP["Unknown Shipwreck, Lower Level"] = CELL_CLUSTERS[86]
+CELL_CLUSTER_MAP["Unknown Shipwreck, Upper Level"] = CELL_CLUSTERS[86]
+CELL_CLUSTER_MAP["Sandas Ancestral Tomb"] = CELL_CLUSTERS[87]
+CELL_CLUSTER_MAP["Nammu"] = CELL_CLUSTERS[88]
+CELL_CLUSTER_MAP["Urshilaku, Laterus Burial"] = CELL_CLUSTERS[89]
+CELL_CLUSTER_MAP["Urshilaku, Karma Burial"] = CELL_CLUSTERS[89]
+CELL_CLUSTER_MAP["Urshilaku, Juno Burial"] = CELL_CLUSTERS[89]
+CELL_CLUSTER_MAP["Urshilaku, Kakuna Burial"] = CELL_CLUSTERS[89]
+CELL_CLUSTER_MAP["Urshilaku, Kefka Burial"] = CELL_CLUSTERS[89]
+CELL_CLUSTER_MAP["Urshilaku, Fragile Burial"] = CELL_CLUSTERS[89]
+CELL_CLUSTER_MAP["Urshilaku, Astral Burial"] = CELL_CLUSTERS[89]
+CELL_CLUSTER_MAP["Maar Gan, Garry's Hut"] = CELL_CLUSTERS[90]
+CELL_CLUSTER_MAP["Gnisis, Yahaz Hut"] = CELL_CLUSTERS[91]
+CELL_CLUSTER_MAP["Suran, Guard Tower"] = CELL_CLUSTERS[92]
+CELL_CLUSTER_MAP["Telvayn Ancestral Tomb"] = CELL_CLUSTERS[93]
+CELL_CLUSTER_MAP["Tower of Tel Fyr, Onyx Hall"] = CELL_CLUSTERS[94]
+CELL_CLUSTER_MAP["Corprusarium"] = CELL_CLUSTERS[94]
+CELL_CLUSTER_MAP["Corprusarium Bowels"] = CELL_CLUSTERS[94]
+CELL_CLUSTER_MAP["Tower of Tel Fyr, Hall of Fyr"] = CELL_CLUSTERS[94]
+CELL_CLUSTER_MAP["Vivec, Puzzle Canal, Center"] = CELL_CLUSTERS[95]
+CELL_CLUSTER_MAP["Vivec, Puzzle Canal, Level 3"] = CELL_CLUSTERS[95]
+CELL_CLUSTER_MAP["Gnisis, Vabdas Hut"] = CELL_CLUSTERS[96]
+CELL_CLUSTER_MAP["Bal Fell, Inner Shrine"] = CELL_CLUSTERS[97]
+CELL_CLUSTER_MAP["Bal Fell, Outer Shrine"] = CELL_CLUSTERS[97]
+CELL_CLUSTER_MAP["Bal Fell, East Wing"] = CELL_CLUSTERS[97]
+CELL_CLUSTER_MAP["Bal Fell, West Wing"] = CELL_CLUSTERS[97]
+CELL_CLUSTER_MAP["Balmora, Eight Plates"] = CELL_CLUSTERS[98]
+CELL_CLUSTER_MAP["Tel Branora, Tower Dungeon"] = CELL_CLUSTERS[99]
+CELL_CLUSTER_MAP["Tel Branora, Lower Tower"] = CELL_CLUSTERS[99]
+CELL_CLUSTER_MAP["Tel Branora, Upper Tower"] = CELL_CLUSTERS[99]
+CELL_CLUSTER_MAP["Tel Branora, Upper Tower: Therana's Chamber"] = CELL_CLUSTERS[99]
+CELL_CLUSTER_MAP["Mzahnch"] = CELL_CLUSTERS[100]
+CELL_CLUSTER_MAP["Mzahnch Lower Level"] = CELL_CLUSTERS[100]
+CELL_CLUSTER_MAP["Heleran Ancestral Tomb"] = CELL_CLUSTERS[101]
+CELL_CLUSTER_MAP["Caldera, Nedhelas' House"] = CELL_CLUSTERS[101]
+CELL_CLUSTER_MAP["Sadrith Mora, Llaalam Madalas: Mage"] = CELL_CLUSTERS[102]
+CELL_CLUSTER_MAP["Ginith Ancestral Tomb"] = CELL_CLUSTERS[103]
+CELL_CLUSTER_MAP["Gnisis, Barracks"] = CELL_CLUSTERS[104]
+CELL_CLUSTER_MAP["Andavel Ancestral Tomb"] = CELL_CLUSTERS[105]
+CELL_CLUSTER_MAP["Shulk Egg Mine"] = CELL_CLUSTERS[106]
+CELL_CLUSTER_MAP["Shulk Egg Mine, Queen's Lair"] = CELL_CLUSTERS[106]
+CELL_CLUSTER_MAP["Shulk Egg Mine, Mining Camp"] = CELL_CLUSTERS[106]
+CELL_CLUSTER_MAP["Sulipund"] = CELL_CLUSTERS[107]
+CELL_CLUSTER_MAP["Kaushtababi Camp, Adibael's Yurt"] = CELL_CLUSTERS[108]
+CELL_CLUSTER_MAP["Marandus, Lower Level"] = CELL_CLUSTERS[109]
+CELL_CLUSTER_MAP["Marandus, Upper Level"] = CELL_CLUSTERS[109]
+CELL_CLUSTER_MAP["Assumanu"] = CELL_CLUSTERS[110]
+CELL_CLUSTER_MAP["Maar Gan, Yeherradad's Hut"] = CELL_CLUSTERS[111]
+CELL_CLUSTER_MAP["Yasamsi"] = CELL_CLUSTERS[112]
+CELL_CLUSTER_MAP["Molag Mar, St. Veloth's Hostel"] = CELL_CLUSTERS[113]
+CELL_CLUSTER_MAP["Arano Plantation"] = CELL_CLUSTERS[114]
+CELL_CLUSTER_MAP["Nund"] = CELL_CLUSTERS[115]
+CELL_CLUSTER_MAP["Addamasartus"] = CELL_CLUSTERS[116]
+CELL_CLUSTER_MAP["Ahanibi-Malmus Egg Mine"] = CELL_CLUSTERS[117]
+CELL_CLUSTER_MAP["Seyda Neen, Fargoth's House"] = CELL_CLUSTERS[118]
+CELL_CLUSTER_MAP["Yakin"] = CELL_CLUSTERS[119]
+CELL_CLUSTER_MAP["Yakin, Shrine"] = CELL_CLUSTERS[119]
+CELL_CLUSTER_MAP["Caldera, Mining Bunkhouse"] = CELL_CLUSTERS[120]
+CELL_CLUSTER_MAP["Ashalmawia, Shrine"] = CELL_CLUSTERS[121]
+CELL_CLUSTER_MAP["Ashalmawia, Shrine, Sunken Vaults"] = CELL_CLUSTERS[121]
+CELL_CLUSTER_MAP["Ilunibi, Blackened Heart"] = CELL_CLUSTERS[122]
+CELL_CLUSTER_MAP["Ilunibi, Tainted Marrow"] = CELL_CLUSTERS[122]
+CELL_CLUSTER_MAP["Ilunibi, Soul's Rattle"] = CELL_CLUSTERS[122]
+CELL_CLUSTER_MAP["Ilunibi, Marowak's Spine"] = CELL_CLUSTERS[122]
+CELL_CLUSTER_MAP["Ilunibi, Carcass of the Saint"] = CELL_CLUSTERS[122]
+CELL_CLUSTER_MAP["Indoranyon, Propylon Chamber"] = CELL_CLUSTERS[123]
+CELL_CLUSTER_MAP["Molag Mar, Temple"] = CELL_CLUSTERS[124]
+CELL_CLUSTER_MAP["Sadrith Mora, Thervul Serethi: Healer"] = CELL_CLUSTERS[125]
+CELL_CLUSTER_MAP["Obscure Shipwreck, Upper Level"] = CELL_CLUSTERS[126]
+CELL_CLUSTER_MAP["Obscure Shipwreck, Lower Level"] = CELL_CLUSTERS[126]
+CELL_CLUSTER_MAP["Seyda Neen, Indrele Rathryon's Shack"] = CELL_CLUSTERS[127]
+CELL_CLUSTER_MAP["Sadrith Mora, Telvanni Council House"] = CELL_CLUSTERS[128]
+CELL_CLUSTER_MAP["Sadrith Mora, Telvanni Council House, Hermitage"] = CELL_CLUSTERS[128]
+CELL_CLUSTER_MAP["Sadrith Mora, Telvanni Council House, Entry"] = CELL_CLUSTERS[128]
+CELL_CLUSTER_MAP["Sadrith Mora, Telvanni Council House, Chambers"] = CELL_CLUSTERS[128]
+CELL_CLUSTER_MAP["Sanit, Shrine"] = CELL_CLUSTERS[129]
+CELL_CLUSTER_MAP["Sanit"] = CELL_CLUSTERS[129]
+CELL_CLUSTER_MAP["Arrow, Lower Level"] = CELL_CLUSTERS[130]
+CELL_CLUSTER_MAP["Arrow, Upper Level"] = CELL_CLUSTERS[130]
+CELL_CLUSTER_MAP["Dagoth Ur, Facility Cavern"] = CELL_CLUSTERS[131]
+CELL_CLUSTER_MAP["Dagoth Ur, Outer Facility"] = CELL_CLUSTERS[131]
+CELL_CLUSTER_MAP["Akulakhan's Chamber"] = CELL_CLUSTERS[131]
+CELL_CLUSTER_MAP["Dagoth Ur, Inner Tower"] = CELL_CLUSTERS[131]
+CELL_CLUSTER_MAP["Dagoth Ur, Lower Facility"] = CELL_CLUSTERS[131]
+CELL_CLUSTER_MAP["Dagoth Ur, Inner Facility"] = CELL_CLUSTERS[131]
+CELL_CLUSTER_MAP["Abinabi"] = CELL_CLUSTERS[132]
+CELL_CLUSTER_MAP["Clutter Warehouse - Everything Must Go!"] = CELL_CLUSTERS[133]
+CELL_CLUSTER_MAP["Big Head's Shack"] = CELL_CLUSTERS[134]
+CELL_CLUSTER_MAP["Vivec, Palace of Vivec"] = CELL_CLUSTERS[135]
+CELL_CLUSTER_MAP["Ashirbadon"] = CELL_CLUSTERS[136]
+CELL_CLUSTER_MAP["Suran, Desele's House of Earthly Delights"] = CELL_CLUSTERS[137]
+CELL_CLUSTER_MAP["Assemanu"] = CELL_CLUSTERS[138]
+CELL_CLUSTER_MAP["Assemanu, Shrine"] = CELL_CLUSTERS[138]
+CELL_CLUSTER_MAP["Abandoned Shipwreck, Upper Level"] = CELL_CLUSTERS[139]
+CELL_CLUSTER_MAP["Abandoned Shipwreck, Lower Level"] = CELL_CLUSTERS[139]
+CELL_CLUSTER_MAP["Cavern of the Incarnate"] = CELL_CLUSTERS[140]
+CELL_CLUSTER_MAP["Aharnabi"] = CELL_CLUSTERS[141]
+CELL_CLUSTER_MAP["Mudan, Lost Dwemer Checkpoint"] = CELL_CLUSTERS[142]
+CELL_CLUSTER_MAP["Mudan Grotto"] = CELL_CLUSTERS[142]
+CELL_CLUSTER_MAP["Mudan, Central Vault"] = CELL_CLUSTERS[142]
+CELL_CLUSTER_MAP["Mudan, Right Tower"] = CELL_CLUSTERS[142]
+CELL_CLUSTER_MAP["Nilera's Farmhouse"] = CELL_CLUSTERS[143]
+CELL_CLUSTER_MAP["Ashalmimilkala, Shrine"] = CELL_CLUSTERS[144]
+CELL_CLUSTER_MAP["Mallapi"] = CELL_CLUSTERS[145]
+CELL_CLUSTER_MAP["Gnisis, Shishara Hut"] = CELL_CLUSTERS[146]
+CELL_CLUSTER_MAP["Elf-Skerring, Cabin"] = CELL_CLUSTERS[147]
+CELL_CLUSTER_MAP["Tel Branora, Galen Berer: Armorer"] = CELL_CLUSTERS[148]
+CELL_CLUSTER_MAP["Pinsun"] = CELL_CLUSTERS[149]
+CELL_CLUSTER_MAP["Sennananit"] = CELL_CLUSTERS[150]
+CELL_CLUSTER_MAP["Falensarano, Upper Level"] = CELL_CLUSTERS[151]
+CELL_CLUSTER_MAP["Falensarano, Lower Level"] = CELL_CLUSTERS[151]
+CELL_CLUSTER_MAP["Urshilaku Camp, Maeli's Yurt"] = CELL_CLUSTERS[152]
+CELL_CLUSTER_MAP["Vivec, St. Olms Waist North-Two"] = CELL_CLUSTERS[153]
+CELL_CLUSTER_MAP["Ald-ruhn, Guild of Fighters"] = CELL_CLUSTERS[154]
+CELL_CLUSTER_MAP["Arys Ancestral Tomb"] = CELL_CLUSTERS[155]
+CELL_CLUSTER_MAP["Mzanchend"] = CELL_CLUSTERS[156]
+CELL_CLUSTER_MAP["Dagon Fel, The End of the World"] = CELL_CLUSTERS[157]
+CELL_CLUSTER_MAP["Dagon Fel, End of the World Renter Rooms"] = CELL_CLUSTERS[157]
+CELL_CLUSTER_MAP["Maar Gan, Guard Tower 1"] = CELL_CLUSTERS[158]
+CELL_CLUSTER_MAP["Hassour"] = CELL_CLUSTERS[159]
+CELL_CLUSTER_MAP["Hassour, Shrine"] = CELL_CLUSTERS[159]
+CELL_CLUSTER_MAP["Indarys Manor, Raram's House"] = CELL_CLUSTERS[160]
+CELL_CLUSTER_MAP["Seyda Neen, Lighthouse"] = CELL_CLUSTERS[161]
+CELL_CLUSTER_MAP["Gnaar Mok, Nadene Rotheran's Shack"] = CELL_CLUSTERS[162]
+CELL_CLUSTER_MAP["Dagon Fel, Anja Swift-Sailer's House"] = CELL_CLUSTERS[163]
+CELL_CLUSTER_MAP["Gnaar Mok, Druegh-jigger's Rest"] = CELL_CLUSTERS[164]
+CELL_CLUSTER_MAP["Tel Mora, Kirsty's House"] = CELL_CLUSTERS[165]
+CELL_CLUSTER_MAP["Andasreth, Propylon Chamber"] = CELL_CLUSTERS[166]
+CELL_CLUSTER_MAP["Salothan Ancestral Tomb"] = CELL_CLUSTERS[167]
+CELL_CLUSTER_MAP["Suran, Ralds Oril: Trader"] = CELL_CLUSTERS[168]
+CELL_CLUSTER_MAP["Valenvaryon, Durz's Hut"] = CELL_CLUSTERS[169]
+CELL_CLUSTER_MAP["Sadrith Mora, Madran Ulvel's House"] = CELL_CLUSTERS[170]
+CELL_CLUSTER_MAP["Pudai Egg Mine, Queen's Lair"] = CELL_CLUSTERS[171]
+CELL_CLUSTER_MAP["Pudai Egg Mine"] = CELL_CLUSTERS[171]
+CELL_CLUSTER_MAP["Pelagiad, Halfway Tavern"] = CELL_CLUSTERS[172]
+CELL_CLUSTER_MAP["Seyda Neen, Vodunius Nuccius' House"] = CELL_CLUSTERS[173]
+CELL_CLUSTER_MAP["Sanni"] = CELL_CLUSTERS[174]
+CELL_CLUSTER_MAP["Sarimisun-Assa Egg Mine"] = CELL_CLUSTERS[175]
+CELL_CLUSTER_MAP["Sarimisun-Assa Egg Mine, Queen's Lair"] = CELL_CLUSTERS[175]
+CELL_CLUSTER_MAP["Chun-Ook, Upper Level"] = CELL_CLUSTERS[176]
+CELL_CLUSTER_MAP["Chun-Ook, Lower Level"] = CELL_CLUSTERS[176]
+CELL_CLUSTER_MAP["Dushariran, Shrine"] = CELL_CLUSTERS[177]
+CELL_CLUSTER_MAP["Balmora, Balyn Omarel's House"] = CELL_CLUSTERS[178]
+CELL_CLUSTER_MAP["Piran"] = CELL_CLUSTERS[179]
+CELL_CLUSTER_MAP["Nerano Ancestral Tomb"] = CELL_CLUSTERS[180]
+CELL_CLUSTER_MAP["Vos, Maela Kaushad's Farmhouse"] = CELL_CLUSTERS[181]
+CELL_CLUSTER_MAP["Madas Grotto"] = CELL_CLUSTERS[182]
+CELL_CLUSTER_MAP["Unchartered Shipwreck, Cabin"] = CELL_CLUSTERS[183]
+CELL_CLUSTER_MAP["Tel Uvirith, Tower Lower"] = CELL_CLUSTERS[184]
+CELL_CLUSTER_MAP["Tel Uvirith, Tower Upper"] = CELL_CLUSTERS[184]
+CELL_CLUSTER_MAP["Tel Uvirith, Tower Dungeon"] = CELL_CLUSTERS[184]
+CELL_CLUSTER_MAP["Gnisis, Eggmine"] = CELL_CLUSTERS[185]
+CELL_CLUSTER_MAP["Gnisis, Lower Eggmine"] = CELL_CLUSTERS[185]
+CELL_CLUSTER_MAP["Gnisis, Underground Stream"] = CELL_CLUSTERS[185]
+CELL_CLUSTER_MAP["Gnisis, Bethamez"] = CELL_CLUSTERS[185]
+CELL_CLUSTER_MAP["Dulo Ancestral Tomb"] = CELL_CLUSTERS[186]
+CELL_CLUSTER_MAP["Randas Ancestral Tomb"] = CELL_CLUSTERS[187]
+CELL_CLUSTER_MAP["Lost Shipwreck, Upper Level"] = CELL_CLUSTERS[188]
+CELL_CLUSTER_MAP["Lost Shipwreck, Lower Level"] = CELL_CLUSTERS[188]
+CELL_CLUSTER_MAP["Assurdirapal, Shrine"] = CELL_CLUSTERS[189]
+CELL_CLUSTER_MAP["Assurdirapal, Inner Shrine"] = CELL_CLUSTERS[189]
+CELL_CLUSTER_MAP["Shishi"] = CELL_CLUSTERS[190]
+CELL_CLUSTER_MAP["Gnisis, Mantiti Cave Dwelling"] = CELL_CLUSTERS[191]
+CELL_CLUSTER_MAP["Eluba-Addon Egg Mine"] = CELL_CLUSTERS[192]
+CELL_CLUSTER_MAP["Seyda Neen, Erene Llenim's Shack"] = CELL_CLUSTERS[193]
+CELL_CLUSTER_MAP["Dagon Fel, Fjorrod's House"] = CELL_CLUSTERS[194]
+CELL_CLUSTER_MAP["Bensamsi"] = CELL_CLUSTERS[195]
+CELL_CLUSTER_MAP["Shrine of Azura"] = CELL_CLUSTERS[196]
+CELL_CLUSTER_MAP["Tel Aruhn, Aryne Telnim: Smith"] = CELL_CLUSTERS[197]
+CELL_CLUSTER_MAP["Khuul, Thongar's Tradehouse"] = CELL_CLUSTERS[198]
+CELL_CLUSTER_MAP["Balmora, Drarayne Thelas' Storage"] = CELL_CLUSTERS[199]
+CELL_CLUSTER_MAP["Ebernanit, Shrine"] = CELL_CLUSTERS[200]
+CELL_CLUSTER_MAP["Uncharted Shipwreck, Lower Level"] = CELL_CLUSTERS[201]
+CELL_CLUSTER_MAP["Unchartered Shipwreck, Upper Level"] = CELL_CLUSTERS[201]
+CELL_CLUSTER_MAP["Seyda Neen, Terurise Girvayne's House"] = CELL_CLUSTERS[202]
+CELL_CLUSTER_MAP["Raviro Ancestral Tomb"] = CELL_CLUSTERS[203]
+CELL_CLUSTER_MAP["Ald-ruhn, Daynes Redothril: Pawnbroker"] = CELL_CLUSTERS[204]
+CELL_CLUSTER_MAP["Tureynulal, Bladder of Clovis"] = CELL_CLUSTERS[205]
+CELL_CLUSTER_MAP["Tureynulal, Eye of Duggan"] = CELL_CLUSTERS[205]
+CELL_CLUSTER_MAP["Tureynulal, Eye of Thom Wye"] = CELL_CLUSTERS[205]
+CELL_CLUSTER_MAP["Tureynulal, Kagrenac's Library"] = CELL_CLUSTERS[205]
+CELL_CLUSTER_MAP["Tel Vos, Central Tower"] = CELL_CLUSTERS[206]
+CELL_CLUSTER_MAP["Hlormaren, Sewers"] = CELL_CLUSTERS[207]
+CELL_CLUSTER_MAP["Hlormaren, Keep, Bottom Level"] = CELL_CLUSTERS[207]
+CELL_CLUSTER_MAP["Hlormaren, Underground"] = CELL_CLUSTERS[207]
+CELL_CLUSTER_MAP["Hlormaren, Keep, Top Level"] = CELL_CLUSTERS[207]
+CELL_CLUSTER_MAP["Vos, Fanisea Irano's Farmhouse"] = CELL_CLUSTERS[208]
+CELL_CLUSTER_MAP["Ancient Shipwreck, Lower Level"] = CELL_CLUSTERS[209]
+CELL_CLUSTER_MAP["Ancient Shipwreck, Upper Level"] = CELL_CLUSTERS[209]
+CELL_CLUSTER_MAP["Caldera, Falanaamo: Clothier"] = CELL_CLUSTERS[210]
+CELL_CLUSTER_MAP["Helan Ancestral Tomb"] = CELL_CLUSTERS[211]
+CELL_CLUSTER_MAP["Tel Mora, The Covenant"] = CELL_CLUSTERS[212]
+CELL_CLUSTER_MAP["Derelict Shipwreck, Cabin"] = CELL_CLUSTERS[213]
+CELL_CLUSTER_MAP["Balmora, Caius Cosades' House"] = CELL_CLUSTERS[214]
+CELL_CLUSTER_MAP["Vemynal, Hall of Torque"] = CELL_CLUSTERS[215]
+CELL_CLUSTER_MAP["Vemynal, Outer Fortress"] = CELL_CLUSTERS[215]
+CELL_CLUSTER_MAP["Falvillo's Endeavor, Cabin"] = CELL_CLUSTERS[216]
+CELL_CLUSTER_MAP["Vivec, Puzzle Canal, Level 2"] = CELL_CLUSTERS[217]
+CELL_CLUSTER_MAP["Dagon Fel, Greidil Half-Troll's House"] = CELL_CLUSTERS[218]
+CELL_CLUSTER_MAP["Tel Mora, Berwen: Trader"] = CELL_CLUSTERS[219]
+CELL_CLUSTER_MAP["Erabenimsun Camp, Addut-Lamanu's Yurt"] = CELL_CLUSTERS[220]
+CELL_CLUSTER_MAP["Tel Aruhn, Underground"] = CELL_CLUSTERS[221]
+CELL_CLUSTER_MAP["Sadrith Mora, Urtiso Faryon: Sorcerer"] = CELL_CLUSTERS[222]
+CELL_CLUSTER_MAP["Omalen Ancestral Tomb"] = CELL_CLUSTERS[223]
+CELL_CLUSTER_MAP["Arkngthunch-Sturdumz"] = CELL_CLUSTERS[224]
+CELL_CLUSTER_MAP["Seyda Neen, Draren Thiralas' House"] = CELL_CLUSTERS[225]
+CELL_CLUSTER_MAP["Alen Ancestral Tomb"] = CELL_CLUSTERS[226]
+CELL_CLUSTER_MAP["Nchardumz"] = CELL_CLUSTERS[227]
+CELL_CLUSTER_MAP["Nchardumz Lower Level"] = CELL_CLUSTERS[227]
+CELL_CLUSTER_MAP["Alof's Farmhouse"] = CELL_CLUSTERS[228]
+CELL_CLUSTER_MAP["Lonely Shipwreck, Lower Level"] = CELL_CLUSTERS[229]
+CELL_CLUSTER_MAP["Lonely Shipwreck, Upper Level"] = CELL_CLUSTERS[229]
+CELL_CLUSTER_MAP["Verelnim Ancestral Tomb"] = CELL_CLUSTERS[230]
+CELL_CLUSTER_MAP["Ahemmusa Camp, Nummu's Yurt"] = CELL_CLUSTERS[231]
+CELL_CLUSTER_MAP["Pelagiad, Uulernil : Armorer"] = CELL_CLUSTERS[232]
+CELL_CLUSTER_MAP["Gnisis, Temple"] = CELL_CLUSTERS[233]
+CELL_CLUSTER_MAP["Mamaea, Shrine of Pitted Dreams"] = CELL_CLUSTERS[234]
+CELL_CLUSTER_MAP["Mamaea, Sanctum of Black Hope"] = CELL_CLUSTERS[234]
+CELL_CLUSTER_MAP["Mamaea, Sanctum of Awakening"] = CELL_CLUSTERS[234]
+CELL_CLUSTER_MAP["Aidanat Camp, Abassel's Yurt"] = CELL_CLUSTERS[235]
+CELL_CLUSTER_MAP["Indoranyon"] = CELL_CLUSTERS[236]
+CELL_CLUSTER_MAP["Shushishi"] = CELL_CLUSTERS[237]
+CELL_CLUSTER_MAP["Assurnabitashpi, Shrine"] = CELL_CLUSTERS[238]
+CELL_CLUSTER_MAP["Mat"] = CELL_CLUSTERS[239]
+CELL_CLUSTER_MAP["Marandus, Propylon Chamber"] = CELL_CLUSTERS[240]
+CELL_CLUSTER_MAP["Tel Aruhn, Maren Uvaren: Enchanter"] = CELL_CLUSTERS[241]
+CELL_CLUSTER_MAP["Pelagiad, Madres Navur's House"] = CELL_CLUSTERS[242]
+CELL_CLUSTER_MAP["Caldera, Ghorak Manor"] = CELL_CLUSTERS[243]
+CELL_CLUSTER_MAP["Lleran Ancestral Tomb"] = CELL_CLUSTERS[244]
+CELL_CLUSTER_MAP["Sadrith Mora, Urtisa Romayn's House"] = CELL_CLUSTERS[245]
+CELL_CLUSTER_MAP["Balmora, Karlirah's House"] = CELL_CLUSTERS[246]
+CELL_CLUSTER_MAP["Ebonheart, East Empire Company Hall"] = CELL_CLUSTERS[247]
+CELL_CLUSTER_MAP["Ald-ruhn, Guard Tower 1"] = CELL_CLUSTERS[248]
+CELL_CLUSTER_MAP["Helas Ancestral Tomb"] = CELL_CLUSTERS[249]
+CELL_CLUSTER_MAP["Vivec, St. Olms Waist South-Two"] = CELL_CLUSTERS[250]
+CELL_CLUSTER_MAP["Prelude Shipwreck, Cabin"] = CELL_CLUSTERS[251]
+CELL_CLUSTER_MAP["Moonmoth Legion Fort, Interior"] = CELL_CLUSTERS[252]
+CELL_CLUSTER_MAP["Moonmoth Legion Fort, Prison Towers"] = CELL_CLUSTERS[252]
+CELL_CLUSTER_MAP["Falasmaryon, Sewers"] = CELL_CLUSTERS[253]
+CELL_CLUSTER_MAP["Falasmaryon, Upper Level"] = CELL_CLUSTERS[253]
+CELL_CLUSTER_MAP["Falasmaryon, Lower Level"] = CELL_CLUSTERS[253]
+CELL_CLUSTER_MAP["Tin-Ahhe"] = CELL_CLUSTERS[254]
+CELL_CLUSTER_MAP["Maar Gan, Assirari Zama-Rasour's Hut"] = CELL_CLUSTERS[255]
+CELL_CLUSTER_MAP["Habinbaes"] = CELL_CLUSTERS[256]
+CELL_CLUSTER_MAP["Rethan Manor, Tures' House"] = CELL_CLUSTERS[257]
+CELL_CLUSTER_MAP["Balmora, Nerano Manor"] = CELL_CLUSTERS[258]
+CELL_CLUSTER_MAP["Vos, Mandyn Ralas's Farmhouse"] = CELL_CLUSTERS[259]
+CELL_CLUSTER_MAP["Dagon Fel, Watch Tower"] = CELL_CLUSTERS[260]
+CELL_CLUSTER_MAP["Salvel Ancestral Tomb"] = CELL_CLUSTERS[261]
+CELL_CLUSTER_MAP["Balmora, Guild of Fighters"] = CELL_CLUSTERS[262]
+CELL_CLUSTER_MAP["Urshilaku Camp, Shimsun's Yurt"] = CELL_CLUSTERS[263]
+CELL_CLUSTER_MAP["Nallit"] = CELL_CLUSTERS[264]
+CELL_CLUSTER_MAP["Bthanchend"] = CELL_CLUSTERS[265]
+CELL_CLUSTER_MAP["Endusal, Kagrenac's study"] = CELL_CLUSTERS[266]
+CELL_CLUSTER_MAP["Mul Grotto"] = CELL_CLUSTERS[267]
+CELL_CLUSTER_MAP["Sarys Ancestral Tomb"] = CELL_CLUSTERS[268]
+CELL_CLUSTER_MAP["Gnisis, Dinadad Hut"] = CELL_CLUSTERS[269]
+CELL_CLUSTER_MAP["Zainab Camp, Ashur-Dan's Yurt"] = CELL_CLUSTERS[270]
+CELL_CLUSTER_MAP["ToddTest"] = CELL_CLUSTERS[271]
+CELL_CLUSTER_MAP["Mila-Nipal, Manat's Yurt"] = CELL_CLUSTERS[272]
+CELL_CLUSTER_MAP["Vos, Varo Tradehouse Storage"] = CELL_CLUSTERS[273]
+CELL_CLUSTER_MAP["Vos, Varo Tradehouse Entrance"] = CELL_CLUSTERS[273]
+CELL_CLUSTER_MAP["Vos, Varo Tradehouse"] = CELL_CLUSTERS[273]
+CELL_CLUSTER_MAP["Punsabanit"] = CELL_CLUSTERS[274]
+CELL_CLUSTER_MAP["Ahemmusa Camp, Mamaea's Yurt"] = CELL_CLUSTERS[275]
+CELL_CLUSTER_MAP["Vos, Vos Chapel"] = CELL_CLUSTERS[276]
+CELL_CLUSTER_MAP["Kora-Dur"] = CELL_CLUSTERS[277]
+CELL_CLUSTER_MAP["Pelagiad, Adanja's House"] = CELL_CLUSTERS[278]
+CELL_CLUSTER_MAP["Balmora, Eastern Guard Tower"] = CELL_CLUSTERS[279]
+CELL_CLUSTER_MAP["Gnisis, Arvs-Drelen"] = CELL_CLUSTERS[280]
+CELL_CLUSTER_MAP["Dren Plantation, Guardhouse"] = CELL_CLUSTERS[281]
+CELL_CLUSTER_MAP["Vivec, St. Olms Waist South-One"] = CELL_CLUSTERS[282]
+CELL_CLUSTER_MAP["Maran-Adon"] = CELL_CLUSTERS[283]
+CELL_CLUSTER_MAP["Serano Ancestral Tomb"] = CELL_CLUSTERS[284]
+CELL_CLUSTER_MAP["Dirara's Farmhouse"] = CELL_CLUSTERS[285]
+CELL_CLUSTER_MAP["Sethan Ancestral Tomb"] = CELL_CLUSTERS[286]
+CELL_CLUSTER_MAP["Gnisis, Lasamsi Cave Dwelling"] = CELL_CLUSTERS[287]
+CELL_CLUSTER_MAP["Odirniran, Tower"] = CELL_CLUSTERS[288]
+CELL_CLUSTER_MAP["Odirniran"] = CELL_CLUSTERS[288]
+CELL_CLUSTER_MAP["Punammu"] = CELL_CLUSTERS[289]
+CELL_CLUSTER_MAP["Hla Oad, Relien Rirne's House"] = CELL_CLUSTERS[290]
+CELL_CLUSTER_MAP["Caldera, Elmussa Damori's House"] = CELL_CLUSTERS[291]
+CELL_CLUSTER_MAP["Ald Velothi, Outpost"] = CELL_CLUSTERS[292]
+CELL_CLUSTER_MAP["Sanabi"] = CELL_CLUSTERS[293]
+CELL_CLUSTER_MAP["Arrow, Cabin"] = CELL_CLUSTERS[294]
+CELL_CLUSTER_MAP["Caldera, Keel-Raniur's House"] = CELL_CLUSTERS[295]
+CELL_CLUSTER_MAP["Suran, Oran Manor"] = CELL_CLUSTERS[296]
+CELL_CLUSTER_MAP["Lost Shipwreck, Cabin"] = CELL_CLUSTERS[297]
+CELL_CLUSTER_MAP["Zenarbael"] = CELL_CLUSTERS[298]
+CELL_CLUSTER_MAP["Tel Mora, Tower Services"] = CELL_CLUSTERS[299]
+CELL_CLUSTER_MAP["Tel Mora, Lower Tower"] = CELL_CLUSTERS[299]
+CELL_CLUSTER_MAP["Tharys Ancestral Tomb"] = CELL_CLUSTERS[300]
+CELL_CLUSTER_MAP["Ahemmusa Camp, Lanabi's Yurt"] = CELL_CLUSTERS[301]
+CELL_CLUSTER_MAP["Ald-ruhn, Temple"] = CELL_CLUSTERS[302]
+CELL_CLUSTER_MAP["Beran Ancestral Tomb"] = CELL_CLUSTERS[303]
+CELL_CLUSTER_MAP["Balmora, Hlaalo Manor"] = CELL_CLUSTERS[304]
+CELL_CLUSTER_MAP["Lonesome Shipwreck, Upper Level"] = CELL_CLUSTERS[305]
+CELL_CLUSTER_MAP["Lonesome Shipwreck, Lower Level"] = CELL_CLUSTERS[305]
+CELL_CLUSTER_MAP["Balmora, Vori's House"] = CELL_CLUSTERS[306]
+CELL_CLUSTER_MAP["Balmora, Rithleen's House"] = CELL_CLUSTERS[307]
+CELL_CLUSTER_MAP["Ald-ruhn, Hanarai Assutlanipal's House"] = CELL_CLUSTERS[308]
+CELL_CLUSTER_MAP["Seyda Neen, Census and Excise Office"] = CELL_CLUSTERS[309]
+CELL_CLUSTER_MAP["Ravel Ancestral Tomb"] = CELL_CLUSTERS[310]
+CELL_CLUSTER_MAP["Nchuleft"] = CELL_CLUSTERS[311]
+CELL_CLUSTER_MAP["Andrano Ancestral Tomb"] = CELL_CLUSTERS[312]
+CELL_CLUSTER_MAP["Remote Shipwreck, Lower Level"] = CELL_CLUSTERS[313]
+CELL_CLUSTER_MAP["Remote Shipwreck, Upper Level"] = CELL_CLUSTERS[313]
+CELL_CLUSTER_MAP["Balur's Farmhouse"] = CELL_CLUSTERS[314]
+CELL_CLUSTER_MAP["Ahallaraddon Egg Mine"] = CELL_CLUSTERS[315]
+CELL_CLUSTER_MAP["Seyda Neen, Arrille's Tradehouse"] = CELL_CLUSTERS[316]
+CELL_CLUSTER_MAP["Vos, Runethyne Andas's Farmhouse"] = CELL_CLUSTERS[317]
+CELL_CLUSTER_MAP["Vivec, St. Delyn Canal North-Two"] = CELL_CLUSTERS[318]
+CELL_CLUSTER_MAP["Caldera, South Guard Towers"] = CELL_CLUSTERS[319]
+CELL_CLUSTER_MAP["Adanumuran"] = CELL_CLUSTERS[320]
+CELL_CLUSTER_MAP["Milk"] = CELL_CLUSTERS[321]
+CELL_CLUSTER_MAP["Abernanit"] = CELL_CLUSTERS[322]
+CELL_CLUSTER_MAP["Molag Mar, Redoran Stronghold"] = CELL_CLUSTERS[323]
+CELL_CLUSTER_MAP["Sadryon Ancestral Tomb"] = CELL_CLUSTERS[324]
+CELL_CLUSTER_MAP["Vos, Trilam Drolnor's Farmhouse"] = CELL_CLUSTERS[325]
+CELL_CLUSTER_MAP["Maar Gan, Guard Tower 3"] = CELL_CLUSTERS[326]
+CELL_CLUSTER_MAP["Maba-Ilu"] = CELL_CLUSTERS[327]
+CELL_CLUSTER_MAP["Saren Ancestral Tomb"] = CELL_CLUSTERS[328]
+CELL_CLUSTER_MAP["Tel Branora, Manos Vavyn's House"] = CELL_CLUSTERS[329]
+CELL_CLUSTER_MAP["Rayna Drolan's Shack"] = CELL_CLUSTERS[330]
+CELL_CLUSTER_MAP["Seyda Neen, Census and Excise Warehouse"] = CELL_CLUSTERS[331]
+CELL_CLUSTER_MAP["Falasmaryon, Propylon Chamber"] = CELL_CLUSTERS[332]
+CELL_CLUSTER_MAP["Zainab Camp, Tussi's Yurt"] = CELL_CLUSTERS[333]
+CELL_CLUSTER_MAP["Balmora, Lucky Lockup"] = CELL_CLUSTERS[334]
+CELL_CLUSTER_MAP["Vassir-Didanat Cave"] = CELL_CLUSTERS[335]
+CELL_CLUSTER_MAP["Massahanud Camp, Sargon's Yurt"] = CELL_CLUSTERS[336]
+CELL_CLUSTER_MAP["Hlormaren, Dome"] = CELL_CLUSTERS[337]
+CELL_CLUSTER_MAP["Rethan Manor, Gols' House"] = CELL_CLUSTERS[338]
+CELL_CLUSTER_MAP["Tel Aruhn, Ferele Athram: Trader"] = CELL_CLUSTERS[339]
+CELL_CLUSTER_MAP["Maar Gan, Huleen's Hut"] = CELL_CLUSTERS[340]
+CELL_CLUSTER_MAP["Rothan Ancestral Tomb"] = CELL_CLUSTERS[341]
+CELL_CLUSTER_MAP["Ahinipalit"] = CELL_CLUSTERS[342]
+CELL_CLUSTER_MAP["Tel Aruhn, Tower Entry"] = CELL_CLUSTERS[343]
+CELL_CLUSTER_MAP["Tel Aruhn, Tower Living Quarters"] = CELL_CLUSTERS[343]
+CELL_CLUSTER_MAP["Sterdecan's Farmhouse"] = CELL_CLUSTERS[344]
+CELL_CLUSTER_MAP["Ainat"] = CELL_CLUSTERS[345]
+CELL_CLUSTER_MAP["Assalkushalit, Shrine"] = CELL_CLUSTERS[346]
+CELL_CLUSTER_MAP["Caldera, Governor's Hall"] = CELL_CLUSTERS[347]
+CELL_CLUSTER_MAP["Othrelas Ancestral Tomb"] = CELL_CLUSTERS[348]
+CELL_CLUSTER_MAP["Tel Branora, Seryne Relas's House"] = CELL_CLUSTERS[349]
+CELL_CLUSTER_MAP["Assu"] = CELL_CLUSTERS[350]
+CELL_CLUSTER_MAP["Balmora, Dorisa Darvel: Bookseller"] = CELL_CLUSTERS[351]
+CELL_CLUSTER_MAP["Zaintirari"] = CELL_CLUSTERS[352]
+CELL_CLUSTER_MAP["Balmora, The Razor Hole"] = CELL_CLUSTERS[353]
+CELL_CLUSTER_MAP["Yakaridan Camp, Kitbael's Yurt"] = CELL_CLUSTERS[354]
+CELL_CLUSTER_MAP["Vandus Ancestral Tomb"] = CELL_CLUSTERS[355]
+CELL_CLUSTER_MAP["Unmarked Shipwreck, Lower Level"] = CELL_CLUSTERS[356]
+CELL_CLUSTER_MAP["Unmarked Shipwreck, Upper Level"] = CELL_CLUSTERS[356]
+CELL_CLUSTER_MAP["Tel Branora, Giron Manas's Shack"] = CELL_CLUSTERS[357]
+CELL_CLUSTER_MAP["Andasreth, Lower Level"] = CELL_CLUSTERS[358]
+CELL_CLUSTER_MAP["Andasreth, Upper Level"] = CELL_CLUSTERS[358]
+CELL_CLUSTER_MAP["Ald-ruhn, Ald Skar Inn"] = CELL_CLUSTERS[359]
+CELL_CLUSTER_MAP["Strange Shipwreck, Cabin"] = CELL_CLUSTERS[360]
+CELL_CLUSTER_MAP["Llovyn's Farmhouse"] = CELL_CLUSTERS[361]
+CELL_CLUSTER_MAP["Maar Gan, Shilipuran Zama-Rasour's Hut"] = CELL_CLUSTERS[362]
+CELL_CLUSTER_MAP["Zainab Camp, Ababael Timsar-Dadisun's Yurt"] = CELL_CLUSTERS[363]
+CELL_CLUSTER_MAP["Mawia"] = CELL_CLUSTERS[364]
+CELL_CLUSTER_MAP["Missir-Dadalit Egg Mine"] = CELL_CLUSTERS[365]
+CELL_CLUSTER_MAP["Dren Plantation, Doves' Shack"] = CELL_CLUSTERS[366]
+CELL_CLUSTER_MAP["Thelas Ancestral Tomb"] = CELL_CLUSTERS[367]
+CELL_CLUSTER_MAP["Valenvaryon, Propylon Chamber"] = CELL_CLUSTERS[368]
+CELL_CLUSTER_MAP["Akimaes Grotto"] = CELL_CLUSTERS[369]
+CELL_CLUSTER_MAP["Madas-Zebba Egg Mine"] = CELL_CLUSTERS[370]
+CELL_CLUSTER_MAP["Hanud, Tower"] = CELL_CLUSTERS[371]
+CELL_CLUSTER_MAP["Hanud"] = CELL_CLUSTERS[371]
+CELL_CLUSTER_MAP["Drulene Falen's Hut"] = CELL_CLUSTERS[372]
+CELL_CLUSTER_MAP["Maar Gan, Ulisamsi Shaddarnuran's Hut"] = CELL_CLUSTERS[373]
+CELL_CLUSTER_MAP["Balmora, Tsiya's House"] = CELL_CLUSTERS[374]
+CELL_CLUSTER_MAP["Urshilaku Camp, Ashkhan's Yurt"] = CELL_CLUSTERS[375]
+CELL_CLUSTER_MAP["Panud Egg Mine"] = CELL_CLUSTERS[376]
+CELL_CLUSTER_MAP["Tel Uvirith, Arelas' House"] = CELL_CLUSTERS[377]
+CELL_CLUSTER_MAP["Ald Velothi, Vireveri Darethran's Shack"] = CELL_CLUSTERS[378]
+CELL_CLUSTER_MAP["Seyda Neen, Fine-Mouth's Shack"] = CELL_CLUSTERS[379]
+CELL_CLUSTER_MAP["Dren Plantation, Hlevala's Shack"] = CELL_CLUSTERS[380]
+CELL_CLUSTER_MAP["Suran, Suran Tradehouse"] = CELL_CLUSTERS[381]
+CELL_CLUSTER_MAP["Balmora, Council Club"] = CELL_CLUSTERS[382]
+CELL_CLUSTER_MAP["Suran, Ranosa Gilvayn: Outfitter"] = CELL_CLUSTERS[383]
+CELL_CLUSTER_MAP["Deserted Shipwreck, Cabin"] = CELL_CLUSTERS[384]
+CELL_CLUSTER_MAP["Tel Mora, Jolda: Apothecary"] = CELL_CLUSTERS[385]
+CELL_CLUSTER_MAP["Hawia Egg Mine"] = CELL_CLUSTERS[386]
+CELL_CLUSTER_MAP["Dren Plantation, Rethan's Shack"] = CELL_CLUSTERS[387]
+CELL_CLUSTER_MAP["Ebonheart, Grand Council Chambers Tower"] = CELL_CLUSTERS[388]
+CELL_CLUSTER_MAP["Vos, Ienasa Radas's Farmhouse"] = CELL_CLUSTERS[389]
+CELL_CLUSTER_MAP["Hlaalu Ancestral Tomb"] = CELL_CLUSTERS[390]
+CELL_CLUSTER_MAP["Balmora, Tyravel Manor"] = CELL_CLUSTERS[391]
+CELL_CLUSTER_MAP["Fair Helas, Lower Level"] = CELL_CLUSTERS[392]
+CELL_CLUSTER_MAP["Fair Helas, Upper Level"] = CELL_CLUSTERS[392]
+CELL_CLUSTER_MAP["Unexplored Shipwreck, Upper Level"] = CELL_CLUSTERS[393]
+CELL_CLUSTER_MAP["Unexplored Shipwreck, Lower Level"] = CELL_CLUSTERS[393]
+CELL_CLUSTER_MAP["Thiralas Ancestral Tomb"] = CELL_CLUSTERS[394]
+CELL_CLUSTER_MAP["Balmora, Temple"] = CELL_CLUSTERS[395]
+CELL_CLUSTER_MAP["Balmora, Meldor: Armorer"] = CELL_CLUSTERS[396]
+CELL_CLUSTER_MAP["Dagon Fel, Sorkvild's Tower"] = CELL_CLUSTERS[397]
+CELL_CLUSTER_MAP["Onnissiralis, Shrine"] = CELL_CLUSTERS[398]
+CELL_CLUSTER_MAP["Andules Ancestral Tomb"] = CELL_CLUSTERS[399]
+CELL_CLUSTER_MAP["Prelude Shipwreck, Upper Level"] = CELL_CLUSTERS[400]
+CELL_CLUSTER_MAP["Prelude Shipwreck, Lower Level"] = CELL_CLUSTERS[400]
+CELL_CLUSTER_MAP["Khuul, Rivame Samandas's Shack"] = CELL_CLUSTERS[401]
+CELL_CLUSTER_MAP["Tel Vos, Barracks and Armory"] = CELL_CLUSTERS[402]
+CELL_CLUSTER_MAP["Rotheran, Communal Hut"] = CELL_CLUSTERS[403]
+CELL_CLUSTER_MAP["Hla Oad, Shurkul gro-Sharga's House"] = CELL_CLUSTERS[404]
+CELL_CLUSTER_MAP["Inanius Egg Mine"] = CELL_CLUSTERS[405]
+CELL_CLUSTER_MAP["Zainsipilu"] = CELL_CLUSTERS[406]
+CELL_CLUSTER_MAP["Ald-ruhn, Tiras Sadus: General Merchandise"] = CELL_CLUSTERS[407]
+CELL_CLUSTER_MAP["Urshilaku Camp, Wise Woman's Yurt"] = CELL_CLUSTERS[408]
+CELL_CLUSTER_MAP["Dren Plantation, Helvi's Shack"] = CELL_CLUSTERS[409]
+CELL_CLUSTER_MAP["Desolate Shipwreck, Upper Level"] = CELL_CLUSTERS[410]
+CELL_CLUSTER_MAP["Desolate Shipwreck, Lower Level"] = CELL_CLUSTERS[410]
+CELL_CLUSTER_MAP["Ald-ruhn, Tauryon's House"] = CELL_CLUSTERS[411]
+CELL_CLUSTER_MAP["Sadrith Mora, Trendrus Dral's House"] = CELL_CLUSTERS[412]
+CELL_CLUSTER_MAP["Nissintu"] = CELL_CLUSTERS[413]
+CELL_CLUSTER_MAP["Tel Uvirith, Seleth's House"] = CELL_CLUSTERS[414]
+CELL_CLUSTER_MAP["Maar Gan, Mabrelle Geles's Hut"] = CELL_CLUSTERS[415]
+CELL_CLUSTER_MAP["Ashinabi"] = CELL_CLUSTERS[416]
+CELL_CLUSTER_MAP["Ashinabi, Smuggler Den"] = CELL_CLUSTERS[416]
+CELL_CLUSTER_MAP["Ministry of Truth, Hall of Processing"] = CELL_CLUSTERS[417]
+CELL_CLUSTER_MAP["Ministry of Truth, Holding Cells"] = CELL_CLUSTERS[417]
+CELL_CLUSTER_MAP["Ministry of Truth, Prison Keep"] = CELL_CLUSTERS[417]
+CELL_CLUSTER_MAP["Tel Mora, Radras: Smith"] = CELL_CLUSTERS[418]
+CELL_CLUSTER_MAP["Yakanalit"] = CELL_CLUSTERS[419]
+CELL_CLUSTER_MAP["Small Farmhouse"] = CELL_CLUSTERS[420]
+CELL_CLUSTER_MAP["Llervu Ancestral Tomb"] = CELL_CLUSTERS[421]
+CELL_CLUSTER_MAP["Vos, Dreynos Elvul's Farmhouse"] = CELL_CLUSTERS[422]
+CELL_CLUSTER_MAP["Mausur Caverns"] = CELL_CLUSTERS[423]
+CELL_CLUSTER_MAP["Llirala's Shack"] = CELL_CLUSTERS[424]
+CELL_CLUSTER_MAP["Ald-ruhn, Dandera Selaro: Smith"] = CELL_CLUSTERS[425]
+CELL_CLUSTER_MAP["Zaintiraris, Shrine"] = CELL_CLUSTERS[426]
+CELL_CLUSTER_MAP["Zalkin-Sul Egg Mine"] = CELL_CLUSTERS[427]
+CELL_CLUSTER_MAP["Vivec, Puzzle Canal, Level 4"] = CELL_CLUSTERS[428]
+CELL_CLUSTER_MAP["Khuul, Endris Dilmyn's Shack"] = CELL_CLUSTERS[429]
+CELL_CLUSTER_MAP["Hla Oad, Okur's House"] = CELL_CLUSTERS[430]
+CELL_CLUSTER_MAP["Suran, Suran Temple"] = CELL_CLUSTERS[431]
+CELL_CLUSTER_MAP["Ashanammu"] = CELL_CLUSTERS[432]
+CELL_CLUSTER_MAP["Rissun"] = CELL_CLUSTERS[433]
+CELL_CLUSTER_MAP["Sadrith Mora, Meluria Seleth's House"] = CELL_CLUSTERS[434]
+CELL_CLUSTER_MAP["Salmantu, Shrine"] = CELL_CLUSTERS[435]
+CELL_CLUSTER_MAP["Salmantu"] = CELL_CLUSTERS[435]
+CELL_CLUSTER_MAP["Falvilo's Endeavor, Upper Level"] = CELL_CLUSTERS[436]
+CELL_CLUSTER_MAP["Falvillo's Endeavor, Lower Level"] = CELL_CLUSTERS[436]
+CELL_CLUSTER_MAP["Esutanamus, Shrine"] = CELL_CLUSTERS[437]
+CELL_CLUSTER_MAP["Ienith Ancestral Tomb"] = CELL_CLUSTERS[438]
+CELL_CLUSTER_MAP["Tel Mora, Nona's House"] = CELL_CLUSTERS[439]
+CELL_CLUSTER_MAP["Vassamsi Grotto"] = CELL_CLUSTERS[440]
+CELL_CLUSTER_MAP["Uveran Ancestral Tomb"] = CELL_CLUSTERS[441]
+CELL_CLUSTER_MAP["Ebonheart, Hawkmoth Legion Garrison"] = CELL_CLUSTERS[442]
+CELL_CLUSTER_MAP["Balmora, Astius Hanotepelus' House"] = CELL_CLUSTERS[443]
+CELL_CLUSTER_MAP["Asha-Ahhe Egg Mine"] = CELL_CLUSTERS[444]
+CELL_CLUSTER_MAP["Kushtashpi, Shrine"] = CELL_CLUSTERS[445]
+CELL_CLUSTER_MAP["Drath Ancestral Tomb"] = CELL_CLUSTERS[446]
+CELL_CLUSTER_MAP["Eluba-Addon Grotto"] = CELL_CLUSTERS[447]
+CELL_CLUSTER_MAP["Maar Gan, Outpost"] = CELL_CLUSTERS[448]
+CELL_CLUSTER_MAP["Urshilaku Camp, Ahasour's Yurt"] = CELL_CLUSTERS[449]
+CELL_CLUSTER_MAP["Bensiberib Camp, Odaishah's Yurt"] = CELL_CLUSTERS[450]
+CELL_CLUSTER_MAP["Orethi Ancestral Tomb"] = CELL_CLUSTERS[451]
+CELL_CLUSTER_MAP["Dren Plantation, Tower Shack"] = CELL_CLUSTERS[452]
+CELL_CLUSTER_MAP["Ald-ruhn, Guard Tower 2"] = CELL_CLUSTERS[453]
+CELL_CLUSTER_MAP["Caldera, Bashuk gra-Bat's House"] = CELL_CLUSTERS[454]
+CELL_CLUSTER_MAP["Deserted Shipwreck, Upper Level"] = CELL_CLUSTERS[455]
+CELL_CLUSTER_MAP["Deserted Shipwreck, Lower Level"] = CELL_CLUSTERS[455]
+CELL_CLUSTER_MAP["Derelict Shipwreck, Lower Level"] = CELL_CLUSTERS[456]
+CELL_CLUSTER_MAP["Derelict Shipwreck, Upper Level"] = CELL_CLUSTERS[456]
+CELL_CLUSTER_MAP["Vivec, Puzzle Canal, Level 1"] = CELL_CLUSTERS[457]
+CELL_CLUSTER_MAP["Balmora, Western Guard Tower South"] = CELL_CLUSTERS[458]
+CELL_CLUSTER_MAP["Andas Ancestral Tomb"] = CELL_CLUSTERS[459]
+CELL_CLUSTER_MAP["Khuul, Brurid's Shack"] = CELL_CLUSTERS[460]
+CELL_CLUSTER_MAP["Tel Mora, Upper Tower"] = CELL_CLUSTERS[461]
+CELL_CLUSTER_MAP["Assurnabitashpi"] = CELL_CLUSTERS[462]
+CELL_CLUSTER_MAP["Ebonheart, East Empire North Warehouse"] = CELL_CLUSTERS[463]
+CELL_CLUSTER_MAP["Sadrith Mora, Rolis Garvon's House"] = CELL_CLUSTERS[464]
+CELL_CLUSTER_MAP["Chun-Ook, Cabin"] = CELL_CLUSTERS[465]
+CELL_CLUSTER_MAP["Neglected Shipwreck, Cabin"] = CELL_CLUSTERS[466]
+CELL_CLUSTER_MAP["Manat's Farmhouse"] = CELL_CLUSTERS[467]
+CELL_CLUSTER_MAP["Velas Ancestral Tomb"] = CELL_CLUSTERS[468]
+CELL_CLUSTER_MAP["Sudanit Mine"] = CELL_CLUSTERS[469]
+CELL_CLUSTER_MAP["Gnaar Mok, Rostlogi's Shack"] = CELL_CLUSTERS[470]
+CELL_CLUSTER_MAP["Andalor Ancestral Tomb"] = CELL_CLUSTERS[471]
+CELL_CLUSTER_MAP["Fadathram Ancestral Tomb"] = CELL_CLUSTERS[472]
+CELL_CLUSTER_MAP["Balmora, Fast Eddie's House"] = CELL_CLUSTERS[473]
+CELL_CLUSTER_MAP["Shurdan-Raplay Egg Mine"] = CELL_CLUSTERS[474]
+CELL_CLUSTER_MAP["Dagon Fel, Vacant Tower"] = CELL_CLUSTERS[475]
+CELL_CLUSTER_MAP["Desolate Shipwreck, Cabin"] = CELL_CLUSTERS[476]
+CELL_CLUSTER_MAP["Dagon Fel, Heifnir: Trader"] = CELL_CLUSTERS[477]
+CELL_CLUSTER_MAP["Tukushapal, Sepulcher"] = CELL_CLUSTERS[478]
+CELL_CLUSTER_MAP["Marvani Ancestral Tomb"] = CELL_CLUSTERS[478]
+CELL_CLUSTER_MAP["Tukushapal"] = CELL_CLUSTERS[478]
+CELL_CLUSTER_MAP["Abebaal Egg Mine"] = CELL_CLUSTERS[479]
+CELL_CLUSTER_MAP["Dralas Ancestral Tomb"] = CELL_CLUSTERS[480]
+CELL_CLUSTER_MAP["Panat"] = CELL_CLUSTERS[481]
+CELL_CLUSTER_MAP["Dren Plantation, Verethi and Dralor"] = CELL_CLUSTERS[482]
+CELL_CLUSTER_MAP["Berandas, Propylon Chamber"] = CELL_CLUSTERS[483]
+CELL_CLUSTER_MAP["Ald-ruhn, Gildan's House"] = CELL_CLUSTERS[484]
+CELL_CLUSTER_MAP["Zainab Camp, Ashibaal's Yurt"] = CELL_CLUSTERS[485]
+CELL_CLUSTER_MAP["Ebonheart, Argonian Mission"] = CELL_CLUSTERS[486]
+CELL_CLUSTER_MAP["Koal Cave"] = CELL_CLUSTERS[487]
+CELL_CLUSTER_MAP["Tel Mora, Liette's House"] = CELL_CLUSTERS[488]
+CELL_CLUSTER_MAP["Alas Ancestral Tomb"] = CELL_CLUSTERS[489]
+CELL_CLUSTER_MAP["Shunned Shipwreck, Cabin"] = CELL_CLUSTERS[490]
+CELL_CLUSTER_MAP["Yasammidan, Shrine"] = CELL_CLUSTERS[491]
+CELL_CLUSTER_MAP["Khuul, Nelmyne Andules's Shack"] = CELL_CLUSTERS[492]
+CELL_CLUSTER_MAP["Sadrith Mora, Morag Tong Guild"] = CELL_CLUSTERS[493]
+CELL_CLUSTER_MAP["Zainab Camp, Ashkhan's Yurt"] = CELL_CLUSTERS[494]
+CELL_CLUSTER_MAP["Mzuleft"] = CELL_CLUSTERS[495]
+CELL_CLUSTER_MAP["Dagon Fel, Itar the Gentle's House"] = CELL_CLUSTERS[496]
+CELL_CLUSTER_MAP["Gnisis, Fort Darius"] = CELL_CLUSTERS[497]
+CELL_CLUSTER_MAP["Ald-ruhn, Braynas Hlervu's House"] = CELL_CLUSTERS[498]
+CELL_CLUSTER_MAP["Balmora, Nine Toes' House"] = CELL_CLUSTERS[499]
+CELL_CLUSTER_MAP["Ahemmusa Camp, Kausi's Yurt"] = CELL_CLUSTERS[500]
+CELL_CLUSTER_MAP["Reloth Ancestral Tomb"] = CELL_CLUSTERS[501]
+CELL_CLUSTER_MAP["Dagon Fel, Mette's House"] = CELL_CLUSTERS[502]
+CELL_CLUSTER_MAP["Gnisis, Shand Hut"] = CELL_CLUSTERS[503]
+CELL_CLUSTER_MAP["Norvayn Ancestral Tomb"] = CELL_CLUSTERS[504]
+CELL_CLUSTER_MAP["Balmora, Drarayne Thelas' House"] = CELL_CLUSTERS[505]
+CELL_CLUSTER_MAP["Ilanipu Grotto"] = CELL_CLUSTERS[506]
+CELL_CLUSTER_MAP["Ald Velothi, Ganus Lloryn's Shack"] = CELL_CLUSTERS[507]
+CELL_CLUSTER_MAP["Dagon Fel, Onmi Hard-mouth's House"] = CELL_CLUSTERS[508]
+CELL_CLUSTER_MAP["Ancient Shipwreck, Cabin"] = CELL_CLUSTERS[509]
+CELL_CLUSTER_MAP["An Abandoned Shack"] = CELL_CLUSTERS[510]
+CELL_CLUSTER_MAP["Mudan-Mul Egg Mine"] = CELL_CLUSTERS[511]
+CELL_CLUSTER_MAP["Mount Kand, Cavern"] = CELL_CLUSTERS[512]
+CELL_CLUSTER_MAP["Caldera, Verick Gemain: Trader"] = CELL_CLUSTERS[513]
+CELL_CLUSTER_MAP["Setus Egg Mine"] = CELL_CLUSTERS[514]
+CELL_CLUSTER_MAP["Balmora, Hecerinde's House"] = CELL_CLUSTERS[515]
+CELL_CLUSTER_MAP["Hleran Ancestral Tomb"] = CELL_CLUSTERS[516]
+CELL_CLUSTER_MAP["Ashunartes, Shrine"] = CELL_CLUSTERS[517]
+CELL_CLUSTER_MAP["Vivec, St. Olms Waist North-One"] = CELL_CLUSTERS[518]
+CELL_CLUSTER_MAP["Obscure Shipwreck, Cabin"] = CELL_CLUSTERS[519]
+CELL_CLUSTER_MAP["Mamshar-Disamus Camp, Maesat's Yurt"] = CELL_CLUSTERS[520]
+CELL_CLUSTER_MAP["Surirulk"] = CELL_CLUSTERS[521]
+CELL_CLUSTER_MAP["Sarano Ancestral Tomb"] = CELL_CLUSTERS[522]
+CELL_CLUSTER_MAP["Gimothran Ancestral Tomb"] = CELL_CLUSTERS[523]
+CELL_CLUSTER_MAP["Arethan Ancestral Tomb"] = CELL_CLUSTERS[524]
+CELL_CLUSTER_MAP["Ebonheart, Skyrim Mission"] = CELL_CLUSTERS[525]
+CELL_CLUSTER_MAP["Galom Daeus, Observatory"] = CELL_CLUSTERS[526]
+CELL_CLUSTER_MAP["Galom Daeus, Entry"] = CELL_CLUSTERS[526]
+CELL_CLUSTER_MAP["Dagon Fel, Fanar Fork-Beard's House"] = CELL_CLUSTERS[527]
+CELL_CLUSTER_MAP["Urshilaku Camp, Kurapli's Yurt"] = CELL_CLUSTERS[528]
+CELL_CLUSTER_MAP["Holamayan Monastery"] = CELL_CLUSTERS[529]
+CELL_CLUSTER_MAP["Caldera, North Guard Towers"] = CELL_CLUSTERS[530]
+CELL_CLUSTER_MAP["Tel Branora, Sethan's Tradehouse"] = CELL_CLUSTERS[531]
+CELL_CLUSTER_MAP["Rethan Manor"] = CELL_CLUSTERS[532]
+CELL_CLUSTER_MAP["Ansi"] = CELL_CLUSTERS[533]
+CELL_CLUSTER_MAP["Maelkashishi, Shrine, Forgotten Galleries"] = CELL_CLUSTERS[534]
+CELL_CLUSTER_MAP["Maelkashishi, Shrine"] = CELL_CLUSTERS[534]
+CELL_CLUSTER_MAP["Caldera, Irgola: Pawnbroker"] = CELL_CLUSTERS[535]
+CELL_CLUSTER_MAP["Pelagiad, Murberius Harmevus' House"] = CELL_CLUSTERS[536]
+CELL_CLUSTER_MAP["Heran Ancestral Tomb"] = CELL_CLUSTERS[537]
+CELL_CLUSTER_MAP["Lonely Shipwreck, Cabin"] = CELL_CLUSTERS[538]
+CELL_CLUSTER_MAP["Maar Gan, Shrine"] = CELL_CLUSTERS[539]
+CELL_CLUSTER_MAP["Pelagiad, Ahnassi's House"] = CELL_CLUSTERS[540]
+CELL_CLUSTER_MAP["Nimawia Grotto"] = CELL_CLUSTERS[541]
+CELL_CLUSTER_MAP["Ald Velothi, Ienas Arvel's Shack"] = CELL_CLUSTERS[542]
+CELL_CLUSTER_MAP["Ashimanu Egg Mine"] = CELL_CLUSTERS[543]
+CELL_CLUSTER_MAP["Ashimanu Egg Mine, Queen's Lair"] = CELL_CLUSTERS[543]
+CELL_CLUSTER_MAP["Pelagiad, Mebestien Ence: Trader"] = CELL_CLUSTERS[544]
+CELL_CLUSTER_MAP["Erabenimsun Camp, Ranabi's Yurt"] = CELL_CLUSTERS[545]
+CELL_CLUSTER_MAP["Vivec, St. Delyn Canal South-Two"] = CELL_CLUSTERS[546]
+CELL_CLUSTER_MAP["Ashir-Dan"] = CELL_CLUSTERS[547]
+CELL_CLUSTER_MAP["Odrosal, Tower"] = CELL_CLUSTERS[548]
+CELL_CLUSTER_MAP["Odrosal, Dwemer Training Academy"] = CELL_CLUSTERS[548]
+CELL_CLUSTER_MAP["Ald-ruhn, Aryni Orethi's House"] = CELL_CLUSTERS[549]
+CELL_CLUSTER_MAP["Grytewake, Lower Level"] = CELL_CLUSTERS[550]
+CELL_CLUSTER_MAP["Grytewake, Upper Level"] = CELL_CLUSTERS[550]
+CELL_CLUSTER_MAP["Sobitbael Camp, Mal's Yurt"] = CELL_CLUSTERS[551]
+CELL_CLUSTER_MAP["Tel Vos, Southern Tower"] = CELL_CLUSTERS[552]
+CELL_CLUSTER_MAP["Caldera, Shenk's Shovel"] = CELL_CLUSTERS[553]
+CELL_CLUSTER_MAP["Strange Shipwreck, Upper Level"] = CELL_CLUSTERS[554]
+CELL_CLUSTER_MAP["Strange Shipwreck, Lower Level"] = CELL_CLUSTERS[554]
+CELL_CLUSTER_MAP["Dren Plantation, Storage Shack"] = CELL_CLUSTERS[555]
+CELL_CLUSTER_MAP["Gnisis, Abelmawia Hut"] = CELL_CLUSTERS[556]
+CELL_CLUSTER_MAP["Zanabi"] = CELL_CLUSTERS[557]
+CELL_CLUSTER_MAP["Tel Branora, Tower Guardpost"] = CELL_CLUSTERS[558]
+CELL_CLUSTER_MAP["Caldera, Canodia Felannus' House"] = CELL_CLUSTERS[559]
+CELL_CLUSTER_MAP["Sadrith Mora, Nirasa Aren's House"] = CELL_CLUSTERS[560]
+CELL_CLUSTER_MAP["Khuul, Helga's Shack"] = CELL_CLUSTERS[561]
+CELL_CLUSTER_MAP["Gnaar Mok, Caryarel's Shack"] = CELL_CLUSTERS[562]
+CELL_CLUSTER_MAP["Elith-Pal Mine"] = CELL_CLUSTERS[563]
+CELL_CLUSTER_MAP["Samarys Ancestral Tomb"] = CELL_CLUSTERS[564]
+CELL_CLUSTER_MAP["Abandoned Shipwreck, Cabin"] = CELL_CLUSTERS[565]
+CELL_CLUSTER_MAP["Caldera, Hodlismod: Armorer"] = CELL_CLUSTERS[566]
+CELL_CLUSTER_MAP["Balmora, Western Guard Tower North"] = CELL_CLUSTERS[567]
+CELL_CLUSTER_MAP["Hairat-Vassamsi Egg Mine"] = CELL_CLUSTERS[568]
+CELL_CLUSTER_MAP["Hairat-Vassamsi Egg Mine, Queen's Lair"] = CELL_CLUSTERS[568]
+CELL_CLUSTER_MAP["Aharasaplit Camp, Zallay's Yurt"] = CELL_CLUSTERS[569]
+CELL_CLUSTER_MAP["Vivec, St. Olms Canal North-Three"] = CELL_CLUSTERS[570]
+CELL_CLUSTER_MAP["Balmora, Dura gra-Bol's House"] = CELL_CLUSTERS[571]
+CELL_CLUSTER_MAP["Tel Aruhn, Bildren Areleth: Apothecary"] = CELL_CLUSTERS[572]
+CELL_CLUSTER_MAP["Morvayn Manor"] = CELL_CLUSTERS[573]
+CELL_CLUSTER_MAP["Kaushtarari, Shrine"] = CELL_CLUSTERS[574]
+CELL_CLUSTER_MAP["Ald-ruhn, Ienas Sarandas's House"] = CELL_CLUSTERS[575]
+CELL_CLUSTER_MAP["Odibaal"] = CELL_CLUSTERS[576]
+CELL_CLUSTER_MAP["Favel Ancestral Tomb"] = CELL_CLUSTERS[577]
+CELL_CLUSTER_MAP["Sadrith Mora, Pierlette Rostorard: Apothecary"] = CELL_CLUSTERS[578]
+CELL_CLUSTER_MAP["Valenvaryon, Gashna's Hut"] = CELL_CLUSTERS[579]
+CELL_CLUSTER_MAP["Vivec, St. Olms Canal South-One"] = CELL_CLUSTERS[580]
+CELL_CLUSTER_MAP["Hlervu Ancestral Tomb"] = CELL_CLUSTERS[581]
+CELL_CLUSTER_MAP["Ashamanu Camp, Kausha's Yurt"] = CELL_CLUSTERS[582]
+CELL_CLUSTER_MAP["Sadrith Mora, Fara's Hole in the Wall"] = CELL_CLUSTERS[583]
+CELL_CLUSTER_MAP["Hla Oad, Murudius Flaeus's House"] = CELL_CLUSTERS[584]
+CELL_CLUSTER_MAP["Caldera, Surane Leoriane's House"] = CELL_CLUSTERS[585]
+CELL_CLUSTER_MAP["Caldera, Slave Shack Two"] = CELL_CLUSTERS[586]
+CELL_CLUSTER_MAP["Dun-Ahhe"] = CELL_CLUSTERS[587]
+CELL_CLUSTER_MAP["Arano Ancestral Tomb"] = CELL_CLUSTERS[588]
+CELL_CLUSTER_MAP["Seran Ancestral Tomb"] = CELL_CLUSTERS[589]
+CELL_CLUSTER_MAP["Balmora, South Wall Cornerclub"] = CELL_CLUSTERS[590]
+CELL_CLUSTER_MAP["Ald Redaynia, Tower"] = CELL_CLUSTERS[591]
+CELL_CLUSTER_MAP["Dren Plantation, Dren's Villa"] = CELL_CLUSTERS[592]
+CELL_CLUSTER_MAP["Ald-ruhn, Gindrala Hleran's House"] = CELL_CLUSTERS[593]
+CELL_CLUSTER_MAP["Ald-ruhn, Council Club"] = CELL_CLUSTERS[594]
+CELL_CLUSTER_MAP["Sadrith Mora, Milara Vedran's House"] = CELL_CLUSTERS[595]
+CELL_CLUSTER_MAP["Ules Manor"] = CELL_CLUSTERS[596]
+CELL_CLUSTER_MAP["Odirnamat"] = CELL_CLUSTERS[597]
+CELL_CLUSTER_MAP["Pelagiad, Erval's House"] = CELL_CLUSTERS[598]
+CELL_CLUSTER_MAP["Ahemmusa Camp, Addammus's Yurt"] = CELL_CLUSTERS[599]
+CELL_CLUSTER_MAP["Sadrith Mora, Nevrila Areloth's House"] = CELL_CLUSTERS[600]
+CELL_CLUSTER_MAP["Dunirai Caverns"] = CELL_CLUSTERS[601]
+CELL_CLUSTER_MAP["Halit Mine"] = CELL_CLUSTERS[602]
+CELL_CLUSTER_MAP["Ald Velothi, Llerar Vinden's Shack"] = CELL_CLUSTERS[603]
+CELL_CLUSTER_MAP["Tel Aruhn, Plot and Plaster"] = CELL_CLUSTERS[604]
+CELL_CLUSTER_MAP["Gnaar Mok, Jerian Dolbanitte's Shack"] = CELL_CLUSTERS[605]
+CELL_CLUSTER_MAP["Shushan"] = CELL_CLUSTERS[606]
+CELL_CLUSTER_MAP["Pulk"] = CELL_CLUSTERS[607]
+CELL_CLUSTER_MAP["Baram Ancestral Tomb"] = CELL_CLUSTERS[608]
+CELL_CLUSTER_MAP["Pelagiad, Guard Tower"] = CELL_CLUSTERS[609]
+CELL_CLUSTER_MAP["Shunned Shipwreck, Upper Level"] = CELL_CLUSTERS[610]
+CELL_CLUSTER_MAP["Shunned Shipwreck, Lower Level"] = CELL_CLUSTERS[610]
+CELL_CLUSTER_MAP["Ald Velothi, Fevila Bethrano's Shack"] = CELL_CLUSTERS[611]
+CELL_CLUSTER_MAP["Erabenimsun Camp, Han-Ammu's Yurt"] = CELL_CLUSTERS[612]
+CELL_CLUSTER_MAP["Zergonipal, Shrine"] = CELL_CLUSTERS[613]
+CELL_CLUSTER_MAP["Abanabi"] = CELL_CLUSTERS[614]
+CELL_CLUSTER_MAP["Maren Ancestral Tomb"] = CELL_CLUSTERS[615]
+CELL_CLUSTER_MAP["Bthungthumz"] = CELL_CLUSTERS[616]
+CELL_CLUSTER_MAP["Forgotten Shipwreck"] = CELL_CLUSTERS[617]
+CELL_CLUSTER_MAP["Valenvaryon, Umug's Hut"] = CELL_CLUSTERS[618]
+CELL_CLUSTER_MAP["Ebonheart, Imperial Chapels"] = CELL_CLUSTERS[619]
+CELL_CLUSTER_MAP["Arvel Manor, Slavemaster's Shack"] = CELL_CLUSTERS[620]
+CELL_CLUSTER_MAP["Zainab Camp, Minassour's Yurt"] = CELL_CLUSTERS[621]
+CELL_CLUSTER_MAP["Vivec, St. Olms Canal North-Two"] = CELL_CLUSTERS[622]
+CELL_CLUSTER_MAP["Falasmaryon, Missun Akin's Hut"] = CELL_CLUSTERS[623]
+CELL_CLUSTER_MAP["Kudanat"] = CELL_CLUSTERS[624]
+CELL_CLUSTER_MAP["Shara"] = CELL_CLUSTERS[625]
+CELL_CLUSTER_MAP["Ald Velothi, Lledsea Relas's Shack"] = CELL_CLUSTERS[626]
+CELL_CLUSTER_MAP["Dreloth Ancestral Tomb"] = CELL_CLUSTERS[627]
+CELL_CLUSTER_MAP["Balmora, Ra'Virr: Trader"] = CELL_CLUSTERS[628]
+CELL_CLUSTER_MAP["Balmora, Milie Hastien: Fine Clothier"] = CELL_CLUSTERS[629]
+CELL_CLUSTER_MAP["Suran, Garothmuk gro-Muzgub: Smith"] = CELL_CLUSTERS[630]
+CELL_CLUSTER_MAP["Rethan Manor, Berendas' House"] = CELL_CLUSTERS[631]
+CELL_CLUSTER_MAP["Yassu Mine"] = CELL_CLUSTERS[632]
+CELL_CLUSTER_MAP["Malmus Grotto"] = CELL_CLUSTERS[633]
+CELL_CLUSTER_MAP["Ahemmusa Camp, Wise Woman's Yurt"] = CELL_CLUSTERS[634]
+CELL_CLUSTER_MAP["Seyda Neen, Eldafire's House"] = CELL_CLUSTERS[635]
+CELL_CLUSTER_MAP["Shashurari Camp, Zennammu's Yurt"] = CELL_CLUSTERS[636]
+CELL_CLUSTER_MAP["Balmora, Morag Tong Guild"] = CELL_CLUSTERS[637]
+CELL_CLUSTER_MAP["Neglected Shipwreck, Lower Level"] = CELL_CLUSTERS[638]
+CELL_CLUSTER_MAP["Neglected Shipwreck, Upper Level"] = CELL_CLUSTERS[638]
+CELL_CLUSTER_MAP["Dareleth Ancestral Tomb"] = CELL_CLUSTERS[639]
+CELL_CLUSTER_MAP["Seyda Neen, Foryn Gilnith's Shack"] = CELL_CLUSTERS[640]
+CELL_CLUSTER_MAP["Ulummusa"] = CELL_CLUSTERS[641]
+CELL_CLUSTER_MAP["Sinsibadon"] = CELL_CLUSTERS[642]
+CELL_CLUSTER_MAP["Mababi"] = CELL_CLUSTERS[643]
+CELL_CLUSTER_MAP["Maar Gan, Guard Tower 2"] = CELL_CLUSTERS[644]
+CELL_CLUSTER_MAP["Suran, Verara Rendo: Clothier"] = CELL_CLUSTERS[645]
+CELL_CLUSTER_MAP["Zainab Camp, Patababi's Yurt"] = CELL_CLUSTERS[646]
+CELL_CLUSTER_MAP["Sarethi Ancestral Tomb"] = CELL_CLUSTERS[647]
+CELL_CLUSTER_MAP["Shashpilamat"] = CELL_CLUSTERS[648]
+CELL_CLUSTER_MAP["Yanemus Mine"] = CELL_CLUSTERS[649]
+CELL_CLUSTER_MAP["Zainab Camp, Kuda's Yurt"] = CELL_CLUSTERS[650]
+CELL_CLUSTER_MAP["Indaren Ancestral Tomb"] = CELL_CLUSTERS[651]
+CELL_CLUSTER_MAP["Zainab Camp, Wise Woman's Yurt"] = CELL_CLUSTERS[652]
+CELL_CLUSTER_MAP["Maar Gan, Kind Erushara's Hut"] = CELL_CLUSTERS[653]
+CELL_CLUSTER_MAP["Vansunalit Egg Mine"] = CELL_CLUSTERS[654]
+CELL_CLUSTER_MAP["Redas Ancestral Tomb"] = CELL_CLUSTERS[655]
+CELL_CLUSTER_MAP["Omani Manor"] = CELL_CLUSTERS[656]
+CELL_CLUSTER_MAP["Balmora, Clagius Clanler: Outfitter"] = CELL_CLUSTERS[657]
+CELL_CLUSTER_MAP["Gnisis, Almu Cave Dwelling"] = CELL_CLUSTERS[658]
+CELL_CLUSTER_MAP["Caldera Mine"] = CELL_CLUSTERS[659]
+CELL_CLUSTER_MAP["Khuul, Svadstar's Shack"] = CELL_CLUSTERS[660]
+CELL_CLUSTER_MAP["Caldera, Odairan Ashummi-Ammus' House"] = CELL_CLUSTERS[661]
+CELL_CLUSTER_MAP["Savel Ancestral Tomb"] = CELL_CLUSTERS[662]
+CELL_CLUSTER_MAP["Urshilaku Camp, Zabamund's Yurt"] = CELL_CLUSTERS[663]
+CELL_CLUSTER_MAP["Gnisis, Tansumiran Cave Dwelling"] = CELL_CLUSTERS[664]
+CELL_CLUSTER_MAP["Sadrith Mora, Dirty Muriel's Cornerclub"] = CELL_CLUSTERS[665]
+CELL_CLUSTER_MAP["Maar Gan, Tashpi Ashibael's Hut"] = CELL_CLUSTERS[666]
+CELL_CLUSTER_MAP["Ramimilk, Shrine"] = CELL_CLUSTERS[667]
+CELL_CLUSTER_MAP["Vivec, St. Olms Canal South-Two"] = CELL_CLUSTERS[668]
+CELL_CLUSTER_MAP["Caldera, Mining Guard Tower"] = CELL_CLUSTERS[669]
+CELL_CLUSTER_MAP["Zainab Camp, Kummu's Yurt"] = CELL_CLUSTERS[670]
+CELL_CLUSTER_MAP["Sadrith Mora, Hleras Gidren's House"] = CELL_CLUSTERS[671]
+CELL_CLUSTER_MAP["Valenvaryon, Lurog's Hut"] = CELL_CLUSTERS[672]
+CELL_CLUSTER_MAP["Andrethi Ancestral Tomb"] = CELL_CLUSTERS[673]
+CELL_CLUSTER_MAP["Suran, Goldyn Belaram: Pawnbroker"] = CELL_CLUSTERS[674]
+CELL_CLUSTER_MAP["Balmora, Tyermaillin's House"] = CELL_CLUSTERS[675]
+CELL_CLUSTER_MAP["Suran, Suran Slave Market"] = CELL_CLUSTERS[676]
+CELL_CLUSTER_MAP["Sinarralit Egg Mine"] = CELL_CLUSTERS[677]
+CELL_CLUSTER_MAP["Tel Uvirith, Omavel's House"] = CELL_CLUSTERS[678]
+CELL_CLUSTER_MAP["Vivec, St. Delyn Canal North-Three"] = CELL_CLUSTERS[679]
+CELL_CLUSTER_MAP["Erabenimsun Camp, Assemmus' Yurt"] = CELL_CLUSTERS[680]
+CELL_CLUSTER_MAP["Arvel Manor, Storage Shack"] = CELL_CLUSTERS[681]
+CELL_CLUSTER_MAP["Releth Ancestral Tomb"] = CELL_CLUSTERS[682]
+CELL_CLUSTER_MAP["Masseranit"] = CELL_CLUSTERS[683]
+CELL_CLUSTER_MAP["Rotheran, Propylon Chamber"] = CELL_CLUSTERS[684]
+CELL_CLUSTER_MAP["Vivec, St. Delyn Canal South-One"] = CELL_CLUSTERS[685]
+CELL_CLUSTER_MAP["Andalen Ancestral Tomb"] = CELL_CLUSTERS[686]
+CELL_CLUSTER_MAP["Shashpilamat, Shrine"] = CELL_CLUSTERS[687]
+CELL_CLUSTER_MAP["Ularradallaku, Shrine"] = CELL_CLUSTERS[688]
+CELL_CLUSTER_MAP["Tel Mora, Elegnan: Clothier"] = CELL_CLUSTERS[689]
+CELL_CLUSTER_MAP["Vas, Tower"] = CELL_CLUSTERS[690]
+CELL_CLUSTER_MAP["Vas, Entry Level"] = CELL_CLUSTERS[690]
+CELL_CLUSTER_MAP["Piernette's Farmhouse"] = CELL_CLUSTERS[691]
+CELL_CLUSTER_MAP["Aralen Ancestral Tomb"] = CELL_CLUSTERS[692]
+CELL_CLUSTER_MAP["Drinith Ancestral Tomb"] = CELL_CLUSTERS[693]
+CELL_CLUSTER_MAP["Caldera, Dro'Shavir's House"] = CELL_CLUSTERS[694]
+CELL_CLUSTER_MAP["Beshara"] = CELL_CLUSTERS[695]
+CELL_CLUSTER_MAP["Vivec, St. Delyn Canal North-One"] = CELL_CLUSTERS[696]
+CELL_CLUSTER_MAP["Saturan"] = CELL_CLUSTERS[697]
+CELL_CLUSTER_MAP["Maar Gan, Andus Tradehouse"] = CELL_CLUSTERS[698]
+CELL_CLUSTER_MAP["Eretammus-Sennammu Egg Mine"] = CELL_CLUSTERS[699]
+CELL_CLUSTER_MAP["Pelagiad, Farusea Salas' House"] = CELL_CLUSTERS[700]
+CELL_CLUSTER_MAP["Marandus, Dome"] = CELL_CLUSTERS[701]
+CELL_CLUSTER_MAP["Shal"] = CELL_CLUSTERS[702]
+CELL_CLUSTER_MAP["Fair Helas, Cabin"] = CELL_CLUSTERS[703]
+CELL_CLUSTER_MAP["Maesa-Shammus Egg Mine"] = CELL_CLUSTERS[704]
+CELL_CLUSTER_MAP["Imperial Prison Ship"] = CELL_CLUSTERS[705]
+CELL_CLUSTER_MAP["Unknown Shipwreck, Cabin"] = CELL_CLUSTERS[706]
+CELL_CLUSTER_MAP["Hlervi Ancestral Tomb"] = CELL_CLUSTERS[707]
+CELL_CLUSTER_MAP["Sadrith Mora, Balen Vendu: Monk"] = CELL_CLUSTERS[708]
+CELL_CLUSTER_MAP["Hla Oad, Fadila Balvel's House"] = CELL_CLUSTERS[709]
+CELL_CLUSTER_MAP["Ebonheart, Six Fishes"] = CELL_CLUSTERS[710]
+CELL_CLUSTER_MAP["Ashmelech"] = CELL_CLUSTERS[711]
+CELL_CLUSTER_MAP["Urshilaku Camp, Sakiran's Yurt"] = CELL_CLUSTERS[712]
+CELL_CLUSTER_MAP["Salothran Ancestral Tomb"] = CELL_CLUSTERS[713]
+CELL_CLUSTER_MAP["Balmora, Dralosa Athren's House"] = CELL_CLUSTERS[714]
+CELL_CLUSTER_MAP["Band Egg Mine"] = CELL_CLUSTERS[715]
+CELL_CLUSTER_MAP["Falensarano, Propylon Chamber"] = CELL_CLUSTERS[716]
+CELL_CLUSTER_MAP["Sandus Ancestral Tomb"] = CELL_CLUSTERS[717]
+CELL_CLUSTER_MAP["Veloth Ancestral Tomb"] = CELL_CLUSTERS[718]
+CELL_CLUSTER_MAP["Almurbalarammi, Shrine"] = CELL_CLUSTERS[719]
+CELL_CLUSTER_MAP["Panabanit-Nimawia Egg Mine"] = CELL_CLUSTERS[720]
+CELL_CLUSTER_MAP["Ald-ruhn, Pellecia Aurrus's House"] = CELL_CLUSTERS[721]
+CELL_CLUSTER_MAP["Balmora, Dralasa Nithryon: Pawnbroker"] = CELL_CLUSTERS[722]
+CELL_CLUSTER_MAP["Bthuand"] = CELL_CLUSTERS[723]
+CELL_CLUSTER_MAP["Indalen Ancestral Tomb"] = CELL_CLUSTERS[724]
+CELL_CLUSTER_MAP["Falas Ancestral Tomb"] = CELL_CLUSTERS[725]
+CELL_CLUSTER_MAP["Arenim Ancestral Tomb"] = CELL_CLUSTERS[726]
+CELL_CLUSTER_MAP["Valenvaryon, Lambug's Hut"] = CELL_CLUSTERS[727]
+CELL_CLUSTER_MAP["Indarys Manor, Manor Services"] = CELL_CLUSTERS[728]
+CELL_CLUSTER_MAP["Salit Camp, Zalit's Yurt"] = CELL_CLUSTERS[729]
+CELL_CLUSTER_MAP["Ibar-Dad"] = CELL_CLUSTERS[730]
+CELL_CLUSTER_MAP["Urshilaku Camp, Zanummu's Yurt"] = CELL_CLUSTERS[731]
+CELL_CLUSTER_MAP["Erabenimsun Camp, Ashkhan's Yurt"] = CELL_CLUSTERS[732]
+CELL_CLUSTER_MAP["Ules Manor, Slave Shack"] = CELL_CLUSTERS[733]
+CELL_CLUSTER_MAP["Aryon Ancestral Tomb"] = CELL_CLUSTERS[734]
+CELL_CLUSTER_MAP["Hinnabi"] = CELL_CLUSTERS[735]
+CELL_CLUSTER_MAP["Vivec, St. Delyn Waist South-Two"] = CELL_CLUSTERS[736]
+CELL_CLUSTER_MAP["Sjorvar Horse-Mouth's House"] = CELL_CLUSTERS[737]
+CELL_CLUSTER_MAP["Sharapli"] = CELL_CLUSTERS[738]
+CELL_CLUSTER_MAP["Tel Vos, Aryon's Chambers"] = CELL_CLUSTERS[739]
+CELL_CLUSTER_MAP["Dren Plantation, Shipping House"] = CELL_CLUSTERS[740]
+CELL_CLUSTER_MAP["Zalkin Grotto"] = CELL_CLUSTERS[741]
+CELL_CLUSTER_MAP["Sadrith Mora, Anis Seloth: Alchemist"] = CELL_CLUSTERS[742]
+CELL_CLUSTER_MAP["Abaelun Mine"] = CELL_CLUSTERS[743]
+CELL_CLUSTER_MAP["Rethan Manor, Drelas' House"] = CELL_CLUSTERS[744]
+CELL_CLUSTER_MAP["Vos, Thilse Aralas's Farmhouse"] = CELL_CLUSTERS[745]
+CELL_CLUSTER_MAP["Indarys Manor"] = CELL_CLUSTERS[746]
+CELL_CLUSTER_MAP["Caldera, Valvius Mevureius' House"] = CELL_CLUSTERS[747]
+CELL_CLUSTER_MAP["Tel Aruhn, Upper Tower"] = CELL_CLUSTERS[748]
+CELL_CLUSTER_MAP["Tel Uvirith, Menas' House"] = CELL_CLUSTERS[749]
+CELL_CLUSTER_MAP["Odaishah"] = CELL_CLUSTERS[750]
+CELL_CLUSTER_MAP["Llando Ancestral Tomb"] = CELL_CLUSTERS[751]
+CELL_CLUSTER_MAP["Aran Ancestral Tomb"] = CELL_CLUSTERS[752]
+CELL_CLUSTER_MAP["Telasero, Propylon Chamber"] = CELL_CLUSTERS[753]
+CELL_CLUSTER_MAP["Balmora, Rarayn Radarys' House"] = CELL_CLUSTERS[754]
+CELL_CLUSTER_MAP["Vivec, St. Olms Canal North-One"] = CELL_CLUSTERS[755]
+CELL_CLUSTER_MAP["Elanius Camp, Yapal's Yurt"] = CELL_CLUSTERS[756]
+CELL_CLUSTER_MAP["Ules Manor, Slavemaster's Shack"] = CELL_CLUSTERS[757]
+CELL_CLUSTER_MAP["Maelu Egg Mine"] = CELL_CLUSTERS[758]
+CELL_CLUSTER_MAP["Remote Shipwreck, Cabin"] = CELL_CLUSTERS[759]
+CELL_CLUSTER_MAP["Venim Ancestral Tomb"] = CELL_CLUSTERS[760]
+CELL_CLUSTER_MAP["Ald-ruhn, The Rat In The Pot"] = CELL_CLUSTERS[761]
+CELL_CLUSTER_MAP["Vivec, St. Olms Canal South-Three"] = CELL_CLUSTERS[762]
+CELL_CLUSTER_MAP["Kunirai"] = CELL_CLUSTERS[763]
+CELL_CLUSTER_MAP["Balmora, Itan's House"] = CELL_CLUSTERS[764]
+CELL_CLUSTER_MAP["Arvel Manor, Slave Shack"] = CELL_CLUSTERS[765]
+CELL_CLUSTER_MAP["Aharunartus"] = CELL_CLUSTERS[766]
+CELL_CLUSTER_MAP["Missamsi"] = CELL_CLUSTERS[767]
+CELL_CLUSTER_MAP["Ald-ruhn, Galthragoth's House"] = CELL_CLUSTERS[768]
+CELL_CLUSTER_MAP["Yesamsi"] = CELL_CLUSTERS[769]
+CELL_CLUSTER_MAP["Sur Egg Mine"] = CELL_CLUSTERS[770]
+CELL_CLUSTER_MAP["Sha-Adnius"] = CELL_CLUSTERS[771]
+CELL_CLUSTER_MAP["Erabenimsun Camp, Wise Woman's Yurt"] = CELL_CLUSTERS[772]
+CELL_CLUSTER_MAP["Indarys Manor, Berendas' House"] = CELL_CLUSTERS[773]
+CELL_CLUSTER_MAP["Khuul, Aldi's Shack"] = CELL_CLUSTERS[774]
+CELL_CLUSTER_MAP["Hlormaren, Propylon Chamber"] = CELL_CLUSTERS[775]
+CELL_CLUSTER_MAP["Pelagiad, Dralas Gilu's House"] = CELL_CLUSTERS[776]
+CELL_CLUSTER_MAP["Kogoruhn, Dome of Pollock's Eve"] = CELL_CLUSTERS[777]
+CELL_CLUSTER_MAP["Addadshashanammu, Shrine"] = CELL_CLUSTERS[778]
+CELL_CLUSTER_MAP["Akimaes-Ilanipu Egg Mine"] = CELL_CLUSTERS[779]
+CELL_CLUSTER_MAP["Nchurdamz, Interior"] = CELL_CLUSTERS[780]
+CELL_CLUSTER_MAP["Rethandus Ancestral Tomb"] = CELL_CLUSTERS[781]
+CELL_CLUSTER_MAP["Maar Gan, Assi Serimilk's Hut"] = CELL_CLUSTERS[782]
+CELL_CLUSTER_MAP["Erabenimsun Camp, Salattanat's Yurt"] = CELL_CLUSTERS[783]
+CELL_CLUSTER_MAP["Shurinbaal"] = CELL_CLUSTERS[784]
+CELL_CLUSTER_MAP["Mannammu"] = CELL_CLUSTERS[785]
+CELL_CLUSTER_MAP["Vivec, St. Delyn Waist North-One"] = CELL_CLUSTERS[786]
+CELL_CLUSTER_MAP["Vos, Ulvil Llothas's Farmhouse"] = CELL_CLUSTERS[787]
+CELL_CLUSTER_MAP["Tel Branora, Fedar Davus's House"] = CELL_CLUSTERS[788]
+CELL_CLUSTER_MAP["Sadrith Mora, Vaden Belas' House"] = CELL_CLUSTERS[789]
+CELL_CLUSTER_MAP["Dissapla Mine"] = CELL_CLUSTERS[790]
+CELL_CLUSTER_MAP["Kogoruhn, Dome of Urso"] = CELL_CLUSTERS[791]
+CELL_CLUSTER_MAP["Tel Branora, Ervyna Hlervu's Shack"] = CELL_CLUSTERS[792]
+CELL_CLUSTER_MAP["Lonesome Shipwreck, Cabin"] = CELL_CLUSTERS[793]
+CELL_CLUSTER_MAP["Tusenend, Shrine"] = CELL_CLUSTERS[794]
+CELL_CLUSTER_MAP["Ald-ruhn, Ilmiril's House"] = CELL_CLUSTERS[795]
+CELL_CLUSTER_MAP["Ald-ruhn, Dravasa Andrethi's House"] = CELL_CLUSTERS[796]
+CELL_CLUSTER_MAP["Khuul, Miron Garer's Shack"] = CELL_CLUSTERS[797]
+CELL_CLUSTER_MAP["Ahemmusa Camp, Assamma-Idan's Yurt"] = CELL_CLUSTERS[798]
+CELL_CLUSTER_MAP["Tel Branora, Fadase Selvayn: Trader"] = CELL_CLUSTERS[799]
+CELL_CLUSTER_MAP["Ald-ruhn, Codus Callonus: Bookseller"] = CELL_CLUSTERS[800]
+CELL_CLUSTER_MAP["Yansirramus, Shrine"] = CELL_CLUSTERS[801]
+CELL_CLUSTER_MAP["Vivec, St. Delyn Canal South-Three"] = CELL_CLUSTERS[802]
+CELL_CLUSTER_MAP["Senim Ancestral Tomb"] = CELL_CLUSTERS[803]
+CELL_CLUSTER_MAP["Rotheran, Arena"] = CELL_CLUSTERS[804]
+CELL_CLUSTER_MAP["Aleft"] = CELL_CLUSTERS[805]
+CELL_CLUSTER_MAP["Shashmanu Camp, Anit's Yurt"] = CELL_CLUSTERS[806]
+CELL_CLUSTER_MAP["Zebabi"] = CELL_CLUSTERS[807]
+CELL_CLUSTER_MAP["Kumarahaz"] = CELL_CLUSTERS[808]
+CELL_CLUSTER_MAP["Gnisis, Madach Tradehouse"] = CELL_CLUSTERS[809]
+CELL_CLUSTER_MAP["Grytewake, Cabin"] = CELL_CLUSTERS[810]
+CELL_CLUSTER_MAP["Erabenimsun Camp, Ashu-Ahhe's Yurt"] = CELL_CLUSTERS[811]
+CELL_CLUSTER_MAP["Shishara"] = CELL_CLUSTERS[812]
+CELL_CLUSTER_MAP["Kogoruhn, Temple of Fey"] = CELL_CLUSTERS[813]
+CELL_CLUSTER_MAP["Unexplored Shipwreck, Cabin"] = CELL_CLUSTERS[814]
+CELL_CLUSTER_MAP["Massama Cave"] = CELL_CLUSTERS[815]
 
-global GRAPH: T.RoutingGraph = {vertices = VERTICES, edges = EDGES, cellClusters = CELL_CLUSTERS, cellClusterMap = CELL_CLUSTER_MAP}
+global GRAPH: T.RoutingGraph = {
+    vertices = VERTICES,
+    travelNPCVertices = TRAVEL_NPC_VERTICES,
+    edges = EDGES,
+    cellClusters = CELL_CLUSTERS,
+    cellClusterMap = CELL_CLUSTER_MAP
+}
 return {graph = GRAPH}

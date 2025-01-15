@@ -12,7 +12,7 @@ class CellCluster(NamedTuple):
 
 class Graph(NamedTuple):
     vertices: list[Location]
-    travelNPCVertices: list[Location]
+    travel_npc_vertices: list[Location]
     # add type of edge later?
     edges: dict[Location, list[tuple[Location, float]]]
 
@@ -36,7 +36,7 @@ def build_graph(cells: list[any], npcs: list[any]) -> Graph:
                 target_locations.append(target_location)
             travel_npcs[npc["id"]] = target_locations
 
-    travelNPCVertices: list[Location] = []
+    travel_npc_vertices: list[Location] = []
 
     for cell in cells:
         for ref in cell["references"]:
@@ -66,7 +66,7 @@ def build_graph(cells: list[any], npcs: list[any]) -> Graph:
                         else None
                     ),
                 )
-                travelNPCVertices.append(source_location)
+                travel_npc_vertices.append(source_location)
                 vertices.add(source_location)
                 for tl in travel_npcs[ref["id"]]:
                     edges[source_location].append((tl, 0))
@@ -75,7 +75,7 @@ def build_graph(cells: list[any], npcs: list[any]) -> Graph:
     edges = dict(edges)
     clusters, cell_cluster_map = get_cell_clusters(vertices, edges)
 
-    return Graph(list(vertices), travelNPCVertices, edges, clusters, cell_cluster_map)
+    return Graph(list(vertices), travel_npc_vertices, edges, clusters, cell_cluster_map)
 
 
 def get_cell_clusters(
@@ -156,6 +156,14 @@ def dump_graph(graph: Graph):
             )
         f.write("\n};\n\n")
 
+        f.write("global TRAVEL_NPC_VERTICES: {T.CellCoords} = {")
+        for vertex in graph.travel_npc_vertices:
+            ix = graph.vertices.index(vertex)
+            f.write(
+                f"\n    VERTICES[{ix+1}],"
+            )
+        f.write("\n};\n\n")
+
         f.write("global EDGES: {T.CellCoords:{T.Edge}} = {}\n")
         for vertex, vertex_edges in graph.edges.items():
             ix_src = graph.vertices.index(vertex)
@@ -185,8 +193,15 @@ def dump_graph(graph: Graph):
             )
 
         f.write(
-            "\nglobal GRAPH: T.RoutingGraph = {vertices = VERTICES, edges = EDGES, cellClusters = CELL_CLUSTERS, cellClusterMap = CELL_CLUSTER_MAP}\n"
-        )
+            """
+global GRAPH: T.RoutingGraph = {
+    vertices = VERTICES,
+    travelNPCVertices = TRAVEL_NPC_VERTICES,
+    edges = EDGES,
+    cellClusters = CELL_CLUSTERS,
+    cellClusterMap = CELL_CLUSTER_MAP
+}
+""")
         f.write("return {graph = GRAPH}\n")
 
 

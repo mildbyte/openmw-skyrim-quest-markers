@@ -151,8 +151,8 @@ local function getPlayerCellCoords(): CellCoords
 end
 
 global TEST_OBJECTIVE: CellCoords = {
-    coords = util.vector3(3874, 3954, 14410),
-    cellId = "Dagoth Ur, Facility Cavern",
+    coords = util.vector3(1224, 5312, 12120),
+    cellId = "Gnaar Mok, Caryarel's Shack",
 }
 
 global PLAYER_COORDS: CellCoords = nil

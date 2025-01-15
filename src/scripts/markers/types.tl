@@ -21,6 +21,7 @@ end
 
 local record RoutingGraph
     vertices: {CellCoords}
+    travelNPCVertices: {CellCoords}
     edges: {CellCoords:{Edge}}
 
     cellClusters: {CellCluster}

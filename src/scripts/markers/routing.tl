@@ -51,6 +51,14 @@ local function pruneGraph(graph: RoutingGraph, source: CellCoords, destination: 
     local requiredClusters: {CellCluster:boolean} = {}
     local pois: {CellCoords} = {source, destination}
 
+    -- Add travel NPCs and their destinations to POIs
+    for _, travelNPC in ipairs(graph.travelNPCVertices) do
+        table.insert(pois, travelNPC)
+        for _, NPCDestination in ipairs(graph.edges[travelNPC]) do
+            table.insert(pois, NPCDestination.vertex)
+        end
+    end
+
     for _, poi in ipairs(pois) do
         requiredVertices[poi] = true
         if poi.cellId ~= nil then
@@ -237,9 +245,3 @@ local function getRoute(graph: RoutingGraph, source: CellCoords, destination: Ce
 end
 
 return { getRoute = getRoute }
-
--- ISSUES
---  - duplicate vertices (because equality is on table IDs, not data)
---  - will need to mess around with door positions a lot because each door's origin is different
---  - still slow, need that pruning
---  - seyda need census problem: same interior but they're physically unreachable from each other lol
