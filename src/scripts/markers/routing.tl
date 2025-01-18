@@ -11,7 +11,6 @@ local CellCluster = T.CellCluster
 local listReverse = require("scripts.markers.utils").listReverse
 local tableLength = require("scripts.markers.utils").tableLength
 
-
 -- Assuming running, speed=50, athletics=50, game units per second
 -- global RUN_SPEED = 337.5
 
@@ -222,6 +221,14 @@ local function dijkstra(graph: RoutingGraph, source: CellCoords, destination: Ce
 end
 
 local function getRoute(graph: RoutingGraph, source: CellCoords, destination: CellCoords): {CellCoords}
+    if destination.cellId ~= nil and graph.cellClusterMap[destination.cellId] == nil then
+        return nil
+    end
+
+    if source.cellId ~= nil and graph.cellClusterMap[source.cellId] == nil then
+        return nil
+    end
+
     local _, prev = dijkstra(graph, source, destination)
 
     local result: {CellCoords} = {}

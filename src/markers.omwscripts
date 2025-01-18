@@ -1,1 +1,2 @@
 PLAYER: scripts/markers/player.lua
+GLOBAL: scripts/markers/global.lua

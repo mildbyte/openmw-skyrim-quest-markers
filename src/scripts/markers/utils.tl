@@ -1,3 +1,5 @@
+local core = require("openmw.core")
+local CellCoords = require("scripts.markers.types").CellCoords
 
 local function listContains<A>(t: {A}, v: A): boolean
     for _, tv in ipairs(t) do
@@ -20,5 +22,16 @@ local function tableLength(t: table): integer
     return result
 end
 
+local function getCellCoords(object: core.GameObject): CellCoords
+    local cellId: string
+    if object.cell.isExterior then
+        cellId = nil
+    else
+        cellId = object.cell.name
+    end
 
-return { listContains = listContains, listReverse = listReverse, tableLength = tableLength }
+    return { cellId = cellId, coords = object.position }
+end
+
+
+return { listContains = listContains, listReverse = listReverse, tableLength = tableLength, getCellCoords = getCellCoords }

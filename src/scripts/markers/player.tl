@@ -3,7 +3,9 @@ local input = require('openmw.input')
 local util = require('openmw.util')
 local camera = require('openmw.camera')
 local self = require('openmw.self')
+local sendGlobalEvent = require("openmw.core").sendGlobalEvent
 
+local getCellCoords = require("scripts.markers.utils").getCellCoords
 local CellCoords = require('scripts.markers.types').CellCoords
 local RoutingGraph = require('scripts.markers.types').RoutingGraph
 local coordsToString = require("scripts.markers.types").coordsToString
@@ -117,6 +119,8 @@ local function updateViewportObjectives(objectiveBlips: ObjectiveBlips)
             -- If the objective is behind us, stick the blip to the edge of the screen
             local x_dist = math.abs(viewportX - 0.5)
             local y_dist = math.abs(viewportY - 0.5)
+            viewportX = 1 - viewportX
+            viewportY = 1 - viewportY
 
             if x_dist > y_dist then
                 if viewportX < 0.5 then
@@ -139,21 +143,10 @@ local function updateViewportObjectives(objectiveBlips: ObjectiveBlips)
     setObjectiveBlips(screenSpace)
 end
 
-local function getPlayerCellCoords(): CellCoords
-    local cellId: string
-    if self.object.cell.isExterior then
-        cellId = nil
-    else
-        cellId = self.object.cell.name
-    end
-
-    return { cellId = cellId, coords = self.object.position }
-end
-
-global TEST_OBJECTIVE: CellCoords = {
-    coords = util.vector3(1224, 5312, 12120),
-    cellId = "Gnaar Mok, Caryarel's Shack",
-}
+global TEST_OBJECTIVE: {CellCoords} = {{
+    coords = util.vector3(85183, 117570, 4944),
+    cellId = nil,
+}}
 
 global PLAYER_COORDS: CellCoords = nil
 
@@ -161,20 +154,34 @@ return {
     engineHandlers = {
         onKeyPress = function(key: input.KeyboardEvent)
             if key.symbol == 'x' then
-                OBJECTIVE_BLIPS = computeBlips({TEST_OBJECTIVE}, getPlayerCellCoords(), GRAPH)
+                ui.printToConsole("Sending objective recalc event", ui.CONSOLE_COLOR.Default)
+                sendGlobalEvent("QuestMarkersRecalcObjective", nil)
+                -- OBJECTIVE_BLIPS = computeBlips(objectives, getPlayerCellCoords(), GRAPH)
+                local cellCoords = getCellCoords(self.object)
+                print("recalculating route to " .. #TEST_OBJECTIVE .. " objective(s)")
+                OBJECTIVE_BLIPS = computeBlips(TEST_OBJECTIVE, cellCoords, GRAPH)
+                updateViewportObjectives(OBJECTIVE_BLIPS)
+                PLAYER_COORDS = cellCoords
             end
         end,
         onUpdate = function(dt: number)
-            local cellCoords = getPlayerCellCoords()
+            local cellCoords = getCellCoords(self.object)
 
             -- Automatically update the routing when a cell changes
             -- TODO: also do it occasionally in the exterior
             -- hmm, what about ASV teleports
             if PLAYER_COORDS == nil or cellCoords.cellId ~= PLAYER_COORDS.cellId then
-                OBJECTIVE_BLIPS = computeBlips({TEST_OBJECTIVE}, getPlayerCellCoords(), GRAPH)
+                print("recalculating route to " .. #TEST_OBJECTIVE .. " objective(s)")
+                OBJECTIVE_BLIPS = computeBlips(TEST_OBJECTIVE, cellCoords, GRAPH)
             end
             updateViewportObjectives(OBJECTIVE_BLIPS)
             PLAYER_COORDS = cellCoords
+        end
+    },
+    eventHandlers = {
+        QuestMarkersSetObjective = function(objectives: {CellCoords}) 
+            ui.printToConsole("received new objectives", ui.CONSOLE_COLOR.Default)
+            TEST_OBJECTIVE = objectives
         end
     }
 }
