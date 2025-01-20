@@ -62,9 +62,11 @@ local function computeBlips(objectives: {CellCoords}, player: CellCoords, graph:
     local localBlips: {util.Vector3} = {}
     local globalBlips: {util.Vector3} = {}
 
-    for _, objective in ipairs(objectives) do
+    local routes = getRoute(graph, player, objectives)
+
+    for i, objective in ipairs(objectives) do
+        local route = routes[i]
         ui.printToConsole("Getting route for " .. coordsToString(player) .. ".." .. coordsToString(objective), ui.CONSOLE_COLOR.Default)
-        local route = getRoute(graph, player, objective)
         if route == nil then
             ui.printToConsole("Could not find a route from " .. tostring(player) .. " to " .. tostring(objective), ui.CONSOLE_COLOR.Error)
         else

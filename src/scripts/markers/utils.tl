@@ -22,6 +22,12 @@ local function tableLength(t: table): integer
     return result
 end
 
+local function setLength<A>(s: {A: boolean}): integer
+    local result = 0
+    for _, v in pairs(s) do if v == true then result = result + 1 end end
+    return result
+end
+
 local function getCellCoords(object: core.GameObject): CellCoords
     local cellId: string
     if object.cell.isExterior then
@@ -34,4 +40,10 @@ local function getCellCoords(object: core.GameObject): CellCoords
 end
 
 
-return { listContains = listContains, listReverse = listReverse, tableLength = tableLength, getCellCoords = getCellCoords }
+return { 
+    listContains = listContains,
+    listReverse = listReverse,
+    tableLength = tableLength,
+    getCellCoords = getCellCoords,
+    setLength = setLength
+}

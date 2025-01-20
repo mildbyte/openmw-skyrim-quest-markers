@@ -9,7 +9,9 @@ local coordsToString = T.coordsToString
 local RoutingGraph = T.RoutingGraph
 local CellCluster = T.CellCluster
 local listReverse = require("scripts.markers.utils").listReverse
+local listContains = require("scripts.markers.utils").listContains
 local tableLength = require("scripts.markers.utils").tableLength
+local setLength = require("scripts.markers.utils").setLength
 
 -- Assuming running, speed=50, athletics=50, game units per second
 -- global RUN_SPEED = 337.5
@@ -40,7 +42,7 @@ local function dumpGraph(graph: PrunedGraph)
     end
 end
 
-local function pruneGraph(graph: RoutingGraph, source: CellCoords, destination: CellCoords): PrunedGraph
+local function pruneGraph(graph: RoutingGraph, source: CellCoords, destinations: {CellCoords}): PrunedGraph
     -- [[ Delete vertices from the graph that the player will 
     -- never need to pass through and prepare a map of vertices in
     -- each cell for implied edge calculation.
@@ -48,7 +50,11 @@ local function pruneGraph(graph: RoutingGraph, source: CellCoords, destination: 
 
     local requiredVertices: {CellCoords:boolean} = {}
     local requiredClusters: {CellCluster:boolean} = {}
-    local pois: {CellCoords} = {source, destination}
+    local pois: {CellCoords} = {source}
+
+    for _, destination in ipairs(destinations) do
+        table.insert(pois, destination)
+    end
 
     -- Add travel NPCs and their destinations to POIs
     for _, travelNPC in ipairs(graph.travelNPCVertices) do
@@ -125,8 +131,7 @@ local function pruneGraph(graph: RoutingGraph, source: CellCoords, destination: 
     }
 end
 
-local function dijkstra(graph: RoutingGraph, source: CellCoords, destination: CellCoords): {CellCoords: number}, {CellCoords: CellCoords}
-    print("routing: source " ..  coordsToString(source) .. ".." ..  coordsToString(destination))
+local function dijkstra(graph: RoutingGraph, source: CellCoords, destinations: {CellCoords}): {CellCoords: number}, {CellCoords: CellCoords}
     local INFINITY: number = 1e50
 
     local dist: {CellCoords: number} = {}
@@ -134,7 +139,12 @@ local function dijkstra(graph: RoutingGraph, source: CellCoords, destination: Ce
 
     local startTime = getRealTime()
 
-    local prunedGraph = pruneGraph(graph, source, destination)
+    local remainingDestinations: {CellCoords: boolean} = {}
+    for _, destination in ipairs(destinations) do
+        remainingDestinations[destination] = true
+    end
+
+    local prunedGraph = pruneGraph(graph, source, destinations)
     -- dumpGraph(prunedGraph)
     print(
         "pruned travel graph from " .. #graph.vertices .. "v " .. tableLength(graph.edges) ..
@@ -169,8 +179,11 @@ local function dijkstra(graph: RoutingGraph, source: CellCoords, destination: Ce
 
         queueLoops = queueLoops + 1
         
-        if vertex == destination then
-            break
+        if remainingDestinations[vertex] ~= nil then
+            remainingDestinations[vertex] = nil
+            if setLength(remainingDestinations) == 0 then
+                break
+            end
         end
 
         -- https://cs.stackexchange.com/a/118406
@@ -220,35 +233,49 @@ local function dijkstra(graph: RoutingGraph, source: CellCoords, destination: Ce
     return dist, prev
 end
 
-local function getRoute(graph: RoutingGraph, source: CellCoords, destination: CellCoords): {CellCoords}
-    if destination.cellId ~= nil and graph.cellClusterMap[destination.cellId] == nil then
-        return nil
-    end
-
+local function getRoute(graph: RoutingGraph, source: CellCoords, destinations: {CellCoords}): {{CellCoords}}
+    -- Filter destinations to the ones that we actually know about
+    -- (where the cell exists)
     if source.cellId ~= nil and graph.cellClusterMap[source.cellId] == nil then
         return nil
     end
 
-    local _, prev = dijkstra(graph, source, destination)
-
-    local result: {CellCoords} = {}
-
-    while (destination ~= nil) and (destination ~= source) do
-        table.insert(result, destination)
-        destination = prev[destination]
+    local existingDestinations: {CellCoords} = {}
+    for _, destination in ipairs(destinations) do
+        if destination.cellId == nil or graph.cellClusterMap[destination.cellId] ~= nil then
+            table.insert(existingDestinations, destination)
+        end
     end
 
-    ui.printToConsole("route", ui.CONSOLE_COLOR.Default)
-    for _, v in ipairs(result) do
-        ui.printToConsole(coordsToString(v), ui.CONSOLE_COLOR.Default)
+    local _, prev = dijkstra(graph, source, existingDestinations)
+
+    local result: {{CellCoords}} = {}
+
+    for _, destination in ipairs(destinations) do
+        if listContains(existingDestinations, destination) then
+            local subResult: {CellCoords} = {}
+            while (destination ~= nil) and (destination ~= source) do
+                table.insert(subResult, destination)
+                destination = prev[destination]
+            end
+
+            if destination == source then
+                listReverse(subResult)
+                table.insert(result, subResult)
+            else
+                table.insert(result, nil)
+            end
+
+            ui.printToConsole("route", ui.CONSOLE_COLOR.Default)
+            for _, v in ipairs(subResult) do
+                ui.printToConsole(coordsToString(v), ui.CONSOLE_COLOR.Default)
+            end
+        else
+            table.insert(result, nil)
+        end
     end
 
-    if destination == source then
-        listReverse(result)
-        return result
-    end
-
-    return nil
+    return result
 end
 
 return { getRoute = getRoute }
