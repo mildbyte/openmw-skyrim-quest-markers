@@ -166,10 +166,19 @@ local function calculateObjectives(
             end
         end
     end
+
+    -- If the quest is considered started, add its first objective as the
+    -- active objective
+
     -- TODO we also need to react to events
-
+    
     utils.listReverse(uiObjectives)
-
+    if playerQuest.started and #uiObjectives == 0 then
+        table.insert(uiObjectives, {
+            isCompleted = false,
+            info = objectives[#objectives]
+        })
+    end
 
     return uiObjectives
 end
@@ -198,7 +207,7 @@ local function calculateUIState(
         table.insert(
             questUIStates,
             {
-                name = "TODO",
+                name = quest.id,
                 isCompleted = isFinished,
                 isActive = isActive,
                 currentFlavorText = "TODO",
@@ -260,15 +269,19 @@ global TEST_YAML = [[
 local function parseCondition(dict: {string: any}): Condition
     if dict["type"] == "Journal" then
         return {
+            -- TODO figure out why discriminant unions don't work
+            name = "Journal",
             questId = dict["questId"] as string,
             stage = dict["stage"] as integer,
         } as Journal
     elseif dict["type"] == "NPCDead" then
         return {
+            name = "NPCDead",
             id = dict["id"] as string
         } as NPCDead
     elseif dict["type"] == "ItemPickedUp" then
         return {
+            name = "ItemPickedUp",
             id = dict["id"] as string,
             location = nil   -- TODO
         } as ItemPickedUp
@@ -280,15 +293,18 @@ end
 local function parsePointer(dict: {string: any}): Pointer
     if dict["type"] == "NPC" then
         return {
+            name = "NPC",
             id = dict["id"] as string,
         } as NPC
     elseif dict["type"] == "Item" then
         return {
+            name = "Item",
             id = dict["id"] as string,
             location = nil   -- TODO
         } as Item
     elseif dict["type"] == "InteriorCluster" then
         return {
+            name = "InteriorCluster",
             cellId = dict["cellId"] as string
         } as InteriorCluster
     end
@@ -333,6 +349,8 @@ return {
     loadQuestYAML = loadQuestYAML,
     TEST_YAML = TEST_YAML
 }
+
+-- TODO: maybe we should just use lua here instead of yaml
 
 -- TODO
 

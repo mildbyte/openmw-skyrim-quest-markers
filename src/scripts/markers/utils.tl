@@ -19,6 +19,7 @@ end
 local function listCopy<A>(l: {A}): {A}
     local u: {A} = { }
     for k, v in ipairs(l) do u[k] = v end
+    return u
 end
   
 
