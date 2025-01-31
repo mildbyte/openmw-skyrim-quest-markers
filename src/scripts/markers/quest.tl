@@ -237,7 +237,7 @@ global TEST_YAML = [[
     - pointer:
         type: NPC
         id: caius cosades
-    - condition:
+      condition:
         type: Journal
         stage: 14
       completesQuest: true
@@ -301,7 +301,7 @@ local function parseObjective(dict: {string: any}): Objective
         completesQuest = dict["completesQuest"] as boolean or false,
         text = dict["text"] as string,
         pointer = parsePointer(dict["pointer"] as {string: any}),
-        condition = parseCondition(dict["objective"] as {string: any}),
+        condition = parseCondition(dict["condition"] as {string: any}),
     }
 end
 
@@ -333,3 +333,71 @@ return {
     loadQuestYAML = loadQuestYAML,
     TEST_YAML = TEST_YAML
 }
+
+-- TODO
+
+-- [22:41:13.257 E] L@0x1[scripts/markers/player.lua] onKeyPress failed. Lua error: [string "scripts/markers/utils.lua"]:14: attempt to get length of local 'l' (a nil value)
+-- [22:41:13.257 E] stack traceback:
+-- [22:41:13.257 E]        [string "scripts/markers/utils.lua"]:14: in function 'listReverse'
+-- [22:41:13.257 E]        [string "scripts/markers/quest.lua"]:96: in function 'calculateObjectives'
+-- [22:41:13.257 E]        [string "scripts/markers/quest.lua"]:196: in function 'calculateUIState'
+-- [22:41:13.257 E]        [string "scripts/markers/player.lua"]:177: in function <[string "scripts/markers/player.lua"]:161
+
+-- breaks probably because not a tagged union?
+
+-- table: 0x01ef03c25df0 {
+--   quests = table: 0x01ef03c26f20 {
+--     1 = table: 0x01ef03c25f80 {
+--       name = Report to Caius Cosades,
+--       objectives = table: 0x01ef03c26e30 {
+--         1 = table: 0x01ef03c25e90 {
+--           condition = table: 0x01ef03c26250 {
+--             stage = 5,
+--           },
+--           text = Go to South Wall Cornerclub,
+--           completesQuest = false,
+--           pointer = table: 0x01ef03c26b10 {
+--             cellId = Balmora, South Wall Cornerclub,
+--           },
+--         },
+--         2 = table: 0x01ef03c26340 {
+--           condition = table: 0x01ef03c25c10 {
+--             stage = 10,
+--           },
+--           text = Speak with Bacola Closcius,
+--           completesQuest = false,
+--           pointer = table: 0x01ef03c25bc0 {
+--             id = bacola closcius,
+--           },
+--         },
+--         3 = table: 0x01ef03c25d00 {
+--           condition = table: 0x01ef03c261b0 {
+--             stage = 14,
+--           },
+--           text = Speak with Caius Cosades,
+--           completesQuest = true,
+--           pointer = table: 0x01ef03c26110 {
+--             id = caius cosades,
+--           },
+--         },
+--       },
+--       id = A1_1_FindSpymaster,
+--     },
+--     2 = table: 0x01ef03c26480 {
+--       name = Antabolis Informant,
+--       objectives = table: 0x01ef03c26a20 {
+--         1 = table: 0x01ef03c25d50 {
+--           condition = table: 0x01ef03c26bb0 {
+--             stage = 1,
+--           },
+--           text = Speak with Caius Cosades when you're ready,
+--           completesQuest = false,
+--           pointer = table: 0x01ef03c25da0 {
+--             id = caius cosades,
+--           },
+--         },
+--       },
+--       id = A1_2_AntabolisInformant,
+--     },
+--   },
+-- }
