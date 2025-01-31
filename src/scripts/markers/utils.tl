@@ -16,6 +16,12 @@ local function listReverse<A>(l: {A}): {A}
     end
 end
 
+local function listCopy<A>(l: {A}): {A}
+    local u: {A} = { }
+    for k, v in ipairs(l) do u[k] = v end
+end
+  
+
 local function tableLength(t: table): integer
     local result = 0
     for _ in pairs(t) do result = result + 1 end
@@ -43,6 +49,7 @@ end
 return { 
     listContains = listContains,
     listReverse = listReverse,
+    listCopy = listCopy,
     tableLength = tableLength,
     getCellCoords = getCellCoords,
     setLength = setLength

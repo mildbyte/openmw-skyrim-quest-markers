@@ -1,9 +1,11 @@
 local ui = require('openmw.ui')
 local input = require('openmw.input')
 local util = require('openmw.util')
+local aux_util = require('openmw_aux.util')
 local camera = require('openmw.camera')
 local self = require('openmw.self')
 local sendGlobalEvent = require("openmw.core").sendGlobalEvent
+local types = require("openmw.types")
 
 local getCellCoords = require("scripts.markers.utils").getCellCoords
 local CellCoords = require('scripts.markers.types').CellCoords
@@ -13,6 +15,8 @@ local GRAPH = require('scripts.markers.graph').graph
 local listContains = require("scripts.markers.utils").listContains
 local listReverse = require("scripts.markers.utils").listReverse
 local getRoute = require("scripts.markers.routing").getRoute
+
+local quest = require("scripts.markers.quest")
 
 global BLIP_ELEMENTS: {ui.Element} = {}
 
@@ -164,6 +168,14 @@ return {
                 OBJECTIVE_BLIPS = computeBlips(TEST_OBJECTIVE, cellCoords, GRAPH)
                 updateViewportObjectives(OBJECTIVE_BLIPS)
                 PLAYER_COORDS = cellCoords
+            end
+            if key.symbol == 'c' then
+                local quests = quest.loadQuestYAML(quest.TEST_YAML)
+                ui.printToConsole(aux_util.deepToString(quests, 6), ui.CONSOLE_COLOR.Default)
+                
+                local playerQuests = types.Player.quests(self.object)
+                local uiState = quest.calculateUIState(quests, playerQuests as {string: types.PlayerQuest}, nil)
+                ui.printToConsole(aux_util.deepToString(uiState, 6), ui.CONSOLE_COLOR.Default)
             end
         end,
         onUpdate = function(dt: number)
