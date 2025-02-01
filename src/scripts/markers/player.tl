@@ -1,4 +1,5 @@
 local ui = require('openmw.ui')
+local I = require('openmw.interfaces')
 local input = require('openmw.input')
 local util = require('openmw.util')
 local aux_util = require('openmw_aux.util')
@@ -15,6 +16,10 @@ local GRAPH = require('scripts.markers.graph').graph
 local listContains = require("scripts.markers.utils").listContains
 local listReverse = require("scripts.markers.utils").listReverse
 local getRoute = require("scripts.markers.routing").getRoute
+
+-- TODO we might be able to yoink this
+-- but we'll need to fool Teal into thinking these decls exist
+-- local renderers = require("scripts.omw.settings.renderers")
 
 local quest = require("scripts.markers.quest")
 
@@ -156,6 +161,37 @@ global TEST_OBJECTIVE: {CellCoords} = {{
 
 global PLAYER_COORDS: CellCoords = nil
 
+local function renderScrollArea(inner: ui.Layout): ui.Layout
+    -- local canvas: ui.Layout = {
+    --     type = ui.TYPE.Flex,
+    --     props = {
+    --         -- size = util.vector2(300, 200),
+    --         autoSize = true,
+    --     },
+    --     content = ui.content { inner },
+    -- }
+
+    local layout: ui.Layout = {
+        name = "outer_box",
+        type = ui.TYPE.Flex,
+        props = {
+            -- This size is mandatory (which sucks because I thought
+            -- it'd stick to the parent's size)
+
+            -- lmao we can go -ve position as long as we add a corresponding
+            -- number to size
+            size = util.vector2(300, 300),
+            position = util.vector2(0, -100),
+            autoSize = false
+        },
+        content = ui.content {
+            inner
+        },
+    }
+
+    return layout
+end
+
 return {
     engineHandlers = {
         onKeyPress = function(key: input.KeyboardEvent)
@@ -176,6 +212,43 @@ return {
                 local playerQuests = types.Player.quests(self.object)
                 local uiState = quest.calculateUIState(quests, playerQuests as {string: types.PlayerQuest}, nil)
                 ui.printToConsole(aux_util.deepToString(uiState, 6), ui.CONSOLE_COLOR.Default)
+            end
+            if key.symbol == 'b' then
+                local bigThing: ui.Layout = {
+                    type = ui.TYPE.Text,
+                    props = {
+                        text = [[
+
+    The missile knows where it is at all times. It knows this because it knows where it isn't. By subtracting where it is from where it isn't, or where it isn't from where it is (whichever is greater), it obtains a difference, or deviation. The guidance subsystem uses deviations to generate corrective commands to drive the missile from a position where it is to a position where it isn't, and arriving at a position where it wasn't, it now is. Consequently, the position where it is, is now the position that it wasn't, and it follows that the position that it was, is now the position that it isn't.
+
+    In the event that the position that it is in is not the position that it wasn't, the system has acquired a variation, the variation being the difference between where the missile is, and where it wasn't. If variation is considered to be a significant factor, it too may be corrected by the GEA. However, the missile must also know where it was.
+
+    The missile guidance computer scenario works as follows. Because a variation has modified some of the information the missile has obtained, it is not sure just where it is. However, it is sure where it isn't, within reason, and it knows where it was. It now subtracts where it should be from where it wasn't, or vice-versa, and by differentiating this from the algebraic sum of where it shouldn't be, and where it was, it is able to obtain the deviation and its variation, which is called error.
+]],
+                        wordWrap = true,
+                        multiline = true,
+                        autoSize = false,
+                        size = util.vector2(300, 1000),
+                    },
+                    template = I.MWUI.templates.textNormal,
+                }
+
+                local scrollarea = renderScrollArea(bigThing)
+
+                local element = ui.create {
+                    layer = 'HUD',
+                    type = ui.TYPE.Container,
+                    props = {
+                        relativePosition = util.vector2(0.5, 0.5),
+                        size = util.vector2(3000, 200),
+                    },
+                    content = ui.content {
+                        scrollarea
+                    },
+                    template = I.MWUI.templates.boxSolidThick
+                }
+                ui.printToConsole(aux_util.deepToString(element, 6), ui.CONSOLE_COLOR.Default)
+                element:update()
             end
         end,
         onUpdate = function(dt: number)

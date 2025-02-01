@@ -147,14 +147,6 @@ local function calculateObjectives(
             end
 
             if isObjectiveCompleted then
-                -- Add this objective as completed, everything after it
-                -- will be counted as completed
-                completedAfterHere = true
-                table.insert(uiObjectives, {
-                    isCompleted = true,
-                    info = currentObj
-                })
-                
                 -- Add the objective just before that as the "active" objective
                 if i > 1 then
                     local nextObjective = objectives[i-1]
@@ -163,6 +155,13 @@ local function calculateObjectives(
                         info = nextObjective
                     })
                 end
+                -- Add this objective as completed, everything after it
+                -- will be counted as completed
+                table.insert(uiObjectives, {
+                    isCompleted = true,
+                    info = currentObj
+                })
+                completedAfterHere = true
             end
         end
     end
@@ -171,6 +170,7 @@ local function calculateObjectives(
     -- active objective
 
     -- TODO we also need to react to events
+    -- TODO: some order issues
     
     utils.listReverse(uiObjectives)
     if playerQuest.started and #uiObjectives == 0 then
