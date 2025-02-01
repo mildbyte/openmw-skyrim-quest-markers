@@ -180,6 +180,15 @@ local function renderScrollArea(inner: ui.Layout): ui.Layout
 
             -- lmao we can go -ve position as long as we add a corresponding
             -- number to size
+
+            -- so i think we can do this scrollarea but maybe we need to know
+            -- exactly when the child ends so that we can stop scrolling
+
+            -- that's option 1; option 2 is we have a janky flex impl
+            -- that has a component capacity (which is dynamic lololo)
+            -- e.g. we can render 20 quests
+            -- so we have a window of 20 quests that we render and a callback
+            -- to get a previous / next quest
             size = util.vector2(300, 300),
             position = util.vector2(0, -100),
             autoSize = false
@@ -240,15 +249,68 @@ return {
                     type = ui.TYPE.Container,
                     props = {
                         relativePosition = util.vector2(0.5, 0.5),
-                        size = util.vector2(3000, 200),
+                        -- i think the container size literally doesn't matter
+                        size = util.vector2(1, 1),
                     },
-                    content = ui.content {
-                        scrollarea
-                    },
+                    content = ui.content { scrollarea },
+                    
+                    -- ui.content {
+                    --     {
+                    --         type = ui.TYPE.Flex,
+                    --         props = { autoSize = false, size = util.vector2(300, 200) },
+                    --         content = ui.content { scrollarea }
+                    --     }
+                    -- },
                     template = I.MWUI.templates.boxSolidThick
                 }
                 ui.printToConsole(aux_util.deepToString(element, 6), ui.CONSOLE_COLOR.Default)
                 element:update()
+            end
+            if key.symbol == 'v' then
+                local listComponents: {ui.Layout} = {}
+
+                for i = 1, 20 do
+                    table.insert(listComponents, {
+                        type = ui.TYPE.Text,
+                        props = {
+                            text = ">>>>> Quest " .. tostring(i) .. " << ",
+                            autoSize = true,
+                        },
+                        template = I.MWUI.templates.textNormal,
+                    } as ui.Layout)
+                end
+
+                local questStack: ui.Layout = {
+                    type = ui.TYPE.Flex,
+                    props = {
+                        horizontal = false,
+                        autoSize = false,
+                        size = util.vector2(200, 100),
+                        position = util.vector2(0, -50),
+                    },
+                    content = ui.content(listComponents)
+                }
+
+                local questContainer: ui.Layout = {
+                    type = ui.TYPE.Container,
+                    content = ui.content { questStack },
+                    template = I.MWUI.templates.boxTransparentThick,
+                }
+
+                local questWindow: ui.Layout = {
+                    layer = "Windows",
+                    type = ui.TYPE.Window,
+                    props = {
+                        relativePosition = util.vector2(0.5, 0.5),
+                        anchor = util.vector2(0.5, 0.5),
+                        size = util.vector2(600, 480),
+                        caption = "Quest Journal",
+                    },
+                    content = ui.content { questContainer },
+                    template = { skin = 'MW_Window' } as ui.Template,
+                }
+
+                ui.create(questWindow)
             end
         end,
         onUpdate = function(dt: number)
