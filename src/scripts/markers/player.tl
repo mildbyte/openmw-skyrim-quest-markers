@@ -1,4 +1,5 @@
 local ui = require('openmw.ui')
+local async = require('openmw.async')
 local I = require('openmw.interfaces')
 local input = require('openmw.input')
 local util = require('openmw.util')
@@ -159,6 +160,11 @@ global TEST_OBJECTIVE: {CellCoords} = {{
     cellId = nil,
 }}
 
+local type WindowDrag = record
+    position: util.Vector2
+    size: util.Vector2
+end
+
 global PLAYER_COORDS: CellCoords = nil
 
 local function renderScrollArea(inner: ui.Layout): ui.Layout
@@ -199,6 +205,21 @@ local function renderScrollArea(inner: ui.Layout): ui.Layout
     }
 
     return layout
+end
+
+-- TODO this is useful
+-- constants.textNormalSize
+
+local function paddedBox(layout: ui.Layout): ui.Layout
+    return {
+        template = I.MWUI.templates.box,
+        content = ui.content {
+            {
+                template = I.MWUI.templates.padding,
+                content = ui.content { layout },
+            },
+        }
+    }
 end
 
 return {
@@ -269,11 +290,11 @@ return {
             if key.symbol == 'v' then
                 local listComponents: {ui.Layout} = {}
 
-                for i = 1, 20 do
+                for i = 1, 200 do
                     table.insert(listComponents, {
                         type = ui.TYPE.Text,
                         props = {
-                            text = ">>>>> Quest " .. tostring(i) .. " << ",
+                            text = ">>>>> Auest " .. tostring(i) .. " << ",
                             autoSize = true,
                         },
                         template = I.MWUI.templates.textNormal,
@@ -285,32 +306,84 @@ return {
                     props = {
                         horizontal = false,
                         autoSize = false,
-                        size = util.vector2(200, 100),
-                        position = util.vector2(0, -50),
+                        position = util.vector2(30, 30),
+                        size = util.vector2(200, 400),
                     },
-                    content = ui.content(listComponents)
+                    content = ui.content(listComponents),
+                    template = I.MWUI.templates.borders,
                 }
 
-                local questContainer: ui.Layout = {
-                    type = ui.TYPE.Container,
+                local titleBar: ui.Layout = {
+                    type = ui.TYPE.Flex,
+                    props = {
+                        horizontal = true,
+                    },
+                    content = ui.content { {
+                        type = ui.TYPE.Text,
+                        props = {
+                            text = "Quest Journal",
+                            autoSize = true,
+                        },
+                        template = I.MWUI.templates.textNormal,
+                    } },
+                    external = { action = true, },
+                }
+
+                local questWindowBody: ui.Layout = {
+                    type = ui.TYPE.Flex,
+                    props = {
+                        autoSize = true,
+                    },
+                    external = {
+                        stretch = 1,
+                        grow = 1,
+                    },
                     content = ui.content { questStack },
-                    template = I.MWUI.templates.boxTransparentThick,
+                    template = I.MWUI.templates.bordersThick,
+                }
+
+                local questWindowInner: ui.Layout = {
+                    type = ui.TYPE.Flex,
+                    props = {
+                        horizontal = false,
+                        autoSize = false,
+                        relativeSize = util.vector2(1, 1),
+                    },
+                    external = {
+                        stretch = 1,
+                        grow = 1,
+                    },
+                    content = ui.content {
+                        titleBar,
+                        questWindowBody,
+                    },
                 }
 
                 local questWindow: ui.Layout = {
-                    layer = "Windows",
                     type = ui.TYPE.Window,
+                    props = {
+                        size = util.vector2(640, 480),
+                        caption = "Quest Journal",
+                    },
+                    content = ui.content { questWindowInner },
+                    events = {
+                        windowDrag = async:callback(function(t: WindowDrag)
+                            ui.showMessage("got dragged to pos " .. tostring(t.position) .. " size " .. tostring(t["size"]), {})
+                        end)
+                    }
+                }
+
+                local questWindowContainer: ui.Layout = {
+                    layer = "Windows",
+                    type = ui.TYPE.Container,
                     props = {
                         relativePosition = util.vector2(0.5, 0.5),
                         anchor = util.vector2(0.5, 0.5),
-                        size = util.vector2(600, 480),
-                        caption = "Quest Journal",
                     },
-                    content = ui.content { questContainer },
-                    template = { skin = 'MW_Window' } as ui.Template,
+                    template = I.MWUI.templates.boxTransparentThick,
+                    content = ui.content { questWindow },
                 }
-
-                ui.create(questWindow)
+                ui.create(questWindowContainer)
             end
         end,
         onUpdate = function(dt: number)
