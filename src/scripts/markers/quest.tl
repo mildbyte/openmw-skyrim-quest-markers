@@ -347,7 +347,12 @@ end
 return {
     calculateUIState = calculateUIState,
     loadQuestYAML = loadQuestYAML,
-    TEST_YAML = TEST_YAML
+    TEST_YAML = TEST_YAML,
+    UIState = UIState,
+    QuestUIState = QuestUIState,
+    ObjectiveUIState = ObjectiveUIState,
+    Objective = Objective,
+    Quest = Quest,
 }
 
 -- TODO: maybe we should just use lua here instead of yaml
