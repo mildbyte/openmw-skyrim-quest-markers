@@ -170,11 +170,9 @@ local function calculateObjectives(
     -- active objective
 
     -- TODO we also need to react to events
-    -- TODO: some order issues
     
-    utils.listReverse(uiObjectives)
     if playerQuest.started and #uiObjectives == 0 then
-        table.insert(uiObjectives, {
+        table.insert(uiObjectives, 1, {
             isCompleted = false,
             info = objectives[#objectives]
         })
@@ -210,7 +208,7 @@ local function calculateUIState(
                 name = quest.id,
                 isCompleted = isFinished,
                 isActive = isActive,
-                currentFlavorText = "TODO",
+                currentFlavorText = "TODO add latest journal entry here",
                 objectives = uiObjectives,
             }
         )

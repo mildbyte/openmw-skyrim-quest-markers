@@ -15,6 +15,7 @@ local colorNormal = I.MWUI.templates.textNormal.props.textColor as util.Color
 local colorOver = util.color.rgb(223 / 255, 201 / 255, 159 / 255)
 local colorActive = util.color.rgb(96 / 255, 112 / 255, 202 / 255)
 local colorDisabled = util.color.rgb(179 / 255, 168 / 255, 135 / 255)
+local colorDisabledSelected = util.color.rgb(243 / 255, 237 / 255, 221 / 255)
 
 -- Various utilities taken from OpenMW's code that are private
 local objectiveComplete = auxUi.deepLayoutCopy(I.MWUI.templates.textNormal as {any : any}) as ui.Template
@@ -31,8 +32,9 @@ local growingInterval: ui.Layout = {
     },
 }
 
-local function paddedBox(layout: ui.Layout): ui.Layout
+local function paddedBox(layout: ui.Layout, name: string): ui.Layout
     return {
+        name = name,
         template = I.MWUI.templates.box,
         content = ui.content {
             {
@@ -48,6 +50,7 @@ local function renderScrollList(
     components: {ui.Layout},
     size: util.Vector2,
     maxVisibleItems: integer,
+    name: string,
     updateCallback: function()
 ): ui.Layout
     local function getVisibleItems(from: integer): {ui.Layout}
@@ -124,17 +127,20 @@ local function renderScrollList(
         })
     }
 
-    local list: ui.Layout = paddedBox {
-        type = ui.TYPE.Flex,
-        props = {
-            horizontal = true,
-            autoSize = false,
-            size = size,
+    local list: ui.Layout = paddedBox (
+        {
+            type = ui.TYPE.Flex,
+            props = {
+                horizontal = true,
+                autoSize = false,
+                size = size,
+            },
+            content = ui.content({
+                listCanvas, scrollControls
+            })
         },
-        content = ui.content({
-            listCanvas, scrollControls
-        })
-    }
+        name
+    )
     return list
 end
 
@@ -184,7 +190,10 @@ local function renderObjectives(objectives: {quest.ObjectiveUIState}): ui.Layout
     }
 end
 
-local function renderQuestInfo(questState: quest.QuestUIState): ui.Layout
+local function renderQuestInfo(
+    questState: quest.QuestUIState,
+    onTracked: function()
+): ui.Layout
     local header: ui.Layout = {
         type = ui.TYPE.Text,
         template = questHeader,
@@ -197,6 +206,24 @@ local function renderQuestInfo(questState: quest.QuestUIState): ui.Layout
             -- size = util.vector2(0, 50)
         }
     }
+    -- TODO don't render this button when the quest is completed
+    local trackButton: ui.Layout = paddedBox(
+        {
+            template = I.MWUI.templates.padding,
+            content = ui.content {
+                {
+                    template = I.MWUI.templates.textNormal,
+                    props = {
+                        text = (questState.isActive and "Untrack" or "Track")
+                    },
+                    events = {
+                        mouseClick = async:callback(onTracked)
+                    }
+                },
+            },
+        },
+        nil
+    ) 
     local flavorText: ui.Layout = {
         type = ui.TYPE.Text,
         template = I.MWUI.templates.textNormal,
@@ -225,6 +252,7 @@ local function renderQuestInfo(questState: quest.QuestUIState): ui.Layout
         },
         content = ui.content {
             header,
+            trackButton,
             spacer,
             stretchingLine,
             spacer,
@@ -290,50 +318,13 @@ local function renderWindow(size: util.Vector2, content: ui.Layout): ui.Layout
     return questWindowContainer
 end
 
-local function makeQuestWindowTest(state: quest.UIState): ui.Element
-    local questListElement: ui.Element = nil
-    local function questListUpdate()
-        if questListElement == nil then
-            error("callback called before element instantiated")
-        end
-        questListElement:update()
-    end
 
-    local listComponents: {ui.Layout} = {}
+local function testQuestState(): quest.UIState
+    local result: {quest.QuestUIState} = {}
 
-    local function selectComponent(ix: number)
-        for i, comp in ipairs(listComponents) do
-            if i == ix then
-                comp.props.textColor = colorActive
-            else
-                comp.props.textColor = colorNormal
-            end
-        end
-
-        questListUpdate()
-    end
-
-    local questState: quest.QuestUIState
-
-    if state == nil then
-        for i = 1, 20 do
-            table.insert(listComponents, {
-                type = ui.TYPE.Text,
-                props = {
-                    text = "Mages Guild: Dwemer Tube from Arkngthunch-Sturdumz " .. tostring(i),
-                    autoSize = true,
-                },
-                template = I.MWUI.templates.textNormal,
-                events = {
-                    mouseClick = async:callback(function(_) selectComponent(i) end)
-                }
-            } as ui.Layout)
-        end
-
-    -- Fake a quest state
-
-        questState = {
-            name = "Mages Guild: Dwemer Tube from Arkngthunch-Sturdumz",
+    for i = 1, 20 do
+        local questState: quest.QuestUIState = {
+            name = "Dwemer Tube Quest " .. tostring(i),
             isCompleted = false,
             isActive = true,
             currentFlavorText = [[
@@ -365,49 +356,142 @@ local function makeQuestWindowTest(state: quest.UIState): ui.Element
                 },
             }
         }
+
+        table.insert(result, questState)
+    end
+
+    return {
+        quests = result,
+    } as quest.UIState
+end
+
+local function renderQuestBody(state: quest.QuestUIState, onTracked: function()): ui.Layout
+    return {
+        name = "questObjectives",
+        type = ui.TYPE.Flex,
+        props = {
+            autoSize = false,
+            size = util.vector2(490, 544),
+        },
+        content = ui.content { renderQuestInfo(state, onTracked) }
+    }
+end
+
+local function renderQuestListItem(item: quest.QuestUIState, selected: boolean, onClick: function()): ui.Layout
+    local textColor: util.Color
+    local text: string
+    if item.isCompleted and selected then
+        textColor = colorDisabledSelected
+    elseif item.isCompleted and not selected then
+        textColor = colorDisabled
+    elseif not item.isCompleted and selected then
+        textColor = colorActive
     else
-        for i, q in ipairs(state.quests) do
-            local textColor: util.Color
-            if q.isCompleted then
-                textColor = colorDisabled
-            else
-                textColor = colorNormal
-            end
+        textColor = colorNormal
+    end
 
-            table.insert(listComponents, {
-                type = ui.TYPE.Text,
-                props = {
-                    text = q.name,
-                    autoSize = true,
-                    textColor = textColor,
-                },
-                template = I.MWUI.templates.textNormal,
-                events = {
-                    mouseClick = async:callback(function(_) selectComponent(i) end)
-                }
-            } as ui.Layout)
-        end
+    if item.isActive then
+        text = "> " .. item.name
+    else
+        text = item.name
+    end
 
-        questState = state.quests[1]
+    return {
+        type = ui.TYPE.Text,
+        props = {
+            text = text,
+            autoSize = true,
+            textColor = textColor,
+        },
+        template = I.MWUI.templates.textNormal,
+        events = {
+            mouseClick = async:callback(function(_) onClick() end)
+        }
+    } as ui.Layout
+end
+
+local function renderQuestList(
+    state: quest.UIState,
+    selectComponent: function(integer),
+    updateCallback: function(),
+    selectedComponent: integer
+): ui.Layout
+    local listComponents: {ui.Layout} = {}
+    
+    for i, q in ipairs(state.quests) do
+        local selected: boolean
+        if i == selectedComponent then selected = true else selected = false end
+        table.insert(listComponents, renderQuestListItem(q, selected, function() selectComponent(i) end))
     end
 
     local questList: ui.Layout = renderScrollList(
         listComponents,
         util.vector2(250, 544),
         34, -- 36x16 = 544
-        questListUpdate
+        "questList",
+        updateCallback
     )
 
-    local questObjectives: ui.Layout = {
-        type = ui.TYPE.Flex,
-        props = {
-            autoSize = false,
-            size = util.vector2(490, 544),
-        },
-        content = ui.content { renderQuestInfo(questState) }
-    }
+    return questList
+end
 
-    local questWindowBody: ui.Layout = {
+
+local function makeQuestWindowTest(state: quest.UIState): ui.Element
+    local questListElement: ui.Element = nil
+    local function questListUpdate()
+        if questListElement == nil then
+            error("callback called before element instantiated")
+        end
+        questListElement:update()
+    end
+    
+    
+    local questWindowBody: ui.Layout = nil
+    local selectComponent: function(integer) = nil
+
+    -- TODO figure out this callback weirdness
+    -- Also, we don't want to mutate the state because we can reproduce
+    -- it from the journal, events etc, so we should somehow do it
+    -- differently lol
+    local function flipQuestTracked(ix: integer)
+        if questWindowBody == nil then
+            error("callback called before element instantiated")
+        end
+        state.quests[ix].isActive = not state.quests[ix].isActive
+        questWindowBody.content["questObjectives"] = renderQuestBody(
+            state.quests[ix],
+            function() flipQuestTracked(ix) end
+        )
+        questWindowBody.content["questList"] = renderQuestList(
+            state,
+            selectComponent,
+            questListUpdate,
+            ix
+        )
+
+        questListUpdate()
+    end
+
+    selectComponent = function(ix: integer)
+        if questWindowBody == nil then
+            error("callback called before element instantiated")
+        end
+
+        questWindowBody.content["questObjectives"] = renderQuestBody(
+            state.quests[ix],
+            function() flipQuestTracked(ix) end
+        )
+        questWindowBody.content["questList"] = renderQuestList(
+            state,
+            selectComponent,
+            questListUpdate,
+            ix
+        )
+
+        questListUpdate()
+    end
+
+    questWindowBody = {
         type = ui.TYPE.Flex,
         props = {
             autoSize = true,
@@ -421,9 +505,17 @@ local function makeQuestWindowTest(state: quest.UIState): ui.Element
         },
         content = ui.content {
             growingInterval,
-            questList,
+            renderQuestList(
+                state,
+                selectComponent,
+                questListUpdate,
+                1
+            ),
             growingInterval,
-            questObjectives,
+            renderQuestBody(
+                state.quests[1],
+                function() flipQuestTracked(1) end
+            ),
             growingInterval,
         },
         template = I.MWUI.templates.bordersThick,
@@ -432,9 +524,8 @@ local function makeQuestWindowTest(state: quest.UIState): ui.Element
     local questWindow = renderWindow(util.vector2(800, 600), questWindowBody)
 
     local element = ui.create(questWindow)
-
     questListElement = element
-    
+    selectComponent(1)
     return element
 end
 

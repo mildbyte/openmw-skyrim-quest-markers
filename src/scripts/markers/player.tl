@@ -179,14 +179,6 @@ return {
                 updateViewportObjectives(OBJECTIVE_BLIPS)
                 PLAYER_COORDS = cellCoords
             end
-            if key.symbol == 'c' then
-                local quests = quest.loadQuestYAML(quest.TEST_YAML)
-                ui.printToConsole(aux_util.deepToString(quests, 6), ui.CONSOLE_COLOR.Default)
-                
-                local playerQuests = types.Player.quests(self.object)
-                local uiState = quest.calculateUIState(quests, playerQuests as {string: types.PlayerQuest}, nil)
-                ui.printToConsole(aux_util.deepToString(uiState, 6), ui.CONSOLE_COLOR.Default)
-            end
             if key.symbol == 'v' then
                 local quests = quest.loadQuestYAML(quest.TEST_YAML)
                 ui.printToConsole(aux_util.deepToString(quests, 6), ui.CONSOLE_COLOR.Default)
