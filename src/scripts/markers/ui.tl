@@ -192,6 +192,7 @@ end
 
 local function renderQuestInfo(
     questState: quest.QuestUIState,
+    isTracked: boolean,
     onTracked: function()
 ): ui.Layout
     local header: ui.Layout = {
@@ -214,7 +215,7 @@ local function renderQuestInfo(
                 {
                     template = I.MWUI.templates.textNormal,
                     props = {
-                        text = (questState.isActive and "Untrack" or "Track")
+                        text = (isTracked and "Untrack" or "Track")
                     },
                     events = {
                         mouseClick = async:callback(onTracked)
@@ -325,8 +326,8 @@ local function testQuestState(): quest.UIState
     for i = 1, 20 do
         local questState: quest.QuestUIState = {
             name = "Dwemer Tube Quest " .. tostring(i),
+            id = "QUEST_" .. tostring(i),
             isCompleted = false,
-            isActive = true,
             currentFlavorText = [[
             My orders are to go to the town of Balmora in Vvardenfell District and report to a man named Caius Cosades. To find out where he lives, I should ask in Balmora at the cornerclub called South Wall. When I find Caius Cosades, I must give him a package of documents, and wait for further orders. My orders are to go to the town of Balmora in Vvardenfell District and report to a man named Caius Cosades. To find out where he lives, I should ask in Balmora at the cornerclub called South Wall. When I find Caius Cosades, I must give him a package of documents, and wait for further orders.]],
             objectives = {
@@ -362,10 +363,11 @@ local function testQuestState(): quest.UIState
 
     return {
         quests = result,
+        trackedQuestIDs = {QUEST_1 = true, QUEST_5 = true,}
     } as quest.UIState
 end
 
-local function renderQuestBody(state: quest.QuestUIState, onTracked: function()): ui.Layout
+local function renderQuestBody(state: quest.QuestUIState, isTracked: boolean, onTracked: function()): ui.Layout
     return {
         name = "questObjectives",
         type = ui.TYPE.Flex,
@@ -373,11 +375,16 @@ local function renderQuestBody(state: quest.QuestUIState, onTracked: function())
             autoSize = false,
             size = util.vector2(490, 544),
         },
-        content = ui.content { renderQuestInfo(state, onTracked) }
+        content = ui.content { renderQuestInfo(state, isTracked, onTracked) }
     }
 end
 
-local function renderQuestListItem(item: quest.QuestUIState, selected: boolean, onClick: function()): ui.Layout
+local function renderQuestListItem(
+    item: quest.QuestUIState,
+    selected: boolean,
+    isTracked: boolean,
+    onClick: function()
+): ui.Layout
     local textColor: util.Color
     local text: string
     if item.isCompleted and selected then
@@ -390,7 +397,7 @@ local function renderQuestListItem(item: quest.QuestUIState, selected: boolean, 
         textColor = colorNormal
     end
 
-    if item.isActive then
+    if isTracked then
         text = "> " .. item.name
     else
         text = item.name
@@ -421,7 +428,7 @@ local function renderQuestList(
     for i, q in ipairs(state.quests) do
         local selected: boolean
         if i == selectedComponent then selected = true else selected = false end
-        table.insert(listComponents, renderQuestListItem(q, selected, function() selectComponent(i) end))
+        table.insert(listComponents, renderQuestListItem(q, selected, state.trackedQuestIDs[q.id], function() selectComponent(i) end))
     end
 
     local questList: ui.Layout = renderScrollList(
@@ -435,97 +442,70 @@ local function renderQuestList(
     return questList
 end
 
+local function makeQuestWindowTest(
+    state: quest.UIState,
+    onSwitchTracking: function(quest.QuestUIState): quest.UIState
+): ui.Element
+    -- forward declaration of circular stuff
+    local element: ui.Element = nil
+    local selectedIndex = 1
+    local selectComponent: function(integer)
+    local flipQuestTracked: function(integer)
+    local rerenderWindow: function()
 
-local function makeQuestWindowTest(state: quest.UIState): ui.Element
-    local questListElement: ui.Element = nil
-    local function questListUpdate()
-        if questListElement == nil then
-            error("callback called before element instantiated")
+    rerenderWindow = function()
+        local questWindowBody: ui.Layout = {
+            type = ui.TYPE.Flex,
+            props = {
+                autoSize = true,
+                horizontal = true,
+                align = ui.ALIGNMENT.Center,
+                arrange = ui.ALIGNMENT.Center,
+            },
+            external = {
+                stretch = 1,
+                grow = 1,
+            },
+            content = ui.content {
+                growingInterval,
+                renderQuestList(
+                    state,
+                    selectComponent,
+                    rerenderWindow,
+                    selectedIndex
+                ),
+                growingInterval,
+                renderQuestBody(
+                    state.quests[selectedIndex],
+                    state.trackedQuestIDs[state.quests[selectedIndex].id],
+                    function() flipQuestTracked(selectedIndex) end
+                ),
+                growingInterval,
+            },
+            template = I.MWUI.templates.bordersThick,
+        }
+
+        local questWindow = renderWindow(util.vector2(800, 600), questWindowBody)
+    
+        if element == nil then
+            element = ui.create(questWindow)
+        else
+            element.layout = questWindow
+            element:update()
         end
-        questListElement:update()
     end
-    
-    
-    local questWindowBody: ui.Layout = nil
-    local selectComponent: function(integer) = nil
 
-    -- TODO figure out this callback weirdness
-    -- Also, we don't want to mutate the state because we can reproduce
-    -- it from the journal, events etc, so we should somehow do it
-    -- differently lol
-    local function flipQuestTracked(ix: integer)
-        if questWindowBody == nil then
-            error("callback called before element instantiated")
-        end
-        state.quests[ix].isActive = not state.quests[ix].isActive
-        questWindowBody.content["questObjectives"] = renderQuestBody(
-            state.quests[ix],
-            function() flipQuestTracked(ix) end
-        )
-        questWindowBody.content["questList"] = renderQuestList(
-            state,
-            selectComponent,
-            questListUpdate,
-            ix
-        )
-
-        questListUpdate()
+    flipQuestTracked = function(ix: integer)
+        state = onSwitchTracking(state.quests[ix])
+        rerenderWindow()
     end
 
     selectComponent = function(ix: integer)
-        if questWindowBody == nil then
-            error("callback called before element instantiated")
-        end
-
-        questWindowBody.content["questObjectives"] = renderQuestBody(
-            state.quests[ix],
-            function() flipQuestTracked(ix) end
-        )
-        questWindowBody.content["questList"] = renderQuestList(
-            state,
-            selectComponent,
-            questListUpdate,
-            ix
-        )
-
-        questListUpdate()
+        selectedIndex = ix
+        rerenderWindow()
     end
 
-    questWindowBody = {
-        type = ui.TYPE.Flex,
-        props = {
-            autoSize = true,
-            horizontal = true,
-            align = ui.ALIGNMENT.Center,
-            arrange = ui.ALIGNMENT.Center,
-        },
-        external = {
-            stretch = 1,
-            grow = 1,
-        },
-        content = ui.content {
-            growingInterval,
-            renderQuestList(
-                state,
-                selectComponent,
-                questListUpdate,
-                1
-            ),
-            growingInterval,
-            renderQuestBody(
-                state.quests[1],
-                function() flipQuestTracked(1) end
-            ),
-            growingInterval,
-        },
-        template = I.MWUI.templates.bordersThick,
-    }
-
-    local questWindow = renderWindow(util.vector2(800, 600), questWindowBody)
-
-    local element = ui.create(questWindow)
-    questListElement = element
-    selectComponent(1)
+    rerenderWindow()
     return element
 end
 

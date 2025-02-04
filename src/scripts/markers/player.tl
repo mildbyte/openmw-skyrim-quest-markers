@@ -166,6 +166,8 @@ global PLAYER_COORDS: CellCoords = nil
 
 global QUEST_WINDOW: ui.Element = nil
 
+global TRACKED_QUEST_IDS: {string:boolean} = {}
+
 return {
     engineHandlers = {
         onKeyPress = function(key: input.KeyboardEvent)
@@ -184,10 +186,25 @@ return {
                 ui.printToConsole(aux_util.deepToString(quests, 6), ui.CONSOLE_COLOR.Default)
                 
                 local playerQuests = types.Player.quests(self.object)
-                local uiState = quest.calculateUIState(quests, playerQuests as {string: types.PlayerQuest}, nil)
+                local uiState = quest.calculateUIState(
+                    quests,
+                    playerQuests as {string: types.PlayerQuest},
+                    TRACKED_QUEST_IDS
+                )
+
+                local function onSwitchTracking(questState: quest.QuestUIState): quest.UIState
+                    if TRACKED_QUEST_IDS[questState.id] then
+                        TRACKED_QUEST_IDS[questState.id] = nil
+                    else
+                        TRACKED_QUEST_IDS[questState.id] = true
+                    end
+
+                    uiState.trackedQuestIDs = TRACKED_QUEST_IDS
+                    return uiState
+                end
 
                 if QUEST_WINDOW == nil then
-                    QUEST_WINDOW = qmUI.makeQuestWindowTest(uiState)
+                    QUEST_WINDOW = qmUI.makeQuestWindowTest(uiState, onSwitchTracking)
                     ambient.playSound('book open', {scale = false})
                     I.UI.addMode('Interface', {windows = {}})
                 else
