@@ -46,6 +46,10 @@ local function computeBlips(
             end
         end
     end
+    
+    -- No need to run Dijkstra for the entire graph if we're not
+    -- actually looking for anything
+    if #routingCoords == 0 then return {} end
 
     local routes = getRoute(graph, player, routingCoords)
     local localBlips: {T.ObjectiveBlip} = {}
