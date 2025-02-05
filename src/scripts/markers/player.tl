@@ -66,13 +66,10 @@ end
 local record ObjectiveBlips
     -- [[ Coordinates in the local cell of the objective(s) to render]]
     localBlips: {util.Vector3}
-    -- [[ Coordinates in the global worldspace of the objective(s)]]
-    globalBlips: {util.Vector3}
 end
 
 local function computeBlips(objectives: {CellCoords}, player: CellCoords, graph: RoutingGraph): ObjectiveBlips
     local localBlips: {util.Vector3} = {}
-    local globalBlips: {util.Vector3} = {}
 
     local routes = getRoute(graph, player, objectives)
 
@@ -96,26 +93,16 @@ local function computeBlips(objectives: {CellCoords}, player: CellCoords, graph:
                 end
             end
 
-            -- The closest global cell to our destination is where we put the global blip
             listReverse(route)
-            for _, v in ipairs(route) do
-                if v.cellId == nil then
-                    if not listContains(localBlips, v.coords) then
-                        table.insert(globalBlips, v.coords)
-                    end
-                    break
-                end
-            end
         end
     end
 
     return {
         localBlips = localBlips,
-        globalBlips = globalBlips,
     }
 end
 
-global OBJECTIVE_BLIPS: ObjectiveBlips = {localBlips = {}, globalBlips = {}}
+global OBJECTIVE_BLIPS: ObjectiveBlips = {localBlips = {}}
 
 local function updateViewportObjectives(objectiveBlips: ObjectiveBlips)
     local screenSpace = {}
