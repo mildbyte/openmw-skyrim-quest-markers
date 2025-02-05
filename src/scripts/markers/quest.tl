@@ -1,103 +1,19 @@
-local CellCoords = require("scripts.markers.types").CellCoords
 local types = require("openmw.types")
 local utils = require("scripts.markers.utils")
 local markup = require('openmw.markup')
-
--- jank
--- https://github.com/teal-language/tl/blob/master/docs/tutorial.md#current-limitations-of-union-types
-
-local interface Named
-    name: string
-end
-
-local record Journal is Named
-    where self.name == "Journal"
-    questId: string
-    stage: integer
-end
-
-local record NPCDead is Named
-    where self.name == "NPCDead"
-    id: string
-end
-
-local record ItemPickedUp is Named
-    where self.name == "ItemPickedUp"
-    id: string
-    location: CellCoords
-end
-
-local record InteriorCluster is Named
-    where self.name == "InteriorCluster"
-    cellId: string
-end
-
-local record Item is Named
-    where self.name == "Item"
-    id: string
-    location: CellCoords
-end
-
-local record NPC is Named
-    where self.name == "NPC"
-    id: string
-end
-
-local type Pointer = NPC | Item | InteriorCluster
-
-local type Condition = Journal | NPCDead | ItemPickedUp
-
-local record Objective
-    pointer: Pointer
-    condition: Condition
-    completesQuest: boolean
-    text: string
-end
-
-local record Quest
-    name: string -- textual quest name (though we have it in game)
-    id: string  -- morrowind quest ID
-    objectives: {Objective}
-end
-
-local record QuestData
-    quests: {Quest}
-end
-
--- UI state code
-
-local record ObjectiveUIState
-    isCompleted: boolean
-    info: Objective
-end
-
-local record QuestUIState
-    name: string
-    id: string
-    isCompleted: boolean
-  
-    -- Journal entry?
-    currentFlavorText: string
-    
-    objectives: {ObjectiveUIState}
-end
-
-local record UIState
-    quests: {QuestUIState}
-    trackedQuestIDs: {string: boolean}
-end
+local T = require('scripts.markers.types')
 
 --- Infer which objectives the player has completed
 local function calculateObjectives(
-    quest: Quest,
+    quest: T.Quest,
     playerQuests: { string: types.PlayerQuest },
     playerQuest: types.PlayerQuest
-): {ObjectiveUIState}
+): {T.ObjectiveUIState}
     local objectives = utils.listCopy(quest.objectives)
     utils.listReverse(objectives)
     local completedAfterHere = false
 
-    local uiObjectives: {ObjectiveUIState} = {}
+    local uiObjectives: {T.ObjectiveUIState} = {}
 
     -- Basically, we just go down the reversed list of objectives until
     -- we find one that the player has completed. We make the one just
@@ -129,7 +45,7 @@ local function calculateObjectives(
             local isObjectiveCompleted = false
             -- Is the objective completed?
             if currentObj.condition.name == "Journal" then
-                local journal = currentObj.condition as Journal
+                local journal = currentObj.condition as T.Journal
                 
                 if journal.questId == nil and playerQuest.stage >= journal.stage then
                     isObjectiveCompleted = true
@@ -183,12 +99,12 @@ local function calculateObjectives(
 end
 
 local function calculateUIState(
-    quests: QuestData,
+    quests: T.QuestData,
     -- apparently this can be indexed by quest ID
     playerQuests: { string: types.PlayerQuest },
     trackedQuestIDs: {string:boolean}
-): UIState
-    local questUIStates: {QuestUIState} = {}
+): T.UIState
+    local questUIStates: {T.QuestUIState} = {}
 
     for _, quest in ipairs(quests.quests) do
         -- Find the PlayerQuest for this ID, skip if doesn't exist
@@ -260,58 +176,64 @@ global TEST_YAML = [[
         id: caius cosades
       condition:
         type: Journal
-        questId: null
         stage: 1
+      text: "Speak with Caius Cosades when you're ready"
+    - pointer:
+        type: NPC
+        id: hasphat antabolis
+      condition:
+        type: Journal
+        stage: 5
       text: "Speak with Caius Cosades when you're ready"
 ]]
 
-local function parseCondition(dict: {string: any}): Condition
+local function parseCondition(dict: {string: any}): T.Condition
     if dict["type"] == "Journal" then
         return {
             -- TODO figure out why discriminant unions don't work
             name = "Journal",
             questId = dict["questId"] as string,
             stage = dict["stage"] as integer,
-        } as Journal
+        } as T.Journal
     elseif dict["type"] == "NPCDead" then
         return {
             name = "NPCDead",
             id = dict["id"] as string
-        } as NPCDead
+        } as T.NPCDead
     elseif dict["type"] == "ItemPickedUp" then
         return {
             name = "ItemPickedUp",
             id = dict["id"] as string,
             location = nil   -- TODO
-        } as ItemPickedUp
+        } as T.ItemPickedUp
     end
     -- TODO error
     return nil
 end
 
-local function parsePointer(dict: {string: any}): Pointer
+local function parsePointer(dict: {string: any}): T.Pointer
     if dict["type"] == "NPC" then
         return {
             name = "NPC",
             id = dict["id"] as string,
-        } as NPC
+        } as T.NPC
     elseif dict["type"] == "Item" then
         return {
             name = "Item",
             id = dict["id"] as string,
             location = nil   -- TODO
-        } as Item
+        } as T.Item
     elseif dict["type"] == "InteriorCluster" then
         return {
             name = "InteriorCluster",
             cellId = dict["cellId"] as string
-        } as InteriorCluster
+        } as T.InteriorCluster
     end
     -- TODO error
     return nil
 end
 
-local function parseObjective(dict: {string: any}): Objective
+local function parseObjective(dict: {string: any}): T.Objective
     return {
         completesQuest = dict["completesQuest"] as boolean or false,
         text = dict["text"] as string,
@@ -320,8 +242,8 @@ local function parseObjective(dict: {string: any}): Objective
     }
 end
 
-local function parseQuest(dict: {string: any}): Quest
-    local objectives: {Objective} = {}
+local function parseQuest(dict: {string: any}): T.Quest
+    local objectives: {T.Objective} = {}
     for _, objDict in ipairs(dict["objectives"] as {{string:any}}) do
         table.insert(objectives, parseObjective(objDict))
     end
@@ -333,25 +255,20 @@ local function parseQuest(dict: {string: any}): Quest
     }
 end
 
-local function loadQuestYAML(yamlString: string): QuestData
+local function loadQuestYAML(yamlString: string): T.QuestData
     local yamlTable = markup.decodeYaml(yamlString)
-    local quests: {Quest} = {}
+    local quests: {T.Quest} = {}
     for _, rawQuest in ipairs(yamlTable as {{string: any}}) do
         table.insert(quests, parseQuest(rawQuest))
     end
 
-    return { quests = quests } as QuestData
+    return { quests = quests } as T.QuestData
 end
 
 return {
     calculateUIState = calculateUIState,
     loadQuestYAML = loadQuestYAML,
-    TEST_YAML = TEST_YAML,
-    UIState = UIState,
-    QuestUIState = QuestUIState,
-    ObjectiveUIState = ObjectiveUIState,
-    Objective = Objective,
-    Quest = Quest,
+    TEST_YAML = TEST_YAML
 }
 
 -- TODO: maybe we should just use lua here instead of yaml

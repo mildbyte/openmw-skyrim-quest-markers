@@ -28,11 +28,124 @@ local record RoutingGraph
     cellClusterMap: {string:CellCluster}
 end
 
+
+local record Objective
+    pointer: Pointer
+    condition: Condition
+    completesQuest: boolean
+    text: string
+end
+
+local record ObjectiveBlip
+    objective: Objective
+    -- [[ Coordinates in the local cell of the objective(s) to render]]
+    localCoords: util.Vector3
+end
+
+
+-- jank
+-- https://github.com/teal-language/tl/blob/master/docs/tutorial.md#current-limitations-of-union-types
+
+local interface Named
+    name: string
+end
+
+local record Journal is Named
+    where self.name == "Journal"
+    questId: string
+    stage: integer
+end
+
+local record NPCDead is Named
+    where self.name == "NPCDead"
+    id: string
+end
+
+local record ItemPickedUp is Named
+    where self.name == "ItemPickedUp"
+    id: string
+    location: CellCoords
+end
+
+local record InteriorCluster is Named
+    where self.name == "InteriorCluster"
+    cellId: string
+end
+
+local record Item is Named
+    where self.name == "Item"
+    id: string
+    location: CellCoords
+end
+
+local record NPC is Named
+    where self.name == "NPC"
+    id: string
+end
+
+local type Pointer = NPC | Item | InteriorCluster
+
+local type Condition = Journal | NPCDead | ItemPickedUp
+
+local record Quest
+    name: string -- textual quest name (though we have it in game)
+    id: string  -- morrowind quest ID
+    objectives: {Objective}
+end
+
+local record QuestData
+    quests: {Quest}
+end
+
+-- UI state code
+
+local record ObjectiveUIState
+    isCompleted: boolean
+    info: Objective
+end
+
+local record QuestUIState
+    name: string
+    id: string
+    isCompleted: boolean
+  
+    -- Journal entry?
+    currentFlavorText: string
+    
+    objectives: {ObjectiveUIState}
+end
+
+local record UIState
+    quests: {QuestUIState}
+    trackedQuestIDs: {string: boolean}
+end
+
+local record QuestMarkersRerouteParams 
+    objectives: {Objective}
+    player: CellCoords
+end
+
 return {
     CellCoords = CellCoords,
     RoutingGraph = RoutingGraph,
     Edge = Edge,
     CellCluster = CellCluster,
+    ObjectiveBlip = ObjectiveBlip,
+    Objective = Objective,
+    UIState = UIState,
+    QuestUIState = QuestUIState,
+    ObjectiveUIState = ObjectiveUIState,
+    Quest = Quest,
+    QuestData = QuestData,
+    NPC = NPC,
+    Item = Item,
+    InteriorCluster = InteriorCluster,
+    Condition = Condition,
+    Journal = Journal,
+    NPCDead = NPCDead,
+    ItemPickedUp = ItemPickedUp,
+    Pointer = Pointer,
+    QuestMarkersRerouteParams = QuestMarkersRerouteParams,
 
     coordsToString = coordsToString
 }

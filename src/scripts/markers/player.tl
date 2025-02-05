@@ -1,5 +1,4 @@
 local ui = require('openmw.ui')
-local async = require('openmw.async')
 local I = require('openmw.interfaces')
 local input = require('openmw.input')
 local util = require('openmw.util')
@@ -9,22 +8,13 @@ local self = require('openmw.self')
 local sendGlobalEvent = require("openmw.core").sendGlobalEvent
 local types = require("openmw.types")
 local ambient = require('openmw.ambient')
+local nearby = require('openmw.nearby')
 
 local getCellCoords = require("scripts.markers.utils").getCellCoords
-local CellCoords = require('scripts.markers.types').CellCoords
-local RoutingGraph = require('scripts.markers.types').RoutingGraph
-local coordsToString = require("scripts.markers.types").coordsToString
-local GRAPH = require('scripts.markers.graph').graph
-local listContains = require("scripts.markers.utils").listContains
-local listReverse = require("scripts.markers.utils").listReverse
-local getRoute = require("scripts.markers.routing").getRoute
+local T = require('scripts.markers.types')
 local qmUI = require("scripts.markers.ui")
-
--- TODO we might be able to yoink this
--- but we'll need to fool Teal into thinking these decls exist
--- local renderers = require("scripts.omw.settings.renderers")
-
 local quest = require("scripts.markers.quest")
+local listContains = require("scripts.markers.utils").listContains
 
 global BLIP_ELEMENTS: {ui.Element} = {}
 
@@ -63,50 +53,40 @@ local function setObjectiveBlips(positions: {util.Vector2})
     end
 end
 
-local record ObjectiveBlips
-    -- [[ Coordinates in the local cell of the objective(s) to render]]
-    localBlips: {util.Vector3}
+
+local function fastUpdateBlips(objectiveBlips: {T.ObjectiveBlip})
+    -- Prepare the blips for rendering by updating them with positions of objects
+    -- that are in the same cell (so that the blips move as NPCs move)
+    -- Mutates its parameter
+
+    local actorPositions: {string:util.Vector3} = {}
+    for _, actor in ipairs(nearby.actors) do
+        actorPositions[actor.recordId] = actor.position
+    end
+
+    for _, blip in ipairs(objectiveBlips) do
+        if blip.objective.pointer.name == "NPC" then
+            local id = (blip.objective.pointer as T.NPC).id
+            local position = actorPositions[id]
+            if position ~= nil then
+                blip.localCoords = position
+            end
+        end
+    end
 end
 
-local function computeBlips(objectives: {CellCoords}, player: CellCoords, graph: RoutingGraph): ObjectiveBlips
-    local localBlips: {util.Vector3} = {}
-
-    local routes = getRoute(graph, player, objectives)
-
-    for i, objective in ipairs(objectives) do
-        local route = routes[i]
-        ui.printToConsole("Getting route for " .. coordsToString(player) .. ".." .. coordsToString(objective), ui.CONSOLE_COLOR.Default)
-        if route == nil then
-            ui.printToConsole("Could not find a route from " .. tostring(player) .. " to " .. tostring(objective), ui.CONSOLE_COLOR.Error)
-        else
-            -- global blip: closest from end to a cell that is global
-            -- local blip: next blip in the player's cell
-            ui.printToConsole("route: " .. tostring(route), ui.CONSOLE_COLOR.Info)
-
-            for _, v in ipairs(route) do
-                if v ~= player then
-                    assert(v.cellId == player.cellId)
-                    if not listContains(localBlips, v.coords) then
-                        table.insert(localBlips, v.coords)
-                    end
-                    break
-                end
-            end
-
-            listReverse(route)
+local function updateViewportObjectives(objectiveBlips: {T.ObjectiveBlip})
+    -- Dedupe the blips if they're pointing to the same thing
+    local blips: {util.Vector3} = {}
+    for _, blip in ipairs(objectiveBlips) do
+        if not listContains(blips, blip.localCoords) then
+            table.insert(blips, blip.localCoords)
         end
     end
 
-    return {
-        localBlips = localBlips,
-    }
-end
-
-global OBJECTIVE_BLIPS: ObjectiveBlips = {localBlips = {}}
-
-local function updateViewportObjectives(objectiveBlips: ObjectiveBlips)
     local screenSpace = {}
-    for _, blip in ipairs(objectiveBlips.localBlips) do
+    for _, blip in ipairs(blips) do
+        -- ui.printToConsole("rendering blip with coords " .. tostring(blip.localCoords), ui.CONSOLE_COLOR.Default)
         local viewport = camera.worldToViewportVector(blip)
         -- Clamp and convert the viewport to 0..1
         local viewportX = util.clamp(viewport.x / ui.screenSize().x, 0, 1)
@@ -144,54 +124,59 @@ local function updateViewportObjectives(objectiveBlips: ObjectiveBlips)
     setObjectiveBlips(screenSpace)
 end
 
-global TEST_OBJECTIVE: {CellCoords} = {{
-    coords = util.vector3(85183, 117570, 4944),
-    cellId = nil,
-}}
-
-global PLAYER_COORDS: CellCoords = nil
-
+global CURRENT_OBJECTIVES: {T.Objective} = {}
+global CURRENT_OBJECTIVE_BLIPS: {T.ObjectiveBlip} = {}
+global PLAYER_COORDS: T.CellCoords = nil
 global QUEST_WINDOW: ui.Element = nil
-
 global TRACKED_QUEST_IDS: {string:boolean} = {}
+
+global QUESTS: T.QuestData = nil
+
+global PLAYER_QUESTS: {types.PlayerQuest} = nil
+
+global QUEST_STATE: T.UIState = nil
+
+
+local function getTrackedObjectives(uiState: T.UIState): {T.Objective}
+    local result: {T.Objective} = {}
+
+    for _, questState in ipairs(uiState.quests) do
+        if not questState.isCompleted and uiState.trackedQuestIDs[questState.id] then
+            for _, objective in ipairs(questState.objectives) do
+                if not objective.isCompleted then
+                    table.insert(result, objective.info)
+                end
+            end
+        end
+    end
+
+    return result
+end
+
 
 return {
     engineHandlers = {
         onKeyPress = function(key: input.KeyboardEvent)
             if key.symbol == 'x' then
                 ui.printToConsole("Sending objective recalc event", ui.CONSOLE_COLOR.Default)
-                sendGlobalEvent("QuestMarkersRecalcObjective", nil)
-                -- OBJECTIVE_BLIPS = computeBlips(objectives, getPlayerCellCoords(), GRAPH)
-                local cellCoords = getCellCoords(self.object)
-                print("recalculating route to " .. #TEST_OBJECTIVE .. " objective(s)")
-                OBJECTIVE_BLIPS = computeBlips(TEST_OBJECTIVE, cellCoords, GRAPH)
-                updateViewportObjectives(OBJECTIVE_BLIPS)
-                PLAYER_COORDS = cellCoords
+                ui.printToConsole(aux_util.deepToString(CURRENT_OBJECTIVES, 6), ui.CONSOLE_COLOR.Default)
+                sendGlobalEvent("QuestMarkersReroute", {objectives = CURRENT_OBJECTIVES, player = getCellCoords(self.object)})
             end
             if key.symbol == 'v' then
-                local quests = quest.loadQuestYAML(quest.TEST_YAML)
-                ui.printToConsole(aux_util.deepToString(quests, 6), ui.CONSOLE_COLOR.Default)
-                
-                local playerQuests = types.Player.quests(self.object)
-                local uiState = quest.calculateUIState(
-                    quests,
-                    playerQuests as {string: types.PlayerQuest},
-                    TRACKED_QUEST_IDS
-                )
-
-                local function onSwitchTracking(questState: quest.QuestUIState): quest.UIState
+                local function onSwitchTracking(questState: T.QuestUIState): T.UIState
                     if TRACKED_QUEST_IDS[questState.id] then
-                        TRACKED_QUEST_IDS[questState.id] = nil
+                        TRACKED_QUEST_IDS[questState.id] = false
                     else
                         TRACKED_QUEST_IDS[questState.id] = true
                     end
-
-                    uiState.trackedQuestIDs = TRACKED_QUEST_IDS
-                    return uiState
+                    
+                    CURRENT_OBJECTIVES = getTrackedObjectives(QUEST_STATE)
+                    QUEST_STATE.trackedQuestIDs = TRACKED_QUEST_IDS
+                    return QUEST_STATE
                 end
 
                 if QUEST_WINDOW == nil then
-                    QUEST_WINDOW = qmUI.makeQuestWindowTest(uiState, onSwitchTracking)
+                    QUEST_WINDOW = qmUI.makeQuestWindowTest(QUEST_STATE, onSwitchTracking)
                     ambient.playSound('book open', {scale = false})
                     I.UI.addMode('Interface', {windows = {}})
                 else
@@ -199,27 +184,61 @@ return {
                     QUEST_WINDOW = nil
                     ambient.playSound('book close', {scale = false})
                     I.UI.removeMode('Interface')
+
+                    -- Recalculate the objectives
+                    CURRENT_OBJECTIVES = getTrackedObjectives(QUEST_STATE)
+                    sendGlobalEvent("QuestMarkersReroute", {objectives = CURRENT_OBJECTIVES, player = getCellCoords(self.object)})
                 end
             end
+        end,
+        onLoad = function()
+            QUESTS = quest.loadQuestYAML(quest.TEST_YAML)
+            ui.printToConsole(aux_util.deepToString(QUESTS, 6), ui.CONSOLE_COLOR.Default)
         end,
         onUpdate = function(dt: number)
             local cellCoords = getCellCoords(self.object)
 
-            -- Automatically update the routing when a cell changes
+            -- Update quest state
+            -- TODO might be too heavy to do every frame
+            PLAYER_QUESTS = types.Player.quests(self.object)
+            QUEST_STATE = quest.calculateUIState(
+                QUESTS,
+                PLAYER_QUESTS as {string: types.PlayerQuest},
+                TRACKED_QUEST_IDS
+            )
+            CURRENT_OBJECTIVES = getTrackedObjectives(QUEST_STATE)
+
+            -- TODO temp hack for marking all new quests as active
+            for _, questState in ipairs(QUEST_STATE.quests) do
+                if TRACKED_QUEST_IDS[questState.id] == nil then
+                    TRACKED_QUEST_IDS[questState.id] = true
+                end
+            end
+
+            -- TODO if the UI state changed, we need to recalculate routing
+
+            -- Update full routing when the cell changes
             -- TODO: also do it occasionally in the exterior
             -- hmm, what about ASV teleports
             if PLAYER_COORDS == nil or cellCoords.cellId ~= PLAYER_COORDS.cellId then
-                print("recalculating route to " .. #TEST_OBJECTIVE .. " objective(s)")
-                OBJECTIVE_BLIPS = computeBlips(TEST_OBJECTIVE, cellCoords, GRAPH)
+                sendGlobalEvent("QuestMarkersReroute", {objectives = CURRENT_OBJECTIVES, player = cellCoords})
             end
-            updateViewportObjectives(OBJECTIVE_BLIPS)
+            
+            fastUpdateBlips(CURRENT_OBJECTIVE_BLIPS)
+            updateViewportObjectives(CURRENT_OBJECTIVE_BLIPS)
             PLAYER_COORDS = cellCoords
         end
     },
     eventHandlers = {
-        QuestMarkersSetObjective = function(objectives: {CellCoords}) 
-            ui.printToConsole("received new objectives", ui.CONSOLE_COLOR.Default)
-            TEST_OBJECTIVE = objectives
+        QuestMarkersUpdateObjectiveBlips = function(objectives: {T.ObjectiveBlip}) 
+            ui.printToConsole("received new objective blips", ui.CONSOLE_COLOR.Default)
+            ui.printToConsole(aux_util.deepToString(objectives, 6), ui.CONSOLE_COLOR.Default)
+
+            CURRENT_OBJECTIVE_BLIPS = objectives
+            fastUpdateBlips(CURRENT_OBJECTIVE_BLIPS)
+            ui.printToConsole("after update", ui.CONSOLE_COLOR.Default)
+            ui.printToConsole(aux_util.deepToString(objectives, 6), ui.CONSOLE_COLOR.Default)
+            updateViewportObjectives(CURRENT_OBJECTIVE_BLIPS)
         end
     }
 }

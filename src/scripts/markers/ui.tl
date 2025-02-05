@@ -9,7 +9,7 @@ local self = require('openmw.self')
 local sendGlobalEvent = require("openmw.core").sendGlobalEvent
 local types = require("openmw.types")
 local auxUi = require('openmw_aux.ui')
-local quest = require("scripts.markers.quest")
+local T = require('scripts.markers.types')
 
 local colorNormal = I.MWUI.templates.textNormal.props.textColor as util.Color
 local colorOver = util.color.rgb(223 / 255, 201 / 255, 159 / 255)
@@ -145,7 +145,7 @@ local function renderScrollList(
 end
 
 
-local function renderObjective(objective: quest.ObjectiveUIState): ui.Layout
+local function renderObjective(objective: T.ObjectiveUIState): ui.Layout
     if objective.isCompleted then
         return {
             type = ui.TYPE.Text,
@@ -176,7 +176,7 @@ local stretchingLine: ui.Layout = {
     },
 }
 
-local function renderObjectives(objectives: {quest.ObjectiveUIState}): ui.Layout
+local function renderObjectives(objectives: {T.ObjectiveUIState}): ui.Layout
     local components: {ui.Layout} = {}
     for _, obj in ipairs(objectives) do
         table.insert(components, renderObjective(obj))
@@ -191,7 +191,7 @@ local function renderObjectives(objectives: {quest.ObjectiveUIState}): ui.Layout
 end
 
 local function renderQuestInfo(
-    questState: quest.QuestUIState,
+    questState: T.QuestUIState,
     isTracked: boolean,
     onTracked: function()
 ): ui.Layout
@@ -320,11 +320,11 @@ local function renderWindow(size: util.Vector2, content: ui.Layout): ui.Layout
 end
 
 
-local function testQuestState(): quest.UIState
-    local result: {quest.QuestUIState} = {}
+local function testQuestState(): T.UIState
+    local result: {T.QuestUIState} = {}
 
     for i = 1, 20 do
-        local questState: quest.QuestUIState = {
+        local questState: T.QuestUIState = {
             name = "Dwemer Tube Quest " .. tostring(i),
             id = "QUEST_" .. tostring(i),
             isCompleted = false,
@@ -364,10 +364,10 @@ local function testQuestState(): quest.UIState
     return {
         quests = result,
         trackedQuestIDs = {QUEST_1 = true, QUEST_5 = true,}
-    } as quest.UIState
+    } as T.UIState
 end
 
-local function renderQuestBody(state: quest.QuestUIState, isTracked: boolean, onTracked: function()): ui.Layout
+local function renderQuestBody(state: T.QuestUIState, isTracked: boolean, onTracked: function()): ui.Layout
     return {
         name = "questObjectives",
         type = ui.TYPE.Flex,
@@ -380,7 +380,7 @@ local function renderQuestBody(state: quest.QuestUIState, isTracked: boolean, on
 end
 
 local function renderQuestListItem(
-    item: quest.QuestUIState,
+    item: T.QuestUIState,
     selected: boolean,
     isTracked: boolean,
     onClick: function()
@@ -418,7 +418,7 @@ local function renderQuestListItem(
 end
 
 local function renderQuestList(
-    state: quest.UIState,
+    state: T.UIState,
     selectComponent: function(integer),
     updateCallback: function(),
     selectedComponent: integer
@@ -443,8 +443,8 @@ local function renderQuestList(
 end
 
 local function makeQuestWindowTest(
-    state: quest.UIState,
-    onSwitchTracking: function(quest.QuestUIState): quest.UIState
+    state: T.UIState,
+    onSwitchTracking: function(T.QuestUIState): T.UIState
 ): ui.Element
     -- forward declaration of circular stuff
     local element: ui.Element = nil

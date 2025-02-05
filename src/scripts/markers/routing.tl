@@ -1,4 +1,3 @@
-local ui = require("openmw.ui")
 local getRealTime = require("openmw.core").getRealTime
 
 local PriorityQueue = require("scripts.markers.3rdparty.priority_queue")
@@ -266,10 +265,10 @@ local function getRoute(graph: RoutingGraph, source: CellCoords, destinations: {
                 table.insert(result, nil)
             end
 
-            ui.printToConsole("route", ui.CONSOLE_COLOR.Default)
-            for _, v in ipairs(subResult) do
-                ui.printToConsole(coordsToString(v), ui.CONSOLE_COLOR.Default)
-            end
+            -- ui.printToConsole("route", ui.CONSOLE_COLOR.Default)
+            -- for _, v in ipairs(subResult) do
+            --     ui.printToConsole(coordsToString(v), ui.CONSOLE_COLOR.Default)
+            -- end
         else
             table.insert(result, nil)
         end
