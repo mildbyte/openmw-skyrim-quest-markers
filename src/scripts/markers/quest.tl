@@ -184,7 +184,7 @@ global TEST_YAML = [[
       condition:
         type: Journal
         stage: 5
-      text: "Speak with Caius Cosades when you're ready"
+      text: "Speak with Hasphat Antabolis"
 ]]
 
 local function parseCondition(dict: {string: any}): T.Condition
