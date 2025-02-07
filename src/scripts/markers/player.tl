@@ -13,6 +13,7 @@ local getCellCoords = require("scripts.markers.utils").getCellCoords
 local T = require('scripts.markers.types')
 local qmUI = require("scripts.markers.ui")
 local listContains = require("scripts.markers.utils").listContains
+local listAppend = require("scripts.markers.utils").listAppend
 
 global BLIP_ELEMENTS: {ui.Element} = {}
 
@@ -128,6 +129,21 @@ global QUEST_WINDOW: ui.Element = nil
 global TRACKED_QUEST_IDS: {string:boolean} = {}
 
 global QUEST_STATE: T.UIState = nil
+global PENDING_QUEST_EVENTS: {T.QuestEvent} = {}
+
+global HUD_EVENT_INTERVALS: {T.QuestEventType: integer} = {
+    ObjectiveStarted = 3,
+    ObjectiveCompleted = 3,
+    QuestStarted = 5,
+    QuestCompleted = 7,
+}
+global HUD_EVENT_SOUND_FILES: {T.QuestEventType: string} = {
+    ObjectiveStarted = "Sound\\markers\\journal_update.wav",
+    ObjectiveCompleted = "Sound\\markers\\journal_update.wav",
+    QuestStarted = "Sound\\markers\\quest_update.wav",
+    QuestCompleted = "Sound\\markers\\quest_complete.wav",
+}
+global HUD_EVENT_TTL: number = nil
 
 return {
     engineHandlers = {
@@ -180,10 +196,38 @@ return {
             if PLAYER_COORDS == nil or cellCoords.cellId ~= PLAYER_COORDS.cellId then
                 sendGlobalEvent("QuestMarkersReroute", {trackedQuestIDs = TRACKED_QUEST_IDS})
             end
+            PLAYER_COORDS = cellCoords
             
+            -- Update the blips on the screen based on the local cell
             fastUpdateBlips(CURRENT_OBJECTIVE_BLIPS)
             updateViewportObjectives(CURRENT_OBJECTIVE_BLIPS)
-            PLAYER_COORDS = cellCoords
+
+            -- Update / pop out the HUD notifications
+            if HUD_EVENT_TTL ~= nil then
+                HUD_EVENT_TTL = HUD_EVENT_TTL - dt
+                if HUD_EVENT_TTL < 0 then HUD_EVENT_TTL = nil end
+            end
+
+            if HUD_EVENT_TTL == nil and #PENDING_QUEST_EVENTS > 0 then
+                local event = table.remove(PENDING_QUEST_EVENTS, 1)
+                if event.eventType == "QuestStarted" then
+                    ui.showMessage("New Quest: " .. event.name, {})
+                elseif event.eventType == "QuestCompleted" then
+                    ui.showMessage("Quest Completed: " .. event.name, {})
+                elseif event.eventType == "ObjectiveStarted" then
+                    ui.showMessage("New Objective: " .. event.name, {})
+                elseif event.eventType == "ObjectiveCompleted" then
+                    ui.showMessage("Objective Completed: " .. event.name, {})
+                end
+
+                HUD_EVENT_TTL = HUD_EVENT_INTERVALS[event.eventType]
+                ambient.playSoundFile(HUD_EVENT_SOUND_FILES[event.eventType], {})
+            end
+
+        end,
+        onQuestUpdate = function(questId: string, stage: integer)
+            sendGlobalEvent("QuestMarkersQuestUpdated", {questId = questId, stage = stage})
+            ui.printToConsole("UPDATED MY JOURNAL " .. questId .. " " .. stage, ui.CONSOLE_COLOR.Default)
         end
     },
     eventHandlers = {
@@ -201,6 +245,11 @@ return {
             ui.printToConsole("after update", ui.CONSOLE_COLOR.Default)
             ui.printToConsole(aux_util.deepToString(objectives, 6), ui.CONSOLE_COLOR.Default)
             updateViewportObjectives(CURRENT_OBJECTIVE_BLIPS)
+        end,
+        QuestMarkersHUDQuestEvent = function(events: {T.QuestEvent})
+            ui.printToConsole("received HUD events", ui.CONSOLE_COLOR.Default)
+            ui.printToConsole(aux_util.deepToString(events, 6), ui.CONSOLE_COLOR.Default)
+            PENDING_QUEST_EVENTS = listAppend(PENDING_QUEST_EVENTS, events)
         end
     }
 }

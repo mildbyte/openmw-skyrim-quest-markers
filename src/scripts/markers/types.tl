@@ -136,6 +136,20 @@ local record QuestMarkersRerouteParams
     trackedQuestIDs: {string: boolean}
 end
 
+-- Quest events for HUD
+local type QuestEventType = enum
+    "ObjectiveStarted"
+    "ObjectiveCompleted"
+    "QuestStarted"
+    "QuestCompleted"
+end
+
+local record QuestEvent
+    eventType: QuestEventType
+    name: string
+end
+
+
 return {
     CellCoords = CellCoords,
     RoutingGraph = RoutingGraph,
@@ -157,6 +171,8 @@ return {
     ItemPickedUp = ItemPickedUp,
     Pointer = Pointer,
     QuestMarkersRerouteParams = QuestMarkersRerouteParams,
+    QuestEventType = QuestEventType,
+    QuestEvent = QuestEvent,
 
     coordsToString = coordsToString
 }

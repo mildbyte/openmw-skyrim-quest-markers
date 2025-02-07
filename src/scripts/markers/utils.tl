@@ -21,7 +21,12 @@ local function listCopy<A>(l: {A}): {A}
     for k, v in ipairs(l) do u[k] = v end
     return u
 end
-  
+
+local function listAppend<A>(l1: {A}, l2: {A}): {A}
+    local result = listCopy(l1)
+    for _, v in ipairs(l2) do table.insert(result, v) end
+    return result
+end
 
 local function tableLength(t: table): integer
     local result = 0
@@ -50,6 +55,7 @@ end
 return { 
     listContains = listContains,
     listReverse = listReverse,
+    listAppend = listAppend,
     listCopy = listCopy,
     tableLength = tableLength,
     getCellCoords = getCellCoords,
