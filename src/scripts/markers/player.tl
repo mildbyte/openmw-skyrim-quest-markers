@@ -124,43 +124,19 @@ local function updateViewportObjectives(objectiveBlips: {T.ObjectiveBlip})
     setObjectiveBlips(screenSpace)
 end
 
-global CURRENT_OBJECTIVES: {T.Objective} = {}
 global CURRENT_OBJECTIVE_BLIPS: {T.ObjectiveBlip} = {}
 global PLAYER_COORDS: T.CellCoords = nil
 global QUEST_WINDOW: ui.Element = nil
 global TRACKED_QUEST_IDS: {string:boolean} = {}
 
-global QUESTS: T.QuestData = nil
-
-global PLAYER_QUESTS: {types.PlayerQuest} = nil
-
 global QUEST_STATE: T.UIState = nil
-
-
-local function getTrackedObjectives(uiState: T.UIState): {T.Objective}
-    local result: {T.Objective} = {}
-
-    for _, questState in ipairs(uiState.quests) do
-        if not questState.isCompleted and uiState.trackedQuestIDs[questState.id] then
-            for _, objective in ipairs(questState.objectives) do
-                if not objective.isCompleted then
-                    table.insert(result, objective.info)
-                end
-            end
-        end
-    end
-
-    return result
-end
-
 
 return {
     engineHandlers = {
         onKeyPress = function(key: input.KeyboardEvent)
             if key.symbol == 'x' then
                 ui.printToConsole("Sending objective recalc event", ui.CONSOLE_COLOR.Default)
-                ui.printToConsole(aux_util.deepToString(CURRENT_OBJECTIVES, 6), ui.CONSOLE_COLOR.Default)
-                sendGlobalEvent("QuestMarkersReroute", {objectives = CURRENT_OBJECTIVES, player = getCellCoords(self.object)})
+                sendGlobalEvent("QuestMarkersReroute", {trackedQuestIDs = TRACKED_QUEST_IDS})
             end
             if key.symbol == 'v' then
                 local function onSwitchTracking(questState: T.QuestUIState): T.UIState
@@ -169,8 +145,7 @@ return {
                     else
                         TRACKED_QUEST_IDS[questState.id] = true
                     end
-                    
-                    CURRENT_OBJECTIVES = getTrackedObjectives(QUEST_STATE)
+
                     QUEST_STATE.trackedQuestIDs = TRACKED_QUEST_IDS
                     return QUEST_STATE
                 end
@@ -186,34 +161,18 @@ return {
                     I.UI.removeMode('Interface')
 
                     -- Recalculate the objectives
-                    CURRENT_OBJECTIVES = getTrackedObjectives(QUEST_STATE)
-                    sendGlobalEvent("QuestMarkersReroute", {objectives = CURRENT_OBJECTIVES, player = getCellCoords(self.object)})
+                    sendGlobalEvent("QuestMarkersReroute", {trackedQuestIDs = TRACKED_QUEST_IDS})
                 end
             end
-        end,
-        onLoad = function()
-            QUESTS = quest.loadQuestYAML(quest.TEST_YAML)
-            ui.printToConsole(aux_util.deepToString(QUESTS, 6), ui.CONSOLE_COLOR.Default)
         end,
         onUpdate = function(dt: number)
             local cellCoords = getCellCoords(self.object)
-
-            -- Update quest state
-            -- TODO might be too heavy to do every frame
-            PLAYER_QUESTS = types.Player.quests(self.object)
-            QUEST_STATE = quest.calculateUIState(
-                QUESTS,
-                PLAYER_QUESTS as {string: types.PlayerQuest},
-                TRACKED_QUEST_IDS
-            )
-            CURRENT_OBJECTIVES = getTrackedObjectives(QUEST_STATE)
-
-            -- TODO temp hack for marking all new quests as active
-            for _, questState in ipairs(QUEST_STATE.quests) do
-                if TRACKED_QUEST_IDS[questState.id] == nil then
-                    TRACKED_QUEST_IDS[questState.id] = true
-                end
-            end
+            -- -- TODO temp hack for marking all new quests as active
+            -- for _, questState in ipairs(QUEST_STATE.quests) do
+            --     if TRACKED_QUEST_IDS[questState.id] == nil then
+            --         TRACKED_QUEST_IDS[questState.id] = true
+            --     end
+            -- end
 
             -- TODO if the UI state changed, we need to recalculate routing
 
@@ -221,7 +180,7 @@ return {
             -- TODO: also do it occasionally in the exterior
             -- hmm, what about ASV teleports
             if PLAYER_COORDS == nil or cellCoords.cellId ~= PLAYER_COORDS.cellId then
-                sendGlobalEvent("QuestMarkersReroute", {objectives = CURRENT_OBJECTIVES, player = cellCoords})
+                sendGlobalEvent("QuestMarkersReroute", {trackedQuestIDs = TRACKED_QUEST_IDS})
             end
             
             fastUpdateBlips(CURRENT_OBJECTIVE_BLIPS)
@@ -230,6 +189,11 @@ return {
         end
     },
     eventHandlers = {
+        QuestMarkersUpdateQuestState = function(state: T.UIState)
+            ui.printToConsole("received new quest state", ui.CONSOLE_COLOR.Default)
+            ui.printToConsole(aux_util.deepToString(state, 6), ui.CONSOLE_COLOR.Default)
+            QUEST_STATE = state
+        end,
         QuestMarkersUpdateObjectiveBlips = function(objectives: {T.ObjectiveBlip}) 
             ui.printToConsole("received new objective blips", ui.CONSOLE_COLOR.Default)
             ui.printToConsole(aux_util.deepToString(objectives, 6), ui.CONSOLE_COLOR.Default)

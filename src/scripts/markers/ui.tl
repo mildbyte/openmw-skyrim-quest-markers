@@ -179,8 +179,10 @@ local stretchingLine: ui.Layout = {
 local function renderObjectives(objectives: {T.ObjectiveUIState}): ui.Layout
     local components: {ui.Layout} = {}
     for _, obj in ipairs(objectives) do
-        table.insert(components, renderObjective(obj))
-        table.insert(components, spacer)
+        if obj.isStarted then
+            table.insert(components, renderObjective(obj))
+            table.insert(components, spacer)
+        end
     end
 
     return {

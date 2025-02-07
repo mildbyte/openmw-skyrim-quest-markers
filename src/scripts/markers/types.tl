@@ -94,13 +94,24 @@ local record Quest
 end
 
 local record QuestData
-    quests: {Quest}
+    questsById: {string:Quest}
+
+    -- NPC IDs that affect objectives of a quest (kill etc)
+    relevantNpcs: {string: {Quest}}
+
+    -- Item IDs that affect objectives of a quest
+    relevantItems: {string: {Quest}}
+
+    -- Quest IDs that affect other quests (e.g. completing one
+    -- immediately starts the other)
+    relevantQuests: {string: {Quest}}
 end
 
 -- UI state code
 
 local record ObjectiveUIState
     isCompleted: boolean
+    isStarted: boolean
     info: Objective
 end
 
@@ -116,13 +127,14 @@ local record QuestUIState
 end
 
 local record UIState
+    -- List of QuestUIState and pointers to the same
     quests: {QuestUIState}
+    questsByID: {string: QuestUIState}
     trackedQuestIDs: {string: boolean}
 end
 
 local record QuestMarkersRerouteParams 
-    objectives: {Objective}
-    player: CellCoords
+    trackedQuestIDs: {string: boolean}
 end
 
 return {

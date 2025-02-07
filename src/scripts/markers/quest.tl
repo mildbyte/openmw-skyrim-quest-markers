@@ -1,141 +1,6 @@
-local types = require("openmw.types")
-local utils = require("scripts.markers.utils")
 local markup = require('openmw.markup')
 local T = require('scripts.markers.types')
-
---- Infer which objectives the player has completed
-local function calculateObjectives(
-    quest: T.Quest,
-    playerQuests: { string: types.PlayerQuest },
-    playerQuest: types.PlayerQuest
-): {T.ObjectiveUIState}
-    local objectives = utils.listCopy(quest.objectives)
-    utils.listReverse(objectives)
-    local completedAfterHere = false
-
-    local uiObjectives: {T.ObjectiveUIState} = {}
-
-    -- Basically, we just go down the reversed list of objectives until
-    -- we find one that the player has completed. We make the one just
-    -- before it incomplete and visible, we mark that objective as active
-    -- and then we mark everything after that as completed.
-    -- This has a bunch of limitations:
-    --   - we can't have multiple in-progress objectives (only one)
-    --   - we can't reflect multiple routes taken to complete an objective
-    --     (e.g. in the Gra-Muzgob Informant quest, we could complete stage
-    --     10, then immediately go get the skull instead of listening to her
-    --     explanation, we'd have the "talk to Gra-Muzgob" and "return the skull")
-    --     objectives marked as complete. Or, we could actually do it the
-    --     right way, listen to her explanation, get the skull and return it,
-    --     in which case we'd have all the objectives marked as completed. But
-    --     if we're doing this based on the world state and not based on looking
-    --     at an event log and not persisting the complete objectives in the 
-    --     player's savegame, we can only say "well, they have the skull so they
-    --     must have completed all previous objectives".
-    --
-    -- TODO we also can't "uncomplete" an objective based on events?
-
-    for i, currentObj in ipairs(objectives) do
-        if completedAfterHere then
-            table.insert(uiObjectives, {
-                isCompleted = true,
-                info = currentObj
-            })
-        else
-            local isObjectiveCompleted = false
-            -- Is the objective completed?
-            if currentObj.condition.name == "Journal" then
-                local journal = currentObj.condition as T.Journal
-                
-                if journal.questId == nil and playerQuest.stage >= journal.stage then
-                    isObjectiveCompleted = true
-                else
-                    local currentQuest = playerQuests[quest.id]
-                    if currentQuest ~= nil then
-                        if currentQuest.stage >= journal.stage then
-                            isObjectiveCompleted = true
-                        end
-                    end
-                end
-            elseif currentObj.condition.name == "NPCDead" then
-                -- TODO
-            elseif currentObj.condition.name == "ItemPickedUp" then
-                -- TODO
-            end
-
-            if isObjectiveCompleted then
-                -- Add the objective just before that as the "active" objective
-                if i > 1 then
-                    local nextObjective = objectives[i-1]
-                    table.insert(uiObjectives, {
-                        isCompleted = false,
-                        info = nextObjective
-                    })
-                end
-                -- Add this objective as completed, everything after it
-                -- will be counted as completed
-                table.insert(uiObjectives, {
-                    isCompleted = true,
-                    info = currentObj
-                })
-                completedAfterHere = true
-            end
-        end
-    end
-
-    -- If the quest is considered started, add its first objective as the
-    -- active objective
-
-    -- TODO we also need to react to events
-    
-    if playerQuest.started and #uiObjectives == 0 then
-        table.insert(uiObjectives, 1, {
-            isCompleted = false,
-            info = objectives[#objectives]
-        })
-    end
-
-    return uiObjectives
-end
-
-local function calculateUIState(
-    quests: T.QuestData,
-    -- apparently this can be indexed by quest ID
-    playerQuests: { string: types.PlayerQuest },
-    trackedQuestIDs: {string:boolean}
-): T.UIState
-    local questUIStates: {T.QuestUIState} = {}
-
-    for _, quest in ipairs(quests.quests) do
-        -- Find the PlayerQuest for this ID, skip if doesn't exist
-        local playerQuest = playerQuests[quest.id]
-        if playerQuest == nil then goto continue end
-        -- TODO if there's an objective that's completed and that fake-starts
-        -- this quest ("the prelude objective"), then consider the quest started too
-        if not playerQuest.started then goto continue end
-
-        local isFinished = playerQuest.finished
-        
-        local uiObjectives = calculateObjectives(quest, playerQuests, playerQuest)
-
-        table.insert(
-            questUIStates,
-            {
-                name = quest.id,
-                id = quest.id,
-                isCompleted = isFinished,
-                currentFlavorText = "TODO add latest journal entry here",
-                objectives = uiObjectives,
-            }
-        )
-        ::continue::
-    end
-
-    return {
-        quests = questUIStates,
-        trackedQuestIDs = trackedQuestIDs
-    }
-end
+local utils = require("scripts.markers.utils")
 
 global TEST_YAML = [[
 - name: Report to Caius Cosades
@@ -187,12 +52,12 @@ global TEST_YAML = [[
       text: "Speak with Hasphat Antabolis"
 ]]
 
-local function parseCondition(dict: {string: any}): T.Condition
+local function parseCondition(dict: {string: any}, defaultQuestId: string): T.Condition
     if dict["type"] == "Journal" then
         return {
             -- TODO figure out why discriminant unions don't work
             name = "Journal",
-            questId = dict["questId"] as string,
+            questId = (dict["questId"] as string) or defaultQuestId,
             stage = dict["stage"] as integer,
         } as T.Journal
     elseif dict["type"] == "NPCDead" then
@@ -233,19 +98,19 @@ local function parsePointer(dict: {string: any}): T.Pointer
     return nil
 end
 
-local function parseObjective(dict: {string: any}): T.Objective
+local function parseObjective(dict: {string: any}, defaultQuestId: string): T.Objective
     return {
         completesQuest = dict["completesQuest"] as boolean or false,
         text = dict["text"] as string,
         pointer = parsePointer(dict["pointer"] as {string: any}),
-        condition = parseCondition(dict["condition"] as {string: any}),
+        condition = parseCondition(dict["condition"] as {string: any}, defaultQuestId),
     }
 end
 
 local function parseQuest(dict: {string: any}): T.Quest
     local objectives: {T.Objective} = {}
     for _, objDict in ipairs(dict["objectives"] as {{string:any}}) do
-        table.insert(objectives, parseObjective(objDict))
+        table.insert(objectives, parseObjective(objDict, dict["id"] as string))
     end
 
     return {
@@ -255,18 +120,51 @@ local function parseQuest(dict: {string: any}): T.Quest
     }
 end
 
+local function addToSet<K, V>(set: {K: {V}}, key: K, value: V)
+    local currVals = set[key] or {}
+    if not utils.listContains(currVals, value) then
+        table.insert(currVals, value)
+    end
+    set[key] = currVals
+end
+
 local function loadQuestYAML(yamlString: string): T.QuestData
     local yamlTable = markup.decodeYaml(yamlString)
+    
+    local questsByID: {string:T.Quest} = {}
     local quests: {T.Quest} = {}
+    local relevantNpcs: {string: {T.Quest}} = {}
+    local relevantItems: {string: {T.Quest}} = {}
+    local relevantQuests: {string: {T.Quest}} = {}
+
     for _, rawQuest in ipairs(yamlTable as {{string: any}}) do
-        table.insert(quests, parseQuest(rawQuest))
+        local quest = parseQuest(rawQuest)
+        questsByID[quest.id] = quest
+        table.insert(quests, quest)
+        for _, objective in ipairs(quest.objectives) do
+            if objective.condition.name == "Journal" then
+                local castObjective = objective.condition as T.Journal
+                addToSet(relevantQuests, castObjective.questId, quest)
+            elseif objective.condition.name == "NPCDead" then
+                local castObjective = objective.condition as T.NPCDead
+                addToSet(relevantNpcs, castObjective.id, quest)
+            elseif objective.condition.name == "ItemPickedUp" then
+                local castObjective = objective.condition as T.ItemPickedUp
+                addToSet(relevantItems, castObjective.id, quest)
+            end
+        end
     end
 
-    return { quests = quests } as T.QuestData
+    return { 
+        quests = quests,
+        questsByID = questsByID,
+        relevantNpcs = relevantNpcs,
+        relevantItems = relevantItems,
+        relevantQuest = relevantQuests,
+    } as T.QuestData
 end
 
 return {
-    calculateUIState = calculateUIState,
     loadQuestYAML = loadQuestYAML,
     TEST_YAML = TEST_YAML
 }
