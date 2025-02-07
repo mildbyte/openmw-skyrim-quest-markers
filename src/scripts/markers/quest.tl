@@ -139,18 +139,18 @@ local function loadQuestYAML(yamlString: string): T.QuestData
 
     for _, rawQuest in ipairs(yamlTable as {{string: any}}) do
         local quest = parseQuest(rawQuest)
-        questsByID[quest.id] = quest
+        questsByID[quest.id:lower()] = quest
         table.insert(quests, quest)
         for _, objective in ipairs(quest.objectives) do
             if objective.condition.name == "Journal" then
                 local castObjective = objective.condition as T.Journal
-                addToSet(relevantQuests, castObjective.questId, quest)
+                addToSet(relevantQuests, castObjective.questId:lower(), quest)
             elseif objective.condition.name == "NPCDead" then
                 local castObjective = objective.condition as T.NPCDead
-                addToSet(relevantNpcs, castObjective.id, quest)
+                addToSet(relevantNpcs, castObjective.id:lower(), quest)
             elseif objective.condition.name == "ItemPickedUp" then
                 local castObjective = objective.condition as T.ItemPickedUp
-                addToSet(relevantItems, castObjective.id, quest)
+                addToSet(relevantItems, castObjective.id:lower(), quest)
             end
         end
     end
@@ -160,7 +160,7 @@ local function loadQuestYAML(yamlString: string): T.QuestData
         questsByID = questsByID,
         relevantNpcs = relevantNpcs,
         relevantItems = relevantItems,
-        relevantQuest = relevantQuests,
+        relevantQuests = relevantQuests,
     } as T.QuestData
 end
 

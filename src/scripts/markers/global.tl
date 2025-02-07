@@ -1,6 +1,6 @@
 local world = require("openmw.world")
 local types = require("openmw.types")
-local getRealTime = require("openmw.core").getRealTime
+-- local getRealTime = require("openmw.core").getRealTime
 local T = require('scripts.markers.types')
 local getCellCoords = require("scripts.markers.utils").getCellCoords
 local getRoute = require("scripts.markers.routing").getRoute
@@ -8,6 +8,7 @@ local GRAPH = require('scripts.markers.graph').graph
 local utils = require("scripts.markers.utils")
 local loadQuestYAML = require("scripts.markers.quest").loadQuestYAML
 local TEST_YAML = require("scripts.markers.quest").TEST_YAML
+local aux_util = require('openmw_aux.util')
 
 local record NPCState
     coords: T.CellCoords
@@ -90,14 +91,10 @@ local record GameState
     uiState: T.UIState
 end
 
-local function getUIState(state: GameState): T.UIState
-    return state.uiState
-end
-
 local function getTrackedObjectives(uiState: T.UIState): {T.Objective}
     local result: {T.Objective} = {}
 
-    for _, questState in ipairs(uiState.quests) do
+    for _, questState in pairs(uiState.questsByID) do
         if not questState.isCompleted and uiState.trackedQuestIDs[questState.id] then
             for _, objective in ipairs(questState.objectives) do
                 if not objective.isCompleted and objective.isStarted then
@@ -167,16 +164,18 @@ local function eventCompletesQuestObjective(event: ObjectiveEvent, objective: T.
     if event.name == "JournalAdvanced" and objective.condition.name == "Journal" then
         local castEvent = event as JournalAdvanced
         local castObjective = objective.condition as T.Journal
-        return castEvent.questId == castObjective.questId and castEvent.stage >= castObjective.stage
+        return 
+            castEvent.questId:lower() == castObjective.questId:lower()
+            and castEvent.stage >= castObjective.stage
     elseif event.name == "NPCKilled" and objective.condition.name == "NPCDead" then
         local castEvent = event as NPCKilled
         local castObjective = objective.condition as T.NPCDead
-        return castEvent.id == castObjective.id
+        return castEvent.id:lower() == castObjective.id:lower()
     elseif event.name == "ItemPickedUp" and objective.condition.name == "ItemPickedUp" then
         local castEvent = event as ItemPickedUp
         local castObjective = objective.condition as T.ItemPickedUp
         -- TODO do we worry about location?
-        return castEvent.id == castObjective.id
+        return castEvent.id:lower() == castObjective.id:lower()
     end
     return false
 end
@@ -199,11 +198,17 @@ end
 local function processEvent(uiState: T.UIState, questData: T.QuestData, event: ObjectiveEvent): {QuestEvent}
     -- Find out which objective(s) this event completes
     -- List of tuples (questID, objective index)
+    --  objective index is nil if the quest has started
     local completedObjectives: {{string, integer}} = {}
 
     local quests = getQuestObjectiveRelevantQuests(event, questData)
 
-    if quests ~= nil then
+    if quests ~= nil and #quests > 0 then
+        -- print("found relevant quest, event:")
+        -- print(aux_util.deepToString(event, 6))
+        -- print("quest:")
+        -- print(aux_util.deepToString(quests, 6))
+    
         for _, quest in ipairs(quests) do
             -- Go down the list until we  we find one that the player has completed.
             -- We make the one just before it incomplete and visible,
@@ -226,12 +231,23 @@ local function processEvent(uiState: T.UIState, questData: T.QuestData, event: O
             -- TODO we also can't "uncomplete" an objective based on events?
             local objectives = utils.listCopy(quest.objectives)
             utils.listReverse(objectives)
+
+            local anyCompleted = false
             for i, objective in ipairs(objectives) do
+                -- print("checking objective:")
+                -- print(aux_util.deepToString(objective, 6))
                 if eventCompletesQuestObjective(event, objective) then
-                    table.insert(completedObjectives, {quest.id, #objectives - i + 1})
+                    table.insert(completedObjectives, {quest.id:lower(), #objectives - i + 1})
+                    anyCompleted = true
                 end
             end
+
+            if not anyCompleted and event.name == "JournalAdvanced" then
+                table.insert(completedObjectives, {quest.id:lower(), nil})
+            end
         end
+        -- print("event processed, completed objectives")
+        -- print(aux_util.deepToString(completedObjectives, 6))
     end
 
     local events: {QuestEvent} = {}
@@ -242,9 +258,8 @@ local function processEvent(uiState: T.UIState, questData: T.QuestData, event: O
         local objectiveIndex = idIndex[2]
 
         local questState = uiState.questsByID[questId]
-        local quest = questData.questsById[questId]
-        local objective = quest.objectives[objectiveIndex]
-
+        local quest = questData.questsByID[questId]
+        
         if questState == nil then
             -- The quest isn't started yet. Don't start it at all if this
             -- isn't a Journal objective.
@@ -257,6 +272,18 @@ local function processEvent(uiState: T.UIState, questData: T.QuestData, event: O
             end
         end
 
+        -- If we "started" the quest (got a journal from it that doesn't)
+        -- yet assign to any objectives and there are no other objectives
+        -- that have been completed for this quest, we sent out a started
+        -- event above and also have to send out an event for the first
+        -- objective for that quest
+        if objectiveIndex == nil then 
+            questState.objectives[1].isStarted = true
+            table.insert(events, { eventType = "ObjectiveStarted", name = questState.objectives[1].info.text })
+            goto continue
+        end
+
+        local objective = quest.objectives[objectiveIndex]
         -- If this objective is already completed (e.g. we're replaying and we recorded
         -- the journal entry for some quest and then we found out that the player had
         -- killed an NPC that's required by an earlier objective), we just ignore it
@@ -266,20 +293,19 @@ local function processEvent(uiState: T.UIState, questData: T.QuestData, event: O
         -- this objective as completed
         table.insert(events, { eventType = "ObjectiveCompleted", name = objective.text })
 
-        local questCompleted = false
         for ix = 1, objectiveIndex do
+            questState.objectives[ix].isStarted = true
             questState.objectives[ix].isCompleted = true
             if questState.objectives[ix].info.completesQuest then
-                questCompleted = true
+                questState.isCompleted = true
             end
         end
 
-        if questCompleted then
+        if questState.isCompleted then
             table.insert(events, { eventType = "QuestCompleted", name = quest.name })
         else
             -- if there's a next objective, mark it as started
             if objectiveIndex < #questState.objectives then
-            -- TODO: mark as visible
                 questState.objectives[objectiveIndex + 1].isStarted = true
                 table.insert(events, { eventType = "ObjectiveStarted", name = questState.objectives[objectiveIndex + 1].info.text })
             end
@@ -289,32 +315,6 @@ local function processEvent(uiState: T.UIState, questData: T.QuestData, event: O
     end
 
     return events
-    
-    -- so what do we actually need to store in the state
-    -- we get the player quest state (journal stuff)
-    -- we load all NPCs
-    -- we load all player inventory items
-    -- we pipe those through this function to bootstrap our UI state
-    -- and then we react to events in our UI state
-    
-    -- i guess we still need to hold on to something for blips
-    -- npc locations? takes 20ms to get those; and all item locations
-    -- so if there's a blip that contains those, when we hit the
-    -- computeBlips function, we need to load it
-
-    -- i can see us storing the npc state here (but that's the fast one lol),
-    -- but we wouldn't want to store ALL items and their locations
-
-    -- another thing is that events come from local scripts (player/actor)
-    -- so where does the state live? if it lives here, we need to send
-    -- the updated UI state to player and for the player to send tracked
-    -- quests back to us so that we can recompute their blips
-    -- which isn't a bad idea? (since we do it anyway)
-
-    -- if this state thing lives in the player script, what will we miss from
-    -- the global script? well we can't bootstrap it with dead NPCs
-
-    -- 
 end
 
 -- We bootstrap the game state in a funky way, by loading the current state of
@@ -329,14 +329,22 @@ local function loadGameState(): GameState
         trackedQuestIDs = trackedQuestIDs,
     }
 
+    -- print("quest data loaded")
+    -- print(aux_util.deepToString(questData, 6))
+
     local playerJournal = types.Player.quests(world.players[1]) as {string: types.PlayerQuest}
 
     for _, playerQuest in pairs(playerJournal) do
-        processEvent(uiState, questData, {
+        local events = processEvent(uiState, questData, {
             name = "JournalAdvanced",
             questId = playerQuest.id,
             stage = playerQuest.stage,
         } as ObjectiveEvent)
+
+        if #events > 1 then
+            print("events")
+            print(aux_util.deepToString(events, 6))            
+        end
     end
 
     return {
@@ -364,18 +372,49 @@ return {
             end
 
             local playerCoords = utils.getCellCoords(world.players[1])
-
-            local playerObjectives = getTrackedObjectives()
+            GAME_STATE = loadGameState()
+            TRACKED_QUEST_IDS = params.trackedQuestIDs
+            GAME_STATE.trackedQuestIDs = TRACKED_QUEST_IDS
+            GAME_STATE.uiState.trackedQuestIDs = TRACKED_QUEST_IDS
+            local playerObjectives = getTrackedObjectives(GAME_STATE.uiState)
 
             local blips = computeBlips(
-                params.objectives,
-                params.player,
+                playerObjectives,
+                playerCoords,
                 GRAPH,
                 npcLocations
             )
 
             world.players[1]:sendEvent("QuestMarkersUpdateObjectiveBlips", blips)
-        end
+            world.players[1]:sendEvent("QuestMarkersUpdateQuestState", GAME_STATE.uiState)
+        end,
+        onLoad = function()
+            local npcLocations: {string:NPCState} = {}
+            for i, cell in ipairs(world.cells) do
+                for ii, npc in ipairs(cell:getAll(types.NPC)) do
+                    npcLocations[npc.recordId] = {
+                        coords = getCellCoords(npc),
+                        isDead = types.Actor.isDead(npc)
+                    }
+                end
+            end
+
+            local playerCoords = utils.getCellCoords(world.players[1])
+            GAME_STATE = loadGameState()
+            GAME_STATE.trackedQuestIDs = TRACKED_QUEST_IDS
+            GAME_STATE.uiState.trackedQuestIDs = TRACKED_QUEST_IDS
+            local playerObjectives = getTrackedObjectives(GAME_STATE.uiState)
+
+            local blips = computeBlips(
+                playerObjectives,
+                playerCoords,
+                GRAPH,
+                npcLocations
+            )
+
+            world.players[1]:sendEvent("QuestMarkersUpdateObjectiveBlips", blips)
+            world.players[1]:sendEvent("QuestMarkersUpdateQuestState", GAME_STATE.uiState)
+        end,
     }
     --     onUpdate = function(dt: number)
     --         last_update = last_update + dt

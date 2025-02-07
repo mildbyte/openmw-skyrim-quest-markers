@@ -6,14 +6,12 @@ local aux_util = require('openmw_aux.util')
 local camera = require('openmw.camera')
 local self = require('openmw.self')
 local sendGlobalEvent = require("openmw.core").sendGlobalEvent
-local types = require("openmw.types")
 local ambient = require('openmw.ambient')
 local nearby = require('openmw.nearby')
 
 local getCellCoords = require("scripts.markers.utils").getCellCoords
 local T = require('scripts.markers.types')
 local qmUI = require("scripts.markers.ui")
-local quest = require("scripts.markers.quest")
 local listContains = require("scripts.markers.utils").listContains
 
 global BLIP_ELEMENTS: {ui.Element} = {}

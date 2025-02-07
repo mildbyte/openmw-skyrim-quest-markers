@@ -94,7 +94,7 @@ local record Quest
 end
 
 local record QuestData
-    questsById: {string:Quest}
+    questsByID: {string:Quest}
 
     -- NPC IDs that affect objectives of a quest (kill etc)
     relevantNpcs: {string: {Quest}}
@@ -127,8 +127,7 @@ local record QuestUIState
 end
 
 local record UIState
-    -- List of QuestUIState and pointers to the same
-    quests: {QuestUIState}
+    -- quest ID -> quest state
     questsByID: {string: QuestUIState}
     trackedQuestIDs: {string: boolean}
 end

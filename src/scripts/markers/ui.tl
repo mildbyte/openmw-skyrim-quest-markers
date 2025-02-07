@@ -1,15 +1,10 @@
 local ui = require('openmw.ui')
 local async = require('openmw.async')
 local I = require('openmw.interfaces')
-local input = require('openmw.input')
 local util = require('openmw.util')
-local aux_util = require('openmw_aux.util')
-local camera = require('openmw.camera')
-local self = require('openmw.self')
-local sendGlobalEvent = require("openmw.core").sendGlobalEvent
-local types = require("openmw.types")
 local auxUi = require('openmw_aux.ui')
 local T = require('scripts.markers.types')
+local utils = require('scripts.markers.utils')
 
 local colorNormal = I.MWUI.templates.textNormal.props.textColor as util.Color
 local colorOver = util.color.rgb(223 / 255, 201 / 255, 159 / 255)
@@ -178,7 +173,9 @@ local stretchingLine: ui.Layout = {
 
 local function renderObjectives(objectives: {T.ObjectiveUIState}): ui.Layout
     local components: {ui.Layout} = {}
-    for _, obj in ipairs(objectives) do
+    local objectivesReversed = utils.listCopy(objectives)
+    utils.listReverse(objectivesReversed)
+    for _, obj in ipairs(objectivesReversed) do
         if obj.isStarted then
             table.insert(components, renderObjective(obj))
             table.insert(components, spacer)
@@ -421,13 +418,14 @@ end
 
 local function renderQuestList(
     state: T.UIState,
+    sortedQuests: {T.QuestUIState},
     selectComponent: function(integer),
     updateCallback: function(),
     selectedComponent: integer
 ): ui.Layout
     local listComponents: {ui.Layout} = {}
     
-    for i, q in ipairs(state.quests) do
+    for i, q in ipairs(sortedQuests) do
         local selected: boolean
         if i == selectedComponent then selected = true else selected = false end
         table.insert(listComponents, renderQuestListItem(q, selected, state.trackedQuestIDs[q.id], function() selectComponent(i) end))
@@ -444,6 +442,16 @@ local function renderQuestList(
     return questList
 end
 
+local function questCompare(left: T.QuestUIState, right: T.QuestUIState): boolean
+    if left.isCompleted and not right.isCompleted then
+        return false
+    elseif not left.isCompleted and right.isCompleted then
+        return true
+    else
+        return left.id < right.id
+    end
+end
+
 local function makeQuestWindowTest(
     state: T.UIState,
     onSwitchTracking: function(T.QuestUIState): T.UIState
@@ -454,6 +462,13 @@ local function makeQuestWindowTest(
     local selectComponent: function(integer)
     local flipQuestTracked: function(integer)
     local rerenderWindow: function()
+    
+    local quests: {T.QuestUIState} = {}
+    for _, quest in pairs(state.questsByID) do
+        table.insert(quests, quest)
+    end
+
+    table.sort(quests, questCompare)
 
     rerenderWindow = function()
         local questWindowBody: ui.Layout = {
@@ -472,14 +487,15 @@ local function makeQuestWindowTest(
                 growingInterval,
                 renderQuestList(
                     state,
+                    quests,
                     selectComponent,
                     rerenderWindow,
                     selectedIndex
                 ),
                 growingInterval,
                 renderQuestBody(
-                    state.quests[selectedIndex],
-                    state.trackedQuestIDs[state.quests[selectedIndex].id],
+                    quests[selectedIndex],
+                    state.trackedQuestIDs[quests[selectedIndex].id],
                     function() flipQuestTracked(selectedIndex) end
                 ),
                 growingInterval,
@@ -498,7 +514,7 @@ local function makeQuestWindowTest(
     end
 
     flipQuestTracked = function(ix: integer)
-        state = onSwitchTracking(state.quests[ix])
+        state = onSwitchTracking(quests[ix])
         rerenderWindow()
     end
 
