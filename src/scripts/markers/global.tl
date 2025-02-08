@@ -82,15 +82,13 @@ local record GameState
     -- Database of quests and objectives
     questData: T.QuestData
 
-    -- Which quests the player is tracking
-    trackedQuestIDs: {string: boolean}
-
     -- Mutable current state of all objectives and quests
     -- only by us, consumers shouldn't mutate it
     uiState: T.UIState
 end
 
 local function getTrackedObjectives(uiState: T.UIState): {T.Objective}
+    L.debug("we're in getTrackedObjectives", {uiState = uiState})
     local result: {T.Objective} = {}
 
     for _, questState in pairs(uiState.questsByID) do
@@ -249,6 +247,10 @@ local function processEvent(uiState: T.UIState, questData: T.QuestData, event: O
             if event.name == "JournalAdvanced" then
                 questState = prepQuestState(quest)
                 uiState.questsByID[questId] = questState
+
+                -- Autotrack
+                -- TODO quest.id is case insensitive and questId is lowercase here
+                uiState.trackedQuestIDs[quest.id] = true
                 table.insert(events, { eventType = "QuestStarted", name = quest.name })
             else
                 goto continue
@@ -281,6 +283,7 @@ local function processEvent(uiState: T.UIState, questData: T.QuestData, event: O
             questState.objectives[ix].isCompleted = true
             if questState.objectives[ix].info.completesQuest then
                 questState.isCompleted = true
+                uiState.trackedQuestIDs[quest.id] = false
             end
         end
 
@@ -300,16 +303,18 @@ local function processEvent(uiState: T.UIState, questData: T.QuestData, event: O
     return events
 end
 
+local GAME_STATE: GameState = nil
+local TRACKED_QUEST_IDS: {string: boolean} = {}
+
 -- We bootstrap the game state in a funky way, by loading the current state of
 -- the player's journal and all dead NPCs, as well as all player inventory items,
 -- and then pretending that these are the events we need to play through 
-local function loadGameState(): GameState
+local function loadGameState(injectQuestIds: {string: boolean}): GameState
     local questData = loadQuestYAML(TEST_YAML)
-    local trackedQuestIDs = {}
 
     local uiState: T.UIState = {
         questsByID = {},
-        trackedQuestIDs = trackedQuestIDs,
+        trackedQuestIDs = utils.tableCopy(injectQuestIds),
     }
 
     L.debug("quest data loaded", {quest = questData})
@@ -331,12 +336,8 @@ local function loadGameState(): GameState
     return {
         questData = questData,
         uiState = uiState,
-        trackedQuestIDs = trackedQuestIDs,
     }
 end
-
-global GAME_STATE: GameState = {}
-global TRACKED_QUEST_IDS: {string: boolean} = {}
 
 local function updateEverything()
     local npcLocations: {string:NPCState} = {}
@@ -357,14 +358,6 @@ local function updateEverything()
         GRAPH,
         npcLocations
     )
-
-    -- TODO temp hack to mark all new quests as active
-    for _, value in pairs(GAME_STATE.uiState.questsByID) do
-        if GAME_STATE.uiState.trackedQuestIDs[value.id] == nil then
-            GAME_STATE.uiState.trackedQuestIDs[value.id] = true
-            GAME_STATE.trackedQuestIDs[value.id] = true
-        end
-    end
     
     world.players[1]:sendEvent("QuestMarkersUpdateObjectiveBlips", blips)
     world.players[1]:sendEvent("QuestMarkersUpdateQuestState", GAME_STATE.uiState)
@@ -374,25 +367,23 @@ return {
     engineHandlers = {},
     eventHandlers = {
         QuestMarkersReroute = function(params: T.QuestMarkersRerouteParams)
-            GAME_STATE = loadGameState()
-            TRACKED_QUEST_IDS = params.trackedQuestIDs
-            GAME_STATE.trackedQuestIDs = TRACKED_QUEST_IDS
-            GAME_STATE.uiState.trackedQuestIDs = TRACKED_QUEST_IDS
+            GAME_STATE = loadGameState(TRACKED_QUEST_IDS)
+            GAME_STATE.uiState.trackedQuestIDs = utils.tableCopy(params.trackedQuestIDs)
+            TRACKED_QUEST_IDS = utils.tableCopy(TRACKED_QUEST_IDS)
             updateEverything()
         end,
         QuestMarkersQuestUpdated = function(event: JournalAdvanced)
             -- bit of a hack because we don't get the union tag from the payload
             event.name = "JournalAdvanced"
             local events = processEvent(GAME_STATE.uiState, GAME_STATE.questData, event)
+            TRACKED_QUEST_IDS = utils.tableCopy(GAME_STATE.uiState.trackedQuestIDs)
             if #events > 0 then
                 updateEverything()
                 world.players[1]:sendEvent("QuestMarkersHUDQuestEvent", events)
             end
         end,
         onLoad = function()
-            GAME_STATE = loadGameState()
-            GAME_STATE.trackedQuestIDs = TRACKED_QUEST_IDS
-            GAME_STATE.uiState.trackedQuestIDs = TRACKED_QUEST_IDS
+            GAME_STATE = loadGameState(TRACKED_QUEST_IDS)
             updateEverything()
         end,
     }

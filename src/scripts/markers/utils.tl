@@ -34,6 +34,12 @@ local function tableLength(t: table): integer
     return result
 end
 
+local function tableCopy<K, V>(t: {K: V}): {K: V}
+    local result: {K: V} = {}
+    for k, v in pairs(t) do result[k] = v end
+    return result
+end
+
 local function setLength<A>(s: {A: boolean}): integer
     local result = 0
     for _, v in pairs(s) do if v == true then result = result + 1 end end
@@ -58,6 +64,7 @@ return {
     listAppend = listAppend,
     listCopy = listCopy,
     tableLength = tableLength,
+    tableCopy = tableCopy,
     getCellCoords = getCellCoords,
     setLength = setLength
 }

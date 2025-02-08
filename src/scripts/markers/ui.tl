@@ -207,11 +207,14 @@ local function renderQuestInfo(
         }
     }
     -- TODO don't render this button when the quest is completed
-    local trackButton: ui.Layout = paddedBox(
-        {
-            template = I.MWUI.templates.padding,
-            content = ui.content {
-                {
+
+    local trackButtonOrCompleted: ui.Layout
+
+    if not questState.isCompleted then
+        trackButtonOrCompleted = paddedBox(
+            {
+                template = I.MWUI.templates.padding,
+                content = ui.content {{
                     template = I.MWUI.templates.textNormal,
                     props = {
                         text = (isTracked and "Untrack" or "Track")
@@ -219,11 +222,22 @@ local function renderQuestInfo(
                     events = {
                         mouseClick = async:callback(onTracked)
                     }
-                },
+                }},
             },
-        },
-        nil
-    ) 
+        nil)
+    else
+        trackButtonOrCompleted = paddedBox(
+            {
+                template = I.MWUI.templates.padding,
+                content = ui.content {{
+                    template = objectiveComplete,
+                    props = {
+                        text = "Completed"
+                    },
+                }},
+            },
+        nil)
+    end
     local flavorText: ui.Layout = {
         type = ui.TYPE.Text,
         template = I.MWUI.templates.textNormal,
@@ -252,7 +266,7 @@ local function renderQuestInfo(
         },
         content = ui.content {
             header,
-            trackButton,
+            trackButtonOrCompleted,
             spacer,
             stretchingLine,
             spacer,
