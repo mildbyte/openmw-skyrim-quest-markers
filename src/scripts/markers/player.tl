@@ -2,7 +2,6 @@ local ui = require('openmw.ui')
 local I = require('openmw.interfaces')
 local input = require('openmw.input')
 local util = require('openmw.util')
-local aux_util = require('openmw_aux.util')
 local camera = require('openmw.camera')
 local self = require('openmw.self')
 local sendGlobalEvent = require("openmw.core").sendGlobalEvent
@@ -98,24 +97,20 @@ local function updateViewportObjectives(objectiveBlips: {T.ObjectiveBlip})
 
         if dot < 0 then
             -- If the objective is behind us, stick the blip to the edge of the screen
-            local x_dist = math.abs(viewportX - 0.5)
-            local y_dist = math.abs(viewportY - 0.5)
             viewportX = 1 - viewportX
             viewportY = 1 - viewportY
+            local d1 = viewportX + viewportY
+            local d2 = viewportY - viewportX
 
-            if x_dist > y_dist then
-                if viewportX < 0.5 then
-                    viewportX = 0
-                else
-                    viewportX = 1
-                end
-            else
-                if viewportY < 0.5 then
-                    viewportY = 0
-                else
-                    viewportY = 1
-                end
-            end
+            if d1 < 1 and d2 >= 0 then
+                viewportX = 0
+            elseif d1 >= 1 and d2 >= 0 then
+                viewportY = 1
+            elseif d1 >= 1 and d2 < 0 then
+                viewportX = 1
+            elseif d1 < 1 and d2 < 0 then
+                viewportY = 0
+            end 
         end
 
         table.insert(screenSpace, util.vector2(viewportX, viewportY))
