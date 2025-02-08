@@ -5,8 +5,7 @@ local getCellCoords = require("scripts.markers.utils").getCellCoords
 local getRoute = require("scripts.markers.routing").getRoute
 local GRAPH = require('scripts.markers.graph').graph
 local utils = require("scripts.markers.utils")
-local loadQuestYAML = require("scripts.markers.quest").loadQuestYAML
-local TEST_YAML = require("scripts.markers.quest").TEST_YAML
+local loadQuestData = require("scripts.markers.quests.loader").loadQuestData
 local L = require("scripts.markers.logging")
 
 local record NPCState
@@ -310,7 +309,7 @@ local TRACKED_QUEST_IDS: {string: boolean} = {}
 -- the player's journal and all dead NPCs, as well as all player inventory items,
 -- and then pretending that these are the events we need to play through 
 local function loadGameState(injectQuestIds: {string: boolean}): GameState
-    local questData = loadQuestYAML(TEST_YAML)
+    local questData = loadQuestData()
 
     local uiState: T.UIState = {
         questsByID = {},
