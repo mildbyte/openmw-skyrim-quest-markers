@@ -19,7 +19,7 @@ local LEVELS: {LogLevel: integer} = {
 global LOG_LEVEL: LogLevel = "DEBUG"
 
 local function log(level: LogLevel, message: string, payload: {string:any})
-    if LEVELS[level] < LEVELS[LOG_LEVEL] then return end
+    if LEVELS[level] > LEVELS[LOG_LEVEL] then return end
     print("[QM] " .. level .. ": " .. message)
     if payload ~= nil then
         for key, value in pairs(payload) do
