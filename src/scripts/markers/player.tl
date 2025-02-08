@@ -43,7 +43,7 @@ local function setObjectiveBlips(positions: {util.Vector2})
     end
 
     if #positions < #BLIP_ELEMENTS then
-        for i = #positions + 1, #BLIP_ELEMENTS do
+        for _ = #positions + 1, #BLIP_ELEMENTS do
             local element = BLIP_ELEMENTS[#positions + 1]
             element:destroy()
             table.remove(BLIP_ELEMENTS, #positions + 1)
@@ -235,6 +235,7 @@ return {
             ui.printToConsole("received new quest state", ui.CONSOLE_COLOR.Default)
             ui.printToConsole(aux_util.deepToString(state, 6), ui.CONSOLE_COLOR.Default)
             QUEST_STATE = state
+            TRACKED_QUEST_IDS = QUEST_STATE.trackedQuestIDs
         end,
         QuestMarkersUpdateObjectiveBlips = function(objectives: {T.ObjectiveBlip}) 
             ui.printToConsole("received new objective blips", ui.CONSOLE_COLOR.Default)
