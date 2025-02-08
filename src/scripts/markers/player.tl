@@ -11,6 +11,7 @@ local nearby = require('openmw.nearby')
 
 local getCellCoords = require("scripts.markers.utils").getCellCoords
 local T = require('scripts.markers.types')
+local L = require('scripts.markers.logging')
 local qmUI = require("scripts.markers.ui")
 local listContains = require("scripts.markers.utils").listContains
 local listAppend = require("scripts.markers.utils").listAppend
@@ -31,14 +32,14 @@ local function setObjectiveBlips(positions: {util.Vector2})
                   textColor = util.color.rgb(0, 1, 0),
                 },
             }
-            -- ui.showMessage("adding blip" .. i .. tostring(position), nil)
+            L.trace("adding blip" .. i .. tostring(position))
             table.insert(BLIP_ELEMENTS, element)
         else
             local element = BLIP_ELEMENTS[i]
             element.layout.props.relativePosition = position
             element.layout.props.anchor = position
             element:update()
-            -- ui.showMessage("updating blip" .. i .. tostring(position), nil)
+            L.trace("updating blip" .. i .. tostring(position))
         end
     end
 
@@ -47,7 +48,7 @@ local function setObjectiveBlips(positions: {util.Vector2})
             local element = BLIP_ELEMENTS[#positions + 1]
             element:destroy()
             table.remove(BLIP_ELEMENTS, #positions + 1)
-            -- ui.showMessage("deleting blip" .. i, nil)
+            L.trace("deleting blip")
         end
     end
 end
@@ -85,7 +86,7 @@ local function updateViewportObjectives(objectiveBlips: {T.ObjectiveBlip})
 
     local screenSpace = {}
     for _, blip in ipairs(blips) do
-        -- ui.printToConsole("rendering blip with coords " .. tostring(blip.localCoords), ui.CONSOLE_COLOR.Default)
+        L.trace("rendering blip", {blip = blip})
         local viewport = camera.worldToViewportVector(blip)
         -- Clamp and convert the viewport to 0..1
         local viewportX = util.clamp(viewport.x / ui.screenSize().x, 0, 1)
@@ -149,7 +150,7 @@ return {
     engineHandlers = {
         onKeyPress = function(key: input.KeyboardEvent)
             if key.symbol == 'x' then
-                ui.printToConsole("Sending objective recalc event", ui.CONSOLE_COLOR.Default)
+                L.debug("Sending objective recalc event")
                 sendGlobalEvent("QuestMarkersReroute", {trackedQuestIDs = TRACKED_QUEST_IDS})
             end
             if key.symbol == 'v' then
@@ -181,15 +182,6 @@ return {
         end,
         onUpdate = function(dt: number)
             local cellCoords = getCellCoords(self.object)
-            -- -- TODO temp hack for marking all new quests as active
-            -- for _, questState in ipairs(QUEST_STATE.quests) do
-            --     if TRACKED_QUEST_IDS[questState.id] == nil then
-            --         TRACKED_QUEST_IDS[questState.id] = true
-            --     end
-            -- end
-
-            -- TODO if the UI state changed, we need to recalculate routing
-
             -- Update full routing when the cell changes
             -- TODO: also do it occasionally in the exterior
             -- hmm, what about ASV teleports
@@ -227,29 +219,25 @@ return {
         end,
         onQuestUpdate = function(questId: string, stage: integer)
             sendGlobalEvent("QuestMarkersQuestUpdated", {questId = questId, stage = stage})
-            ui.printToConsole("UPDATED MY JOURNAL " .. questId .. " " .. stage, ui.CONSOLE_COLOR.Default)
+            L.debug("Sending quest update event", {questId = questId, stage = stage})
         end
     },
     eventHandlers = {
         QuestMarkersUpdateQuestState = function(state: T.UIState)
-            ui.printToConsole("received new quest state", ui.CONSOLE_COLOR.Default)
-            ui.printToConsole(aux_util.deepToString(state, 6), ui.CONSOLE_COLOR.Default)
+            L.debug("received new quest state", {state = state})
             QUEST_STATE = state
             TRACKED_QUEST_IDS = QUEST_STATE.trackedQuestIDs
         end,
         QuestMarkersUpdateObjectiveBlips = function(objectives: {T.ObjectiveBlip}) 
-            ui.printToConsole("received new objective blips", ui.CONSOLE_COLOR.Default)
-            ui.printToConsole(aux_util.deepToString(objectives, 6), ui.CONSOLE_COLOR.Default)
+            L.debug("received new objective blips", {objectives = objectives})
 
             CURRENT_OBJECTIVE_BLIPS = objectives
             fastUpdateBlips(CURRENT_OBJECTIVE_BLIPS)
-            ui.printToConsole("after update", ui.CONSOLE_COLOR.Default)
-            ui.printToConsole(aux_util.deepToString(objectives, 6), ui.CONSOLE_COLOR.Default)
+            L.debug("blips after fastUpdate", {objectives = objectives})
             updateViewportObjectives(CURRENT_OBJECTIVE_BLIPS)
         end,
         QuestMarkersHUDQuestEvent = function(events: {T.QuestEvent})
-            ui.printToConsole("received HUD events", ui.CONSOLE_COLOR.Default)
-            ui.printToConsole(aux_util.deepToString(events, 6), ui.CONSOLE_COLOR.Default)
+            L.debug("received HUD events", {events = events})
             PENDING_QUEST_EVENTS = listAppend(PENDING_QUEST_EVENTS, events)
         end
     }

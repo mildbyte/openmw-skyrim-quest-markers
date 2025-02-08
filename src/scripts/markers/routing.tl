@@ -11,9 +11,7 @@ local listReverse = require("scripts.markers.utils").listReverse
 local listContains = require("scripts.markers.utils").listContains
 local tableLength = require("scripts.markers.utils").tableLength
 local setLength = require("scripts.markers.utils").setLength
-
--- Assuming running, speed=50, athletics=50, game units per second
--- global RUN_SPEED = 337.5
+local L = require("scripts.markers.logging")
 
 local function cellIdToIndex(cellId: string): string
     if cellId == nil then return "" else return cellId end
@@ -144,8 +142,11 @@ local function dijkstra(graph: RoutingGraph, source: CellCoords, destinations: {
     end
 
     local prunedGraph = pruneGraph(graph, source, destinations)
-    -- dumpGraph(prunedGraph)
-    print(
+    if L.LEVELS[LOG_LEVEL] >= L.LEVELS["DEBUG"] then
+        dumpGraph(prunedGraph)
+    end
+
+    L.info(
         "pruned travel graph from " .. #graph.vertices .. "v " .. tableLength(graph.edges) ..
         "e to " .. tableLength(prunedGraph.vertices) .. "v " .. 
         tableLength(prunedGraph.edges) .. "e in " .. 
@@ -169,7 +170,7 @@ local function dijkstra(graph: RoutingGraph, source: CellCoords, destinations: {
     local edgeLoops = 0
 
     while not Q:empty() do
-        -- print("dijkstra, q size is " .. tostring(Q:size()))
+        L.trace("dijkstra, q size is " .. tostring(Q:size()))
 
         local vertexAndCost = Q.heap[1]
         local vertex = vertexAndCost[1] as CellCoords
@@ -187,7 +188,7 @@ local function dijkstra(graph: RoutingGraph, source: CellCoords, destinations: {
 
         -- https://cs.stackexchange.com/a/118406
         if dist[vertex] < vertexCost then goto continue end
-        -- print("dijkstra " .. coordsToString(vertex))
+        L.trace("dijkstra " .. coordsToString(vertex))
         -- each vertex (without ASV and teleports) has one normal edge
         
         local vertexNeighbours: {{CellCoords, number}} = {}
@@ -212,7 +213,7 @@ local function dijkstra(graph: RoutingGraph, source: CellCoords, destinations: {
             edgeLoops = edgeLoops + 1
             local otherVertex = otherVertexAndCost[1]
             local distance = otherVertexAndCost[2]
-            -- print("checking cost to " .. coordsToString(otherVertex) .. " dist " .. tostring(distance))
+            L.trace("checking cost to " .. coordsToString(otherVertex) .. " dist " .. tostring(distance))
             if dist[vertex] + distance < dist[otherVertex] then
                 relaxations = relaxations + 1
                 dist[otherVertex] = dist[vertex] + distance
@@ -223,7 +224,7 @@ local function dijkstra(graph: RoutingGraph, source: CellCoords, destinations: {
         ::continue::
     end
 
-    print(
+    L.info(
         "dijkstra finished in " .. getRealTime() - startTime .. "s, " ..
         queueLoops .. " vertex loops, " .. edgeLoops .. " edge loops, " .. 
         relaxations .. " relaxations"
@@ -265,10 +266,12 @@ local function getRoute(graph: RoutingGraph, source: CellCoords, destinations: {
                 table.insert(result, nil)
             end
 
-            -- ui.printToConsole("route", ui.CONSOLE_COLOR.Default)
-            -- for _, v in ipairs(subResult) do
-            --     ui.printToConsole(coordsToString(v), ui.CONSOLE_COLOR.Default)
-            -- end
+            if L.LEVELS[L.LOG_LEVEL] >= L.LEVELS["DEBUG"] then
+                print("route")
+                for _, v in ipairs(subResult) do
+                    print(coordsToString(v))
+                end
+            end
         else
             table.insert(result, nil)
         end

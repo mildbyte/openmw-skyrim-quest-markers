@@ -7,7 +7,7 @@ local GRAPH = require('scripts.markers.graph').graph
 local utils = require("scripts.markers.utils")
 local loadQuestYAML = require("scripts.markers.quest").loadQuestYAML
 local TEST_YAML = require("scripts.markers.quest").TEST_YAML
-local aux_util = require('openmw_aux.util')
+local L = require("scripts.markers.logging")
 
 local record NPCState
     coords: T.CellCoords
@@ -26,10 +26,10 @@ local function computeBlips(
     for _, objective in ipairs(objectives) do
         if objective.pointer.name == "InteriorCluster" then
             local cellId = (objective.pointer as T.InteriorCluster).cellId
-            print("looking for " .. cellId .. " cluster")
+            L.trace("looking for " .. cellId .. " cluster")
             local cluster = routingGraph.cellClusterMap[cellId]
             if cluster ~= routingGraph.cellClusterMap[player.cellId] and cluster ~= nil then
-                print("found " .. cellId .. " cluster")
+                L.trace("found " .. cellId .. " cluster")
                 -- If the player isn't in that interior, just point them to some random
                 -- point in that interior
 
@@ -63,7 +63,7 @@ local function computeBlips(
 
         if route ~= nil then
             -- local blip: next blip in the player's cell
-            print("route: " .. tostring(route))
+            L.trace("route: " .. tostring(route))
 
             for _, v in ipairs(route) do
                 if v ~= player then
@@ -190,13 +190,9 @@ local function processEvent(uiState: T.UIState, questData: T.QuestData, event: O
 
     local quests = getQuestObjectiveRelevantQuests(event, questData)
 
-    print("checking event:")
-    print(aux_util.deepToString(event, 6))
+    L.trace("checking event", {event = event})
     if quests ~= nil and #quests > 0 then
-        print("found relevant quest, event:")
-        print(aux_util.deepToString(event, 6))
-        print("quest:")
-        print(aux_util.deepToString(quests, 6))
+        L.trace("found relevant quest", {event = event, quest = quests})
     
         for _, quest in ipairs(quests) do
             -- Go down the list until we  we find one that the player has completed.
@@ -223,8 +219,7 @@ local function processEvent(uiState: T.UIState, questData: T.QuestData, event: O
 
             local anyCompleted = false
             for i, objective in ipairs(objectives) do
-                print("checking objective:")
-                print(aux_util.deepToString(objective, 6))
+                L.trace("checking objective", {objective = objective})
                 if eventCompletesQuestObjective(event, objective) then
                     table.insert(completedObjectives, {quest.id:lower(), #objectives - i + 1})
                     anyCompleted = true
@@ -235,8 +230,7 @@ local function processEvent(uiState: T.UIState, questData: T.QuestData, event: O
                 table.insert(completedObjectives, {quest.id:lower(), nil})
             end
         end
-        print("event processed, completed objectives")
-        print(aux_util.deepToString(completedObjectives, 6))
+        L.trace("event processed, completed objectives", {objectives = completedObjectives})
     end
 
     local events: {T.QuestEvent} = {}
@@ -318,8 +312,7 @@ local function loadGameState(): GameState
         trackedQuestIDs = trackedQuestIDs,
     }
 
-    -- print("quest data loaded")
-    -- print(aux_util.deepToString(questData, 6))
+    L.debug("quest data loaded", {quest = questData})
 
     local playerJournal = types.Player.quests(world.players[1]) as {string: types.PlayerQuest}
 
@@ -331,8 +324,7 @@ local function loadGameState(): GameState
         } as ObjectiveEvent)
 
         if #events > 1 then
-            print("events")
-            print(aux_util.deepToString(events, 6))            
+            L.debug("got events", {events = events})
         end
     end
 
