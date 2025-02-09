@@ -1,5 +1,6 @@
 local world = require("openmw.world")
 local types = require("openmw.types")
+local core = require("openmw.core")
 local T = require('scripts.markers.types')
 local getCellCoords = require("scripts.markers.utils").getCellCoords
 local getRoute = require("scripts.markers.routing").getRoute
@@ -143,7 +144,7 @@ local function prepQuestState(quest: T.Quest): T.QuestUIState
         name = quest.name,
         id = quest.id,
         isCompleted = false,
-        currentFlavorText = "TODO",
+        currentFlavorText = nil,
         objectives = objectives,
     }
 end
@@ -196,7 +197,7 @@ local function processEvent(uiState: T.UIState, questData: T.QuestData, event: O
         L.trace("found relevant quest", {event = event, quest = quests})
     
         for _, quest in ipairs(quests) do
-            -- Go down the list until we  we find one that the player has completed.
+            -- Go down the list until we find one that the player has completed.
             -- We make the one just before it incomplete and visible,
             -- we mark that objective as active
             -- and then we mark everything after that as completed.
@@ -257,6 +258,24 @@ local function processEvent(uiState: T.UIState, questData: T.QuestData, event: O
                 table.insert(events, { eventType = "QuestStarted", name = quest.name })
             else
                 goto continue
+            end
+        end
+
+        
+        -- For journal advancements, also add the journal entry
+        -- as flavor text.
+        -- NB: needs openmw 0.49RC (API version 70)
+        -- TODO: add this flavor text even if we got a journal entry
+        -- for this quest that doesn't match an objective.
+        if event.name == "JournalAdvanced" then
+            local journal = event as JournalAdvanced
+            local records = core.dialogue.journal as core.DialogueRecords
+            local recordsMap = records.records as {string: core.DialogueRecord}
+            for _, info in ipairs(recordsMap[journal.questId].infos) do
+                if info.questStage == journal.stage then
+                    questState.currentFlavorText = info.text
+                    break
+                end
             end
         end
 
