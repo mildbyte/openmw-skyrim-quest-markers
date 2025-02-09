@@ -20,6 +20,16 @@ class Graph(NamedTuple):
     cell_cluster_map: dict[str, int]
 
 
+class JournalEntry(NamedTuple):
+    stage: int
+    text: str
+
+
+class Quest(NamedTuple):
+    id: str
+    journals: list[JournalEntry]
+
+
 def build_graph(cells: list[any], npcs: list[any]) -> Graph:
     vertices: set[Location] = set()
     edges: defaultdict[Location, list[tuple[Location, float]]] = defaultdict(list)
@@ -159,9 +169,7 @@ def dump_graph(graph: Graph):
         f.write("global TRAVEL_NPC_VERTICES: {T.CellCoords} = {")
         for vertex in graph.travel_npc_vertices:
             ix = graph.vertices.index(vertex)
-            f.write(
-                f"\n    VERTICES[{ix+1}],"
-            )
+            f.write(f"\n    VERTICES[{ix+1}],")
         f.write("\n};\n\n")
 
         f.write("global EDGES: {T.CellCoords:{T.Edge}} = {}\n")
@@ -201,8 +209,43 @@ global GRAPH: T.RoutingGraph = {
     cellClusters = CELL_CLUSTERS,
     cellClusterMap = CELL_CLUSTER_MAP
 }
-""")
+"""
+        )
         f.write("return {graph = GRAPH}\n")
+
+
+def parse_quests_objectives(dump):
+    quests: list[Quest] = []
+
+    current_quest_id: str | None = None
+    current_quest_journal_entries: list[JournalEntry] = []
+
+    for entry in dump:
+        if current_quest_id is not None:
+            if (
+                entry["type"] != "DialogueInfo"
+                or entry["data"]["dialogue_type"] != "Journal"
+            ):
+                quests.append(
+                    Quest(id=current_quest_id, journals=current_quest_journal_entries)
+                )
+                current_quest_id = None
+                current_quest_journal_entries = []
+            else:
+                current_quest_journal_entries.append(
+                    JournalEntry(stage=entry["data"]["disposition"], text=entry["text"])
+                )
+
+        if entry["type"] == "Dialogue" and entry["dialogue_type"] == "Journal":
+            current_quest_id = entry["id"]
+            current_quest_journal_entries = []
+
+    if current_quest_id:
+        quests.append(
+            Quest(id=current_quest_id, journals=current_quest_journal_entries)
+        )
+
+    return quests
 
 
 with open("./Morrowind.esm.json") as f:
@@ -211,6 +254,13 @@ cells = [g for g in raw_graph if g["type"] == "Cell"]
 npcs = [g for g in raw_graph if g["type"] == "Npc"]
 graph = build_graph(cells, npcs)
 dump_graph(graph)
+
+
+
+quests = parse_quests_objectives(raw_graph)
+quests = sorted(quests, key=lambda q: q.id)
+
+prefixes = set(q.id.split("_")[0] for q in quests)
 
 
 surrogate_edges = 0
