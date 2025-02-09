@@ -23,6 +23,8 @@ local function computeBlips(
     local routingCoords: {T.CellCoords} = {}
 
     for _, objective in ipairs(objectives) do
+        if objective.pointer == nil then goto continue end
+
         if objective.pointer.name == "InteriorCluster" then
             local cellId = (objective.pointer as T.InteriorCluster).cellId
             L.trace("looking for " .. cellId .. " cluster")
@@ -47,6 +49,8 @@ local function computeBlips(
                 table.insert(routingCoords, location.coords)
             end
         end
+
+        ::continue::
     end
     
     -- No need to run Dijkstra for the entire graph if we're not
