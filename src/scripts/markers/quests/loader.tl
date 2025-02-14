@@ -1,9 +1,21 @@
-local mainQuest = require("scripts.markers.quests.modules.main_quest").questLine
 local T = require("scripts.markers.types")
 local utils = require("scripts.markers.utils")
 
 local questLines = {
-    mainQuest
+    require("scripts.markers.quests.modules.main_quest").questLine,
+    require("scripts.markers.quests.modules.daedric").questLine,
+    require("scripts.markers.quests.modules.fighters_guild").questLine,
+    require("scripts.markers.quests.modules.house_hlaalu").questLine,
+    require("scripts.markers.quests.modules.house_redoran").questLine,
+    require("scripts.markers.quests.modules.house_telvanni").questLine,
+    require("scripts.markers.quests.modules.imperial_cult").questLine,
+    require("scripts.markers.quests.modules.imperial_legion").questLine,
+    require("scripts.markers.quests.modules.mages_guild").questLine,
+    require("scripts.markers.quests.modules.morag_tong").questLine,
+    require("scripts.markers.quests.modules.miscellaneous").questLine,
+    require("scripts.markers.quests.modules.thieves_guild").questLine,
+    require("scripts.markers.quests.modules.tribunal_temple").questLine,
+    require("scripts.markers.quests.modules.vampire").questLine,
 }
 
 local function addToSet<K, V>(set: {K: {V}}, key: K, value: V)
