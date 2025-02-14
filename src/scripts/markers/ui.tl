@@ -19,6 +19,13 @@ objectiveComplete.props.textColor = colorDisabled
 local questHeader = auxUi.deepLayoutCopy(I.MWUI.templates.textHeader as {any : any}) as ui.Template
 questHeader.props.textSize = 24
 
+-- It's tough to battle FLEX and word wrapping so we instead hand-arrange most components
+local QUEST_WINDOW_SIZE = util.vector2(1100, 600)
+local QUEST_LIST_SIZE = util.vector2(390, 544)
+local CURRENT_QUEST_BODY_SIZE = util.vector2(650, 544)
+local MAX_ENTRIES_IN_QUEST_LIST = 34 -- 16 (text height) x 34 = 544 = height of the quest list
+local CURRENT_QUEST_NAME_SIZE = util.vector2(640, 50)
+local CURRENT_QUEST_FLAVOR_SIZE = util.vector2(640, 150)
 
 local growingInterval: ui.Layout = {
     template = I.MWUI.templates.interval,
@@ -45,8 +52,9 @@ local function renderScrollList(
     components: {ui.Layout},
     size: util.Vector2,
     maxVisibleItems: integer,
-    name: string,
-    updateCallback: function()
+    scrollPosition: integer,
+    onScrollUp: function(),
+    onScrollDown: function()
 ): ui.Layout
     local function getVisibleItems(from: integer): {ui.Layout}
         return { table.unpack(components,
@@ -55,8 +63,6 @@ local function renderScrollList(
         ) }
     end
 
-    local scrollPosition = 1
-    
     local listCanvas: ui.Layout = {
         type = ui.TYPE.Flex,
         props = {
@@ -87,15 +93,7 @@ local function renderScrollList(
                     resource = upArrow,
                     size = util.vector2(1, 1) * 15,
                 },
-                events = {
-                    mouseClick = async:callback(function()
-                        scrollPosition = math.max(1, math.min(scrollPosition - 1, #components - maxVisibleItems))
-                        listCanvas.content = ui.content(getVisibleItems(scrollPosition))
-
-                        ui.showMessage(tostring(scrollPosition), {})
-                        updateCallback()
-                    end),
-                },
+                events = { mouseClick = async:callback(onScrollUp) },
                 template = I.MWUI.templates.borders
             },
             {
@@ -108,15 +106,7 @@ local function renderScrollList(
                     resource = downArrow,
                     size = util.vector2(1, 1) * 15,
                 },
-                events = {
-                    mouseClick = async:callback(function()
-                        scrollPosition = math.max(1, math.min(scrollPosition + 1, #components - maxVisibleItems))
-                        listCanvas.content = ui.content(getVisibleItems(scrollPosition))
-
-                        ui.showMessage(tostring(scrollPosition), {})
-                        updateCallback()
-                    end),
-                },
+                events = { mouseClick = async:callback(onScrollDown) },
                 template = I.MWUI.templates.borders
             },
         })
@@ -134,7 +124,7 @@ local function renderScrollList(
                 listCanvas, scrollControls
             })
         },
-        name
+        nil
     )
     return list
 end
@@ -197,17 +187,14 @@ local function renderQuestInfo(
     local header: ui.Layout = {
         type = ui.TYPE.Text,
         template = questHeader,
-        external = { stretch = 1 },
         props = { 
             text = questState.name,
             wordWrap = true,
             multiLine = true,
-            autoSize = true,
-            -- size = util.vector2(0, 50)
+            autoSize = false,
+            size = CURRENT_QUEST_NAME_SIZE
         }
     }
-    -- TODO don't render this button when the quest is completed
-
     local trackButtonOrCompleted: ui.Layout
 
     if not questState.isCompleted then
@@ -241,15 +228,12 @@ local function renderQuestInfo(
     local flavorText: ui.Layout = {
         type = ui.TYPE.Text,
         template = I.MWUI.templates.textNormal,
-        external = { stretch = 1 },
         props = {
-            text = questState.currentFlavorText,
+            text = questState.currentFlavorText .. "\r\n",
             wordWrap = true,
             multiLine = true,
             autoSize = false,
-            -- -- We can't just say "autosize, fix horizontal axis but vertical can go as much as
-            -- -- you need", so we fix a 150px here
-            size = util.vector2(0, 150)
+            size = CURRENT_QUEST_FLAVOR_SIZE,
         }
     }
     local objectives: ui.Layout = {
@@ -332,61 +316,13 @@ local function renderWindow(size: util.Vector2, content: ui.Layout): ui.Layout
     return questWindowContainer
 end
 
-
-local function testQuestState(): T.UIState
-    local result: {T.QuestUIState} = {}
-
-    for i = 1, 20 do
-        local questState: T.QuestUIState = {
-            name = "Dwemer Tube Quest " .. tostring(i),
-            id = "QUEST_" .. tostring(i),
-            isCompleted = false,
-            currentFlavorText = [[
-            My orders are to go to the town of Balmora in Vvardenfell District and report to a man named Caius Cosades. To find out where he lives, I should ask in Balmora at the cornerclub called South Wall. When I find Caius Cosades, I must give him a package of documents, and wait for further orders. My orders are to go to the town of Balmora in Vvardenfell District and report to a man named Caius Cosades. To find out where he lives, I should ask in Balmora at the cornerclub called South Wall. When I find Caius Cosades, I must give him a package of documents, and wait for further orders.]],
-            objectives = {
-                {
-                    isCompleted = false,
-                    info = { text = "Never gonna give you up"}
-                },
-                {
-                    isCompleted = false,
-                    info = { text = "Never gonna let you down"}
-                },
-                {
-                    isCompleted = false,
-                    info = { text = "Never gonna run around and desert you"}
-                },
-                {
-                    isCompleted = true,
-                    info = { text = "Never gonna make you cry"}
-                },
-                {
-                    isCompleted = true,
-                    info = { text = "Never gonna say goodbye"}
-                },
-                {
-                    isCompleted = true,
-                    info = { text = "Never gonna tell a lie and hurt you"}
-                },
-            }
-        }
-
-        table.insert(result, questState)
-    end
-
-    return {
-        quests = result,
-        trackedQuestIDs = {QUEST_1 = true, QUEST_5 = true,}
-    } as T.UIState
-end
-
 local function renderQuestBody(state: T.QuestUIState, isTracked: boolean, onTracked: function()): ui.Layout
     return {
         name = "questObjectives",
         type = ui.TYPE.Flex,
         props = {
             autoSize = false,
-            size = util.vector2(490, 544),
+            size = CURRENT_QUEST_BODY_SIZE,
         },
         content = ui.content { renderQuestInfo(state, isTracked, onTracked) }
     }
@@ -434,8 +370,10 @@ local function renderQuestList(
     state: T.UIState,
     sortedQuests: {T.QuestUIState},
     selectComponent: function(integer),
-    updateCallback: function(),
-    selectedComponent: integer
+    onScrollUp: function(),
+    onScrollDown: function(),
+    selectedComponent: integer,
+    scrollPosition: integer
 ): ui.Layout
     local listComponents: {ui.Layout} = {}
     
@@ -447,10 +385,11 @@ local function renderQuestList(
 
     local questList: ui.Layout = renderScrollList(
         listComponents,
-        util.vector2(250, 544),
-        34, -- 36x16 = 544
-        "questList",
-        updateCallback
+        QUEST_LIST_SIZE,
+        MAX_ENTRIES_IN_QUEST_LIST,
+        scrollPosition,
+        onScrollUp,
+        onScrollDown
     )
 
     return questList
@@ -473,9 +412,12 @@ local function makeQuestWindowTest(
     -- forward declaration of circular stuff
     local element: ui.Element = nil
     local selectedIndex = 1
+    local scrollPosition = 1
     local selectComponent: function(integer)
     local flipQuestTracked: function(integer)
     local rerenderWindow: function()
+    local scrollUp: function()
+    local scrollDown: function()
     
     local quests: {T.QuestUIState} = {}
     for _, quest in pairs(state.questsByID) do
@@ -503,8 +445,10 @@ local function makeQuestWindowTest(
                     state,
                     quests,
                     selectComponent,
-                    rerenderWindow,
-                    selectedIndex
+                    scrollUp,
+                    scrollDown,
+                    selectedIndex,
+                    scrollPosition
                 ),
                 growingInterval,
                 renderQuestBody(
@@ -517,7 +461,7 @@ local function makeQuestWindowTest(
             template = I.MWUI.templates.bordersThick,
         }
 
-        local questWindow = renderWindow(util.vector2(800, 600), questWindowBody)
+        local questWindow = renderWindow(QUEST_WINDOW_SIZE, questWindowBody)
     
         if element == nil then
             element = ui.create(questWindow)
@@ -534,6 +478,18 @@ local function makeQuestWindowTest(
 
     selectComponent = function(ix: integer)
         selectedIndex = ix
+        rerenderWindow()
+    end
+
+    local maxVisibleItems = 34
+
+    scrollUp = function()
+        scrollPosition = math.max(1, math.min(scrollPosition - 1, #quests - maxVisibleItems))
+        rerenderWindow()
+    end
+
+    scrollDown = function()
+        scrollPosition = math.max(1, math.min(scrollPosition + 1, #quests - maxVisibleItems))
         rerenderWindow()
     end
 
