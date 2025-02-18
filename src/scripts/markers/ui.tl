@@ -135,13 +135,13 @@ local function renderObjective(objective: T.ObjectiveUIState): ui.Layout
         return {
             type = ui.TYPE.Text,
             template = objectiveComplete,
-            props = { text = "[x] " .. objective.info.text }
+            props = { text = "[x] " .. objective.info.text, wordWrap = true, multiline = true, }
         }
     else
         return {
             type = ui.TYPE.Text,
             template = I.MWUI.templates.textNormal,
-            props = { text = "[ ] " .. objective.info.text }
+            props = { text = "[ ] " .. objective.info.text, wordWrap = true, multiline = true, }
         }
     end
 end

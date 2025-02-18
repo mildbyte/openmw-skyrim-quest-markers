@@ -6,64 +6,22 @@ local questLine: {T.Quest} = {
         id = "A1_1_FindSpymaster",
         objectives = {
             {
-                text = "My orders are to go to the town of Balmora in Vvardenfell District and report to a man named Caius Cosades. To find out where he lives, I should ask in Balmora at the cornerclub called South Wall. When I find Caius Cosades, I must give him a package of documents, and wait for further orders.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Elone at Arrille's Tradehouse gave me detailed directions to Balmora.",
-                condition = { name = "Journal", stage = 2 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "A patron of the South Wall cornerclub called Caius Cosades \"an old sugar tooth,\" and says to ask the owner, Bacola Closcius, about Caius Cosades.",
+                text = "Go to South Wall Cornerclub",
                 condition = { name = "Journal", stage = 5 },
-                pointer = nil,
+                pointer = { name = "InteriorCluster", cellId = "Balmora, South Wall Cornerclub" },
                 completesQuest = false,
             },
             {
-                text = "Bacola Closcius says Caius Cosades rents a little bed-and-basket up the hill from the South Wall. Go right up the stairs from the front door, then left at the top of the stairs and down to the end of the street.",
+                text = "Speak with Bacola Closcius",
                 condition = { name = "Journal", stage = 10 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "bacola closcius" },
                 completesQuest = false,
             },
             {
-                text = "I reported to Caius Cosades, but I haven't given him the package of documents yet.",
-                condition = { name = "Journal", stage = 11 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I gave Caius Cosades the package of documents. Caius Cosades says the Emperor wants me inducted into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades would be my Spymaster, and I would follow his orders. Should I do as the Emperor commands? I'm not sure... I want to think about it.",
-                condition = { name = "Journal", stage = 12 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I have given Caius Cosades the package of documents. And, by the Emperor's command, Caius Cosades has inducted me into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades will be my Spymaster, and I'll follow his orders.",
+                text = "Speak with Caius Cosades",
                 condition = { name = "Journal", stage = 14 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Spymaster Caius Cosades gave me 200 gold to spend as I please. And he also told me to establish a cover identity as a freelance adventurer. He suggested I join the Fighters Guild, or Mages Guild, or Imperial cult, advance in the ranks, gain skill and experience, or go out on my own, get freelance work. Then, when I'm ready, I come back to Caius for orders.",
-                condition = { name = "Journal", stage = 18 },
-                pointer = nil,
-                completesQuest = true,
-            },
-            {
-                text = "Spymaster Caius Cosades told me to establish a cover identity as a freelance adventurer. He suggested I might find some work at the Fighters Guild and the Mages Guild. When I'm ready, I'm to come back to him, and he'll have orders for me.",
-                condition = { name = "Journal", stage = 20 },
-                pointer = nil,
-                completesQuest = true,
-            },
-            {
-                text = "Spymaster Caius Cosades suggested I maintain a cover identity as a freelance adventurer, just to avoid drawing unwanted attention. And he says he has orders for me, whenever I'm ready.",
-                condition = { name = "Journal", stage = 22 },
-                pointer = nil,
-                completesQuest = true,
+                pointer = { name = "NPC", id = "caius cosades" },
+                completesQuest = true
             },
         },
     },
@@ -72,99 +30,58 @@ local questLine: {T.Quest} = {
         id = "A1_2_AntabolisInformant",
         objectives = {
             {
-                text = "Hasphat Antabolis gave me a Dwemer key that may be useful in the Arkngthand ruins.",
-                condition = { name = "Journal", stage = 25 },
-                pointer = nil,
-                completesQuest = true,
-            },
-            {
-                text = "I gave Caius Cosades the notes from Hasphat Antabolis, and Caius seemed well-enough pleased with them. However, now he has something else for me to do.",
-                condition = { name = "Journal", stage = 20 },
-                pointer = nil,
-                completesQuest = true,
-            },
-            {
-                text = "Hasphat Antabolis gave me notes on the Sixth House to deliver to Caius Cosades.",
-                condition = { name = "Journal", stage = 15 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I gave Hasphat Antabolis the Dwemer puzzle box, and now he says he'll tell me what I need to know about the Nerevarine secret cult and the Sixth House secret cult. He also said the inscriptions on the box seem to be the directions for setting a Dwemer key to open a specific lock. When I've delivered my report to Caius, he said come back, and maybe he'll have a key I can take back to Arkngthand.",
-                condition = { name = "Journal", stage = 10 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I found the Dwemer puzzle box Hasphat Antabolis told me to find. Now I'll take it to him, and in return, he'll tell me what I need to know about the Nerevarine secret cult and the Sixth House secret cult.",
-                condition = { name = "Journal", stage = 7 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I need to do a favor for Hasphat Antabolis before he'll tell me what I need to know. I'm to go to a Dwemer ruin nearby called Arkngthand. I'm supposed to find a little cube with a circular design and some symbols on one side. He called it a \"Dwemer puzzle box'. When I bring the cube back to Antabolis, he'll tell me what I need to know.",
-                condition = { name = "Journal", stage = 5 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "The Spymaster has sent me to talk to Hasphat Antabolis at the Balmora Fighters Guild. I'm to ask him what he knows about the Nerevarine secret cult and the Sixth House secret cult, and return to report to the Spymaster. First I'll have to do some favor for Antabolis, then he'll give me the information that the Spymaster wants.",
+                text = "Speak with Caius Cosades when you're ready",
                 condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
+                pointer = { name = "NPC", cellId = "caius cosades" },
+                completesQuest = false
             },
-        },
+            {
+                text = "Speak with Hasphat Antabolis",
+                condition = { name = "Journal", stage = 5 },
+                pointer = { name = "NPC", id = "hasphat antabolis" },
+                completesQuest = false
+            },
+            {
+                text = "Find the Dwemer puzzle box in Arkngthand",
+                condition = { name = "Journal", stage = 7 },
+                pointer = { name = "InteriorCluster", cellId = "Arkngthand, Cells of Hollow Hand" },
+                completesQuest = false
+            },
+            {
+                text = "Bring the Dwemer puzzle box to Hasphat Antabolis",
+                condition = { name = "Journal", stage = 15 },
+                pointer = { name = "NPC", id = "hasphat antabolis" },
+                completesQuest = false
+            },
+            {
+                text = "Bring Hasphat's notes to Caius Cosades",
+                condition = { name = "Journal", stage = 20, },
+                pointer = { name = "NPC", id = "caius cosades" },
+                completesQuest = true
+            },
+        }
     },
     {
         name = "Gra-Muzgob Informant",
         id = "A1_4_MuzgobInformant",
         objectives = {
             {
-                text = "The Spymaster told me to get Sharn gra-Muzgob at the Balmora Mages Guild to tell me about the Nerevarine, and then report back to him. I'll have to do a little \"errand\" for her first, he says. I'm beginning to see a pattern here. Rather than pay informants with hard cash, Caius Cosades trades favors for information. And as the new recruit in the organization, I provide the favors. Ah, well. A lesson in humility.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Sharn gra-Muzgob will provide the information on the Nerevarine that the Spymaster wants after I've done a little errand for her. She wants me to retrieve the skull of Llevule Andrano from Andrano Ancestral Tomb. She mentioned Dunmer prejudices against necromancy, and warned me not to upset the natives.",
+                text = "Speak with Sharn gra-Muzgob at the Balmora Mages Guild",
                 condition = { name = "Journal", stage = 10 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "sharn gra-muzgob" },
                 completesQuest = false,
             },
+            -- TODO: point to the tomb
             {
-                text = "Sharn gra-Muzgob says that Andrano Ancestral Tomb is south of Pelagiad, just off the road, just before the fork where the road goes southwest towards Seyda Neen and southeast to Vivec. She gave me an enchanted blade and some scrolls, because she says some spirits are immune to normal weapons.",
-                condition = { name = "Journal", stage = 12 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I delivered the skull Sharn gra-Muzgob asked for, and she's agreed to tell me about the Nerevarine as the Spymaster requested.",
-                condition = { name = "Journal", stage = 15 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Sharn gra-Muzgob told me about the Nerevarine cult, and gave me some notes to give the Spymaster. Now I should return and report, and give him these notes.",
+                text = "Find the skull of Llevule Andrano and bring it to Sharn gra-Muzgob",
                 condition = { name = "Journal", stage = 20 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "sharn gra-muzgob" },
                 completesQuest = false,
             },
             {
-                text = "The Spymaster seemed happy with the notes I gave him on the Nerevarine from Sharn gra-Muzgob. Caius says he'd like to see me at a higher level of conditioning before he sends me out again. So I should take some time to polish my skills and enhance my cover story with a little freelance adventuring. Then, when I'm ready, I'll return, and Caius will have new orders for me. [When you reach Level 3 or higher, return to Caius for more orders.]",
+                text = "Bring the notes back to Caius",
                 condition = { name = "Journal", stage = 25 },
-                pointer = nil,
-                completesQuest = true,
-            },
-            {
-                text = "The Spymaster seemed happy with the notes I gave him on the Nerevarine from Sharn gra-Muzgob. He said he'd like some time to think how the information fits in with the Emperor's plans for me. So if I want, I have some time to do a little freelance adventuring. But whenever I'm ready, Caius says he'll have new orders for me.",
-                condition = { name = "Journal", stage = 30 },
-                pointer = nil,
-                completesQuest = true,
-            },
-            {
-                text = "The Spymaster promoted me to Apprentice Rank in the Blades. He seems pleased with me, because he also gave me a little present.",
-                condition = { name = "Journal", stage = 55 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "caius cosades" },
                 completesQuest = true,
             },
         },
@@ -174,57 +91,28 @@ local questLine: {T.Quest} = {
         id = "A1_6_AddhiranirrInformant",
         objectives = {
             {
-                text = "I'm told that Addhiranirr is hiding because a Census and Excise agent is in the area. She's probably down in the underworks.",
+                text = "Ask around in Vivec about Addhiranirr",
                 condition = { name = "Journal", stage = 5 },
                 pointer = nil,
                 completesQuest = false,
             },
             {
-                text = "Addhiranirr will be hiding in the underworks while the Census and Excise agent is in the area.",
-                condition = { name = "Journal", stage = 10 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Addhiranirr was too concerned about the Census and Excise agent to answer questions for the Spymaster. Maybe I can do something to get rid of him.",
+                text = "Locate Addhiranirr in the St. Olms Underworks",
                 condition = { name = "Journal", stage = 12 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "addhiranirr" },
                 completesQuest = false,
             },
             {
-                text = "When I told the Census and Excise agent that Addhiranirr took a gondola to the mainland, he said he was heading back to the mainland anyway, and would look for her there. Maybe Addhiranirr will be grateful that I've gotten rid of him for her.",
+                text = "Get rid of the Census and Excise agent",
                 condition = { name = "Journal", stage = 15 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "duvianus platorius" },
                 completesQuest = false,
             },
+            -- TODO there's a 53 - 56 - 60 line if we rat Addhiranirr out
             {
-                text = "Addhiranirr was pleased that I'd taken care of the Census and Excise agent she'd been worrying about, and now she's ready to answer my questions on the Nerevarine cult and the Sixth House cult.",
-                condition = { name = "Journal", stage = 30 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Addhiranirr says that some smugglers are now working for the Sixth House, but Addhiranirr couldn't find out what they are smuggling. Addhiranirr thought it was strange that smugglers who usually brag about their smuggling are suddenly being very quiet about what they smuggle for the Sixth House. I wonder what is being smuggled, and why it is such a big secret. I think this is the sort of thing Caius Cosades is looking for.",
+                text = "Return to Addhiranirr",
                 condition = { name = "Journal", stage = 45 },
-                pointer = nil,
-                completesQuest = true,
-            },
-            {
-                text = "When I told the Census and Excise agent to look for Addhiranirr in the underworks, he was pleased. He didn't seem in a hurry to do anything, though. I wonder how Addhiranirr will feel about what I've done.",
-                condition = { name = "Journal", stage = 53 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Addhiranirr was angry that I'd told the Census and Excise agent where to find her. Now it's going to be very hard to persuade her to answer my questions on the Nerevarine cult and the Sixth House cult.",
-                condition = { name = "Journal", stage = 56 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I finally managed to persuade Addhiranirr to answer my questions on the Nerevarine cult and the Sixth House cult.",
-                condition = { name = "Journal", stage = 60 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "addhiranirr" },
                 completesQuest = true,
             },
         },
@@ -234,39 +122,33 @@ local questLine: {T.Quest} = {
         id = "A1_7HuleeyaInformant",
         objectives = {
             {
-                text = "I found Huleeya, but we can't talk at the Black Shalk Cornerclub because some troublesome fools are bothering him. He says he'll answer my questions if I'll travel together with him to Jobasha's Rare Books.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Racist thugs are bothering Huleeya. He wants to avoid trouble. Perhaps I can persuade them with words or coin to leave Huleeya alone. Otherwise, Huleeya thinks that there must be bloodshed.",
+                text = "Find Huleeya at the Black Shalk Cornerclub",
                 condition = { name = "Journal", stage = 2 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "huleeya" },
                 completesQuest = false,
             },
             {
-                text = "I spoke with the troublesome fools bothering Huleeya, and they agreed to leave him alone.",
+                text = "Deal with the Dunmer bothering Huleeya",
                 condition = { name = "Journal", stage = 15 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "ethys savil" },
                 completesQuest = false,
             },
             {
-                text = "Huleeya will follow me to Jobasha's Rare Books. There he will answer my questions.",
+                text = "Speak with Huleeya",
                 condition = { name = "Journal", stage = 18 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "huleeya" },
                 completesQuest = false,
             },
             {
-                text = "Huleeya has followed me to Jobasha's Rare Books. He says he'll answer my questions here where we can talk in peace.",
+                text = "Take Huleeya to Jobasha's rare books",
                 condition = { name = "Journal", stage = 20 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "jobasha" },
                 completesQuest = false,
             },
             {
-                text = "Huleeya hadn't heard of a Sixth House cult, but he knew a lot about the Nerevarine cult. He gave me notes to give to Caius. The main thing I gathered is that the Temple's conflict with the Nerevarine cult is tied up with ancient grievances between the Ashlanders and the Great Houses.",
+                text = "Ask Huleeya about the Sixth House and the Nerevarine cult",
                 condition = { name = "Journal", stage = 50 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "huleeya" },
                 completesQuest = true,
             },
         },
@@ -276,21 +158,9 @@ local questLine: {T.Quest} = {
         id = "A1_V_VivecInformants",
         objectives = {
             {
-                text = "Caius sent me to Vivec with three tasks: speak with Addhiranirr, a Khajiit Thieves Guild operative in St. Olms; speak with Huleeya, an Argonian in the Foreign Quarter, at the Black Shalk Cornerclub; and speak with Mehra Milo, a Temple priestess at the Hall of Wisdom in the Temple Compound. When I have information about the Nerevarine cult and the Sixth House cult from these three, I report back to Caius. Caius gave me instructions in writing.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "The Spymaster took my report, and the notes from Huleeya and the 'Progress of Truth.' He needs time to read and digest my report, but in the meantime, he gave me 200 gold to spend and told me to go out and get some guild or freelance jobs, or get some training. When I'm ready, he says to come back, and he'll have new orders for me.",
+                text = "Return back to Caius when you've spoken with all informants",
                 condition = { name = "Journal", stage = 50 },
-                pointer = nil,
-                completesQuest = true,
-            },
-            {
-                text = "The Spymaster promoted me to Journeyman Rank in the Blades. He seems pleased with me, because he also gave me a little present.",
-                condition = { name = "Journal", stage = 55 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "caius cosades" },
                 completesQuest = true,
             },
         },
@@ -300,46 +170,17 @@ local questLine: {T.Quest} = {
         id = "A1_10_MehraMilo",
         objectives = {
             {
-                text = "I found Mehra Milo at the Hall of Wisdom, but she says she cannot talk with me. She must feel she is being watched. She says to meet with me in the back of the library.",
+                text = "Speak with Mehra Milo",
                 condition = { name = "Journal", stage = 10 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "mehra milo" },
                 completesQuest = false,
             },
+            -- TODO add objective to get the book (actually required)
             {
-                text = "I found Mehra Milo in the back of the library. She says she knows nothing about the Sixth House, but she is willing to answer my questions about the Nerevarine cult.",
-                condition = { name = "Journal", stage = 20 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Mehra Milo says copies of 'Progress of Truth' can be found in the secret libraries of the Hall of Wisdom, but that they are guarded. She says it will be safer to search booksellers for a copy. She says some booksellers will sell outlawed books.",
-                condition = { name = "Journal", stage = 30 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Mehra Milo says to tell Caius Cosades that she is worried that she is being watched by Ordinators, and that if something goes wrong, she will leave a message under the agreed code word \"amaya\".",
-                condition = { name = "Journal", stage = 40 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Mehra Milo says the Temple persecutes the Nerevarine cult because they claim the Tribunal are false gods. A group called the Dissident priests disputes Temple doctrine on the Nerevarine prophecies. A book \"Progress of Truth\" describes the beliefs of the Dissident priests. Mehra Milo says I must get a copy of 'Progress of Truth' to give to the Spymaster.",
+                text = "Speak with Mehra again when you're not being watched",
                 condition = { name = "Journal", stage = 50 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "mehra milo" },
                 completesQuest = true,
-            },
-        },
-    },
-    {
-        name = "Zainsubani Informant",
-        id = "A1_11_ZainsubaniGift",
-        objectives = {
-            {
-                text = "Boderi Farano, the publican of the Ald Skar Inn, says that Hassour Zainsubani has many books in his room, and perhaps that would be a suitable gift.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
             },
         },
     },
@@ -348,88 +189,34 @@ local questLine: {T.Quest} = {
         id = "A1_11_ZainsubaniInformant",
         objectives = {
             {
-                text = "The Spymaster has sent me to see a fellow named Hassour Zainsubani, an Ashlander who left the Wastes to become a wealthy trader in Ald'ruhn. He gave me 100 gold and told me to find out what Zainsubani likes, and get him a gift. Then I'm to give him the gift, and ask him to tell me about the Ashlanders and the Nerevarine cult. When I have the information, I'm to report back to the Spymaster.",
+                text = "Speak with Caius",
                 condition = { name = "Journal", stage = 1 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "caius cosades" },
                 completesQuest = false,
             },
             {
-                text = "Boderi Farano, the publican of the Ald Skar Inn, says that Hassour Zainsubani has many books in his room, and perhaps that would be a suitable gift.",
+                text = "Ask around about Hassour Zainsubani at the Ald Skar Inn",
                 condition = { name = "Journal", stage = 10 },
-                pointer = nil,
+                pointer = { name = "InteriorCluster", cellId = "Ald-ruhn, Ald Skar Inn" },
                 completesQuest = false,
             },
             {
-                text = "Hassour Zainsubani says that among the Ashlanders a thoughtful gift shows respect and knowledge of the one who is to receive the gift. Fortunately... or perhaps by courtesy or design... Hassour Zainsubani has mentioned that he loves poetry. Then a book of poetry would be a perfect gift for him. Perhaps a bookseller, merchant, or pawnshop nearby may have such a thing.",
+                text = "Speak with Hassour Zainsubani",
                 condition = { name = "Journal", stage = 20 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "hassour zainsubani" },
                 completesQuest = false,
             },
             {
-                text = "As a gift, I gave Hassour Zainsubani a copy of \"Ashland Hymns.\" He seemed surprised and pleased. He thanked me and offered in return to answer my questions about the Ashlanders and the Nerevarine cult.",
+                text = "Bring a book to Hassour Zainsubani as a gift",
                 condition = { name = "Journal", stage = 31 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "hassour zainsubani" },
                 completesQuest = false,
             },
             {
-                text = "As a gift, I gave Hassour Zainsubani a copy of \"Words of the Wind.\" He seemed surprised and pleased. He thanked me and offered in return to answer my questions about the Ashlanders and the Nerevarine cult.",
-                condition = { name = "Journal", stage = 32 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "As a gift, I gave Hassour Zainsubani a copy of \"The Five Far Stars.\" He seemed surprised and pleased. He thanked me and offered in return to answer my questions about the Ashlanders and the Nerevarine cult.",
-                condition = { name = "Journal", stage = 33 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Hassour Zainsubani said he would take my earnest thought and effort as a token in place of a gift. Because I behaved courteously, he is willing to help me, and tell me what wish to know about the Ashlanders and the Nerevarine cult.",
-                condition = { name = "Journal", stage = 34 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Hassour Zainsubani says that he is too old now to travel, but that his son, Hannat Zainsubani, seeks out sources of fine ebony. The son has proposed to chart the rarely visited ancient underground complex at Mamaea, west of Red Mountain, and if I should meet him in my travels, Hassour Zainsubani asks me to tell his son that his father longs for news of his son-and-heir.",
-                condition = { name = "Journal", stage = 35 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Hassour Zainsubani gave me some notes where he has written what he thinks I need to know about the Ashlanders and the Nerevarine cult. These notes will satisfy the Spymaster. But Hassour Zainsubani invited me to ask any questions I wish, and perhaps I can learn some other useful information from speaking with him.",
+                text = "Speak with Hassour Zainsubani about the Ashlanders and the Nerevarine Cult",
                 condition = { name = "Journal", stage = 50 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "hassour zainsubani" },
                 completesQuest = true,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Dreams",
-        objectives = {
-            {
-                text = "I had a disturbing dream. I can only recall one part. A tall figure with a golden mask led me among the dead as through a wedding celebration. I heard many voices, but no lips moved. I strained to breathe, but my chest didn't move. The tall figure spoke with each figure as he passed among them, laughing and joking, as if they were alive, but they made no reply. I tried to cry out, but without breath, my tongue fluttered in vain.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "In my dream, a tall figure with a golden mask greeted me, saying, \"There are many rooms in the house of the Master. Be easy, for from the hands of your enemies I have delivered you.\" It seemed I had died and could see myself laid upon a table lit by candles. But with my own hands I touched the figure, and the figure drew breath, opened eyes, and rose from the table. Then the room was gone, and the world filled with light, and I awoke.",
-                condition = { name = "Journal", stage = 5 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I dreamed that a tall figure with a golden mask spoke to me, but I understood not a word. He smiled, and seemed pleasant, but when he reached to touch me, it terrified me, and I tried to escape, but I couldn't move. I tried to cry out, but I couldn't make a sound. The figure kept smiling and talking, but I felt sure he was trying to cast some sort of spell on me. When I woke, I couldn't recall how the dream ended.",
-                condition = { name = "Journal", stage = 10 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "In my dreams, a tall figure in a golden mask spoke to me. \"Lord Nerevar Indoril, Hai Resdaynia! Long forgotten, forged anew! Three belied you, three betrayed you! One you betrayed was three times true! Lord Voryn Dagoth, Dagoth Ur, steadfast liegeman, faithful friend, bids you come and climb Red Mountain! Beneath Red Mountain, once again, break your bonds, shed cursed skin, and purge the n'wah from Morrowind!\"",
-                condition = { name = "Journal", stage = 15 },
-                pointer = nil,
-                completesQuest = false,
             },
         },
     },
@@ -437,16 +224,11 @@ local questLine: {T.Quest} = {
         name = "Strange Man at Gindrala Hleran's House",
         id = "A1_SleeperDreamer02",
         objectives = {
+            -- TODO add objective to kill the Dreamer
             {
-                text = "Gindrala Hleran says there's a strange man in her house, and he won't leave. She asked me to get him out of there, because he is scaring her.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I told Gindrala Hleran that I had to kill the strange man who had invaded her house. She was grateful, and promised to tell everyone how kind and brave I'd been.",
+                text = "Kill the strange man at Gindrala Hleran's house",
                 condition = { name = "Journal", stage = 50 },
-                pointer = nil,
+                pointer = { name = "InteriorCluster", cellId = "Ald-ruhn, Gindrala Hleran's House" },
                 completesQuest = true,
             },
         },
@@ -456,31 +238,14 @@ local questLine: {T.Quest} = {
         id = "A1_SleepersAwake",
         objectives = {
             {
-                text = "I spoke with one who called himself a \"Sleeper.\" He called me by name, and said, \"You cannot deny your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.\" He made no sense at all. I think he must have been mad.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Sixth House cultists attacked me as I slept in my bed.",
-                condition = { name = "Journal", stage = 3 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I told the Spymaster how Sixth House cultists attacked me as I slept in bed. The Spymaster said it may not be safe to sleep in town. Perhaps I should search for a nearby base, and attack them before they attack me.",
+                text = "Report the Sleeper attack to Caius",
                 condition = { name = "Journal", stage = 5 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "caius cosades" },
                 completesQuest = false,
             },
+            -- TODO should this even be an objective
             {
-                text = "I was attacked by someone called a \"Sleeper,\" for no apparent reason.",
-                condition = { name = "Journal", stage = 7 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "With Dagoth Ur destroyed, his insane dreams can no longer drive the people of Morrowind to madness as they sleep.",
+                text = "Deal with Sleeper bases or with Dagoth Ur altogether",
                 condition = { name = "Journal", stage = 50 },
                 pointer = nil,
                 completesQuest = true,
@@ -488,312 +253,55 @@ local questLine: {T.Quest} = {
         },
     },
     {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Alvura",
-        objectives = {
-            {
-                text = "I spoke with Alvura Othrenim who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Assi",
-        objectives = {
-            {
-                text = "I spoke with Assi Serimilk who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Daynasa",
-        objectives = {
-            {
-                text = "I spoke with Daynasa Telandas who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Dralas",
-        objectives = {
-            {
-                text = "I spoke with Dralas Gilu who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Drarayne",
-        objectives = {
-            {
-                text = "I spoke with Drarayne Girith who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Dravasa",
-        objectives = {
-            {
-                text = "I spoke with Dravasa Andrethi who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Endris",
-        objectives = {
-            {
-                text = "I spoke with Endris Dilmyn who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Eralane",
-        objectives = {
-            {
-                text = "I spoke with Eralane Hledas who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Llandras",
-        objectives = {
-            {
-                text = "I spoke with Llandras Belaal who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Neldris",
-        objectives = {
-            {
-                text = "I spoke with Neldris Llervu who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Nelmil",
-        objectives = {
-            {
-                text = "I spoke with Nelmil Hler who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Rararyn",
-        objectives = {
-            {
-                text = "I spoke with Rararyn Radarys who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Relur",
-        objectives = {
-            {
-                text = "I spoke with Relur Faryon who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Vireveri",
-        objectives = {
-            {
-                text = "I spoke with Vireveri Darethran who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Sleepers Awake",
-        id = "A1_Sleepers_Vivyne",
-        objectives = {
-            {
-                text = "I spoke with Vivyne Andrano who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
         name = "Meet Sul-Matuul",
         id = "A2_1_MeetSulMatuul",
         objectives = {
+            -- TODO the Zainsubani quest doesn't end with returning to Caius
             {
-                text = "Caius promoted me to Apprentice rank in the Blades, and gave me the Emperor's secret orders and told me to read them. The Emperor thinks the Nerevarine prophecies are genuine, and that I may be the Nerevarine. I'm being sent to the Urshilaku Camp to speak with the heads of the Nerevarine cult, Sul-Matuul and Nibani Maesa. I'll tell them my story, and tell them to test me against the Nerevarine prophecies, then report back to Caius.",
+                text = "Speak with Caius",
                 condition = { name = "Journal", stage = 1 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "caius cosades" },
                 completesQuest = false,
             },
+            -- TODO: stages for Urshilaku ashlander killings?
+            -- TODO: ashlander yurt doors are offset by a lot
+
+            -- TODO: any person in the camp?
             {
-                text = "Nuleno Tedas gave me directions to Urshilaku camp. The camp is due north from Maar Gan, but high ridges lie in the way. Follow Foyada Bani-Dad, a deep ravine just north of Maar Gan, northwest to the sea. A shipwreck at the seamouth of the ravine is a landmark. Swim east around the headland. Pass east through the ruins of Assurnabitashpi Shrine. Urshilaku Camp lies east of the ruins, inland in a low hollow.",
-                condition = { name = "Journal", stage = 5 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I have slain an Urshilaku Ashlander. This will make my mission to speak with Sul-Matuul and Nibani Maesa more difficult.",
-                condition = { name = "Journal", stage = 11 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I have slain an Urshilaku Ashlander. This will make my mission to speak with Sul-Matuul and Nibani Maesa more difficult.",
-                condition = { name = "Journal", stage = 13 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I have been told to go speak with Zabamund, a gulakhan, Sul-Matuul's champion, in his Zabamund's yurt. If Zabamund gives me permission, then I may enter the ashkhan's yurt and speak with Sul-Matuul.",
+                text = "Travel to Urshilaku camp and seek an audience with Sul-Matuul",
                 condition = { name = "Journal", stage = 20 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "tussurradad" },
                 completesQuest = false,
             },
             {
-                text = "I have persuaded Zabamund that I must speak to Sul-Matuul. Now I must go to the ashkhan's yurt and tell Sul-Matuul that Zabamund has sent me.",
+                text = "Persuade Zabamund to allow you to speak to Sul-Matuul",
                 condition = { name = "Journal", stage = 35 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "zabamund" },
                 completesQuest = false,
             },
             {
-                text = "Sul-Matuul has sent me to the Urshilaku Burial Caverns to fetch Sul-Senipul's Bonebiter Bow. Sul-Senipul was Sul-Matuul's father, and his spirit guards this bonemold long bow deep in the burial caverns. If I return to Sul-Matuul with this bow, he will adopt me into the Urshilaku tribe as a Clanfriend. And then Sul-Matuul will send me to the wise woman, Nibani Maesa, to be tested against the Nerevarine prophecies.",
+                text = "Speak with Sul-Matuul",
                 condition = { name = "Journal", stage = 40 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "sul-matuul" },
                 completesQuest = false,
             },
+            -- TODO: bring it back to Sul-Matuul
             {
-                text = "I must go to Urshilaku Burial Caverns to retrieve Bonebiter, the bonemold long bow of Sul-Matuul's ancestor, Sul-Senipul. Sul-Matuul says that the Urshilaku Burial Caverns lie to the south-southeast of Urshilaku camp, halfway between the camp and the slopes of Red Mountain. He warns me that Ashlander ancestral spirits guard these burial chambers.",
-                condition = { name = "Journal", stage = 42 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I completed the initiation rite by bringing Sul-Senipul's Bonebiter Bow to Sul-Matuul. He has named me a Clanfriend of the Ashlanders He has also given me permission to go to the wise woman's yurt and speak with Nibani Maesa, who will examine me and test me against the Nerevarine prophecies.",
+                text = "Find Sul-Senipul's Bonebiter Bow in the Urshilaku Burial Caverns",
                 condition = { name = "Journal", stage = 45 },
-                pointer = nil,
+                pointer = { name = "InteriorCluster", cellId = "Urshilaku, Juno Burial" },
                 completesQuest = false,
             },
             {
-                text = "Nibani Maesa agrees that my aspect -- my birthsign -- and my uncertain parentage fit with the Nerevarine prophecies. But that is not sufficient proof that I am the Nerevarine.",
-                condition = { name = "Journal", stage = 51 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Nibani Maesa believes that the Nerevarine should bear the mark of the moon-and-star -- the mark of Indoril Nerevar's family standard.",
-                condition = { name = "Journal", stage = 52 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Nibani Maesa believes there is some connection between the recent attacks by mad cultists called 'sleepers' and the Nerevarine prophecies.",
-                condition = { name = "Journal", stage = 53 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Nibani Maesa recited the version of the Nerevarine prophecies she knows as 'the Stranger'.",
-                condition = { name = "Journal", stage = 54 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Nibani Maesa recited a version of the Nerevarine prophecies she calls 'Seven Visions of Seven Trials of the Incarnate'.",
-                condition = { name = "Journal", stage = 55 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "The wise women know that some Nerevarine prophecies have been lost. But the Dissident Priests of the Temple study the Ashlander Nerevarine prophecies, and record them in books. Perhaps the lost prophecies can be found there. Nibani Maesa has asked me to go to the Dissident Priests, get them to show me the books, and to tell her what I find there. This sounds like something to mention to Caius. Maybe he'll know how to contact the Dissident Priests.",
-                condition = { name = "Journal", stage = 56 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "Nibani Maesa says I am not the Nerevarine, but I may become the Nerevarine. It seems she is willing to help me unravel the Nerevarine prophecies and my part in them. She tells me to seek the lost prophecies among the Dissident priests of the Temple. If I bring these lost prophecies to her, she will be my guide. And she gave me copies of the Nerevarine prophecies called 'The Stranger' and 'The Seven Visions'. Now it's time to report back to Caius.",
+                text = "Speak with Nibani Maesa about the Nerevarine Prophecies",
                 condition = { name = "Journal", stage = 60 },
-                pointer = nil,
+                pointer = { name = "NPC", id = "nibani maesa" },
                 completesQuest = true,
             },
         },
     },
     {
-        name = "Meet Sul-Matuul",
-        id = "A2_1_Supplies",
-        objectives = {
-            {
-                text = "Somutis Vunnis gave me a selection of potions.",
-                condition = { name = "Journal", stage = 5 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Meet Sul-Matuul",
-        id = "A2_1_Supplies2",
-        objectives = {
-            {
-                text = "Crulius Pontanian gave me a selection of scrolls.",
-                condition = { name = "Journal", stage = 5 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
+        -- TODO
         name = "Kurapli Seeks Justice",
         id = "A2_1_Kurapli_Zallay",
         objectives = {

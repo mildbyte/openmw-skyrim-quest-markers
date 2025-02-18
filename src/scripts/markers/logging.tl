@@ -16,7 +16,7 @@ local LEVELS: {LogLevel: integer} = {
     ERROR = 1,
 }
 
-global LOG_LEVEL: LogLevel = "DEBUG"
+global LOG_LEVEL: LogLevel = "INFO"
 
 local function log(level: LogLevel, message: string, payload: {string:any})
     if LEVELS[level] > LEVELS[LOG_LEVEL] then return end
