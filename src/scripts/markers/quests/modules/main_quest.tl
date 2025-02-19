@@ -397,6 +397,7 @@ local questLine: {T.Quest} = {
                 pointer = { name = "NPC", id = "divayth fyr" },
                 completesQuest = false,
             },
+            -- same with him being a creature, not an NPC
             {
                 text = "Get the Dwemer boots from Yagrum Bagarn",
                 condition = { name = "Journal", stage = 40 },
@@ -435,6 +436,8 @@ local questLine: {T.Quest} = {
                 completesQuest = false,
             },
             -- TODO: speak with Blatta Hatteria
+            -- TODO: also, she's always active even when the quest isn't running
+            -- so we need to delete her from the graph
             {
                 text = "Go to Holamayan",
                 condition = { name = "Journal", stage = 22 },
@@ -486,14 +489,14 @@ local questLine: {T.Quest} = {
             },
             {
                 text = "Speak with Ashlanders to decode the riddle",
-                condition = { name = "Journal", stage = 29 },
+                condition = { name = "Journal", stage = 28 },
                 pointer = nil,
                 completesQuest = false,
             },
             {
                 text = "Go to the Cavern of the Incarnate",
                 condition = { name = "Journal", stage = 50 },
-                pointer = { name = "InteriorCluster", id = "Cavern of the Incarnate" },
+                pointer = { name = "InteriorCluster", cellId = "Cavern of the Incarnate" },
                 completesQuest = true,
             },
         },
@@ -567,6 +570,7 @@ local questLine: {T.Quest} = {
                 pointer = nil,
                 completesQuest = false,
             },
+            -- TODO couldn't trigger this
             {
                 text = "Give Ashkhan Kaushad a pair of exquisite shoes",
                 condition = { name = "Journal", stage = 4 },
@@ -579,6 +583,7 @@ local questLine: {T.Quest} = {
                 pointer = { name = "NPC", id = "Ashkhan Kaushad" },
                 completesQuest = false,
             },
+            -- TODO pointer still points at him when dead
             {
                 text = "Kill Calvario in Nerano Ancestral Tomb and return back to Ashkhan Kaushad",
                 condition = { name = "Journal", stage = 20 },
@@ -598,15 +603,14 @@ local questLine: {T.Quest} = {
                 completesQuest = false,
             },
             {
-                text = "Bring Telvanni Bug Musk to Savile Imayn",
-                condition = { name = "Journal", stage = 40 },
+                text = "Find an exquisite shirt, skirt and shoes for Savile Imayn",
+                condition = { name = "Journal", stage = 35 },
                 pointer = { name = "NPC", id = "savile imayn"},
                 completesQuest = false,
             },
-            
             {
-                text = "Find an exquisite shirt, skirt and shoes for Savile Imayn",
-                condition = { name = "Journal", stage = 35 },
+                text = "Bring Telvanni Bug Musk to Savile Imayn",
+                condition = { name = "Journal", stage = 40 },
                 pointer = { name = "NPC", id = "savile imayn"},
                 completesQuest = false,
             },
