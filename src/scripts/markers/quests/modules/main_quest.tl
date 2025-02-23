@@ -636,24 +636,6 @@ local questLine: {T.Quest} = {
     },
     {
         name = "Erabenimsun Nerevarine",
-        id = "B4_HeartFire",
-        objectives = {
-            {
-                text = "I gave Han-Ammu the Sanit-Kil's Heart of Fire and made a little speech about courage and symbols and responsibility. I believe he has taken the lesson to heart, and will consider accepting his responsibilities as ashkhan, and consider naming me Nerevarine. But he said he didn't need the amulet, and he let me keep it.",
-                condition = { name = "Journal", stage = 5 },
-                pointer = nil,
-                completesQuest = false,
-            },
-            {
-                text = "I have given Han-Ammu the Sanit-Kil's Heart of Fire and made a little speech about courage and symbols and responsibility. I believe he has taken the lesson to heart, and will consider accepting his responsibilities as ashkhan, and consider naming me Nerevarine.",
-                condition = { name = "Journal", stage = 1 },
-                pointer = nil,
-                completesQuest = false,
-            },
-        },
-    },
-    {
-        name = "Erabenimsun Nerevarine",
         id = "B4_KillWarLovers",
         objectives = {
             {
@@ -668,6 +650,7 @@ local questLine: {T.Quest} = {
                 pointer = { name = "NPC", id = "manirai" },
                 completesQuest = false,
             },
+            -- TODO pointers at all of them, and objectives?
             {
                 text = "Kill Ashkhan Ulath-Pal and his supporters, then return to Manirai",
                 condition = { name = "Journal", stage = 10 },
@@ -677,13 +660,13 @@ local questLine: {T.Quest} = {
             {
                 text = "Convince Han-Ammu to become Ashkhan",
                 condition = { name = "Journal", stage = 35 },
-                pointer = { name = "NPC", id = "Han-Ammu" },
+                pointer = { name = "NPC", id = "han-ammu" },
                 completesQuest = false,
             },
             {
                 text = "Ask Han-Ammu to name you Erabenimsun Nerevarine",
                 condition = { name = "Journal", stage = 50 },
-                pointer = { name = "NPC", id = "Han-Ammu" },
+                pointer = { name = "NPC", id = "han-ammu" },
                 completesQuest = false,
             },
             {
