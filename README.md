@@ -2,7 +2,7 @@
 
 This mod adds Skyrim-style quest markers, objectives and notifications to OpenMW.
 
-<a href = "docs/screenshot_1.jpg"><img src="docs/screenshot_1.jpg" width=200></a>  <a href = "docs/screenshot_2.jpg"><img src="docs/screenshot_2.jpg" width=200></a>  <a href = "docs/screenshot_3.jpg"><img src="docs/screenshot_3.jpg" width=200></a> 
+<a href = "docs/screenshot_1.jpg"><img src="docs/screenshot_1.jpg" width=250></a>  <a href = "docs/screenshot_2.jpg"><img src="docs/screenshot_2.jpg" width=250></a>  <a href = "docs/screenshot_3.jpg"><img src="docs/screenshot_3.jpg" width=250></a> 
 
 [see a video of it in action on Twitter](https://x.com/mildbyte/status/1887997189298725334)
 
